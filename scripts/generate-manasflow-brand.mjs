@@ -1,0 +1,20 @@
+import fs from 'node:fs/promises';
+import sharp from 'sharp';
+
+const dir = 'public/sites/manasflow';
+const supplied = await fs.readFile(`${dir}/logo_no_nodes.svg`, 'utf8');
+const logoPath = supplied.match(/<path[\s\S]*?\sd="([^"]+)"/)?.[1];
+if (!logoPath) throw new Error('The supplied ManasFlow logo has no path');
+const mark = `<path d="${logoPath}" fill="none" stroke="#f0edee" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>`;
+const icon = `<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 220 220"><rect width="220" height="220" rx="48" fill="#0f0f15"/><g transform="translate(0 20)">${mark}</g></svg>`;
+await fs.writeFile(`${dir}/favicon.svg`, icon);
+await sharp(Buffer.from(icon)).png().toFile(`${dir}/icon-512.png`);
+await sharp(Buffer.from(icon)).resize(180,180).png().toFile(`${dir}/apple-touch-icon.png`);
+const png32 = await sharp(Buffer.from(icon)).resize(32,32).png().toBuffer();
+const header = Buffer.alloc(22); header.writeUInt16LE(1,2); header.writeUInt16LE(1,4); header[6]=32; header[7]=32; header.writeUInt16LE(1,10); header.writeUInt16LE(32,12); header.writeUInt32LE(png32.length,14); header.writeUInt32LE(22,18);
+await fs.writeFile('public/favicon.ico', Buffer.concat([header,png32]));
+const card = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"><defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#8082c1" stroke-opacity=".12" fill="none"/></pattern><radialGradient id="glow"><stop stop-color="#8082c1" stop-opacity=".2"/><stop offset="1" stop-color="#0f0f15" stop-opacity="0"/></radialGradient></defs><rect width="1200" height="630" fill="#0f0f15"/><rect width="1200" height="630" fill="url(#grid)"/><ellipse cx="900" cy="300" rx="500" ry="380" fill="url(#glow)"/><g transform="translate(64 -2) scale(.6)">${mark}</g><text x="202" y="65" fill="#f0edee" font-size="34" font-family="Arial,sans-serif" font-weight="700">ManasFlow</text><text x="72" y="260" fill="#f0edee" font-family="Arial,sans-serif" font-size="66" font-weight="700" letter-spacing="-3">Scale Your Business</text><text x="72" y="389" fill="#8082c1" font-family="Arial,sans-serif" font-size="128" font-weight="700" letter-spacing="-7">10X</text><text x="72" y="453" fill="#a89db0" font-family="Arial,sans-serif" font-size="32">without hiring more staff</text><path d="M72 478 Q210 465 370 478 T630 477" stroke="#8082c1" stroke-width="3" fill="none"/><text x="72" y="565" fill="#a89db0" font-family="Arial,sans-serif" font-size="21">AI AGENTS · WORKFLOW AUTOMATION · ENGINEERING</text><text x="1128" y="565" text-anchor="end" fill="#8082c1" font-family="Arial,sans-serif" font-size="21">manasflow.com</text></svg>`;
+await fs.writeFile(`${dir}/social-card.svg`, card);
+await sharp(Buffer.from(card)).png().toFile(`${dir}/social-card.png`);
+await fs.writeFile('public/site.webmanifest', JSON.stringify({ name:'ManasFlow', short_name:'ManasFlow', start_url:'/', display:'standalone', background_color:'#0f0f15', theme_color:'#0f0f15', icons:[{src:'/sites/manasflow/icon-512.png',sizes:'512x512',type:'image/png',purpose:'any'}]},null,2)+'\n');
+console.log('Generated ManasFlow favicon, app icons, social card, and manifest from the supplied logo.');

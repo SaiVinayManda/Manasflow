@@ -1,0 +1,305 @@
+{
+  "errors": [],
+  "sizes": [
+    {
+      "width": 360,
+      "scrollWidth": 360
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920
+    }
+  ],
+  "images": [
+    {
+      "file": "1.gif",
+      "width": 250,
+      "height": 250
+    },
+    {
+      "file": "100x100-79.jpg",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "file": "100x100-80.jpg",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "file": "100x100.jpg",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "file": "12-1024x576.png",
+      "width": 1024,
+      "height": 576
+    },
+    {
+      "file": "15-1024x576.png",
+      "width": 1024,
+      "height": 576
+    },
+    {
+      "file": "1516507715381-2.jpeg",
+      "width": 291,
+      "height": 290
+    },
+    {
+      "file": "17-1024x576.png",
+      "width": 1024,
+      "height": 576
+    },
+    {
+      "file": "18-1024x576.png",
+      "width": 1024,
+      "height": 576
+    },
+    {
+      "file": "2.gif",
+      "width": 250,
+      "height": 250
+    },
+    {
+      "file": "21-1024x576.png",
+      "width": 1024,
+      "height": 576
+    },
+    {
+      "file": "28-1024x576.png",
+      "width": 1024,
+      "height": 576
+    },
+    {
+      "file": "3.gif",
+      "width": 250,
+      "height": 250
+    },
+    {
+      "file": "9H-logo.svg",
+      "width": 65,
+      "height": 21
+    },
+    {
+      "file": "ai-automations.svg",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "file": "Al-Balad-main-2.jpg",
+      "width": 1356,
+      "height": 800
+    },
+    {
+      "file": "blue-fw-gradient-Ce1kZF6R.png",
+      "width": 2543,
+      "height": 1160
+    },
+    {
+      "file": "brand-building.svg",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "file": "cropped-Favicon-1-180x180.png",
+      "width": 180,
+      "height": 180
+    },
+    {
+      "file": "cropped-Favicon-1-192x192.png",
+      "width": 192,
+      "height": 192
+    },
+    {
+      "file": "cropped-Favicon-1-270x270.png",
+      "width": 270,
+      "height": 270
+    },
+    {
+      "file": "cropped-Favicon-1-32x32.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "file": "Crosscraft-Main-Banner-1.png",
+      "width": 1356,
+      "height": 800
+    },
+    {
+      "file": "custom-web-apps.svg",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "file": "facebook.svg",
+      "width": 16,
+      "height": 17
+    },
+    {
+      "file": "footer-bg-XyJ6H1x5.png",
+      "width": 1440,
+      "height": 865
+    },
+    {
+      "file": "gradient-blue-auyAehDj.png",
+      "width": 2624,
+      "height": 672
+    },
+    {
+      "file": "gradient-green-DLQWrdj_.png",
+      "width": 416,
+      "height": 593
+    },
+    {
+      "file": "gradient-purple-eY59ryug.png",
+      "width": 832,
+      "height": 1186
+    },
+    {
+      "file": "gradient-red-CLvd3sr4.png",
+      "width": 416,
+      "height": 593
+    },
+    {
+      "file": "gradient-yellow-B5TN-y7N.png",
+      "width": 3192,
+      "height": 1796
+    },
+    {
+      "file": "green-fw-gradient-DwXSrXRQ.png",
+      "width": 2550,
+      "height": 1229
+    },
+    {
+      "file": "hero-placeholder-DOL305-B.png",
+      "width": 356,
+      "height": 691
+    },
+    {
+      "file": "Insinet-main.jpg",
+      "width": 1356,
+      "height": 800
+    },
+    {
+      "file": "instagram.svg",
+      "width": 16,
+      "height": 17
+    },
+    {
+      "file": "integrations.svg",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "file": "James.jpg",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "file": "Kindred-Main.jpg",
+      "width": 1356,
+      "height": 800
+    },
+    {
+      "file": "linkedin.svg",
+      "width": 16,
+      "height": 17
+    },
+    {
+      "file": "looping-mobile-BtnwhDf1.gif",
+      "width": 317,
+      "height": 355
+    },
+    {
+      "file": "MFSA-main.jpg",
+      "width": 1356,
+      "height": 800
+    },
+    {
+      "file": "MGA-main.jpg",
+      "width": 1356,
+      "height": 800
+    },
+    {
+      "file": "misk.png",
+      "width": 381,
+      "height": 393
+    },
+    {
+      "file": "Og.png",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "file": "play.svg",
+      "width": 64,
+      "height": 82
+    },
+    {
+      "file": "quote.svg",
+      "width": 88,
+      "height": 76
+    },
+    {
+      "file": "red-fw-gradient-CzjXW7fQ.png",
+      "width": 2545,
+      "height": 1161
+    },
+    {
+      "file": "Screenshot-2025-03-24-at-13.50.54.png",
+      "width": 614,
+      "height": 616
+    },
+    {
+      "file": "Screenshot-2025-11-27-at-12.34.17.png",
+      "width": 652,
+      "height": 630
+    },
+    {
+      "file": "Tim-Landscape-1.jpg",
+      "width": 1440,
+      "height": 700
+    },
+    {
+      "file": "Tim.jpg",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "file": "vitel.png",
+      "width": 601,
+      "height": 602
+    },
+    {
+      "file": "yellow-fw-gradient-OeBIeiso.png",
+      "width": 2510,
+      "height": 1194
+    }
+  ],
+  "consent": {
+    "consent": "custom",
+    "choices": {
+      "preferences": false,
+      "statistics": true,
+      "marketing": false
+    }
+  },
+  "passed": true
+}

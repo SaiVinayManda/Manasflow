@@ -1,0 +1,9 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url);const {parse}=require('next/dist/compiled/node-html-parser');
+const origin=process.env.MANASFLOW_SOURCE_ORIGIN;if(!origin)throw new Error('Set MANASFLOW_SOURCE_ORIGIN before collecting reference pages.');const routes=new Set(['/resources','/consultation','/models/compare']);
+for(const name of ['tools','models','free-models','models--pricing']){const root=parse(await fs.readFile(`temp/linked-pages/${name}.html`,'utf8'));for(const a of root.querySelectorAll('main a[href]')){const href=a.getAttribute('href');if(/^\/(?:tools|models|free-models)\//.test(href))routes.add(href.split('?')[0]);}}
+const report=[];let cursor=0;const jobs=[...routes];
+await Promise.all(Array.from({length:12},async()=>{while(cursor<jobs.length){const route=jobs[cursor++];try{const target=`temp/linked-pages/details/${encodeURIComponent(route)}.html`;let html;try{html=await fs.readFile(target,'utf8');}catch{const r=await fetch(origin+route);html=await r.text();await fs.writeFile(target,html);report.push({route,status:r.status});}const root=parse(html);for(const script of root.querySelectorAll('script[src]')){const url=new URL(script.getAttribute('src').replaceAll('&amp;','&'),origin);if(!url.pathname.includes('/chunks/')||/polyfills|webpack|main-app|4bd1b696|9da6db1e/.test(url.pathname))continue;const name=path.basename(url.pathname);const file=`temp/linked-pages/chunks/${name}`;try{await fs.access(file);}catch{const r=await fetch(url);if(r.ok)await fs.writeFile(file,await r.text());}}}catch(error){report.push({route,error:String(error)});}}}));
+await fs.writeFile('temp/linked-pages/extra-download-report.json',JSON.stringify(report,null,2));console.log(JSON.stringify({routes:routes.size,failures:report.filter(x=>x.error||x.status!==200)},null,2));

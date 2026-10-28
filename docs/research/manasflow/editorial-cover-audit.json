@@ -1,0 +1,3286 @@
+{
+  "generatedCovers": 468,
+  "updatedDataFiles": [
+    "src/data/manasflow/catalogs.json"
+  ],
+  "archivedThisRun": 463,
+  "archivedTotal": 463,
+  "covers": [
+    {
+      "id": "7bbc4259747bd73f",
+      "title": "The Zero-Click Ledger: We Opened Our Own Search Console and Counted Every Impression",
+      "route": "/blog/zero-click-ledger-ai-search-data",
+      "local": "/sites/manasflow/editorial/7bbc4259747bd73f.svg",
+      "original": "catalog-0d81d3607f2f99.png"
+    },
+    {
+      "id": "bf49c864affac6b6",
+      "title": "Forward Deployed Engineer: What It Is and When to Embed One (2026)",
+      "route": "/blog/forward-deployed-ai-engineers",
+      "local": "/sites/manasflow/editorial/bf49c864affac6b6.svg",
+      "original": "catalog-08e7ec8e1a50c8.png"
+    },
+    {
+      "id": "1f4320e487902efa",
+      "title": "Inside the Claude Fable 5 System Prompt: 9 Lessons From the 120K-Character Leak",
+      "route": "/blog/claude-fable-5-system-prompt-leak",
+      "local": "/sites/manasflow/editorial/1f4320e487902efa.svg",
+      "original": "catalog-7c627d372c6d02.png"
+    },
+    {
+      "id": "77f2cbe04ae1a74d",
+      "title": "Claude Fable 5 Pricing Explained: Cost Per Million Tokens + Real-World Usage (2026)",
+      "route": "/blog/claude-fable-5-pricing-explained",
+      "local": "/sites/manasflow/editorial/77f2cbe04ae1a74d.svg",
+      "original": "catalog-1c987d33536342.png"
+    },
+    {
+      "id": "48b0e7d78af7d062",
+      "title": "How to Access Claude Fable 5 and Mythos 5 (Updated September 2026)",
+      "route": "/blog/how-to-access-claude-fable-5-mythos-5",
+      "local": "/sites/manasflow/editorial/48b0e7d78af7d062.svg",
+      "original": "catalog-69eaa13a350d77.png"
+    },
+    {
+      "id": "2a56f6bab510926b",
+      "title": "12 Best GitHub Repositories for Claude Code in 2026",
+      "route": "/blog/best-claude-code-github-repos",
+      "local": "/sites/manasflow/editorial/2a56f6bab510926b.svg",
+      "original": "catalog-36f60169c2bf8a.png"
+    },
+    {
+      "id": "127bfc4683c4a7db",
+      "title": "GTM Engineering: What It Is and How It Works",
+      "route": "/blog/gtm-engineering",
+      "local": "/sites/manasflow/editorial/127bfc4683c4a7db.svg",
+      "original": "catalog-e593e68412ed2b.png"
+    },
+    {
+      "id": "2d4da21209cda1c8",
+      "title": "The AI Agent Distrust Tax: What Oversight Costs Once Agents Are in Production",
+      "route": "/blog/ai-agent-distrust-tax",
+      "local": "/sites/manasflow/editorial/2d4da21209cda1c8.svg",
+      "original": "catalog-f8bc575ec7025c.png"
+    },
+    {
+      "id": "4ed1490dd93ea6a2",
+      "title": "AI Coding Agents Write 30% More Code. Shipped Work Barely Changed (Harvard Study)",
+      "route": "/blog/ai-coding-agents-code-review-bottleneck",
+      "local": "/sites/manasflow/editorial/4ed1490dd93ea6a2.svg",
+      "original": "catalog-24ba9c47b7c07f.png"
+    },
+    {
+      "id": "800b30beafe84fd2",
+      "title": "Kimi K3.1 Pro: Price, Benchmarks and the Nov 4 Open-Weights Date",
+      "route": "/blog/kimi-k3-1-pro",
+      "local": "/sites/manasflow/editorial/800b30beafe84fd2.svg",
+      "original": "catalog-16703d71bce9a6.png"
+    },
+    {
+      "id": "df23bcda5c525564",
+      "title": "Claude Code Prompt Audit: We Ran /doctor prompt-audit and /claude-api prompt-audit on Our Own Repo",
+      "route": "/blog/claude-code-prompt-audit",
+      "local": "/sites/manasflow/editorial/df23bcda5c525564.svg",
+      "original": "catalog-9b982b0c2c857e.png"
+    },
+    {
+      "id": "d277a449e5ae5c88",
+      "title": "Jev vs Claude Haiku 5.5: We Re-Ran Our 791-Decision Benchmark",
+      "route": "/blog/jev-vs-claude-haiku-5-5-benchmark",
+      "local": "/sites/manasflow/editorial/d277a449e5ae5c88.svg",
+      "original": "catalog-c334d2f721ca6d.png"
+    },
+    {
+      "id": "156bbf27e51a10df",
+      "title": "Claude Sonnet 5.5: Price, What Changed From Sonnet 5, and the 5 Breaking Changes",
+      "route": "/blog/claude-sonnet-5-5",
+      "local": "/sites/manasflow/editorial/156bbf27e51a10df.svg",
+      "original": "catalog-8b96c6deec6008.png"
+    },
+    {
+      "id": "b0c85ff86fce0706",
+      "title": "Search Console AI Mode Prompts: What 28 Days of Our Own Data Show",
+      "route": "/blog/search-console-ai-mode-prompts-study",
+      "local": "/sites/manasflow/editorial/b0c85ff86fce0706.svg",
+      "original": "catalog-25b4888c078e2a.png"
+    },
+    {
+      "id": "cf2b5dee35373b58",
+      "title": "Best Clay Agencies: 9 Clay Experts Compared (2026)",
+      "route": "/blog/best-clay-agencies",
+      "local": "/sites/manasflow/editorial/cf2b5dee35373b58.svg",
+      "original": "catalog-708828500ada5e.png"
+    },
+    {
+      "id": "dec337c3360054c2",
+      "title": "Best Cold Email Marketing Agencies: 8 Compared (2026)",
+      "route": "/blog/best-cold-email-agencies",
+      "local": "/sites/manasflow/editorial/dec337c3360054c2.svg",
+      "original": "catalog-1d9628c7e485a2.png"
+    },
+    {
+      "id": "e59322a7612922fa",
+      "title": "HubSpot Partners: 9 Best HubSpot Agencies Compared (2026)",
+      "route": "/blog/best-hubspot-agencies",
+      "local": "/sites/manasflow/editorial/e59322a7612922fa.svg",
+      "original": "catalog-c46c2b42d18d64.png"
+    },
+    {
+      "id": "8ce22ed4eac41d8e",
+      "title": "Salesforce Consulting Companies: 9 Best Firms (2026)",
+      "route": "/blog/best-salesforce-consulting-firms",
+      "local": "/sites/manasflow/editorial/8ce22ed4eac41d8e.svg",
+      "original": "catalog-4202ae2e0afa0a.png"
+    },
+    {
+      "id": "3d7baabfb3ea48d0",
+      "title": "Attio Experts: 9 Best Attio Agencies Compared (2026)",
+      "route": "/blog/best-attio-agencies",
+      "local": "/sites/manasflow/editorial/3d7baabfb3ea48d0.svg",
+      "original": "catalog-047519cd000242.png"
+    },
+    {
+      "id": "4d816268c05a5f18",
+      "title": "Pipedrive Partners: 9 Best Pipedrive Consultants (2026)",
+      "route": "/blog/best-pipedrive-consultants",
+      "local": "/sites/manasflow/editorial/4d816268c05a5f18.svg",
+      "original": "catalog-18dfce35bbe77b.png"
+    },
+    {
+      "id": "8ac270d4fe4a1ac8",
+      "title": "Apollo.io Agency: 9 Best Apollo Experts Compared (2026)",
+      "route": "/blog/best-apollo-agencies",
+      "local": "/sites/manasflow/editorial/8ac270d4fe4a1ac8.svg",
+      "original": "catalog-32141a4be21c2c.png"
+    },
+    {
+      "id": "a8ff3f54e7403305",
+      "title": "LinkedIn Lead Generation Agency: 9 Best Compared (2026)",
+      "route": "/blog/best-linkedin-outreach-agencies",
+      "local": "/sites/manasflow/editorial/a8ff3f54e7403305.svg",
+      "original": "catalog-c62fe58a531571.png"
+    },
+    {
+      "id": "1da89e1960b6cadc",
+      "title": "6 Dify Alternatives Worth Considering for Your AI Stack in 2026",
+      "route": "/blog/dify-alternatives",
+      "local": "/sites/manasflow/editorial/1da89e1960b6cadc.svg",
+      "original": "catalog-7b757a69254cb3.png"
+    },
+    {
+      "id": "dc2d01e1dab37751",
+      "title": "7 Best AI Agent Orchestration Platforms for Production (2026)",
+      "route": "/blog/ai-agent-orchestration-platforms",
+      "local": "/sites/manasflow/editorial/dc2d01e1dab37751.svg",
+      "original": "catalog-6f5587939e0d92.png"
+    },
+    {
+      "id": "b73b784bdcfb4fc7",
+      "title": "6 Best AI Coding Assistants Compared (2026 Pricing and Features)",
+      "route": "/blog/best-ai-coding-assistants",
+      "local": "/sites/manasflow/editorial/b73b784bdcfb4fc7.svg",
+      "original": "catalog-6ea56b09e509a4.png"
+    },
+    {
+      "id": "4cd962fccfaac05d",
+      "title": "6 Best Webflow Agencies (2026): Starting Prices and Partner Tiers",
+      "route": "/blog/best-webflow-agencies",
+      "local": "/sites/manasflow/editorial/4cd962fccfaac05d.svg",
+      "original": "catalog-c0c31885cf41ab.png"
+    },
+    {
+      "id": "d17c71f4816cbd33",
+      "title": "8 Best SaaS MVP Development Companies (2026): Who Actually Ships Fast",
+      "route": "/blog/best-saas-mvp-development-companies",
+      "local": "/sites/manasflow/editorial/d17c71f4816cbd33.svg",
+      "original": "catalog-3092fe46e994ff.png"
+    },
+    {
+      "id": "4f24008eb0363ff7",
+      "title": "Best LLM tools in 2026: 10 picks to build, route, and trace LLM apps",
+      "route": "/blog/best-llm-tools",
+      "local": "/sites/manasflow/editorial/4f24008eb0363ff7.svg",
+      "original": "catalog-a24528e8d1bad3.png"
+    },
+    {
+      "id": "a79c5a64e941019c",
+      "title": "8 Best RPA Tools for Enterprise Automation (2026)",
+      "route": "/blog/best-rpa-tools",
+      "local": "/sites/manasflow/editorial/a79c5a64e941019c.svg",
+      "original": "catalog-a982405406086a.png"
+    },
+    {
+      "id": "e327691acde84f3f",
+      "title": "CRM Consultants: 9 Best CRM Consulting Firms in 2026",
+      "route": "/blog/best-crm-consultants",
+      "local": "/sites/manasflow/editorial/e327691acde84f3f.svg",
+      "original": "catalog-015720b0b6efc9.png"
+    },
+    {
+      "id": "3e52ec47bda684ac",
+      "title": "B2B Lead Generation Companies: 9 Best Agencies (2026)",
+      "route": "/blog/best-b2b-lead-generation-agencies",
+      "local": "/sites/manasflow/editorial/3e52ec47bda684ac.svg",
+      "original": "catalog-7c61c28bb5d5fc.png"
+    },
+    {
+      "id": "b990a46c40ac4fbf",
+      "title": "GTM Agency Guide: 9 Best GTM Engineering Agencies (2026)",
+      "route": "/blog/best-gtm-engineering-agencies",
+      "local": "/sites/manasflow/editorial/b990a46c40ac4fbf.svg",
+      "original": "catalog-21a8358373c4b1.png"
+    },
+    {
+      "id": "1cdae2dace856734",
+      "title": "Best Zoho Consultants in 2026: 9 Compared for SMBs",
+      "route": "/blog/best-zoho-consultants",
+      "local": "/sites/manasflow/editorial/1cdae2dace856734.svg",
+      "original": "catalog-a31623b3e232b3.png"
+    },
+    {
+      "id": "c88d3e83be147a09",
+      "title": "AI Agent Development Service: How to Choose",
+      "route": "/blog/ai-agent-development-service",
+      "local": "/sites/manasflow/editorial/c88d3e83be147a09.svg",
+      "original": "catalog-e8dbdad425fcac.png"
+    },
+    {
+      "id": "6cc213445bca6e14",
+      "title": "Claude Code Multi-Repo Workflows: Patterns That Scale (2026)",
+      "route": "/blog/claude-code-multi-repo-workflows",
+      "local": "/sites/manasflow/editorial/6cc213445bca6e14.svg",
+      "original": "catalog-4a693f1860cf9c.png"
+    },
+    {
+      "id": "883e364ddfbef546",
+      "title": "Claude Code Skills vs Plugins (2026): When to Use Each",
+      "route": "/blog/claude-code-skills-vs-plugins",
+      "local": "/sites/manasflow/editorial/883e364ddfbef546.svg",
+      "original": "catalog-e8443ec97feef7.png"
+    },
+    {
+      "id": "711f87b82b3cdd3b",
+      "title": "AI Facilities Management Tools: What to Automate, Where Judgment Leads (2026)",
+      "route": "/blog/ai-facilities-management-tool",
+      "local": "/sites/manasflow/editorial/711f87b82b3cdd3b.svg",
+      "original": "catalog-96ad8ee10f5af3.png"
+    },
+    {
+      "id": "14d05487010ed789",
+      "title": "AI Vendor Management: What to Automate, Where Judgment Leads (2026)",
+      "route": "/blog/ai-vendor-management",
+      "local": "/sites/manasflow/editorial/14d05487010ed789.svg",
+      "original": "catalog-ba25443f303f2b.png"
+    },
+    {
+      "id": "605a76573f585e3a",
+      "title": "AI Load Testing Tools: What to Automate, Where Engineering Judgment Leads (2026)",
+      "route": "/blog/ai-load-testing-tool",
+      "local": "/sites/manasflow/editorial/605a76573f585e3a.svg",
+      "original": "catalog-af51872f4c201a.png"
+    },
+    {
+      "id": "e5fccda8551953c0",
+      "title": "AI QA Testing Agents: What to Automate, Where QA Judgment Leads (2026)",
+      "route": "/blog/ai-qa-testing-agent",
+      "local": "/sites/manasflow/editorial/e5fccda8551953c0.svg",
+      "original": "catalog-b10a8343facfac.png"
+    },
+    {
+      "id": "4341cbe440f575f5",
+      "title": "GPT-6 Astra vs Claude Fable 5.1 vs Opus 5.5: Why Model Routing Wins",
+      "route": "/blog/gpt-6-astra-vs-claude-fable-5-1-model-routing",
+      "local": "/sites/manasflow/editorial/4341cbe440f575f5.svg",
+      "original": "catalog-97897a98d70167.png"
+    },
+    {
+      "id": "032229056cf9ee05",
+      "title": "AI automation agencies that ship to production: 9 compared (2026)",
+      "route": "/blog/best-ai-automation-agencies-that-ship-to-production",
+      "local": "/sites/manasflow/editorial/032229056cf9ee05.svg",
+      "original": "catalog-58db3ca8500c8f.png"
+    },
+    {
+      "id": "416b0772eb539acc",
+      "title": "Is Your AI Agent Production-Ready, or One Incident Away From a Headline?",
+      "route": "/blog/ai-agent-incidents-2026-production-safety",
+      "local": "/sites/manasflow/editorial/416b0772eb539acc.svg",
+      "original": "catalog-d72ebbd019a48f.png"
+    },
+    {
+      "id": "5ce71654c8684902",
+      "title": "Private and On-Prem AI for Regulated Industries: What Banks and Healthcare Are Actually Buying in 2026",
+      "route": "/blog/private-on-prem-ai-regulated-industries",
+      "local": "/sites/manasflow/editorial/5ce71654c8684902.svg",
+      "original": "catalog-eb593e01f561ac.png"
+    },
+    {
+      "id": "225bf781a8d5ec12",
+      "title": "Build vs buy AI features: what McKinsey's 2026 data means for a 50-person team",
+      "route": "/blog/build-vs-buy-ai-features-2026",
+      "local": "/sites/manasflow/editorial/225bf781a8d5ec12.svg",
+      "original": "catalog-a2216bdae2d2be.png"
+    },
+    {
+      "id": "835d5367cc8b454b",
+      "title": "Why 88% of AI Agent Pilots Never Reach Production (and How to Be in the Rest)",
+      "route": "/blog/why-ai-pilots-dont-reach-production",
+      "local": "/sites/manasflow/editorial/835d5367cc8b454b.svg",
+      "original": "catalog-142f0e0e988b7f.png"
+    },
+    {
+      "id": "a738dcded45fcc6f",
+      "title": "AI agent production-readiness audit: the checklist before you give it real permissions",
+      "route": "/blog/ai-agent-production-readiness-audit-checklist",
+      "local": "/sites/manasflow/editorial/a738dcded45fcc6f.svg",
+      "original": "catalog-f4f8836579aff6.png"
+    },
+    {
+      "id": "a61ffde0b286d044",
+      "title": "Your AI pilot isn't broken. Your deployment infrastructure is.",
+      "route": "/blog/ai-pilot-stuck-deployment-infrastructure",
+      "local": "/sites/manasflow/editorial/a61ffde0b286d044.svg",
+      "original": "catalog-3379d3b36a43e8.png"
+    },
+    {
+      "id": "5f5db6d0b5082529",
+      "title": "GPT-6 Sol and Luna: What OpenAI's Cheaper Model Tiers Mean for Automation",
+      "route": "/blog/gpt-6-sol-luna-mini-astra-model-tiers",
+      "local": "/sites/manasflow/editorial/5f5db6d0b5082529.svg",
+      "original": "catalog-048c98f624993d.png"
+    },
+    {
+      "id": "c919ab3685c4c0c6",
+      "title": "Claude Opus 5.5: What Changed, What It Costs, and Whether to Migrate",
+      "route": "/blog/claude-opus-5-5-release",
+      "local": "/sites/manasflow/editorial/c919ab3685c4c0c6.svg",
+      "original": "catalog-98b646f1693819.png"
+    },
+    {
+      "id": "93a5747d0a8d9511",
+      "title": "How to Stop Hitting GPT-6 Astra Usage Limits",
+      "route": "/blog/how-to-stop-hitting-gpt-6-astra-usage-limits",
+      "local": "/sites/manasflow/editorial/93a5747d0a8d9511.svg",
+      "original": "catalog-720e28ecfd15d9.png"
+    },
+    {
+      "id": "4ec2f9eb645505dc",
+      "title": "GPT-6 Astra API Update: Async Tool Calling and Mid-Turn Steering",
+      "route": "/blog/gpt-6-astra-api-async-tool-calling-mid-turn-steering",
+      "local": "/sites/manasflow/editorial/4ec2f9eb645505dc.svg",
+      "original": "catalog-13f712254cf465.png"
+    },
+    {
+      "id": "e900d093469d2fa0",
+      "title": "How to Use Jev: A Tested Step-by-Step Guide With Working Code (2026)",
+      "route": "/blog/how-to-use-jev-guide",
+      "local": "/sites/manasflow/editorial/e900d093469d2fa0.svg",
+      "original": "catalog-103e57618905f1.png"
+    },
+    {
+      "id": "7acd76c0908fb3b6",
+      "title": "Best Jev Videos and Tutorials: 14 Worth Watching, Ranked by Views (2026)",
+      "route": "/blog/best-jev-videos-tutorials",
+      "local": "/sites/manasflow/editorial/7acd76c0908fb3b6.svg",
+      "original": "catalog-7c6bbe115ce791.png"
+    },
+    {
+      "id": "0260ccea26ca4988",
+      "title": "Jev Pricing (2026): What It Costs Per Decision, and Is It Free?",
+      "route": "/blog/jev-pricing-cost-per-decision",
+      "local": "/sites/manasflow/editorial/0260ccea26ca4988.svg",
+      "original": "catalog-9616f9c4d6ee8d.png"
+    },
+    {
+      "id": "0bb9611268890abd",
+      "title": "We Tested Jev on 791 Labeled Decisions Against Four LLMs: Speed, Cost and Accuracy (2026)",
+      "route": "/blog/jev-vs-llm-benchmark",
+      "local": "/sites/manasflow/editorial/0bb9611268890abd.svg",
+      "original": "catalog-8bedac42fb3145.png"
+    },
+    {
+      "id": "0adeecfa12929b04",
+      "title": "Google Is Testing Paying Sites for AI Answers: The AI Contribution Pilot Explained",
+      "route": "/blog/google-ai-contribution-pilot",
+      "local": "/sites/manasflow/editorial/0adeecfa12929b04.svg",
+      "original": "catalog-eb5c81311e9475.png"
+    },
+    {
+      "id": "f7b9818a241a9ace",
+      "title": "6 Best Web Development Agencies for Business Websites (2026)",
+      "route": "/blog/best-web-development-agencies",
+      "local": "/sites/manasflow/editorial/f7b9818a241a9ace.svg",
+      "original": "catalog-68682b1fac3f41.png"
+    },
+    {
+      "id": "0b8cb5209a57c054",
+      "title": "What Is GraphRAG? How It Works and When to Use It Over Vector RAG (2026)",
+      "route": "/blog/graphrag",
+      "local": "/sites/manasflow/editorial/0b8cb5209a57c054.svg",
+      "original": "catalog-8946c11cc78da9.png"
+    },
+    {
+      "id": "9ca5d43bd5a9cf9f",
+      "title": "What Are Multi-Agent Systems? A Practical Guide for Business Teams (2026)",
+      "route": "/blog/multi-agent-systems",
+      "local": "/sites/manasflow/editorial/9ca5d43bd5a9cf9f.svg",
+      "original": "catalog-53694ce8b8b6fc.png"
+    },
+    {
+      "id": "4b2ea3ef8b97b33e",
+      "title": "7 Real n8n Workflow Examples You Can Actually Build (2026)",
+      "route": "/blog/n8n-workflow-examples",
+      "local": "/sites/manasflow/editorial/4b2ea3ef8b97b33e.svg",
+      "original": "catalog-3c3bad2587a11d.png"
+    },
+    {
+      "id": "f9a7aa3861039aae",
+      "title": "MCP Security: What to Check Before You Connect a Server (2026)",
+      "route": "/blog/mcp-security",
+      "local": "/sites/manasflow/editorial/f9a7aa3861039aae.svg",
+      "original": "catalog-b896fa85d989d7.png"
+    },
+    {
+      "id": "5c40b381589ae059",
+      "title": "Jev Is Live: What TypeSafe's \"System One\" AI Model Actually Does",
+      "route": "/blog/jev-typesafe-system-one-model",
+      "local": "/sites/manasflow/editorial/5c40b381589ae059.svg",
+      "original": "catalog-8d5c7f97ca7edb.png"
+    },
+    {
+      "id": "8d8f7b31dc3759c9",
+      "title": "What Can You Build With Jev? Documented Use Cases for TypeSafe's System One Model (2026)",
+      "route": "/blog/jev-use-cases",
+      "local": "/sites/manasflow/editorial/8d8f7b31dc3759c9.svg",
+      "original": "catalog-d1991f3f25efff.png"
+    },
+    {
+      "id": "7387d211d694b9ae",
+      "title": "12 Best Embedding Models for RAG and Semantic Search (2026 Benchmarks and Pricing)",
+      "route": "/blog/best-embedding-models",
+      "local": "/sites/manasflow/editorial/7387d211d694b9ae.svg",
+      "original": "catalog-e983a767158594.png"
+    },
+    {
+      "id": "1742f8cf91a84f53",
+      "title": "MCP Certification (MCPA): What It Actually Covers, and Is It Worth It? (2026)",
+      "route": "/blog/mcp-certification",
+      "local": "/sites/manasflow/editorial/1742f8cf91a84f53.svg",
+      "original": "catalog-4cb54c71b03d7a.png"
+    },
+    {
+      "id": "2d7a580fcd917ca7",
+      "title": "CLAUDE.md vs AGENTS.md: What Changed When Claude Code Added AGENTS.md Support (2026)",
+      "route": "/blog/claude-md-vs-agents-md",
+      "local": "/sites/manasflow/editorial/2d7a580fcd917ca7.svg",
+      "original": "catalog-488f5c043787e2.png"
+    },
+    {
+      "id": "d351ff6f048d4917",
+      "title": "9 Best Software Development Agencies for Enterprise Teams (2026)",
+      "route": "/blog/best-software-development-agencies",
+      "local": "/sites/manasflow/editorial/d351ff6f048d4917.svg",
+      "original": "catalog-e3cc0e441c2ffb.png"
+    },
+    {
+      "id": "36394a6daa4f64dc",
+      "title": "6 Best Headless CMS Platforms for Developer Teams (2026)",
+      "route": "/blog/best-headless-cms-platforms",
+      "local": "/sites/manasflow/editorial/36394a6daa4f64dc.svg",
+      "original": "catalog-8086d0a6d93486.png"
+    },
+    {
+      "id": "22ead12d74e0ea08",
+      "title": "6 Best Web Scraping Tools for Reliable Data Extraction (2026)",
+      "route": "/blog/best-web-scraping-tools",
+      "local": "/sites/manasflow/editorial/22ead12d74e0ea08.svg",
+      "original": "catalog-23e30f80c326e7.png"
+    },
+    {
+      "id": "99139ed0d87806ad",
+      "title": "7 Best Machine Learning, Computer Vision & LLM Development Companies (2026)",
+      "route": "/blog/best-machine-learning-development-companies",
+      "local": "/sites/manasflow/editorial/99139ed0d87806ad.svg",
+      "original": "catalog-f0c5066a3d2a68.png"
+    },
+    {
+      "id": "9ac9e6b9012eddb0",
+      "title": "How to Implement GraphRAG: A Practical Architecture Guide (2026)",
+      "route": "/blog/graphrag-implementation-guide",
+      "local": "/sites/manasflow/editorial/9ac9e6b9012eddb0.svg",
+      "original": "catalog-8b8e8e30effded.png"
+    },
+    {
+      "id": "21a790f43bcfc878",
+      "title": "Multi-Agent System Architecture: Patterns That Actually Work in Production (2026)",
+      "route": "/blog/multi-agent-system-architecture-patterns",
+      "local": "/sites/manasflow/editorial/21a790f43bcfc878.svg",
+      "original": "catalog-9f25cdda0a5ced.png"
+    },
+    {
+      "id": "8d282f3dd194a600",
+      "title": "7 Best App Development Agencies (2026): Pricing, Ratings, and Fit",
+      "route": "/blog/best-app-development-agencies",
+      "local": "/sites/manasflow/editorial/8d282f3dd194a600.svg",
+      "original": "catalog-cd53b0d5f69137.png"
+    },
+    {
+      "id": "4b79a8584d3ca47b",
+      "title": "Agent Client Protocol vs MCP: What's the Difference (2026)",
+      "route": "/blog/agent-client-protocol-vs-mcp",
+      "local": "/sites/manasflow/editorial/4b79a8584d3ca47b.svg",
+      "original": "catalog-f6bfc1ec80ec93.png"
+    },
+    {
+      "id": "0958436e78d52be1",
+      "title": "MCP Apps Explained (2026): The Interactive UI Standard for MCP",
+      "route": "/blog/mcp-apps",
+      "local": "/sites/manasflow/editorial/0958436e78d52be1.svg",
+      "original": "catalog-8390124499c2a3.png"
+    },
+    {
+      "id": "1f5ee81471193e74",
+      "title": "Agentic Commerce Protocol (ACP) Explained: How It Works and What Actually Shipped",
+      "route": "/blog/agentic-commerce-protocol",
+      "local": "/sites/manasflow/editorial/1f5ee81471193e74.svg",
+      "original": "catalog-863de34cc5e930.png"
+    },
+    {
+      "id": "c4b42f0cecc8f91c",
+      "title": "What Is llms.txt? Format, Real Adoption Data, and How to Write One",
+      "route": "/blog/llms-txt",
+      "local": "/sites/manasflow/editorial/c4b42f0cecc8f91c.svg",
+      "original": "catalog-f1dd9b40a4f0e5.png"
+    },
+    {
+      "id": "671fa09a1a084878",
+      "title": "AGENTS.md Explained: The Open Spec for AI Coding Agent Instructions",
+      "route": "/blog/agents-md",
+      "local": "/sites/manasflow/editorial/671fa09a1a084878.svg",
+      "original": "catalog-208df82ad3fd17.png"
+    },
+    {
+      "id": "073f4a2be37fe90e",
+      "title": "Claude Skills Marketplace: Where to Find and Submit Claude Skills (2026)",
+      "route": "/blog/claude-skills-marketplace",
+      "local": "/sites/manasflow/editorial/073f4a2be37fe90e.svg",
+      "original": "catalog-b34e995fc75da1.png"
+    },
+    {
+      "id": "4272e85ee8bed3d7",
+      "title": "Vector Databases for AI Agents: When You Actually Need One (2026)",
+      "route": "/blog/vector-database-for-ai-agents",
+      "local": "/sites/manasflow/editorial/4272e85ee8bed3d7.svg",
+      "original": "catalog-5b2cc4ba611d3d.png"
+    },
+    {
+      "id": "6f4bc65e8c93231e",
+      "title": "Synthetic Data Generation for AI Training: A Practical Guide (2026)",
+      "route": "/blog/synthetic-data-generation-for-ai-training",
+      "local": "/sites/manasflow/editorial/6f4bc65e8c93231e.svg",
+      "original": "catalog-f2f57a8e66a69c.png"
+    },
+    {
+      "id": "daa19070cfb99176",
+      "title": "Spec-Driven Development: Writing Specs AI Agents Can Build (2026)",
+      "route": "/blog/spec-driven-development-ai-coding",
+      "local": "/sites/manasflow/editorial/daa19070cfb99176.svg",
+      "original": "catalog-afb2d324beddb2.png"
+    },
+    {
+      "id": "8f5301fb7fc965ca",
+      "title": "Small Language Models On-Device: When to Skip the Cloud (2026)",
+      "route": "/blog/small-language-models-on-device",
+      "local": "/sites/manasflow/editorial/8f5301fb7fc965ca.svg",
+      "original": "catalog-b71e3c684d3f61.png"
+    },
+    {
+      "id": "b0a25401dee54ca7",
+      "title": "Slack AI Agent Integration: What to Scope Before You Install One (2026)",
+      "route": "/blog/slack-ai-agent-integration",
+      "local": "/sites/manasflow/editorial/b0a25401dee54ca7.svg",
+      "original": "catalog-f01a60988fb573.png"
+    },
+    {
+      "id": "8288334d4a164a48",
+      "title": "Shadow AI: The Enterprise Risk Hiding in Plain Sight (2026)",
+      "route": "/blog/shadow-ai-enterprise-risk",
+      "local": "/sites/manasflow/editorial/8288334d4a164a48.svg",
+      "original": "catalog-3e3c980a2d4158.png"
+    },
+    {
+      "id": "3633d271acf95bbc",
+      "title": "Responsible AI Framework for the Enterprise: How to Build One (2026)",
+      "route": "/blog/responsible-ai-framework-enterprise",
+      "local": "/sites/manasflow/editorial/3633d271acf95bbc.svg",
+      "original": "catalog-582ae5ec6ce803.png"
+    },
+    {
+      "id": "658b3072b7bf227e",
+      "title": "Reasoning Models vs Chat Models: What to Use When (2026)",
+      "route": "/blog/reasoning-models-vs-chat-models",
+      "local": "/sites/manasflow/editorial/658b3072b7bf227e.svg",
+      "original": "catalog-b6eb72ae404c6e.png"
+    },
+    {
+      "id": "7990e25e8dab662a",
+      "title": "Prompt Injection Attacks on AI Agents: How They Work, How to Defend (2026)",
+      "route": "/blog/prompt-injection-attacks-ai-agents",
+      "local": "/sites/manasflow/editorial/7990e25e8dab662a.svg",
+      "original": "catalog-7264f2f297eee9.png"
+    },
+    {
+      "id": "4624ca601b1bd303",
+      "title": "Open-Weight vs Closed AI Models: The Real Trade-offs (2026)",
+      "route": "/blog/open-weight-vs-closed-model-ai",
+      "local": "/sites/manasflow/editorial/4624ca601b1bd303.svg",
+      "original": "catalog-3f47cb5918ec0a.png"
+    },
+    {
+      "id": "9e1712f29011b4bc",
+      "title": "AI-Assisted Legacy System Migration: What Helps, What Does Not (2026)",
+      "route": "/blog/legacy-system-migration-ai",
+      "local": "/sites/manasflow/editorial/9e1712f29011b4bc.svg",
+      "original": "catalog-170ba0b30c3567.png"
+    },
+    {
+      "id": "37a285ce87fd9276",
+      "title": "AI Invoice Automation: What It Catches and Where Humans Still Matter (2026)",
+      "route": "/blog/invoice-automation-ai",
+      "local": "/sites/manasflow/editorial/37a285ce87fd9276.svg",
+      "original": "catalog-e2907ca189641c.png"
+    },
+    {
+      "id": "52daa177f151e726",
+      "title": "Human-in-the-Loop AI Automation: Where to Put the Checkpoint (2026)",
+      "route": "/blog/human-in-the-loop-ai-automation",
+      "local": "/sites/manasflow/editorial/52daa177f151e726.svg",
+      "original": "catalog-55bb0415a688f8.png"
+    },
+    {
+      "id": "54521e25b6e74943",
+      "title": "AEO and GEO for AI Search: A Practical Guide (2026)",
+      "route": "/blog/geo-optimization-for-ai-search",
+      "local": "/sites/manasflow/editorial/54521e25b6e74943.svg",
+      "original": "catalog-4233792567de31.png"
+    },
+    {
+      "id": "7eabb8a532689d25",
+      "title": "Fine-Tuning vs RAG: When to Use Each (2026)",
+      "route": "/blog/fine-tuning-vs-rag",
+      "local": "/sites/manasflow/editorial/7eabb8a532689d25.svg",
+      "original": "catalog-7955d9c697ac0d.png"
+    },
+    {
+      "id": "4696cafb44a00d03",
+      "title": "EU AI Act Compliance: A Practical Starting Checklist (2026)",
+      "route": "/blog/eu-ai-act-compliance-checklist",
+      "local": "/sites/manasflow/editorial/4696cafb44a00d03.svg",
+      "original": "catalog-c6dc746b7af925.png"
+    },
+    {
+      "id": "540b900ee581b2e0",
+      "title": "Contract Review AI Agents: What They Catch and What They Miss (2026)",
+      "route": "/blog/contract-review-ai-agent",
+      "local": "/sites/manasflow/editorial/540b900ee581b2e0.svg",
+      "original": "catalog-52427a9ab044cc.png"
+    },
+    {
+      "id": "737c5e97b91770ca",
+      "title": "Browser-Use AI Agents: What They Are and When to Use Them (2026)",
+      "route": "/blog/browser-use-ai-agents",
+      "local": "/sites/manasflow/editorial/737c5e97b91770ca.svg",
+      "original": "catalog-4aad1499639c11.png"
+    },
+    {
+      "id": "290ee0472349f554",
+      "title": "AI Warehouse Robotics: What It Automates, Where Operations Judgment Leads (2026)",
+      "route": "/blog/ai-warehouse-robotics",
+      "local": "/sites/manasflow/editorial/290ee0472349f554.svg",
+      "original": "catalog-8211a6b25553b2.png"
+    },
+    {
+      "id": "d87b8ce77b89349b",
+      "title": "AI Virtual Staging for Real Estate: What It Does, Why Disclosure Matters (2026)",
+      "route": "/blog/ai-virtual-staging-real-estate",
+      "local": "/sites/manasflow/editorial/d87b8ce77b89349b.svg",
+      "original": "catalog-a6ff5c17a23ab5.png"
+    },
+    {
+      "id": "8a6a3343b7b0cbff",
+      "title": "AI Video Generation Tools: What They Can and Cannot Do (2026)",
+      "route": "/blog/ai-video-generation-tool",
+      "local": "/sites/manasflow/editorial/8a6a3343b7b0cbff.svg",
+      "original": "catalog-7bba832e4d15b8.png"
+    },
+    {
+      "id": "76efa98e50677533",
+      "title": "AI Video Dubbing and Localization: What It Does Well, What Needs Review (2026)",
+      "route": "/blog/ai-video-dubbing-localization",
+      "local": "/sites/manasflow/editorial/76efa98e50677533.svg",
+      "original": "catalog-6851f895cf3385.png"
+    },
+    {
+      "id": "dc9a1314d6394b76",
+      "title": "AI-Driven SaaS User Onboarding: What to Automate, What Stays Product Design (2026)",
+      "route": "/blog/ai-user-onboarding-saas",
+      "local": "/sites/manasflow/editorial/dc9a1314d6394b76.svg",
+      "original": "catalog-0037729a647ad8.png"
+    },
+    {
+      "id": "d5b22fe4bd012598",
+      "title": "AI Unit Test Generation: What It Does Well, the Trap to Watch For (2026)",
+      "route": "/blog/ai-unit-test-generation",
+      "local": "/sites/manasflow/editorial/d5b22fe4bd012598.svg",
+      "original": "catalog-a39deba5463eba.png"
+    },
+    {
+      "id": "99642e20b4365608",
+      "title": "AI Underwriting for Insurance: What It Automates, Where Underwriters Lead (2026)",
+      "route": "/blog/ai-underwriting-insurance",
+      "local": "/sites/manasflow/editorial/99642e20b4365608.svg",
+      "original": "catalog-7266604f030981.png"
+    },
+    {
+      "id": "a3912033bf204dde",
+      "title": "AI Time Tracking Software: What to Automate, Where Review Still Matters (2026)",
+      "route": "/blog/ai-time-tracking-software",
+      "local": "/sites/manasflow/editorial/a3912033bf204dde.svg",
+      "original": "catalog-a45fcc811c1f3d.png"
+    },
+    {
+      "id": "349060f4cc16fcbf",
+      "title": "AI Text-to-Speech Tools: What Works Well, What Still Has Limits (2026)",
+      "route": "/blog/ai-text-to-speech-tool",
+      "local": "/sites/manasflow/editorial/349060f4cc16fcbf.svg",
+      "original": "catalog-cccd8528327f15.png"
+    },
+    {
+      "id": "120b6a2853a1efa1",
+      "title": "AI Tax Preparation Software: What to Trust, When to Get a Professional (2026)",
+      "route": "/blog/ai-tax-preparation-software",
+      "local": "/sites/manasflow/editorial/120b6a2853a1efa1.svg",
+      "original": "catalog-94906108f959e5.png"
+    },
+    {
+      "id": "02965f1b51738548",
+      "title": "AI Survey Analysis Tools: What They Automate, Where Interpretation Leads (2026)",
+      "route": "/blog/ai-survey-analysis-tool",
+      "local": "/sites/manasflow/editorial/02965f1b51738548.svg",
+      "original": "catalog-0cad7532f03000.png"
+    },
+    {
+      "id": "066542112e6f9605",
+      "title": "AI Spreadsheet Formula Assistants: What to Automate, Why Verification Matters (2026)",
+      "route": "/blog/ai-spreadsheet-formula-assistant",
+      "local": "/sites/manasflow/editorial/066542112e6f9605.svg",
+      "original": "catalog-b706b2bb70bc8b.png"
+    },
+    {
+      "id": "b8544261e4a44fa5",
+      "title": "AI Social Media Agents: What to Automate, Where the Risk Is (2026)",
+      "route": "/blog/ai-social-media-agent",
+      "local": "/sites/manasflow/editorial/b8544261e4a44fa5.svg",
+      "original": "catalog-bdeea3ff98b761.png"
+    },
+    {
+      "id": "670f90f47481d02b",
+      "title": "AI Social Listening Tools: What to Automate, How It Differs From Brand Monitoring (2026)",
+      "route": "/blog/ai-social-listening-tool",
+      "local": "/sites/manasflow/editorial/670f90f47481d02b.svg",
+      "original": "catalog-e3c2b06bfaf2fa.png"
+    },
+    {
+      "id": "717c20dc3aa1fcb1",
+      "title": "AI Sales Agents: What They Do Well and Where Reps Still Matter (2026)",
+      "route": "/blog/ai-sales-agent",
+      "local": "/sites/manasflow/editorial/717c20dc3aa1fcb1.svg",
+      "original": "catalog-e35f1951191e98.png"
+    },
+    {
+      "id": "0b3fa146f67d072e",
+      "title": "AI-Enhanced RPA: What Changes, Where RPA Is Still the Wrong Tool (2026)",
+      "route": "/blog/ai-robotic-process-automation-rpa",
+      "local": "/sites/manasflow/editorial/0b3fa146f67d072e.svg",
+      "original": "catalog-f687e2d409c96f.png"
+    },
+    {
+      "id": "0b80bb04db4f55f2",
+      "title": "AI Risk Assessment Framework: A Practical Guide (2026)",
+      "route": "/blog/ai-risk-assessment-framework",
+      "local": "/sites/manasflow/editorial/0b80bb04db4f55f2.svg",
+      "original": "catalog-5a5659fcc71f10.png"
+    },
+    {
+      "id": "e0799fcd8f9939f4",
+      "title": "AI Returns Management: What to Automate, Where Fraud Risk Needs Care (2026)",
+      "route": "/blog/ai-returns-management-ecommerce",
+      "local": "/sites/manasflow/editorial/e0799fcd8f9939f4.svg",
+      "original": "catalog-5a1823c26fa0df.png"
+    },
+    {
+      "id": "b19a4a9946319283",
+      "title": "AI Report Generation: What to Automate, What Needs Review (2026)",
+      "route": "/blog/ai-report-generation",
+      "local": "/sites/manasflow/editorial/b19a4a9946319283.svg",
+      "original": "catalog-c5cdc9a23737e2.png"
+    },
+    {
+      "id": "7615f0ccb8c54a1b",
+      "title": "AI Renewal Management: What to Automate, Where Relationships Still Matter (2026)",
+      "route": "/blog/ai-renewal-management-saas",
+      "local": "/sites/manasflow/editorial/7615f0ccb8c54a1b.svg",
+      "original": "catalog-669a81c5e09905.png"
+    },
+    {
+      "id": "8a58ce09fff1877e",
+      "title": "AI Release Notes Generators: What to Automate, Why Human Review Still Matters (2026)",
+      "route": "/blog/ai-release-notes-generator",
+      "local": "/sites/manasflow/editorial/8a58ce09fff1877e.svg",
+      "original": "catalog-07e3f6ccd1c423.png"
+    },
+    {
+      "id": "b1c6432fbc2e5020",
+      "title": "AI Receptionist Voice Agents: What They Handle, Where a Person Should (2026)",
+      "route": "/blog/ai-receptionist-voice-agent",
+      "local": "/sites/manasflow/editorial/b1c6432fbc2e5020.svg",
+      "original": "catalog-241c6c1aadd636.png"
+    },
+    {
+      "id": "1f3579fc59221469",
+      "title": "AI Radiology Image Analysis: What It Does, Where Radiologists Lead (2026)",
+      "route": "/blog/ai-radiology-image-analysis",
+      "local": "/sites/manasflow/editorial/1f3579fc59221469.svg",
+      "original": "catalog-27c1c8e8b2348b.png"
+    },
+    {
+      "id": "00915659b7a01678",
+      "title": "AI Project Management Agents: What to Automate, What Stays Human (2026)",
+      "route": "/blog/ai-project-management-agent",
+      "local": "/sites/manasflow/editorial/00915659b7a01678.svg",
+      "original": "catalog-4f5a185687e502.png"
+    },
+    {
+      "id": "723d012902d18ac8",
+      "title": "AI Product Analytics Agents: What to Automate, What Stays Human (2026)",
+      "route": "/blog/ai-product-analytics-agent",
+      "local": "/sites/manasflow/editorial/723d012902d18ac8.svg",
+      "original": "catalog-d3d88eb3743e64.png"
+    },
+    {
+      "id": "3a12ed3877fe3bd2",
+      "title": "AI Presentation Generators: What to Automate, What Needs Your Argument (2026)",
+      "route": "/blog/ai-presentation-generator",
+      "local": "/sites/manasflow/editorial/3a12ed3877fe3bd2.svg",
+      "original": "catalog-3936554d0ba96f.png"
+    },
+    {
+      "id": "6572d8a5170903b7",
+      "title": "AI Performance Review Agents: What to Automate, Why Evaluation Stays Human (2026)",
+      "route": "/blog/ai-performance-review-agent",
+      "local": "/sites/manasflow/editorial/6572d8a5170903b7.svg",
+      "original": "catalog-1f69b4174dc2fa.png"
+    },
+    {
+      "id": "8f4885c26876b2d8",
+      "title": "AI Outbound Sales Dialers: What They Automate, What Compliance Applies (2026)",
+      "route": "/blog/ai-outbound-sales-dialer",
+      "local": "/sites/manasflow/editorial/8f4885c26876b2d8.svg",
+      "original": "catalog-d5db876574a1c3.png"
+    },
+    {
+      "id": "b7754fcc37a5652b",
+      "title": "AI-Native CRM: What It Is and How to Evaluate One (2026)",
+      "route": "/blog/ai-native-crm",
+      "local": "/sites/manasflow/editorial/b7754fcc37a5652b.svg",
+      "original": "catalog-429495a9fad4e0.png"
+    },
+    {
+      "id": "c761a6279a862559",
+      "title": "AI Music Generation Tools: What to Automate, Why Licensing Matters (2026)",
+      "route": "/blog/ai-music-generation-tool",
+      "local": "/sites/manasflow/editorial/c761a6279a862559.svg",
+      "original": "catalog-a10a6cca1f1ffc.png"
+    },
+    {
+      "id": "fdaabea326b69a28",
+      "title": "AI Model Licensing for Commercial Use: What to Check First (2026)",
+      "route": "/blog/ai-model-licensing-commercial-use",
+      "local": "/sites/manasflow/editorial/fdaabea326b69a28.svg",
+      "original": "catalog-3da8a82a5b21d1.png"
+    },
+    {
+      "id": "0f28819ed74f352c",
+      "title": "AI Model Card Documentation: What to Include and Why (2026)",
+      "route": "/blog/ai-model-card-documentation",
+      "local": "/sites/manasflow/editorial/0f28819ed74f352c.svg",
+      "original": "catalog-7a86d21cb0d648.png"
+    },
+    {
+      "id": "54bf60798cfe0c6a",
+      "title": "AI Meeting Scheduling Tools: What to Automate, Where They Backfire (2026)",
+      "route": "/blog/ai-meeting-scheduling-tool",
+      "local": "/sites/manasflow/editorial/54bf60798cfe0c6a.svg",
+      "original": "catalog-5254aa42720f1d.png"
+    },
+    {
+      "id": "4177a3414748174e",
+      "title": "AI Meeting Notetakers: What They Capture, and the Consent Question (2026)",
+      "route": "/blog/ai-meeting-notetaker",
+      "local": "/sites/manasflow/editorial/4177a3414748174e.svg",
+      "original": "catalog-f8eb2fb2b653da.png"
+    },
+    {
+      "id": "1fd609614c5ea920",
+      "title": "AI Marketing Agents: What They Automate, Where Strategy Still Leads (2026)",
+      "route": "/blog/ai-marketing-agent",
+      "local": "/sites/manasflow/editorial/1fd609614c5ea920.svg",
+      "original": "catalog-a110df705da515.png"
+    },
+    {
+      "id": "a58bb0336663c24d",
+      "title": "AI Market Research Tools: What to Automate, the Synthetic Data Risk (2026)",
+      "route": "/blog/ai-market-research-tool",
+      "local": "/sites/manasflow/editorial/a58bb0336663c24d.svg",
+      "original": "catalog-ef112805f65444.png"
+    },
+    {
+      "id": "56bb4e227853132e",
+      "title": "AI Localization Agents: What They Handle, Where Culture Still Needs a Human (2026)",
+      "route": "/blog/ai-localization-translation-agent",
+      "local": "/sites/manasflow/editorial/56bb4e227853132e.svg",
+      "original": "catalog-d1c4ab572d7d26.png"
+    },
+    {
+      "id": "82dff45ae263520a",
+      "title": "AI Loan Underwriting: What It Automates, Where Underwriters Lead (2026)",
+      "route": "/blog/ai-loan-underwriting",
+      "local": "/sites/manasflow/editorial/82dff45ae263520a.svg",
+      "original": "catalog-682fdbbe5d9475.png"
+    },
+    {
+      "id": "0450c8a0c3d8119e",
+      "title": "AI Learning Management Systems: What They Add, Where Instructional Design Leads (2026)",
+      "route": "/blog/ai-learning-management-system",
+      "local": "/sites/manasflow/editorial/0450c8a0c3d8119e.svg",
+      "original": "catalog-30563a3e40cf6c.png"
+    },
+    {
+      "id": "ec1689502c2476ca",
+      "title": "AI Lead Scoring: How It Differs From Rule-Based Scoring (2026)",
+      "route": "/blog/ai-lead-scoring",
+      "local": "/sites/manasflow/editorial/ec1689502c2476ca.svg",
+      "original": "catalog-e23b703c288445.png"
+    },
+    {
+      "id": "8ad268c866499f8c",
+      "title": "AI KYC and Identity Verification: What Changes, What Stays Regulated (2026)",
+      "route": "/blog/ai-kyc-identity-verification",
+      "local": "/sites/manasflow/editorial/8ad268c866499f8c.svg",
+      "original": "catalog-74d0f0657fb033.png"
+    },
+    {
+      "id": "8e7ec13a916ecc69",
+      "title": "AI Knowledge Base Search: How It Differs From Keyword Search (2026)",
+      "route": "/blog/ai-knowledge-base-search",
+      "local": "/sites/manasflow/editorial/8e7ec13a916ecc69.svg",
+      "original": "catalog-f9652bedba2063.png"
+    },
+    {
+      "id": "9c547989b1659bab",
+      "title": "AI Internal Tools Builders: What They Handle, Where They Fall Short (2026)",
+      "route": "/blog/ai-internal-tools-builder",
+      "local": "/sites/manasflow/editorial/9c547989b1659bab.svg",
+      "original": "catalog-f81a87568a6047.png"
+    },
+    {
+      "id": "33d0ca763b6ad08f",
+      "title": "AI Internal Audit Tools: What Full-Population Testing Changes (2026)",
+      "route": "/blog/ai-internal-audit-tool",
+      "local": "/sites/manasflow/editorial/33d0ca763b6ad08f.svg",
+      "original": "catalog-5fc510d2c05b64.png"
+    },
+    {
+      "id": "cabd3b4d7422cecd",
+      "title": "AI Inference Cost Optimization: Where Spend Actually Goes (2026)",
+      "route": "/blog/ai-inference-cost-optimization",
+      "local": "/sites/manasflow/editorial/cabd3b4d7422cecd.svg",
+      "original": "catalog-5b72f8f73170f4.png"
+    },
+    {
+      "id": "5ffcc1441a344378",
+      "title": "AI Image Generation for Marketing: What to Automate, What Needs a Designer (2026)",
+      "route": "/blog/ai-image-generation-for-marketing",
+      "local": "/sites/manasflow/editorial/5ffcc1441a344378.svg",
+      "original": "catalog-9003347a548bdf.png"
+    },
+    {
+      "id": "51b56bdeb18732fc",
+      "title": "5 Best AI Hallucination Detection Approaches (2026)",
+      "route": "/blog/ai-hallucination-detection-tools",
+      "local": "/sites/manasflow/editorial/51b56bdeb18732fc.svg",
+      "original": "catalog-057b9f1f36449a.png"
+    },
+    {
+      "id": "1fae6639c0999083",
+      "title": "AI Grant Writing for Nonprofits: What to Automate, Why Authenticity Matters (2026)",
+      "route": "/blog/ai-grant-writing-nonprofit",
+      "local": "/sites/manasflow/editorial/1fae6639c0999083.svg",
+      "original": "catalog-5b7f58a0dcc323.png"
+    },
+    {
+      "id": "ce39e5fe8e8437f0",
+      "title": "7 Things to Know About AI Fraud Detection Tools (2026)",
+      "route": "/blog/ai-fraud-detection-tool",
+      "local": "/sites/manasflow/editorial/ce39e5fe8e8437f0.svg",
+      "original": "catalog-ec7cebe3c314a1.png"
+    },
+    {
+      "id": "9e2e9cf994ea6e19",
+      "title": "AI Form Builders: What to Automate, What Data Ethics Still Applies (2026)",
+      "route": "/blog/ai-form-builder",
+      "local": "/sites/manasflow/editorial/9e2e9cf994ea6e19.svg",
+      "original": "catalog-db8b5834ab7034.png"
+    },
+    {
+      "id": "2dda2df4a17d9846",
+      "title": "AI Expense Management: What to Automate, What Needs Human Review (2026)",
+      "route": "/blog/ai-expense-management-agent",
+      "local": "/sites/manasflow/editorial/2dda2df4a17d9846.svg",
+      "original": "catalog-c597895a20c880.png"
+    },
+    {
+      "id": "77e1a445599f4634",
+      "title": "AI-Enhanced E-Signature Tools: What Changes, What Stays the Same (2026)",
+      "route": "/blog/ai-esignature-tool",
+      "local": "/sites/manasflow/editorial/77e1a445599f4634.svg",
+      "original": "catalog-3d8d01b5205564.png"
+    },
+    {
+      "id": "35f956256067560c",
+      "title": "AI ESG and Sustainability Reporting: What Helps, Why Data Accuracy Matters Most (2026)",
+      "route": "/blog/ai-esg-sustainability-reporting",
+      "local": "/sites/manasflow/editorial/35f956256067560c.svg",
+      "original": "catalog-a1fe120f80445d.png"
+    },
+    {
+      "id": "35fb181b1538148b",
+      "title": "AI Employee Sentiment Analysis: What It Does Well, What It Should Not Touch (2026)",
+      "route": "/blog/ai-employee-sentiment-analysis",
+      "local": "/sites/manasflow/editorial/35fb181b1538148b.svg",
+      "original": "catalog-da64d3ec8f9c5f.png"
+    },
+    {
+      "id": "4fa105d2cd5ef44a",
+      "title": "AI Employee Onboarding Automation: What to Automate, What Stays Human (2026)",
+      "route": "/blog/ai-employee-onboarding-automation",
+      "local": "/sites/manasflow/editorial/4fa105d2cd5ef44a.svg",
+      "original": "catalog-2d70e0f79cad3e.png"
+    },
+    {
+      "id": "40568692aadc6451",
+      "title": "AI Employee Experience Platforms: What to Automate, What Stays Human (2026)",
+      "route": "/blog/ai-employee-experience-platform",
+      "local": "/sites/manasflow/editorial/40568692aadc6451.svg",
+      "original": "catalog-e7d8b219621627.png"
+    },
+    {
+      "id": "430f2d910dacbdb8",
+      "title": "AI Email Agents: What to Automate and What to Review First (2026)",
+      "route": "/blog/ai-email-agent",
+      "local": "/sites/manasflow/editorial/430f2d910dacbdb8.svg",
+      "original": "catalog-a6f8a83da5ad3a.png"
+    },
+    {
+      "id": "db9aa1c7e9d2e84f",
+      "title": "AI Dynamic Pricing: What It Automates, the Customer Trust Risks (2026)",
+      "route": "/blog/ai-dynamic-pricing-optimization",
+      "local": "/sites/manasflow/editorial/db9aa1c7e9d2e84f.svg",
+      "original": "catalog-603513f0406252.png"
+    },
+    {
+      "id": "5bf892fe4041d85c",
+      "title": "AI Document Extraction: How It Differs From Traditional OCR (2026)",
+      "route": "/blog/ai-document-extraction",
+      "local": "/sites/manasflow/editorial/5bf892fe4041d85c.svg",
+      "original": "catalog-9a3c52fcc398a4.png"
+    },
+    {
+      "id": "ec752904e123bf62",
+      "title": "AI Design Agents for Figma: What to Automate, What to Keep Human (2026)",
+      "route": "/blog/ai-design-agent-figma",
+      "local": "/sites/manasflow/editorial/ec752904e123bf62.svg",
+      "original": "catalog-9cbd6d662ee4c6.png"
+    },
+    {
+      "id": "bc9539b8a3b638fa",
+      "title": "AI Demand Forecasting: What Changes, Where the Real Limits Are (2026)",
+      "route": "/blog/ai-demand-forecasting",
+      "local": "/sites/manasflow/editorial/bc9539b8a3b638fa.svg",
+      "original": "catalog-c88d2961a5228b.png"
+    },
+    {
+      "id": "be26120ffe75b9f5",
+      "title": "AI Deepfake Detection Tools: What They Catch, Where Investigation Leads (2026)",
+      "route": "/blog/ai-deepfake-detection-tool",
+      "local": "/sites/manasflow/editorial/be26120ffe75b9f5.svg",
+      "original": "catalog-e6fed4c97e72bb.png"
+    },
+    {
+      "id": "a99c573327b24802",
+      "title": "AI Data Privacy Compliance: What Helps, Where Legal Judgment Leads (2026)",
+      "route": "/blog/ai-data-privacy-compliance",
+      "local": "/sites/manasflow/editorial/a99c573327b24802.svg",
+      "original": "catalog-dfa8c5a6922b6f.png"
+    },
+    {
+      "id": "43797c0f9d92ab8a",
+      "title": "AI-Assisted Data Labeling: How It Works, Where It Risks Quality (2026)",
+      "route": "/blog/ai-data-labeling-annotation",
+      "local": "/sites/manasflow/editorial/43797c0f9d92ab8a.svg",
+      "original": "catalog-32afaae94d9b27.png"
+    },
+    {
+      "id": "a15f259ca962a2bb",
+      "title": "AI Contract Lifecycle Management: What It Covers, Where Legal Still Leads (2026)",
+      "route": "/blog/ai-contract-lifecycle-management",
+      "local": "/sites/manasflow/editorial/a15f259ca962a2bb.svg",
+      "original": "catalog-4e9d94f3d8d487.png"
+    },
+    {
+      "id": "25d85c4939c47d24",
+      "title": "AI Competitor Intelligence: What to Automate, the Ethical Boundaries (2026)",
+      "route": "/blog/ai-competitor-intelligence-tool",
+      "local": "/sites/manasflow/editorial/25d85c4939c47d24.svg",
+      "original": "catalog-0946c0d46eee18.png"
+    },
+    {
+      "id": "baffb0630bde3b2e",
+      "title": "AI Cold Email Personalization: What Works, Where It Backfires (2026)",
+      "route": "/blog/ai-cold-email-personalization",
+      "local": "/sites/manasflow/editorial/baffb0630bde3b2e.svg",
+      "original": "catalog-35e565d6252980.png"
+    },
+    {
+      "id": "2cdaa802df347346",
+      "title": "AI Codebase Search: What It Does Well, What It Cannot Replace (2026)",
+      "route": "/blog/ai-codebase-search-understanding",
+      "local": "/sites/manasflow/editorial/2cdaa802df347346.svg",
+      "original": "catalog-c955a15efec696.png"
+    },
+    {
+      "id": "32b367f9821d6179",
+      "title": "AI Vulnerability Scanning: What Changes, the False Positive Trade-off (2026)",
+      "route": "/blog/ai-code-security-vulnerability-scanning",
+      "local": "/sites/manasflow/editorial/32b367f9821d6179.svg",
+      "original": "catalog-0ec93d6152e042.png"
+    },
+    {
+      "id": "bf52da63388e38ff",
+      "title": "7 Best AI Code Review Tools for Development Teams (2026)",
+      "route": "/blog/ai-code-review-tool",
+      "local": "/sites/manasflow/editorial/bf52da63388e38ff.svg",
+      "original": "catalog-8529a360d22832.png"
+    },
+    {
+      "id": "a4e91ce6e3358f5c",
+      "title": "AI Code Refactoring Tools: What to Automate, Why Test Coverage Matters Most (2026)",
+      "route": "/blog/ai-code-refactoring-tool",
+      "local": "/sites/manasflow/editorial/a4e91ce6e3358f5c.svg",
+      "original": "catalog-81f717d977012a.png"
+    },
+    {
+      "id": "b855f0fed47a82d1",
+      "title": "AI Code Documentation Generators: What to Automate, What Needs Context (2026)",
+      "route": "/blog/ai-code-documentation-generator",
+      "local": "/sites/manasflow/editorial/b855f0fed47a82d1.svg",
+      "original": "catalog-7ef1f930fd57e7.png"
+    },
+    {
+      "id": "4b26f99bbb49b183",
+      "title": "AI Clinical Trial Matching: What It Does, Where Clinical Oversight Leads (2026)",
+      "route": "/blog/ai-clinical-trial-matching",
+      "local": "/sites/manasflow/editorial/4b26f99bbb49b183.svg",
+      "original": "catalog-684d24e9b9e7af.png"
+    },
+    {
+      "id": "5c196c9bccbea18c",
+      "title": "AI Claims Processing: What It Automates, Where Adjusters Still Lead (2026)",
+      "route": "/blog/ai-claims-processing-insurance",
+      "local": "/sites/manasflow/editorial/5c196c9bccbea18c.svg",
+      "original": "catalog-37edd8ba2bb3f1.png"
+    },
+    {
+      "id": "e7270b42acef41fe",
+      "title": "AI Bias Testing: Methods and Where Organizations Get It Wrong (2026)",
+      "route": "/blog/ai-bias-testing",
+      "local": "/sites/manasflow/editorial/e7270b42acef41fe.svg",
+      "original": "catalog-1f5cc49dd90c6b.png"
+    },
+    {
+      "id": "d5a616555ac2a086",
+      "title": "AI Benefits Enrollment Agents: What to Automate, What Stays a Choice (2026)",
+      "route": "/blog/ai-benefits-enrollment-agent",
+      "local": "/sites/manasflow/editorial/d5a616555ac2a086.svg",
+      "original": "catalog-02e3426f669ac4.png"
+    },
+    {
+      "id": "ba31ba8d31206caf",
+      "title": "AI Avatar Creation Tools: What They Are Good For (2026)",
+      "route": "/blog/ai-avatar-creation-tool",
+      "local": "/sites/manasflow/editorial/ba31ba8d31206caf.svg",
+      "original": "catalog-bb43667fecef44.png"
+    },
+    {
+      "id": "c50fe3b671d06f33",
+      "title": "AI Automation for Real Estate: What to Automate, What Needs an Agent (2026)",
+      "route": "/blog/ai-automation-for-real-estate",
+      "local": "/sites/manasflow/editorial/c50fe3b671d06f33.svg",
+      "original": "catalog-e22b782f81a3bf.png"
+    },
+    {
+      "id": "4245f01c9ace70ca",
+      "title": "AI Automation for Law Firms: What to Automate, What Needs an Attorney (2026)",
+      "route": "/blog/ai-automation-for-law-firms",
+      "local": "/sites/manasflow/editorial/4245f01c9ace70ca.svg",
+      "original": "catalog-400af504b037b8.png"
+    },
+    {
+      "id": "7a4f72709f007ead",
+      "title": "AI Automation for Hospitality: What to Automate, What Stays Human (2026)",
+      "route": "/blog/ai-automation-for-hospitality",
+      "local": "/sites/manasflow/editorial/7a4f72709f007ead.svg",
+      "original": "catalog-b8290de4a3ca64.png"
+    },
+    {
+      "id": "5e13c099c4141539",
+      "title": "AI Automation for Healthcare: Where It Fits, Where It Should Not (2026)",
+      "route": "/blog/ai-automation-for-healthcare",
+      "local": "/sites/manasflow/editorial/5e13c099c4141539.svg",
+      "original": "catalog-17afb5460e360b.png"
+    },
+    {
+      "id": "33fc1798794ce8d1",
+      "title": "AI Automation for Ecommerce: What Scales, What Needs a Person (2026)",
+      "route": "/blog/ai-automation-for-ecommerce",
+      "local": "/sites/manasflow/editorial/33fc1798794ce8d1.svg",
+      "original": "catalog-a90f9903486090.png"
+    },
+    {
+      "id": "317c78adfe3e0420",
+      "title": "AI Automation for Dental Practices: What to Automate, What Stays Clinical (2026)",
+      "route": "/blog/ai-automation-for-dental-practices",
+      "local": "/sites/manasflow/editorial/317c78adfe3e0420.svg",
+      "original": "catalog-29fd6a5e35b13b.png"
+    },
+    {
+      "id": "85326b37f1cc1be7",
+      "title": "AI Automation for Accounting Firms: What to Automate, What Stays Advisory (2026)",
+      "route": "/blog/ai-automation-for-accounting-firms",
+      "local": "/sites/manasflow/editorial/85326b37f1cc1be7.svg",
+      "original": "catalog-b8f9d1d231f7e7.png"
+    },
+    {
+      "id": "67ac89c3801a26c6",
+      "title": "AI API Integration Agents: What They Automate, What Still Needs Review (2026)",
+      "route": "/blog/ai-api-integration-agent",
+      "local": "/sites/manasflow/editorial/67ac89c3801a26c6.svg",
+      "original": "catalog-fe2837bd910003.png"
+    },
+    {
+      "id": "14bea3236c358553",
+      "title": "AI API Documentation Generators: What to Automate, Why Review Still Matters (2026)",
+      "route": "/blog/ai-api-documentation-generator",
+      "local": "/sites/manasflow/editorial/14bea3236c358553.svg",
+      "original": "catalog-297914792b3c99.png"
+    },
+    {
+      "id": "ea9fe937d365b689",
+      "title": "AI Agent Testing in CI/CD Pipelines: A Practical Guide (2026)",
+      "route": "/blog/ai-agent-testing-ci-cd-pipelines",
+      "local": "/sites/manasflow/editorial/ea9fe937d365b689.svg",
+      "original": "catalog-8132328d1a4d7b.png"
+    },
+    {
+      "id": "dfb177b9c5ffc6fc",
+      "title": "AI Agent Red Teaming: A Practical Guide (2026)",
+      "route": "/blog/ai-agent-red-teaming",
+      "local": "/sites/manasflow/editorial/dfb177b9c5ffc6fc.svg",
+      "original": "catalog-1e3f1257b41eac.png"
+    },
+    {
+      "id": "d0c7c3fce4627bad",
+      "title": "AI Agent Pricing Models for SaaS: A Practical Guide (2026)",
+      "route": "/blog/ai-agent-pricing-model-saas",
+      "local": "/sites/manasflow/editorial/d0c7c3fce4627bad.svg",
+      "original": "catalog-9e9bcdbf610be9.png"
+    },
+    {
+      "id": "25bb3e392c532d12",
+      "title": "AI Agent Memory: How to Give Agents Context That Persists (2026)",
+      "route": "/blog/ai-agent-memory",
+      "local": "/sites/manasflow/editorial/25bb3e392c532d12.svg",
+      "original": "catalog-b03caca5e4ccdd.png"
+    },
+    {
+      "id": "c2c192efd295ff81",
+      "title": "AI Agent Identity and Access Management: A Practical Guide (2026)",
+      "route": "/blog/ai-agent-identity-access-management",
+      "local": "/sites/manasflow/editorial/c2c192efd295ff81.svg",
+      "original": "catalog-00f8b0df9b0877.png"
+    },
+    {
+      "id": "c8278df44cab7773",
+      "title": "AI Agent Guardrails: How to Deploy Agents That Won't Wreck Production (2026)",
+      "route": "/blog/ai-agent-guardrails",
+      "local": "/sites/manasflow/editorial/c8278df44cab7773.svg",
+      "original": "catalog-9cbc6db9bccc1a.png"
+    },
+    {
+      "id": "dc1bdb75d2a8d6e8",
+      "title": "How to Evaluate AI Agents: A Practical Guide to Agent Evals (2026)",
+      "route": "/blog/ai-agent-evals-guide",
+      "local": "/sites/manasflow/editorial/dc1bdb75d2a8d6e8.svg",
+      "original": "catalog-a19f7ce1faed44.png"
+    },
+    {
+      "id": "298ac972a90a1d24",
+      "title": "AI Agent Cost Per Task: How to Actually Measure It (2026)",
+      "route": "/blog/ai-agent-cost-per-task",
+      "local": "/sites/manasflow/editorial/298ac972a90a1d24.svg",
+      "original": "catalog-88c7e2b7afd7f3.png"
+    },
+    {
+      "id": "428870bf8352b998",
+      "title": "AI Experimentation Platforms: What They Automate, Where Judgment Still Matters (2026)",
+      "route": "/blog/ai-ab-testing-experimentation-platform",
+      "local": "/sites/manasflow/editorial/428870bf8352b998.svg",
+      "original": "catalog-a9f3d0200f628f.png"
+    },
+    {
+      "id": "23d8090bdb549a97",
+      "title": "What Is Kimi K3? Moonshot AI's New Flagship Model Explained",
+      "route": "/blog/what-is-kimi-k3",
+      "local": "/sites/manasflow/editorial/23d8090bdb549a97.svg",
+      "original": "catalog-ce616c8b283517.png"
+    },
+    {
+      "id": "cef2f1323e48f511",
+      "title": "Kimi K3 Open Weights Are Live: The License Catch",
+      "route": "/blog/kimi-k3-open-weight-release",
+      "local": "/sites/manasflow/editorial/cef2f1323e48f511.svg",
+      "original": "catalog-a67bbeb7b4df35.png"
+    },
+    {
+      "id": "e0829be8a0787e5f",
+      "title": "How to Become a GTM Engineer: Skills, Path, and Salary (2026)",
+      "route": "/blog/how-to-become-a-gtm-engineer",
+      "local": "/sites/manasflow/editorial/e0829be8a0787e5f.svg",
+      "original": "catalog-4bb68d91b73f16.png"
+    },
+    {
+      "id": "aecd321ddc74db75",
+      "title": "GTM Engineer at Clay: What the Role Looks Like Day to Day (2026)",
+      "route": "/blog/gtm-engineer-at-clay",
+      "local": "/sites/manasflow/editorial/aecd321ddc74db75.svg",
+      "original": "catalog-71833bf1844a34.png"
+    },
+    {
+      "id": "8e06c2a6be9b5d7a",
+      "title": "AI Automation Agency vs Freelancer vs In-House: Which Is Right?",
+      "route": "/blog/ai-automation-agency-vs-freelancer-vs-in-house",
+      "local": "/sites/manasflow/editorial/8e06c2a6be9b5d7a.svg",
+      "original": "catalog-7a9e2cf6601155.png"
+    },
+    {
+      "id": "c641fb13fd361692",
+      "title": "AI Automation Agency for Real Estate: What It Actually Automates",
+      "route": "/blog/ai-automation-agency-for-real-estate",
+      "local": "/sites/manasflow/editorial/c641fb13fd361692.svg",
+      "original": "catalog-73fe0c0adaaf27.png"
+    },
+    {
+      "id": "1af8446d9869dbdd",
+      "title": "AI Automation Agency for Law Firms: What It Actually Automates",
+      "route": "/blog/ai-automation-agency-for-law-firms",
+      "local": "/sites/manasflow/editorial/1af8446d9869dbdd.svg",
+      "original": "catalog-5ec9a4cc3516e3.png"
+    },
+    {
+      "id": "a967ae90a54ee74a",
+      "title": "AI Automation Agency for Small Business: What You Actually Get",
+      "route": "/blog/ai-automation-agency-for-small-business",
+      "local": "/sites/manasflow/editorial/a967ae90a54ee74a.svg",
+      "original": "catalog-9d1cb981e2676f.png"
+    },
+    {
+      "id": "b0d895228d009ab8",
+      "title": "AI Automation Agency Pricing: How They Actually Charge",
+      "route": "/blog/ai-automation-agency-pricing",
+      "local": "/sites/manasflow/editorial/b0d895228d009ab8.svg",
+      "original": "catalog-b21bb0d3ef7314.png"
+    },
+    {
+      "id": "1f2e0cf3444ac181",
+      "title": "Is an AI Automation Agency Worth It? The Honest Answer",
+      "route": "/blog/is-an-ai-automation-agency-worth-it",
+      "local": "/sites/manasflow/editorial/1f2e0cf3444ac181.svg",
+      "original": "catalog-5fba7006f586bc.png"
+    },
+    {
+      "id": "717472f64c58e314",
+      "title": "AWS Forward Deployed Engineers: What the $1B Investment Means",
+      "route": "/blog/aws-forward-deployed-engineers",
+      "local": "/sites/manasflow/editorial/717472f64c58e314.svg",
+      "original": "catalog-8e8eece0ad7c79.png"
+    },
+    {
+      "id": "9778f2f1dc2b4073",
+      "title": "What Is an AI Employee? Cost, Capabilities, and Honest Limits (2026)",
+      "route": "/blog/what-is-an-ai-employee",
+      "local": "/sites/manasflow/editorial/9778f2f1dc2b4073.svg",
+      "original": "catalog-32a82038579235.png"
+    },
+    {
+      "id": "4ae34a21078c88c1",
+      "title": "Claude Code Training for Teams: The 6 Layers That Matter",
+      "route": "/blog/claude-code-training-for-teams",
+      "local": "/sites/manasflow/editorial/4ae34a21078c88c1.svg",
+      "original": "catalog-f90efc162dcc1e.png"
+    },
+    {
+      "id": "8e16ca70e771d878",
+      "title": "AI Adoption Roadmap: The 4-Phase Plan That Actually Ships (2026)",
+      "route": "/blog/ai-adoption-roadmap",
+      "local": "/sites/manasflow/editorial/8e16ca70e771d878.svg",
+      "original": "catalog-b4f9ce83bdd107.png"
+    },
+    {
+      "id": "696b4b0a1c0b7c94",
+      "title": "What Does an AI Automation Consultant Do? Role, Process, Cost (2026)",
+      "route": "/blog/ai-automation-consultant",
+      "local": "/sites/manasflow/editorial/696b4b0a1c0b7c94.svg",
+      "original": "catalog-a778c1ce574355.png"
+    },
+    {
+      "id": "81a0e118080e48db",
+      "title": "AI Readiness Assessment: The 5-Dimension Scorecard That Predicts Success (2026)",
+      "route": "/blog/ai-readiness-assessment",
+      "local": "/sites/manasflow/editorial/81a0e118080e48db.svg",
+      "original": "catalog-c0b008f20def7a.png"
+    },
+    {
+      "id": "cfde2b30aa7119c2",
+      "title": "n8n Hits $5.2B Valuation: Enterprise-Ready in 2026",
+      "route": "/blog/n8n-enterprise-valuation-2026",
+      "local": "/sites/manasflow/editorial/cfde2b30aa7119c2.svg",
+      "original": "catalog-2abab9ba82ed05.png"
+    },
+    {
+      "id": "b0d64e6452b42acc",
+      "title": "CrewAI vs LangGraph in 2026: Which Multi-Agent Framework Should You Build On?",
+      "route": "/blog/crewai-vs-langgraph",
+      "local": "/sites/manasflow/editorial/b0d64e6452b42acc.svg",
+      "original": "catalog-7b83fcc4382be0.png"
+    },
+    {
+      "id": "c5454418d11c820c",
+      "title": "Claude Cowork vs Claude Code: Which One Your Team Actually Needs (2026)",
+      "route": "/blog/claude-cowork-vs-claude-code",
+      "local": "/sites/manasflow/editorial/c5454418d11c820c.svg",
+      "original": "catalog-2786822ac26e80.png"
+    },
+    {
+      "id": "edc4d70285215a17",
+      "title": "How to Set Up Claude Cowork the Right Way (Setup Guide + Safety Notes)",
+      "route": "/blog/claude-cowork-setup-guide",
+      "local": "/sites/manasflow/editorial/edc4d70285215a17.svg",
+      "original": "catalog-b8098d67bdf75e.png"
+    },
+    {
+      "id": "d90c66dd31658cbb",
+      "title": "What Is Claude Cowork? Anthropic's Agent for Knowledge Work Explained",
+      "route": "/blog/what-is-claude-cowork",
+      "local": "/sites/manasflow/editorial/d90c66dd31658cbb.svg",
+      "original": "catalog-5b0fb7c1675580.png"
+    },
+    {
+      "id": "a8b803e066454a56",
+      "title": "AI Chatbot for Ecommerce: Setup, Cost, and What It Actually Does",
+      "route": "/blog/ai-chatbot-for-ecommerce",
+      "local": "/sites/manasflow/editorial/a8b803e066454a56.svg",
+      "original": "catalog-fe4f7f34f343e4.png"
+    },
+    {
+      "id": "dda555941ca545e4",
+      "title": "AI Chatbot Development: Cost, Timeline, and Build vs Buy",
+      "route": "/blog/ai-chatbot-development-cost",
+      "local": "/sites/manasflow/editorial/dda555941ca545e4.svg",
+      "original": "catalog-f2db791f6ace0b.png"
+    },
+    {
+      "id": "500060a733346380",
+      "title": "Best AI Chatbots for Business in 2026",
+      "route": "/blog/best-ai-chatbots-for-business",
+      "local": "/sites/manasflow/editorial/500060a733346380.svg",
+      "original": "catalog-412a772dbd55ae.png"
+    },
+    {
+      "id": "79b359c8c7b9cc4f",
+      "title": "Intelligent Document Processing: How It Works and When You Need It",
+      "route": "/blog/intelligent-document-processing-guide",
+      "local": "/sites/manasflow/editorial/79b359c8c7b9cc4f.svg",
+      "original": "catalog-6ad495b4de031e.png"
+    },
+    {
+      "id": "9c9e566508f76071",
+      "title": "What Is AI Strategy Consulting (And When You Actually Need It)",
+      "route": "/blog/what-is-ai-strategy-consulting",
+      "local": "/sites/manasflow/editorial/9c9e566508f76071.svg",
+      "original": "catalog-6dd914f5e9874e.png"
+    },
+    {
+      "id": "376540ce47e2132d",
+      "title": "AI Agent Frameworks Compared: ReAct, RAG Agents, and What to Actually Use",
+      "route": "/blog/ai-agent-frameworks-compared",
+      "local": "/sites/manasflow/editorial/376540ce47e2132d.svg",
+      "original": "catalog-269846145d5f21.png"
+    },
+    {
+      "id": "a8c1c99f2cad6bed",
+      "title": "How to Choose a Generative AI Development Company",
+      "route": "/blog/choosing-generative-ai-development-company",
+      "local": "/sites/manasflow/editorial/a8c1c99f2cad6bed.svg",
+      "original": "catalog-74877bb9d1f0b5.png"
+    },
+    {
+      "id": "c56acb37b6481034",
+      "title": "Claude Fable 5.1 vs Opus 5: Which Should You Actually Use?",
+      "route": "/blog/claude-fable-5-1-vs-opus-5",
+      "local": "/sites/manasflow/editorial/c56acb37b6481034.svg",
+      "original": "catalog-a0a18c3d70ddb1.png"
+    },
+    {
+      "id": "4665ea88730af6f2",
+      "title": "8 things that changed in Claude Fable 5.1 (vs Fable 5)",
+      "route": "/blog/claude-fable-5-1-whats-new",
+      "local": "/sites/manasflow/editorial/4665ea88730af6f2.svg",
+      "original": "catalog-0353158d3af32a.png"
+    },
+    {
+      "id": "1f23ea61410e058d",
+      "title": "Claude Fable 5.1 Pricing, Benchmarks, and What Changed From Fable 5",
+      "route": "/blog/claude-fable-5-1-pricing-benchmarks",
+      "local": "/sites/manasflow/editorial/1f23ea61410e058d.svg",
+      "original": "catalog-e571196f2a4451.png"
+    },
+    {
+      "id": "33559478a161e766",
+      "title": "Claude Agent SDK vs Claude Code: What's the Difference (and When to Use Each)",
+      "route": "/blog/claude-agent-sdk-vs-claude-code",
+      "local": "/sites/manasflow/editorial/33559478a161e766.svg",
+      "original": "catalog-9dd75ca00a4de7.png"
+    },
+    {
+      "id": "aaaeb026da7e43d4",
+      "title": "No-Code AI Agent Builder: 5 Best Picks (2026)",
+      "route": "/blog/no-code-ai-agent-builders",
+      "local": "/sites/manasflow/editorial/aaaeb026da7e43d4.svg",
+      "original": "catalog-c60199c5e8a69d.png"
+    },
+    {
+      "id": "90b0c1f3cc4ceeba",
+      "title": "The 9 Pages a SaaS Needs for SEO (Built With an Agent)",
+      "route": "/blog/9-pages-a-saas-needs-for-seo",
+      "local": "/sites/manasflow/editorial/90b0c1f3cc4ceeba.svg",
+      "original": "catalog-6ad70f3b709371.png"
+    },
+    {
+      "id": "4085a8b7773f8e28",
+      "title": "120+ Free Backlink Sites: The Complete List by Category (2026)",
+      "route": "/blog/free-backlink-sites",
+      "local": "/sites/manasflow/editorial/4085a8b7773f8e28.svg",
+      "original": "catalog-e60783c1ccf8d0.png"
+    },
+    {
+      "id": "be4eeda4b1f9ab2d",
+      "title": "Buzz by Block Agents: How Identity and Access Work",
+      "route": "/blog/buzz-by-block-agents-explained",
+      "local": "/sites/manasflow/editorial/be4eeda4b1f9ab2d.svg",
+      "original": "catalog-be16ab644e4597.png"
+    },
+    {
+      "id": "013e4b070eabadf4",
+      "title": "Grok Bot Is Here: What xAI's Always-On AI Agents Actually Do",
+      "route": "/blog/grok-bot-xai-ai-agents-explained",
+      "local": "/sites/manasflow/editorial/013e4b070eabadf4.svg",
+      "original": "catalog-e400a7a12c2f6c.jpg"
+    },
+    {
+      "id": "206df04c0e44050b",
+      "title": "AI Chamber of Commerce Membership Event Planning: What to Automate, Where Staff Lead (2026)",
+      "route": "/blog/ai-chamber-of-commerce-membership-event-planning",
+      "local": "/sites/manasflow/editorial/206df04c0e44050b.svg",
+      "original": "catalog-2822be5c345b10.png"
+    },
+    {
+      "id": "f98b1cbc22fcaf26",
+      "title": "AI Correctional Facility Inmate Record Management: What to Automate, Where Staff Lead (2026)",
+      "route": "/blog/ai-correctional-facility-inmate-record-management",
+      "local": "/sites/manasflow/editorial/f98b1cbc22fcaf26.svg",
+      "original": "catalog-998930367417df.png"
+    },
+    {
+      "id": "704652d7a9ede1d2",
+      "title": "AI Continuing Education Credit Tracking for Professional Licenses: What to Automate, Where the License Holder Leads (2026)",
+      "route": "/blog/ai-continuing-education-credit-tracking-professional-license",
+      "local": "/sites/manasflow/editorial/704652d7a9ede1d2.svg",
+      "original": "catalog-bc55e8c5dc0469.png"
+    },
+    {
+      "id": "fabdaf24f296f536",
+      "title": "AI Expert Witness Case Matching and Sourcing: What to Automate, Where Litigation Teams Lead (2026)",
+      "route": "/blog/ai-expert-witness-case-matching-sourcing",
+      "local": "/sites/manasflow/editorial/fabdaf24f296f536.svg",
+      "original": "catalog-b9f95a352bd626.png"
+    },
+    {
+      "id": "8031134cf716763d",
+      "title": "AI Law Firm Conflict of Interest Checking: What to Automate, Where Attorneys Lead (2026)",
+      "route": "/blog/ai-law-firm-conflict-of-interest-checking",
+      "local": "/sites/manasflow/editorial/8031134cf716763d.svg",
+      "original": "catalog-358682fb2f6b5a.png"
+    },
+    {
+      "id": "8ad7a57551936c2c",
+      "title": "AI Law Firm Malpractice Insurance Risk Tracking: What to Automate, Where Firm Leadership Leads (2026)",
+      "route": "/blog/ai-law-firm-malpractice-insurance-risk-tracking",
+      "local": "/sites/manasflow/editorial/8ad7a57551936c2c.svg",
+      "original": "catalog-69b82814b38f72.png"
+    },
+    {
+      "id": "fdec63f2ede7213b",
+      "title": "12 Best Places to Hire AI Developers (2026)",
+      "route": "/blog/best-places-to-hire-ai-developers",
+      "local": "/sites/manasflow/editorial/fdec63f2ede7213b.svg",
+      "original": "catalog-f6267824a8417f.jpg"
+    },
+    {
+      "id": "3136a11323136310",
+      "title": "How Much Does Custom AI Agent Development Cost in 2026?",
+      "route": "/blog/ai-agent-development-cost-2026",
+      "local": "/sites/manasflow/editorial/3136a11323136310.svg",
+      "original": "catalog-de8d4fe3bb2961.png"
+    },
+    {
+      "id": "9eebaa01d5841ef7",
+      "title": "Best AI Automation Consultants & Consulting Firms (2026)",
+      "route": "/blog/best-ai-automation-consultants-2026",
+      "local": "/sites/manasflow/editorial/9eebaa01d5841ef7.svg",
+      "original": "catalog-818f66e8d7d992.png"
+    },
+    {
+      "id": "c782eaa85dc879cc",
+      "title": "AI Automation Consultant Hourly Rates: 2026 Benchmark",
+      "route": "/blog/ai-consultant-hourly-rate-guide-2026",
+      "local": "/sites/manasflow/editorial/c782eaa85dc879cc.svg",
+      "original": "catalog-a57b2cbfefdd5e.png"
+    },
+    {
+      "id": "bbe1bb1ac18d45df",
+      "title": "Best Marketing Automation Agencies (2026)",
+      "route": "/blog/best-marketing-automation-agencies-2026",
+      "local": "/sites/manasflow/editorial/bbe1bb1ac18d45df.svg",
+      "original": "catalog-68b9237eb47481.png"
+    },
+    {
+      "id": "1f95c1872b2185c2",
+      "title": "AI Mining Site Safety Incident Reporting: What to Automate, Where Safety Staff Lead (2026)",
+      "route": "/blog/ai-mining-site-safety-incident-reporting",
+      "local": "/sites/manasflow/editorial/1f95c1872b2185c2.svg",
+      "original": "catalog-2245907cb902b3.png"
+    },
+    {
+      "id": "dc13e9c189b86d7c",
+      "title": "AI Shipping Port Vessel Scheduling Coordination: What to Automate, Where Port Staff Lead (2026)",
+      "route": "/blog/ai-shipping-port-vessel-scheduling-coordination",
+      "local": "/sites/manasflow/editorial/dc13e9c189b86d7c.svg",
+      "original": "catalog-175543b1f8f18d.png"
+    },
+    {
+      "id": "ce6e31efdde1356d",
+      "title": "AI Railroad Track Inspection Defect Detection: What to Automate, Where Engineers Lead (2026)",
+      "route": "/blog/ai-railroad-track-inspection-defect-detection",
+      "local": "/sites/manasflow/editorial/ce6e31efdde1356d.svg",
+      "original": "catalog-4a86c46f4fe398.png"
+    },
+    {
+      "id": "d53a77a41d8b72e9",
+      "title": "AI Utility Overhead Line Inspection Drone Imagery: What to Automate, Where Engineers Lead (2026)",
+      "route": "/blog/ai-utility-overhead-line-inspection-drone-imagery",
+      "local": "/sites/manasflow/editorial/d53a77a41d8b72e9.svg",
+      "original": "catalog-9990bbbaf0cbb4.png"
+    },
+    {
+      "id": "0d64a17c57790a76",
+      "title": "AI Water Treatment Plant Chemical Dosing Optimization: What to Automate, Where Operators Lead (2026)",
+      "route": "/blog/ai-water-treatment-plant-chemical-dosing-optimization",
+      "local": "/sites/manasflow/editorial/0d64a17c57790a76.svg",
+      "original": "catalog-be9c8c8bd0b996.png"
+    },
+    {
+      "id": "095d13aef766fc1d",
+      "title": "10 Best Enterprise AI Agent Development Companies (2026)",
+      "route": "/blog/best-ai-agent-development-companies-enterprise",
+      "local": "/sites/manasflow/editorial/095d13aef766fc1d.svg",
+      "original": "catalog-e01d1e3dcb4016.png"
+    },
+    {
+      "id": "a5eea5e8364d2db8",
+      "title": "AI Electrical Substation Predictive Maintenance Monitoring: What to Automate, Where Engineers Lead (2026)",
+      "route": "/blog/ai-electrical-substation-predictive-maintenance-monitoring",
+      "local": "/sites/manasflow/editorial/a5eea5e8364d2db8.svg",
+      "original": "catalog-fa6977ee1c4b25.png"
+    },
+    {
+      "id": "e529f339b7034ec5",
+      "title": "10 Best AI App Development Companies in 2026",
+      "route": "/blog/best-ai-app-development-companies",
+      "local": "/sites/manasflow/editorial/e529f339b7034ec5.svg",
+      "original": "catalog-9b1f766303fb78.png"
+    },
+    {
+      "id": "0dc5a0c62c758cc3",
+      "title": "AI Industrial Boiler Efficiency Monitoring and Optimization: What to Automate, Where Operators Lead (2026)",
+      "route": "/blog/ai-industrial-boiler-efficiency-monitoring-optimization",
+      "local": "/sites/manasflow/editorial/0dc5a0c62c758cc3.svg",
+      "original": "catalog-5913c58f939efe.png"
+    },
+    {
+      "id": "09871b82f8e01cfb",
+      "title": "9 Best AI Development Companies in Canada (2026)",
+      "route": "/blog/best-ai-development-companies-canada",
+      "local": "/sites/manasflow/editorial/09871b82f8e01cfb.svg",
+      "original": "catalog-33d737ac55d32d.png"
+    },
+    {
+      "id": "7ac70a07da16e18a",
+      "title": "AI Industrial Compressor Vibration Analysis Monitoring: What to Automate, Where Engineers Lead (2026)",
+      "route": "/blog/ai-industrial-compressor-vibration-analysis-monitoring",
+      "local": "/sites/manasflow/editorial/7ac70a07da16e18a.svg",
+      "original": "catalog-aeccdd065d4962.png"
+    },
+    {
+      "id": "4d910bffab8b722a",
+      "title": "Best AI Fashion Model Generators for Ecommerce in 2026",
+      "route": "/blog/best-ai-fashion-model-generators-for-ecommerce-2026",
+      "local": "/sites/manasflow/editorial/4d910bffab8b722a.svg",
+      "original": "catalog-d49b68d2d7a87e.webp"
+    },
+    {
+      "id": "6c5fa8c12d4b9ff0",
+      "title": "GTM Engineer Jobs: What Postings Actually Ask For (and What They Pay)",
+      "route": "/blog/gtm-engineer-jobs",
+      "local": "/sites/manasflow/editorial/6c5fa8c12d4b9ff0.svg",
+      "original": "catalog-47d95f6706541c.png"
+    },
+    {
+      "id": "05a63be01147c450",
+      "title": "What Is a GTM Engineer? Role, Skills, and GTM Engineer vs RevOps (2026)",
+      "route": "/blog/what-is-a-gtm-engineer",
+      "local": "/sites/manasflow/editorial/05a63be01147c450.svg",
+      "original": "catalog-5947740269155a.png"
+    },
+    {
+      "id": "9a7d3c06fca6effa",
+      "title": "How to Create an Enterprise AI Strategy (Without Hiring a Consulting Firm)",
+      "route": "/blog/how-to-create-an-enterprise-ai-strategy",
+      "local": "/sites/manasflow/editorial/9a7d3c06fca6effa.svg",
+      "original": "catalog-be09dc2056cecb.png"
+    },
+    {
+      "id": "93f1a36e9bbf69bd",
+      "title": "AI Film Production Budget Tracking: What to Automate, Where Producers Lead (2026)",
+      "route": "/blog/ai-film-production-budget-tracking",
+      "local": "/sites/manasflow/editorial/93f1a36e9bbf69bd.svg",
+      "original": "catalog-ea46a9281dce59.png"
+    },
+    {
+      "id": "cf93b8191f6c0d8b",
+      "title": "Best AI Fashion Video Generators in 2026",
+      "route": "/blog/best-ai-fashion-video-generators-2026",
+      "local": "/sites/manasflow/editorial/cf93b8191f6c0d8b.svg",
+      "original": "catalog-39a07fc1138755.webp"
+    },
+    {
+      "id": "aad3b89601f897c7",
+      "title": "AI Bar Association Attorney Discipline Complaint Tracking: What to Automate, Where Bar Counsel Leads (2026)",
+      "route": "/blog/ai-bar-association-attorney-discipline-complaint-tracking",
+      "local": "/sites/manasflow/editorial/aad3b89601f897c7.svg",
+      "original": "catalog-4f93ea7c9e7242.png"
+    },
+    {
+      "id": "2c5f78afa1d62dc4",
+      "title": "Best AI Ghost Mannequin Tools in 2026",
+      "route": "/blog/best-ai-ghost-mannequin-tools-2026",
+      "local": "/sites/manasflow/editorial/2c5f78afa1d62dc4.svg",
+      "original": "catalog-7c505bba90f1ac.webp"
+    },
+    {
+      "id": "e05cd426f04fe068",
+      "title": "AI Accessibility Audit Website Compliance: What to Automate, Where Specialists Lead (2026)",
+      "route": "/blog/ai-accessibility-audit-website-compliance",
+      "local": "/sites/manasflow/editorial/e05cd426f04fe068.svg",
+      "original": "catalog-e602b65dc2b868.png"
+    },
+    {
+      "id": "d37b03aacdb653bf",
+      "title": "7 Best Vibe Coding Tools for Building Software Fast (2026)",
+      "route": "/blog/best-vibe-coding-tools",
+      "local": "/sites/manasflow/editorial/d37b03aacdb653bf.svg",
+      "original": "catalog-931cd43cf78508.png"
+    },
+    {
+      "id": "52b855f1d7bdc0e0",
+      "title": "Best AI Tools for Fashion Brands in 2026",
+      "route": "/blog/best-ai-tools-for-fashion-brands-2026",
+      "local": "/sites/manasflow/editorial/52b855f1d7bdc0e0.svg",
+      "original": "catalog-09a10bab328ee5.webp"
+    },
+    {
+      "id": "87a7c117f8eeec94",
+      "title": "Make vs n8n vs Zapier for AI Automation: Full Comparison",
+      "route": "/blog/make-vs-n8n-vs-zapier",
+      "local": "/sites/manasflow/editorial/87a7c117f8eeec94.svg",
+      "original": "catalog-6d8e163ea49b00.png"
+    },
+    {
+      "id": "eccd117b3e9f08e6",
+      "title": "Best AI Tools for Fashion Photography in 2026",
+      "route": "/blog/best-ai-tools-for-fashion-photography-2026",
+      "local": "/sites/manasflow/editorial/eccd117b3e9f08e6.svg",
+      "original": "catalog-adc184bb90071f.webp"
+    },
+    {
+      "id": "8659c67ed1b955c5",
+      "title": "How to Sandbox AI Agents Safely",
+      "route": "/blog/how-to-sandbox-ai-agents-safely",
+      "local": "/sites/manasflow/editorial/8659c67ed1b955c5.svg",
+      "original": "catalog-c0655f5b42bd08.png"
+    },
+    {
+      "id": "acb76ab09b1cb0fe",
+      "title": "Best open-source AI agents in 2026 (that actually work)",
+      "route": "/blog/best-open-source-ai-agents-2026",
+      "local": "/sites/manasflow/editorial/acb76ab09b1cb0fe.svg",
+      "original": "catalog-bf3983c348e84f.png"
+    },
+    {
+      "id": "6928c3204cdb1b45",
+      "title": "How to Use Buzz by Block: Agents as Team Members",
+      "route": "/blog/how-to-use-buzz-by-block",
+      "local": "/sites/manasflow/editorial/6928c3204cdb1b45.svg",
+      "original": "catalog-c79f1671cea982.png"
+    },
+    {
+      "id": "f0bddd60314bb903",
+      "title": "AI Agent Security Incidents in July 2026: What Broke",
+      "route": "/blog/ai-agent-security-incidents-july-2026",
+      "local": "/sites/manasflow/editorial/f0bddd60314bb903.svg",
+      "original": "catalog-5f181ffc732953.png"
+    },
+    {
+      "id": "c6ef4d58da2748a4",
+      "title": "n8n Sandbox Escape (CVSS 8.7): Patch and Harden Now",
+      "route": "/blog/n8n-sandbox-escape-vulnerability-explained",
+      "local": "/sites/manasflow/editorial/c6ef4d58da2748a4.svg",
+      "original": "catalog-988990f8887406.png"
+    },
+    {
+      "id": "59ffedaad9af53cb",
+      "title": "AI Governance Jobs: Roles, Salaries, and Whether You Need a Full-Time Hire (2026)",
+      "route": "/blog/ai-governance-jobs",
+      "local": "/sites/manasflow/editorial/59ffedaad9af53cb.svg",
+      "original": "catalog-2e98223b43088b.png"
+    },
+    {
+      "id": "f0a0fea8d7416586",
+      "title": "13 Best AI Workflow Automation Platforms in 2026",
+      "route": "/blog/best-ai-workflow-automation-platforms",
+      "local": "/sites/manasflow/editorial/f0a0fea8d7416586.svg",
+      "original": "catalog-09c4f497f1c7d8.png"
+    },
+    {
+      "id": "fcf2bfa91919a64f",
+      "title": "AI Automation Statistics 2026: 50 Verified Stats",
+      "route": "/blog/ai-automation-statistics-2026",
+      "local": "/sites/manasflow/editorial/fcf2bfa91919a64f.svg",
+      "original": "catalog-33c47eb4c2d3ef.png"
+    },
+    {
+      "id": "5bd749cca3c466a6",
+      "title": "Claude Opus 5 Benchmarks: Wins, Losses, and Where Opus 5.5 Leads",
+      "route": "/blog/claude-opus-5-benchmarks",
+      "local": "/sites/manasflow/editorial/5bd749cca3c466a6.svg",
+      "original": "catalog-ce7c6be9ffa24d.png"
+    },
+    {
+      "id": "6c1efcbe8cdd2ee6",
+      "title": "Claude Opus 5 Pricing: $5 and $25 per Million Tokens",
+      "route": "/blog/claude-opus-5-pricing",
+      "local": "/sites/manasflow/editorial/6c1efcbe8cdd2ee6.svg",
+      "original": "catalog-f02c47c5af70ec.png"
+    },
+    {
+      "id": "1cad806e22ef6d25",
+      "title": "Claude Opus 5 vs Fable 5: Which Should You Actually Use in 2026?",
+      "route": "/blog/opus-5-vs-fable-5",
+      "local": "/sites/manasflow/editorial/1cad806e22ef6d25.svg",
+      "original": "catalog-e7c866547d9f4a.png"
+    },
+    {
+      "id": "cd891c4854475cf6",
+      "title": "12 Best AI App Builders in 2026",
+      "route": "/blog/best-ai-app-builders",
+      "local": "/sites/manasflow/editorial/cd891c4854475cf6.svg",
+      "original": "catalog-09e9da88baae2d.png"
+    },
+    {
+      "id": "085433ba23fd1cbf",
+      "title": "Bing's AI Performance Report: What 43.9K Citations Taught Us",
+      "route": "/blog/bing-ai-performance-report-llm-citations",
+      "local": "/sites/manasflow/editorial/085433ba23fd1cbf.svg",
+      "original": "catalog-55776d9b00c8ac.png"
+    },
+    {
+      "id": "481c99e3aaf4c696",
+      "title": "12 Best AI Agent Security Tools in 2026 (Verified, Compared)",
+      "route": "/blog/best-ai-agent-security-tools",
+      "local": "/sites/manasflow/editorial/481c99e3aaf4c696.svg",
+      "original": "catalog-28d5a6458bedb8.png"
+    },
+    {
+      "id": "a5a58ed6c85b44d3",
+      "title": "AI Agent Security Best Practices: A Practical Guide for Teams (2026)",
+      "route": "/blog/ai-agent-security-best-practices",
+      "local": "/sites/manasflow/editorial/a5a58ed6c85b44d3.svg",
+      "original": "catalog-a08ebb09ea594e.png"
+    },
+    {
+      "id": "3b972c080afe5cda",
+      "title": "How to Hire a Forward Deployed Engineer: The Buyer Guide",
+      "route": "/blog/how-to-hire-a-forward-deployed-engineer",
+      "local": "/sites/manasflow/editorial/3b972c080afe5cda.svg",
+      "original": "catalog-d61202aeb58d78.png"
+    },
+    {
+      "id": "67525c7a14b247ba",
+      "title": "Forward Deployed Engineer Tools: The Real Toolchain, Not the Hype",
+      "route": "/blog/forward-deployed-engineer-tools",
+      "local": "/sites/manasflow/editorial/67525c7a14b247ba.svg",
+      "original": "catalog-fe451c84662108.png"
+    },
+    {
+      "id": "9994b046f9b777e3",
+      "title": "The Forward Deployed Engineer Business Model, Explained",
+      "route": "/blog/forward-deployed-engineer-business-model",
+      "local": "/sites/manasflow/editorial/9994b046f9b777e3.svg",
+      "original": "catalog-00771794ba67b6.png"
+    },
+    {
+      "id": "4b1d7fc8f7e802cb",
+      "title": "Forward Deployed Engineer vs AI Engineer: The Real Difference",
+      "route": "/blog/forward-deployed-engineer-vs-ai-engineer",
+      "local": "/sites/manasflow/editorial/4b1d7fc8f7e802cb.svg",
+      "original": "catalog-0580714a6f1b21.png"
+    },
+    {
+      "id": "0584678f4b8a078a",
+      "title": "Forward Deployed Engineer vs Consultant: What Actually Differs",
+      "route": "/blog/forward-deployed-engineer-vs-consultant",
+      "local": "/sites/manasflow/editorial/0584678f4b8a078a.svg",
+      "original": "catalog-f50ba6d11bd5aa.png"
+    },
+    {
+      "id": "f18187c91d140ac2",
+      "title": "Forward Deployed Engineer Salary: What We Actually Know",
+      "route": "/blog/forward-deployed-engineer-salary",
+      "local": "/sites/manasflow/editorial/f18187c91d140ac2.svg",
+      "original": "catalog-96b1cc54acf9fc.png"
+    },
+    {
+      "id": "19e799ab9357b5f9",
+      "title": "AI Governance Challenges Nobody Talks About (and Fixes)",
+      "route": "/blog/ai-governance-challenges",
+      "local": "/sites/manasflow/editorial/19e799ab9357b5f9.svg",
+      "original": "catalog-e5663f7f06b620.png"
+    },
+    {
+      "id": "df0c9b0cfb214a26",
+      "title": "How to Implement an AI Governance Framework (Step by Step)",
+      "route": "/blog/how-to-implement-ai-governance-framework",
+      "local": "/sites/manasflow/editorial/df0c9b0cfb214a26.svg",
+      "original": "catalog-0f05aae8525804.png"
+    },
+    {
+      "id": "33fe5e25a7127cfd",
+      "title": "AI Governance Maturity Model: The 5 Levels (Self-Assessment)",
+      "route": "/blog/ai-governance-maturity-model",
+      "local": "/sites/manasflow/editorial/33fe5e25a7127cfd.svg",
+      "original": "catalog-769b9edc532ea0.png"
+    },
+    {
+      "id": "9512bc66e4cd5d43",
+      "title": "How to Use Codex CLI Day to Day (2026 Guide)",
+      "route": "/blog/how-to-use-codex",
+      "local": "/sites/manasflow/editorial/9512bc66e4cd5d43.svg",
+      "original": "catalog-bd65d0d9eaccd5.png"
+    },
+    {
+      "id": "49a2316e753c7cba",
+      "title": "OpenAI Codex CLI vs Claude Code: Which Terminal Coding Agent Should You Use? (2026)",
+      "route": "/blog/codex-vs-claude-code",
+      "local": "/sites/manasflow/editorial/49a2316e753c7cba.svg",
+      "original": "catalog-1df66a09c7e9de.png"
+    },
+    {
+      "id": "dff1b746ceadf70b",
+      "title": "What Is OpenAI Codex CLI? Install, Auth, and First Commands",
+      "route": "/blog/what-is-codex-cli",
+      "local": "/sites/manasflow/editorial/dff1b746ceadf70b.svg",
+      "original": "catalog-c67655a8cb242c.png"
+    },
+    {
+      "id": "1ba82879ec97b3ee",
+      "title": "How to Use Kimi K3: Access, API Setup, and Pricing (2026)",
+      "route": "/blog/how-to-use-kimi-k3",
+      "local": "/sites/manasflow/editorial/1ba82879ec97b3ee.svg",
+      "original": "catalog-5731ca117d07bb.png"
+    },
+    {
+      "id": "5d180fea0fbc2658",
+      "title": "Best Apps for Clothing Design in 2026",
+      "route": "/blog/best-apps-for-clothing-design-2026",
+      "local": "/sites/manasflow/editorial/5d180fea0fbc2658.svg",
+      "original": "catalog-c3f020bb05e90a.webp"
+    },
+    {
+      "id": "8f7bb973389a280c",
+      "title": "Hiring AI Automation Experts: Agency, Freelancer, or Embedded Engineer",
+      "route": "/blog/hire-ai-automation-experts",
+      "local": "/sites/manasflow/editorial/8f7bb973389a280c.svg",
+      "original": "catalog-714bd5c0d6b7d6.png"
+    },
+    {
+      "id": "f38eca48122d066b",
+      "title": "12 Best AI Development Companies in India (2026)",
+      "route": "/blog/best-ai-development-companies-india",
+      "local": "/sites/manasflow/editorial/f38eca48122d066b.svg",
+      "original": "catalog-6c81fa5cb7cb55.png"
+    },
+    {
+      "id": "ea475867d0571498",
+      "title": "Setting Up Claude Code for a Team (2026 Playbook)",
+      "route": "/blog/claude-code-team-setup",
+      "local": "/sites/manasflow/editorial/ea475867d0571498.svg",
+      "original": "catalog-021a894046de58.png"
+    },
+    {
+      "id": "e86023d2f84a6a68",
+      "title": "10 Top AI Development Companies in the UK (2026)",
+      "route": "/blog/best-ai-development-companies-uk",
+      "local": "/sites/manasflow/editorial/e86023d2f84a6a68.svg",
+      "original": "catalog-667f5b2dfdb257.png"
+    },
+    {
+      "id": "2a92f63862f92ceb",
+      "title": "Claude vs ChatGPT for Coding (2026): Honest Comparison",
+      "route": "/blog/claude-vs-chatgpt-for-coding",
+      "local": "/sites/manasflow/editorial/2a92f63862f92ceb.svg",
+      "original": "catalog-f084d46026df28.png"
+    },
+    {
+      "id": "d809492948e56bed",
+      "title": "12 Best AI Development Companies in the USA (2026)",
+      "route": "/blog/best-ai-development-companies-usa",
+      "local": "/sites/manasflow/editorial/d809492948e56bed.svg",
+      "original": "catalog-a0cae05ba726f1.png"
+    },
+    {
+      "id": "95f7270b34824b7f",
+      "title": "Claude Code Security Audit: Ship AI-Generated Code Safely in 2026",
+      "route": "/blog/claude-code-security-audit",
+      "local": "/sites/manasflow/editorial/95f7270b34824b7f.svg",
+      "original": "catalog-4c84a7cfd446f7.png"
+    },
+    {
+      "id": "293015be101e3241",
+      "title": "12 Best AI Ecommerce Automation Tools in 2026",
+      "route": "/blog/best-ai-ecommerce-automation-tools",
+      "local": "/sites/manasflow/editorial/293015be101e3241.svg",
+      "original": "catalog-f33b51b1393b4b.png"
+    },
+    {
+      "id": "650ee7f6c60bb184",
+      "title": "OpenClaw Enterprise Setup in 2026: Deploy NemoClaw Agents Securely",
+      "route": "/blog/openclaw-enterprise-setup",
+      "local": "/sites/manasflow/editorial/650ee7f6c60bb184.svg",
+      "original": "catalog-495989bbb17a80.png"
+    },
+    {
+      "id": "0ef1694855cfb610",
+      "title": "12 Best AI Marketing Automation Tools in 2026",
+      "route": "/blog/best-ai-marketing-automation-tools",
+      "local": "/sites/manasflow/editorial/0ef1694855cfb610.svg",
+      "original": "catalog-4545be4333cbb4.png"
+    },
+    {
+      "id": "ef52c590abe3bd2b",
+      "title": "Best Free AI Models for n8n (2026): Power AI Agents Without Paying for Tokens",
+      "route": "/blog/free-ai-models-for-n8n",
+      "local": "/sites/manasflow/editorial/ef52c590abe3bd2b.svg",
+      "original": "catalog-1e07084ce698bf.png"
+    },
+    {
+      "id": "fc7db87ab6ab1666",
+      "title": "12 Best AI Software Development Companies in 2026",
+      "route": "/blog/best-ai-software-development-companies",
+      "local": "/sites/manasflow/editorial/fc7db87ab6ab1666.svg",
+      "original": "catalog-012c98c0ff1ca7.png"
+    },
+    {
+      "id": "1142f72ea824b155",
+      "title": "Free AI Models Safe for Commercial Use (2026): What You Can Ship Without a License Problem",
+      "route": "/blog/free-ai-models-commercial-use",
+      "local": "/sites/manasflow/editorial/1142f72ea824b155.svg",
+      "original": "catalog-080c6edc8ae2dc.png"
+    },
+    {
+      "id": "48f5c70d78818626",
+      "title": "Tencent Hy3: Free API Access to a 295B Open Model",
+      "route": "/blog/tencent-hy3-free-api",
+      "local": "/sites/manasflow/editorial/48f5c70d78818626.svg",
+      "original": "catalog-493a2cffc9492f.png"
+    },
+    {
+      "id": "2d2df9576275d718",
+      "title": "9 Best Claude Code Alternatives for Agentic Coding in 2026",
+      "route": "/blog/best-claude-code-alternatives",
+      "local": "/sites/manasflow/editorial/2d2df9576275d718.svg",
+      "original": "catalog-25878e9cc19fb5.png"
+    },
+    {
+      "id": "3415c21218fbe2a3",
+      "title": "Free AI Models for Coding in Cursor, VS Code + Claude Code (2026)",
+      "route": "/blog/free-ai-models-for-coding",
+      "local": "/sites/manasflow/editorial/3415c21218fbe2a3.svg",
+      "original": "catalog-b8332a5b7b0f10.png"
+    },
+    {
+      "id": "ee9acb1943ab7adc",
+      "title": "12 Best Claude Code CLI Tools to Pair With Your Agent in 2026",
+      "route": "/blog/best-claude-code-cli-tools",
+      "local": "/sites/manasflow/editorial/ee9acb1943ab7adc.svg",
+      "original": "catalog-a9658cbc82dca6.png"
+    },
+    {
+      "id": "25d2681cfe85e1df",
+      "title": "Claude Code vs n8n: Which Should Run Your Automation? (2026)",
+      "route": "/blog/claude-code-vs-n8n",
+      "local": "/sites/manasflow/editorial/25d2681cfe85e1df.svg",
+      "original": "catalog-753b5bd5a836b0.png"
+    },
+    {
+      "id": "a6909f079b5b914f",
+      "title": "12 Best Claude Code MCP Servers in 2026",
+      "route": "/blog/best-claude-code-mcp-servers",
+      "local": "/sites/manasflow/editorial/a6909f079b5b914f.svg",
+      "original": "catalog-914db454e0a368.png"
+    },
+    {
+      "id": "d36e00997327297e",
+      "title": "Cursor vs Claude Code (2026): Honest Side-by-Side",
+      "route": "/blog/cursor-vs-claude-code",
+      "local": "/sites/manasflow/editorial/d36e00997327297e.svg",
+      "original": "catalog-623ce59ac86075.png"
+    },
+    {
+      "id": "e747ab4c887c434a",
+      "title": "14 Best Claude Code Plugins in 2026",
+      "route": "/blog/best-claude-code-plugins",
+      "local": "/sites/manasflow/editorial/e747ab4c887c434a.svg",
+      "original": "catalog-593ad4749cbb6a.png"
+    },
+    {
+      "id": "e5567c644f0fd1c4",
+      "title": "Devin vs Claude Code (2026): Autonomous Agents Compared",
+      "route": "/blog/devin-vs-claude-code",
+      "local": "/sites/manasflow/editorial/e5567c644f0fd1c4.svg",
+      "original": "catalog-bd634d2e28e538.png"
+    },
+    {
+      "id": "209be0b55f595ee1",
+      "title": "15 Best Claude Code Prompts and System Templates in 2026",
+      "route": "/blog/best-claude-code-prompts",
+      "local": "/sites/manasflow/editorial/209be0b55f595ee1.svg",
+      "original": "catalog-5c0031ce069ddf.png"
+    },
+    {
+      "id": "1b20ea22dff87867",
+      "title": "GitHub Copilot vs Claude Code (2026): Pick the Right Tool",
+      "route": "/blog/github-copilot-vs-claude-code",
+      "local": "/sites/manasflow/editorial/1b20ea22dff87867.svg",
+      "original": "catalog-ef07cfede3aa73.png"
+    },
+    {
+      "id": "06cde3b54049b481",
+      "title": "10 Best Claude Code Sub-Agents for Power Users in 2026",
+      "route": "/blog/best-claude-code-sub-agents",
+      "local": "/sites/manasflow/editorial/06cde3b54049b481.svg",
+      "original": "catalog-97ccf7a80d199e.png"
+    },
+    {
+      "id": "32da310ff0783f01",
+      "title": "How to Build an AI Engineering Team From Scratch (2026)",
+      "route": "/blog/how-to-build-an-ai-engineering-team",
+      "local": "/sites/manasflow/editorial/32da310ff0783f01.svg",
+      "original": "catalog-2a7987a63f2ad8.png"
+    },
+    {
+      "id": "0443d5158bf29783",
+      "title": "12 Best Claude Code Tutorials and Courses in 2026",
+      "route": "/blog/best-claude-code-tutorials",
+      "local": "/sites/manasflow/editorial/0443d5158bf29783.svg",
+      "original": "catalog-7422f3c7ac9a71.png"
+    },
+    {
+      "id": "81bd205dbcc8577b",
+      "title": "How to Build a Custom MCP Server in 2026 (Step-by-Step)",
+      "route": "/blog/how-to-build-custom-mcp-server",
+      "local": "/sites/manasflow/editorial/81bd205dbcc8577b.svg",
+      "original": "catalog-87b56df3756fce.png"
+    },
+    {
+      "id": "7d0773207470e06f",
+      "title": "Sakana Fugu Alternatives: Best Open-Source & Self-Hosted Options (2026)",
+      "route": "/blog/sakana-fugu-alternatives",
+      "local": "/sites/manasflow/editorial/7d0773207470e06f.svg",
+      "original": "catalog-468da38e5b7075.webp"
+    },
+    {
+      "id": "26c38315d810d3f0",
+      "title": "Maestro vs Sakana Fugu: Open-Source vs Closed LLM Orchestration (2026)",
+      "route": "/blog/maestro-vs-sakana-fugu",
+      "local": "/sites/manasflow/editorial/26c38315d810d3f0.svg",
+      "original": "catalog-5d6ea793fcbe0f.webp"
+    },
+    {
+      "id": "8e477de689460205",
+      "title": "7 Best Open-Source LLM Orchestration & Routing Tools (2026)",
+      "route": "/blog/open-source-llm-orchestration-tools",
+      "local": "/sites/manasflow/editorial/8e477de689460205.svg",
+      "original": "catalog-9ea2191b928a5f.webp"
+    },
+    {
+      "id": "d65b87b3da8d050d",
+      "title": "What Is LLM Orchestration? Routing, Verify-and-Escalate & Cost Control (2026)",
+      "route": "/blog/what-is-llm-orchestration",
+      "local": "/sites/manasflow/editorial/d65b87b3da8d050d.svg",
+      "original": "catalog-93837065fc7ca8.webp"
+    },
+    {
+      "id": "60b9be88d5bdcdfe",
+      "title": "Sakana Fugu Review: Is It a Real Breakthrough or Just a Wrapper?",
+      "route": "/blog/sakana-fugu-review",
+      "local": "/sites/manasflow/editorial/60b9be88d5bdcdfe.svg",
+      "original": "catalog-e15edf13bcc63f.webp"
+    },
+    {
+      "id": "3b092746b88fc9a2",
+      "title": "Sakana Fugu vs Fable 5: Benchmarks, Orchestration, and Which to Use (2026)",
+      "route": "/blog/sakana-fugu-vs-fable-5",
+      "local": "/sites/manasflow/editorial/3b092746b88fc9a2.svg",
+      "original": "catalog-d5a4ddd136ca16.webp"
+    },
+    {
+      "id": "566cb0e78974a6c8",
+      "title": "Sakana Fugu Pricing Explained: What It Costs and How Billing Works (2026)",
+      "route": "/blog/sakana-fugu-pricing-explained",
+      "local": "/sites/manasflow/editorial/566cb0e78974a6c8.svg",
+      "original": "catalog-923b80cee01591.webp"
+    },
+    {
+      "id": "08a79d4c3c63ab24",
+      "title": "What Is Sakana Fugu? The Orchestration Model Explained (+ How to Use It)",
+      "route": "/blog/what-is-sakana-fugu",
+      "local": "/sites/manasflow/editorial/08a79d4c3c63ab24.svg",
+      "original": "catalog-541127934257ef.webp"
+    },
+    {
+      "id": "9b6c83c554100f5b",
+      "title": "How to Build a Multi-Agent System With Claude in 2026",
+      "route": "/blog/how-to-build-multi-agent-system-claude",
+      "local": "/sites/manasflow/editorial/9b6c83c554100f5b.svg",
+      "original": "catalog-e870b3b4e64160.png"
+    },
+    {
+      "id": "d4499f686d25638b",
+      "title": "8 Production Claude Code Workflows (With Real Use Cases) in 2026",
+      "route": "/blog/best-claude-code-workflows",
+      "local": "/sites/manasflow/editorial/d4499f686d25638b.svg",
+      "original": "catalog-9d02eb2c8d05c8.png"
+    },
+    {
+      "id": "3b5aec1bb7137226",
+      "title": "How to Build a RAG System with Claude in 2026",
+      "route": "/blog/how-to-build-rag-with-claude",
+      "local": "/sites/manasflow/editorial/3b5aec1bb7137226.svg",
+      "original": "catalog-73a04c0e1bd870.png"
+    },
+    {
+      "id": "4aef41253d755e56",
+      "title": "11 Best Customer Service & Support Automation Tools in 2026",
+      "route": "/blog/best-customer-support-automation-tools",
+      "local": "/sites/manasflow/editorial/4aef41253d755e56.svg",
+      "original": "catalog-d4efadfeb13825.png"
+    },
+    {
+      "id": "8884dc215cbbe1ca",
+      "title": "How to Set Up Claude Code (2026 Step-by-Step Guide)",
+      "route": "/blog/how-to-set-up-claude-code",
+      "local": "/sites/manasflow/editorial/8884dc215cbbe1ca.svg",
+      "original": "catalog-011c92dbf50dd7.png"
+    },
+    {
+      "id": "284eb5436e89eace",
+      "title": "14 Best LLM Orchestration Tools for Enterprise in 2026",
+      "route": "/blog/best-llm-orchestration-tools",
+      "local": "/sites/manasflow/editorial/284eb5436e89eace.svg",
+      "original": "catalog-7748dcb8b578f7.png"
+    },
+    {
+      "id": "f82aa30e31608790",
+      "title": "How to Write Claude Code Hooks (With 7 Production Examples)",
+      "route": "/blog/how-to-write-claude-code-hooks",
+      "local": "/sites/manasflow/editorial/f82aa30e31608790.svg",
+      "original": "catalog-b6976a047c15d0.png"
+    },
+    {
+      "id": "5eae73fe843e88bb",
+      "title": "12 Best Make.com Alternatives in 2026",
+      "route": "/blog/best-make-alternatives",
+      "local": "/sites/manasflow/editorial/5eae73fe843e88bb.svg",
+      "original": "catalog-cd27d44c17b232.png"
+    },
+    {
+      "id": "5e18c6a43a167ac4",
+      "title": "LangChain vs LangGraph (2026): When to Use Which",
+      "route": "/blog/langgraph-vs-langchain",
+      "local": "/sites/manasflow/editorial/5e18c6a43a167ac4.svg",
+      "original": "catalog-bb514a5d854fa1.png"
+    },
+    {
+      "id": "fdd446a912755d99",
+      "title": "AI Recruiting Automation: How to Automate Your Hiring Pipeline (2026)",
+      "route": "/blog/ai-recruiting-automation-guide",
+      "local": "/sites/manasflow/editorial/fdd446a912755d99.svg",
+      "original": "catalog-431933fe245a9d.png"
+    },
+    {
+      "id": "f6ecbebb600d6677",
+      "title": "Best AI Recruiting Software for Staffing & Recruiting Agencies (2026)",
+      "route": "/blog/ai-recruiting-software-for-staffing-agencies",
+      "local": "/sites/manasflow/editorial/f6ecbebb600d6677.svg",
+      "original": "catalog-4e544ee7eb5dae.png"
+    },
+    {
+      "id": "7a42df7aec9b6317",
+      "title": "What Is AI Recruiting Software? How It Works in 2026",
+      "route": "/blog/what-is-ai-recruiting-software",
+      "local": "/sites/manasflow/editorial/7a42df7aec9b6317.svg",
+      "original": "catalog-07f18c8f38ccf5.png"
+    },
+    {
+      "id": "2bfc89cf7acedbb0",
+      "title": "13 Best AI Recruiting Software Platforms in 2026",
+      "route": "/blog/best-ai-recruiting-software",
+      "local": "/sites/manasflow/editorial/2bfc89cf7acedbb0.svg",
+      "original": "catalog-9887bb6430a835.png"
+    },
+    {
+      "id": "118f8c48f505a5f6",
+      "title": "12 Best Multi-Agent Frameworks for Production in 2026",
+      "route": "/blog/best-multi-agent-frameworks",
+      "local": "/sites/manasflow/editorial/118f8c48f505a5f6.svg",
+      "original": "catalog-debfd27d891163.png"
+    },
+    {
+      "id": "726a10066ad5def3",
+      "title": "MCP Developer Salary 2026: What to Pay (Global Ranges)",
+      "route": "/blog/mcp-developer-salary",
+      "local": "/sites/manasflow/editorial/726a10066ad5def3.svg",
+      "original": "catalog-0f2e1b79895066.png"
+    },
+    {
+      "id": "8ef4a525ef2eba81",
+      "title": "12 Best n8n Alternatives in 2026",
+      "route": "/blog/best-n8n-alternatives",
+      "local": "/sites/manasflow/editorial/8ef4a525ef2eba81.svg",
+      "original": "catalog-d5d6efdacd6bd3.png"
+    },
+    {
+      "id": "bd384455a6c836ce",
+      "title": "MCP Development Agency: What to Look For in 2026",
+      "route": "/blog/mcp-development-agency-guide",
+      "local": "/sites/manasflow/editorial/bd384455a6c836ce.svg",
+      "original": "catalog-c162d901e4c1e0.png"
+    },
+    {
+      "id": "d9d8a9e4ba039458",
+      "title": "11 Best Python AI Agent Frameworks in 2026",
+      "route": "/blog/best-python-ai-agent-frameworks",
+      "local": "/sites/manasflow/editorial/d9d8a9e4ba039458.svg",
+      "original": "catalog-0fd9794ce7ce0a.png"
+    },
+    {
+      "id": "5e9827af53235c24",
+      "title": "The MCP Protocol Explained (2026): Why It Matters for Agents",
+      "route": "/blog/mcp-protocol-explained",
+      "local": "/sites/manasflow/editorial/5e9827af53235c24.svg",
+      "original": "catalog-fd27681b1d6470.png"
+    },
+    {
+      "id": "b6c0127fb258999a",
+      "title": "Framer 3.0 AI Agents: What Shipped and Where No-Code Agents Actually Fit",
+      "route": "/blog/framer-3-ai-agents",
+      "local": "/sites/manasflow/editorial/b6c0127fb258999a.svg",
+      "original": "catalog-a624659d9db33f.png"
+    },
+    {
+      "id": "913c9146ea03c875",
+      "title": "How to Get Cited by ChatGPT and Perplexity (GEO Guide 2026)",
+      "route": "/blog/how-to-get-cited-by-chatgpt-and-perplexity",
+      "local": "/sites/manasflow/editorial/913c9146ea03c875.svg",
+      "original": "catalog-dde5c03c748e99.png"
+    },
+    {
+      "id": "5673fbae5df3eabf",
+      "title": "12 Best Local LLM Tools to Run LLMs Locally in 2026",
+      "route": "/blog/best-local-llm-tools-2026",
+      "local": "/sites/manasflow/editorial/5673fbae5df3eabf.svg",
+      "original": "catalog-5467270dd933cd.png"
+    },
+    {
+      "id": "33c5a5fe11f4a38a",
+      "title": "12 Best AI Agent Observability Tools in 2026 (Tracing, Evals, Cost Tracking)",
+      "route": "/blog/best-ai-agent-observability-tools",
+      "local": "/sites/manasflow/editorial/33c5a5fe11f4a38a.svg",
+      "original": "catalog-a3b339078fa52c.png"
+    },
+    {
+      "id": "7e0749c3b0280991",
+      "title": "Best MCP Servers 2026: 15 Picks Builders Actually Use",
+      "route": "/blog/best-mcp-servers-2026",
+      "local": "/sites/manasflow/editorial/7e0749c3b0280991.svg",
+      "original": "catalog-a98ccdf7066255.png"
+    },
+    {
+      "id": "9dbdef18929fecbd",
+      "title": "RAG as a Service: The 2026 Buyer's Guide to Managed RAG Development",
+      "route": "/blog/rag-as-a-service",
+      "local": "/sites/manasflow/editorial/9dbdef18929fecbd.svg",
+      "original": "catalog-87f9fa3e735322.png"
+    },
+    {
+      "id": "384c99bb1f88a9f5",
+      "title": "AI Automation for SaaS Companies: A 2026 Buyer Guide to the Highest-ROI Use Cases",
+      "route": "/blog/ai-automation-for-saas-companies",
+      "local": "/sites/manasflow/editorial/384c99bb1f88a9f5.svg",
+      "original": "catalog-fa7d8ce5f48453.png"
+    },
+    {
+      "id": "1b99cb70f23dada2",
+      "title": "AI Customer Support Agent Development: How to Build One in 2026",
+      "route": "/blog/ai-customer-support-agent-development",
+      "local": "/sites/manasflow/editorial/1b99cb70f23dada2.svg",
+      "original": "catalog-13c4f28f42bd3b.png"
+    },
+    {
+      "id": "c27c74f4c1147794",
+      "title": "AI SDR Development: Build a Custom AI Sales Agent vs Buying a Tool (2026)",
+      "route": "/blog/ai-sdr-development",
+      "local": "/sites/manasflow/editorial/c27c74f4c1147794.svg",
+      "original": "catalog-c4d44f686b4497.png"
+    },
+    {
+      "id": "e727bc7c12568103",
+      "title": "n8n Development Services: The 2026 Buyer Guide to Hiring n8n Developers",
+      "route": "/blog/n8n-development-services",
+      "local": "/sites/manasflow/editorial/e727bc7c12568103.svg",
+      "original": "catalog-576a72f8c4897d.png"
+    },
+    {
+      "id": "460eef3f7525fc8c",
+      "title": "Context Engineering for AI Agents: The Practitioner Guide",
+      "route": "/blog/context-engineering",
+      "local": "/sites/manasflow/editorial/460eef3f7525fc8c.svg",
+      "original": "catalog-fc76b91db610eb.png"
+    },
+    {
+      "id": "027a2522abfe659f",
+      "title": "AI Voice Agent Development: How to Build a Custom Voice AI Agent for Your Business",
+      "route": "/blog/ai-voice-agent-development",
+      "local": "/sites/manasflow/editorial/027a2522abfe659f.svg",
+      "original": "catalog-b5b584f6ee13df.png"
+    },
+    {
+      "id": "29caac387627d785",
+      "title": "MCP Server Development: Complete 2026 Guide",
+      "route": "/blog/mcp-server-development-guide",
+      "local": "/sites/manasflow/editorial/29caac387627d785.svg",
+      "original": "catalog-d34d94ffe13833.png"
+    },
+    {
+      "id": "9034275008d6148e",
+      "title": "12 Best RAG Frameworks and Libraries in 2026",
+      "route": "/blog/best-rag-frameworks",
+      "local": "/sites/manasflow/editorial/9034275008d6148e.svg",
+      "original": "catalog-15dd0621494afd.png"
+    },
+    {
+      "id": "122e300afcea6112",
+      "title": "Replit Agent vs Claude Code (2026): Which to Pick",
+      "route": "/blog/replit-agent-vs-claude-code",
+      "local": "/sites/manasflow/editorial/122e300afcea6112.svg",
+      "original": "catalog-701768e5d4609b.png"
+    },
+    {
+      "id": "9abbb43bf37e403d",
+      "title": "12 Best TypeScript AI Agent Frameworks in 2026",
+      "route": "/blog/best-typescript-ai-agent-frameworks",
+      "local": "/sites/manasflow/editorial/9abbb43bf37e403d.svg",
+      "original": "catalog-277c017392256d.png"
+    },
+    {
+      "id": "c654af9ceffa1826",
+      "title": "When to Hire a Claude Code Consultant (vs Doing It Yourself)",
+      "route": "/blog/when-to-hire-a-claude-code-consultant",
+      "local": "/sites/manasflow/editorial/c654af9ceffa1826.svg",
+      "original": "catalog-aa2fd14379abb5.png"
+    },
+    {
+      "id": "1ef04de973cf651a",
+      "title": "MCP Server Development Services: How to Build a Custom MCP Server (2026 Guide)",
+      "route": "/blog/mcp-server-development-services",
+      "local": "/sites/manasflow/editorial/1ef04de973cf651a.svg",
+      "original": "catalog-670af36d5c53ba.png"
+    },
+    {
+      "id": "d432b6c565c45821",
+      "title": "Fractional CAIO: What a Fractional Chief AI Officer Does, Costs, and When to Hire One",
+      "route": "/blog/fractional-chief-ai-officer",
+      "local": "/sites/manasflow/editorial/d432b6c565c45821.svg",
+      "original": "catalog-e35d2eba511138.png"
+    },
+    {
+      "id": "b7ca0c4202b6fc84",
+      "title": "How to Hire Claude Code Developers in 2026",
+      "route": "/blog/hire-claude-code-developers-guide",
+      "local": "/sites/manasflow/editorial/b7ca0c4202b6fc84.svg",
+      "original": "catalog-4458e320df7b1d.png"
+    },
+    {
+      "id": "8f924d5f5ab4c18e",
+      "title": "Claude Code Consulting Services: The 2026 Buyer's Guide to Hiring a Claude Code Consultant",
+      "route": "/blog/claude-code-consulting-services",
+      "local": "/sites/manasflow/editorial/8f924d5f5ab4c18e.svg",
+      "original": "catalog-3ecce8e7fb5185.png"
+    },
+    {
+      "id": "b5fc3c18f8c12301",
+      "title": "AI Engineer Onboarding Playbook (2026): The First 30, 60, 90 Days",
+      "route": "/blog/ai-engineer-onboarding-playbook",
+      "local": "/sites/manasflow/editorial/b5fc3c18f8c12301.svg",
+      "original": "catalog-99b709c69f3e63.png"
+    },
+    {
+      "id": "81760959f4307e1f",
+      "title": "Nearshore AI Developers (2026): How to Hire Across LATAM + EU",
+      "route": "/blog/nearshore-ai-developers",
+      "local": "/sites/manasflow/editorial/81760959f4307e1f.svg",
+      "original": "catalog-e84b5836ce6282.png"
+    },
+    {
+      "id": "f956cf52e2ed498a",
+      "title": "How Much Does It Cost to Hire an AI Engineer in 2026? (Full Breakdown)",
+      "route": "/blog/hire-ai-engineers-cost-guide",
+      "local": "/sites/manasflow/editorial/f956cf52e2ed498a.svg",
+      "original": "catalog-ec770cc6d31d7b.png"
+    },
+    {
+      "id": "622e83f731f7aa0a",
+      "title": "Fractional AI Engineer Guide (2026): When + How to Hire",
+      "route": "/blog/fractional-ai-engineer-guide",
+      "local": "/sites/manasflow/editorial/622e83f731f7aa0a.svg",
+      "original": "catalog-c06b41cf045ee3.png"
+    },
+    {
+      "id": "7d92dab204007375",
+      "title": "How to Hire AI Engineers in 2026: The Complete Guide",
+      "route": "/blog/how-to-hire-ai-engineers",
+      "local": "/sites/manasflow/editorial/7d92dab204007375.svg",
+      "original": "catalog-de6f7ce39d66d7.png"
+    },
+    {
+      "id": "1b8c46f9ad549fb4",
+      "title": "Fractional CTO vs Fractional CAIO: The 2026 Buyer Guide",
+      "route": "/blog/fractional-cto-vs-caio",
+      "local": "/sites/manasflow/editorial/1b8c46f9ad549fb4.svg",
+      "original": "catalog-f7746c2605cea5.png"
+    },
+    {
+      "id": "3924fb50fd9969ea",
+      "title": "13 Best Workflow Automation Platforms in 2026",
+      "route": "/blog/best-workflow-automation-platforms",
+      "local": "/sites/manasflow/editorial/3924fb50fd9969ea.svg",
+      "original": "catalog-ee190c5613b935.png"
+    },
+    {
+      "id": "71c3999540edf3d6",
+      "title": "14 Best AI Sales Automation Tools in 2026",
+      "route": "/blog/best-ai-sales-automation-tools",
+      "local": "/sites/manasflow/editorial/71c3999540edf3d6.svg",
+      "original": "catalog-1d2cc19db603b3.png"
+    },
+    {
+      "id": "80e95e32f4c8529d",
+      "title": "12 Best Zapier Alternatives in 2026",
+      "route": "/blog/best-zapier-alternatives",
+      "local": "/sites/manasflow/editorial/80e95e32f4c8529d.svg",
+      "original": "catalog-26ae11a12a3561.png"
+    },
+    {
+      "id": "14dcc2e0f9fe08ce",
+      "title": "Why Did the US Government Shut Down Claude Fable 5? The Precedent Explained",
+      "route": "/blog/why-us-government-shut-down-claude-fable-5",
+      "local": "/sites/manasflow/editorial/14dcc2e0f9fe08ce.svg",
+      "original": "catalog-6af7af5c8a318e.png"
+    },
+    {
+      "id": "e26815cab4fbc598",
+      "title": "AI Model Failover: How to Architect an AI Stack That Survives a Model Disappearing",
+      "route": "/blog/ai-model-failover-architecture",
+      "local": "/sites/manasflow/editorial/e26815cab4fbc598.svg",
+      "original": "catalog-3829ec8e11b252.png"
+    },
+    {
+      "id": "f5d9052060e60d66",
+      "title": "Claude Fable 5 Alternatives: The Best Models to Consider Right Now",
+      "route": "/blog/claude-fable-5-alternatives",
+      "local": "/sites/manasflow/editorial/f5d9052060e60d66.svg",
+      "original": "catalog-d3328498671f5f.png"
+    },
+    {
+      "id": "913f41ad80961669",
+      "title": "The US Government Just Pulled Claude Fable 5 and Mythos 5, Three Days After Launch",
+      "route": "/blog/claude-fable-5-mythos-5-government-shutdown",
+      "local": "/sites/manasflow/editorial/913f41ad80961669.svg",
+      "original": "catalog-db39a8ed9ccfd3.png"
+    },
+    {
+      "id": "494e43f96a6663bb",
+      "title": "Claude Mythos 5 vs Fable 5: What's the Difference? (Restricted Access Explained, 2026)",
+      "route": "/blog/claude-mythos-5-vs-fable-5",
+      "local": "/sites/manasflow/editorial/494e43f96a6663bb.svg",
+      "original": "catalog-97d233834aa7ba.png"
+    },
+    {
+      "id": "caf82dfe6c34ade6",
+      "title": "Claude Opus vs Sonnet vs Haiku (2026): Which to Use When",
+      "route": "/blog/opus-vs-sonnet-vs-haiku",
+      "local": "/sites/manasflow/editorial/caf82dfe6c34ade6.svg",
+      "original": "catalog-10e9aea0ab6313.png"
+    },
+    {
+      "id": "1d2ace3fdb18820c",
+      "title": "13 Best Claude Code Project Templates in 2026",
+      "route": "/blog/best-claude-code-templates",
+      "local": "/sites/manasflow/editorial/1d2ace3fdb18820c.svg",
+      "original": "catalog-4647ccafd381f6.png"
+    },
+    {
+      "id": "f0f7271782aac3bd",
+      "title": "12 Best CLAUDE.md Examples From Real Repos (2026)",
+      "route": "/blog/best-claude-md-examples",
+      "local": "/sites/manasflow/editorial/f0f7271782aac3bd.svg",
+      "original": "catalog-f551741f3c462f.png"
+    },
+    {
+      "id": "dbb97f4c53453594",
+      "title": "Claude Certified Architect Study Guide (2026): Practice Questions + Mock Exam",
+      "route": "/blog/claude-certified-architect-study-guide",
+      "local": "/sites/manasflow/editorial/dbb97f4c53453594.svg",
+      "original": "catalog-2968c2bec46cd8.png"
+    },
+    {
+      "id": "6ab61fd5e810dd20",
+      "title": "15 Best Claude Code Hook Examples (Copy-Paste Ready) in 2026",
+      "route": "/blog/best-claude-code-hooks-examples",
+      "local": "/sites/manasflow/editorial/6ab61fd5e810dd20.svg",
+      "original": "catalog-457ceed6037c97.png"
+    },
+    {
+      "id": "23a9762a243fa1c2",
+      "title": "Claude Fable 5 API Tutorial: Python, TypeScript, and Streaming Examples (2026)",
+      "route": "/blog/claude-fable-5-api-tutorial",
+      "local": "/sites/manasflow/editorial/23a9762a243fa1c2.svg",
+      "original": "catalog-513e7654ba21b1.png"
+    },
+    {
+      "id": "82dee69fd1ebd7d3",
+      "title": "Claude Fable 5 vs Opus 4.8: Which Should You Use? (Benchmarks + Pricing, 2026)",
+      "route": "/blog/claude-fable-5-vs-opus-4-8",
+      "local": "/sites/manasflow/editorial/82dee69fd1ebd7d3.svg",
+      "original": "catalog-110fb2dbde5e88.png"
+    },
+    {
+      "id": "4386eac46dc6288f",
+      "title": "Generative AI Consulting & Development Services (2026 Buyer's Guide)",
+      "route": "/blog/generative-ai-consulting-services",
+      "local": "/sites/manasflow/editorial/4386eac46dc6288f.svg",
+      "original": "catalog-30f9a31cba0d5e.png"
+    },
+    {
+      "id": "25d7467b78edf647",
+      "title": "Custom AI Agent Development in 2026: The Honest Buyer's Guide",
+      "route": "/blog/custom-ai-agent-development",
+      "local": "/sites/manasflow/editorial/25d7467b78edf647.svg",
+      "original": "catalog-88a22272ead48b.png"
+    },
+    {
+      "id": "092d202337dadb56",
+      "title": "AI Agents for Business in 2026: Real Use Cases, Cost, and How to Pick the Right One",
+      "route": "/blog/ai-agents-for-business",
+      "local": "/sites/manasflow/editorial/092d202337dadb56.svg",
+      "original": "catalog-aa3f0c0587d6ab.png"
+    },
+    {
+      "id": "f7811146a7a93ed8",
+      "title": "What Is Hyperautomation in 2026? (Definition, Stack, and the Honest ROI)",
+      "route": "/blog/what-is-hyperautomation",
+      "local": "/sites/manasflow/editorial/f7811146a7a93ed8.svg",
+      "original": "catalog-0bb55c9e1dded9.png"
+    },
+    {
+      "id": "300ce971faee4aae",
+      "title": "10 Top Generative AI Development Companies (2026)",
+      "route": "/blog/top-generative-ai-development-companies",
+      "local": "/sites/manasflow/editorial/300ce971faee4aae.svg",
+      "original": "catalog-71acc170dd4ab1.png"
+    },
+    {
+      "id": "6de410fb16dcc084",
+      "title": "Windsurf vs Cursor vs Claude Code (2026): 3-Way Showdown",
+      "route": "/blog/windsurf-vs-cursor-vs-claude-code",
+      "local": "/sites/manasflow/editorial/6de410fb16dcc084.svg",
+      "original": "catalog-b4d34a1c4e388f.png"
+    },
+    {
+      "id": "21229050df997727",
+      "title": "12 Best AI Engineer Job Boards in 2026",
+      "route": "/blog/best-ai-engineer-job-boards",
+      "local": "/sites/manasflow/editorial/21229050df997727.svg",
+      "original": "catalog-736ce8804a34a7.png"
+    },
+    {
+      "id": "6ee21ff063a1ba40",
+      "title": "AI Engineering Org Structure (2026): 5 Patterns That Work",
+      "route": "/blog/ai-engineering-org-structure",
+      "local": "/sites/manasflow/editorial/6ee21ff063a1ba40.svg",
+      "original": "catalog-8120f8bcec32fb.png"
+    },
+    {
+      "id": "21626d1780389502",
+      "title": "AI Engineer Salary Guide 2026: US, EU, Remote, by Level",
+      "route": "/blog/ai-engineer-salary-guide-2026",
+      "local": "/sites/manasflow/editorial/21626d1780389502.svg",
+      "original": "catalog-fee15301e72588.png"
+    },
+    {
+      "id": "b160e6ac9d457023",
+      "title": "AI Engineer vs ML Engineer (2026): Roles, Skills, Salary, Which to Hire",
+      "route": "/blog/ai-engineer-vs-ml-engineer",
+      "local": "/sites/manasflow/editorial/b160e6ac9d457023.svg",
+      "original": "catalog-b2103746f0ebab.png"
+    },
+    {
+      "id": "278960bdd7ff914f",
+      "title": "AI Engineer vs Data Scientist (2026): Skills, Salary, Which One Do You Need?",
+      "route": "/blog/ai-engineer-vs-data-scientist",
+      "local": "/sites/manasflow/editorial/278960bdd7ff914f.svg",
+      "original": "catalog-3993b73e2503c7.png"
+    },
+    {
+      "id": "ba1ac685200c5db6",
+      "title": "AI Engineer Job Description Template (2026): 5 Versions You Can Copy",
+      "route": "/blog/ai-engineer-job-description-template",
+      "local": "/sites/manasflow/editorial/ba1ac685200c5db6.svg",
+      "original": "catalog-5bdbddf99150c4.png"
+    },
+    {
+      "id": "628003ab848d63f1",
+      "title": "40 AI Engineer Interview Questions (With Sample Answers) for 2026",
+      "route": "/blog/ai-engineer-interview-questions",
+      "local": "/sites/manasflow/editorial/628003ab848d63f1.svg",
+      "original": "catalog-6da1e62f8a5fb8.png"
+    },
+    {
+      "id": "0f078a4ace1ecb6c",
+      "title": "12 best companies to hire AI developers in 2026",
+      "route": "/blog/best-companies-to-hire-ai-developers-2026",
+      "local": "/sites/manasflow/editorial/0f078a4ace1ecb6c.svg",
+      "original": "catalog-6f2c6c21196d23.png"
+    },
+    {
+      "id": "e8d4bcf4d112a2da",
+      "title": "7 best AI workflow automation tools for shipping production automations in 2026",
+      "route": "/blog/best-ai-workflow-automation-tools-2026",
+      "local": "/sites/manasflow/editorial/e8d4bcf4d112a2da.svg",
+      "original": "catalog-439f2844cd16e7.png"
+    },
+    {
+      "id": "1738789d7c1e2a11",
+      "title": "15 AI Engineer Skills Every Hire Should Have in 2026",
+      "route": "/blog/ai-engineer-skills-2026",
+      "local": "/sites/manasflow/editorial/1738789d7c1e2a11.svg",
+      "original": "catalog-60f79f9f691880.png"
+    },
+    {
+      "id": "10e5e9dc34c3fdab",
+      "title": "7 best Claude Code development agencies for shipping production software in 2026",
+      "route": "/blog/best-claude-code-development-agencies",
+      "local": "/sites/manasflow/editorial/10e5e9dc34c3fdab.svg",
+      "original": "catalog-067c8c120117d9.png"
+    },
+    {
+      "id": "f5ee0de82fd71334",
+      "title": "7 Best AI Customer Support Agencies to Hire in 2026",
+      "route": "/blog/best-customer-support-ai-agent-agencies",
+      "local": "/sites/manasflow/editorial/f5ee0de82fd71334.svg",
+      "original": "catalog-bcec2e981fcf35.png"
+    },
+    {
+      "id": "83747d366e376132",
+      "title": "12 best AI chatbot agencies for product and support teams in 2026",
+      "route": "/blog/best-ai-chatbot-agencies",
+      "local": "/sites/manasflow/editorial/83747d366e376132.svg",
+      "original": "catalog-065e6e9ccbd4fc.png"
+    },
+    {
+      "id": "14351dbf973bc165",
+      "title": "7 best AI agent development agencies for enterprise teams in 2026",
+      "route": "/blog/best-ai-agent-development-agencies",
+      "local": "/sites/manasflow/editorial/14351dbf973bc165.svg",
+      "original": "catalog-224d5238147ea3.png"
+    },
+    {
+      "id": "0547e08a0cd00e9a",
+      "title": "7 best Lovable development agencies for founders and SaaS teams in 2026",
+      "route": "/blog/7-best-lovable-development-agencies-for-founders-and-saas-teams-in-2026",
+      "local": "/sites/manasflow/editorial/0547e08a0cd00e9a.svg",
+      "original": "catalog-574f0ba76615d4.png"
+    },
+    {
+      "id": "a2bdd53b6c1727e0",
+      "title": "7 best Replit development agencies for AI-native app teams in 2026",
+      "route": "/blog/best-replit-agencies",
+      "local": "/sites/manasflow/editorial/a2bdd53b6c1727e0.svg",
+      "original": "catalog-acb8263dd612a1.png"
+    },
+    {
+      "id": "f1547427efa47933",
+      "title": "7 best Lovable development agencies for founders and SaaS teams in 2026",
+      "route": "/blog/best-lovable-agencies",
+      "local": "/sites/manasflow/editorial/f1547427efa47933.svg",
+      "original": "catalog-b618ab79def2e0.png"
+    },
+    {
+      "id": "d0254914bc1e6f96",
+      "title": "7 best v0.dev agencies for AI-generated React UI in 2026",
+      "route": "/blog/best-v0-agencies",
+      "local": "/sites/manasflow/editorial/d0254914bc1e6f96.svg",
+      "original": "catalog-8592964e68ffa7.png"
+    },
+    {
+      "id": "01c43b1ec644007e",
+      "title": "7 best FlutterFlow agencies for mobile-first SaaS in 2026",
+      "route": "/blog/best-flutterflow-agencies",
+      "local": "/sites/manasflow/editorial/01c43b1ec644007e.svg",
+      "original": "catalog-7386e7c51de8bd.png"
+    },
+    {
+      "id": "3d1b2ce0db022bc4",
+      "title": "7 best Claude Code agencies for AI-native engineering teams in 2026",
+      "route": "/blog/best-claude-code-agencies",
+      "local": "/sites/manasflow/editorial/3d1b2ce0db022bc4.svg",
+      "original": "catalog-f6997cabd3a800.png"
+    },
+    {
+      "id": "77668c5e637855c2",
+      "title": "7 best Supabase agencies for production-grade backends in 2026",
+      "route": "/blog/best-supabase-agencies",
+      "local": "/sites/manasflow/editorial/77668c5e637855c2.svg",
+      "original": "catalog-574aed43ff1cab.png"
+    },
+    {
+      "id": "7d010e020975e232",
+      "title": "7 best Framer agencies for high-conversion marketing sites in 2026",
+      "route": "/blog/best-framer-agencies",
+      "local": "/sites/manasflow/editorial/7d010e020975e232.svg",
+      "original": "catalog-c35e1679fc5697.png"
+    },
+    {
+      "id": "5fbb9e88151dbf6c",
+      "title": "7 best Bubble.io agencies for SaaS founders in 2026",
+      "route": "/blog/best-bubble-agencies",
+      "local": "/sites/manasflow/editorial/5fbb9e88151dbf6c.svg",
+      "original": "catalog-13813312d7e625.png"
+    },
+    {
+      "id": "dde512732b70e991",
+      "title": "9 Best Business Process Automation Tools in 2026",
+      "route": "/blog/best-business-process-automation-tools",
+      "local": "/sites/manasflow/editorial/dde512732b70e991.svg",
+      "original": "catalog-1d4b4043e106b6.webp"
+    },
+    {
+      "id": "0162f217fea3883b",
+      "title": "16 Best AI Tools for Ecommerce in 2026",
+      "route": "/blog/best-ai-tools-for-ecommerce",
+      "local": "/sites/manasflow/editorial/0162f217fea3883b.svg",
+      "original": "catalog-82036985ad6574.png"
+    },
+    {
+      "id": "34f491338f94c5bd",
+      "title": "12 best n8n agencies for AI-native automation teams in 2026",
+      "route": "/blog/best-n8n-agencies",
+      "local": "/sites/manasflow/editorial/34f491338f94c5bd.svg",
+      "original": "catalog-f0eefdb093b1cc.png"
+    },
+    {
+      "id": "997e579cccf02523",
+      "title": "How to Self-Host Your AI Stack Without OpenAI (2026 Guide)",
+      "route": "/blog/self-host-ai-stack-without-openai",
+      "local": "/sites/manasflow/editorial/997e579cccf02523.svg",
+      "original": "catalog-fb9293f00d7ee7.png"
+    },
+    {
+      "id": "de3ac34f3b86d67e",
+      "title": "n8n vs Dify: Two Different Ways to Think About AI Workflow Automation",
+      "route": "/blog/n8n-vs-dify",
+      "local": "/sites/manasflow/editorial/de3ac34f3b86d67e.svg",
+      "original": "catalog-861f1435b0ba4c.png"
+    },
+    {
+      "id": "db7e85425f83fdae",
+      "title": "OpenClaw: The Open-Source AI Agent That Went Viral on GitHub (And What It Actually Does)",
+      "route": "/blog/openclaw-open-source-ai-agent",
+      "local": "/sites/manasflow/editorial/db7e85425f83fdae.svg",
+      "original": "catalog-83b659810bbae9.png"
+    },
+    {
+      "id": "88249b04909fc371",
+      "title": "Claude Mythos: The AI Model Anthropic Says Is Too Dangerous to Release (And What It Found)",
+      "route": "/blog/claude-mythos",
+      "local": "/sites/manasflow/editorial/88249b04909fc371.svg",
+      "original": "catalog-199a38d99b9d5a.webp"
+    },
+    {
+      "id": "3d216274bbf13178",
+      "title": "Claude Opus 4.7: What Actually Changed and What It Means for Developers",
+      "route": "/blog/claude-opus-4-7",
+      "local": "/sites/manasflow/editorial/3d216274bbf13178.svg",
+      "original": "catalog-32892d4541dbfa.webp"
+    },
+    {
+      "id": "68abb24b246e4eaa",
+      "title": "12 best open-source AI agent frameworks on GitHub in 2026",
+      "route": "/blog/best-open-source-ai-agent-frameworks",
+      "local": "/sites/manasflow/editorial/68abb24b246e4eaa.svg",
+      "original": "catalog-95bba5417178b6.png"
+    },
+    {
+      "id": "ac79e62302cc2aff",
+      "title": "12 Best Claude Code Hooks to Add in 2026",
+      "route": "/blog/best-claude-code-hooks",
+      "local": "/sites/manasflow/editorial/ac79e62302cc2aff.svg",
+      "original": "catalog-23288a45371f21.png"
+    },
+    {
+      "id": "9806c222a57b73ad",
+      "title": "10 Best Claude Code Commands to Use in 2026",
+      "route": "/blog/best-claude-code-commands",
+      "local": "/sites/manasflow/editorial/9806c222a57b73ad.svg",
+      "original": "catalog-4b5c118910e98d.webp"
+    },
+    {
+      "id": "eeb461990a8aad72",
+      "title": "7 Signs You Need an AI-Augmented Development Team (Not Another Hiring Cycle)",
+      "route": "/blog/ai-augmented-development-team",
+      "local": "/sites/manasflow/editorial/eeb461990a8aad72.svg",
+      "original": "catalog-590e5f2a81e845.webp"
+    },
+    {
+      "id": "22896b52a7b1e5f8",
+      "title": "Best AI-Native Software Development Companies in 2026",
+      "route": "/blog/best-ai-native-software-development-companies-2026",
+      "local": "/sites/manasflow/editorial/22896b52a7b1e5f8.svg",
+      "original": "catalog-c36a4c784ec146.png"
+    },
+    {
+      "id": "2ca14d891f55a5f5",
+      "title": "AI Staff Augmentation vs Hiring In-House AI Engineers: What's Cheaper in 2026?",
+      "route": "/blog/ai-staff-augmentation-vs-hiring-in-house-2026",
+      "local": "/sites/manasflow/editorial/2ca14d891f55a5f5.svg",
+      "original": "catalog-ca3a512d218533.webp"
+    },
+    {
+      "id": "774e830ac54becfc",
+      "title": "The Exact Stack an AI-Native Dev Team Uses in 2026 (Claude Code, Agno, n8n & More)",
+      "route": "/blog/ai-native-dev-team-stack-2026",
+      "local": "/sites/manasflow/editorial/774e830ac54becfc.svg",
+      "original": "catalog-99c82ab8f84436.webp"
+    },
+    {
+      "id": "dcb534b127309cb0",
+      "title": "What Is an AI-First Engineer? (And Why Your Next Hire Must Be One)",
+      "route": "/blog/what-is-an-ai-first-engineer",
+      "local": "/sites/manasflow/editorial/dcb534b127309cb0.svg",
+      "original": "catalog-b30af6654dfcf5.webp"
+    },
+    {
+      "id": "786fedaf796364a5",
+      "title": "Claude Code Rate Limits in 2026: Why They Changed and How to Fix Them",
+      "route": "/blog/claude-code-rate-limits-2026",
+      "local": "/sites/manasflow/editorial/786fedaf796364a5.svg",
+      "original": "catalog-4bc95e8cb6a21c.png"
+    },
+    {
+      "id": "89eef8d627b693a0",
+      "title": "How to Turn Job Postings Into Sales Leads in 2026",
+      "route": "/blog/hiring-signals-sales-prospecting-career-ops",
+      "local": "/sites/manasflow/editorial/89eef8d627b693a0.svg",
+      "original": "catalog-4c3e5e96948628.webp"
+    },
+    {
+      "id": "644505e6b917587c",
+      "title": "13 Best Claude Code Skills to Install in 2026",
+      "route": "/blog/best-claude-code-skills",
+      "local": "/sites/manasflow/editorial/644505e6b917587c.svg",
+      "original": "catalog-2d4a185d9e3776.png"
+    },
+    {
+      "id": "a62165d0fdf54cf6",
+      "title": "7 Claude Code Security Risks (And How to Fix Them)",
+      "route": "/blog/claude-code-security-risks",
+      "local": "/sites/manasflow/editorial/a62165d0fdf54cf6.svg",
+      "original": "catalog-eea37fa26e150d.png"
+    },
+    {
+      "id": "fb8ec6613032d993",
+      "title": "Anthropic Conway: Inside Claude's Always-On Agent Platform (2026)",
+      "route": "/blog/anthropic-conway-claude-always-on-agent-2026",
+      "local": "/sites/manasflow/editorial/fb8ec6613032d993.svg",
+      "original": "catalog-d3b9c9759c8d94.webp"
+    },
+    {
+      "id": "c150a594a5a17185",
+      "title": "Claude Code Source Code Leaked via npm: What 512K Lines Reveal (2026)",
+      "route": "/blog/claude-code-source-code-leaked-github-2026",
+      "local": "/sites/manasflow/editorial/c150a594a5a17185.svg",
+      "original": "catalog-fd31fbef2f5135.png"
+    },
+    {
+      "id": "f26fe3d17dbe9ebc",
+      "title": "How to Make Claude Code Work for Your Team in 2026",
+      "route": "/blog/claude-code-for-teams",
+      "local": "/sites/manasflow/editorial/f26fe3d17dbe9ebc.svg",
+      "original": "catalog-9a3cc2a0ec5702.webp"
+    },
+    {
+      "id": "972ab38569f1a00f",
+      "title": "How to Make Your Team AI-Native in 2026: A Step-by-Step Guide",
+      "route": "/blog/how-to-make-team-ai-native",
+      "local": "/sites/manasflow/editorial/972ab38569f1a00f.svg",
+      "original": "catalog-dd229624c2fd64.webp"
+    },
+    {
+      "id": "06cf51675b011c90",
+      "title": "Claude vs ChatGPT in 2026: Benchmarks, Pricing, and the Mythos Leak",
+      "route": "/blog/claude-vs-chatgpt-2026",
+      "local": "/sites/manasflow/editorial/06cf51675b011c90.svg",
+      "original": "catalog-424891ced44fab.png"
+    },
+    {
+      "id": "3f96a93b6de0005a",
+      "title": "Best AI Automation Agencies (2026): 12 Ranked and Compared",
+      "route": "/blog/best-ai-automation-agencies",
+      "local": "/sites/manasflow/editorial/3f96a93b6de0005a.svg",
+      "original": "catalog-9631ea919ebd5e.webp"
+    },
+    {
+      "id": "e7992a3edda85e1d",
+      "title": "Master AI-Powered Growth: how to scale content creation for your team",
+      "route": "/blog/how-to-scale-content-creation",
+      "local": "/sites/manasflow/editorial/e7992a3edda85e1d.svg",
+      "original": "catalog-c19175ac33294c.webp"
+    },
+    {
+      "id": "f3dac3e93b45c47c",
+      "title": "How to Qualify Sales Leads With AI Automation",
+      "route": "/blog/how-to-qualify-sales-leads",
+      "local": "/sites/manasflow/editorial/f3dac3e93b45c47c.svg",
+      "original": "catalog-b2ca9f1a77a499.webp"
+    },
+    {
+      "id": "2fce9513dbf9313a",
+      "title": "How to Build an AI Chatbot That Drives 10X Growth",
+      "route": "/blog/how-to-build-an-ai-chatbot",
+      "local": "/sites/manasflow/editorial/2fce9513dbf9313a.svg",
+      "original": "catalog-ecb33d4b99e0ab.webp"
+    },
+    {
+      "id": "80d63b6e3ac7fb51",
+      "title": "Unlocking Scale With Integration Software as a Service",
+      "route": "/blog/integration-software-as-a-service",
+      "local": "/sites/manasflow/editorial/80d63b6e3ac7fb51.svg",
+      "original": "catalog-3a017540555d44.webp"
+    },
+    {
+      "id": "0fe47410db384c7d",
+      "title": "The 12 Best Document Automation Software Solutions for 2026",
+      "route": "/blog/best-document-automation-software",
+      "local": "/sites/manasflow/editorial/0fe47410db384c7d.svg",
+      "original": "catalog-91442f1e3cccd2.webp"
+    },
+    {
+      "id": "7727a097338fbcd7",
+      "title": "Unlocking Scale With AI Automation Agency Services",
+      "route": "/blog/ai-automation-agency-services",
+      "local": "/sites/manasflow/editorial/7727a097338fbcd7.svg",
+      "original": "catalog-92047c7a8e959a.webp"
+    },
+    {
+      "id": "e41ed8c8ae836a9b",
+      "title": "Enterprise Automation Solutions That Scale Your Business",
+      "route": "/blog/enterprise-automation-solutions",
+      "local": "/sites/manasflow/editorial/e41ed8c8ae836a9b.svg",
+      "original": "catalog-654d78a93a02e6.webp"
+    },
+    {
+      "id": "cf322ccb66c588b6",
+      "title": "What Is Intelligent Automation and How Does It Reshape Businesses",
+      "route": "/blog/what-is-intelligent-automation",
+      "local": "/sites/manasflow/editorial/cf322ccb66c588b6.svg",
+      "original": "catalog-3646ff51939977.webp"
+    },
+    {
+      "id": "df0b8fbea42c1d7c",
+      "title": "The 11 Best AI Tools for Business Productivity in 2026",
+      "route": "/blog/ai-tools-for-business-productivity",
+      "local": "/sites/manasflow/editorial/df0b8fbea42c1d7c.svg",
+      "original": "catalog-d37e0ee922ccc6.webp"
+    },
+    {
+      "id": "8c447bb64b1297e3",
+      "title": "The 11 Best AI Agents for Customer Support in 2026",
+      "route": "/blog/best-ai-agents-for-customer-support",
+      "local": "/sites/manasflow/editorial/8c447bb64b1297e3.svg",
+      "original": "catalog-1a21409705cc63.webp"
+    },
+    {
+      "id": "ffe3e5dd6939703f",
+      "title": "How to reduce operational costs: Lean AI-driven strategies",
+      "route": "/blog/how-to-reduce-operational-costs",
+      "local": "/sites/manasflow/editorial/ffe3e5dd6939703f.svg",
+      "original": "catalog-2427caf80d0bc8.webp"
+    },
+    {
+      "id": "5f369061cbe4f667",
+      "title": "How to Automate Business Processes for Sustainable Growth",
+      "route": "/blog/how-to-automate-business-processes",
+      "local": "/sites/manasflow/editorial/5f369061cbe4f667.svg",
+      "original": "catalog-dfda88cb4c7e81.webp"
+    },
+    {
+      "id": "1c1ff956175934bf",
+      "title": "AI Powered Workflow Automation To Scale Your Business",
+      "route": "/blog/ai-powered-workflow-automation",
+      "local": "/sites/manasflow/editorial/1c1ff956175934bf.svg",
+      "original": "catalog-31a58b566c8b84.webp"
+    },
+    {
+      "id": "a7e895635b2ff1a6",
+      "title": "Marketing Automation Workflow Examples: AI-Powered Tactics to Scale Your Dev Team",
+      "route": "/blog/marketing-automation-workflow-examples",
+      "local": "/sites/manasflow/editorial/a7e895635b2ff1a6.svg",
+      "original": "catalog-fb3ec6be37326b.webp"
+    },
+    {
+      "id": "74e48cb64b078922",
+      "title": "AI Powered Marketing Automation for Scalable Growth",
+      "route": "/blog/ai-powered-marketing-automation",
+      "local": "/sites/manasflow/editorial/74e48cb64b078922.svg",
+      "original": "catalog-7a3cd4c980cdc9.webp"
+    },
+    {
+      "id": "d627a3338cdf29f4",
+      "title": "How to measure operational efficiency: A Practical Guide to Boost Performance",
+      "route": "/blog/how-to-measure-operational-efficiency",
+      "local": "/sites/manasflow/editorial/d627a3338cdf29f4.svg",
+      "original": "catalog-7e8b8742d00c43.webp"
+    },
+    {
+      "id": "16cb72da0c08e996",
+      "title": "How to Improve Team Productivity with an AI Roadmap",
+      "route": "/blog/how-to-improve-team-productivity",
+      "local": "/sites/manasflow/editorial/16cb72da0c08e996.svg",
+      "original": "catalog-9ee00b04fa7b61.webp"
+    },
+    {
+      "id": "b65ee7586963a976",
+      "title": "AI Automation for Business The Ultimate Founder's Guide",
+      "route": "/blog/ai-automation-for-business",
+      "local": "/sites/manasflow/editorial/b65ee7586963a976.svg",
+      "original": "catalog-17b68b403f3ad6.webp"
+    },
+    {
+      "id": "f13674dcaf6cc900",
+      "title": "What is workflow automation?",
+      "route": "/blog/what-is-workflow-automation",
+      "local": "/sites/manasflow/editorial/f13674dcaf6cc900.svg",
+      "original": "catalog-24ae5f025e51dd.webp"
+    },
+    {
+      "id": "cdefed85e0a734af",
+      "title": "Top 12 AI Content Creation Tools for Dev Teams in 2026",
+      "route": "/blog/ai-content-creation-tools",
+      "local": "/sites/manasflow/editorial/cdefed85e0a734af.svg",
+      "original": "catalog-2f97327ece0085.webp"
+    },
+    {
+      "id": "c1db79301f09c37d",
+      "title": "Free Workflow Automation for Creative Teams: How ManasN8N + N8n Connects to Your Favorite Tools",
+      "route": "/blog/free-workflow-automation-creative-teams-manasn8n-guide",
+      "local": "/sites/manasflow/editorial/c1db79301f09c37d.svg",
+      "original": "catalog-96d221f37ae7c3.jpeg"
+    },
+    {
+      "id": "62fd595be7e49148",
+      "title": "Make vs N8n vs ManasN8N: Which Workflow Automation Platform Should Your Team Choose?",
+      "route": "/blog/make-vs-n8n-vs-manasn8n-workflow-automation-comparison",
+      "local": "/sites/manasflow/editorial/62fd595be7e49148.svg",
+      "original": "catalog-98dc9c13977eab.jpeg"
+    }
+  ]
+}

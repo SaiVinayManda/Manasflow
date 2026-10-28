@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Apollo.io Agency: 9 Best Apollo Experts Compared (2026) — ManasFlow</title><desc id="desc">An original ManasFlow editorial cover with a light grid, a purple brand badge, and neutral geometric artwork.</desc>
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#dadbea" stroke-width="1"/></pattern><linearGradient id="wash" x1="0" x2="1" y2="1"><stop stop-color="#f7f7fc"/><stop offset="1" stop-color="#ecebfa"/></linearGradient><linearGradient id="violet" x1="0" x2="1" y2="1"><stop stop-color="#6d64df"/><stop offset="1" stop-color="#9892e7"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#wash)"/><rect width="1200" height="675" fill="url(#grid)" opacity=".7"/>
+  <g opacity=".1" fill="none" stroke="#6961c8" stroke-width="2"><circle cx="1080" cy="405" r="176"/><circle cx="1080" cy="405" r="128"/><path d="M890 595 1200 285M968 620 1200 388"/></g>
+  <rect x="76" y="66" width="223" height="43" rx="21.5" fill="#665bd7"/><circle cx="99" cy="87.5" r="6" fill="#fff"/><text x="116" y="93" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="1.9" fill="#fff">MANASFLOW</text>
+  <text x="1124" y="94" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#716e89">FIELD NOTES</text>
+  <text x="76" y="338" font-family="Arial,Helvetica,sans-serif" font-size="68" font-weight="700" letter-spacing="-1.8" fill="#1c2338"><tspan x="76" dy="0">Apollo.io Agency: 9 Best Apollo</tspan><tspan x="76" dy="75">Experts Compared (2026)</tspan></text>
+  <path d="M76 578H1124" stroke="#cfcee1"/>
+  <text x="76" y="619" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="1.2" fill="#68627f">AI · ENGINEERING · AUTOMATION</text>
+  <text x="1124" y="619" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#665bd7">manasflow.com</text>
+  <g transform="translate(1092 135)" fill="url(#violet)" opacity=".6"><rect width="10" height="29"/><rect x="15" y="9" width="10" height="29"/><rect x="30" width="10" height="29"/></g>
+</svg>

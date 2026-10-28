@@ -1,154 +1,32 @@
-<div align="center">
+# ManasFlow
 
-# AI Website Cloner Template
+A Next.js App Router site for ManasFlow with local service pages, platform agencies, resource catalogs, and interactive planning tools.
 
-### Clone any website with one command
+## Run locally
 
-Give your AI coding agent a URL and watch it recreate the website as a clean Next.js app.
-
-**Best results with [Claude Code](https://docs.anthropic.com/en/docs/claude-code) + Opus 5.5. Also supports Codex, Cursor, and OpenCode.**
-
-[![Use this template](https://img.shields.io/badge/Use_this_template-Create_your_copy-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JCodesMore/ai-website-cloner-template/generate) [![Discord](https://img.shields.io/badge/Join_the_community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/hrTSX5yTpB)
-
-[Quick Start](#quick-start) · [Watch Demo](#demo) · [Supported Platforms](#supported-platforms)
-
-<a href="https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a> <a href="https://github.com/JCodesMore/ai-website-cloner-template"><img src="https://img.shields.io/github/stars/JCodesMore/ai-website-cloner-template?style=flat" alt="Stars" /></a> <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/JCodesMore/ai-website-cloner-template/badges/token-badge.json" alt="tokens" />
-
-  <a href="https://trendshift.io/repositories/24302?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-24302" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/24302" alt="JCodesMore%2Fai-website-cloner-template | Trendshift" width="250" height="55" /></a> <a href="https://www.star-history.com/jcodesmore/ai-website-cloner-template/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template&amp;theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template" /><img alt="Star History Global Rank" src="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template" width="216" height="55" /></picture></a>
-
-</div>
-
----
-
-## Demo
-
-[![Watch the demo](docs/design-references/comparison.png)](https://youtu.be/O669pVZ_qr0)
-
-> Click the image above to watch the full demo on YouTube.
-
-## Quick Start
-
-### 1. Set up your project
-
-**Recommended: ask your agent.** Paste this into Codex, Claude Code, or your coding agent:
-
-```text
-Set up https://github.com/JCodesMore/ai-website-cloner-template
-as a standalone project in a new folder on my computer.
-Ask me where to put it. Clone the repository, remove its origin remote,
-install dependencies, and run npm run check. Leave it ready for me
-to clone a website.
+```sh
+npm install
+npm run dev
 ```
 
-**Or create your own GitHub repository:**
+Open <http://localhost:3000>. In Windows PowerShell, use `npm.cmd` if script execution policy blocks `npm`. Keep the server running while using the local URL. `npm run check` runs lint, strict TypeScript checking, and the production build. `npm run start` serves a production build.
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-Create_your_copy-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JCodesMore/ai-website-cloner-template/generate)
+## Pages
 
-Give it a name and click **Create repository**. Then give your agent the new repository's link and ask it to clone it onto your computer, install dependencies, and run `npm run check`.
+The site includes all 50 requested top-level routes, the original service and agency path aliases, model comparison and pricing, twenty working calculators/assessments/planning tools, and local article/resource pages. `/ai-tools`, `/bot-directory`, `/skills`, and `/workflows` provide searchable catalogs and implementation guides. The six local products are `/manasrank`, `/manasdesign`, `/manasn8n`, `/manasclaude`, `/manas-skills`, and `/manas-framework`. Header and footer navigation stays within the app. Contact and newsletter forms prepare an email to `info@manasflow.com`.
 
-### 2. Clone a website
+Page components and styles live in `src/components/sites/manasflow/`; page data is in `src/data/manasflow/`; local media and fonts are in `public/sites/manasflow/`.
 
-Open the project in your agent with browser access enabled. In Claude Code or Cursor, run:
+## Booking
 
-```text
-/clone-website https://example.com
-```
+Booking CTAs open the Cal.com popup for `manasflow/30min`, using the `30min` namespace, light month view, and mobile slots view. `CalProvider` initializes and preloads the SDK once with an explicit `https://cal.com` origin. `BookingLink` calls the modal API directly, without a second delegated click handler or script-load flag. If the calendar reports failure or does not respond within four seconds, the browser opens the hosted booking page. Native anchors also preserve no-JavaScript, right-click, and new-tab navigation. `/consultation` provides a direct booking card. Booking configuration is shared in `src/lib/booking.ts`.
 
-Replace the URL with the website you want to recreate. Once it's built, ask your agent for any changes you want.
+The content policy allows the Cal.com script and frame hosts. `node scripts/test-cal-booking.mjs` checks initialization, popup click handling, fallback behavior, and ordinary navigation. After a production build, `node scripts/audit-cal-booking.mjs` checks every rendered booking trigger.
 
-## Supported Platforms
+## Verification
 
-| Agent                                                         | Status                     |
-| ------------------------------------------------------------- | -------------------------- |
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | **Recommended** — Opus 5.5 |
-| [Codex CLI](https://github.com/openai/codex)                  | Supported                  |
-| [OpenCode](https://opencode.ai/)                              | Supported                  |
-| [Cursor](https://cursor.com/)                                 | Supported                  |
+Run `npm run check`, then `node scripts/audit-complete-site.mjs` to validate built route coverage, metadata, local links, assets, and brand sanitization against the captured source sitemap. `node --experimental-strip-types scripts/test-tool-calculations.mjs` checks calculation and scoring boundaries. With the server running, `node scripts/check-live-site.mjs` checks all requested URLs and representative page families. Audit evidence and the source-to-local route map are in `docs/research/manasflow/completion/`.
 
-## Prerequisites
+Original branded editorial media is kept outside the public application under `quarantine/`, excluded from deployment and tracing. Original ManasFlow SVG covers, diagrams, favicons, and social artwork replace those public assets. Vendor names and software/font licenses retain their attribution. Browser screenshot comparisons remain a separate verification step; `scripts/check-rendered-site.mjs` is prepared for the installed Playwright test setup.
 
-- [Node.js](https://nodejs.org/) 24+
-- An AI coding agent (see [Supported Platforms](#supported-platforms))
-
-## Tech Stack
-
-- **Next.js 16** — App Router, React 19, TypeScript strict
-- **shadcn/ui** — Base UI primitives + Tailwind CSS v4
-- **Tailwind CSS v4** — oklch design tokens
-- **Lucide React** — default icons (replaced by extracted SVGs during cloning)
-
-## How It Works
-
-The `/clone-website` skill follows four steps:
-
-1. **Map** — map source URLs to local routes and preserve existing work.
-2. **Observe** — inspect desktop/mobile pages, extract real assets and fonts, and exercise alternate states.
-3. **Build** — implement editable components and working interactions; delegate independent sections when useful.
-4. **Compare** — review source and local pages at matched sizes/states, repair visible differences, and run the production check.
-
-Framer pages and animated sites have focused inspection guidance for responsive variants, media, sticky scenes, and scroll/time-driven motion. Direct HTTP or asset tools handle extraction where practical; browser comparisons establish appearance and behavior. Deliverables include route mappings, run instructions, comparison screenshots, and any remaining gaps.
-
-## Use Cases
-
-- **Platform migration** — rebuild a site you own from WordPress/Webflow/Squarespace into a modern Next.js codebase
-- **Lost source code** — your site is live but the repo is gone, the developer left, or the stack is legacy. Get the code back in a modern format
-- **Learning** — deconstruct how production sites achieve specific layouts, animations, and responsive behavior by working with real code
-
-## Not Intended For
-
-- **Phishing or impersonation** — this project must not be used for deceptive purposes, impersonation, or any activity that breaks the law.
-- **Passing off someone's design as your own** — logos, brand assets, and original copy belong to their owners.
-- **Violating terms of service** — some sites explicitly prohibit scraping or reproduction. Check first.
-
-## Project Structure
-
-```
-src/
-  app/              # Next.js routes
-  components/       # React components
-    ui/             # shadcn/ui primitives
-    sites/<site>/   # Source-specific components and extracted SVGs
-  lib/utils.ts      # cn() utility
-  types/            # TypeScript interfaces
-  hooks/            # Custom React hooks
-public/
-  sites/<site>/     # Source-specific images, fonts, videos, and other assets
-docs/
-  research/<site>/  # Page brief, asset map, and inspection evidence
-  design-references/ # Screenshots
-.agents/skills/
-  clone-website/    # Canonical skill and inspection reference
-.claude/commands/
-  clone-website.md  # Thin Claude Code bridge
-AGENTS.md           # Agent instructions (single source of truth)
-CLAUDE.md           # Claude Code config (imports AGENTS.md)
-```
-
-## Commands
-
-```bash
-npm run dev    # Start dev server
-npm run build  # Production build
-npm run lint   # ESLint check
-npm run typecheck # TypeScript check
-npm run check  # Run lint + typecheck + build
-```
-
-### If using docker
-
-```bash
-docker compose up app --build # build and run the app
-docker compose up dev --build # run the app in dev mode on port 3001
-```
-
-## Agent Support
-
-The project keeps one portable Agent Skill at `.agents/skills/clone-website/`. Codex, Cursor, and OpenCode read it directly. Claude Code uses the small command bridge at `.claude/commands/clone-website.md` so `/clone-website` and its arguments continue to work without exposing a duplicate skill to the other agents.
-
-## Star History
-
-![Star History Chart](docs/assets/star-history.png)
-
-## License
-
-MIT
+The legal pages are drafts pending the business details listed in [REBRAND.md](REBRAND.md). Third-party font licenses are retained with their local assets.

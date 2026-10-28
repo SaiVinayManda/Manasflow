@@ -1,0 +1,503 @@
+{
+  "route": "/",
+  "missingAnchors": [],
+  "duplicateIds": [],
+  "missingAssets": [],
+  "personalMatches": [],
+  "localAssetReferences": 89,
+  "routes": [
+    {
+      "pathname": "/",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "pathname": "/contact",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "pathname": "/privacy",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "pathname": "/terms",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "pathname": "/cookies",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "pathname": "/privacy-policy",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "pathname": "/cookie-policy",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "pathname": "/site.webmanifest",
+      "status": 200,
+      "type": "application/manifest+json"
+    },
+    {
+      "pathname": "/sites/manasflow/favicon.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/favicon.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/apple-touch-icon.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/logo_no_nodes.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/ronin-global.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/fleetforward-logo.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/untaylored.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/neoday.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/hello-customer.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/ambry-hill.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/thinkone.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/addictest.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/shems-pub.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/wearview.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/emprende-logo.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/kateb.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/easyclickweb.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/dentakay-logo.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/humanoidz.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/earl-logo.avif",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "pathname": "/sites/manasflow/DGA-Logo.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/maroc-gov.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/workflowmobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/many-agents-v2.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/ship-product.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/ai-strategy-5-ways-we-automate.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/money-refund.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/cursor-agent.webm",
+      "status": 200,
+      "type": "video/webm"
+    },
+    {
+      "pathname": "/sites/manasflow/n8n-hero.webm",
+      "status": 200,
+      "type": "video/webm"
+    },
+    {
+      "pathname": "/sites/manasflow/make-hero.webm",
+      "status": 200,
+      "type": "video/webm"
+    },
+    {
+      "pathname": "/sites/manasflow/claude.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/anthropic.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/cursor.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/n8n.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/mcp.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/zapier.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/e2b.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/supabase.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/vercel.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/hubspot.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/clay.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/apollo.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/slack.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/linear.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/github.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/service-notion.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/service-slack.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/service-google.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/service-microsoft.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/service-salesforce.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-hubspot.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-zapier.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-trello.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-jira.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/integration-14-asana.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/integration-09-airtable.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-monday.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/integration-05-mailchimp.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-discord.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-figma.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-github.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-stripe.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-webflow.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-shopify.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-intercom.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-zendesk.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-atlassian.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-adobe.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-canva.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-spotify.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-netflix.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/service-zoom.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/tool-n8n.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/n8n-color.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/tool-make.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/service-make.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/tool-cursor.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/cursor-logo.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/tool-claude-code.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "pathname": "/sites/manasflow/tool-n8n-io.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/tool-claude-ai.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/tool-cursor-com.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/tool-make-com.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/tool-openai-com.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "pathname": "/sites/manasflow/689246be4a5f38523c0c038a_chat-gpt-summary.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/689246be2ac20799fd1b6571_claude-summary.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/689246bee65f98c2f8bbfb17_perplexity-summary.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/689246bec89d73201bb5b515_google-ai-summary.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/689246befbb3221c2188951e_grok-summary.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "pathname": "/sites/manasflow/copilot.ico",
+      "status": 200,
+      "type": "image/x-icon"
+    }
+  ],
+  "failures": [],
+  "browserVerification": "pending — Computer Use URL verification stopped native browser access",
+  "site": "Manasflow"
+}

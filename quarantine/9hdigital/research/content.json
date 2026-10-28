@@ -1,0 +1,424 @@
+{
+  "services": [
+    {
+      "title": "Custom Web Applications",
+      "description": "We build and modernise Laravel applications that scale. We upgrade legacy systems and rescue stalled projects. Our platforms are engineered for performance, security, and long-term growth.",
+      "image": "https://9hdigital.com/app/uploads/2025/11/custom-web-apps.svg",
+      "links": [
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/custom-web-applications/"
+        },
+        {
+          "text": "Laravel",
+          "href": "https://9hdigital.com/services/custom-web-applications/#drawer-laravel"
+        },
+        {
+          "text": "Legacy Modernisation",
+          "href": "https://9hdigital.com/services/custom-web-applications/#drawer-legacy-modernisation"
+        },
+        {
+          "text": "API Development",
+          "href": "https://9hdigital.com/services/custom-web-applications/#drawer-api-development"
+        },
+        {
+          "text": "Scalable Architecture",
+          "href": "https://9hdigital.com/services/custom-web-applications/#drawer-scalable-architecture"
+        },
+        {
+          "text": "Rescue Projects",
+          "href": "https://9hdigital.com/services/custom-web-applications/#drawer-rescue-projects"
+        },
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/custom-web-applications/"
+        }
+      ]
+    },
+    {
+      "title": "AI & Automation",
+      "description": "Stop wasting hours on manual work. Connect the gaps between systems, people, and data so your team can work faster, forecast with confidence, and deliver instant insights. All with full transparency and enterprise-grade trust.",
+      "image": "https://9hdigital.com/app/uploads/2025/11/ai-automations.svg",
+      "links": [
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/ai-automations/"
+        },
+        {
+          "text": "Custom AI Agents & Bots",
+          "href": "https://9hdigital.com/services/ai-automations/#drawer-ap-automation"
+        },
+        {
+          "text": "Workflow Automation",
+          "href": "https://9hdigital.com/services/ai-automations/#drawer-demand-intelligence"
+        },
+        {
+          "text": "Data Analysis & Predictive Analytics",
+          "href": "https://9hdigital.com/services/ai-automations/#drawer-automated-procurement"
+        },
+        {
+          "text": "Intelligent Document Processing",
+          "href": "https://9hdigital.com/services/ai-automations/#drawer-enterprise-ai"
+        },
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/ai-automations/"
+        }
+      ]
+    },
+    {
+      "title": "Integrations",
+      "description": "We connect the tools that run your business, CRMs, ERPs, payment gateways, and data systems, into one seamless, automated ecosystem.",
+      "image": "https://9hdigital.com/app/uploads/2025/11/integrations.svg",
+      "links": [
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/integrations/"
+        },
+        {
+          "text": "ERP & CRM Sync",
+          "href": "https://9hdigital.com/services/integrations/#drawer-erp-crm-sync"
+        },
+        {
+          "text": "API Connectivity",
+          "href": "https://9hdigital.com/services/integrations/#drawer-api-connectivity"
+        },
+        {
+          "text": "Automation Pipelines",
+          "href": "https://9hdigital.com/services/integrations/#drawer-automation-pipelines"
+        },
+        {
+          "text": "Real-Time Reporting",
+          "href": "https://9hdigital.com/services/integrations/#drawer-real-time-reporting"
+        },
+        {
+          "text": "Data Unification",
+          "href": "https://9hdigital.com/services/integrations/#drawer-data-unification"
+        },
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/integrations/"
+        }
+      ]
+    },
+    {
+      "title": "Brand Building",
+      "description": "We craft brands that perform, from strategy and identity to marketing, PR, and web. Every touchpoint is built to grow awareness and impact.",
+      "image": "https://9hdigital.com/app/uploads/2025/11/brand-building.svg",
+      "links": [
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/brand-building/"
+        },
+        {
+          "text": "Branding",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-branding"
+        },
+        {
+          "text": "Marketing",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-marketing"
+        },
+        {
+          "text": "UX/UI Design",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-uxui-design"
+        },
+        {
+          "text": "Creative Production",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-creative-production"
+        },
+        {
+          "text": "PR & Media Buying",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-pr-media-buying"
+        },
+        {
+          "text": "Corporate Websites",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-corporate-websites"
+        },
+        {
+          "text": "SEO/AIO",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-seoaio"
+        },
+        {
+          "text": "PPC",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-ppc"
+        },
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/brand-building/"
+        }
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "description": "Because we build systems that scale. From Laravel platforms to enterprise integrations, we deliver secure, high-performance infrastructure that fits your stack, not the other way around.",
+      "quote": "Technology only works when it scales. At 9H, we engineer infrastructure that stays fast, secure, and adaptable, so your systems grow without slowing you down.",
+      "image": "https://9hdigital.com/app/uploads/2026/03/James.jpg",
+      "name": "James",
+      "role": "Head of Tech"
+    },
+    {
+      "description": "Because we turn ideas into usable platforms. We prototype, design, and develop custom applications that evolve fast and stay stable, giving product teams a launchpad for growth.",
+      "quote": "Great products aren’t just built, they evolve. We turn complexity into clarity, transforming ideas into platforms that teams can launch, iterate, and grow on with confidence.",
+      "image": "https://9hdigital.com/app/uploads/2025/12/100x100-79.jpg",
+      "name": "Jamie",
+      "role": "Business Analyst"
+    },
+    {
+      "description": "Because we build brands that perform. From strategy and design to campaigns and PR, we create brand ecosystems that connect creativity with measurable results.",
+      "quote": "A brand has to do more than look good, it has to perform. We create brands and campaigns that connect creative thinking with measurable, revenue-driving impact.",
+      "image": "https://9hdigital.com/app/uploads/2025/12/100x100-80.jpg",
+      "name": "Emily",
+      "role": "Chief Creative Officer"
+    },
+    {
+      "description": "Because we make systems talk to each other. Through automation and integrations, we connect tools, data, and teams into one smooth ecosystem that reduces friction and increases visibility.",
+      "quote": "Efficiency comes from connection. We streamline operations by making systems, data, and teams work as one, removing friction and giving leaders real visibility and control.",
+      "image": "https://9hdigital.com/app/uploads/2026/03/Tim.jpg",
+      "name": "Timothy",
+      "role": "CEO"
+    },
+    {
+      "description": "Because we eliminate manual work. Our AI tools automate reconciliations, reporting, and forecasting, helping finance teams close faster and forecast with confidence.",
+      "quote": "When financial workflows run themselves, teams can focus on strategy. Our AI tools remove manual tasks, improve accuracy, and give finance leaders the insights they need to make faster, smarter decisions.",
+      "image": "https://9hdigital.com/app/uploads/2025/12/100x100.jpg",
+      "name": "James",
+      "role": "Director of Finance"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Connecting the Dots",
+      "href": "https://9hdigital.com/insights/connecting-the-dots-intelligent-integrations/",
+      "hover": "thumbnail = 'https://9hdigital.com/app/uploads/2026/08/28-1024x576.png'; updateTarget($event); showThumbnail = true"
+    },
+    {
+      "title": "Poppin' Off to Korea",
+      "href": "https://9hdigital.com/insights/poppin-off-to-korea/",
+      "hover": "thumbnail = 'https://9hdigital.com/app/uploads/2026/08/21-1024x576.png'; updateTarget($event); showThumbnail = true"
+    },
+    {
+      "title": "PPC Is No Longer About Managing Ads It’s About Designing Systems That Perform",
+      "href": "https://9hdigital.com/insights/ppc-designing-systems-that-perform/",
+      "hover": "thumbnail = 'https://9hdigital.com/app/uploads/2026/08/17-1024x576.png'; updateTarget($event); showThumbnail = true"
+    },
+    {
+      "title": "The World Cup Isn't Global Anymore, It's Local Everywhere",
+      "href": "https://9hdigital.com/insights/world-cup-local-relevance-marketing/",
+      "hover": "thumbnail = 'https://9hdigital.com/app/uploads/2026/08/18-1024x576.png'; updateTarget($event); showThumbnail = true"
+    },
+    {
+      "title": "Why Social Proof Is Now Stronger Than Advertising",
+      "href": "https://9hdigital.com/insights/social-proof-drives-brand-trust/",
+      "hover": "thumbnail = 'https://9hdigital.com/app/uploads/2026/08/15-1024x576.png'; updateTarget($event); showThumbnail = true"
+    },
+    {
+      "title": "Websites aren't dead. But their job has changed",
+      "href": "https://9hdigital.com/insights/websites-arent-dead-their-job-has-changed/",
+      "hover": "thumbnail = 'https://9hdigital.com/app/uploads/2026/08/12-1024x576.png'; updateTarget($event); showThumbnail = true"
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "Working with 9H was a game-changer. They built a seamless, user-friendly app that boosted our online presence, sales, and customer retention. Their team was professional, creative, and committed to our vision.",
+      "image": "https://9hdigital.com/app/uploads/2025/10/Screenshot-2025-03-24-at-13.50.54.png",
+      "person": [
+        "Kurt Zammit",
+        "Co-Founder - The Supp Store"
+      ]
+    },
+    {
+      "text": "Working with 9H has been a great experience. Their commitment, positive attitude, and strong technical skills have helped us succeed in Phase 1 and 2 of our project. We look forward to completing the remaining phases together.",
+      "image": "https://9hdigital.com/app/uploads/2025/10/1516507715381-2.jpeg",
+      "person": [
+        "Peter Bugeja",
+        "Head Data & Analytics - Mapfre"
+      ]
+    },
+    {
+      "text": "We trusted 9H to build our new website and they delivered exceptionally. Their knowledge, support, and attention to detail resulted in a smart, user-friendly site. We highly recommend 9H and their dedicated team.",
+      "image": "https://9hdigital.com/app/uploads/2025/10/vitel.png",
+      "person": [
+        "Kenneth Mifsud",
+        "Director - Vitelhome"
+      ]
+    },
+    {
+      "text": "I’m incredibly proud of what we achieved together. This year exceeded all expectations, with everything running flawlessly. Thank you for the hard work, teamwork, and dedication that made this success possible.",
+      "image": "https://9hdigital.com/app/uploads/2025/10/misk.png",
+      "person": [
+        "Shaima A.",
+        "Digital Platform Head - MISK"
+      ]
+    },
+    {
+      "text": "HubSpot has transformed our operations. What once slowed us down is now unified and efficient, helping teams work smarter with automation and data-driven decisions. We’re excited for what’s ahead—thanks 9H for the support.",
+      "image": "https://9hdigital.com/app/uploads/2025/11/Screenshot-2025-11-27-at-12.34.17.png",
+      "person": [
+        "",
+        "NetRefer"
+      ]
+    }
+  ],
+  "footer": "<footer class=\"relative\" style=\"background-image: url(https://9hdigital.com/app/themes/niu-theme/public/build/assets/footer-bg-XyJ6H1x5.png); background-size: cover;\">\n  \n  <div class=\"absolute top-0 left-0 w-full pointer-events-none z-0\" style=\"height: 300px; background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.8) 30%, rgba(255, 255, 255, 0) 100%);\"></div>\n  \n  <div class=\"lg:w-[95vw] mx-auto px-5 md:px-9 2xl:px-[3.333vw] 3xl:px-[7vw] relative z-10\">\n    <div class=\"flex lg:flex-row flex-col gap-4 items-center justify-between lg:pt-48 pt-24 pb-4\">\n      <div class=\"lg:w-2/3 w-full\">\n                  <h2 class=\"mb-4 h3 leading-[1.2] text-black/80 font-sans \">With 9H, you don’t just get tech. <br> You get the engine that drives your future.</h2>\n                          <div class=\"prose md:w-1/2 w-full text-black/80\"><p>Turning complexity into clarity, at speed.</p>\n</div>\n              </div>\n      <a href=\"https://9hdigital.com/contact/\" target=\"\" class=\"m-1 flex lg:w-auto sm:w-auto w-full inline-flex items-center justify-center border border-transparent text-sm rounded !cursor-pointer gap-1  glass-btn transition-all duration-300\">\n    <span>Talk to Our Team</span>\n      <svg width=\"21\" height=\"20\" viewBox=\"0 0 21 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M8.26313 4.09575L16.3423 4.09573L16.3423 12.1749\" stroke=\"currentColor\" stroke-width=\"1.3\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n    <path d=\"M5.02813 15.4094L16.2285 4.20898\" stroke=\"currentColor\" stroke-width=\"1.3\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>  </a>\n    </div>\n    <div class=\"lg:py-24 py-12 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col\">\n      <div class=\"lg:w-1/3 md:w-1/2 w-full mb-12 lg:mb-0\">\n        <a class=\"flex font-medium items-center mb-4 md:mb-6\" href=\"https://9hdigital.com/\">\n                    <img src=\"https://9hdigital.com/app/uploads/2025/10/9H-logo.svg\" alt=\"9H\" class=\"w-16 h-5\">\n                  </a>\n        <div class=\"prose md:w-1/2 w-full text-primary/70 text-base mb-6\"><p>Turning complexity into<br>\nclarity, at speed.</p>\n</div>\n        <div class=\"flex items-center gap-4\">\n          <a href=\"https://www.facebook.com/9hdigital/\" target=\"_blank\" class=\"w-10 h-10 bg-gray-200 rounded-full border border-neutral-800/90 flex justify-center items-center hover:bg-gray-100 transition-all duration-200\">\n        <svg aria-hidden=\"true\" focusable=\"false\" width=\"16\" height=\"17\" viewBox=\"0 0 16 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6.52582 2.28015C7.18549 1.64195 8.09396 1.33359 9.09989 1.33359H12.0042C12.2804 1.33359 12.5046 1.55745 12.5046 1.83359V4.16692C12.5046 4.44306 12.2807 4.66692 12.0046 4.66692H10.0046C9.39862 4.66692 9.27982 4.81497 9.25262 4.85537C9.22796 4.89197 9.20289 4.95367 9.18769 5.06793C9.17202 5.18641 9.17122 5.32131 9.17122 5.50025V6.33359H12.0046C12.1586 6.33359 12.3039 6.40452 12.3987 6.52588C12.4934 6.64724 12.527 6.80549 12.4896 6.95485L11.823 9.62152C11.7673 9.84412 11.5674 10.0003 11.3379 10.0003H9.17122V15.1669C9.17122 15.4431 8.94736 15.6669 8.67122 15.6669H6.00456C5.72842 15.6669 5.50456 15.4431 5.50456 15.1669V10.0003H3.33789C3.06175 10.0003 2.83789 9.77639 2.83789 9.50025V6.83359C2.83789 6.55745 3.06175 6.33359 3.33789 6.33359H5.50456V4.96692C5.50456 3.84391 5.86315 2.92123 6.52582 2.28015Z\" stroke=\"#242128\" stroke-linejoin=\"round\"></path>\n</svg>        <span class=\"sr-only\">Facebook</span>\n      </a>\n          <a href=\"https://www.instagram.com/9hdigital/\" target=\"_blank\" class=\"w-10 h-10 bg-gray-200 rounded-full border border-neutral-800/90 flex justify-center items-center hover:bg-gray-100 transition-all duration-200\">\n        <svg width=\"16\" height=\"17\" viewBox=\"0 0 16 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M1.66211 8.49975C1.66211 5.51419 1.66211 4.02141 2.5896 3.09391C3.5171 2.16641 5.00988 2.16641 7.99544 2.16641C10.981 2.16641 12.4738 2.16641 13.4013 3.09391C14.3288 4.02141 14.3288 5.51419 14.3288 8.49975C14.3288 11.4853 14.3288 12.9781 13.4013 13.9056C12.4738 14.8331 10.981 14.8331 7.99544 14.8331C5.00988 14.8331 3.5171 14.8331 2.5896 13.9056C1.66211 12.9781 1.66211 11.4853 1.66211 8.49975Z\" stroke=\"#242128\" stroke-linejoin=\"round\"></path>\n<path d=\"M11 8.5C11 10.1569 9.65687 11.5 8 11.5C6.34315 11.5 5 10.1569 5 8.5C5 6.84315 6.34315 5.5 8 5.5C9.65687 5.5 11 6.84315 11 8.5Z\" stroke=\"#242128\"></path>\n<path d=\"M11.6678 4.83359H11.6621\" stroke=\"#242128\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>\n        <span class=\"sr-only\">Instagram</span>\n      </a>\n          <a href=\"https://www.linkedin.com/company/9h-digital/\" target=\"_blank\" class=\"w-10 h-10 bg-gray-200 rounded-full border border-neutral-800/90 flex justify-center items-center hover:bg-gray-100 transition-all duration-200\">\n        <svg aria-hidden=\"true\" focusable=\"false\" width=\"16\" height=\"17\" viewBox=\"0 0 16 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.33789 6.83359H1.33789V15.1669H4.33789V6.83359Z\" stroke=\"#242128\" stroke-linejoin=\"round\"></path>\n<path d=\"M4.33789 3.33359C4.33789 4.16201 3.66632 4.83359 2.83789 4.83359C2.00946 4.83359 1.33789 4.16201 1.33789 3.33359C1.33789 2.50516 2.00946 1.83359 2.83789 1.83359C3.66632 1.83359 4.33789 2.50516 4.33789 3.33359Z\" stroke=\"#242128\" stroke-linejoin=\"round\"></path>\n<path d=\"M9.33796 6.83359H6.33789V15.1669H9.33796V11.0004C9.33796 10.3561 9.86022 9.83372 10.5046 9.83372C11.1489 9.83372 11.6712 10.3561 11.6712 11.0004V15.1669H14.6704L14.6713 9.83372C14.6713 8.17692 13.0955 6.83375 11.5358 6.83375C10.6478 6.83375 9.85569 7.26899 9.33796 7.94959V6.83359Z\" stroke=\"#242128\" stroke-linejoin=\"round\"></path>\n</svg>\n        <span class=\"sr-only\">Linkedin</span>\n      </a>\n      </div>\n                <a href=\"https://www.google.com/preferences/source?q=https://9hdigital.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"mt-6 inline-block\" aria-label=\"Add as a preferred source on Google (opens in a new tab)\">\n    <svg aria-hidden=\"true\" focusable=\"false\" class=\"w-40 h-10.5\" loading=\"lazy\" decoding=\"async\" fetchpriority=\"low\" width=\"270\" height=\"70\" viewBox=\"0 0 270 70\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect x=\"0\" y=\"0\" width=\"270\" height=\"70\" rx=\"12\" ry=\"12\" fill=\"#FFFFFF\" stroke=\"#E0E0E0\" stroke-width=\"1\"></rect>\n        <g transform=\"translate(15, 17) scale(1.5)\">\n            <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path d=\"M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z\" fill=\"#4285F4\"></path>\n                <path d=\"M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z\" fill=\"#34A853\"></path>\n                <path d=\"M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z\" fill=\"#FBBC05\"></path>\n                <path d=\"M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z\" fill=\"#EA4335\"></path>\n                <path d=\"M1 1h22v22H1z\" fill=\"none\"></path>\n            </svg>\n        </g>\n        <g style=\"font-size: 20px; font-weight: 500; font-style: normal; fill: #000000;letter-spacing: 1px;\">\n            <text x=\"65\" y=\"32\">Add as a preferred</text>\n            <text x=\"65\" y=\"54\">source on Google</text>\n        </g>\n    </svg>\n</a>              </div>\n            <div class=\"lg:w-2/3 md:w-1/2 w-full\">\n        <div class=\"grid grid-cols-1 lg:grid-cols-3\">\n                    <div class=\"\">\n            <h6 class=\"font-bold tracking-tight text-base text-primary/60 mb-4\">\n              Services\n            </h6>\n                        <nav class=\"list-none lg:mb-8 mb-4\">\n              <ul>\n                                <li>\n                  <a class=\"lg:text-base font-light text-sm mb-2 inline-block text-gray hover:text-primary transition-all duration-200\" href=\"https://9hdigital.com/services/ai-automations/\" target=\"\">\n                    AI &amp; Automations\n                  </a>\n                </li>\n                                <li>\n                  <a class=\"lg:text-base font-light text-sm mb-2 inline-block text-gray hover:text-primary transition-all duration-200\" href=\"https://9hdigital.com/services/custom-web-applications/\" target=\"\">\n                    Custom Web Applications\n                  </a>\n                </li>\n                                <li>\n                  <a class=\"lg:text-base font-light text-sm mb-2 inline-block text-gray hover:text-primary transition-all duration-200\" href=\"https://9hdigital.com/services/integrations/\" target=\"\">\n                    Integrations\n                  </a>\n                </li>\n                                <li>\n                  <a class=\"lg:text-base font-light text-sm mb-2 inline-block text-gray hover:text-primary transition-all duration-200\" href=\"https://9hdigital.com/services/brand-building/\" target=\"\">\n                    Brand Building\n                  </a>\n                </li>\n                              </ul>\n            </nav>\n                      </div>\n                    <div class=\"\">\n            <h6 class=\"font-bold tracking-tight text-base text-primary/60 mb-4\">\n              Company\n            </h6>\n                        <nav class=\"list-none lg:mb-8 mb-4\">\n              <ul>\n                                <li>\n                  <a class=\"lg:text-base font-light text-sm mb-2 inline-block text-gray hover:text-primary transition-all duration-200\" href=\"https://9hdigital.com/about-us/\" target=\"\">\n                    About\n                  </a>\n                </li>\n                                <li>\n                  <a class=\"lg:text-base font-light text-sm mb-2 inline-block text-gray hover:text-primary transition-all duration-200\" href=\"/work/\" target=\"\">\n                    Our Work\n                  </a>\n                </li>\n                                <li>\n                  <a class=\"lg:text-base font-light text-sm mb-2 inline-block text-gray hover:text-primary transition-all duration-200\" href=\"https://9hdigital.com/insights/\" target=\"\">\n                    Insights\n                  </a>\n                </li>\n                                <li>\n                  <a class=\"lg:text-base font-light text-sm mb-2 inline-block text-gray hover:text-primary transition-all duration-200\" href=\"https://9hdigital.com/services/\" target=\"\">\n                    Services\n                  </a>\n                </li>\n                              </ul>\n            </nav>\n                      </div>\n                    <div class=\"\">\n            <h6 class=\"font-bold tracking-tight text-base text-primary/60 mb-4\">\n              Useful Links\n            </h6>\n                        <nav class=\"list-none lg:mb-8 mb-4\">\n              <ul>\n                                <li>\n                  <a class=\"lg:text-base font-light text-sm mb-2 inline-block text-gray hover:text-primary transition-all duration-200\" href=\"https://9hdigital.com/careers/\" target=\"\">\n                    Careers\n                  </a>\n                </li>\n                                <li>\n                  <a class=\"lg:text-base font-light text-sm mb-2 inline-block text-gray hover:text-primary transition-all duration-200\" href=\"https://9hdigital.com/our-people/\" target=\"\">\n                    Our People\n                  </a>\n                </li>\n                                <li>\n                  <a class=\"lg:text-base font-light text-sm mb-2 inline-block text-gray hover:text-primary transition-all duration-200\" href=\"https://9hdigital.com/technology-partners/\" target=\"\">\n                    Technology Partners\n                  </a>\n                </li>\n                                <li>\n                  <a class=\"lg:text-base font-light text-sm mb-2 inline-block text-gray hover:text-primary transition-all duration-200\" href=\"https://www.9hcapital.com/investors/\" target=\"_blank\">\n                    Investors\n                  </a>\n                </li>\n                                <li>\n                  <a class=\"lg:text-base font-light text-sm mb-2 inline-block text-gray hover:text-primary transition-all duration-200\" href=\"https://9hdigital.com/privacy-policy/\" target=\"\">\n                    Privacy Policy\n                  </a>\n                </li>\n                              </ul>\n            </nav>\n                      </div>\n                  </div>\n      </div>\n          </div>\n  </div>\n  <div>\n    <div class=\"lg:w-[95vw] mx-auto px-5 md:px-9 2xl:px-[3.333vw] 3xl:px-[7vw] lg:pt-8 lg:pb-10 py-4 flex flex-wrap flex-col sm:flex-row justify-center border-t border-primary/5\">\n      <div class=\"block\">\n        <div class=\"lg:text-sm text-xs\">\n  <div class=\"flex gap-y-2 flex-col sm:flex-row text-body text-center text-gray\">\n    <div> © 2026 <a href=\"https://9hdigital.com\">9H</a>. All rights reserved.</div>\n  </div>\n</div>\n      </div>\n    </div>\n  </div>\n</footer>",
+  "buttons": [
+    {
+      "text": "",
+      "aria": null,
+      "outer": "<button class=\"cmplz-category-toggle\" aria-expanded=\"false\" aria-controls=\"cmplz-desc-functional-1-optin\" aria-labelledby=\"cmplz-title-functional-1-optin\">\n\t\t\t\t\t\t<span class=\"cmplz-icon cmplz-open\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" height=\"18\"><path d=\"M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0"
+    },
+    {
+      "text": "",
+      "aria": null,
+      "outer": "<button class=\"cmplz-category-toggle\" aria-expanded=\"false\" aria-controls=\"cmplz-desc-preferences-1-optin\" aria-labelledby=\"cmplz-title-preferences-1-optin\">\n\t\t\t\t\t\t<span class=\"cmplz-icon cmplz-open\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" height=\"18\"><path d=\"M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75"
+    },
+    {
+      "text": "",
+      "aria": null,
+      "outer": "<button class=\"cmplz-category-toggle\" aria-expanded=\"false\" aria-controls=\"cmplz-desc-statistics-1-optin\" aria-labelledby=\"cmplz-title-statistics-1-optin\">\n\t\t\t\t\t\t<span class=\"cmplz-icon cmplz-open\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" height=\"18\"><path d=\"M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0"
+    },
+    {
+      "text": "",
+      "aria": null,
+      "outer": "<button class=\"cmplz-category-toggle\" aria-expanded=\"false\" aria-controls=\"cmplz-desc-marketing-1-optin\" aria-labelledby=\"cmplz-title-marketing-1-optin\">\n\t\t\t\t\t\t<span class=\"cmplz-icon cmplz-open\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" height=\"18\"><path d=\"M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-4"
+    },
+    {
+      "text": "Accept",
+      "aria": null,
+      "outer": "<button class=\"cmplz-btn cmplz-accept\">Accept</button>"
+    },
+    {
+      "text": "Deny",
+      "aria": null,
+      "outer": "<button class=\"cmplz-btn cmplz-deny\">Deny</button>"
+    },
+    {
+      "text": "View preferences",
+      "aria": null,
+      "outer": "<button class=\"cmplz-btn cmplz-view-preferences\">View preferences</button>"
+    },
+    {
+      "text": "Save preferences",
+      "aria": null,
+      "outer": "<button class=\"cmplz-btn cmplz-save-preferences\">Save preferences</button>"
+    },
+    {
+      "text": "",
+      "aria": "Open menu",
+      "outer": "<button @click=\"menuOpen = !menuOpen\" :aria-expanded=\"menuOpen.toString()\" :aria-label=\"menuOpen ? labelClose : labelOpen\" aria-label=\"Open menu\" aria-controls=\"mobile-menu-panel\" type=\"button\" class=\"mt-2 mr-2 glass-btn-v5 p-3 rounded-[10px] inline-flex items-center justify-center focus:outline-none\" aria-expanded=\"false\">\n                    <template x-if=\"!menuOpen\">\n                        <s"
+    },
+    {
+      "text": "",
+      "aria": "Open menu",
+      "outer": "<button @click=\"menuOpen = !menuOpen\" :aria-expanded=\"menuOpen.toString()\" :aria-label=\"menuOpen ? labelClose : labelOpen\" aria-label=\"Open menu\" aria-controls=\"mobile-menu-panel\" type=\"button\" class=\"w-4 h-4 inline-flex flex-col justify-center items-start gap-0.5\" aria-expanded=\"false\">\n                        <svg aria-hidden=\"true\" focusable=\"false\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fi"
+    },
+    {
+      "text": "",
+      "aria": "Close menu",
+      "outer": "<button @click=\"menuOpen = false\" type=\"button\" aria-label=\"Close menu\" class=\"mt-2 mr-2 glass-btn-v5 p-3 rounded-[10px] inline-flex items-center justify-center\">\n                        <svg aria-hidden=\"true\" focusable=\"false\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4 4L12.8542 12.8542\" stroke=\"#242128\" stroke-width=\"1.99931\" stroke-li"
+    },
+    {
+      "text": "Featured Case Study",
+      "aria": null,
+      "outer": "<button class=\" rounded-full font-medium absolute top-5 left-5 !py-2 !px-3 text-sm !bg-white text-white bg-primary hover:bg-body px-6 py-1.5 transition-all duration-300\">\n    <span><span class=\"text-black text-sm font-normal\">Featured Case Study</span></span>\n    </button>"
+    },
+    {
+      "text": "Featured Case Study",
+      "aria": null,
+      "outer": "<button class=\" rounded-full font-medium absolute top-5 left-5 !py-2 !px-3 text-sm !bg-white text-white bg-primary hover:bg-body px-6 py-1.5 transition-all duration-300\">\n    <span><span class=\"text-black text-sm font-normal\">Featured Case Study</span></span>\n    </button>"
+    },
+    {
+      "text": "Featured Case Study",
+      "aria": null,
+      "outer": "<button class=\" rounded-full font-medium absolute top-5 left-5 !py-2 !px-3 text-sm !bg-white text-white bg-primary hover:bg-body px-6 py-1.5 transition-all duration-300\">\n    <span><span class=\"text-black text-sm font-normal\">Featured Case Study</span></span>\n    </button>"
+    },
+    {
+      "text": "Featured Case Study",
+      "aria": null,
+      "outer": "<button class=\" rounded-full font-medium absolute top-5 left-5 !py-2 !px-3 text-sm !bg-white text-white bg-primary hover:bg-body px-6 py-1.5 transition-all duration-300\">\n    <span><span class=\"text-black text-sm font-normal\">Featured Case Study</span></span>\n    </button>"
+    },
+    {
+      "text": "Featured Case Study",
+      "aria": null,
+      "outer": "<button class=\" rounded-full font-medium absolute top-5 left-5 !py-2 !px-3 text-sm !bg-white text-white bg-primary hover:bg-body px-6 py-1.5 transition-all duration-300\">\n    <span><span class=\"text-black text-sm font-normal\">Featured Case Study</span></span>\n    </button>"
+    },
+    {
+      "text": "Featured Case Study",
+      "aria": null,
+      "outer": "<button class=\" rounded-full font-medium absolute top-5 left-5 !py-2 !px-3 text-sm !bg-white text-white bg-primary hover:bg-body px-6 py-1.5 transition-all duration-300\">\n    <span><span class=\"text-black text-sm font-normal\">Featured Case Study</span></span>\n    </button>"
+    },
+    {
+      "text": "Featured Case Study",
+      "aria": null,
+      "outer": "<button class=\" rounded-full absolute top-5 left-5 !py-2 !px-3 !bg-white !text-xs !text-black text-white bg-primary hover:bg-body px-6 py-1.5 transition-all duration-300\">\n    <span>Featured Case Study</span>\n    </button>"
+    },
+    {
+      "text": "Featured Case Study",
+      "aria": null,
+      "outer": "<button class=\" rounded-full absolute top-5 left-5 !py-2 !px-3 !bg-white !text-xs !text-black text-white bg-primary hover:bg-body px-6 py-1.5 transition-all duration-300\">\n    <span>Featured Case Study</span>\n    </button>"
+    },
+    {
+      "text": "Featured Case Study",
+      "aria": null,
+      "outer": "<button class=\" rounded-full absolute top-5 left-5 !py-2 !px-3 !bg-white !text-xs !text-black text-white bg-primary hover:bg-body px-6 py-1.5 transition-all duration-300\">\n    <span>Featured Case Study</span>\n    </button>"
+    },
+    {
+      "text": "Featured Case Study",
+      "aria": null,
+      "outer": "<button class=\" rounded-full absolute top-5 left-5 !py-2 !px-3 !bg-white !text-xs !text-black text-white bg-primary hover:bg-body px-6 py-1.5 transition-all duration-300\">\n    <span>Featured Case Study</span>\n    </button>"
+    },
+    {
+      "text": "Featured Case Study",
+      "aria": null,
+      "outer": "<button class=\" rounded-full absolute top-5 left-5 !py-2 !px-3 !bg-white !text-xs !text-black text-white bg-primary hover:bg-body px-6 py-1.5 transition-all duration-300\">\n    <span>Featured Case Study</span>\n    </button>"
+    },
+    {
+      "text": "Featured Case Study",
+      "aria": null,
+      "outer": "<button class=\" rounded-full absolute top-5 left-5 !py-2 !px-3 !bg-white !text-xs !text-black text-white bg-primary hover:bg-body px-6 py-1.5 transition-all duration-300\">\n    <span>Featured Case Study</span>\n    </button>"
+    },
+    {
+      "text": "Technology",
+      "aria": null,
+      "outer": "<button class=\"cursor-pointer flex-1 lg:min-w-[200px] lg:px-6 px-3 py-3 rounded-2xl inline-flex justify-center items-center gap-1.5 transition-all text-xs md:text-sm lg:text-base bg-neutral-800 text-white\" id=\"tab-Technology-button\" data-tabs-target=\"#tab-Technology\" type=\"button\" role=\"tab\" aria-controls=\"tab-Technology\" aria-selected=\"true\">\n                        Technology\n                   "
+    },
+    {
+      "text": "Product",
+      "aria": null,
+      "outer": "<button class=\"cursor-pointer flex-1 lg:min-w-[200px] lg:px-6 px-3 py-3 rounded-2xl inline-flex justify-center items-center gap-1.5 transition-all text-xs md:text-sm lg:text-base text-primary hover:bg-neutral-800/5\" id=\"tab-Product-button\" data-tabs-target=\"#tab-Product\" type=\"button\" role=\"tab\" aria-controls=\"tab-Product\" aria-selected=\"false\">\n                        Product\n                    "
+    },
+    {
+      "text": "Marketing",
+      "aria": null,
+      "outer": "<button class=\"cursor-pointer flex-1 lg:min-w-[200px] lg:px-6 px-3 py-3 rounded-2xl inline-flex justify-center items-center gap-1.5 transition-all text-xs md:text-sm lg:text-base text-primary hover:bg-neutral-800/5\" id=\"tab-Marketing-button\" data-tabs-target=\"#tab-Marketing\" type=\"button\" role=\"tab\" aria-controls=\"tab-Marketing\" aria-selected=\"false\">\n                        Marketing\n            "
+    },
+    {
+      "text": "Operations",
+      "aria": null,
+      "outer": "<button class=\"cursor-pointer flex-1 lg:min-w-[200px] lg:px-6 px-3 py-3 rounded-2xl inline-flex justify-center items-center gap-1.5 transition-all text-xs md:text-sm lg:text-base text-primary hover:bg-neutral-800/5\" id=\"tab-Operations-button\" data-tabs-target=\"#tab-Operations\" type=\"button\" role=\"tab\" aria-controls=\"tab-Operations\" aria-selected=\"false\">\n                        Operations\n        "
+    },
+    {
+      "text": "Finance",
+      "aria": null,
+      "outer": "<button class=\"cursor-pointer flex-1 lg:min-w-[200px] lg:px-6 px-3 py-3 rounded-2xl inline-flex justify-center items-center gap-1.5 transition-all text-xs md:text-sm lg:text-base text-primary hover:bg-neutral-800/5\" id=\"tab-Finance-button\" data-tabs-target=\"#tab-Finance\" type=\"button\" role=\"tab\" aria-controls=\"tab-Finance\" aria-selected=\"false\">\n                        Finance\n                    "
+    },
+    {
+      "text": "",
+      "aria": "Previous testimonial",
+      "outer": "<button type=\"button\" aria-label=\"Previous testimonial\" class=\"testimonials-prev flex items-center justify-center cursor-pointer transition-transform hover:scale-110\">\n                    <svg aria-hidden=\"true\" focusable=\"false\" class=\"lg:w-12 lg:h-10 w-8 h-7\" viewBox=\"0 0 48 39\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M47.3755 19.231L0.615838 19.3217M0.615838 19.3217C6.76684 20."
+    },
+    {
+      "text": "",
+      "aria": "Next testimonial",
+      "outer": "<button type=\"button\" aria-label=\"Next testimonial\" class=\"testimonials-next flex items-center justify-center cursor-pointer transition-transform hover:scale-110\">\n                    <svg aria-hidden=\"true\" focusable=\"false\" class=\"lg:w-12 lg:h-10 w-8 h-7\" viewBox=\"0 0 48 39\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M0.376414 19.231L47.1361 19.3217M47.1361 19.3217C40.9851 20.1301 "
+    },
+    {
+      "text": "Manage consent",
+      "aria": null,
+      "outer": "<button class=\"cmplz-btn cmplz-manage-consent manage-consent-1 cmplz-show\" aria-haspopup=\"dialog\" aria-controls=\"cmplz-cookiebanner-1-optin\">Manage consent</button>"
+    }
+  ],
+  "globals": {
+    "lenis": false
+  }
+}

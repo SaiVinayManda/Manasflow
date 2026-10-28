@@ -1,0 +1,2319 @@
+{
+  "archived": [
+    {
+      "source": "public/sites/manasflow/pages/catalog-0037729a647ad8.png",
+      "destination": "quarantine/source-editorial-assets/catalog-0037729a647ad8.png",
+      "sha256": "593c77e2528b63a6559eb8b70a4da03aa718e81439e19ef3114fcaaf6e477e4a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-00771794ba67b6.png",
+      "destination": "quarantine/source-editorial-assets/catalog-00771794ba67b6.png",
+      "sha256": "c591392eb00e9abaa1dea35467e6bafe8d1ba7b2c11dd48d8b65c6505aa4aeda"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-00f8b0df9b0877.png",
+      "destination": "quarantine/source-editorial-assets/catalog-00f8b0df9b0877.png",
+      "sha256": "7101d12bcf2cf7f56890aa89241eb17dcfc8af7cccc87bffa72f7dc40b107121"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-011c92dbf50dd7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-011c92dbf50dd7.png",
+      "sha256": "66e98cd3d007554e8d1d6207223fc8804ff61925b7b4e3cfcf86baed64b02686"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-012c98c0ff1ca7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-012c98c0ff1ca7.png",
+      "sha256": "502ea10c8d117a33195e0ae8806ad21038eea8e1d77878d3f30824c19ce0b91a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-015720b0b6efc9.png",
+      "destination": "quarantine/source-editorial-assets/catalog-015720b0b6efc9.png",
+      "sha256": "33f8b0ef6835d21a03d8f8511d5c1c7e90c852b3cd32c4c7b1a9a468c0322bfd"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-02e3426f669ac4.png",
+      "destination": "quarantine/source-editorial-assets/catalog-02e3426f669ac4.png",
+      "sha256": "33b314f931702477919661ecfdcad515c06b0264472dfa4da7ba1b1b3d81eb1c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-0353158d3af32a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-0353158d3af32a.png",
+      "sha256": "8895548dbf93e8cfd075c374001748166ee2abac96571813075420de81afe842"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-047519cd000242.png",
+      "destination": "quarantine/source-editorial-assets/catalog-047519cd000242.png",
+      "sha256": "d33dcc69d61fdf492a1c92da72214be62fb7b61dbe67cec374340470800ed10f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-048c98f624993d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-048c98f624993d.png",
+      "sha256": "4756f25b5a60290230880d75ae3c7891de1bf20bb262ac637f1e47efbba2cb69"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-057b9f1f36449a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-057b9f1f36449a.png",
+      "sha256": "fec177c83ca81af59a8a85141c678bd0c5224f1d41115eec0a6901810dcaac97"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-0580714a6f1b21.png",
+      "destination": "quarantine/source-editorial-assets/catalog-0580714a6f1b21.png",
+      "sha256": "e8b567b75007de1f4d23efa4084b5b60acdb9d335d05c956db003bfaa4e472f3"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-065e6e9ccbd4fc.png",
+      "destination": "quarantine/source-editorial-assets/catalog-065e6e9ccbd4fc.png",
+      "sha256": "e0fb6fffd7ad38851acbe7d440dcdad31f69b3600694b645cd1de24028efcfc1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-067c8c120117d9.png",
+      "destination": "quarantine/source-editorial-assets/catalog-067c8c120117d9.png",
+      "sha256": "5fe9c5f39463f2aff70a74c16f0789631e972a9881c796c765087e21a670b29a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-07e3f6ccd1c423.png",
+      "destination": "quarantine/source-editorial-assets/catalog-07e3f6ccd1c423.png",
+      "sha256": "11fb6022b730757175ac41465473510f658cb877c4086aaf7c17fcf22a3b7632"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-07f18c8f38ccf5.png",
+      "destination": "quarantine/source-editorial-assets/catalog-07f18c8f38ccf5.png",
+      "sha256": "83b4882705a9f58d0a957faee367fb02c85149b2e89dc47623b33554dcf0d173"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-080c6edc8ae2dc.png",
+      "destination": "quarantine/source-editorial-assets/catalog-080c6edc8ae2dc.png",
+      "sha256": "1074506bd94639eb91a8409f48da68feb10c95721aa81c395f0c7ad43f3cf357"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-08e7ec8e1a50c8.png",
+      "destination": "quarantine/source-editorial-assets/catalog-08e7ec8e1a50c8.png",
+      "sha256": "f309c03aa98f9f76a276325bf8ba442ee6326a2ded3d525f253f11a4f6d2278b"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-0946c0d46eee18.png",
+      "destination": "quarantine/source-editorial-assets/catalog-0946c0d46eee18.png",
+      "sha256": "5b30972dbf0660a6d250f62aaeae9290f4f70e102cef066292878313f4a0b77c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-09a10bab328ee5.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-09a10bab328ee5.webp",
+      "sha256": "a8cffd404aeba0ed6b0ec61f370f011715877a5b2a9408d61a4c587a885ab037"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-09c4f497f1c7d8.png",
+      "destination": "quarantine/source-editorial-assets/catalog-09c4f497f1c7d8.png",
+      "sha256": "9a89b53b39975a53cdad6ca21d96136fd19a252b0cef78777405d0277993f0a3"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-09e9da88baae2d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-09e9da88baae2d.png",
+      "sha256": "e7932779267068a5f6bb639fa98e080d3e45f87017b8fdb53fdfb589ce8d7a4a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-0bb55c9e1dded9.png",
+      "destination": "quarantine/source-editorial-assets/catalog-0bb55c9e1dded9.png",
+      "sha256": "82c34d6e33c242ae5e3875f2552dbf8f2d8b2fb8ba0ab0de23dfcf3caabfe61e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-0cad7532f03000.png",
+      "destination": "quarantine/source-editorial-assets/catalog-0cad7532f03000.png",
+      "sha256": "52df362fa9f26390a4ff453b22a78a33c3a58513575d128714f7a69909afe322"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-0d81d3607f2f99.png",
+      "destination": "quarantine/source-editorial-assets/catalog-0d81d3607f2f99.png",
+      "sha256": "eec30b25e49cc442a4b1f659ebcc3b5600d2a54b3619debfb0885fbb2c33b4a1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-0ec93d6152e042.png",
+      "destination": "quarantine/source-editorial-assets/catalog-0ec93d6152e042.png",
+      "sha256": "3582a0717ce5b0ae95e91609be75a39a82028da47c58acda49acb6f5733c0dc9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-0f05aae8525804.png",
+      "destination": "quarantine/source-editorial-assets/catalog-0f05aae8525804.png",
+      "sha256": "56b54e60084021968dd62c01e7aab383e8f0af290d68ebba236d560fb76fa3f9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-0f2e1b79895066.png",
+      "destination": "quarantine/source-editorial-assets/catalog-0f2e1b79895066.png",
+      "sha256": "f079b0864d2b71327ade88d79d2f8c13e1be7484e12deb2a663e43c5f0caf69f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-0fd9794ce7ce0a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-0fd9794ce7ce0a.png",
+      "sha256": "713760adbe5ac37904768dc9f9e3e5966584fc7025fe4566929c5fd60ba8a9ec"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-103e57618905f1.png",
+      "destination": "quarantine/source-editorial-assets/catalog-103e57618905f1.png",
+      "sha256": "e201f4b7897240f98f5126f1beb41f321ee6a03b74e0970d2e88cde18f23d0e0"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-10e9aea0ab6313.png",
+      "destination": "quarantine/source-editorial-assets/catalog-10e9aea0ab6313.png",
+      "sha256": "8e64edad6ac54a108e9023ab96e0c5112c781111caa3cdb42b73928021e63ef3"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-110fb2dbde5e88.png",
+      "destination": "quarantine/source-editorial-assets/catalog-110fb2dbde5e88.png",
+      "sha256": "e16098dc3d8d7ef3bdbd86b78502b2859aa3b9b90c78b6839c5bb43ba86ef402"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-13813312d7e625.png",
+      "destination": "quarantine/source-editorial-assets/catalog-13813312d7e625.png",
+      "sha256": "ead9158d9d54c585a68ba02a259f4bc08c780e9820884508db699608898e6846"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-13c4f28f42bd3b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-13c4f28f42bd3b.png",
+      "sha256": "ccb938060f0cda95f201291d2103f2f11cc8cd8e58cfc912d7874e8f162c5d3d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-13f712254cf465.png",
+      "destination": "quarantine/source-editorial-assets/catalog-13f712254cf465.png",
+      "sha256": "fa25a4f1ddc240079b446e8f2d438e1af1537251dc1a546e4dc08dda020768c7"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-142f0e0e988b7f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-142f0e0e988b7f.png",
+      "sha256": "2469ad4a7f420d606a1d9de1d6c2f664f72905b17e28e3c94977b02d71961cd5"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-15dd0621494afd.png",
+      "destination": "quarantine/source-editorial-assets/catalog-15dd0621494afd.png",
+      "sha256": "21a2478fa78dfb71ab0d9273f6b0b797c10c9927455c495a5f19756115571ea5"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-16703d71bce9a6.png",
+      "destination": "quarantine/source-editorial-assets/catalog-16703d71bce9a6.png",
+      "sha256": "f549e8388974fa3e3bd019ed86e005b4f64235eb3527f27d648a2b43c0082c2d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-170ba0b30c3567.png",
+      "destination": "quarantine/source-editorial-assets/catalog-170ba0b30c3567.png",
+      "sha256": "05892a29f2c8eeda321944bf065e1a5d482e55ee69a00b54033f101fa8d01b49"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-175543b1f8f18d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-175543b1f8f18d.png",
+      "sha256": "2209d7c1ccd002111c014a23637621a5b7b597017511fbc0838518f514e3bad3"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-17afb5460e360b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-17afb5460e360b.png",
+      "sha256": "8e221dbb67bce58bdaddd561fed43c1de9900fdf0f87ff986ea7d9a2ae6f849d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-17b68b403f3ad6.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-17b68b403f3ad6.webp",
+      "sha256": "fa883c9e76802dfb000ad938d095735836b189884f19232169af663f4b494030"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-18dfce35bbe77b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-18dfce35bbe77b.png",
+      "sha256": "e7d33b0021ec74419091fb38dc06224898cc66990ec1eaade35c5f192e965d9d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-199a38d99b9d5a.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-199a38d99b9d5a.webp",
+      "sha256": "e94ce70772113557425db3031f95b32f23f0d4a15f650edd2cd5aa2cc48b0a7e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-1a21409705cc63.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-1a21409705cc63.webp",
+      "sha256": "5acf7e030cf616acc02b1b38154a3b48afb616fbab427bf467c239e6981faec5"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-1c987d33536342.png",
+      "destination": "quarantine/source-editorial-assets/catalog-1c987d33536342.png",
+      "sha256": "c514860d9eee7fb8519f012a0b727e0b81e6cfd3af246f9188b6dfc96c4a8882"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-1d2cc19db603b3.png",
+      "destination": "quarantine/source-editorial-assets/catalog-1d2cc19db603b3.png",
+      "sha256": "ac97234922146881f172583f12d02463c9dc11407535025d0ea442ec3cf418a1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-1d4b4043e106b6.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-1d4b4043e106b6.webp",
+      "sha256": "52e7eaf87d5fbf2bbaacb22fab4486999936e2d842855c7b35e9529ae92457bd"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-1d9628c7e485a2.png",
+      "destination": "quarantine/source-editorial-assets/catalog-1d9628c7e485a2.png",
+      "sha256": "28e60f8c94d77c7165766cfbb29c017daf19c79a175621d9549a677e24425b01"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-1df66a09c7e9de.png",
+      "destination": "quarantine/source-editorial-assets/catalog-1df66a09c7e9de.png",
+      "sha256": "b6fc6d0316a87bbb0db08bdbd5b10f63d23e820fb00f7a2787ef7f73c9994744"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-1e07084ce698bf.png",
+      "destination": "quarantine/source-editorial-assets/catalog-1e07084ce698bf.png",
+      "sha256": "dea277be32c8b19024c4765b07650c2ce99df78d6e724566c299ed6bf718f8c3"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-1e3f1257b41eac.png",
+      "destination": "quarantine/source-editorial-assets/catalog-1e3f1257b41eac.png",
+      "sha256": "b3a3b155da1d65d3fb5b64a789e6c932b37a6d5125b2bb964de7877a5c64426a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-1f5cc49dd90c6b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-1f5cc49dd90c6b.png",
+      "sha256": "fc0c7a7dccd2e7078fe9d4ad729f3b2feaef61533b524b7bf8125043ffb02327"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-1f69b4174dc2fa.png",
+      "destination": "quarantine/source-editorial-assets/catalog-1f69b4174dc2fa.png",
+      "sha256": "0f281a8a90579f371feda9546eb993b7c9c1e9c2324ba0c24dadd9f62dd95679"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-208df82ad3fd17.png",
+      "destination": "quarantine/source-editorial-assets/catalog-208df82ad3fd17.png",
+      "sha256": "4fdd65367f3bd4cdb8a7d9788387110d4afb329d1c61ee362fddb703e13ab020"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-21a8358373c4b1.png",
+      "destination": "quarantine/source-editorial-assets/catalog-21a8358373c4b1.png",
+      "sha256": "3d53a79b0865b39ed087762f9d6c3704bfe287cd10a3c8f337482f8c4a282c26"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-2245907cb902b3.png",
+      "destination": "quarantine/source-editorial-assets/catalog-2245907cb902b3.png",
+      "sha256": "9271e7f8afd74eb40936f7a30c1e37ffe56be28b9aea80a6342c1d3362020aa0"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-224d5238147ea3.png",
+      "destination": "quarantine/source-editorial-assets/catalog-224d5238147ea3.png",
+      "sha256": "401c3a7937654e428af6585ac86b6befcea3c72ebbd4f2373ea6193855a71ca1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-23288a45371f21.png",
+      "destination": "quarantine/source-editorial-assets/catalog-23288a45371f21.png",
+      "sha256": "8aa3409268d2ac7d5cd9e432670f01ef0b1c86d08482ccb446aa058af723241f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-23e30f80c326e7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-23e30f80c326e7.png",
+      "sha256": "4f090b64f0cf5087e204404975a998bd53f7825947b9536569c7b39a641c73be"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-241c6c1aadd636.png",
+      "destination": "quarantine/source-editorial-assets/catalog-241c6c1aadd636.png",
+      "sha256": "cd301caa151221ef0f4585b0d6ac6b2e205dae57f7399a72fbd00400d0ead259"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-2427caf80d0bc8.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-2427caf80d0bc8.webp",
+      "sha256": "632b674ef5b624d61cfec93af1ac2fa6cae6a2fcc4edeb5e4f2585a14d7cbb27"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-24ae5f025e51dd.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-24ae5f025e51dd.webp",
+      "sha256": "9ce2d2bf45913e10374713feeb74363b5b45d3e61f62c46ff381616f1bd2fb83"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-24ba9c47b7c07f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-24ba9c47b7c07f.png",
+      "sha256": "be227daf97cad707d16572936accefefa160e1913a41d3e684cb546d7868fc94"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-25878e9cc19fb5.png",
+      "destination": "quarantine/source-editorial-assets/catalog-25878e9cc19fb5.png",
+      "sha256": "b30a5c5a0ce2d1a12dd17b9615b467a7140d0b99353f46d9a74f3a63695f9b52"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-25b4888c078e2a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-25b4888c078e2a.png",
+      "sha256": "4aef4c57ad47005fe416d5e8a007b047b3d1af62db4802afa8aec736760a3cff"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-269846145d5f21.png",
+      "destination": "quarantine/source-editorial-assets/catalog-269846145d5f21.png",
+      "sha256": "a2f123d66fb7d41e18de68ed7f5092a14b5428f67e404eb9b1621372b997c946"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-26ae11a12a3561.png",
+      "destination": "quarantine/source-editorial-assets/catalog-26ae11a12a3561.png",
+      "sha256": "4e28244253acbf712f8cfd48f4e11b852f0953cf8e15671c7d9bd2a372920ff0"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-277c017392256d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-277c017392256d.png",
+      "sha256": "32765b9cf74987d0a48426ca8b1995538aedf7bc41a63630bee698ee0d6306e8"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-2786822ac26e80.png",
+      "destination": "quarantine/source-editorial-assets/catalog-2786822ac26e80.png",
+      "sha256": "4fb738fcd0292778bbe05898da1bd849bf969c33443f05c7fae01e149518f280"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-27c1c8e8b2348b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-27c1c8e8b2348b.png",
+      "sha256": "78eda725ac28f1d64abe682c8dca9ad3074bfe73b59bd953ee5a1552b003ccc1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-2822be5c345b10.png",
+      "destination": "quarantine/source-editorial-assets/catalog-2822be5c345b10.png",
+      "sha256": "80223d053b12cb0886111e7dcf187e385a26e9e6e655536dfe62a10f07e7864f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-28d5a6458bedb8.png",
+      "destination": "quarantine/source-editorial-assets/catalog-28d5a6458bedb8.png",
+      "sha256": "9a9197ac9a0882584083df7ed0e008edcfde88ef199d5dd2fd9841f31f85c5e2"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-2968c2bec46cd8.png",
+      "destination": "quarantine/source-editorial-assets/catalog-2968c2bec46cd8.png",
+      "sha256": "2406fc89d2b3c7c4866a1e4ee6abbfeb88b95d1ff5d970a661907cbaf886dac4"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-297914792b3c99.png",
+      "destination": "quarantine/source-editorial-assets/catalog-297914792b3c99.png",
+      "sha256": "1dd97adc4ed9480fc2998f5c3141cc7bfbfbb4ad90b325ac975c4c107f7ec952"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-29fd6a5e35b13b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-29fd6a5e35b13b.png",
+      "sha256": "97b0680605702916cdad19c649e2cb20e12e00ba23fd314de29c4cae83e14ff3"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-2a7987a63f2ad8.png",
+      "destination": "quarantine/source-editorial-assets/catalog-2a7987a63f2ad8.png",
+      "sha256": "d7c6842ef7796259b8d9b6c068371fd3c4a9429f626d09e59fbc3e203f65ef4c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-2abab9ba82ed05.png",
+      "destination": "quarantine/source-editorial-assets/catalog-2abab9ba82ed05.png",
+      "sha256": "d78491c33a8dd6de08c50f193cdd660faa283313d59d92492dbf68725d45ca55"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-2d4a185d9e3776.png",
+      "destination": "quarantine/source-editorial-assets/catalog-2d4a185d9e3776.png",
+      "sha256": "76613e7c5993f222f9608f8942388e8cfea147de19d1f10858467d366ee9cb5b"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-2d70e0f79cad3e.png",
+      "destination": "quarantine/source-editorial-assets/catalog-2d70e0f79cad3e.png",
+      "sha256": "92ebfaee283413632266342c4a22a921f98b5be77155bd35e9db7674bb74fa7d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-2e98223b43088b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-2e98223b43088b.png",
+      "sha256": "8b2b7c65fe82e8fa8934f74f528c07f4aba5fd736183e2e1b4b363ca51486f1a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-2f97327ece0085.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-2f97327ece0085.webp",
+      "sha256": "53151461d2f4b34fc5728ddaac17bd37a77814fe5dfeca5c1ca8f9eb6d012911"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-30563a3e40cf6c.png",
+      "destination": "quarantine/source-editorial-assets/catalog-30563a3e40cf6c.png",
+      "sha256": "d6c889f9a35e26a911294865ceee18fb421427bfbbdd0596efdbf730a0812758"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-3092fe46e994ff.png",
+      "destination": "quarantine/source-editorial-assets/catalog-3092fe46e994ff.png",
+      "sha256": "dd25826eefcc69a6a64f84ba027e0798d13cc038756e69ed641aad064313c5ef"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-30f9a31cba0d5e.png",
+      "destination": "quarantine/source-editorial-assets/catalog-30f9a31cba0d5e.png",
+      "sha256": "94699d3cae093cd3de7f7390ab31d4c8ad5cca00ac2ea6564993748b92cfff00"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-31a58b566c8b84.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-31a58b566c8b84.webp",
+      "sha256": "ddf30c2ade8a96516b26efb03ca11eda765b79036a63d6f54feb751793dbb1b0"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-32141a4be21c2c.png",
+      "destination": "quarantine/source-editorial-assets/catalog-32141a4be21c2c.png",
+      "sha256": "1f2021437e277d76a2544df47316c07a5f91dd501cd32e3843d392df2e5c31db"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-32892d4541dbfa.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-32892d4541dbfa.webp",
+      "sha256": "86ee5d79bbd9cb285affe69b9f765f2d0a569c9ffd530ecb9e893e0c780853b9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-32a82038579235.png",
+      "destination": "quarantine/source-editorial-assets/catalog-32a82038579235.png",
+      "sha256": "8cc07563343b50ef40a4cd7cfb415fe364a78a1e6e2e8a21a3da7483d8f0e9a9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-32afaae94d9b27.png",
+      "destination": "quarantine/source-editorial-assets/catalog-32afaae94d9b27.png",
+      "sha256": "62cca7295f74d374f73161f1f4b1a7f4fdce5b0c91c6ec2f611abaa582809de0"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-3379d3b36a43e8.png",
+      "destination": "quarantine/source-editorial-assets/catalog-3379d3b36a43e8.png",
+      "sha256": "fabf5629e5e810f2820e1b428e282ef6b9acb76ad70ba14ca6b9e6be83aa495f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-33c47eb4c2d3ef.png",
+      "destination": "quarantine/source-editorial-assets/catalog-33c47eb4c2d3ef.png",
+      "sha256": "92f49584dfb21e44b2c49b31f6f099f61f7f0fdb2ae1d31096d96a57d9bff6bc"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-33d737ac55d32d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-33d737ac55d32d.png",
+      "sha256": "3b022400672e48545cf6989f28969b96581150a2afb2f65ed229c5157cc849fb"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-358682fb2f6b5a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-358682fb2f6b5a.png",
+      "sha256": "9755d4b542425345670a8bb7b490b64842e0b8ab2c11c02a9091f4f012c3ae20"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-35e565d6252980.png",
+      "destination": "quarantine/source-editorial-assets/catalog-35e565d6252980.png",
+      "sha256": "6546b3a22c4fff8b03e62830a01e38fb323af2e695be5da929bd2f8e4d5aaaa0"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-3646ff51939977.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-3646ff51939977.webp",
+      "sha256": "16e3b157aa9f4ee844f92c9cf2a8e8649ba85e0e3a0308df556aa5f039c18cbf"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-36f60169c2bf8a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-36f60169c2bf8a.png",
+      "sha256": "8cfff9a8f06303839ac51d351b6b7eb3637c794acd7f42caf68b7989e12bb83f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-37edd8ba2bb3f1.png",
+      "destination": "quarantine/source-editorial-assets/catalog-37edd8ba2bb3f1.png",
+      "sha256": "384e7572d56ddeb96a6d0d3c00792b17e678030df4d055ba681e703cd1564a78"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-3829ec8e11b252.png",
+      "destination": "quarantine/source-editorial-assets/catalog-3829ec8e11b252.png",
+      "sha256": "108cf95f1eb3b2f576310d28da3220552b95b34bfe2fcceff2665fb797da4de1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-3936554d0ba96f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-3936554d0ba96f.png",
+      "sha256": "6a10378902be1bfe23f4f7323eaf2a96297eab3d7659f10cb3733edefbf1dd02"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-3993b73e2503c7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-3993b73e2503c7.png",
+      "sha256": "3d31823fc6bd7e1bac63a67b9136bb7e4adc26b8313dca6d95d94889d01c1b2e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-39a07fc1138755.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-39a07fc1138755.webp",
+      "sha256": "5e63778828a91fd062d5d57c8805733207e074277dedaf6561d5f1ec9bebf553"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-3a017540555d44.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-3a017540555d44.webp",
+      "sha256": "dfe64acb902ebe8209eaad2d58f8d6ef52c4c9af81a9b67e589ffecb6350c32f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-3c3bad2587a11d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-3c3bad2587a11d.png",
+      "sha256": "0da01baecf85a6259075f928172fb35e2badb1b6b46c4480d41362d8a61850b3"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-3d8d01b5205564.png",
+      "destination": "quarantine/source-editorial-assets/catalog-3d8d01b5205564.png",
+      "sha256": "7be93ef19c28ab5879518e7521f4dffd7fb255bbfa713b66dd01b01e5b57aa56"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-3da8a82a5b21d1.png",
+      "destination": "quarantine/source-editorial-assets/catalog-3da8a82a5b21d1.png",
+      "sha256": "a11d8721012df8e5ae24107aa4b49ed2abacce329e971855917a1a35d753e4a9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-3e3c980a2d4158.png",
+      "destination": "quarantine/source-editorial-assets/catalog-3e3c980a2d4158.png",
+      "sha256": "6baddc6c4877c3cd276b1797a20264d7763d909fe49ec7903f8ea60acb4b54ad"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-3ecce8e7fb5185.png",
+      "destination": "quarantine/source-editorial-assets/catalog-3ecce8e7fb5185.png",
+      "sha256": "edd47b829f0a25f533332fa23d0216c07ff7b8dc7a8065d9a3d6348e44036357"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-3f47cb5918ec0a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-3f47cb5918ec0a.png",
+      "sha256": "09750a5c60bd6e0419871f2753520b64c4557cd6625839b90ce4f751a75e793e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-400af504b037b8.png",
+      "destination": "quarantine/source-editorial-assets/catalog-400af504b037b8.png",
+      "sha256": "469950c4768372f6f6b46449221344f6801d5c3bfa99a160d0ac585f5df83d27"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-412a772dbd55ae.png",
+      "destination": "quarantine/source-editorial-assets/catalog-412a772dbd55ae.png",
+      "sha256": "48594637b9f6bc83d678377f542bd354387c60818bd279508f10ebb35fa39b3a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4202ae2e0afa0a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4202ae2e0afa0a.png",
+      "sha256": "ba186252fb50e22e2ddca8b4d94afd6b94c1e9a96c5dc43e2c506d501ebc2687"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4233792567de31.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4233792567de31.png",
+      "sha256": "bb6ec23b57903afb9610f490684ca77e23fa8262b06a164720b79324f04a2d46"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-424891ced44fab.png",
+      "destination": "quarantine/source-editorial-assets/catalog-424891ced44fab.png",
+      "sha256": "ffb165baf7b10e964ae241d2c4096b1061963f796bb042f06c3b98562a1fd178"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-429495a9fad4e0.png",
+      "destination": "quarantine/source-editorial-assets/catalog-429495a9fad4e0.png",
+      "sha256": "a0ceeb743d2e31373063832e2a2060c9213bf29704d465abb15c9754f27989d9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-431933fe245a9d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-431933fe245a9d.png",
+      "sha256": "7280d9d06fc8b0e3eb4d9e5662df905ed70b528789de8e73c02e7b448d9f87d1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-439f2844cd16e7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-439f2844cd16e7.png",
+      "sha256": "275c17aabdef5137e7d991a1e8e1a747d655551fb818dda8eea6390b428bd8f2"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4458e320df7b1d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4458e320df7b1d.png",
+      "sha256": "a0ebc19636b6582c63554458003efa7f99dc94cddb0eadbe14a7284fbf46ea54"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4545be4333cbb4.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4545be4333cbb4.png",
+      "sha256": "b75e3f88085716c87f1ba1360721c90cf1d626255313fa9a32fa00baa21bc7d9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-457ceed6037c97.png",
+      "destination": "quarantine/source-editorial-assets/catalog-457ceed6037c97.png",
+      "sha256": "8853fa2116ccd3738937fb6452de98984a913fb11b5f330baa9506d00432a55f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4647ccafd381f6.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4647ccafd381f6.png",
+      "sha256": "68be655e36a692bd252a2cbd59ae8581386791d376af1bffd3f277adb46c7c92"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-468da38e5b7075.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-468da38e5b7075.webp",
+      "sha256": "614b67be9f465534ac9f0c3705351a60300be2cf85ff932a35a1b916abf33afc"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-47d95f6706541c.png",
+      "destination": "quarantine/source-editorial-assets/catalog-47d95f6706541c.png",
+      "sha256": "af70548211882710c5dd086a47a4dfca743fee5d6d76c3afac224808573f3166"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-488f5c043787e2.png",
+      "destination": "quarantine/source-editorial-assets/catalog-488f5c043787e2.png",
+      "sha256": "d7f8b57a3129138c4facc95b38579de8bf9ac7341a8b991c0b0b519ae699c456"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-493a2cffc9492f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-493a2cffc9492f.png",
+      "sha256": "8bbec1a8a826e18e287410f90de8be8fcb6b9a6997a791faf5cbc70b03a3a1bb"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-495989bbb17a80.png",
+      "destination": "quarantine/source-editorial-assets/catalog-495989bbb17a80.png",
+      "sha256": "afed2b7456ac88db5baf607855951eb391cd25e75690c805c0d21b6645372016"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4a693f1860cf9c.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4a693f1860cf9c.png",
+      "sha256": "7e00a17bd4f25d65cb81a5985f586161f010a28de7d9f18d6099604a307d7885"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4a86c46f4fe398.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4a86c46f4fe398.png",
+      "sha256": "77968fef1178d207946a244e021fae20c54e96c1a913049553977a3ca98c2660"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4aad1499639c11.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4aad1499639c11.png",
+      "sha256": "588e4178423cea2db43347e498e2a78f4558ecf97f98d5ff3c0c77eee126c22a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4b5c118910e98d.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-4b5c118910e98d.webp",
+      "sha256": "07ea4765f851f732e8e69ae288b219f84802c3788781891fdb9a2b5a88dcbd5c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4bb68d91b73f16.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4bb68d91b73f16.png",
+      "sha256": "419d90e7478c29b0d3b208cdbb286a9f7866ad7050927f79d78eceb5a61750af"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4bc95e8cb6a21c.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4bc95e8cb6a21c.png",
+      "sha256": "843e3b137bab544ea386383911778d71c8509c9382a8b368a3c31b0b5e897b44"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4c3e5e96948628.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-4c3e5e96948628.webp",
+      "sha256": "b10b29da1ad040218a05a3b1b0a7a38fa40cc2eaddeab0b6e0e77a557e9ce61e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4c84a7cfd446f7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4c84a7cfd446f7.png",
+      "sha256": "9d74191a1f64dc74a5b50038049c85cf54725710e785da103dd12ed4699f0d31"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4cb54c71b03d7a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4cb54c71b03d7a.png",
+      "sha256": "0b149133d5a77267c71a4664a5880c76a4de577246b17c82ce3fec8b0acba7b7"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4e544ee7eb5dae.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4e544ee7eb5dae.png",
+      "sha256": "46b119231608835b0b18d83c93e064cc88a9c37eab8967f1aacfb17980018a61"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4e9d94f3d8d487.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4e9d94f3d8d487.png",
+      "sha256": "e2b766b768517c9509a10f77e5f3789ea64a51b4e5194ea684924fbefc4471d1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4f5a185687e502.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4f5a185687e502.png",
+      "sha256": "82ddf4dfcd6b1b0d8b25b725f2cfd091f8b944dc3f02eb625b655f151e11ca49"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-4f93ea7c9e7242.png",
+      "destination": "quarantine/source-editorial-assets/catalog-4f93ea7c9e7242.png",
+      "sha256": "7601e5942dd38a1178977ab7b7cd015009fb27b73b5182e2aed583247099546f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-513e7654ba21b1.png",
+      "destination": "quarantine/source-editorial-assets/catalog-513e7654ba21b1.png",
+      "sha256": "efa0417bc2070f03d5e487c2780e2e2a3089cb10daad712c9384f71b5c3e8a22"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-52427a9ab044cc.png",
+      "destination": "quarantine/source-editorial-assets/catalog-52427a9ab044cc.png",
+      "sha256": "e9527daff6989fc12538d38aaa7ee690732b4ffbdab7f3ef589a70a6e7d386f1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5254aa42720f1d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5254aa42720f1d.png",
+      "sha256": "a719de523799d94cfeba6297b55169ab6396061a368a02f317cbec99dac31742"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-53694ce8b8b6fc.png",
+      "destination": "quarantine/source-editorial-assets/catalog-53694ce8b8b6fc.png",
+      "sha256": "8bb747abf5e1199476f949ec34a7ea275cf2ae6f915f63d831262b2f4c4a9fad"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-541127934257ef.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-541127934257ef.webp",
+      "sha256": "6811e38e695383bc5155ee93f6258c64e6f4d5ddbbd8254c311d2a08cc3072cd"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5467270dd933cd.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5467270dd933cd.png",
+      "sha256": "df0433ea982870602fb0202c1574690f7f13c96b8e8aa9d03a460f3606ced3d5"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-55776d9b00c8ac.png",
+      "destination": "quarantine/source-editorial-assets/catalog-55776d9b00c8ac.png",
+      "sha256": "10c4f86d49ded10a20d8505b1861bc0ab85c79d9d6ad2be7719a57a6abfed8b1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-55bb0415a688f8.png",
+      "destination": "quarantine/source-editorial-assets/catalog-55bb0415a688f8.png",
+      "sha256": "fe46e355dd5b97be711c9e5b4a90df7cb6ce87a494e855312e45fbbf1e969afe"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5731ca117d07bb.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5731ca117d07bb.png",
+      "sha256": "1f7f37e6552e9b9e0b2090723beb59047085549bcf7f7c923ad2aa2b7abd48b9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-574aed43ff1cab.png",
+      "destination": "quarantine/source-editorial-assets/catalog-574aed43ff1cab.png",
+      "sha256": "ead9158d9d54c585a68ba02a259f4bc08c780e9820884508db699608898e6846"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-574f0ba76615d4.png",
+      "destination": "quarantine/source-editorial-assets/catalog-574f0ba76615d4.png",
+      "sha256": "fa4f9c481d5add225342e16cde0c1dfa33e74c724c2a00cc5f67c35729148332"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-576a72f8c4897d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-576a72f8c4897d.png",
+      "sha256": "103d4f871eee5df0dfc825ccc0a7af7054140df075b06e4d2d24bf4cec4b2b44"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-582ae5ec6ce803.png",
+      "destination": "quarantine/source-editorial-assets/catalog-582ae5ec6ce803.png",
+      "sha256": "992fea875f5f68e80bb02c0b3ed420bc22a8bf819d743b99ea4df70086d87b00"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-58db3ca8500c8f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-58db3ca8500c8f.png",
+      "sha256": "055511c2083e3a34061df5d6820e6d97e552fa56453eb65e84ff1083c7d719d6"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5913c58f939efe.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5913c58f939efe.png",
+      "sha256": "7ee7d3f71a9662ffa3f8aa50a40d041edf9d7cc6a4bcbd46aeed480cb66d039d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-593ad4749cbb6a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-593ad4749cbb6a.png",
+      "sha256": "b70d4fbb81d8e21d01758660c94e0e83f00e2bd450f1ddc58745fb8dfeca7356"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5947740269155a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5947740269155a.png",
+      "sha256": "eae5e8dc9cba43a736e9b7573a1fba5ee3e0e271102cf1dfd8bb9ae0512f45b5"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5a1823c26fa0df.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5a1823c26fa0df.png",
+      "sha256": "9211ee02550e89e4a86a81b204d19e38a58a1a2377c7adccc274ed31f7457a27"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5a5659fcc71f10.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5a5659fcc71f10.png",
+      "sha256": "fb2f573c83ca8e8ea0f5e25f8eb39f07a76d876c1442ac2edf8365d9c77a5889"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5b0fb7c1675580.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5b0fb7c1675580.png",
+      "sha256": "32871151f7ae8d2cac539d34005ff703f035e5afe65d478cd97046bc2e008f7f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5b2cc4ba611d3d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5b2cc4ba611d3d.png",
+      "sha256": "c44e7b21063d1bf1ec1aebe6aaad59c7fd8b9739dcbe452c82f473c701071136"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5b72f8f73170f4.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5b72f8f73170f4.png",
+      "sha256": "98588dbe7d7afd2bbb3a3baa8a3fdf374c213ae5c46ec10dbe950e1584cd42e7"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5b7f58a0dcc323.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5b7f58a0dcc323.png",
+      "sha256": "cf97cfe5113612454429edf12f74be3a992c863da1c2c68823f3a0bfb92ddb2c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5bdbddf99150c4.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5bdbddf99150c4.png",
+      "sha256": "f93890d7eed15cd63330b4efed20730cc4f748613dad6097e24152a9df83970a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5c0031ce069ddf.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5c0031ce069ddf.png",
+      "sha256": "7d604fbf2021766c009927fa832f11ed9fa07db590e6ac2d61cc97f54fd6d5aa"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5d6ea793fcbe0f.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-5d6ea793fcbe0f.webp",
+      "sha256": "5bef2133015d7bdcacbc486a10e893f1e99d3134fb367dab12a8b52031136636"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5ec9a4cc3516e3.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5ec9a4cc3516e3.png",
+      "sha256": "b644f521186f6fabae02ce55ece4f63ba42b40b76bddb1497e0bbb92c6a79917"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5f181ffc732953.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5f181ffc732953.png",
+      "sha256": "5d0ccb6a6c3973c6d98ea4cf9f39a7b98a4c7265a13bc06d555d6bbf36b4cadf"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5fba7006f586bc.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5fba7006f586bc.png",
+      "sha256": "21cad9e4236cd63c25a085e59a4edb980a7058d7a1e5c4363095bfab92149ebd"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-5fc510d2c05b64.png",
+      "destination": "quarantine/source-editorial-assets/catalog-5fc510d2c05b64.png",
+      "sha256": "6cfd247937bfe362bf74943306e209c2670d04e4f62aa08b15d09efe3bff3290"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-603513f0406252.png",
+      "destination": "quarantine/source-editorial-assets/catalog-603513f0406252.png",
+      "sha256": "d7165196624af5b59b770a563f8e7f5d5623f72ca9c73a615d084afaa6938a39"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-60f79f9f691880.png",
+      "destination": "quarantine/source-editorial-assets/catalog-60f79f9f691880.png",
+      "sha256": "c3e23e22de2290409de6a41739b6c34ace4d1bae33850fa81cc15c41344f388e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-623ce59ac86075.png",
+      "destination": "quarantine/source-editorial-assets/catalog-623ce59ac86075.png",
+      "sha256": "d2c8dc338fef6b09903f1fc0bc31067521e26280993bc12e3df6a05d80a53c71"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-654d78a93a02e6.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-654d78a93a02e6.webp",
+      "sha256": "0b9566f8d19e776292b40e50906ec018215b4e5c869b5cdbc53372d53b63e37f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-667f5b2dfdb257.png",
+      "destination": "quarantine/source-editorial-assets/catalog-667f5b2dfdb257.png",
+      "sha256": "bb06b5881638c7d0f0cc304773df9781c45e669139e4897b2c850c5b22ec39c9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-669a81c5e09905.png",
+      "destination": "quarantine/source-editorial-assets/catalog-669a81c5e09905.png",
+      "sha256": "36a5dcc0c7be88055c1085faf1cdccb0665dfeb57d31680e1682d7deb98cf3e4"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-670af36d5c53ba.png",
+      "destination": "quarantine/source-editorial-assets/catalog-670af36d5c53ba.png",
+      "sha256": "4e0bacbaf9b39448093b90fa128a8b14d65dcab5f525316093698bc35e68b978"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-682fdbbe5d9475.png",
+      "destination": "quarantine/source-editorial-assets/catalog-682fdbbe5d9475.png",
+      "sha256": "27516ee4c9ac9452ac4fc41d5191e00b70eb016fa1341458717569bf9ea8fa00"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-684d24e9b9e7af.png",
+      "destination": "quarantine/source-editorial-assets/catalog-684d24e9b9e7af.png",
+      "sha256": "31d2cc260a994528cf6e5f830d984d1d40d987b8db6c132e19d9dac225762181"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-6851f895cf3385.png",
+      "destination": "quarantine/source-editorial-assets/catalog-6851f895cf3385.png",
+      "sha256": "733c26ebe44b631b35d9aaf2382099a4f2bf6ef3ad4857b059e6a1c997d5c4b9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-68682b1fac3f41.png",
+      "destination": "quarantine/source-editorial-assets/catalog-68682b1fac3f41.png",
+      "sha256": "965f28cafb98836f327ff9010731d89ff22be806fb22e387d7b96a97ef8b2e41"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-68b9237eb47481.png",
+      "destination": "quarantine/source-editorial-assets/catalog-68b9237eb47481.png",
+      "sha256": "e3e460e53b4b6cebc7c4b5122d98a79d15e9802b47331f1ec6c58c2d64291477"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-69b82814b38f72.png",
+      "destination": "quarantine/source-editorial-assets/catalog-69b82814b38f72.png",
+      "sha256": "85c57ecd3b24f8b274f5c40d678e44d6fc4ef2addb32656143cf4966d7805e6a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-69eaa13a350d77.png",
+      "destination": "quarantine/source-editorial-assets/catalog-69eaa13a350d77.png",
+      "sha256": "6b42689df30fe3366489ec150cd8430395b1683c160b8cd0a3aa272a29232626"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-6ad495b4de031e.png",
+      "destination": "quarantine/source-editorial-assets/catalog-6ad495b4de031e.png",
+      "sha256": "5bac07e0151e1fc6b416f941229eab83db376b851eab8786315a49c725cb3515"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-6ad70f3b709371.png",
+      "destination": "quarantine/source-editorial-assets/catalog-6ad70f3b709371.png",
+      "sha256": "87a9cf314055fd6e3ba006d0185725646a48e89a67a3121648f0b3d882eadd61"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-6af7af5c8a318e.png",
+      "destination": "quarantine/source-editorial-assets/catalog-6af7af5c8a318e.png",
+      "sha256": "bbcbdf4948bb998aa205d4b45b9c656a2f756c1428627273082d81c68862aad4"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-6c81fa5cb7cb55.png",
+      "destination": "quarantine/source-editorial-assets/catalog-6c81fa5cb7cb55.png",
+      "sha256": "a21c1d2f9372613ec85f8ff07ada3808b0e6c45b22989c288b005f2001d502f2"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-6d8e163ea49b00.png",
+      "destination": "quarantine/source-editorial-assets/catalog-6d8e163ea49b00.png",
+      "sha256": "2ae7658ff66b80c86bfb2dd9d47f5511c0c66992a0e30c159b81134ca161cbf3"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-6da1e62f8a5fb8.png",
+      "destination": "quarantine/source-editorial-assets/catalog-6da1e62f8a5fb8.png",
+      "sha256": "3682ec540df6ca47bc410659c6b004930a182b1afeb8964b59eeee8c906a73e8"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-6dd914f5e9874e.png",
+      "destination": "quarantine/source-editorial-assets/catalog-6dd914f5e9874e.png",
+      "sha256": "8c51ed2f1671ee83f7ce59749a3465699f38ec1dd96dece71132ab3bc58fcf5a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-6ea56b09e509a4.png",
+      "destination": "quarantine/source-editorial-assets/catalog-6ea56b09e509a4.png",
+      "sha256": "9a472c306e7adbd010a299f2b076471111ce8f64f303cb39a4e34ffbc93a282d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-6f2c6c21196d23.png",
+      "destination": "quarantine/source-editorial-assets/catalog-6f2c6c21196d23.png",
+      "sha256": "3d0507ed966a9cc77cb0ecfdb56f58910548177700201fbf2d85482040f1e04c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-6f5587939e0d92.png",
+      "destination": "quarantine/source-editorial-assets/catalog-6f5587939e0d92.png",
+      "sha256": "75a53083ac9c0952d9dc7adbfce6675fb6a7c75d7508e72ff60c99e71a6c4d5e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-701768e5d4609b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-701768e5d4609b.png",
+      "sha256": "09d49f4e33113beccee07b11cba7e7457e1dedac8af3840f02ef560ada275374"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-708828500ada5e.png",
+      "destination": "quarantine/source-editorial-assets/catalog-708828500ada5e.png",
+      "sha256": "d079b16145b9f17e4b1e4e60c196312e51ce113b95a68dac45fa3b39f64457a3"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-714bd5c0d6b7d6.png",
+      "destination": "quarantine/source-editorial-assets/catalog-714bd5c0d6b7d6.png",
+      "sha256": "b598d662237d0f148cdd1053cf7c84f49af6f6da46f4925f6bc082d99b766bf6"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-71833bf1844a34.png",
+      "destination": "quarantine/source-editorial-assets/catalog-71833bf1844a34.png",
+      "sha256": "d390fbd5c8073ee2034325bb2d33f0110377ba6a931ab5c3801f3540f5a7a8a4"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-71acc170dd4ab1.png",
+      "destination": "quarantine/source-editorial-assets/catalog-71acc170dd4ab1.png",
+      "sha256": "f09da4758f01a0560796dddf2ca473aaaa175700414d71a987b140588dfa6ed3"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-720e28ecfd15d9.png",
+      "destination": "quarantine/source-editorial-assets/catalog-720e28ecfd15d9.png",
+      "sha256": "3a50f2a5891fdfd582a2ad084da2d222c66facee341a136e347d141ff9bade98"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7264f2f297eee9.png",
+      "destination": "quarantine/source-editorial-assets/catalog-7264f2f297eee9.png",
+      "sha256": "0d5db19ac8efecee0a710be1b4f0bf1157abbb307164e4b36c858f29889b3fb8"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7266604f030981.png",
+      "destination": "quarantine/source-editorial-assets/catalog-7266604f030981.png",
+      "sha256": "5508d89562033ce0543dbb032e4c7f9842db61e4ac4337d49a6ec35f65f4e517"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-736ce8804a34a7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-736ce8804a34a7.png",
+      "sha256": "e17ff2dde07eb0be470e80a6f2b427f282d096d92e6fde08c0475c87e5332d81"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7386e7c51de8bd.png",
+      "destination": "quarantine/source-editorial-assets/catalog-7386e7c51de8bd.png",
+      "sha256": "ead9158d9d54c585a68ba02a259f4bc08c780e9820884508db699608898e6846"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-73a04c0e1bd870.png",
+      "destination": "quarantine/source-editorial-assets/catalog-73a04c0e1bd870.png",
+      "sha256": "f1a458b79a351047df70b787d66cbe55d31aa3a3c5af9132717a82bae3adeee9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-73fe0c0adaaf27.png",
+      "destination": "quarantine/source-editorial-assets/catalog-73fe0c0adaaf27.png",
+      "sha256": "06512de68a9ab47045c6cf76b59bddb1dd86484e6c49a3d85e2d04574bad95da"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7422f3c7ac9a71.png",
+      "destination": "quarantine/source-editorial-assets/catalog-7422f3c7ac9a71.png",
+      "sha256": "4bf3701808b18df6a360e12e4c6c6078f1ec71010c592c91e3e0c2de284a97f9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-74877bb9d1f0b5.png",
+      "destination": "quarantine/source-editorial-assets/catalog-74877bb9d1f0b5.png",
+      "sha256": "777c4beae01fc62d0bf79b9d6366f503c83b343f685aa5e2427415770a09dd6a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-74d0f0657fb033.png",
+      "destination": "quarantine/source-editorial-assets/catalog-74d0f0657fb033.png",
+      "sha256": "9fd2fe7265aa82076c3fb64086f14aa2f7e1121b00fe3adc78d19fba7ca60279"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-753b5bd5a836b0.png",
+      "destination": "quarantine/source-editorial-assets/catalog-753b5bd5a836b0.png",
+      "sha256": "29eac7562cd41601ef1f3556fcfac89a98281a63a351adc94a036f6074b4cdca"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-769b9edc532ea0.png",
+      "destination": "quarantine/source-editorial-assets/catalog-769b9edc532ea0.png",
+      "sha256": "3d3f670862e6762ddf62bb5810f23add3710a5bd042d9d06f289c59ef62154cb"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7748dcb8b578f7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-7748dcb8b578f7.png",
+      "sha256": "0a3d2577269358c70234cb0946bfbb8902c6a68654302b89ef8047c9fa11342e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7955d9c697ac0d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-7955d9c697ac0d.png",
+      "sha256": "da9d5ce2027a723909cfe07737ef0c2d8b8d318a7d283e8ed6a53aa24393e006"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7a3cd4c980cdc9.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-7a3cd4c980cdc9.webp",
+      "sha256": "aa5beba39a57ce38de10632bd1d86818a8208a94f9dab6dd170acf839dfcb188"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7a86d21cb0d648.png",
+      "destination": "quarantine/source-editorial-assets/catalog-7a86d21cb0d648.png",
+      "sha256": "0788802c4a007d469a79d192a926f4b23ebe888d2bcda62963cb557e99fad80f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7a9e2cf6601155.png",
+      "destination": "quarantine/source-editorial-assets/catalog-7a9e2cf6601155.png",
+      "sha256": "098defbe080e7388069f4a0596f0382f29d97324116654caa61089c38a9551fc"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7b757a69254cb3.png",
+      "destination": "quarantine/source-editorial-assets/catalog-7b757a69254cb3.png",
+      "sha256": "833a6a4af44e86253b8745ad438d1825349214905662177ad942454f30be355c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7b83fcc4382be0.png",
+      "destination": "quarantine/source-editorial-assets/catalog-7b83fcc4382be0.png",
+      "sha256": "95525f2c0b89301736d810ba8451ecea15ba48265f26957964efc264c325af27"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7bba832e4d15b8.png",
+      "destination": "quarantine/source-editorial-assets/catalog-7bba832e4d15b8.png",
+      "sha256": "dd1375c58210fe37c753be9dd4638822d4dd8738ac2cc17a1777cca741a3429c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7c505bba90f1ac.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-7c505bba90f1ac.webp",
+      "sha256": "55b1ac94f114326d02c99ec74efcbf9359ea987a767a2f3fb8eea0e80ca5c14e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7c61c28bb5d5fc.png",
+      "destination": "quarantine/source-editorial-assets/catalog-7c61c28bb5d5fc.png",
+      "sha256": "27d96dd0293a58ebc26ae499d22c551974bb0710d4719bfff4b9d9198f4efe94"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7c627d372c6d02.png",
+      "destination": "quarantine/source-editorial-assets/catalog-7c627d372c6d02.png",
+      "sha256": "8d2b8736fb2bbec397e2bf868222e340805efcbfbc73af3a3f4c663ca560f8a4"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7c6bbe115ce791.png",
+      "destination": "quarantine/source-editorial-assets/catalog-7c6bbe115ce791.png",
+      "sha256": "af246adffa1a9d6218ff8c291526dbd1c8c91221c2f0ca4d9ca40069b05b1020"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7e8b8742d00c43.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-7e8b8742d00c43.webp",
+      "sha256": "bc3e6d31c6e7e7f2a3f91777b05221d543b92e6dc8268a62f73ebccb50dbd899"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-7ef1f930fd57e7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-7ef1f930fd57e7.png",
+      "sha256": "1e22ed93145e40fda021dc754f97acb841a81da5d1b3a09e8f3ccd971ecc4cc6"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-8086d0a6d93486.png",
+      "destination": "quarantine/source-editorial-assets/catalog-8086d0a6d93486.png",
+      "sha256": "57445e6aad47d4cc74c9b02edffb1c11b0a4f2a66e36326a1edd3c763b1fcee9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-8120f8bcec32fb.png",
+      "destination": "quarantine/source-editorial-assets/catalog-8120f8bcec32fb.png",
+      "sha256": "0b98ebe5bd0db88f96fb851979593d390a9e22b8a05d09afc4a593a0e5aaf703"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-8132328d1a4d7b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-8132328d1a4d7b.png",
+      "sha256": "12a2c9b72dcca38287737b1dfeba9ac74f041dd6218452cf41ec71810db8745c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-818f66e8d7d992.png",
+      "destination": "quarantine/source-editorial-assets/catalog-818f66e8d7d992.png",
+      "sha256": "d676d9b2e5edbcebbb22824094e5b1fa2bd4be627031db689e55b882d1d1020d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-81f717d977012a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-81f717d977012a.png",
+      "sha256": "ec39c558834e53cb2891398600f3a2f14066cde42515f9c231a4a12416f6405a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-82036985ad6574.png",
+      "destination": "quarantine/source-editorial-assets/catalog-82036985ad6574.png",
+      "sha256": "2b2131da46e28779e6c2495674059753d3e9428de18b9646d8e573afea847be1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-8211a6b25553b2.png",
+      "destination": "quarantine/source-editorial-assets/catalog-8211a6b25553b2.png",
+      "sha256": "4ae18c5fc296f284c2c8e14bf231ef76a9d60cb62a823adccd33df9f56eb3896"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-8390124499c2a3.png",
+      "destination": "quarantine/source-editorial-assets/catalog-8390124499c2a3.png",
+      "sha256": "2e3eac1f63b7b774977da246b18bd56650ea102e723df957f31f083aa40944b4"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-83b659810bbae9.png",
+      "destination": "quarantine/source-editorial-assets/catalog-83b659810bbae9.png",
+      "sha256": "814dd1554376a9c9896621926a538b25fdcfad1545a078a3bfe8fa040731b5b7"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-8529a360d22832.png",
+      "destination": "quarantine/source-editorial-assets/catalog-8529a360d22832.png",
+      "sha256": "1b88fc0fd74ec751a8f3a6ebc18aa0d8f188883c99a1d8239b2b4e4dd7558ffd"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-8592964e68ffa7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-8592964e68ffa7.png",
+      "sha256": "b3b37710bb43ba32977fd4dddb60ea19a559df0e8d518f004cd1510ebe911d3f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-861f1435b0ba4c.png",
+      "destination": "quarantine/source-editorial-assets/catalog-861f1435b0ba4c.png",
+      "sha256": "eae70be08d49d98e2e38f1fc143f13cc097897c7e38a21295c8e369ddab29ee9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-863de34cc5e930.png",
+      "destination": "quarantine/source-editorial-assets/catalog-863de34cc5e930.png",
+      "sha256": "6143b0d67f2f1f5b23b5c9bc9e3f448e7179d8c6cf50e7e8002b347391cdcffc"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-87b56df3756fce.png",
+      "destination": "quarantine/source-editorial-assets/catalog-87b56df3756fce.png",
+      "sha256": "0d16d50cc4019572a0baa6db4c1f50a91518cc179a973379f5d5a175f249a1d5"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-87f9fa3e735322.png",
+      "destination": "quarantine/source-editorial-assets/catalog-87f9fa3e735322.png",
+      "sha256": "eef21d6fb3c38592db1be1ae8fea8b895393115f6a57788aa1d3857e6ddf949e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-88a22272ead48b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-88a22272ead48b.png",
+      "sha256": "16a231491c8632f04bd6f1ec62980cb9e39f849be23af858639622d29a706b71"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-88c7e2b7afd7f3.png",
+      "destination": "quarantine/source-editorial-assets/catalog-88c7e2b7afd7f3.png",
+      "sha256": "d048b5e43826431cdd3dbbd25d75cc4114eb74b2cbc0eb787afcf270adf4e6fb"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-8946c11cc78da9.png",
+      "destination": "quarantine/source-editorial-assets/catalog-8946c11cc78da9.png",
+      "sha256": "a740c5f85df041f69bc3659992f5acb268db92e5166667a1163176cf315e476e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-8b8e8e30effded.png",
+      "destination": "quarantine/source-editorial-assets/catalog-8b8e8e30effded.png",
+      "sha256": "f251ed07cf348183ddedd3136ba0ff61601a79332934f4d9724fc15e403fac5a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-8b96c6deec6008.png",
+      "destination": "quarantine/source-editorial-assets/catalog-8b96c6deec6008.png",
+      "sha256": "edf567cadb9b343200a7349a8f952c9e9ea63c44a8bb2b46549d4f6f3fa6bf74"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-8bedac42fb3145.png",
+      "destination": "quarantine/source-editorial-assets/catalog-8bedac42fb3145.png",
+      "sha256": "0fd631aef589a7aee99bf2b1dbf4431c17f7061786a99e7d15b18e2da0c36c0c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-8d5c7f97ca7edb.png",
+      "destination": "quarantine/source-editorial-assets/catalog-8d5c7f97ca7edb.png",
+      "sha256": "4aaae21c5605bc4c594ef7a2c89c7cdd838bcf56d85dc2cef439f5b50598a323"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-8e8eece0ad7c79.png",
+      "destination": "quarantine/source-editorial-assets/catalog-8e8eece0ad7c79.png",
+      "sha256": "bfb0c20c03b1743d01645aa889e909ec7a9d40ffe118f47c18c4edca9fa0711f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9003347a548bdf.png",
+      "destination": "quarantine/source-editorial-assets/catalog-9003347a548bdf.png",
+      "sha256": "55a23b412257d43560ea01f101afbb0be40c66dd8cca3909e770f10d9e3930a8"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-91442f1e3cccd2.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-91442f1e3cccd2.webp",
+      "sha256": "1b8ad6ec11fcd5ec5826e46d0f32ca307e67e03578b571d03223e86b83de36b1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-914db454e0a368.png",
+      "destination": "quarantine/source-editorial-assets/catalog-914db454e0a368.png",
+      "sha256": "81f3f4d1fb25280ef37cd231a03a3c84b8d36196a4866aeb724980884c08a0ac"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-92047c7a8e959a.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-92047c7a8e959a.webp",
+      "sha256": "4883e00f6f6cc32e37c4bdf8d128abc7f988474a076e915034d37b1a0a561742"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-923b80cee01591.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-923b80cee01591.webp",
+      "sha256": "7c27b479ee5ef26bc52866aaae62247d4250910e337dade43fce51d355102f0c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-931cd43cf78508.png",
+      "destination": "quarantine/source-editorial-assets/catalog-931cd43cf78508.png",
+      "sha256": "9d88456ef3dec813466f0c6c1f00594a413db2433229d1495260ffe8315c94c4"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-93837065fc7ca8.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-93837065fc7ca8.webp",
+      "sha256": "18da58747a21dbc20b8a2362e90a80f5850966a8388260466257017b8dccd024"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-94906108f959e5.png",
+      "destination": "quarantine/source-editorial-assets/catalog-94906108f959e5.png",
+      "sha256": "f490cc67820f43c7ede9027096aab3cd8c54def5868a5d50174bb9e6a522e2ae"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-95bba5417178b6.png",
+      "destination": "quarantine/source-editorial-assets/catalog-95bba5417178b6.png",
+      "sha256": "5afc51f4bfb50875a7f6cf8fa67981a60a88c19819d375c4557c9eafe2b1554f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9616f9c4d6ee8d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-9616f9c4d6ee8d.png",
+      "sha256": "fe248858636a764b063f91189e9d9551f5e0ecbe1719b8c25a06b2b6fc04cbb7"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9631ea919ebd5e.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-9631ea919ebd5e.webp",
+      "sha256": "e6b962f14773be902e945261f61b082f8b272891f5af191a907c1499c165641f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-96ad8ee10f5af3.png",
+      "destination": "quarantine/source-editorial-assets/catalog-96ad8ee10f5af3.png",
+      "sha256": "9fd57fc11686324fa24fbefba21f46dbaefe691242494bfa6ff6d954c469ebb5"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-96b1cc54acf9fc.png",
+      "destination": "quarantine/source-editorial-assets/catalog-96b1cc54acf9fc.png",
+      "sha256": "e41f52584c4eefe422b25569966e0e1998729539cefd11bc65b5c5944038db56"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-96d221f37ae7c3.jpeg",
+      "destination": "quarantine/source-editorial-assets/catalog-96d221f37ae7c3.jpeg",
+      "sha256": "339f3441ad996677f74a7b4c782cef94999b69c0874ccd164a065c5c6b72f30f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-97897a98d70167.png",
+      "destination": "quarantine/source-editorial-assets/catalog-97897a98d70167.png",
+      "sha256": "5c814cf5edfa9da4ce3b87f3e0bf007424492cc8389d775fe3f5266ab70cea56"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-97ccf7a80d199e.png",
+      "destination": "quarantine/source-editorial-assets/catalog-97ccf7a80d199e.png",
+      "sha256": "e7b6bf591f6c82f3e7b6e34c743b4d427c190caad1db9c50b2a06972e2d1dee2"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-97d233834aa7ba.png",
+      "destination": "quarantine/source-editorial-assets/catalog-97d233834aa7ba.png",
+      "sha256": "ae6867c5395784f94b9e46d1a6066bc323d0c34afce591ec18cd61b0adf192ff"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9887bb6430a835.png",
+      "destination": "quarantine/source-editorial-assets/catalog-9887bb6430a835.png",
+      "sha256": "b69a70f03c0058355990c1e1497c0cd7a91f9352d4bea7a4486c3a0d94d2cb61"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-988990f8887406.png",
+      "destination": "quarantine/source-editorial-assets/catalog-988990f8887406.png",
+      "sha256": "a5ae3b7681346db46c19f11cb64d315a2c28079b194bc5df0643f4eb939a5747"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-98b646f1693819.png",
+      "destination": "quarantine/source-editorial-assets/catalog-98b646f1693819.png",
+      "sha256": "75666dd6bd7a879ba1546760c5aba45afcd765f1016b876915b76e62c6889911"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-98dc9c13977eab.jpeg",
+      "destination": "quarantine/source-editorial-assets/catalog-98dc9c13977eab.jpeg",
+      "sha256": "745f6dcb78bc9137f8dfd58d49ea9ed00f08d7b189e20a924d17daa40c995156"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-998930367417df.png",
+      "destination": "quarantine/source-editorial-assets/catalog-998930367417df.png",
+      "sha256": "6f05fcd86d7d917d1efef635c1bb7cbe931d3e9b5e091dbc47db5dab3c29a449"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9990bbbaf0cbb4.png",
+      "destination": "quarantine/source-editorial-assets/catalog-9990bbbaf0cbb4.png",
+      "sha256": "627c3fc37897700a93898d30f1c57675f062d7c69c7a3afa0404e7c2f86008c2"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-99b709c69f3e63.png",
+      "destination": "quarantine/source-editorial-assets/catalog-99b709c69f3e63.png",
+      "sha256": "12c64a559bb37a739dafb3228dfac9656cd65842921466534337e79c01c71468"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9a3c52fcc398a4.png",
+      "destination": "quarantine/source-editorial-assets/catalog-9a3c52fcc398a4.png",
+      "sha256": "0caef0e7f811d95c6e1b1c876d710aa1b2ad060f71385afb86a2910b7bd4c3ed"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9a3cc2a0ec5702.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-9a3cc2a0ec5702.webp",
+      "sha256": "63148b9a530e54339fbab9d209ae89bd4a777cddb6c99edc3492476c6ad4e9d9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9b1f766303fb78.png",
+      "destination": "quarantine/source-editorial-assets/catalog-9b1f766303fb78.png",
+      "sha256": "aee31df9f592c41e406c4853f95e9940f05ecc251dd4945b57832807fc55ba6f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9b982b0c2c857e.png",
+      "destination": "quarantine/source-editorial-assets/catalog-9b982b0c2c857e.png",
+      "sha256": "cbabc5e1e795d2215054b72ef103dd2b226b31b92860c400a2db3586121568fc"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9cbc6db9bccc1a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-9cbc6db9bccc1a.png",
+      "sha256": "29f7d518eb7a8872dd8c47ef1f88fe0f886265421ecd9c6eaf9476aac47b0737"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9cbd6d662ee4c6.png",
+      "destination": "quarantine/source-editorial-assets/catalog-9cbd6d662ee4c6.png",
+      "sha256": "fc03c666ef6ce3c630982b24fc3c633fbf1ec753b14e600d9aaccb75dbfa9525"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9d02eb2c8d05c8.png",
+      "destination": "quarantine/source-editorial-assets/catalog-9d02eb2c8d05c8.png",
+      "sha256": "27b40433df3669bcafea0ed2246efae2a233b9b0bbcad4b00dc873dba817ebb2"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9d1cb981e2676f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-9d1cb981e2676f.png",
+      "sha256": "cf17a1e454da4d6f0f8227e3974be879c5d2d87a22400fff63569ad71214c749"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9dd75ca00a4de7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-9dd75ca00a4de7.png",
+      "sha256": "d784fa4192062a71e7966c4e26d801a2dd8ae830ae540d54377fab93c2ff320c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9e9bcdbf610be9.png",
+      "destination": "quarantine/source-editorial-assets/catalog-9e9bcdbf610be9.png",
+      "sha256": "fce2e08a0cc63d5040585d161ec0352caeb20377f556e7cc002cb6fdb29ee34c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9ea2191b928a5f.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-9ea2191b928a5f.webp",
+      "sha256": "648983f5f7b175fd7433b49dac675ab07fb657734871df63b30472ddb08a9556"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-9f25cdda0a5ced.png",
+      "destination": "quarantine/source-editorial-assets/catalog-9f25cdda0a5ced.png",
+      "sha256": "c7470f8152220d88bc8ffb234a020230b954292ecd91f5342d4a15d6cd33a44d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a08ebb09ea594e.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a08ebb09ea594e.png",
+      "sha256": "c9ef6455f948291a3b3e9146ed996e344917c526b51b66af00d160cf5e3d9ee4"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a0a18c3d70ddb1.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a0a18c3d70ddb1.png",
+      "sha256": "eff725010fdce5f84ea56cec1bb0d908f8b35cfc7117589beb43ae878ffba395"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a0cae05ba726f1.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a0cae05ba726f1.png",
+      "sha256": "1a6d22e3e3dbbc3a926a86a128388ce6cc8c1acfafc2ada1f9d97832b695f10b"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a10a6cca1f1ffc.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a10a6cca1f1ffc.png",
+      "sha256": "a497a61586bcca61253ff04f04fc38bcd92068ce826e6af528f50f500de4dd11"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a110df705da515.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a110df705da515.png",
+      "sha256": "ebc62c045ae46cbf981bfef47157e73762ccf41641710741f92bcd94ad7aedf2"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a19f7ce1faed44.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a19f7ce1faed44.png",
+      "sha256": "af28a1e38624dcb522a39f274feaebaf6a2334ae6daf14d8af2532907217c243"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a1fe120f80445d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a1fe120f80445d.png",
+      "sha256": "5e737c68a33381f428fd39e9bcfc50bcfce737303542e2bcbabcef4b4465271a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a2216bdae2d2be.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a2216bdae2d2be.png",
+      "sha256": "235594eb72248b2172d3cb0e2b99609b83d9567987f62a7ead8f606a05296977"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a24528e8d1bad3.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a24528e8d1bad3.png",
+      "sha256": "d1d84eac1032582a5908ca2c8c82010aadff652f42b176a1df05085c69aeb41e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a31623b3e232b3.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a31623b3e232b3.png",
+      "sha256": "4cdc5fdcee7f5d98c0f5132d6f2eada8aa1f9fe041752a4b89dfc0021a610fc3"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a39deba5463eba.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a39deba5463eba.png",
+      "sha256": "eaf34f3d3922ef8d4dc6902e0547e591b4f8bc9c3b363429b043bec3ae32999a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a3b339078fa52c.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a3b339078fa52c.png",
+      "sha256": "d590ad368b34d0fe6b8a17ff920d66b5b0c40311425b2cc7f34c24ea70ffabc5"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a45fcc811c1f3d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a45fcc811c1f3d.png",
+      "sha256": "fd6a6cff1fa2a2a066ea8742bcda05327a8d7d3c27e01348fbbfbed2e6c92680"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a57b2cbfefdd5e.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a57b2cbfefdd5e.png",
+      "sha256": "23f3c0f9d55ffa70a13f95441dd17eb445fabb0fb4f9587b009d449388c5b225"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a624659d9db33f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a624659d9db33f.png",
+      "sha256": "3183b940e733399d8dc85f5215acbc2a14a4ef3ced27e956f67e50fb826ad5e0"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a67bbeb7b4df35.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a67bbeb7b4df35.png",
+      "sha256": "78d0a5fd05ab616c192b4f5c64679f3cf97ed4bf879f9743fb9eefe3bba98183"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a6f8a83da5ad3a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a6f8a83da5ad3a.png",
+      "sha256": "39386c7fa5e8be33eda91ab89e9b1f0e4e88b4479646d508b488475d45fafadd"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a6ff5c17a23ab5.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a6ff5c17a23ab5.png",
+      "sha256": "e159b606aaaa72d1a50f44dd1f4e22111c5c89358dba3c2ad99907b9f61b17aa"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a778c1ce574355.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a778c1ce574355.png",
+      "sha256": "5c254da05b847050603db5382c30e9204f52c70087c963e1339cf5cfb1cbd6ad"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a90f9903486090.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a90f9903486090.png",
+      "sha256": "524cb5e63908fa417bfedb565801ebc98be2fbb21495a033756e3fa66690fee6"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a9658cbc82dca6.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a9658cbc82dca6.png",
+      "sha256": "202d5ee210705341528d756c9f17b79fd7527ba2ef2fe3c27b61516c1933af72"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a982405406086a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a982405406086a.png",
+      "sha256": "13356ce4679400d733bbd5bcf15ec8d0789f5f3bbab27edd2a5230802d5e9a8f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a98ccdf7066255.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a98ccdf7066255.png",
+      "sha256": "28c9ab40478cd4d94a2f627576af80e29de2fb5fa79b3a9a3616bbc9ea3e2758"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-a9f3d0200f628f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-a9f3d0200f628f.png",
+      "sha256": "0e0eec475ee241ee3589f18e4d5313dc7e4e9656243f154ac3be0d6345573917"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-aa2fd14379abb5.png",
+      "destination": "quarantine/source-editorial-assets/catalog-aa2fd14379abb5.png",
+      "sha256": "a1ef18a36ce5b1d97bc0531e06ef59a94ecb824e20238a61d822048b4e666f0f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-aa3f0c0587d6ab.png",
+      "destination": "quarantine/source-editorial-assets/catalog-aa3f0c0587d6ab.png",
+      "sha256": "5d7ceea364c35853cc539f4e9cf648bc40c439371dbd38bc93fb1c31f82507ac"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-acb8263dd612a1.png",
+      "destination": "quarantine/source-editorial-assets/catalog-acb8263dd612a1.png",
+      "sha256": "ead9158d9d54c585a68ba02a259f4bc08c780e9820884508db699608898e6846"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-adc184bb90071f.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-adc184bb90071f.webp",
+      "sha256": "f3bbb84f8a1add730ea91137ff891342afb94e0e712c844f6f2e3bc7a8a546e1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-aeccdd065d4962.png",
+      "destination": "quarantine/source-editorial-assets/catalog-aeccdd065d4962.png",
+      "sha256": "f5a694bf6c07a96b743d5312569bc71d8b8d679de602d11fe1e6aaf11b011c14"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-af51872f4c201a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-af51872f4c201a.png",
+      "sha256": "8106ed9211f4ca3a35b4aa921f557cb3a48653383651559f2d4a484fb01bc3bd"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-afb2d324beddb2.png",
+      "destination": "quarantine/source-editorial-assets/catalog-afb2d324beddb2.png",
+      "sha256": "5abe047dd817a11ce59c6a464626bcc572627fbf3c77506e271a90e80398c8a1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b03caca5e4ccdd.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b03caca5e4ccdd.png",
+      "sha256": "2abc71704e3bd02b519f572b5eb8e0f146af798a0ca3ee71567a1603e24c0ba5"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b10a8343facfac.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b10a8343facfac.png",
+      "sha256": "558392fe720133db53e43e971a6e2a600f22ec9ff1a9da118d7b8b112b0a3932"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b2103746f0ebab.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b2103746f0ebab.png",
+      "sha256": "328a263d832ceefb990840f62e57527b5ef03e61ce08d417ae314af71c6e409a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b21bb0d3ef7314.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b21bb0d3ef7314.png",
+      "sha256": "21bfb9014f7818b31e18b5b376cdcf64ed6f37f2c31f1b4d7534692fb7099f41"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b2ca9f1a77a499.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-b2ca9f1a77a499.webp",
+      "sha256": "469edcc1493a82afc9103f93108c5fa3e1fcba040573be6a4e4ed674c4fe0f28"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b30af6654dfcf5.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-b30af6654dfcf5.webp",
+      "sha256": "1ced1c57baa9940790523f3f284be29e470e6104020b9822538498c29fac78d6"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b34e995fc75da1.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b34e995fc75da1.png",
+      "sha256": "d7e0fe29b5a686a781142c05e7ee2339e7b8f3dcb60324c676e41266b45e1059"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b4d34a1c4e388f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b4d34a1c4e388f.png",
+      "sha256": "e4a6cc38a92cbd90097fee52484e2b2028b7cba92c4d79cf2399366c4686f84e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b4f9ce83bdd107.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b4f9ce83bdd107.png",
+      "sha256": "887c6e59a2bc87b755b7a8db4b557d4c471ff98d60daf8a659a488f1d2c69644"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b5b584f6ee13df.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b5b584f6ee13df.png",
+      "sha256": "386dc601abd97e28981812419fca05561f0db462979954712a25913f3bb63f6d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b618ab79def2e0.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b618ab79def2e0.png",
+      "sha256": "ead9158d9d54c585a68ba02a259f4bc08c780e9820884508db699608898e6846"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b6976a047c15d0.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b6976a047c15d0.png",
+      "sha256": "f053370327fadfac381144091a951eda600b5c22226c69b066050d631f5c5896"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b6eb72ae404c6e.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b6eb72ae404c6e.png",
+      "sha256": "5d403bb23e6e2f3b7814045c56057320df41ac8b05eb9b8f1876a41c93939255"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b706b2bb70bc8b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b706b2bb70bc8b.png",
+      "sha256": "a2f917c079b8954fcdafce5b12feb1de83a1d17a8d3d4f83dfe28cb0126a1bb4"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b71e3c684d3f61.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b71e3c684d3f61.png",
+      "sha256": "8ca4e2d21546994a2a93a224d6731ade1a11729b7fbfb26e773e3884baa30f5b"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b8098d67bdf75e.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b8098d67bdf75e.png",
+      "sha256": "de4635691594cd58b28cadcae110bc03da9fe799c3b74846053f0ca84cb90743"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b8290de4a3ca64.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b8290de4a3ca64.png",
+      "sha256": "20ceaaf20eb838291d2187d89db53f750fe2ff9d3b702b16989bac4d521f00e2"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b8332a5b7b0f10.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b8332a5b7b0f10.png",
+      "sha256": "4bb6aa4b12adedb0ec899d55336bf8efabfa3051508e3b7a896f818902c5b74f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b896fa85d989d7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b896fa85d989d7.png",
+      "sha256": "7eadfa5065f25539595a519f4966b000bb33e446b8337e30dc8ba4ea90afaf49"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b8f9d1d231f7e7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b8f9d1d231f7e7.png",
+      "sha256": "2eb3ebac7fdeccb34afcc90668eb74f3278122f6ee7921af071d3b1f2e707628"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-b9f95a352bd626.png",
+      "destination": "quarantine/source-editorial-assets/catalog-b9f95a352bd626.png",
+      "sha256": "f21097bd7bdbcfeded39594b17af8af1392a087acb35085060f3ced8feb4719a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-ba25443f303f2b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-ba25443f303f2b.png",
+      "sha256": "510cf3548f843e42bb75d26d4a470c7da99c8843afcf327d254b6ca9f5b9f19e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-bb43667fecef44.png",
+      "destination": "quarantine/source-editorial-assets/catalog-bb43667fecef44.png",
+      "sha256": "c3c6ee26441017ec40235655889f8a2bc97597e3dd1e7530dbd208c925a8fc30"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-bb514a5d854fa1.png",
+      "destination": "quarantine/source-editorial-assets/catalog-bb514a5d854fa1.png",
+      "sha256": "6ced55c60ef6d615069169a17a3d8a0f53354a558d97d802968e8ff3a0b8b381"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-bc55e8c5dc0469.png",
+      "destination": "quarantine/source-editorial-assets/catalog-bc55e8c5dc0469.png",
+      "sha256": "3f7b6835cee9d32795fc066d17584786ea91913dd0734dad172524c55eaeda9e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-bcec2e981fcf35.png",
+      "destination": "quarantine/source-editorial-assets/catalog-bcec2e981fcf35.png",
+      "sha256": "dcc528f083621ab4ea47ca86e3a27191ae1890fb215be4a13b8e7b3dd0cc6aad"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-bd634d2e28e538.png",
+      "destination": "quarantine/source-editorial-assets/catalog-bd634d2e28e538.png",
+      "sha256": "470fa02ab838691e6992473adfdfc16f87cabad7d6bf06c96ca1d1e8ebc32c12"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-bd65d0d9eaccd5.png",
+      "destination": "quarantine/source-editorial-assets/catalog-bd65d0d9eaccd5.png",
+      "sha256": "573328e49cd1c819bb5e47b51c79682d223986a6cb8844994116099ce830a172"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-bdeea3ff98b761.png",
+      "destination": "quarantine/source-editorial-assets/catalog-bdeea3ff98b761.png",
+      "sha256": "9841f2dcf6ba4ca5dd5f2bb4798f8e91677790ebb0859e6dc415aa60f171a775"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-be09dc2056cecb.png",
+      "destination": "quarantine/source-editorial-assets/catalog-be09dc2056cecb.png",
+      "sha256": "af8e1b7cfeb17653929c8b1ad823ad804be4ef2a95fb32b32326ae2984e6ee9f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-be16ab644e4597.png",
+      "destination": "quarantine/source-editorial-assets/catalog-be16ab644e4597.png",
+      "sha256": "2cc4163d035bb0cb85ee04496ab6c92fe5330585b32e189eb26e2069b6b298e7"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-be9c8c8bd0b996.png",
+      "destination": "quarantine/source-editorial-assets/catalog-be9c8c8bd0b996.png",
+      "sha256": "08d1868bc87fa04374e327f9dbd141d47020f73436aa273722c74b46c3c2b0b4"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-bf3983c348e84f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-bf3983c348e84f.png",
+      "sha256": "26dadff3bf05b9c335b74def2d3b79f92eebf3ccd021d375314beab3d4cccb12"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c0655f5b42bd08.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c0655f5b42bd08.png",
+      "sha256": "15418ca0d3614522eea4a380068cfaabca0fb4ccf70cbeb67788c375fd1ef24e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c06b41cf045ee3.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c06b41cf045ee3.png",
+      "sha256": "c1197c2e82e2ef158f03847c3087489c1bce58892c179f0ddb99e5c64190ccd3"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c0b008f20def7a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c0b008f20def7a.png",
+      "sha256": "8741097578860f751712059821dd62e7b24b90503ecb16415bd50a31b98b5338"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c0c31885cf41ab.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c0c31885cf41ab.png",
+      "sha256": "771471329fe5ab1de45133dfdaf97a25a556789c1fe26808e21142607b9eca9d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c162d901e4c1e0.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c162d901e4c1e0.png",
+      "sha256": "0056652aadde44c9b8d362f1fd74c753bae7f3e83f2204d214935e4e64021447"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c19175ac33294c.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-c19175ac33294c.webp",
+      "sha256": "025dccf245ec4ecbbd85cbfa1cbc83310812cb355abf2668b027bc28f2e06eab"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c334d2f721ca6d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c334d2f721ca6d.png",
+      "sha256": "84bab429af40fa67bbe70bb40bdc7ea7bf7d63aa94ebb06e3dc74b16893eaed6"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c35e1679fc5697.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c35e1679fc5697.png",
+      "sha256": "ead9158d9d54c585a68ba02a259f4bc08c780e9820884508db699608898e6846"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c36a4c784ec146.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c36a4c784ec146.png",
+      "sha256": "3d5ef6d6da97957d5fee1de08c13083639ed762fc1ebff7cf56233516d2d5bba"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c3f020bb05e90a.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-c3f020bb05e90a.webp",
+      "sha256": "01855cd0d3fae1d85e4ff391931078e20b2ea141feaee04c851f1c9c289c0e1e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c46c2b42d18d64.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c46c2b42d18d64.png",
+      "sha256": "ec2ae29b0bff573d5fb83d6690aa15d1e39db629a58fc9e8a9ad0c4bbea03fec"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c4d44f686b4497.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c4d44f686b4497.png",
+      "sha256": "f789e421c83741a36b4814f9f9ddf1d2e5e52d7ad4e34e1dd127b484fb901d76"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c597895a20c880.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c597895a20c880.png",
+      "sha256": "fb24034c727d8ad5395244572352ea0764ca5ecfc4621386b61dee74f6d052c0"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c5cdc9a23737e2.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c5cdc9a23737e2.png",
+      "sha256": "0a2fafc6a976a715d3470253f4727e30c7dcf29cff23515f338d7c914b386f72"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c60199c5e8a69d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c60199c5e8a69d.png",
+      "sha256": "e1d0bc5051abb91471492fbd3218ed85f9942cfc9d815f1e7eb8dc007f0b8e69"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c62fe58a531571.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c62fe58a531571.png",
+      "sha256": "cd8417e9cfab4bfed712bf010885488f1cd37838e2d33c508d06c3e56c2c6c0d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c67655a8cb242c.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c67655a8cb242c.png",
+      "sha256": "75b364153b4e3622fc9bccf6353a2cc967c0b8e107a1189f762b40b2726051f9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c6dc746b7af925.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c6dc746b7af925.png",
+      "sha256": "9aa0a2d1862ba36cbab4ff0074d98f761f3f66d3cfaf7739826f9ef5824cb65e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c79f1671cea982.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c79f1671cea982.png",
+      "sha256": "c96c21b53c2beca3f421465aa715dfaa2c4b7dd6584b14c0e52d6aa31088484b"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c88d2961a5228b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c88d2961a5228b.png",
+      "sha256": "202b85f7e5bad014d8ea65e0b0a1d9d91048c05761ad8667250ab6357f54f854"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-c955a15efec696.png",
+      "destination": "quarantine/source-editorial-assets/catalog-c955a15efec696.png",
+      "sha256": "ca7ae671f150f036d7fee5a98f65a48de93efdc89304e4c48cfffce725460c58"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-ca3a512d218533.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-ca3a512d218533.webp",
+      "sha256": "740833e8f256be06daeccc439cc3ed67bbc399a88d3aff87672eee7dd4e7f5f8"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-cccd8528327f15.png",
+      "destination": "quarantine/source-editorial-assets/catalog-cccd8528327f15.png",
+      "sha256": "e6b784c4048ad160477b2dd289bbdcf9f13eebb63143b272204e8c9423c54d52"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-cd27d44c17b232.png",
+      "destination": "quarantine/source-editorial-assets/catalog-cd27d44c17b232.png",
+      "sha256": "9cd2e204e976efe2f4f4e994b943e13f35f8a17c011fb34df40366151cf47ce3"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-cd53b0d5f69137.png",
+      "destination": "quarantine/source-editorial-assets/catalog-cd53b0d5f69137.png",
+      "sha256": "13d7ca8684f32637f6253a3da1068d129233c7bfbae23a3215aec190d9b4810c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-ce616c8b283517.png",
+      "destination": "quarantine/source-editorial-assets/catalog-ce616c8b283517.png",
+      "sha256": "6cde18e9ce16f8bc95a0b3f7d23fedd3afe38db8c748d9740b273826f6368727"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-ce7c6be9ffa24d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-ce7c6be9ffa24d.png",
+      "sha256": "89ca8218a430182e8e63a0f3a7214b3c63bcf010436c8ade0622b9b63737025b"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-d1991f3f25efff.png",
+      "destination": "quarantine/source-editorial-assets/catalog-d1991f3f25efff.png",
+      "sha256": "835e7b1d20a6009f82b1ba1d60f5cf5b513d99d06df81f9eba33bd29a123abcc"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-d1c4ab572d7d26.png",
+      "destination": "quarantine/source-editorial-assets/catalog-d1c4ab572d7d26.png",
+      "sha256": "adc55bd84e7583ab10282acc703b25309c85f6cc26b802e77f034737cfc4f3c2"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-d3328498671f5f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-d3328498671f5f.png",
+      "sha256": "8d70fc938c696fe1fd078c7381dcecbdd852f67cf98267ef007e70920d1b86ad"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-d34d94ffe13833.png",
+      "destination": "quarantine/source-editorial-assets/catalog-d34d94ffe13833.png",
+      "sha256": "4b3f764aaee3186d2770e22fccc362fcd9c8e2b2973869210d6480b354b7799c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-d37e0ee922ccc6.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-d37e0ee922ccc6.webp",
+      "sha256": "c3fddfd1ec9cf7a2847ab884d3323202f82dc233d945754f8674c31c2ed9c65e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-d3b9c9759c8d94.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-d3b9c9759c8d94.webp",
+      "sha256": "e833ff0a0f683a53ad3f02ad8debf12f4b6a4d5ae2378e9e0945596038e4240c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-d3d88eb3743e64.png",
+      "destination": "quarantine/source-editorial-assets/catalog-d3d88eb3743e64.png",
+      "sha256": "c99360dc2457cbabaac02f4a61acf9eed712be48820f9994a7916d600cbf3b99"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-d49b68d2d7a87e.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-d49b68d2d7a87e.webp",
+      "sha256": "6e1a547e0e014bedadb5d5a5aa602bd4675d459871cda1429323909ecd196fb4"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-d4efadfeb13825.png",
+      "destination": "quarantine/source-editorial-assets/catalog-d4efadfeb13825.png",
+      "sha256": "b96b70a2f5a95a2456f9aa9bd9a465a83dc3761f3583f288d40d317fd5b4ae39"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-d5a4ddd136ca16.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-d5a4ddd136ca16.webp",
+      "sha256": "60dfb740f95dae51ed26dcf34a5ae0c464c342083e5b4445101428aeb3b9d197"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-d5d6efdacd6bd3.png",
+      "destination": "quarantine/source-editorial-assets/catalog-d5d6efdacd6bd3.png",
+      "sha256": "05d2c10e1ae28db688fb527e60cf7f659044b3a17d657bd950479264ac22c381"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-d5db876574a1c3.png",
+      "destination": "quarantine/source-editorial-assets/catalog-d5db876574a1c3.png",
+      "sha256": "666a07ce5fccece0dd37384118c86a11f9c147ace03e5468ef910572e934cc38"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-d61202aeb58d78.png",
+      "destination": "quarantine/source-editorial-assets/catalog-d61202aeb58d78.png",
+      "sha256": "9d38c20fd5acbfe0bca9c55246c2db3dbe7d45a29ed1e3aec9f80eeb33f018be"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-d72ebbd019a48f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-d72ebbd019a48f.png",
+      "sha256": "a13dc1bec6e01b6bb7e90794405e05336f4b37b60f5f8d91bbd24a2c6bd53b65"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-da64d3ec8f9c5f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-da64d3ec8f9c5f.png",
+      "sha256": "c3718005e41f86ea6051f3b2e55ec4666f19b36469c532e6eee57c430dc60854"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-db39a8ed9ccfd3.png",
+      "destination": "quarantine/source-editorial-assets/catalog-db39a8ed9ccfd3.png",
+      "sha256": "e1d06f65354bf4fd077a6377482f88aa6a72a5de52b8a97a72aa83a8ddcc29bb"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-db8b5834ab7034.png",
+      "destination": "quarantine/source-editorial-assets/catalog-db8b5834ab7034.png",
+      "sha256": "1b0917d26bb4b420a62fde8b94b12699047bf09dde1162126a1a0630ffcdf2da"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-dde5c03c748e99.png",
+      "destination": "quarantine/source-editorial-assets/catalog-dde5c03c748e99.png",
+      "sha256": "08a4c2c99bdbad16320366c8251adfc62eb735730047dae13bfa3f1bdc70cb9f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-de6f7ce39d66d7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-de6f7ce39d66d7.png",
+      "sha256": "0922747956d3c726616663cadf1acaf960c23af729fa18d0418622263ba8d160"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-de8d4fe3bb2961.png",
+      "destination": "quarantine/source-editorial-assets/catalog-de8d4fe3bb2961.png",
+      "sha256": "cc70b4ba14486a0547bbd8d1da1de69881d599a063f692b1d01ecb2920183f91"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-debfd27d891163.png",
+      "destination": "quarantine/source-editorial-assets/catalog-debfd27d891163.png",
+      "sha256": "6bea9efc63311e931978cacf23f625ba95b284bb11cce645bb45f26d72111d5a"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-dfa8c5a6922b6f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-dfa8c5a6922b6f.png",
+      "sha256": "2f16bc3d8e546e0c22622bed8266c8e02e7894eecc089bd0a36ee0d5f0fed712"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-dfda88cb4c7e81.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-dfda88cb4c7e81.webp",
+      "sha256": "fb542960353e0e87bb198baf8f9ed9a7d24fe93cccc2183d2aa437f296d3cb18"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e01d1e3dcb4016.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e01d1e3dcb4016.png",
+      "sha256": "205bf13b7378a596790afb162330bfe804e5a4379c17fc22de46dfbce93989d2"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e15edf13bcc63f.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-e15edf13bcc63f.webp",
+      "sha256": "04fe029a41a5a9de748061681e7f9aa17a1fb92c3c127c90ed8cdcfc6f6dcf8b"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e22b782f81a3bf.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e22b782f81a3bf.png",
+      "sha256": "dd27fd5d32b135cbc4ca81c9adf9e0ceca92fd447668988ea8ce0bbb88b73428"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e23b703c288445.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e23b703c288445.png",
+      "sha256": "0c4b4a31ddfae94a1903406826bdbcb0d54f190e37f18e6c42a12ca1c09beb44"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e2907ca189641c.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e2907ca189641c.png",
+      "sha256": "57286155fab831c8cf8bb7626938126eba2803dea3f83c5bce2b6402cefd4161"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e35d2eba511138.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e35d2eba511138.png",
+      "sha256": "18779aeb052bd1092f951798114793f0ea2e90d799bdc597d4b64e3cd6cf1472"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e35f1951191e98.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e35f1951191e98.png",
+      "sha256": "2aaea228c872ef1e19e425c8d44b831a38b8fac1bdf657df400178b9e1cb4551"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e3c2b06bfaf2fa.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e3c2b06bfaf2fa.png",
+      "sha256": "809fbe431e8b7263765e4f06f74b14e0409064b36be9b512cef097bc90124cf9"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e3cc0e441c2ffb.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e3cc0e441c2ffb.png",
+      "sha256": "e93e1928aa0d6dfd32af1a178a3c1b44a7242f73469789d7ab537bad726fc3f0"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e400a7a12c2f6c.jpg",
+      "destination": "quarantine/source-editorial-assets/catalog-e400a7a12c2f6c.jpg",
+      "sha256": "c27c5d1631a8f1b44fcfb2a96484dbce24b44fe970075670f8c67a930eae425c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e5663f7f06b620.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e5663f7f06b620.png",
+      "sha256": "3f08b29e2eaf5e3774ac92fefc188c2da6f7f7ee03b483a23ada9eb27d09f51c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e571196f2a4451.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e571196f2a4451.png",
+      "sha256": "05b497efd6fa9b1c26b8b9c5e6c20ff48aae28ce053b494f398ea6770321fd26"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e593e68412ed2b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e593e68412ed2b.png",
+      "sha256": "4fe5b8aa28852d5ed05f97222a3755e2c7674b608d0d0bbb7b9e57b0ea990cda"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e602b65dc2b868.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e602b65dc2b868.png",
+      "sha256": "7181260df50102a4cf7bde4be56b23032971c50a67d0e68d4f9ca9ab32719985"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e60783c1ccf8d0.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e60783c1ccf8d0.png",
+      "sha256": "aeedc87a5e39dbc83e000ed9afff55a1e1e1646457577a474d6477b65f73ba6f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e6fed4c97e72bb.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e6fed4c97e72bb.png",
+      "sha256": "847cc40f72b84209e9c33c36ab4bbf679774e6ab4a867ee2b2a33238c323c8ed"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e7c866547d9f4a.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e7c866547d9f4a.png",
+      "sha256": "3137c8bbdd15bb8ac7faf041b536273e6cdf126597f2e72929ce905083f485bc"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e7d8b219621627.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e7d8b219621627.png",
+      "sha256": "9902abc0c9585f1c582ef17a54ed5824983acb0de59468c1a80ed7afaf88a2f6"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e8443ec97feef7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e8443ec97feef7.png",
+      "sha256": "ce1d3a73ade09d96ec1e50a6a8f502899366ea49de95a85e8dc1f991e2eb6e13"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e84b5836ce6282.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e84b5836ce6282.png",
+      "sha256": "f930e35e87dfa2ae044418d6382af92b9e46a6cb1acac0d2293ff1a38757fc76"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e870b3b4e64160.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e870b3b4e64160.png",
+      "sha256": "0545d0fbf18362eee9fa0a168d1906949b018bb15ded21fc8a237ed9ede0c6d7"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e8dbdad425fcac.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e8dbdad425fcac.png",
+      "sha256": "118996de2c95be17c832a098e8d99e812e818f3e9e8fe04c8307069aa4893759"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-e983a767158594.png",
+      "destination": "quarantine/source-editorial-assets/catalog-e983a767158594.png",
+      "sha256": "4a2028db7bd31f0368ceb5ae932ea7fad33e519689f1da224f6996aefcc6aefc"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-ea46a9281dce59.png",
+      "destination": "quarantine/source-editorial-assets/catalog-ea46a9281dce59.png",
+      "sha256": "57562584657a1c4ecf426ddf281987be403b1b3584f47d7199186e8139a2e379"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-eb593e01f561ac.png",
+      "destination": "quarantine/source-editorial-assets/catalog-eb593e01f561ac.png",
+      "sha256": "47bd0ab44dd2564fa85f4fa8ed497fdd4dfec576345b2f6fad191511f9c547b8"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-eb5c81311e9475.png",
+      "destination": "quarantine/source-editorial-assets/catalog-eb5c81311e9475.png",
+      "sha256": "7154253e3edb41e4e18770c0f5344487f9ce8bd08545e25a0c0bae2b3b39434f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-ec770cc6d31d7b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-ec770cc6d31d7b.png",
+      "sha256": "dbc9b04280a68f09853789e9c76394c3fd1f8ac6aaf6a113e445fa9f3f54395d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-ec7cebe3c314a1.png",
+      "destination": "quarantine/source-editorial-assets/catalog-ec7cebe3c314a1.png",
+      "sha256": "1ebf7265e67348d360484fb6a7fdc0b8920d241c7a6a3bd3a4f29798400083f8"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-ecb33d4b99e0ab.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-ecb33d4b99e0ab.webp",
+      "sha256": "3c95d383814e57ab62a947307c0ccd5282b352f753df8dd544e82361d8ff09b1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-ee190c5613b935.png",
+      "destination": "quarantine/source-editorial-assets/catalog-ee190c5613b935.png",
+      "sha256": "accf6bcab1a15d6ea989e604ae81543151075bf44fd21ca96061688e6630185d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-eea37fa26e150d.png",
+      "destination": "quarantine/source-editorial-assets/catalog-eea37fa26e150d.png",
+      "sha256": "7c182736902a14d6b2e9d72d2ab036b0f3419de93d38ca10279b7e0e9a46ccf1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-ef07cfede3aa73.png",
+      "destination": "quarantine/source-editorial-assets/catalog-ef07cfede3aa73.png",
+      "sha256": "4b7fa080bdcecc0d88b53fd23f215912de391d58be5c44af2cf24f093d4e2647"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-ef112805f65444.png",
+      "destination": "quarantine/source-editorial-assets/catalog-ef112805f65444.png",
+      "sha256": "b01b155132b8a2e3c25685e410a7f9a88ba18ed617818143a04951dc1e3d61ff"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f01a60988fb573.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f01a60988fb573.png",
+      "sha256": "54ec9ec761411a77072447216e5e42598be401253479d96947faf0be3a10bfc8"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f02c47c5af70ec.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f02c47c5af70ec.png",
+      "sha256": "793f876bc40ce8d2810eddb9a0edb89dc6f9fa3cdaee1eb5ea0fd9f001f0ae22"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f084d46026df28.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f084d46026df28.png",
+      "sha256": "15e923e583f1d45e7a421e4dceac16d4389470ae05893b8f8d2b12c8d3f7e534"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f0c5066a3d2a68.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f0c5066a3d2a68.png",
+      "sha256": "54c8e5382e277fe152802e4c79f0832abbd60339c20f6f3cc78ed43d1edd269e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f0eefdb093b1cc.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f0eefdb093b1cc.png",
+      "sha256": "ead9158d9d54c585a68ba02a259f4bc08c780e9820884508db699608898e6846"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f1dd9b40a4f0e5.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f1dd9b40a4f0e5.png",
+      "sha256": "99a4b403ae3404a5c1c5b87c19c1c89572e6534f3e49ed1dc83d22710ca81aaf"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f2db791f6ace0b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f2db791f6ace0b.png",
+      "sha256": "7a5974b815210cbbb765548d269ed46e82688cf9370ddb76d3844cdb85f63111"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f2f57a8e66a69c.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f2f57a8e66a69c.png",
+      "sha256": "034caae6b9e1ca05769709f1cd34996282694e462845aa09b95a9b17a2524238"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f33b51b1393b4b.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f33b51b1393b4b.png",
+      "sha256": "358035cdaccdc61b4d722e4076256d63f9ca30b83c945a1e8e8ae04dc6bd75f1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f4f8836579aff6.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f4f8836579aff6.png",
+      "sha256": "d9a8aea7b18214dbaea22faca2593457abeec096326d6b8c792822b84fb273e6"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f50ba6d11bd5aa.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f50ba6d11bd5aa.png",
+      "sha256": "08274e8f63c2c9603606b3ae30d0b5ba09f0895b1ff512bb83f59c8d6b47f66f"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f551741f3c462f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f551741f3c462f.png",
+      "sha256": "c2f4143db41df28f22d8d43cb13ac4dea432d1781d71f006b6301e6fb80c69a2"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f6267824a8417f.jpg",
+      "destination": "quarantine/source-editorial-assets/catalog-f6267824a8417f.jpg",
+      "sha256": "036da38a6ff726f6d896b8de422eebcfc85165d9147c17df8591646af19c197c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f687e2d409c96f.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f687e2d409c96f.png",
+      "sha256": "5b65c73487f6304c80a74644744041ebf7af08910a846024d84fd8ad6e03fec8"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f6997cabd3a800.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f6997cabd3a800.png",
+      "sha256": "ead9158d9d54c585a68ba02a259f4bc08c780e9820884508db699608898e6846"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f6bfc1ec80ec93.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f6bfc1ec80ec93.png",
+      "sha256": "40485846f2148064e557dbf83e6069ed88429ed483baa928196ba8e96c9bc567"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f7746c2605cea5.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f7746c2605cea5.png",
+      "sha256": "578fd95d135c5ed596bff05d094492f89476a16ea1b66f8f93730a513fc1d23d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f81a87568a6047.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f81a87568a6047.png",
+      "sha256": "fe66e84b8f69dc6335b3f521a01aa16522974c13abd3769803cb39a98d57327c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f8bc575ec7025c.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f8bc575ec7025c.png",
+      "sha256": "51e3dbd8092dc052ce3c20bf5540b359a40cf3165cf6245bfc24b0d9eaf44928"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f8eb2fb2b653da.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f8eb2fb2b653da.png",
+      "sha256": "1f99bb554bdadcba2c871eec05a159c91756c59bdeeaae18f38b2684bc7f8ae1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f90efc162dcc1e.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f90efc162dcc1e.png",
+      "sha256": "b1002d08e5588c240d122f57f53fe8462fb59a0fdde89ae7886afac13e82ee1b"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-f9652bedba2063.png",
+      "destination": "quarantine/source-editorial-assets/catalog-f9652bedba2063.png",
+      "sha256": "5ab8367714da9ee6be7c29211aa2db6e34e1b70848cc29aef6b6db17eecb0b5d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-fa6977ee1c4b25.png",
+      "destination": "quarantine/source-editorial-assets/catalog-fa6977ee1c4b25.png",
+      "sha256": "e8f1342a76c8cb7f2928083dec3fc174734c03e99a09e8800b51425396ad99c3"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-fa7d8ce5f48453.png",
+      "destination": "quarantine/source-editorial-assets/catalog-fa7d8ce5f48453.png",
+      "sha256": "bfae480509c9e753ef9097b906a08fe22e3334611fe21f99c67338906296ee0e"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-fb3ec6be37326b.webp",
+      "destination": "quarantine/source-editorial-assets/catalog-fb3ec6be37326b.webp",
+      "sha256": "4c8450312f687d01b1cb5b687191c1e8dca09e2ca3bf5ef2bee143b910fcbc01"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-fb9293f00d7ee7.png",
+      "destination": "quarantine/source-editorial-assets/catalog-fb9293f00d7ee7.png",
+      "sha256": "b0317b42ce775b219a221a8f43120e6e56d467d35ab1b4c1e6ea16a861c52ef7"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-fc76b91db610eb.png",
+      "destination": "quarantine/source-editorial-assets/catalog-fc76b91db610eb.png",
+      "sha256": "d407863a7f9cd3c2af1f58fc3c7718d56972bbffa60d75e31041f2bc4cbdd2d1"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-fd27681b1d6470.png",
+      "destination": "quarantine/source-editorial-assets/catalog-fd27681b1d6470.png",
+      "sha256": "384ebbb9791c7d3109ad27b1a188a2b18e05f9898eea8c1d696fde55f1f507a7"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-fd31fbef2f5135.png",
+      "destination": "quarantine/source-editorial-assets/catalog-fd31fbef2f5135.png",
+      "sha256": "097c50b1d0ab1a344ee237ca7b9e0703301da0bc922cd87da0816908e94f3cdd"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-fe2837bd910003.png",
+      "destination": "quarantine/source-editorial-assets/catalog-fe2837bd910003.png",
+      "sha256": "ce25e03b80e868dcaffec48f50de67075be3d89a836470673aa4dd1456de37bb"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-fe451c84662108.png",
+      "destination": "quarantine/source-editorial-assets/catalog-fe451c84662108.png",
+      "sha256": "8a7df068cba19990a54c4a3b760a9ae529a191125e35bc12a08d7d3033b89b2c"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-fe4f7f34f343e4.png",
+      "destination": "quarantine/source-editorial-assets/catalog-fe4f7f34f343e4.png",
+      "sha256": "5c79d3e1e50290a70573a655a4cb7ddc19b3aa0e6907dcd9f4dedf5ef539b52d"
+    },
+    {
+      "source": "public/sites/manasflow/pages/catalog-fee15301e72588.png",
+      "destination": "quarantine/source-editorial-assets/catalog-fee15301e72588.png",
+      "sha256": "58c0735e174aa5e38b556bc0a02b96e98244b165022dfe6f4d5233dbc75cf427"
+    }
+  ]
+}

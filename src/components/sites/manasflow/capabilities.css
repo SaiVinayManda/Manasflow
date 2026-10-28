@@ -1,0 +1,380 @@
+.mf-capabilities,
+.mf-tools {
+  border-top: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.mf-capabilities .section-heading h2,
+.mf-tools .section-heading h2 {
+  background-image: linear-gradient(to bottom right, #fff, #fff3);
+  background-clip: text;
+  color: transparent;
+}
+
+.mf-capability-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.mf-capability-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 400px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  overflow: hidden;
+  transition: border-color .3s;
+}
+
+.mf-capability-card::before,
+.mf-tool-card::before {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  background: radial-gradient(circle at 100% 0, #8082c114, transparent 50%);
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+.mf-capability-card:hover,
+.mf-tool-card:hover {
+  border-color: #8082c180;
+}
+
+.mf-capability-card:hover::before,
+.mf-tool-card:hover::before {
+  opacity: 1;
+}
+
+.mf-capability-graphic {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+
+.mf-capability-copy {
+  padding-top: 24px;
+  text-align: left;
+}
+
+.mf-capability-copy h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -.025em;
+}
+
+.mf-capability-copy p {
+  margin-top: 8px;
+  color: var(--muted-foreground);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: -.025em;
+}
+
+.mf-task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 448px;
+  margin: auto;
+}
+
+.mf-task-row,
+.mf-research-category,
+.mf-research-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--muted, #1a1525) 40%, transparent);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.mf-task-row > span:nth-child(2),
+.mf-research-category > span,
+.mf-research-input > span:nth-child(2) {
+  flex: 1;
+}
+
+.mf-task-row > svg:first-child,
+.mf-research-category > svg:first-child,
+.mf-research-input > svg {
+  color: var(--muted-foreground);
+  flex-shrink: 0;
+}
+
+.mf-task-row > svg:last-child,
+.mf-research-category > svg:last-child {
+  color: var(--primary-purple);
+  flex-shrink: 0;
+}
+
+.mf-task-disabled {
+  opacity: .8;
+  filter: blur(.8px);
+}
+
+.mf-task-active {
+  filter: blur(.12px);
+}
+
+.mf-task-cross {
+  font-size: 18px;
+}
+
+.mf-task-empty {
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+}
+
+.mf-workflow-mobile {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.mf-workflow-desktop {
+  display: none;
+}
+
+.mf-capability-agent .mf-capability-graphic,
+.mf-capability-research .mf-capability-graphic,
+.mf-capability-strategy .mf-capability-graphic {
+  flex: none;
+  height: 250px;
+}
+
+.mf-agent-editor {
+  width: 100%;
+  max-width: 512px;
+  margin: auto;
+  border: 1px solid var(--border);
+}
+
+.mf-agent-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  background: color-mix(in srgb, var(--muted, #1a1525) 80%, transparent);
+}
+
+.mf-editor-lights {
+  display: flex;
+  gap: 6px;
+}
+
+.mf-editor-lights i {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ef4444cc;
+}
+
+.mf-editor-lights i:nth-child(2) { background: #eab308cc; }
+.mf-editor-lights i:nth-child(3) { background: #8082c1cc; }
+
+.mf-agent-toolbar > span:last-child {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-family: monospace;
+  font-size: 12px;
+  color: var(--muted-foreground);
+}
+
+.mf-agent-toolbar svg { color: var(--primary-purple); }
+
+.mf-agent-code {
+  padding: 16px;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--muted, #1a1525) 40%, transparent);
+}
+
+.mf-code-line {
+  display: flex;
+  gap: 12px;
+  min-height: 20px;
+  margin-bottom: 2px;
+}
+
+.mf-code-line > span {
+  flex-shrink: 0;
+  width: 16px;
+  color: #a89db066;
+  text-align: right;
+  font: 12px/20px monospace;
+}
+
+.mf-code-line pre {
+  margin: 0;
+  color: var(--primary-purple);
+  font: 500 14px/20px monospace;
+  white-space: pre;
+}
+
+.mf-research-preview {
+  width: 100%;
+  max-width: 448px;
+  margin: auto;
+}
+
+.mf-research-input {
+  gap: 12px;
+  margin-bottom: 16px;
+  color: var(--muted-foreground);
+  background: color-mix(in srgb, var(--muted, #1a1525) 60%, transparent);
+}
+
+.mf-research-label {
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--background) 60%, transparent);
+  color: var(--foreground);
+  font-size: 12px;
+}
+
+.mf-research-category {
+  gap: 8px;
+  margin-top: 12px;
+  transition: background .3s;
+}
+
+.mf-research-category:hover { background: color-mix(in srgb, var(--muted, #1a1525) 60%, transparent); }
+
+.mf-strategy-graphic {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top;
+}
+
+.mf-tools .section-heading a {
+  color: var(--primary-purple);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.mf-tools-viewport {
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  outline-offset: 5px;
+  mask-image: linear-gradient(to right, transparent, #000 32px, #000 calc(100% - 32px), transparent);
+}
+
+.mf-tools-viewport::-webkit-scrollbar { display: none; }
+
+.mf-tools-track {
+  display: flex;
+  width: max-content;
+  padding: 16px 0;
+  animation: mf-tool-scroll 40s linear infinite;
+}
+
+.mf-tools-viewport:hover .mf-tools-track,
+.mf-tools-viewport:focus-within .mf-tools-track,
+.mf-tools-viewport:active .mf-tools-track {
+  animation-play-state: paused;
+}
+
+.mf-tools-group {
+  display: flex;
+  gap: 24px;
+  padding-right: 24px;
+}
+
+.mf-tool-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 384px;
+  flex-shrink: 0;
+  padding: 24px 0;
+  border: 1px solid var(--border);
+  background: var(--card);
+  overflow: hidden;
+  transition: border-color .3s;
+}
+
+.mf-tool-screenshot {
+  width: 100%;
+  height: 216px;
+  min-height: 0;
+  flex-shrink: 1;
+  object-fit: cover;
+  background: #0006;
+}
+
+.mf-tool-copy {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  flex: 1;
+}
+
+.mf-tool-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+  background: var(--muted, #1a1525);
+}
+
+.mf-tool-logo img { width: 16px; height: 16px; object-fit: contain; }
+.mf-tool-copy h3 { font-size: 18px; font-weight: 600; line-height: 28px; }
+.mf-tool-copy p { font-size: 14px; line-height: 20px; color: var(--muted-foreground); }
+
+@keyframes mf-tool-scroll { to { transform: translateX(-50%); } }
+
+@media (min-width: 640px) {
+  .mf-capability-card { padding: 24px; }
+  .mf-tool-card { width: 384px; }
+  .mf-tools-viewport { mask-image: linear-gradient(to right, transparent, #000 80px, #000 calc(100% - 80px), transparent); }
+}
+
+@media (min-width: 768px) {
+  .mf-capability-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .mf-capability-strategy { grid-column: span 2; }
+}
+
+@media (min-width: 1024px) {
+  .mf-capability-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(2, minmax(400px, auto)); }
+  .mf-capability-workflows { grid-column: span 2; }
+  .mf-capability-strategy { grid-column: auto; }
+  .mf-workflow-mobile { display: none; }
+  .mf-workflow-desktop { display: block; position: relative; flex: 1; min-height: 280px; }
+  .mf-workflow-icon { position: absolute; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; transform: translate(-50%, -50%); border: 1px solid var(--border); background: #fffffff2; box-shadow: 0 10px 15px -3px #0003; transition: scale .3s, background .3s; }
+  .mf-workflow-icon:hover { scale: 1.1; background: #fff; }
+  .mf-workflow-icon img { width: 32px; height: 32px; object-fit: contain; filter: contrast(1.1) saturate(1.1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mf-tools-track { animation: none; }
+  .mf-tools-group[aria-hidden="true"] { display: none; }
+  .mf-capability-card,
+  .mf-tool-card,
+  .mf-workflow-icon { transition: none; }
+}

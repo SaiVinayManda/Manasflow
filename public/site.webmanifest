@@ -1,0 +1,16 @@
+{
+  "name": "ManasFlow",
+  "short_name": "ManasFlow",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f15",
+  "theme_color": "#0f0f15",
+  "icons": [
+    {
+      "src": "/sites/manasflow/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

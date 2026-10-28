@@ -1,0 +1,474 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-17T00:19:45.354Z",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "Manasflow — Thoughtful digital work",
+      "canonical": "https://manasflow.com/",
+      "ogImage": "https://manasflow.com/brand/social-card.png",
+      "mailto": [
+        "mailto:info@manasflow.com",
+        "mailto:info@manasflow.com"
+      ],
+      "remoteScripts": [],
+      "forms": 0,
+      "iframes": 0,
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Manasflow",
+          "url": "https://manasflow.com",
+          "email": "info@manasflow.com",
+          "logo": "https://manasflow.com/brand/mark.svg",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Milan",
+            "addressCountry": "IT"
+          },
+          "areaServed": {
+            "@type": "Place",
+            "name": "Europe"
+          }
+        }
+      ]
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "title": "Start a conversation | Manasflow",
+      "canonical": "https://manasflow.com/contact",
+      "ogImage": "https://manasflow.com/brand/social-card.png",
+      "mailto": [
+        "mailto:info@manasflow.com",
+        "mailto:info@manasflow.com?subject=A%20conversation%20with%20Manasflow",
+        "mailto:info@manasflow.com"
+      ],
+      "remoteScripts": [],
+      "forms": 0,
+      "iframes": 0,
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Manasflow",
+          "url": "https://manasflow.com",
+          "email": "info@manasflow.com",
+          "logo": "https://manasflow.com/brand/mark.svg",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Milan",
+            "addressCountry": "IT"
+          },
+          "areaServed": {
+            "@type": "Place",
+            "name": "Europe"
+          }
+        }
+      ]
+    },
+    {
+      "route": "/privacy",
+      "status": 200,
+      "title": "Privacy notice — draft | Manasflow",
+      "canonical": "https://manasflow.com/privacy",
+      "ogImage": "https://manasflow.com/brand/social-card.png",
+      "mailto": [
+        "mailto:info@manasflow.com",
+        "mailto:info@manasflow.com"
+      ],
+      "remoteScripts": [],
+      "forms": 0,
+      "iframes": 0,
+      "robots": "noindex, follow",
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Manasflow",
+          "url": "https://manasflow.com",
+          "email": "info@manasflow.com",
+          "logo": "https://manasflow.com/brand/mark.svg",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Milan",
+            "addressCountry": "IT"
+          },
+          "areaServed": {
+            "@type": "Place",
+            "name": "Europe"
+          }
+        }
+      ]
+    },
+    {
+      "route": "/terms",
+      "status": 200,
+      "title": "Website terms — draft | Manasflow",
+      "canonical": "https://manasflow.com/terms",
+      "ogImage": "https://manasflow.com/brand/social-card.png",
+      "mailto": [
+        "mailto:info@manasflow.com",
+        "mailto:info@manasflow.com"
+      ],
+      "remoteScripts": [],
+      "forms": 0,
+      "iframes": 0,
+      "robots": "noindex, follow",
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Manasflow",
+          "url": "https://manasflow.com",
+          "email": "info@manasflow.com",
+          "logo": "https://manasflow.com/brand/mark.svg",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Milan",
+            "addressCountry": "IT"
+          },
+          "areaServed": {
+            "@type": "Place",
+            "name": "Europe"
+          }
+        }
+      ]
+    },
+    {
+      "route": "/cookies",
+      "status": 200,
+      "title": "Cookies and website storage | Manasflow",
+      "canonical": "https://manasflow.com/cookies",
+      "ogImage": "https://manasflow.com/brand/social-card.png",
+      "mailto": [
+        "mailto:info@manasflow.com"
+      ],
+      "remoteScripts": [],
+      "forms": 0,
+      "iframes": 0,
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Manasflow",
+          "url": "https://manasflow.com",
+          "email": "info@manasflow.com",
+          "logo": "https://manasflow.com/brand/mark.svg",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Milan",
+            "addressCountry": "IT"
+          },
+          "areaServed": {
+            "@type": "Place",
+            "name": "Europe"
+          }
+        }
+      ]
+    }
+  ],
+  "sizes": [
+    {
+      "width": 360,
+      "scrollWidth": 360
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920
+    }
+  ],
+  "imageResults": [
+    {
+      "src": "/brand/mark.svg",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "src": "/brand/flow-study.svg",
+      "width": 900,
+      "height": 1050
+    },
+    {
+      "src": "/brand/social-card.png",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "src": "/brand/apple-touch-icon.png",
+      "width": 180,
+      "height": 180
+    },
+    {
+      "src": "/brand/icon-512.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "src": "/brand/favicon-32.png",
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "removed": [
+    {
+      "url": "/sites/9hdigital/1.gif",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/100x100-79.jpg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/100x100-80.jpg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/100x100.jpg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/12-1024x576.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/15-1024x576.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/1516507715381-2.jpeg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/17-1024x576.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/18-1024x576.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/2.gif",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/21-1024x576.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/28-1024x576.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/3.gif",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/9H-logo.svg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/ai-automations.svg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/Al-Balad-main-2.jpg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/blue-fw-gradient-Ce1kZF6R.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/brand-building.svg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/Cairo-Regular-CvRCENXA.ttf",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/cropped-Favicon-1-180x180.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/cropped-Favicon-1-192x192.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/cropped-Favicon-1-270x270.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/cropped-Favicon-1-32x32.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/Crosscraft-Main-Banner-1.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/custom-web-apps.svg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/facebook.svg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/footer-bg-XyJ6H1x5.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/gradient-blue-auyAehDj.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/gradient-green-DLQWrdj_.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/gradient-purple-eY59ryug.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/gradient-red-CLvd3sr4.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/gradient-yellow-B5TN-y7N.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/green-fw-gradient-DwXSrXRQ.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/hero-placeholder-DOL305-B.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/HubotSans-DVOGjEo-.ttf",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/Insinet-main.jpg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/instagram.svg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/integrations.svg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/James.jpg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/Kindred-Main.jpg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/linkedin.svg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/looping-mobile-BtnwhDf1.gif",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/looping-video-e-PUQuDR.mp4",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/MFSA-main.jpg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/MGA-main.jpg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/misk.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/Og.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/play.svg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/quote.svg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/red-fw-gradient-CzjXW7fQ.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/Screenshot-2025-03-24-at-13.50.54.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/Screenshot-2025-11-27-at-12.34.17.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/Tim-Landscape-1.jpg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/Tim.jpg",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/vitel.png",
+      "status": 404
+    },
+    {
+      "url": "/sites/9hdigital/yellow-fw-gradient-OeBIeiso.png",
+      "status": 404
+    }
+  ],
+  "archiveStatus": 404,
+  "faviconStatus": 200,
+  "storage": {
+    "cookies": "",
+    "local": [],
+    "session": []
+  },
+  "externalRequests": [],
+  "errors": [],
+  "interactions": [
+    "All four service tabs",
+    "Keyboard service navigation",
+    "Mobile menu open/anchor-close/Escape",
+    "Local contact and legal routes",
+    "Legal redirects",
+    "Manasflow email links"
+  ]
+}

@@ -1,0 +1,514 @@
+{
+  "faqGroups": [
+    {
+      "title": "Working With ManasFlow",
+      "items": [
+        {
+          "question": "What makes ManasFlow different from other agencies?",
+          "answer": "We do not just write code. We learn your domain first, then build the AI product around what your team already knows. Most agencies build what you spec. We help you figure out what is worth building, then ship it with the right automation, AI agent, and product architecture."
+        },
+        {
+          "question": "How long does it take to launch?",
+          "answer": "Most AI products and automation systems go from idea to live in 8-12 weeks. We usually start with a focused 2-week discovery and prototype sprint, so you see progress quickly before committing to a larger build."
+        },
+        {
+          "question": "I have already built something. Can you improve or rebuild it?",
+          "answer": "Yes. Many clients come to us with an existing product, internal tool, or automation that needs AI features, better reliability, or a full rebuild. We audit what you have and recommend the fastest path: improve, rebuild, or replace only the parts that are slowing you down."
+        },
+        {
+          "question": "Do you offer post-launch support?",
+          "answer": "Yes. Every client gets post-launch support included. Most teams stay with us on a monthly retainer because AI products need iteration after launch. The first version proves the workflow, then we improve accuracy, reliability, integrations, and adoption."
+        },
+        {
+          "question": "Do you work with early-stage startups?",
+          "answer": "We work best with teams that have real domain expertise, existing customer insight, and a clear problem they want to solve with AI. That includes funded startups, service businesses, SaaS teams, and operators who already understand the workflow they want to improve."
+        }
+      ]
+    },
+    {
+      "title": "AI Workflow Automation",
+      "items": [
+        {
+          "question": "What is AI workflow automation?",
+          "answer": "AI workflow automation uses artificial intelligence to streamline and automate repetitive business processes - from data entry and document processing to customer support and marketing operations. Unlike traditional automation (RPA), AI-powered workflows can handle unstructured data, make decisions, and adapt to new inputs without manual reprogramming."
+        },
+        {
+          "question": "What is the difference between RPA and AI automation?",
+          "answer": "RPA (Robotic Process Automation) follows rigid, rule-based scripts - it clicks buttons and fills forms exactly as programmed. AI automation adds intelligence: it can understand natural language, interpret documents, make decisions based on context, and learn from data. RPA handles structured, repeatable tasks. AI automation handles messy, unstructured, and judgment-based workflows. Most modern implementations combine both."
+        },
+        {
+          "question": "What ROI can I expect from AI automation?",
+          "answer": "Most clients see 200-400% ROI over 3 years. The typical break-even point is 4-8 months depending on implementation complexity. Quick wins like automating data entry or meeting scheduling can show ROI within weeks. Larger projects like end-to-end workflow automation or AI-powered customer service typically break even in 6-12 months. Use our free ROI Calculator to model your specific scenario."
+        },
+        {
+          "question": "How long does AI automation implementation take?",
+          "answer": "Simple automations (Zapier/Make/n8n workflows) take 1-2 weeks. Mid-complexity projects like custom AI chatbots or document processing pipelines take 4-8 weeks. Enterprise-grade implementations with multiple system integrations, custom models, and team training take 3-6 months. We recommend starting with a quick-win pilot project (2-4 weeks) to demonstrate value before scaling."
+        },
+        {
+          "question": "Which businesses benefit most from AI automation?",
+          "answer": "Businesses with high-volume repetitive tasks, data-intensive operations, or customer-facing processes see the fastest ROI. Industries we serve include marketing agencies, e-commerce, consulting firms, legal services, financial services, SaaS companies, logistics, and professional services. If your team spends more than 20 hours per week on tasks that follow a predictable pattern, AI automation will likely deliver significant value."
+        },
+        {
+          "question": "How much does AI automation consulting cost?",
+          "answer": "Costs vary by scope: workflow audits start at $2,500, single-process automation projects range from $5K-$25K, and comprehensive digital transformation programs range from $25K-$150K+. We offer flexible engagement models - fixed-price projects, monthly retainers, and dedicated team arrangements. Book a free consultation to get a quote tailored to your specific needs."
+        },
+        {
+          "question": "n8n vs Dify: which one should I use for automation?",
+          "answer": "Different tools for different starting points. n8n is workflow-first: you start from a trigger (webhook, schedule, new record) and chain steps, with AI as one node in that chain, so it fits ops and RevOps automation best. Dify is LLM-first: you build the AI application itself, like a chatbot, agent, or RAG system, so it fits teams shipping an AI product. Many production setups use both - n8n for integrations and routing, Dify for the AI reasoning layer. We specialize in n8n; read our full n8n vs Dify comparison for the detailed breakdown, or see custom workflow automation for how we build with n8n."
+        },
+        {
+          "question": "Are you an n8n agency? Do you build custom n8n workflows?",
+          "answer": "Yes. We design, build, and maintain production n8n workflows - process mapping, failure-mode design, idempotent builds, monitoring, and a documented handover, not templates that break the first time an API changes. See our n8n development agency page for the full process, or the n8n workflow builder breakdown for what a build actually looks like."
+        }
+      ]
+    },
+    {
+      "title": "AI Staff Augmentation & Dedicated Teams",
+      "items": [
+        {
+          "question": "What is AI staff augmentation?",
+          "answer": "AI staff augmentation is a flexible hiring model where pre-vetted AI engineers, ML specialists, or data scientists integrate directly into your existing team. Unlike outsourcing, augmented engineers work under your management, follow your processes, and become part of your team culture. It eliminates the 3-6 month recruiting cycle and lets you scale AI capacity in days, not months. Our engineer placement service runs this model with a 2-4 week start and a 90-day replacement guarantee."
+        },
+        {
+          "question": "What is a dedicated AI team model?",
+          "answer": "A dedicated team model provides you with a fully-managed, cross-functional AI team - typically an AI architect, ML engineers, data engineers, and a project lead - that works exclusively on your projects. Unlike staff augmentation (individual contributors), a dedicated team is a turnkey solution with built-in management. You define the goals; we handle team assembly, onboarding, and delivery. Our forward deployed engineers service is built around exactly this model."
+        },
+        {
+          "question": "How do I hire AI engineers for my business?",
+          "answer": "You have three options: (1) Full-time hiring - highest long-term value but 3-6 months to recruit and ramp up. (2) Staff augmentation - pre-vetted engineers ready in 1-2 weeks, working as part of your team. (3) Dedicated teams - a managed team that handles end-to-end delivery. We recommend starting with augmentation to validate the work, then converting top performers to full-time. See our engineer placement service for options 2 and 3, or use our Staffing Model Calculator to compare costs."
+        },
+        {
+          "question": "What is the difference between staff augmentation and outsourcing?",
+          "answer": "Staff augmentation embeds engineers into your team - you manage them directly, they attend your standups, and they build institutional knowledge. Outsourcing delegates entire projects to an external vendor - they manage the team, and you manage the vendor relationship. Augmentation offers better integration and knowledge retention at higher monthly cost. Outsourcing is cheaper per hour but has communication overhead, less control, and knowledge walks out the door when the contract ends."
+        },
+        {
+          "question": "How does AI team augmentation work at ManasFlow?",
+          "answer": "Step 1: We assess your technical requirements and team dynamics (1-2 days). Step 2: We match you with pre-vetted engineers from our talent network (2-5 days). Step 3: Engineers onboard into your tools, processes, and codebase (1 week). Step 4: They work as embedded team members under your management, with our support for retention, performance, and scaling. Average time from request to productive engineer: 2 weeks."
+        },
+        {
+          "question": "What is a forward deployed engineer (FDE)?",
+          "answer": "A forward deployed engineer embeds inside your team and writes production code on top of your systems, instead of advising from the outside. The model started at Palantir, where engineers sat on-site with government and defense customers whose data was too sensitive to hand off remotely; it has since spread across AI infrastructure companies for the same reason - production AI breaks on the specifics a remote team never sees. See our forward deployed engineers service for how we run this."
+        },
+        {
+          "question": "Can I hire a forward deployed engineer (FDE) through ManasFlow?",
+          "answer": "Yes. Our standard placement window is 2-4 weeks from requirements to a working engineer inside your sprint, backed by a 90-day replacement guarantee if the fit is wrong. Engineers embed directly in your team and ship production code, not recommendations. Book a free consultation to scope the fit, or see the forward deployed engineers page for the full model."
+        }
+      ]
+    },
+    {
+      "title": "Our Services & Process",
+      "items": [
+        {
+          "question": "What services does ManasFlow offer?",
+          "answer": "We offer three pillars of AI transformation: (1) AI Strategy & Consulting - fractional CAIO services, AI readiness assessments, and digital transformation roadmaps. (2) AI Implementation - custom workflow automation, AI agent development, RAG pipelines, SaaS MVP builds, and n8n/Make/Zapier integrations. (3) AI Talent - staff augmentation with AI engineers, dedicated development teams, and engineer placement for permanent hires."
+        },
+        {
+          "question": "What tools and platforms do you work with?",
+          "answer": "We're platform-agnostic but specialize in: n8n, Make.com, and Zapier for workflow automation; OpenAI, Anthropic Claude, and Google Gemini for AI models; LangChain and LlamaIndex for RAG pipelines; Next.js, React, and Python for custom development; and PostgreSQL, Supabase, and Pinecone for data infrastructure. We choose the right tool for each use case rather than forcing a single platform."
+        },
+        {
+          "question": "Do you work with companies globally?",
+          "answer": "Yes. ManasFlow serves clients worldwide - across North America, Europe, MENA, Asia, and beyond. Our distributed team operates across multiple time zones, and most client communication happens async with scheduled sync meetings, making us effective in any region."
+        },
+        {
+          "question": "What does a typical engagement look like?",
+          "answer": "Most engagements start with a free 30-minute discovery call to understand your needs. From there: (1) For automation projects - we conduct a workflow audit, propose a solution architecture, and deliver in 2-8 week sprints. (2) For staff augmentation - we assess requirements and present matched candidates within 5 business days. (3) For strategy - we deliver an AI readiness assessment and implementation roadmap within 2-3 weeks."
+        },
+        {
+          "question": "What is generative AI development?",
+          "answer": "Generative AI development involves building applications powered by large language models (LLMs) like GPT-4, Claude, or Gemini. This includes custom AI chatbots, content generation pipelines, document analysis systems, AI-powered search (RAG), and autonomous AI agents. We build these as production-ready applications integrated into your existing workflows - not just prototypes."
+        }
+      ]
+    },
+    {
+      "title": "Pricing & Getting Started",
+      "items": [
+        {
+          "question": "Do you offer free consultations?",
+          "answer": "Yes. We offer a free 30-minute discovery call where we assess your automation opportunities, discuss your goals, and recommend next steps - with no obligation. Book a free consultation to get started."
+        },
+        {
+          "question": "What is your pricing model?",
+          "answer": "We offer three pricing models: (1) Fixed-price projects - best for well-defined automation builds with clear deliverables. (2) Monthly retainers - best for ongoing optimization, maintenance, and iterative development. (3) Staff augmentation / dedicated teams - billed per engineer per month with flexible scaling. All engagements include a detailed scope and transparent pricing before any commitment."
+        },
+        {
+          "question": "Can I start with a small pilot project?",
+          "answer": "Absolutely - we recommend it. Most clients start with a single workflow automation or a 2-week augmentation trial to validate the working relationship and see results before scaling. Pilot projects typically cost $2,500-$10,000 and deliver measurable ROI within the first month."
+        },
+        {
+          "question": "What if the automation doesn't deliver expected results?",
+          "answer": "All our projects include a ramp-up period with defined success metrics agreed upon upfront. If an automation underperforms, we diagnose the issue and iterate - most performance gaps come from data quality or process design, not the technology itself. For staff augmentation, we offer a replacement guarantee: if an engineer isn't a fit, we provide a replacement within one week at no additional cost."
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "title": "AI Staff Augmentation",
+      "description": "Access the top 1% of Python AI Development talent. We deploy vetted engineers directly into your team to accelerate your roadmap.",
+      "features": [
+        "Top 1% Python AI Talent",
+        "Vetted Engineers",
+        "Direct Team Integration",
+        "Accelerated Roadmap"
+      ],
+      "duration": "Ongoing Placement",
+      "participants": "Scalable Teams",
+      "link": "/services/engineer-placement",
+      "imageSrc": "/images/generated/ai-staff-augmentation-browserbase.webp"
+    },
+    {
+      "title": "Custom AI Automation",
+      "description": "Eliminate operational bottlenecks with n8n Automation Experts. We design autonomous agents that handle complex business logic 24/7.",
+      "features": [
+        "n8n Automation Experts",
+        "Autonomous Agents",
+        "24/7 Business Logic",
+        "Bottleneck Elimination"
+      ],
+      "duration": "Project Based",
+      "participants": "Enterprise Wide",
+      "link": "/services/custom-automation",
+      "imageSrc": "/images/generated/ai-implementation-browserbase.webp"
+    },
+    {
+      "title": "Corporate AI Training",
+      "description": "Upskill your leadership and technical teams with our Generative AI Courses for Business. Secure your future through knowledge.",
+      "features": [
+        "Generative AI Courses",
+        "Leadership Upskilling",
+        "Technical Training",
+        "Future-Proofing"
+      ],
+      "duration": "Custom Format",
+      "participants": "Teams & Execs",
+      "link": "/services/custom-training",
+      "imageSrc": "/images/generated/ai-training-placement-browserbase.webp"
+    },
+    {
+      "title": "Custom Workflow Automation",
+      "description": "Stop wasting hours on manual tasks and disconnected software. We engineer robust, tailor-made automation pipelines that eliminate bottlenecks, reduce operational costs, and scale seamlessly with your growth.",
+      "features": [
+        "Tailor-Made Pipelines",
+        "Bottleneck Elimination",
+        "Operational Cost Reduction",
+        "Scale with Growth"
+      ],
+      "duration": "Project Based",
+      "participants": "Enterprise Wide",
+      "link": "/services/custom-workflow-automation",
+      "imageSrc": "/images/generated/browserbase-consulting.webp"
+    },
+    {
+      "title": "Custom AI Agent Development",
+      "description": "Move beyond simple chatbots. We engineer intelligent, autonomous AI systems that execute complex workflows, make data-driven decisions, and scale your operations without increasing your headcount.",
+      "features": [
+        "Autonomous AI Agents",
+        "Internal Knowledge Base AI",
+        "Multi Agent Systems",
+        "AI Architecture Audit"
+      ],
+      "duration": "Project Based",
+      "participants": "Enterprise Wide",
+      "link": "/services/ai-agent-development",
+      "imageSrc": "/images/generated/ai-implementation-browserbase.webp"
+    },
+    {
+      "title": "SaaS MVP Development",
+      "description": "Stop wasting months on theoretical features. We engineer lean, scalable Minimum Viable Products designed to acquire your first paying users and validate your business model in 30 days.",
+      "features": [
+        "30-Day Launch",
+        "Low Code Architecture",
+        "Rapid MVP Prototyping",
+        "Strategy Call"
+      ],
+      "duration": "30-Day Sprint",
+      "participants": "Founders & Startups",
+      "link": "/services/saas-mvp-development",
+      "imageSrc": "/images/generated/browserbase-consulting.webp"
+    },
+    {
+      "title": "Automation Maintenance Services",
+      "description": "Do not let a broken API or a minor system update paralyze your operation. We provide elite monitoring and support so your automated workflows stay reliable, secure, and high-performing 24/7.",
+      "features": [
+        "24/7 Monitoring",
+        "Workflow Debugging",
+        "Managed Automation",
+        "Support Audit"
+      ],
+      "duration": "Ongoing",
+      "participants": "Enterprise Wide",
+      "link": "/services/automation-maintenance-support",
+      "imageSrc": "/images/generated/browserbase-consulting.webp"
+    },
+    {
+      "title": "RAG Pipeline Architecture",
+      "description": "An AI is only as good as the data it can access. We engineer high-performance RAG pipelines that connect your LLMs to your private corporate knowledge with surgical precision and zero hallucinations.",
+      "features": [
+        "Custom RAG Architecture",
+        "Vector Search Development",
+        "Enterprise AI Infrastructure",
+        "Infrastructure Audit"
+      ],
+      "duration": "Project Based",
+      "participants": "Enterprise Wide",
+      "link": "/services/rag-pipeline-architecture-development",
+      "imageSrc": "/images/generated/ai-implementation-browserbase.webp"
+    },
+    {
+      "title": "AI Strategy Consulting & Fractional CAIO",
+      "description": "Stop chasing AI trends and start leading your industry. We provide the strategic vision and technical oversight to turn Generative AI into a sustainable competitive advantage.",
+      "features": [
+        "Fractional AI Officer",
+        "AI Transformation Strategy",
+        "Executive Consulting",
+        "Strategy Consultation"
+      ],
+      "duration": "Ongoing",
+      "participants": "Executives & Boards",
+      "link": "/services/ai-strategy-consulting-fractional-caio",
+      "imageSrc": "/images/generated/browserbase-consulting.webp"
+    },
+    {
+      "title": "Claude Code Security Audit",
+      "description": "Secure your team's Claude Code and AI coding agent deployment. We audit permissions, harden configurations, eliminate prompt injection risks, and train your developers.",
+      "features": [
+        "Permission & Access Audit",
+        "Config Hardening",
+        "Prompt Injection Defense",
+        "Developer Security Training"
+      ],
+      "duration": "1-2 Weeks",
+      "participants": "Dev Teams & CTOs",
+      "link": "/services/claude-code-security-audit",
+      "imageSrc": "/images/generated/engineer-placement-browserbase.webp"
+    }
+  ],
+  "sectors": [
+    {
+      "title": "Logistics & Supply Chain",
+      "description": "Optimize freight management, predict inventory needs, and automate documentation. Streamline complex workflows to reduce transit times."
+    },
+    {
+      "title": "E-commerce & Retail",
+      "description": "Scale Content Strategy and SEO automatically. From automated product descriptions to personalized customer journeys."
+    },
+    {
+      "title": "Real Estate & Professional Services",
+      "description": "Automate document analysis, reporting, and lead qualification. Focus on strategy rather than administration."
+    }
+  ],
+  "comparison": [
+    {
+      "metric": "Data Processing Speed",
+      "manual": "Hours / Days",
+      "ai": "Near Instantaneous"
+    },
+    {
+      "metric": "Content Production",
+      "manual": "Human-dependent & Variable",
+      "ai": "Scalable & SEO-Optimized"
+    },
+    {
+      "metric": "Workflow Consistency",
+      "manual": "Subject to Human Error",
+      "ai": "100% Logic-Driven Accuracy"
+    },
+    {
+      "metric": "Operating Costs",
+      "manual": "Scales Linearly with Staff",
+      "ai": "High ROI, Low Marginal Cost"
+    },
+    {
+      "metric": "Multilingual Support",
+      "manual": "Limited by Team Fluency",
+      "ai": "Native FR/EN/AR Support"
+    }
+  ],
+  "governance": [
+    {
+      "title": "Data Privacy & GDPR",
+      "description": "Sensitive business data remains yours. Implementations focus on private data silos and encrypted layers."
+    },
+    {
+      "title": "Ethical AI & Bias Mitigation",
+      "description": "Strategic oversight ensuring outputs align with corporate values and are free from harmful hallucinations."
+    },
+    {
+      "title": "Multilingual Optimization",
+      "description": "Solutions respecting local regulations and cultural nuances across FR, EN, and AR markets."
+    },
+    {
+      "title": "Scalable Architecture",
+      "description": "Industry-leading frameworks ensuring your Enterprise AI implementation is fast and future-proof."
+    }
+  ],
+  "agencies": [
+    {
+      "title": "AI Automation Agency",
+      "href": "/services/ai-automation-agency",
+      "desc": "Strategy, n8n build, AI agents, and maintenance under one roof."
+    },
+    {
+      "title": "AI Chatbot Development Agency",
+      "href": "/services/ai-chatbot-development-agency",
+      "desc": "LLM chatbots wired into CRM, helpdesk, and internal knowledge."
+    },
+    {
+      "title": "AI Customer Support Agent Development",
+      "href": "/services/ai-customer-support-agent-development",
+      "desc": "Support agents that resolve tickets: RAG answers, order/refund actions, human escalation."
+    },
+    {
+      "title": "Workflow Automation Agency",
+      "href": "/services/workflow-automation-agency",
+      "desc": "Map, automate, and monitor the processes that eat your week."
+    },
+    {
+      "title": "SaaS Development Agency",
+      "href": "/services/saas-development-agency",
+      "desc": "AI-native SaaS builds, from riskiest assumption to production."
+    },
+    {
+      "title": "No-Code Development Agency",
+      "href": "/services/no-code-development-agency",
+      "desc": "No-code where it fits, code where it does not."
+    },
+    {
+      "title": "Marketing Automation Agency",
+      "href": "/services/marketing-automation-agency",
+      "desc": "Campaign ops, content pipelines, and personalization feeds that run themselves."
+    },
+    {
+      "title": "Next.js AI App Development",
+      "href": "/services/nextjs-ai-app-development",
+      "desc": "Production Next.js with AI features: RAG, agents, evals."
+    },
+    {
+      "title": "Product Scoping",
+      "href": "/services/product-scoping",
+      "desc": "Test the riskiest assumption before you pay to build."
+    },
+    {
+      "title": "SaaS UX Audit",
+      "href": "/services/ux-audit",
+      "desc": "Analytics-backed audit of where your product loses users."
+    },
+    {
+      "title": "Hire AI Developers: Nearshore Engineers Placed in 2-4 Weeks",
+      "href": "/services/hire-ai-developers",
+      "desc": "An AI developer who orchestrates a fleet of coding agents, from $60K/year, placed in 2-4 weeks with a 90-day guarantee."
+    },
+    {
+      "title": "Forward Deployed Engineers | Embedded, Not Advisory",
+      "href": "/services/forward-deployed-engineers",
+      "desc": "An engineer who embeds in your team, directs a fleet of AI agents, and ships production AI. Not a consultant."
+    },
+    {
+      "title": "OpenClaw & NemoClaw Enterprise Setup, Done Safely",
+      "href": "/services/openclaw-nemoclaw-enterprise-setup",
+      "desc": "OpenClaw agents secured with our NemoClaw layer: sandboxed execution, policy-as-code, private inference."
+    },
+    {
+      "title": "AI Workshops & Hands-on Bootcamps",
+      "href": "/services/ai-workshops",
+      "desc": "Hands-on workshops on Cursor, MCP, and n8n agents for engineering, ops, and leadership teams."
+    },
+    {
+      "title": "Claude Code Training for Teams: Workshops and Setup",
+      "href": "/services/claude-code-training",
+      "desc": "Setup workshops, shared CLAUDE.md conventions, non-developer onboarding, and enterprise rollout support."
+    }
+  ],
+  "serviceFaqs": [
+    {
+      "question": "What AI services does ManasFlow offer?",
+      "answer": "AI staff augmentation (engineer placement), custom AI agent and workflow automation (n8n, Zapier, Make), corporate AI training and workshops, RAG pipeline development, SaaS MVP builds, and ongoing automation maintenance & support. Each is its own service page with scope, format, and typical timeline."
+    },
+    {
+      "question": "How is an AI services engagement structured?",
+      "answer": "It depends on the service: engineer placement is an ongoing placement, most automation and workflow builds are project-based with a defined scope, and AI workshops run as a custom-format session sized to your team. We confirm the format and duration on the free strategy call before any work starts."
+    },
+    {
+      "question": "Do you work with non-English-speaking or international teams?",
+      "answer": "Yes. We offer native French, English, and Arabic support and can run secure data silos to keep client environments separated, with GDPR-compliant handling for EU clients."
+    },
+    {
+      "question": "How do I start an AI automation or agent project with ManasFlow?",
+      "answer": "Book a free 30-minute consultation. We map your highest-ROI automation and AI agent opportunities on the call and you get a scoped roadmap, whether or not you move forward with us."
+    }
+  ],
+  "skills": [
+    "AI Agents",
+    "n8n",
+    "Python",
+    "Next.js",
+    "Supabase",
+    "Cloud (AWS / Google / Azure)",
+    "Vercel",
+    "Railway",
+    "Render",
+    "Agno",
+    "Claude Code",
+    "Codex",
+    "Cursor",
+    "Other"
+  ],
+  "careerValues": [
+    {
+      "title": "Real production",
+      "description": "Agents that run inside live businesses. Not demos, not sandboxes."
+    },
+    {
+      "title": "Worldwide clients",
+      "description": "Operators across North America, Europe, MENA, and Asia. English is required. French earns you points."
+    },
+    {
+      "title": "No committees",
+      "description": "Small team. Direct ownership. You decide, you build, you ship."
+    },
+    {
+      "title": "Async by default",
+      "description": "Outcomes, not hours. Work from anywhere, keep your calendar empty."
+    }
+  ],
+  "careerStats": [
+    {
+      "value": "45+",
+      "label": "Clients shipping in production"
+    },
+    {
+      "value": "Worldwide",
+      "label": "Where our clients operate"
+    },
+    {
+      "value": "<5d",
+      "label": "Average time to first deploy"
+    },
+    {
+      "value": "100%",
+      "label": "Refundable first month"
+    }
+  ],
+  "careerFit": [
+    "You shipped at least one AI agent, workflow, or AI-powered product into a real environment.",
+    "You know one of: n8n, Python, Next.js, or cloud infrastructure. More is better.",
+    "You can take a business problem and design the full automated solution around it.",
+    "You can deploy agents inside web apps and keep them running without a babysitter.",
+    "You write clearly in English. French is a plus."
+  ],
+  "contactFaqs": [
+    {
+      "question": "How fast does ManasFlow respond to a contact form submission?",
+      "answer": "Send your enquiry to info@manasflow.com and we’ll reply to arrange the next step. If you prefer a call, use the strategy-call request above and include your availability."
+    },
+    {
+      "question": "Is my information kept secure and private?",
+      "answer": "The forms on this website prepare an email draft in your email app. You choose whether to send it to ManasFlow. We never sell or spam the contact details you share. See our privacy notice for more information."
+    },
+    {
+      "question": "What should I include in the project details field?",
+      "answer": "A short description of the process or system you want automated, your current tools, and your budget range is enough to get started. You can also skip straight to a free 30-minute consultation call if you'd rather talk it through live."
+    }
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "patterns": [
+    {
+      "id": "Documents to Decisions",
+      "blurb": "Paperwork comes in, gets read and matched automatically, and only the genuinely unclear cases reach a person."
+    },
+    {
+      "id": "Knowledge in daily work",
+      "blurb": "Documents, meetings and records get understood automatically and land inside the tool people already use."
+    },
+    {
+      "id": "Growth workflow",
+      "blurb": "Signals, follow-up and lead flow connect straight to the next human action."
+    },
+    {
+      "id": "AI features in product",
+      "blurb": "An existing product gets smarter for its own users, without a rebuild."
+    },
+    {
+      "id": "Execution capacity",
+      "blurb": "A defined problem becomes real engineering work and a clean handoff."
+    }
+  ],
+  "clients": [
+    {
+      "name": "Sage",
+      "descriptor": "One of the largest business software companies worldwide, LSE-listed, ~£2.7bn annual revenue",
+      "pattern": "Execution capacity",
+      "need": "One of the biggest names in business software wanted outside perspective on how AI adoption should actually roll out across a big, distributed engineering organisation. Separately, they wanted to understand their own visibility inside AI search.",
+      "results": [
+        "Advised leadership directly on the AI rollout approach",
+        "Placed one embedded engineer to prove the pattern in a live team, which became the reference other teams followed after",
+        "Running a second engagement on AI-search visibility: the audit found over 64% additional engagement potential on non-branded searches, still in progress"
+      ],
+      "domain": "sage.com",
+      "logo": "pages/client-sage.com.png"
+    },
+    {
+      "name": "Unmuted",
+      "descriptor": "B2B SaaS marketing agency, Amsterdam",
+      "pattern": "Execution capacity",
+      "need": "A growing marketing agency needed a trusted engineer inside the team full-time, not another freelancer rotating through.",
+      "results": [
+        "Placed a full-time embedded engineer inside the company",
+        "Running GTM and internal automation work day to day since"
+      ],
+      "domain": "unmuted.com",
+      "logo": "pages/client-unmuted.com.png"
+    },
+    {
+      "name": "Orbital Eye",
+      "descriptor": "Satellite monitoring, Delft",
+      "pattern": "Execution capacity",
+      "need": "A satellite-monitoring company needed a full-time embedded engineer, not project-based help.",
+      "results": [
+        "Placed a full-time embedded engineer inside the team",
+        "Signed and running since July 2026"
+      ],
+      "domain": "orbitaleye.nl",
+      "logo": "pages/client-orbitaleye.nl.png"
+    },
+    {
+      "name": "Opus Safety",
+      "descriptor": "Health & safety compliance consultancy, UK, 1,000+ businesses served",
+      "pattern": "Growth workflow",
+      "need": "Wanted to be found, by search engines and by AI answer engines, for the problems they solve.",
+      "results": [
+        "Built their SEO and AI-search (GEO) visibility system from the ground up"
+      ],
+      "domain": "opus-safety.co.uk",
+      "logo": "pages/client-opus-safety.co.uk.png"
+    },
+    {
+      "name": "Just Russel",
+      "descriptor": "Pet food, DTC, Belgium",
+      "pattern": "Growth workflow",
+      "need": "A fast-growing pet food brand needed their content operation and campaign infrastructure to move as fast as the business was scaling across markets.",
+      "results": [
+        "Classified over 1,200 content assets into a usable dataset covering five markets",
+        "Cut briefing-to-script time by eight days",
+        "Built the campaign builder now running their content pipeline"
+      ],
+      "domain": "justrussel.com",
+      "logo": "pages/client-justrussel.com.png"
+    },
+    {
+      "name": "Addictest",
+      "descriptor": "International education, Morocco",
+      "pattern": "Execution capacity",
+      "need": "A study-abroad placement company was running its whole operation out of spreadsheets, with the founder as the single point of visibility into everything.",
+      "results": [
+        "Built an AI writing tool that drafts CVs and cover letters for students",
+        "Built a matching engine that pairs students to universities automatically",
+        "Built the operating system that gives the CEO visibility without living in Excel",
+        "The company has placed roughly 750 students abroad since 2015"
+      ],
+      "domain": "addictest.com",
+      "logo": "pages/client-addictest.com.png"
+    },
+    {
+      "name": "Qatar Tourism",
+      "descriptor": "Tourism board, WhatsApp customer support",
+      "pattern": "Growth workflow",
+      "need": "The support team was buried on WhatsApp, averaging over 4 hours to answer a single inbound message.",
+      "results": [
+        "Built a multilingual WhatsApp AI agent that runs around the clock",
+        "80% of requests are now handled without a human touching them",
+        "Roughly $18,000/year saved, support workload down 40%"
+      ],
+      "domain": "visitqatar.com",
+      "logo": "pages/client-visitqatar.com.png"
+    },
+    {
+      "name": "Fondation FORCE",
+      "descriptor": "Health foundation, Strasbourg",
+      "pattern": "Growth workflow",
+      "need": "Had no real way to measure whether AI search tools (ChatGPT, Perplexity, etc.) were surfacing them at all.",
+      "results": [
+        "Set up measurement for AI-search visibility, organic growth and LinkedIn reach as one system",
+        "Citation rate in AI answers measured moving from under 2% to 10.8%"
+      ]
+    },
+    {
+      "name": "ThinkONE",
+      "descriptor": "Market research agency, Morocco",
+      "pattern": "Knowledge in daily work",
+      "need": "A research firm wanted AI built into how their analysts actually work, not bolted on as a side tool.",
+      "results": [
+        "Built a questionnaire generator for quantitative studies",
+        "Built role-specific AI skills for the research team",
+        "Ran 4+ hands-on training sessions to get the team using it for real"
+      ]
+    },
+    {
+      "name": "Gepromed",
+      "descriptor": "MedTech, Strasbourg",
+      "pattern": "Execution capacity",
+      "need": "Knew AI could help somewhere in the business but had no clear list of where. The mapping had to happen before anything got built.",
+      "results": [
+        "Mapped 47 distinct AI opportunities across the business before building anything",
+        "Narrowed that down to 16 deployed, role-specific AI skills",
+        "Brought the daily usage together into one operating console"
+      ],
+      "domain": "gepromed.com",
+      "logo": "pages/client-gepromed.com.png"
+    },
+    {
+      "name": "Cardio Check Up",
+      "descriptor": "Cardiology practice",
+      "pattern": "Documents to Decisions",
+      "need": "Around 120 patients with implantable heart monitors were being tracked across several disconnected spreadsheets.",
+      "results": [
+        "Centralized the whole practice into one operational cockpit",
+        "Automated the tracking and follow-up without automating the medical decision itself",
+        "Put a bilingual patient chatbot into production alongside it"
+      ]
+    },
+    {
+      "name": "Délifrance",
+      "descriptor": "Food industry, corporate finance team",
+      "pattern": "Knowledge in daily work",
+      "need": "A finance team wanted to use AI for their recurring work but needed training on their actual tasks, not generic AI theory.",
+      "results": [
+        "Trained on the team's real recurring finance tasks: what to automate, what AI should assist with, what still needs sign-off",
+        "Went from a single training session to daily use inside two weeks",
+        "12 people in the finance team trained and using it"
+      ],
+      "domain": "delifrance.com",
+      "logo": "pages/client-delifrance.com.png"
+    },
+    {
+      "name": "AmbryHill",
+      "descriptor": "Aerospace ERP, under FAA / ITAR / AS9100 compliance",
+      "pattern": "Documents to Decisions",
+      "need": "Their whole database was sitting there unused. Nobody without a technical background could ask it a question without going through engineering first.",
+      "results": [
+        "Turned the entire database into an agent anyone can just talk to",
+        "Each person gets their own scope: they only ever see and generate reports and charts for what they're allowed to touch",
+        "Built to scale as more of the database and more teams get added over time"
+      ],
+      "domain": "ambryhill.com",
+      "logo": "pages/client-ambryhill.com.png"
+    },
+    {
+      "name": "Tourtlee",
+      "descriptor": "AI local concierge platform",
+      "pattern": "AI features in product",
+      "need": "Wanted a full AI concierge product built and launched from scratch.",
+      "results": [
+        "Delivered the platform from architecture through to a working product",
+        "Signed and live"
+      ]
+    },
+    {
+      "name": "Portless",
+      "descriptor": "Ecommerce fulfillment, US",
+      "pattern": "Growth workflow",
+      "need": "A fulfillment company's sales team was losing hours per prospect to manual research and CRM upkeep before every call.",
+      "results": [
+        "Built agents that do pre-call research, update the CRM and score leads automatically",
+        "Cut research time per prospect and lifted the team's conversion rate"
+      ],
+      "domain": "portless.com",
+      "logo": "pages/client-portless.com.png"
+    },
+    {
+      "name": "Pilote EMC",
+      "descriptor": "French construction (BTP), full AI ops cockpit",
+      "pattern": "Growth workflow",
+      "need": "A French construction company was missing inbound leads it couldn't answer fast enough, and losing time to invoicing and subcontractor VAT paperwork on every job.",
+      "results": [
+        "Helped the client capture roughly €1.3M in revenue over six months, largely from customers who found them through AI search tools like ChatGPT",
+        "Automated electronic invoicing and subcontractor VAT compliance end to end",
+        "The AI now answers far more inbound calls and leads than the team could handle manually"
+      ]
+    },
+    {
+      "name": "Ordrix",
+      "descriptor": "Restaurant supply chain, document-heavy operations",
+      "pattern": "Documents to Decisions",
+      "need": "Every delivery note and invoice from suppliers had to be read, matched and typed in by hand before anything could move forward.",
+      "results": [
+        "Incoming documents are read and matched automatically",
+        "Only the genuinely unclear cases reach a person, with a one-click way to resolve them",
+        "The review team went from re-typing everything to spot-checking the exceptions"
+      ]
+    },
+    {
+      "name": "Kateb",
+      "descriptor": "Legal AI, Morocco",
+      "pattern": "Knowledge in daily work",
+      "need": "Legal work in Morocco runs across Arabic, French and Darija, and nothing off the shelf handled all three with the precision legal work demands.",
+      "results": [
+        "Built the platform from the ground up in under a month",
+        "Documents are read, understood and summarised automatically in whichever language they arrive in"
+      ]
+    },
+    {
+      "name": "Lexi",
+      "descriptor": "Notary platform, LegalTech",
+      "pattern": "Knowledge in daily work",
+      "need": "A notary office needed one place for admins, notaries and clients to work, instead of email, paper and separate systems.",
+      "results": [
+        "One platform, one view per role",
+        "Meetings are recorded and turned into text automatically",
+        "Documents get read and filed without anyone re-typing them",
+        "Every client update reaches the right notary the moment it happens"
+      ],
+      "domain": "meetlexi.com",
+      "logo": "pages/client-meetlexi.com.png"
+    },
+    {
+      "name": "Earleads",
+      "descriptor": "GTM agency",
+      "pattern": "Growth workflow",
+      "need": "A GTM agency needed one engineer who could sit inside their live product and their outbound tooling at the same time.",
+      "results": [
+        "Visitor signals now flow straight into outbound targeting with no manual work",
+        "The engineer became a standing part of the product team, not a one-off project"
+      ],
+      "domain": "earleads.com",
+      "logo": "pages/client-earleads.com.png"
+    },
+    {
+      "name": "The Only Constant",
+      "descriptor": "Enterprise & government transformation, Netherlands",
+      "pattern": "Growth workflow",
+      "need": "A transformation consultancy needed several AI tools running in parallel across different client engagements.",
+      "results": [
+        "A research-comparison tool clients use to decide between directions",
+        "A survey-analysis engine built to avoid hallucinated findings",
+        "A trade-show lead flow that lands leads straight into the pipeline",
+        "A meeting-prep tool that briefs the team automatically before every client call"
+      ]
+    },
+    {
+      "name": "xGrowth",
+      "descriptor": "B2B growth & account-based marketing",
+      "pattern": "Growth workflow",
+      "need": "Wanted a lead magnet and a repeatable way to bring in qualified leads their own team could reuse across clients.",
+      "results": [
+        "Built a custom interactive tool tailored to their positioning",
+        "Delivered the distribution playbook alongside it so the team could actually run it",
+        "Reviewed early results together to sharpen what gets built next"
+      ],
+      "domain": "xgrowth.co",
+      "logo": "pages/client-xgrowth.co.png"
+    },
+    {
+      "name": "Dentakay",
+      "descriptor": "Healthcare group, dental tourism",
+      "pattern": "Growth workflow",
+      "need": "Patient inquiries arrived from multiple countries and languages and kept falling through the cracks between first contact and booked treatment.",
+      "results": [
+        "Every inquiry now gets scored and followed up with automatically in the right language",
+        "The full journey from inquiry to treatment is tracked in one place"
+      ],
+      "domain": "dentakay.com",
+      "logo": "pages/client-dentakay.com.png"
+    },
+    {
+      "name": "Part of Narrative",
+      "descriptor": "Event & agency work, Netherlands",
+      "pattern": "Growth workflow",
+      "need": "Every event meant rebuilding the same registration and follow-up process from scratch.",
+      "results": [
+        "Registration, attendee communication and post-event reporting now run on reusable templates",
+        "The next event takes hours to set up instead of days"
+      ]
+    },
+    {
+      "name": "Convert.com",
+      "descriptor": "CRO SaaS, A/B testing",
+      "pattern": "AI features in product",
+      "need": "Needed extra engineering capacity inside a live, already-successful product.",
+      "results": [
+        "Shipped roadmap features as an embedded part of their product team",
+        "Improved the testing infrastructure underneath the product"
+      ],
+      "domain": "convert.com",
+      "logo": "pages/client-convert.com.png"
+    },
+    {
+      "name": "Omniconvert",
+      "descriptor": "CRO SaaS, Romania",
+      "pattern": "AI features in product",
+      "need": "Wanted to push their personalization engine further without pulling their own team off other priorities.",
+      "results": [
+        "Delivered segmentation and behavioral-targeting improvements directly on the live engine"
+      ],
+      "domain": "omniconvert.com",
+      "logo": "pages/client-omniconvert.com.png"
+    },
+    {
+      "name": "FleetForward",
+      "descriptor": "AI talent agency, US",
+      "pattern": "AI features in product",
+      "need": "Needed internal tooling to match candidates to opportunities, built to a high security and privacy bar from day one.",
+      "results": [
+        "Delivered a fully branded, client-facing platform",
+        "Automatic matching between candidates and opportunities",
+        "Security and access control built in rather than bolted on after"
+      ]
+    },
+    {
+      "name": "Neoday",
+      "descriptor": "Loyalty platform, clients include Tesco, Heineken and Pathé",
+      "pattern": "AI features in product",
+      "need": "An established loyalty platform wanted to become AI-native without a full rebuild.",
+      "results": [
+        "Two engineers shipped personalization, segmentation and churn prediction inside the live product",
+        "Left behind the underlying architecture so new AI features keep shipping without starting over each time"
+      ],
+      "domain": "neoday.com",
+      "logo": "pages/client-neoday.com.png"
+    },
+    {
+      "name": "Levitate Foundry",
+      "descriptor": "Growth marketing agency, Inc. 5000",
+      "pattern": "AI features in product",
+      "need": "Wanted an AI media-buying advisor, starting with a small pilot group of clients.",
+      "results": [
+        "Delivered a working prototype to prove the concept before committing further"
+      ],
+      "domain": "levitatefoundry.com",
+      "logo": "pages/client-levitatefoundry.com.png"
+    },
+    {
+      "name": "Ronin Global",
+      "descriptor": "MarTech / ad infrastructure, US & Dubai",
+      "pattern": "AI features in product",
+      "need": "Needed a full AI-native marketing platform built fast enough to beat competitors to market.",
+      "results": [
+        "Shipped campaign management, analytics, creative generation and billing as one connected platform"
+      ]
+    },
+    {
+      "name": "ArtOfYou",
+      "descriptor": "Personalised supplements, ecommerce",
+      "pattern": "Execution capacity",
+      "need": "Wanted one partner covering the full technical range: maintenance, features, AI and automation, instead of juggling separate vendors.",
+      "results": [
+        "One embedded engineer covers all of it, working directly off the founder's backlog"
+      ],
+      "domain": "artofyou.life",
+      "logo": "pages/client-artofyou.life.png"
+    },
+    {
+      "name": "EasyClick",
+      "descriptor": "Marketing & AI development agency, Slovenia",
+      "pattern": "Execution capacity",
+      "need": "Wanted a long-term technical partner to build and maintain web and mobile products, not a series of one-off projects.",
+      "results": [
+        "Delivered UX/UI design, AI integration, automation and ongoing maintenance as one continuous engagement",
+        "Client-reported gains in user engagement, operational efficiency and revenue",
+        "Working relationship running since August 2024"
+      ],
+      "domain": "easyclickweb.com",
+      "logo": "pages/client-easyclickweb.com.png"
+    },
+    {
+      "name": "Polaris Growth",
+      "descriptor": "Ecommerce funnel & Klaviyo agency, Netherlands",
+      "pattern": "Execution capacity",
+      "need": "Wanted the Agency OS built: a 3-month embedded engineer to run inside their existing Klaviyo and ecommerce optimization work.",
+      "results": [
+        "Embedded engineering support alongside their existing email and CRM migrations"
+      ],
+      "domain": "polarisgrowth.com",
+      "logo": "pages/client-polarisgrowth.com.png"
+    },
+    {
+      "name": "Backbase",
+      "descriptor": "Banking software, used by banks worldwide",
+      "pattern": "Execution capacity",
+      "need": "A major banking software company wanted both an engineer placement and outside strategy input on their AI adoption.",
+      "results": [
+        "Advised on strategy directly",
+        "Placed an embedded AI engineer inside the team"
+      ],
+      "domain": "backbase.com",
+      "logo": "pages/client-backbase.com.png"
+    },
+    {
+      "name": "Extrovert",
+      "descriptor": "SaaS, LinkedIn outreach automation, 1,000+ teams",
+      "pattern": "Execution capacity",
+      "need": "A small team needed a trusted engineer for support and operations, not product, so the core team could stay focused.",
+      "results": [
+        "An embedded engineer now runs support and operations automation full-time"
+      ],
+      "domain": "goextrovert.com",
+      "logo": "pages/client-goextrovert.com.png"
+    },
+    {
+      "name": "Naitivs",
+      "descriptor": "AI consulting & project brokerage",
+      "pattern": "Execution capacity",
+      "need": "Needed a dependable build partner to deliver AI agents for their own clients, one at a time.",
+      "results": [
+        "Delivered a product-catalog agent the receiving team rated \"superb\"",
+        "A pricing agent and a document bot followed behind it"
+      ],
+      "domain": "ainaitivs.com",
+      "logo": "pages/client-ainaitivs.com.png"
+    },
+    {
+      "name": "Shem's Publicité",
+      "descriptor": "Advertising agency, Casablanca, since 1972",
+      "pattern": "Execution capacity",
+      "need": "Their creative team of three was taking five days to produce a batch of marketing content, and deadlines kept slipping.",
+      "results": [
+        "Rebuilt the creative production workflow around AI",
+        "Same team, same output, delivered in under 24 hours instead of five days: a 10x jump in throughput"
+      ],
+      "domain": "shemspub.com",
+      "logo": "pages/client-shemspub.com.png"
+    },
+    {
+      "name": "Uniworx",
+      "descriptor": "EdTech, university placements, UK",
+      "pattern": "Execution capacity",
+      "need": "Needed a full placement platform serving students, employers and university admins at the same time.",
+      "results": [
+        "Delivered all three portals plus the engine that matches students to placements automatically",
+        "Strict data separation kept between universities"
+      ],
+      "domain": "uniworx.org",
+      "logo": "pages/client-uniworx.org.png"
+    },
+    {
+      "name": "Adstronaut",
+      "descriptor": "AI fashion design studio (tech packs, photoshoots, colorways)",
+      "pattern": "AI features in product",
+      "need": "Small fashion brands needed to go from idea to factory-ready product without a technical designer or a photo studio.",
+      "results": [
+        "Built the full product end to end: AI design, tech packs, sampling, photoshoots, listings",
+        "Now bringing in 100K visitors a month"
+      ],
+      "domain": "adstronaut.net",
+      "logo": "pages/client-adstronaut.net.png"
+    },
+    {
+      "name": "WearView",
+      "descriptor": "AI fashion photography, ecommerce, 19,000+ brands",
+      "pattern": "AI features in product",
+      "need": "Ecommerce fashion brands needed professional on-model photos without booking a studio, a photographer, or models.",
+      "results": [
+        "Built the AI model-generation product used by 19,000+ brands",
+        "Turns a garment photo into a studio-quality product image in under 30 seconds"
+      ],
+      "domain": "wearview.co",
+      "logo": "pages/client-wearview.co.png"
+    }
+  ],
+  "stories": [
+    {
+      "href": "/case-studies/compliance-automation",
+      "title": "Compliance Automation: Eliminating Fines",
+      "description": "See how our AI document verification system replaced manual passport checks, eliminating regulatory fines with 100% accurate compliance reporting.",
+      "category": "Workflow Optimization",
+      "date": "March 3, 2026",
+      "metrics": [
+        "70% Admin Time Saved",
+        "€10K+ Fines Eliminated",
+        "100% Data Accuracy",
+        "Zero non-compliance penalties"
+      ],
+      "tools": [
+        "Next.js",
+        "Supabase",
+        "OpenAI",
+        "+1"
+      ],
+      "minutes": "4",
+      "image": "pages/story-operations-featured.webp"
+    },
+    {
+      "href": "/case-studies/omnichannel-marketing-automation",
+      "title": "Omnichannel Marketing Automation",
+      "description": "See how we built an autonomous omnichannel marketing system, automating 95% of campaign distribution across all platforms.",
+      "category": "Marketing",
+      "date": "March 3, 2026",
+      "metrics": [
+        "100% Omnichannel Scale",
+        "95% Tasks Automated",
+        "Real-Time Analytics Hub",
+        "Instant Deployment"
+      ],
+      "tools": [
+        "Python",
+        "TypeScript",
+        "Next.js",
+        "+5"
+      ],
+      "minutes": "5",
+      "image": "pages/story-marketing-featured.webp"
+    },
+    {
+      "href": "/case-studies/creative-automation",
+      "title": "Creative Automation: 4 Hours to Minutes",
+      "description": "See how we built an AI image generation pipeline, cutting design asset production from 4 hours to 5 minutes.",
+      "category": "AI Automation",
+      "date": "March 3, 2026",
+      "metrics": [
+        "5 Mins Production Time",
+        "Infinite Asset Scaling",
+        "100% Brand Consistency",
+        "Rapid Ad Generation"
+      ],
+      "tools": [
+        "n8n",
+        "Nano Banana",
+        "Weavy",
+        "+1"
+      ],
+      "minutes": "4",
+      "image": "pages/story-ai-automation-featured.webp"
+    },
+    {
+      "href": "/case-studies/edtech-platform-development",
+      "title": "EdTech Platform: Replacing 3 Tools",
+      "description": "See how we built a custom EdTech platform to replace three disconnected tools with one unified learning environment.",
+      "category": "Operations",
+      "date": "March 3, 2026",
+      "metrics": [
+        "Next-Day Iteration",
+        "3 to 1 Tools Consolidated",
+        "Unified User Experience",
+        "Unified Dashboard"
+      ],
+      "tools": [
+        "Next.js",
+        "Supabase"
+      ],
+      "minutes": "5",
+      "image": "pages/story-workflow-optimization-featured.webp"
+    },
+    {
+      "href": "/case-studies/customer-support-automation",
+      "title": "Customer Support AI Chatbot Deployment",
+      "description": "See how we deployed a native Dutch AI chatbot for a loyalty program provider, instantly resolving Tier-1 support tickets around the clock.",
+      "category": "Customer Service",
+      "date": "March 3, 2026",
+      "metrics": [
+        "24/7 Instant Resolution",
+        "Tier-1 Tickets Deflected",
+        "100% Native Dutch",
+        "Zero-CMS Knowledge"
+      ],
+      "tools": [
+        "Next.js",
+        "n8n",
+        "OpenAI",
+        "+3"
+      ],
+      "minutes": "5",
+      "image": "pages/story-customer-services-featured.webp"
+    }
+  ]
+}

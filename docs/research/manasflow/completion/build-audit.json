@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-10-28T20:16:01.809Z",
+  "requiredRoutes": 50,
+  "requiredMissing": [],
+  "sourceSitemapRoutes": 1336,
+  "sourceMissing": [],
+  "prerenderedRoutes": 1807,
+  "htmlPagesAudited": 1805,
+  "sourceLeaks": [],
+  "builtLeaks": [],
+  "missingMetadata": [],
+  "brokenLinks": {},
+  "missingAssets": {},
+  "originalEditorialRasterFilesInPublic": []
+}

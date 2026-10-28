@@ -1,0 +1,595 @@
+{
+  "checkedAt": "2026-10-28T18:46:44.441Z",
+  "origin": "http://127.0.0.1:3000",
+  "requiredRoutes": 50,
+  "passed": 81,
+  "total": 81,
+  "failures": [],
+  "results": [
+    {
+      "route": "/n8n-agency",
+      "status": 200,
+      "title": "n8n automation agency: hire n8n developers who build and run your workflows | ManasFlow",
+      "h1": "n8n automation agency: hire n8n developers who build and run your workflows",
+      "valid": true
+    },
+    {
+      "route": "/cursor-agency",
+      "status": 200,
+      "title": "Cursor development agency: hire a Cursor developer or roll Cursor out across your team | ManasFlow",
+      "h1": "Cursor development agency: hire a Cursor developer or roll Cursor out across your team",
+      "valid": true
+    },
+    {
+      "route": "/claude-code-agency",
+      "status": 200,
+      "title": "Claude Code development agency: production AI agents or a Claude Code developer on your team | ManasFlow",
+      "h1": "Claude Code development agency: production AI agents or a Claude Code developer on your team",
+      "valid": true
+    },
+    {
+      "route": "/codex-agency",
+      "status": 200,
+      "title": "Codex agency: hire an engineer who runs Codex agents inside your repo | ManasFlow",
+      "h1": "Codex agency: hire an engineer who runs Codex agents inside your repo",
+      "valid": true
+    },
+    {
+      "route": "/lovable-agency",
+      "status": 200,
+      "title": "Lovable development agency: your Lovable app, ready for paying customers | ManasFlow",
+      "h1": "Lovable development agency: your Lovable app, ready for paying customers",
+      "valid": true
+    },
+    {
+      "route": "/bubble-agency",
+      "status": 200,
+      "title": "Bubble Development Agency: One Engineer, a Fleet of Agents Built to Scale | ManasFlow",
+      "h1": "Bubble Development Agency: One Engineer, a Fleet of Agents Built to Scale",
+      "valid": true
+    },
+    {
+      "route": "/framer-agency",
+      "status": 200,
+      "title": "Framer Development Agency: One Engineer, a Fleet of Agents Built to Convert | ManasFlow",
+      "h1": "Framer Development Agency: One Engineer, a Fleet of Agents Built to Convert",
+      "valid": true
+    },
+    {
+      "route": "/supabase-agency",
+      "status": 200,
+      "title": "Supabase development agency: secure Postgres backends, RLS on every table | ManasFlow",
+      "h1": "Supabase development agency: secure Postgres backends, RLS on every table",
+      "valid": true
+    },
+    {
+      "route": "/flutterflow-agency",
+      "status": 200,
+      "title": "FlutterFlow Development Agency: One Engineer, a Fleet of Agents Built to Ship | ManasFlow",
+      "h1": "FlutterFlow Development Agency: One Engineer, a Fleet of Agents Built to Ship",
+      "valid": true
+    },
+    {
+      "route": "/salesforce-consultants",
+      "status": 200,
+      "title": "Salesforce implementation consultants: an org your reps actually use, with the busywork automated | ManasFlow",
+      "h1": "Salesforce implementation consultants: an org your reps actually use, with the busywork automated",
+      "valid": true
+    },
+    {
+      "route": "/v0-agency",
+      "status": 200,
+      "title": "v0 development agency: from v0 prototype to a live Next.js app | ManasFlow",
+      "h1": "v0 development agency: from v0 prototype to a live Next.js app",
+      "valid": true
+    },
+    {
+      "route": "/replit-agency",
+      "status": 200,
+      "title": "Replit development agency: your Replit Agent app, ready for real users | ManasFlow",
+      "h1": "Replit development agency: your Replit Agent app, ready for real users",
+      "valid": true
+    },
+    {
+      "route": "/hubspot-consultants",
+      "status": 200,
+      "title": "HubSpot consultant: implementation and onboarding that leaves your CRM cleaner than it found it | ManasFlow",
+      "h1": "HubSpot consultant: implementation and onboarding that leaves your CRM cleaner than it found it",
+      "valid": true
+    },
+    {
+      "route": "/clay-agency",
+      "status": 200,
+      "title": "Clay GTM agency: enrichment and signals that land in your CRM and outreach | ManasFlow",
+      "h1": "Clay GTM agency: enrichment and signals that land in your CRM and outreach",
+      "valid": true
+    },
+    {
+      "route": "/zoho-consultants",
+      "status": 200,
+      "title": "Zoho consultant: Zoho CRM implementation with the automation finished | ManasFlow",
+      "h1": "Zoho consultant: Zoho CRM implementation with the automation finished",
+      "valid": true
+    },
+    {
+      "route": "/attio-crm-agency",
+      "status": 200,
+      "title": "Attio CRM agency: set up by a team that runs its own pipeline on Attio | ManasFlow",
+      "h1": "Attio CRM agency: set up by a team that runs its own pipeline on Attio",
+      "valid": true
+    },
+    {
+      "route": "/pipedrive-consultants",
+      "status": 200,
+      "title": "Pipedrive consultant: a pipeline that updates itself, so your reps can sell | ManasFlow",
+      "h1": "Pipedrive consultant: a pipeline that updates itself, so your reps can sell",
+      "valid": true
+    },
+    {
+      "route": "/cold-email-agency",
+      "status": 200,
+      "title": "Cold email agency: we build and run your Instantly outbound system | ManasFlow",
+      "h1": "Cold email agency: we build and run your Instantly outbound system",
+      "valid": true
+    },
+    {
+      "route": "/linkedin-outreach-agency",
+      "status": 200,
+      "title": "LinkedIn outreach agency: HeyReach campaigns built and run on real signals | ManasFlow",
+      "h1": "LinkedIn outreach agency: HeyReach campaigns built and run on real signals",
+      "valid": true
+    },
+    {
+      "route": "/ai-strategy-consulting",
+      "status": 200,
+      "title": "A ranked AI roadmap, run by a fractional CAIO who ships it | ManasFlow",
+      "h1": "A ranked AI roadmap, run by a fractional CAIO who ships it",
+      "valid": true
+    },
+    {
+      "route": "/ai-agent-development",
+      "status": 200,
+      "title": "AI agent development services, built to survive production | ManasFlow",
+      "h1": "AI agent development services, built to survive production",
+      "valid": true
+    },
+    {
+      "route": "/workflow-automation",
+      "status": 200,
+      "title": "Custom workflow automation that connects the tools you already run | ManasFlow",
+      "h1": "Custom workflow automation that connects the tools you already run",
+      "valid": true
+    },
+    {
+      "route": "/custom-automation",
+      "status": 200,
+      "title": "Custom AI automation built for one process, not a template | ManasFlow",
+      "h1": "Custom AI automation built for one process, not a template",
+      "valid": true
+    },
+    {
+      "route": "/rag-pipeline-development",
+      "status": 200,
+      "title": "RAG pipeline architecture: one engineer, a fleet of agents , zero-guess AI | ManasFlow",
+      "h1": "RAG pipeline architecture: one engineer, a fleet of agents , zero-guess AI",
+      "valid": true
+    },
+    {
+      "route": "/saas-mvp-development",
+      "status": 200,
+      "title": "A working SaaS MVP your first users can log into, in 30 days, at a fixed price | ManasFlow",
+      "h1": "A working SaaS MVP your first users can log into, in 30 days, at a fixed price",
+      "valid": true
+    },
+    {
+      "route": "/engineer-placement",
+      "status": 200,
+      "title": "AI engineer placement inside your team. One engineer, a fleet of agents, placed in 2 to 4 weeks. | ManasFlow",
+      "h1": "AI engineer placement inside your team. One engineer, a fleet of agents, placed in 2 to 4 weeks.",
+      "valid": true
+    },
+    {
+      "route": "/ai-workshops",
+      "status": 200,
+      "title": "AI automation workshops that teach the fleet-of-agents workflow | ManasFlow",
+      "h1": "AI automation workshops that teach the fleet-of-agents workflow",
+      "valid": true
+    },
+    {
+      "route": "/hire-ai-developers",
+      "status": 200,
+      "title": "AI developers for hire: hire AI engineers in 2-4 weeks, from $60,000 a year | ManasFlow",
+      "h1": "AI developers for hire: hire AI engineers in 2-4 weeks, from $60,000 a year",
+      "valid": true
+    },
+    {
+      "route": "/custom-training",
+      "status": 200,
+      "title": "Corporate AI training built around the fleet-of-agents workflow | ManasFlow",
+      "h1": "Corporate AI training built around the fleet-of-agents workflow",
+      "valid": true
+    },
+    {
+      "route": "/maintenance-support",
+      "status": 200,
+      "title": "Automation maintenance: one engineer, a fleet of agents, watching every workflow | ManasFlow",
+      "h1": "Automation maintenance: one engineer, a fleet of agents, watching every workflow",
+      "valid": true
+    },
+    {
+      "route": "/openclaw-nemoclaw-setup",
+      "status": 200,
+      "title": "OpenClaw &amp; NemoClaw: one engineer, a fleet of agents, locked down | ManasFlow",
+      "h1": "OpenClaw &amp; NemoClaw: one engineer, a fleet of agents, locked down",
+      "valid": true
+    },
+    {
+      "route": "/ai-automation-agency",
+      "status": 200,
+      "title": "AI automation agency services that ship workflows and agents to production | ManasFlow",
+      "h1": "AI automation agency services that ship workflows and agents to production",
+      "valid": true
+    },
+    {
+      "route": "/saas-development-agency",
+      "status": 200,
+      "title": "The AI SaaS development agency that tests your riskiest assumption first | ManasFlow",
+      "h1": "The AI SaaS development agency that tests your riskiest assumption first",
+      "valid": true
+    },
+    {
+      "route": "/ai-chatbot-development-agency",
+      "status": 200,
+      "title": "The AI Chatbot Development Agency That Builds LLM Chatbots, Not Chat Widgets | ManasFlow",
+      "h1": "The AI Chatbot Development Agency That Builds LLM Chatbots, Not Chat Widgets",
+      "valid": true
+    },
+    {
+      "route": "/workflow-automation-agency",
+      "status": 200,
+      "title": "The workflow automation agency that builds for month three, not the demo | ManasFlow",
+      "h1": "The workflow automation agency that builds for month three, not the demo",
+      "valid": true
+    },
+    {
+      "route": "/no-code-development-agency",
+      "status": 200,
+      "title": "The no-code agency that tells you when no-code is the wrong answer | ManasFlow",
+      "h1": "The no-code agency that tells you when no-code is the wrong answer",
+      "valid": true
+    },
+    {
+      "route": "/directory",
+      "status": 200,
+      "title": "Free AI Model Directory | ManasFlow",
+      "h1": "Free AI Models",
+      "valid": true
+    },
+    {
+      "route": "/ai-model-comparison",
+      "status": 200,
+      "title": "AI Model Comparison | ManasFlow",
+      "h1": "AI Model Comparison",
+      "valid": true
+    },
+    {
+      "route": "/marketing-automation-agency",
+      "status": 200,
+      "title": "The B2B marketing automation agency that routes every lead in minutes, not days | ManasFlow",
+      "h1": "The B2B marketing automation agency that routes every lead in minutes, not days",
+      "valid": true
+    },
+    {
+      "route": "/nextjs-ai-app-development",
+      "status": 200,
+      "title": "Next.js AI app development built for production, not the demo reel | ManasFlow",
+      "h1": "Next.js AI app development built for production, not the demo reel",
+      "valid": true
+    },
+    {
+      "route": "/ai-model-pricing-index",
+      "status": 200,
+      "title": "AI Model Pricing Index | ManasFlow",
+      "h1": "AI Model Pricing Index",
+      "valid": true
+    },
+    {
+      "route": "/roi-calculator",
+      "status": 200,
+      "title": "Automation ROI Calculator | ManasFlow",
+      "h1": "Automation ROI Calculator",
+      "valid": true
+    },
+    {
+      "route": "/ai-readiness-assessment",
+      "status": 200,
+      "title": "AI Readiness Assessment | ManasFlow",
+      "h1": "AI Readiness Assessment",
+      "valid": true
+    },
+    {
+      "route": "/ai-budget-planner",
+      "status": 200,
+      "title": "AI Implementation Budget Planner | ManasFlow",
+      "h1": "AI Implementation Budget Planner",
+      "valid": true
+    },
+    {
+      "route": "/workflow-audit",
+      "status": 200,
+      "title": "Workflow Automation Audit | ManasFlow",
+      "h1": "Workflow Automation Audit",
+      "valid": true
+    },
+    {
+      "route": "/digital-transformation-scorecard",
+      "status": 200,
+      "title": "Digital Transformation Scorecard | ManasFlow",
+      "h1": "Digital Transformation Scorecard",
+      "valid": true
+    },
+    {
+      "route": "/ai-use-case-generator",
+      "status": 200,
+      "title": "AI Use Case Generator | ManasFlow",
+      "h1": "AI Use Case Generator",
+      "valid": true
+    },
+    {
+      "route": "/ai-maturity-quiz",
+      "status": 200,
+      "title": "AI Maturity Assessment Quiz | ManasFlow",
+      "h1": "AI Maturity Assessment Quiz",
+      "valid": true
+    },
+    {
+      "route": "/ai-tool-selector",
+      "status": 200,
+      "title": "AI Automation Tool Selector | ManasFlow",
+      "h1": "AI Automation Tool Selector",
+      "valid": true
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "title": "AI Transformation &amp; Automation | ManasFlow",
+      "h1": "Scale Your Business10Xwithout hiring more staff",
+      "valid": true
+    },
+    {
+      "route": "/blog?page=2",
+      "status": 200,
+      "title": "AI Automation Blog — Page 2 | ManasFlow",
+      "h1": "Discover Insights,Tutorials &amp; Trends",
+      "valid": true
+    },
+    {
+      "route": "/blog",
+      "status": 200,
+      "title": "AI Automation &amp; n8n Workflow Blog | ManasFlow",
+      "h1": "Discover Insights,Tutorials &amp; Trends",
+      "valid": true
+    },
+    {
+      "route": "/ai-job-description-generator",
+      "status": 200,
+      "title": "AI Job Description Generator | ManasFlow",
+      "h1": "AI Job Description Generator",
+      "valid": true
+    },
+    {
+      "route": "/industries",
+      "status": 200,
+      "title": "AI Automation by Industry | ManasFlow",
+      "h1": "Use cases built for teams that need revenue-ready automations",
+      "valid": true
+    },
+    {
+      "route": "/services",
+      "status": 200,
+      "title": "AI Services &amp; Training | ManasFlow",
+      "h1": "Enterprise Generative AI Solutions &amp;Automation Agency",
+      "valid": true
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "title": "Contact Us – Get in Touch | ManasFlow",
+      "h1": "We’re Here To Help",
+      "valid": true
+    },
+    {
+      "route": "/consultation",
+      "status": 200,
+      "title": "See What Your Team Can Hand to AI Agents | ManasFlow",
+      "h1": "See What Your Team Can Hand to AI Agents",
+      "valid": true
+    },
+    {
+      "route": "/golden-offer",
+      "status": 200,
+      "title": "Looking to Hire AI Developers? | ManasFlow",
+      "h1": "Looking to Hire AI Developers?",
+      "valid": true
+    },
+    {
+      "route": "/workflows",
+      "status": 200,
+      "title": "Automation Workflows | ManasFlow",
+      "h1": "How we actually work",
+      "valid": true
+    },
+    {
+      "route": "/workflows/n8n-workflow-builder",
+      "status": 200,
+      "title": "n8n Workflow Builder: Custom, Production-Ready Builds | ManasFlow",
+      "h1": "n8n Workflow Builder: Custom, Production-Ready Builds",
+      "valid": true
+    },
+    {
+      "route": "/agency/n8n-dev",
+      "status": 200,
+      "title": "n8n automation agency: hire n8n developers who build and run your workflows | ManasFlow",
+      "h1": "n8n automation agency: hire n8n developers who build and run your workflows",
+      "valid": true
+    },
+    {
+      "route": "/services/generative-ai-development-company",
+      "status": 200,
+      "title": "A generative AI development company that tests on your data before launch | ManasFlow",
+      "h1": "A generative AI development company that tests on your data before launch",
+      "valid": true
+    },
+    {
+      "route": "/services/ai-agent-development",
+      "status": 200,
+      "title": "AI agent development services, built to survive production | ManasFlow",
+      "h1": "AI agent development services, built to survive production",
+      "valid": true
+    },
+    {
+      "route": "/models/pricing",
+      "status": 200,
+      "title": "AI Model Pricing Index | ManasFlow",
+      "h1": "AI Model Pricing Index",
+      "valid": true
+    },
+    {
+      "route": "/tools/roi-calculator",
+      "status": 200,
+      "title": "Automation ROI Calculator | ManasFlow",
+      "h1": "Automation ROI Calculator",
+      "valid": true
+    },
+    {
+      "route": "/philosophy",
+      "status": 200,
+      "title": "How We Actually Build | ManasFlow",
+      "h1": "How We Actually Build",
+      "valid": true
+    },
+    {
+      "route": "/workshops/n8n-automation",
+      "status": 200,
+      "title": "N8n Automation Workshop: Build AI Agents | ManasFlow",
+      "h1": "N8n Automation Workshop: Build AI Agents",
+      "valid": true
+    },
+    {
+      "route": "/fr/agency/n8n-dev",
+      "status": 200,
+      "title": "Agence d&#x27;Automatisation n8n : Workflows Sur Mesure, Construits et Maintenus | ManasFlow",
+      "h1": "Agence d&#x27;Automatisation n8n : Workflows Sur Mesure, Construits et Maintenus",
+      "valid": true
+    },
+    {
+      "route": "/claude-md-examples",
+      "status": 200,
+      "title": "CLAUDE.md and AGENTS.md examples library | ManasFlow",
+      "h1": "CLAUDE.md and AGENTS.md examples library",
+      "valid": true
+    },
+    {
+      "route": "/grok-bot-examples",
+      "status": 200,
+      "title": "Grok Bot examples: what people actually use it for | ManasFlow",
+      "h1": "Grok Bot examples: what people actually use it for",
+      "valid": true
+    },
+    {
+      "route": "/jev-builds",
+      "status": 200,
+      "title": "Jev use cases and examples: what people are building | ManasFlow",
+      "h1": "Jev use cases and examples: what people are building",
+      "valid": true
+    },
+    {
+      "route": "/ai-tools/category/crm",
+      "status": 200,
+      "title": "Best AI CRM Tools | ManasFlow",
+      "h1": "Best AI CRM Tools",
+      "valid": true
+    },
+    {
+      "route": "/ai-tools/hubspot-sales-hub",
+      "status": 200,
+      "title": "HubSpot Sales Hub — AI Tool Guide | ManasFlow",
+      "h1": "HubSpot Sales Hub",
+      "valid": true
+    },
+    {
+      "route": "/bot-directory/rss-to-slack-digest",
+      "status": 200,
+      "title": "RSS-to-Slack Digest | ManasFlow",
+      "h1": "RSS-to-Slack Digest",
+      "valid": true
+    },
+    {
+      "route": "/skills",
+      "status": 200,
+      "title": "Skills &amp; Agents — AI Capability Stack | ManasFlow",
+      "h1": "The AI capability stackfor your next build.",
+      "valid": true
+    },
+    {
+      "route": "/manasrank",
+      "status": 200,
+      "title": "ManasRank | ManasFlow",
+      "h1": "Be discoverable.Be the answer.",
+      "valid": true
+    },
+    {
+      "route": "/manasdesign",
+      "status": 200,
+      "title": "ManasDesign | ManasFlow",
+      "h1": "From a working appto a considered product.",
+      "valid": true
+    },
+    {
+      "route": "/manas-framework",
+      "status": 200,
+      "title": "Manas Framework | ManasFlow",
+      "h1": "Plan. Build. Review.Test. Ship.",
+      "valid": true
+    },
+    {
+      "route": "/manas-skills",
+      "status": 200,
+      "title": "Manas Skills | ManasFlow",
+      "h1": "Turn a repeatable taskinto a reliable skill.",
+      "valid": true
+    },
+    {
+      "route": "/manasn8n",
+      "status": 200,
+      "title": "ManasN8N | ManasFlow",
+      "h1": "Find your nextconnected workflow.",
+      "valid": true
+    },
+    {
+      "route": "/manasclaude",
+      "status": 200,
+      "title": "ManasClaude | ManasFlow",
+      "h1": "Better context.More reliable builds.",
+      "valid": true
+    }
+  ],
+  "isolated": [
+    {
+      "route": "/quarantine/source-editorial-assets/catalog-0037729a647ad8.png",
+      "status": 404
+    },
+    {
+      "route": "/sites/manasflow/tool-ayrank-com.png",
+      "status": 404
+    },
+    {
+      "route": "/sites/manasflow/pages/catalog-0037729a647ad8.png",
+      "status": 404
+    },
+    {
+      "route": "/agency/not-a-real-agency",
+      "status": 404
+    }
+  ]
+}

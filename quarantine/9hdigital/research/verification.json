@@ -1,0 +1,61 @@
+{
+  "source": {
+    "errors": [],
+    "failed": [],
+    "dimensions": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 15561
+    },
+    "measurements": [
+      {
+        "h": 117,
+        "css": ""
+      },
+      {
+        "h": 141,
+        "css": ""
+      },
+      {
+        "h": 141,
+        "css": ""
+      },
+      {
+        "h": 165,
+        "css": ""
+      },
+      {
+        "h": 141,
+        "css": ""
+      },
+      {
+        "h": 140,
+        "css": ""
+      }
+    ],
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "hero": 702
+    }
+  },
+  "local": {
+    "errors": [],
+    "failed": [],
+    "dimensions": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 15710
+    },
+    "testimonial": "02\n05",
+    "marketing": "Because we build brands that perform. From strategy and design to campaigns and PR, we create brand ecosystems that connect creativity with measurable results.\n\n″\n\nA brand has to do more than look good, it has to perform. We create brands and campaigns that connect creative thinking with measurable, revenue-driving impact.\n\n″\nEmily\nChief Creative Officer",
+    "video": true,
+    "accordion": true,
+    "mobileTestimonial": "02\n05",
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "hero": 692
+    }
+  }
+}

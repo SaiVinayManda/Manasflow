@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Clone Website"
+  short_description: "Rebuild websites as modern Next.js code"
+  default_prompt: "Recreate the following website into this Next.js app: "

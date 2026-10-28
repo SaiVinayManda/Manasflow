@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1050" viewBox="0 0 900 1050" fill="none">
+<defs><pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0v60" stroke="#173D32" stroke-opacity=".08"/></pattern><linearGradient id="ribbon" x1="210" y1="150" x2="690" y2="810" gradientUnits="userSpaceOnUse"><stop stop-color="#AAB9A2"/><stop offset=".45" stop-color="#173D32"/><stop offset="1" stop-color="#6B8773"/></linearGradient><linearGradient id="accent" x1="250" y1="270" x2="590" y2="770" gradientUnits="userSpaceOnUse"><stop stop-color="#E6B08B"/><stop offset="1" stop-color="#B85438"/></linearGradient></defs>
+<rect width="900" height="1050" fill="#EAE8DB"/><rect width="900" height="1050" fill="url(#grid)"/>
+<circle cx="450" cy="480" r="305" stroke="#173D32" stroke-opacity=".12"/><circle cx="450" cy="480" r="220" stroke="#173D32" stroke-opacity=".12"/>
+<path d="M251 764c-135-131-143-277-40-367 92-80 255-57 304 48 48 103-13 182-116 154-140-38-145-271-17-361 133-94 329-3 324 164-4 156-146 218-232 167" stroke="url(#ribbon)" stroke-width="80" stroke-linecap="round"/>
+<path d="M277 748c-57-76-72-154-30-218 43-67 120-48 137 12 24 90-63 164-21 248 41 81 164 73 234-1" stroke="url(#accent)" stroke-width="28" stroke-linecap="round"/>
+<path d="M198 169h48m-24-24v48M680 785h48m-24-24v48" stroke="#173D32" stroke-opacity=".5"/>
+<circle cx="706" cy="220" r="10" fill="#B85438"/><circle cx="185" cy="817" r="6" fill="#173D32"/>
+<path d="M120 940h660" stroke="#173D32" stroke-opacity=".25"/>
+<circle cx="130" cy="975" r="5" fill="#173D32"/><path d="M155 975h110M650 975h120" stroke="#173D32" stroke-opacity=".35"/>
+</svg>

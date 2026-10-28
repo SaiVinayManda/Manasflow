@@ -1,0 +1,253 @@
+{
+  "services": [
+    {
+      "title": "Custom Web Applications",
+      "description": "We build and modernise Laravel applications that scale. We upgrade legacy systems and rescue stalled projects. Our platforms are engineered for performance, security, and long-term growth.",
+      "image": "/sites/9hdigital/custom-web-apps.svg",
+      "links": [
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/custom-web-applications/"
+        },
+        {
+          "text": "Laravel",
+          "href": "https://9hdigital.com/services/custom-web-applications/#drawer-laravel"
+        },
+        {
+          "text": "Legacy Modernisation",
+          "href": "https://9hdigital.com/services/custom-web-applications/#drawer-legacy-modernisation"
+        },
+        {
+          "text": "API Development",
+          "href": "https://9hdigital.com/services/custom-web-applications/#drawer-api-development"
+        },
+        {
+          "text": "Scalable Architecture",
+          "href": "https://9hdigital.com/services/custom-web-applications/#drawer-scalable-architecture"
+        },
+        {
+          "text": "Rescue Projects",
+          "href": "https://9hdigital.com/services/custom-web-applications/#drawer-rescue-projects"
+        },
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/custom-web-applications/"
+        }
+      ]
+    },
+    {
+      "title": "AI & Automation",
+      "description": "Stop wasting hours on manual work. Connect the gaps between systems, people, and data so your team can work faster, forecast with confidence, and deliver instant insights. All with full transparency and enterprise-grade trust.",
+      "image": "/sites/9hdigital/ai-automations.svg",
+      "links": [
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/ai-automations/"
+        },
+        {
+          "text": "Custom AI Agents & Bots",
+          "href": "https://9hdigital.com/services/ai-automations/#drawer-ap-automation"
+        },
+        {
+          "text": "Workflow Automation",
+          "href": "https://9hdigital.com/services/ai-automations/#drawer-demand-intelligence"
+        },
+        {
+          "text": "Data Analysis & Predictive Analytics",
+          "href": "https://9hdigital.com/services/ai-automations/#drawer-automated-procurement"
+        },
+        {
+          "text": "Intelligent Document Processing",
+          "href": "https://9hdigital.com/services/ai-automations/#drawer-enterprise-ai"
+        },
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/ai-automations/"
+        }
+      ]
+    },
+    {
+      "title": "Integrations",
+      "description": "We connect the tools that run your business, CRMs, ERPs, payment gateways, and data systems, into one seamless, automated ecosystem.",
+      "image": "/sites/9hdigital/integrations.svg",
+      "links": [
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/integrations/"
+        },
+        {
+          "text": "ERP & CRM Sync",
+          "href": "https://9hdigital.com/services/integrations/#drawer-erp-crm-sync"
+        },
+        {
+          "text": "API Connectivity",
+          "href": "https://9hdigital.com/services/integrations/#drawer-api-connectivity"
+        },
+        {
+          "text": "Automation Pipelines",
+          "href": "https://9hdigital.com/services/integrations/#drawer-automation-pipelines"
+        },
+        {
+          "text": "Real-Time Reporting",
+          "href": "https://9hdigital.com/services/integrations/#drawer-real-time-reporting"
+        },
+        {
+          "text": "Data Unification",
+          "href": "https://9hdigital.com/services/integrations/#drawer-data-unification"
+        },
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/integrations/"
+        }
+      ]
+    },
+    {
+      "title": "Brand Building",
+      "description": "We craft brands that perform, from strategy and identity to marketing, PR, and web. Every touchpoint is built to grow awareness and impact.",
+      "image": "/sites/9hdigital/brand-building.svg",
+      "links": [
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/brand-building/"
+        },
+        {
+          "text": "Branding",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-branding"
+        },
+        {
+          "text": "Marketing",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-marketing"
+        },
+        {
+          "text": "UX/UI Design",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-uxui-design"
+        },
+        {
+          "text": "Creative Production",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-creative-production"
+        },
+        {
+          "text": "PR & Media Buying",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-pr-media-buying"
+        },
+        {
+          "text": "Corporate Websites",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-corporate-websites"
+        },
+        {
+          "text": "SEO/AIO",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-seoaio"
+        },
+        {
+          "text": "PPC",
+          "href": "https://9hdigital.com/services/brand-building/#drawer-ppc"
+        },
+        {
+          "text": "Explore Services",
+          "href": "https://9hdigital.com/services/brand-building/"
+        }
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "description": "Because we build systems that scale. From Laravel platforms to enterprise integrations, we deliver secure, high-performance infrastructure that fits your stack, not the other way around.",
+      "quote": "Technology only works when it scales. At 9H, we engineer infrastructure that stays fast, secure, and adaptable, so your systems grow without slowing you down.",
+      "image": "/sites/9hdigital/James.jpg",
+      "name": "James",
+      "role": "Head of Tech",
+      "label": "Technology"
+    },
+    {
+      "description": "Because we turn ideas into usable platforms. We prototype, design, and develop custom applications that evolve fast and stay stable, giving product teams a launchpad for growth.",
+      "quote": "Great products aren’t just built, they evolve. We turn complexity into clarity, transforming ideas into platforms that teams can launch, iterate, and grow on with confidence.",
+      "image": "/sites/9hdigital/100x100-79.jpg",
+      "name": "Jamie",
+      "role": "Business Analyst",
+      "label": "Product"
+    },
+    {
+      "description": "Because we build brands that perform. From strategy and design to campaigns and PR, we create brand ecosystems that connect creativity with measurable results.",
+      "quote": "A brand has to do more than look good, it has to perform. We create brands and campaigns that connect creative thinking with measurable, revenue-driving impact.",
+      "image": "/sites/9hdigital/100x100-80.jpg",
+      "name": "Emily",
+      "role": "Chief Creative Officer",
+      "label": "Marketing"
+    },
+    {
+      "description": "Because we make systems talk to each other. Through automation and integrations, we connect tools, data, and teams into one smooth ecosystem that reduces friction and increases visibility.",
+      "quote": "Efficiency comes from connection. We streamline operations by making systems, data, and teams work as one, removing friction and giving leaders real visibility and control.",
+      "image": "/sites/9hdigital/Tim.jpg",
+      "name": "Timothy",
+      "role": "CEO",
+      "label": "Operations"
+    },
+    {
+      "description": "Because we eliminate manual work. Our AI tools automate reconciliations, reporting, and forecasting, helping finance teams close faster and forecast with confidence.",
+      "quote": "When financial workflows run themselves, teams can focus on strategy. Our AI tools remove manual tasks, improve accuracy, and give finance leaders the insights they need to make faster, smarter decisions.",
+      "image": "/sites/9hdigital/100x100.jpg",
+      "name": "James",
+      "role": "Director of Finance",
+      "label": "Finance"
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "Working with 9H was a game-changer. They built a seamless, user-friendly app that boosted our online presence, sales, and customer retention. Their team was professional, creative, and committed to our vision.",
+      "image": "/sites/9hdigital/Screenshot-2025-03-24-at-13.50.54.png",
+      "person": ["Kurt Zammit", "Co-Founder - The Supp Store"]
+    },
+    {
+      "text": "Working with 9H has been a great experience. Their commitment, positive attitude, and strong technical skills have helped us succeed in Phase 1 and 2 of our project. We look forward to completing the remaining phases together.",
+      "image": "/sites/9hdigital/1516507715381-2.jpeg",
+      "person": ["Peter Bugeja", "Head Data & Analytics - Mapfre"]
+    },
+    {
+      "text": "We trusted 9H to build our new website and they delivered exceptionally. Their knowledge, support, and attention to detail resulted in a smart, user-friendly site. We highly recommend 9H and their dedicated team.",
+      "image": "/sites/9hdigital/vitel.png",
+      "person": ["Kenneth Mifsud", "Director - Vitelhome"]
+    },
+    {
+      "text": "I’m incredibly proud of what we achieved together. This year exceeded all expectations, with everything running flawlessly. Thank you for the hard work, teamwork, and dedication that made this success possible.",
+      "image": "/sites/9hdigital/misk.png",
+      "person": ["Shaima A.", "Digital Platform Head - MISK"]
+    },
+    {
+      "text": "HubSpot has transformed our operations. What once slowed us down is now unified and efficient, helping teams work smarter with automation and data-driven decisions. We’re excited for what’s ahead—thanks 9H for the support.",
+      "image": "/sites/9hdigital/Screenshot-2025-11-27-at-12.34.17.png",
+      "person": ["", "NetRefer"]
+    }
+  ],
+  "posts": [
+    {
+      "title": "Connecting the Dots",
+      "href": "https://9hdigital.com/insights/connecting-the-dots-intelligent-integrations/",
+      "image": "/sites/9hdigital/28-1024x576.png"
+    },
+    {
+      "title": "Poppin' Off to Korea",
+      "href": "https://9hdigital.com/insights/poppin-off-to-korea/",
+      "image": "/sites/9hdigital/21-1024x576.png"
+    },
+    {
+      "title": "PPC Is No Longer About Managing Ads It’s About Designing Systems That Perform",
+      "href": "https://9hdigital.com/insights/ppc-designing-systems-that-perform/",
+      "image": "/sites/9hdigital/17-1024x576.png"
+    },
+    {
+      "title": "The World Cup Isn't Global Anymore, It's Local Everywhere",
+      "href": "https://9hdigital.com/insights/world-cup-local-relevance-marketing/",
+      "image": "/sites/9hdigital/18-1024x576.png"
+    },
+    {
+      "title": "Why Social Proof Is Now Stronger Than Advertising",
+      "href": "https://9hdigital.com/insights/social-proof-drives-brand-trust/",
+      "image": "/sites/9hdigital/15-1024x576.png"
+    },
+    {
+      "title": "Websites aren't dead. But their job has changed",
+      "href": "https://9hdigital.com/insights/websites-arent-dead-their-job-has-changed/",
+      "image": "/sites/9hdigital/12-1024x576.png"
+    }
+  ]
+}

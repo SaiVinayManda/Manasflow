@@ -1,0 +1,2938 @@
+[
+  {
+    "route": "/claude-md-examples",
+    "kind": "examples",
+    "title": "CLAUDE.md and AGENTS.md examples library",
+    "description": "Real files from public GitHub repositories, each analyzed by a script and linked to its source. Search them, filter by language, license and rules, and copy the ones whose license allows it.",
+    "sections": [
+      {
+        "title": "Generate a starter CLAUDE.md and AGENTS.md",
+        "body": [
+          "Answer five questions and get both files with the six sections that strong files share. No signup. Edit the result before you commit it.",
+          "Runs in your browser. Nothing is sent or stored."
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [],
+        "code": [
+          "# This project\n\nDescribe what this project does and who uses it in one or two sentences.\n\n## Commands\n\n```bash\npnpm install      # install dependencies\npnpm dev      # run locally\npnpm build      # production build\npnpm lint      # lint and format check\npnpm test      # run the test suite\n```\n\nRun lint and tests before you say a task is done.\n\n## Architecture\n\n- Project type: web app.\n- Layout: src/app or src/pages for routes, src/components for UI, src/lib for shared code.\n- Put shared code in one place and import it. Do not copy code between folders.\n\n## Code style\n\n- TypeScript strict mode, no any\n- Use named exports\n- Prefer small pure functions\n\n## Testing\n\n- Add or update a test for every behavior change and every bug fix.\n- Run the single relevant test file while you work, then the full suite once at the end (`pnpm test`).\n- Do not delete or skip a failing test to make the suite pass. Fix the cause or report it.\n\n## Git workflow\n\n- Work on a branch, never directly on main.\n- One logical change per commit. Write the message as a short imperative sentence.\n- Do not push, force-push or rewrite history unless asked.\n\n## Do and do not\n\n- Do read the surrounding code before you edit it.\n- Do keep changes small and limited to the task.\n- Do not add a dependency without asking.\n- Do not commit secrets, .env files or generated build output.\n- Do not reformat files you were not asked to change.\n\n## Working with Claude Code\n\n- Keep this file short. Move detail into files under .claude/rules/ and link to it from here.\n- Plan before large changes. Show the plan, then wait for approval.\n- If a command in this file fails, say so and fix this file instead of working around it.\n"
+        ],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Methodology",
+        "body": [
+          "This library contains a captured reference sample of public CLAUDE.md and AGENTS.md files. Each card links to the repository file at the recorded commit and retains its language and license.",
+          "For permissive licenses such as MIT, Apache-2.0, BSD, ISC, CC0, and the Unlicense, copying is available. Other examples remain source references; follow the repository’s license before reuse.",
+          "The examples are project-specific instructions. Read them as reference material and adapt commands, directory structure, and constraints to your own project.",
+          "Language, project type, and file type filters operate locally. Search checks repository names, descriptions, and excerpt text. The starter generator also runs entirely in your browser."
+        ],
+        "cards": [],
+        "items": [
+          "Google query \"CLAUDE.md example\": surfaced ArthurClune/claude-md-examples",
+          "Google query \"AGENTS.md example\": surfaced agentsmd/agents.md",
+          "Google query \"best CLAUDE.md\": surfaced josix/awesome-claude-md",
+          "Google query \"CLAUDE.md template\": surfaced abhishekray07/claude-md-templates and davila7/claude-code-templates"
+        ],
+        "tables": [
+          {
+            "headers": [],
+            "rows": [
+              [
+                "Commands section",
+                "15"
+              ],
+              [
+                "Architecture or structure section",
+                "15"
+              ],
+              [
+                "Code style or conventions section",
+                "15"
+              ],
+              [
+                "Testing rules",
+                "15"
+              ],
+              [
+                "Git workflow",
+                "10"
+              ],
+              [
+                "Do and do-not rules",
+                "10"
+              ],
+              [
+                "Concrete commands or a code block",
+                "10"
+              ],
+              [
+                "Length, full marks at 60 lines",
+                "10"
+              ]
+            ]
+          }
+        ],
+        "code": [],
+        "links": [],
+        "numbered": true
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a CLAUDE.md file?",
+        "answer": "It is a markdown file that Claude Code reads at the start of every session. It holds project instructions such as build and test commands, architecture notes and coding rules. Claude treats it as context, not as enforced configuration."
+      },
+      {
+        "question": "What is an AGENTS.md file?",
+        "answer": "AGENTS.md is a plain markdown file with instructions for coding agents, used by several tools besides Claude Code. This library lists both file types, and you can filter by either one."
+      },
+      {
+        "question": "Does Claude Code read AGENTS.md?",
+        "answer": "Yes, since Claude Code v2.1.277. By default it reads AGENTS.md only when there is no CLAUDE.md or CLAUDE.local.md in your working directory or any directory above it. If a CLAUDE.md exists, Claude reads that and ignores AGENTS.md unless the CLAUDE.md imports it. This comes from the memory page of the Claude Code docs, checked on September 20, 2026."
+      },
+      {
+        "question": "Can I use both files in one repo?",
+        "answer": "Yes. Put the shared rules in AGENTS.md and create a CLAUDE.md that imports it with an @AGENTS.md line, then add Claude-only notes below. You can also set Project instructions to claude-md-and-agents-md so Claude loads both files. The docs list the exact setting and its limits."
+      },
+      {
+        "question": "How long should a CLAUDE.md be?",
+        "answer": "The files in this library range from a few lines to well over a thousand. The line-count badge and the completeness number on each card let you compare. Shorter files that state exact commands and rules tend to be easier to keep correct, but we have not measured that, so treat it as our reading of the files and not as a finding."
+      },
+      {
+        "question": "What should I put in a CLAUDE.md?",
+        "answer": "The sections that show up most in strong files are commands, architecture, code style, testing, git workflow and a list of things Claude must not do. The generator below builds a starter with each of those, and the completeness score checks for the same six."
+      },
+      {
+        "question": "How is the completeness score calculated?",
+        "answer": "It is a rules-based number from 0 to 100. Six sections are worth 15 points each for commands, architecture, testing and code style, and 10 each for git workflow and do-not rules. Concrete commands or code blocks add 10, and length adds up to 10 points, reaching the maximum at 60 lines. The full method is in the methodology section on this page. It measures coverage, not whether the advice is good."
+      },
+      {
+        "question": "Can I copy these files into my project?",
+        "answer": "Only where the repo license allows it. For repos under MIT, Apache-2.0, BSD, ISC, CC0 or the Unlicense we show a longer excerpt with a Copy button. For every other repo we show at most the first 25 lines, with no copy button, plus a link to the full file at its commit. Keep the original attribution and license notice when you reuse anything."
+      },
+      {
+        "question": "Where do the files come from?",
+        "answer": "Public GitHub repos found through GitHub code search on the filenames CLAUDE.md and AGENTS.md, plus curated lists that turned up in Google results. Repos with fewer than 10 stars, forks and archived repos are left out. Every card links to the file at the exact commit we read."
+      },
+      {
+        "question": "Where is the curated guide to the best examples?",
+        "answer": "We wrote one. It picks 12 files from real repos and explains what each does well. This page is the searchable library, and the guide is the short list."
+      }
+    ],
+    "heroCards": [],
+    "examples": [
+      {
+        "title": "localsend/localsend",
+        "category": "mobile",
+        "description": "An open-source cross-platform alternative to AirDrop",
+        "code": "# CLAUDE.md\n\nAlways use **`fvm flutter`** / **`fvm dart`**, never the bare `flutter` / `dart` binaries — this repo pins its\nFlutter version in `.fvmrc` and the system-wide toolchain will not match it.\n\nFull guidance for this repository lives in AGENTS.md:\n\n@AGENTS.md\n",
+        "source": "https://github.com/localsend/localsend/blob/230fb692962668ca22ce0e61a8f53ce1cfd32102/CLAUDE.md",
+        "author": "localsend",
+        "language": "Dart",
+        "license": "Apache-2.0",
+        "fileType": "CLAUDE.md"
+      },
+      {
+        "title": "heygen-com/hyperframes",
+        "category": "library-sdk",
+        "description": "Write HTML. Render video. Built for agents.",
+        "code": "# Hyperframes\n\nOpen-source video rendering framework: write HTML, render video.\n\n## Skills\n\nThis repo ships 21 AI agent skills via [vercel-labs/skills](https://github.com/vercel-labs/skills). Install them before writing compositions — they encode framework-specific patterns that generic docs don't cover. **Default to the core set**: the `/hyperframes` router installs each creation workflow on demand; install all 21 only when the user explicitly asks for the full set.\n\n```bash\nnpx hyperframes skills update                         # default: installs/refreshes the core set — workflows install on demand\nnpx hyperframes skills                                # all 21 published skills at once — only on explicit request\nnpx skills add heygen-com/hyperframes                 # interactive picker (terminal only; --all also pulls the 6 repo-internal skills under .claude/skills)\nnpx skills add heygen-com/hyperframes --skill <name>  # just one (bare name, no leading slash)\n```\n\n`skills add` resolves the skills.sh registry blob, which can lag `main` by hours, so a freshly added skill may be a little behind. `npx hyperframes skills update` installs from the current `main`; prefer it when freshness matters.\n\n**`/hyperframes` is the entry skill — read it first.** It's the capability map for the domain skills below, the intent layer that confirms every creation brief up front, AND the intent router for the creation workflows. The full README skills section mirrors this list; keep them in sync (see \"Skill catalog maintenance\" below).\n\n### Creation workflows\n\n- `/product-launch-video` — any **website** URL (or a pre-written script / text brief in no-capture mode) → a product launch / promo video, or a site tour / showcase featuring the site's own captured screens; up to ~3 min (sweet spot ~30-90s).\n- `/faceless-explainer` — arbitrary text, **no URL and no website capture** → faceless explainer, up to ~3 min (sweet spot ~30-90s); every visual is LLM-invented (typography / abstract graphics / diagram / data-viz).\n- `/pr-to-video` — a GitHub PR (URL / `owner/repo#N` / \"this PR\") → code-change explainer, up to ~3 min (changelog / feature reveal / fix / refactor). A PR link, not a product website.\n- `/embedded-captions` — an existing talking-head video (MP4) → the same footage with captions / subtitles added (verbatim rail + embedded climax, or pure-cinematic embed); the footage itself is untouched (no NLE-style editing).\n- `/talking-head-recut` — an existing talking-head / interview / podcast video (MP4) → the same footage packaged with designed **graphic overlays** (kinetic titles, lower-thirds, data callouts, pull-quotes, side panels, PiP) synced to the transcript; the clip plays unchanged underneath, footage untouched. For plain captions/subtitles → `/embedded-captions`.\n- `/motion-graphics` — a short (typically under 10s) design-led **motion graphic**, motion-is-the-message, no narration: kinetic type, a stat / number count-up, a chart, a logo sting, a lower-third / overlay, or an animated tweet / headline / captured-page highlight; rendered to MP4 or a transparent overlay. Longer / narrated / custom → `/general-video`.",
+        "source": "https://github.com/heygen-com/hyperframes/blob/85a1a8f7897b58ff20dbd1b90b33997c062fb7cd/CLAUDE.md",
+        "author": "heygen-com",
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "fileType": "CLAUDE.md"
+      },
+      {
+        "title": "sickn33/agentic-awesome-skills",
+        "category": "cli",
+        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,400+ agentic skills. Includes CLI, local MCP, catalo",
+        "code": "",
+        "source": "https://github.com/sickn33/agentic-awesome-skills/blob/7c94c637f262f9bad547b127728cb2fcf8f752c4/plugins/agentic-awesome-skills-claude/skills/dbos-python/CLAUDE.md",
+        "author": "sickn33",
+        "language": "Python",
+        "license": "MIT",
+        "fileType": "CLAUDE.md"
+      },
+      {
+        "title": "block/buzz",
+        "category": "web-app",
+        "description": "A hive mind communication platform",
+        "code": "",
+        "source": "https://github.com/block/buzz/blob/ef2aa1ae38fadcc0bc22b8bf6ed96b35933146be/desktop/src/features/agents/AGENTS.md",
+        "author": "block",
+        "language": "Rust",
+        "license": "Apache-2.0",
+        "fileType": "AGENTS.md"
+      },
+      {
+        "title": "davila7/claude-code-templates",
+        "category": "agent-tooling",
+        "description": "CLI tool for configuring and monitoring Claude Code",
+        "code": "",
+        "source": "https://github.com/davila7/claude-code-templates/blob/463be295fa5e2a083a0efebcbac2be5fb26a8e17/CLAUDE.md",
+        "author": "davila7",
+        "language": "Python",
+        "license": "MIT",
+        "fileType": "CLAUDE.md"
+      },
+      {
+        "title": "agentsmd/agents.md",
+        "category": "web-app",
+        "description": "AGENTS.md — a simple, open format for guiding coding agents",
+        "code": "",
+        "source": "https://github.com/agentsmd/agents.md/blob/ba9474a69e9a2c0c4176713843b78e8f54377941/AGENTS.md",
+        "author": "agentsmd",
+        "language": "TypeScript",
+        "license": "MIT",
+        "fileType": "AGENTS.md"
+      },
+      {
+        "title": "QwikDev/qwik",
+        "category": "library-sdk",
+        "description": "Instant-loading web apps, without effort",
+        "code": "# Qwik v2 agents reference, instructions and rules\n\n> [!IMPORTANT]\n> **ALWAYS RUN `ruler apply` AT THE START OF A SESSION.** The agent skills are gitignored, not\n> committed, so a fresh clone/worktree has none until you generate them (once per worktree):\n>\n> ```bash\n> pnpm dlx @intellectronica/ruler@0.3.42 apply --no-gitignore --no-mcp\n> ```\n\n> Canonical source for repo-wide AI coding agent rules. For contributor setup, see\n> [CONTRIBUTING.md](./CONTRIBUTING.md). For package-specific workflows, load the relevant\n> `.ruler/skills/*/SKILL.md` file.\n\n## Source Of Truth\n\n- Shared AI guidance lives in `.ruler/`.\n- Only the root `AGENTS.md` and `CLAUDE.md` are committed generated outputs; the `.claude/`/`.codex/`\n  skill copies are gitignored and regenerated locally with `ruler apply` (see Setup below).\n- Never hand-edit a generated output — edit `.ruler/` and regenerate with `ruler apply`. A CI check\n  re-runs it and fails if the committed root files drift.\n- To change assistant behavior, edit `.ruler/AGENTS.md`, `.ruler/README.md`, or `.ruler/skills/**`,\n  then regenerate with Ruler when needed.\n\n## Project Snapshot\n\nQwik is a resumable web framework. SSR serializes application and framework state into HTML, and\nthe client resumes without re-running component code. Qwik v2 is a rewrite with VNode-based\nruntime work, rewritten reactive primitives, a new serialization mechanism, and package names under\n`@qwik.dev/*`.\n\nKey concepts: resumability, QRLs, `$`-suffixed optimizer boundaries, fine-grained signals, VNodes,\nthe cursor system, and the Rust optimizer.\n\n## Monorepo Map\n\n- Base branch and release branch for v2 PRs: `main`. V1 lives on the `v1` branch.\n\n| Package | Path | Notes |\n| --- | --- | --- |\n| `@qwik.dev/core` | `packages/qwik` | Core runtime, SSR, optimizer-facing code |\n| `@qwik.dev/router` | `packages/qwik-router` | Routing, middleware, adapters, SSG |\n| `@qwik.dev/react` | `packages/qwik-react` | React integration |\n| `@qwik.dev/utils` | `packages/qwik-utils` | Less-common helpers (`usePoll`, `zod$`), may use qwik internals |\n| `@qwik.dev/dom` | `packages/qwik-dom` | Server-side DOM implementation |\n| `@qwik.dev/qwik-vite` | `packages/qwik-vite` | `vite-plugin-qwik`, private, bundled into `@qwik.dev/core/optimizer` |\n| `@qwik.dev/ts-optimizer` | `packages/ts-optimizer` | TypeScript optimizer, private, bundled into `@qwik.dev/core/optimizer` |\n| `@qwik.dev/optimizer` | `packages/optimizer` | Rust optimizer, WASM, NAPI bindings; kept for parity comparison |\n| `eslint-plugin-qwik` | `packages/eslint-plugin-qwik` | ESLint rules |\n| `create-qwik` | `packages/create-qwik` | Project scaffolding CLI |\n| `qwik-docs` | `packages/docs` | Docs site, private package |\n| `insights` | `packages/insights` | Analytics dashboard, private package |\n\nUse v2 package names (`@qwik.dev/core`, `@qwik.dev/router`, etc.). Do not introduce v1\n`@builder.io/qwik` or `@builder.io/qwik-city` imports except when working on explicit\ncompatibility override code.\n\n## Setup And Iteration Loop\n\nThis is the canonical loop for nearly all framework work. Default to it; do not substitute broader\ncommands:\n\n### getting started\n\n```bash\npnpm i\n```\n\n```bash",
+        "source": "https://github.com/QwikDev/qwik/blob/ec785bfd3590ac4ce75bf63012e0719af82216ac/.ruler/AGENTS.md",
+        "author": "QwikDev",
+        "language": "TypeScript",
+        "license": "MIT",
+        "fileType": "AGENTS.md"
+      },
+      {
+        "title": "iflytek/astron-agent",
+        "category": "library-sdk",
+        "description": "Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.",
+        "code": "",
+        "source": "https://github.com/iflytek/astron-agent/blob/5e758547a83371a5a4b29dadf4ac03e8dd527635/CLAUDE.md",
+        "author": "iflytek",
+        "language": "Java",
+        "license": "Apache-2.0",
+        "fileType": "CLAUDE.md"
+      },
+      {
+        "title": "securego/gosec",
+        "category": "cli",
+        "description": "Go security checker",
+        "code": "",
+        "source": "https://github.com/securego/gosec/blob/681347199262bc33b9b5119ae2b448dec5718240/CLAUDE.md",
+        "author": "securego",
+        "language": "Go",
+        "license": "Apache-2.0",
+        "fileType": "CLAUDE.md"
+      },
+      {
+        "title": "openclaw/gogcli",
+        "category": "cli",
+        "description": "Google Workspace in your terminal.",
+        "code": "# Repository Guidelines\n\n## Project Structure\n\n- `cmd/gog/`: CLI entrypoint.\n- `internal/`: implementation (`cmd/`, Google API/OAuth, config/secrets, output/UI).\n- Tests: `*_test.go` next to code; opt-in integration suite in `internal/integration/` (build-tagged).\n- `bin/`: build outputs; `docs/`: specs/releasing; `scripts/`: release helpers + `scripts/gog.mjs`.\n\n## Build, Test, and Development Commands\n\n- `make` / `make build`: build `bin/gog`.\n- `make tools`: install pinned dev tools into `.tools/`.\n- `make fmt` / `make lint` / `make test` / `make ci`: format, lint, test, full local gate.\n- Optional: `pnpm gog …`: build + run in one step.\n- Hooks: `lefthook install` enables pre-commit/pre-push checks.\n\n## Coding Style & Naming Conventions\n\n- Formatting: `make fmt` (`goimports` local prefix `github.com/openclaw/gogcli` + `gofumpt`).\n- Output: keep stdout parseable (`--json` / `--plain`); send human hints/progress to stderr.\n- Gmail labels: treat label IDs as case-sensitive opaque tokens; only case-fold label names for name lookup.\n\n## Testing Guidelines\n\n- Unit tests: stdlib `testing` (and `httptest` where needed).\n- Integration tests (local only):\n  - `GOG_IT_ACCOUNT=you@gmail.com go test -tags=integration ./internal/integration`\n  - Requires OAuth client credentials + a stored refresh token in your keyring.\n\n## Commit & Pull Request Guidelines\n\n- Create commits with `committer \"<msg>\" <file...>`; avoid manual staging.\n- Follow Conventional Commits + action-oriented subjects (e.g. `feat(cli): add --verbose to send`).\n- Group related changes; avoid bundling unrelated refactors.\n- PRs should summarize scope, note testing performed, and mention any user-facing changes or new flags.\n- PR review flow: when given a PR link, review via `gh pr view` / `gh pr diff` and do not change branches.\n- Maintain `CHANGELOG.md`: add user-visible changes to `Unreleased` as fixes and features land, with PR/issue references and contributor thanks. Finalize that section at release; do not put later work under an already published version. The release-time-only changelog exception for `openclaw/openclaw` does not apply to this repository.\n\n### PR Workflow (Review vs Land)\n\n- **Review mode (PR link only):** read `gh pr view/diff`; do not switch branches; do not change code.\n- **Landing mode:** temp branch from `main`; bring in PR (squash default; rebase/merge when needed); fix; update `CHANGELOG.md` (PR #/issue + thanks); run `make ci`; final commit; merge to `main`; delete temp; end on `main`.\n- If landing contributor work, always add `Co-authored-by:` trailers for PR authors, even when we partially rewrite, group, or manually apply their changes; leave a PR comment with what landed + SHAs.\n- New contributor: thank in `CHANGELOG.md` (and update README contributors list if present).\n\n## Security & Configuration Tips\n\n- Never commit OAuth client credential JSON files or tokens.\n- Prefer OS keychain backends; use `GOG_KEYRING_BACKEND=file` + `GOG_KEYRING_PASSWORD` only for headless environments.\n",
+        "source": "https://github.com/openclaw/gogcli/blob/469b823aead21279167577bf840f8084120ae274/AGENTS.md",
+        "author": "openclaw",
+        "language": "Go",
+        "license": "MIT",
+        "fileType": "AGENTS.md"
+      },
+      {
+        "title": "readthedocs/readthedocs.org",
+        "category": "web-app",
+        "description": "The source code that powers readthedocs.org",
+        "code": "# AI Instructions for Read the Docs\n\nThis file lives in the `common` repo,\nand is copied to each production repo.\nAgents don't work with symlinks or submodules,\nso this is best for now.\n\n## Team interaction\n\nWe want all interaction in public to be between real people.\n\n* **Never** comment on pull requests, commits, or other things as the user.\n* Make all public-facing copy like commit messages and pull request descriptions for the reader, and not the author.\n* Ensure everything is optimized for clarify, conciseness, and effective communication.\n\n## Project Overview\n\nRead the Docs is a documentation hosting platform that builds and hosts documentation for open source projects.\nIt supports multiple documentation tools (Sphinx, MkDocs, etc.) and automatically builds documentation from Git repositories.\n\n**Technology Stack:**\n- Python 3.14\n- Django web framework\n- Docker and Docker Compose for development\n- PostgreSQL database\n- Elasticsearch for search\n- Redis for caching and Celery for background tasks\n\n## Commits\n\n* Use short descriptive commit messages\n* Only provide simple context, and don't be overly verbose\n* Always run `pre-commit run --files <changed files>` before committing to ensure code passes all checks\n\n## Pull Requests\n\n* Make the PR description as useful as possible for humans; lead with the most important context.\n* Always open pull requests as drafts\n* Note in a footer that the PR was generated by an AI agent, but only if no such footer is already appended automatically — never add a second one\n* Use feature branches for all changes\n* Write the description about *why*: the problem it solves, the approach taken, and anything a reviewer should double-check. Don't restate *what* changed — no \"Changes\" section, changelog, file lists, or per-change bullets — since the diff already shows that. Prefer \"Sharpens the PR rules, which kept producing diff-restating descriptions\" over \"Reworded one bullet, fixed a typo, removed two sections.\"\n* Don't include Test Plan unless absolutely necessary.\n* Link related issues in the PR description, if there are any in the chat context\n* Prefix pull request titles, example `Api:`, `Builds:`, or `Docs:`.\n\n## Package Management\n\n- Always use `uv` for Python package management and virtual environment operations\n- Use `uv pip install` instead of `pip install`\n- Use `uv run` to execute Python scripts in the virtual environment\n\n## Docs\n\n* Follow the style guide at https://github.com/readthedocs/readthedocs.org/blob/main/docs/dev/style-guide.rst.\n* Always use the marketing name used in the public-facing docs, and not the internal code names referenced in code.\n* The ``user`` directory is public docs, and ``dev`` is dev-focused. Most of what we do is focus on the user-facing docs.\n\n## Website copy\n\n- Direct, second-person voice. No jargon. Less is more.\n- Focus on user benefit, not abstract positioning.\n- Don't repeat facts within a section; use standard terminology (e.g. \"files changed\", \"pull request\").\n\n## Testing\n\n- Use `pytest` with the `assert foo == bar` assertion style\n- Keep the test DB warm with `pytest --reuse-db` to speed up runs\n\n### Running tests locally\n",
+        "source": "https://github.com/readthedocs/readthedocs.org/blob/9163abe3af9ab315248e8703425f1d04003a145d/AGENTS.md",
+        "author": "readthedocs",
+        "language": "Python",
+        "license": "MIT",
+        "fileType": "AGENTS.md"
+      },
+      {
+        "title": "joemccann/dillinger",
+        "category": "web-app",
+        "description": "The last Markdown editor, ever.",
+        "code": "<claude-mem-context>\n# Recent Activity\n\n<!-- This section is auto-generated by claude-mem. Edit content outside the tags. -->\n\n### Jan 19, 2026\n\n| ID | Time | T | Title | Read |\n|----|------|---|-------|------|\n| #1873 | 2:32 PM | 🔵 | Next.js Migration Dependency Stack with Modern Equivalents | ~510 |\n| #1861 | 2:25 PM | 🔵 | Next.js Config with Lucide-React Bundle Optimization | ~396 |\n| #1850 | 2:24 PM | ✅ | Added Modal and Toast Z-Index Layers to Tailwind Configuration | ~354 |\n| #1827 | 2:22 PM | 🔵 | Tailwind Configuration with Legacy Dillinger Design Tokens | ~463 |\n</claude-mem-context>\n\n# Dillinger Next.js - CLAUDE.md\n\n> Cloud-enabled, mobile-ready, offline-storage-compatible Markdown editor built with Next.js 14.\n\n## Quick Reference\n\n```bash\nnpm run dev      # Start dev server (http://localhost:3000)\nnpm run build    # Production build\nnpm run start    # Start production server\nnpm run lint     # Run ESLint\n```\n\n## Tech Stack\n\n| Category | Technology | Version |\n|----------|------------|---------|\n| Framework | Next.js (App Router) | 14.2.35 |\n| Language | TypeScript (strict) | 5.x |\n| UI | React | 18.x |\n| Styling | Tailwind CSS | 3.4.1 |\n| State | Zustand | 5.0.10 |\n| Editor | Monaco Editor | 4.7.0 |\n| Icons | Lucide React | 0.562.0 |\n| Markdown | markdown-it + plugins | 14.1.0 |\n\n## Architecture Overview\n\n```\ndillinger/\n├── app/                    # Next.js App Router\n│   ├── api/               # API route handlers\n│   │   ├── github/        # GitHub OAuth + file ops\n│   │   ├── dropbox/       # Dropbox integration\n│   │   ├── google-drive/  # Google Drive integration\n│   │   ├── onedrive/      # Microsoft OneDrive\n│   │   ├── bitbucket/     # Bitbucket integration\n│   │   ├── medium/        # Medium publishing\n│   │   └── export/        # PDF/HTML export\n│   ├── layout.tsx         # Root layout (providers)\n│   ├── page.tsx           # Main editor page\n│   ├── globals.css        # Global styles + Tailwind\n│   ├── error.tsx          # Error boundary\n│   └── not-found.tsx      # 404 page\n├── components/\n│   ├── editor/            # Monaco editor wrapper\n│   ├── preview/           # Markdown preview pane\n│   ├── navbar/            # Top navigation\n│   ├── sidebar/           # Document list + integrations\n│   ├── modals/            # OAuth dialogs (GitHub, Dropbox, etc.)\n│   ├── providers/         # Context providers\n│   └── ui/                # Reusable primitives (Toast, Skeleton)\n├── hooks/                 # Custom React hooks\n│   ├── useGitHub.ts\n│   ├── useDropbox.ts\n│   ├── useGoogleDrive.ts\n│   ├── useOneDrive.ts\n│   ├── useBitbucket.ts\n│   └── useMedium.ts\n├── stores/\n│   └── store.ts           # Zustand store (documents, settings, UI)\n├── lib/                   # Utilities and helpers\n└── types/                 # TypeScript type definitions\n```\n\n## Code Conventions\n\n### TypeScript\n\n- **Strict mode enabled** - all code must pass strict type checking\n- Use `interface` for object shapes, `type` for unions/intersections\n- Prefer explicit return types on exported functions\n- Use path alias `@/*` for imports from project root\n\n```typescript",
+        "source": "https://github.com/joemccann/dillinger/blob/17010b79c18553cf9c1757c297e128f9b950c9be/CLAUDE.md",
+        "author": "joemccann",
+        "language": "TypeScript",
+        "license": "MIT",
+        "fileType": "CLAUDE.md"
+      },
+      {
+        "title": "ai-dynamo/dynamo",
+        "category": "data-ml",
+        "description": "A Datacenter Scale Distributed Inference Serving Framework",
+        "code": "",
+        "source": "https://github.com/ai-dynamo/dynamo/blob/d7bfb3551604c09a3f6ccf6ab58f4af8be88186a/deploy/operator/internal/crdmigrator/AGENTS.md",
+        "author": "ai-dynamo",
+        "language": "Rust",
+        "license": "NOASSERTION",
+        "fileType": "AGENTS.md"
+      },
+      {
+        "title": "enso-org/enso",
+        "category": "infra-devops",
+        "description": "Enso Analytics is a self-service data prep and analysis platform designed for data teams.",
+        "code": "# ydoc-server-polyglot\n\nThe `ydoc-server` bundled with esbuild into a single CommonJS file so it can be\nloaded by GraalJS inside the GraalVM engine process. Uses `commonjs` package\ntype (the rest of the pnpm workspace uses `module`).\n\n## Why this exists\n\nThe Enso engine ships as a GraalVM process that already has a JS runtime\n(GraalJS). Rather than requiring a separate Node.js to run the ydoc server next\nto it, we bundle the server into a polyglot script the engine can embed. This is\nthe **production** deployment for the collaborative editing story.\n\n## Build\n\n- `pnpm run compile` → `node ./build.mjs build` (esbuild-driven, writes\n  `dist/main.cjs`).\n- `pnpm run dev:watch` → esbuild watch mode.\n\n## Constraints\n\nGraalJS is **not** Node.js:\n\n- Only the subset of Node APIs that `graaljs` polyfills is usable.\n  Filesystem/process/net work, but some newer APIs or native bindings do not.\n- No dynamic `import()` of ESM — everything must end up CJS after bundling.\n- WebSocket support comes from the engine host, not `ws`; the bundle stubs this.\n\nWhen adding a dep to `ydoc-server`, verify the bundled output still loads under\nGraalJS before merging (see `docs/infrastructure/ydoc.md`).\n\n## Source\n\nAll logic lives in `ydoc-server`. This package is pure packaging — `src/` should\nstay minimal.\n",
+        "source": "https://github.com/enso-org/enso/blob/4135f929f1046ee4ab62d9d09c155377e8542a1f/app/ydoc-server-polyglot/CLAUDE.md",
+        "author": "enso-org",
+        "language": "Java",
+        "license": "Apache-2.0",
+        "fileType": "CLAUDE.md"
+      },
+      {
+        "title": "jrnl-org/jrnl",
+        "category": "cli",
+        "description": "Collect your thoughts and notes without leaving the command line.",
+        "code": "# CLAUDE.md\n\nIMPORTANT: ALWAYS prefer contributing to the `main` branch with a PR.\n\n## Project Overview\n\njrnl is a command-line journal application written in Python. It supports plain text and encrypted (AES) journals, multiple journal types, and various export formats. The main branch for development is `main`\n\n## Development Setup\n\n```bash\npipx install poetry\npoetry install\npoetry shell  # activate virtualenv\n```\n\n## Common Commands\n\n```bash\n# Run full lint + test suite\npoetry run poe test\n\n# Run tests only (no linting)\npoetry run poe test-run\n",
+        "source": "https://github.com/jrnl-org/jrnl/blob/90de4948d79a4fca8c7238dd2487b599f458c903/CLAUDE.md",
+        "author": "jrnl-org",
+        "language": "Python",
+        "license": "GPL-3.0",
+        "fileType": "CLAUDE.md"
+      },
+      {
+        "title": "goodrain/rainbond",
+        "category": "infra-devops",
+        "description": "Rainbond is an open-source container platform that requires no Kubernetes expertise. Its core capabilities are 100% open source. It abstracts away infrastructure complexity and provides a unified way",
+        "code": "# Rainbond — Go Core Services\n\n## Overview\n\nRainbond is a cloud-native application management platform. This repository contains the Go backend services that interface directly with Kubernetes. It is called by `rainbond-console` (Django) via HTTP REST APIs.\n\n- Language: Go 1.23\n- Module: `github.com/goodrain/rainbond`\n- Router: go-chi/chi\n- ORM: jinzhu/gorm (v1)\n- Logging: sirupsen/logrus\n- Vendor: dependencies vendored in `vendor/`\n\n## Binary Components\n\nEntry points in `cmd/`:\n\n| Binary | Description |\n|--------|-------------|\n| `cmd/api` | REST API server (the main service called by console) |\n| `cmd/builder` | Source code build and image build service |\n| `cmd/worker` | Application runtime management, Kubernetes operator |\n| `cmd/mq` | Message queue service for async tasks |\n| `cmd/grctl` | CLI tool for cluster management |\n| `cmd/init-probe` | Init container health probe |",
+        "source": "https://github.com/goodrain/rainbond/blob/0384d977b098593432b21c5e626f81b24ae001d3/AGENTS.md",
+        "author": "goodrain",
+        "language": "Go",
+        "license": "NOASSERTION",
+        "fileType": "AGENTS.md"
+      },
+      {
+        "title": "orneryd/ui-grid",
+        "category": "web-app",
+        "description": "UI Grid: a Data Grid",
+        "code": "# @ornery/ui-grid-core — Agent Instructions\n\nPure TypeScript grid engine. Zero DOM dependencies. Provides the pipeline, sorting, filtering, grouping, pagination, cell editing, validation, export/import, infinite scroll, selection, tree-view, and i18n systems.\n\n## Build & Test\n\n```bash\nnpm run build:core           # tsup → dist/\nnpm test --prefix projects/ui-grid-core   # vitest (154 tests)\n```\n\n## Key Modules\n\n| File | Responsibility |\n|------|---------------|\n| `grid.models.ts` | All shared interfaces (`GridOptions`, `GridColumnDef`, `GridRecord`, etc.) |\n| `grid.api.ts` | `UiGridApi` — the public event/method surface consumers use |\n| `grid.core.pipeline.ts` | Row pipeline: filter → sort → group → tree → paginate → virtualize |\n| `grid.core.viewmodel.ts` | Pure functions: `gridColumnWidth`, `gridCellIndent`, display value formatting |\n| `grid.core.filtering.ts` | Filter predicate logic |\n| `grid.core.grouping.ts` | Group-by column aggregation |\n| `grid.core.edit.ts` | Cell edit begin/commit/cancel commands |\n| `grid.core.export.ts` | CSV/PDF export pipeline |\n| `grid.core.i18n.ts` | Label resolution (`resolveGridLabels`) |\n| `grid.core.selection.ts` | Row selection state machine |\n| `grid.core.infinite-scroll.ts` | Infinite scroll state + direction management |\n| `grid.core.validate.ts` | Cell validation registry |\n| `grid.core.save-state.ts` | Save/restore grid state |\n| `grid.constants.ts` | `SORT_DIRECTIONS`, feature-flag helpers |\n\n## Architecture Rules\n\n- **No DOM.** This package must never import browser APIs. It runs in Node, WASM, and browser alike.\n- **Pure functions preferred.** State lives in the controller (vanilla package); core provides stateless transforms.\n- **`GridOptions` is the source of truth.** Every feature is toggled via `enable*` booleans on `GridOptions`.\n- **Pipeline is composable.** `defaultGridEngine.buildPipeline()` chains all transforms; the result is a `PipelineResult` with `displayItems` and `visibleRows`.\n\n## Adding a Feature\n\n1. Define types in `grid.models.ts`.\n2. Add the pure logic in a new `grid.core.<feature>.ts` file.\n3. Wire it into the pipeline in `grid.core.pipeline.ts` if it affects row visibility/order.\n4. Expose API events/methods in `grid.api.ts`.\n5. Export everything from the barrel `index.ts`.\n6. The vanilla controller consumes the new exports; core never consumes vanilla.\n\n## Do NOT\n\n- Add DOM or browser imports\n- Mutate input arrays — always return new arrays/objects\n- Add default exports — use named exports only\n- Break the build order: core has no internal monorepo deps\n",
+        "source": "https://github.com/orneryd/ui-grid/blob/9756289a12513c9c7081cc6833e07b52db182f4e/projects/ui-grid-core/AGENTS.md",
+        "author": "orneryd",
+        "language": "TypeScript",
+        "license": "MIT",
+        "fileType": "AGENTS.md"
+      },
+      {
+        "title": "firebase/FirebaseUI-Android",
+        "category": "mobile",
+        "description": "Optimized UI components for Firebase",
+        "code": "Read [AGENTS.md](AGENTS.md) first. Follow it for this repository.\n",
+        "source": "https://github.com/firebase/FirebaseUI-Android/blob/5c0099856828e8da1001d40178311fedc116d18a/CLAUDE.md",
+        "author": "firebase",
+        "language": "Kotlin",
+        "license": "Apache-2.0",
+        "fileType": "CLAUDE.md"
+      },
+      {
+        "title": "hunvreus/devpush",
+        "category": "api-backend",
+        "description": "Like Vercel, but open source and for all languages.",
+        "code": "# AI Agent Guidelines for /dev/push\n\nThis document provides comprehensive guidelines for AI agents working on the /dev/push codebase. It covers scripts, FastAPI application code, Docker/Compose, and project-wide conventions.\n\n## Table of Contents\n\n- [Scripts (`scripts/`)](#scripts-scripts)\n- [FastAPI Application (`app/`)](#fastapi-application-app)\n- [Docker & Compose](#docker--compose)\n- [Project Structure](#project-structure)\n- [General Conventions](#general-conventions)\n- [Testing & Deployment](#testing--deployment)\n\n---\n\n## Scripts (`scripts/`)\n\nThese guidelines apply to every script under `scripts/` (install/start/stop/restart/helpers/etc.).\n\n### Environment Detection & Paths\n\n1. **Always source `scripts/lib.sh`** (use the `SCRIPT_DIR=\"$(cd \"$(dirname \"${BASH_SOURCE[0]}\")\" && pwd)\"` pattern, then `source \"$SCRIPT_DIR/lib.sh\"`). The lib sets `APP_DIR`, `DATA_DIR`, `ENV_FILE`, etc., and auto-detects dev vs prod via systemd or `DEVPUSH_ENV`.\n2. **Do not hardcode relative paths.** Derive everything from `APP_DIR`, `DATA_DIR`, or `SCRIPT_DIR`.\n3. **Expose overrides via `DEVPUSH_*` env vars** (already handled by the lib).\n\n### Docker / Compose Usage\n\n1. Call `ensure_compose_cmd` before issuing any compose commands (or rely on `set_compose_base` which calls it internally).\n2. Use `set_compose_base` to populate `COMPOSE_BASE` (reads `CERT_CHALLENGE_PROVIDER` from `.env` internally).\n3. Run compose via `run_cmd \"Message...\" \"${COMPOSE_BASE[@]}\" <subcommand> …`. Never spell `docker compose` / `docker-compose` directly.\n4. `set_compose_base` also ensures `SERVICE_UID`/`SERVICE_GID` are exported so Docker builds run with the correct user. Never assume UID/GID 1000; always go through the helper.\n\n### Output & Spacing\n\n1. **Use `run_cmd` for every non-trivial operation** (package installs, docker commands, helper scripts). It handles spinners, logging, and error capture.\n2. At the top of each logical section add a short comment (`# Install Docker`, `# Start stack`, etc.) so the script reads like a TOC. Skip obvious blocks like `usage()`.\n3. For blank lines between major blocks, call `printf '\\n'` once—no bare `echo`.\n4. When printing status messages manually (e.g., final \"Success\" line), use `printf \"${GRN}…${NC}\\n\"` for consistency.\n5. Use parent/child command structure for multi-step operations:\n   ```bash\n   printf \"Installing...\\n\"\n   printf \"%s Building runner images...\\n\" \"$CHILD_MARK\"\n   run_cmd \"${CHILD_MARK} Starting services...\" \"${COMPOSE_BASE[@]}\" up -d\n   ```\n\n### Flags & CLI UX\n\n1. Keep flag sets minimal; only add options when they're truly needed (e.g., `--no-migrate`, `--timeout <value>`).\n2. In usage blocks, show value placeholders as `<value>` and list allowed values inline.\n3. Validate flag values early and exit via `usage` on invalid input.\n4. For sensitive input (tokens, passwords), make flags optional and prompt securely with `read -s` if not provided and TTY is available.\n\n### Helper Scripts\n\n1. Prefer shared helpers over inline logic:\n   - DB migrations: `run_cmd \"Running database migrations...\" bash \"$SCRIPT_DIR/db-migrate.sh\"`.",
+        "source": "https://github.com/hunvreus/devpush/blob/d67a99b62b3e2b044f1e0e9b06a3296fe1939fe3/AGENTS.md",
+        "author": "hunvreus",
+        "language": "Python",
+        "license": "MIT",
+        "fileType": "AGENTS.md"
+      },
+      {
+        "title": "marcobambini/gravity",
+        "category": "cli",
+        "description": "Gravity Programming Language",
+        "code": "",
+        "source": "https://github.com/marcobambini/gravity/blob/088a1a9fd580475f8b015e9bd5543f1dd4cfb3f1/CLAUDE.md",
+        "author": "marcobambini",
+        "language": "C",
+        "license": "MIT",
+        "fileType": "CLAUDE.md"
+      },
+      {
+        "title": "FlowElement-xinliuyuansu/m_flow",
+        "category": "data-ml",
+        "description": "A bio-inspired cognitive memory engine — a new paradigm for Graph RAG.",
+        "code": "",
+        "source": "https://github.com/FlowElement-xinliuyuansu/m_flow/blob/0d585cda2f588af69fb872ae6914caba0c217816/AGENTS.md",
+        "author": "FlowElement-xinliuyuansu",
+        "language": "Python",
+        "license": "Apache-2.0",
+        "fileType": "AGENTS.md"
+      },
+      {
+        "title": "archtechx/tenancy",
+        "category": "api-backend",
+        "description": "Automatic multi-tenancy for Laravel. No code changes needed.",
+        "code": "",
+        "source": "https://github.com/archtechx/tenancy/blob/52f97c1f6a266a5bf99e8c776b215b34412d2c73/CLAUDE.md",
+        "author": "archtechx",
+        "language": "PHP",
+        "license": "MIT",
+        "fileType": "CLAUDE.md"
+      },
+      {
+        "title": "oracle-devrel/oracle-ai-developer-hub",
+        "category": "infra-devops",
+        "description": "Technical resources for AI developers to build applications, agents, and systems using Oracle AI Database and OCI services",
+        "code": "",
+        "source": "https://github.com/oracle-devrel/oracle-ai-developer-hub/blob/bccc4062946300a658212e18bdfc68f8ebcf9287/apps/FitTracker/CLAUDE.md",
+        "author": "oracle-devrel",
+        "language": "Jupyter Notebook",
+        "license": "None",
+        "fileType": "CLAUDE.md"
+      },
+      {
+        "title": "nextdns/nextdns",
+        "category": "cli",
+        "description": "NextDNS CLI client (DoH Proxy)",
+        "code": "# AGENTS\n\n## Project Context\n\n- Project: NextDNS CLI (`github.com/nextdns/nextdns`)\n- Language: Go (`go 1.26`)\n- Purpose: Command-line DNS-over-HTTPS client focused on NextDNS, with support for other DoH providers and split-horizon setups.\n- Target environments: Routers and Unix-like systems first, with support for macOS and Windows.\n\n## Core Principles\n\n1. Privacy first\n   - Preserve user privacy by default.\n   - Avoid adding telemetry or logging sensitive DNS/query data unless explicitly required.\n2. Reliability and safety\n   - Prefer stable behavior over clever optimizations.\n   - Handle network failures and partial outages gracefully.\n3. Cross-platform correctness\n   - Keep behavior consistent across Linux, macOS, and Windows.\n   - Use platform-specific code only when necessary and isolate it clearly.\n4. Minimal, composable design\n   - Keep features small and focused.\n   - Avoid unnecessary dependencies and overly broad abstractions.\n5. Backward compatibility\n   - Preserve existing CLI behavior and flags unless a breaking change is intentional and documented.\n   - Treat config format and runtime behavior as user-facing contracts.\n6. Performance on constrained systems\n   - Optimize for low memory/CPU use, especially router-like environments.\n   - Assume deployments may have minuscule disk space; avoid features that increase on-device storage footprint.\n   - Avoid expensive background work and unbounded caches.\n7. Dependency and binary size discipline\n   - Avoid new dependencies whenever possible; prefer stdlib/internal code when practical.\n   - Be mindful of binary size and startup overhead when adding features.\n   - If a dependency is unavoidable, justify it and keep transitive impact minimal.\n\n## Agent Instructions\n\n- Make the smallest safe change that solves the requested problem.\n- Prefer edits that align with existing package boundaries (`proxy`, `resolver`, `router`, `config`, `host`, `ctl`, etc.).\n- Keep operational behavior predictable:\n  - no surprise network calls,\n  - no hidden retries that block shutdown,\n  - no silent fallback that changes security semantics.\n- Be explicit about error handling:\n  - return actionable errors,\n  - avoid swallowing failures,\n  - keep logs concise and useful.\n- Preserve startup/shutdown behavior and service lifecycle semantics.\n- When changing CLI/config behavior, update relevant docs in `README.md` and usage/help text if needed.\n\n## Testing Guidance\n\n- Run targeted tests for touched packages first, then broader tests when practical.\n- Favor deterministic tests over timing-sensitive behavior.\n- For networking changes, include failure-path coverage (timeouts, unreachable upstream, malformed responses).\n- For platform-specific logic, ensure non-target platforms still compile cleanly.\n\n## Dependency Checklist\n\nBefore adding a new dependency, verify:\n\n- Can this be implemented with Go stdlib or existing internal packages?\n- What is the transitive dependency impact (count and maintenance burden)?\n- What is the expected binary size impact?\n- Does it increase memory, disk, or startup-time footprint on router-class devices?\n- Is there a simpler build-tag or optional-path approach for non-router targets?",
+        "source": "https://github.com/nextdns/nextdns/blob/0214daf6a1da5e8ed6fcb06c89ca0b8d8b92bbdd/AGENTS.md",
+        "author": "nextdns",
+        "language": "Go",
+        "license": "MIT",
+        "fileType": "AGENTS.md"
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "route": "/consultation",
+    "kind": "consultation",
+    "title": "See What Your Team Can Hand to AI Agents",
+    "description": "Book a free 30-minute call. You keep the roadmap, whether we work together or not.",
+    "sections": [],
+    "faqs": [
+      {
+        "question": "Is the AI automation consultation actually free?",
+        "answer": "Yes. It's a free 30-minute strategy call, no card required and no obligation to buy anything afterward. We map your highest-ROI automation and AI agent opportunities and you keep the notes either way."
+      },
+      {
+        "question": "Will there be a sales pitch on the call?",
+        "answer": "No pitch, no slides. The call is spent on your workflows: what's manual today, where an AI agent or automation could take it over, and roughly what that would take. If it makes sense to work together we'll say so, but the roadmap is yours regardless."
+      },
+      {
+        "question": "What do I need to prepare before the call?",
+        "answer": "Nothing formal. Come ready to describe the process that eats the most time on your team, whether that's lead qualification, invoice processing, customer onboarding, or something else. We'll ask the follow-up questions."
+      },
+      {
+        "question": "Do I have to work with ManasFlow after the call?",
+        "answer": "No. The roadmap is yours to keep and use however you want, whether that's building it in-house, taking it to another agency, or bringing it back to us."
+      }
+    ],
+    "heroCards": [],
+    "examples": [],
+    "language": "en"
+  },
+  {
+    "route": "/fr/agency/n8n-dev",
+    "kind": "french",
+    "title": "Agence d'Automatisation n8n : Workflows Sur Mesure, Construits et Maintenus",
+    "description": "ManasFlow est une agence d'automatisation n8n qui conçoit, construit et maintient des workflows n8n de qualité production, auto-hébergés ou cloud, câblés à votre vraie stack. Engagez une agence n8n pour votre premier workflow ou un déploiement complet à l'échelle de l'entreprise, sans les templates fragiles qui cassent sous la charge.",
+    "sections": [
+      {
+        "title": "Concevoir une Automatisation Fiable sur n8n",
+        "body": [
+          "n8n est la plateforme d'automatisation la plus flexible du marché, open-source, auto-hébergeable, et sans limite sur ce qu'elle peut connecter. Mais cette flexibilité est exactement ce qui bloque la plupart des équipes : quelques templates fonctionnent, puis les workflows deviennent fragiles, l'auto-hébergement casse, et personne ne peut dire pourquoi une exécution a échoué à 3h du matin.",
+          "Mis à jour en juillet 2026."
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Pourquoi les Workflows n8n Faits Maison Cassent à l'Échelle",
+        "body": [
+          "n8n rend le démarrage facile et la montée en charge difficile. Les premières automatisations bricolées à la main commencent à craquer dès que le volume, les cas particuliers et les passations d'équipe entrent en jeu."
+        ],
+        "cards": [
+          {
+            "title": "Workflows Fragiles et Non Surveillés",
+            "body": [
+              "Un workflow construit à partir de templates copiés n'a aucune gestion d'erreur. Un seul appel API échoué casse silencieusement la chaîne, et vous ne le découvrez que quand un client se plaint. On intègre retries, alertes et logging dans chaque flux."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Les Casse-Têtes de l'Auto-Hébergement",
+            "body": [
+              "Faire tourner n8n en production, ça veut dire mode queue, Postgres, montée en charge des workers, sauvegardes et mises à jour de version qui ne cassent pas vos nodes. On installe et on durcit n8n auto-hébergé pour qu'il tienne sous la charge."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Atteindre les Limites du No-Code",
+            "body": [
+              "À un moment, un workflow a besoin d'une logique que l'éditeur visuel ne peut pas exprimer proprement. On passe alors sur des nodes de code sur mesure et des nodes n8n personnalisés, pour que vous ne soyez jamais bloqués par ce que permettent les templates."
+            ],
+            "items": [],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Ce Que Construit Notre Agence de Développement n8n",
+        "body": [
+          "On couvre tout le cycle de vie, de votre premier workflow en production jusqu'à une plateforme n8n auto-hébergée qui orchestre toute votre opération, agents IA inclus."
+        ],
+        "cards": [
+          {
+            "title": "Ingénierie de Workflows Sur Mesure",
+            "body": [
+              "Routage de leads, onboarding, reporting, passations de facturation, traitement de documents et workflows opérationnels conçus pour la fiabilité, pas juste pour des démos qui marchent dans le cas idéal."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Auto-Hébergement et Infrastructure",
+            "body": [
+              "n8n en mode queue dans Docker avec Postgres, workers mis à l'échelle, sauvegardes, monitoring et un chemin de mise à jour sécurisé. Vos données et vos identifiants restent sur votre infrastructure."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Nodes Sur Mesure et Intégrations API",
+            "body": [
+              "Des intégrations directes avec les outils que n8n ne couvre pas nativement, plus des nodes sur mesure et des étapes de code pour la logique que l'éditeur visuel ne peut pas exprimer."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Agents IA Dans n8n",
+            "body": [
+              "On câble des agents LLM, du RAG et des étapes propulsées par Claude directement dans n8n, pour que vos workflows puissent raisonner, classifier et agir, pas juste déplacer des données entre applications."
+            ],
+            "items": [],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Notre Méthodologie de Construction n8n",
+        "body": [
+          "On ne se contente pas de connecter des nodes entre eux. Chaque système n8n qu'on déploie est cartographié, architecturé et durci avant de toucher la production.",
+          "Blueprint technique et projection de ROI",
+          "Architecture n8n et carte des nodes",
+          "Workflows en direct, testés et auto-hébergés",
+          "Protocole de fiabilité continu"
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": true
+      },
+      {
+        "title": "Pourquoi S'Associer à une Agence de Développement n8n Dédiée ?",
+        "body": [
+          "Un template de plus ne réparera pas un processus cassé. Il vous faut un partenaire qui comprend à la fois vos opérations et les rouages internes de n8n, du mode queue aux nodes sur mesure.",
+          "Comparing options before you commit? Voir notre comparatif des meilleures agences n8n."
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [
+          {
+            "label": "Voir notre comparatif des meilleures agences n8n",
+            "href": "/blog/best-n8n-agencies"
+          }
+        ],
+        "numbered": false
+      },
+      {
+        "title": "Arrêtez les Templates Fragiles. Construisez Correctement.",
+        "body": [
+          "Réservez un appel stratégique et on cartographiera vos processus, vos points d'intégration, et le système n8n auto-hébergé qui devrait remplacer votre travail manuel."
+        ],
+        "cards": [
+          {
+            "title": "Réservez votre appel stratégique gratuit de 30min",
+            "body": [
+              "Pendant cet appel, on passe en revue le périmètre de votre projet, le calendrier, et vos objectifs, pour vérifier ensemble que le fit est bon. Aucun engagement, pas de diaporama, juste une vraie session de travail.",
+              "Vous préférez ne pas appeler ? Écrivez à info@manasflow.com",
+              "Elie Salame",
+              "COO, Adstronaut.io",
+              "We've created products featured in",
+              "the ManasFlow team",
+              "Partagez le processus que vous voulez automatiser, puis planifiez l'appel directement sur cette page."
+            ],
+            "items": [],
+            "links": [
+              {
+                "label": "info@manasflow.com",
+                "href": "mailto:info@manasflow.com"
+              },
+              {
+                "label": "Voir le profil LinkedIn",
+                "href": "/contact"
+              }
+            ]
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Combien coûte une agence n8n ?",
+        "answer": "Les intégrations de workflow simples (1-2 systèmes, gestion d'erreur basique) coûtent généralement entre 3 000 et 8 000 $. Les systèmes de qualité production avec étapes IA, monitoring et intégrations multiples vont de 15 000 à 50 000 $+ selon la complexité. Les contrats de maintenance continue coûtent entre 500 et 2 000 $/mois selon la taille du système. Ce sont des fourchettes de marché ; tous les engagements sont chiffrés après l'appel d'audit."
+      },
+      {
+        "question": "Vous auto-hébergez n8n ou utilisez n8n Cloud ?",
+        "answer": "Les deux. Pour la plupart des équipes, on recommande n8n auto-hébergé en mode queue sur votre infrastructure, pour le contrôle, la propriété des données et l'absence de frais par exécution. On travaille aussi avec n8n Cloud quand c'est plus adapté."
+      },
+      {
+        "question": "Pouvez-vous construire des nodes n8n sur mesure ?",
+        "answer": "Oui. Quand les nodes intégrés de n8n ou ceux de la communauté ne couvrent pas une intégration ou une logique dont vous avez besoin, on construit des nodes sur mesure et des étapes de code pour que vous ne soyez jamais bloqués par l'éditeur visuel."
+      },
+      {
+        "question": "Pouvez-vous corriger ou reprendre nos workflows n8n existants ?",
+        "answer": "Oui. On audite vos workflows actuels, on ajoute gestion d'erreur, logging et monitoring, on refactore les parties fragiles, et on documente tout pour que le système reste maintenable."
+      },
+      {
+        "question": "n8n peut-il faire tourner des agents IA et des LLM ?",
+        "answer": "Oui. On intègre Claude et d'autres LLM, la récupération RAG, et des étapes agentiques directement dans n8n, pour que vos workflows puissent classifier, raisonner et agir, pas juste passer des données entre applications."
+      },
+      {
+        "question": "Maintenez-vous n8n après le lancement ?",
+        "answer": "Oui. Pour les automatisations critiques, on recommande un monitoring continu, des alertes, des mises à jour de version et une maintenance pour que les changements d'API et les mises à jour n8n ne cassent jamais silencieusement les opérations."
+      },
+      {
+        "question": "Agence n8n vs interne : que choisir ?",
+        "answer": "Une embauche interne n8n prend des semaines à recruter et à monter en compétence avant de livrer un seul workflow, et vous portez le salaire, qu'il y ait ou non assez de travail d'automatisation pour occuper la personne. Une agence n8n démarre par un audit, livre le premier workflow dans le délai chiffré, et inclut la maintenance comme une ligne budgétaire plutôt qu'un espoir. L'interne a du sens une fois que vous avez assez de travail n8n continu pour justifier un rôle à temps plein."
+      },
+      {
+        "question": "Comment choisir la bonne agence n8n ?",
+        "answer": "Demandez à voir de vrais déploiements n8n auto-hébergés ou en production, pas juste des captures d'écran de démo. Vérifiez si la gestion d'erreur, les retries et le monitoring sont intégrés par défaut ou vendus en option, et confirmez que la maintenance est incluse après le lancement. Une vraie agence n8n chiffre vos systèmes lors d'un appel d'audit avant de donner un prix."
+      },
+      {
+        "question": "Combien de temps faut-il pour engager une agence n8n et lancer ?",
+        "answer": "Réserver l'appel d'audit prend quelques jours. Les intégrations de workflow simples sont généralement en production une à deux semaines après. Les systèmes de production avec auto-hébergement, nodes sur mesure et étapes IA prennent généralement quatre à huit semaines, chiffrées lors de l'audit."
+      },
+      {
+        "question": "Agence n8n vs société de développement n8n : y a-t-il une différence ?",
+        "answer": "Pas pour nous. Société de développement n8n et agence d'automatisation n8n décrivent le même engagement : on conçoit la logique du workflow, on auto-héberge ou on configure n8n, et on reste pour la maintenance après, plutôt que de livrer un build ponctuel et disparaître."
+      },
+      {
+        "question": "Travaillez-vous avec des clients cherchant une agentur n8n ou un bureau n8n hors des États-Unis ?",
+        "answer": "Oui. En plus de notre travail d'agence d'automatisation n8n en anglais, on répond aux demandes d'agentur n8n des équipes germanophones et aux demandes de développement n8n ou de bureau n8n des clients francophones et de la région MENA, à travers le même processus d'audit et de construction."
+      }
+    ],
+    "heroCards": [],
+    "examples": [],
+    "language": "fr"
+  },
+  {
+    "route": "/fr/services/ai-automation-agency",
+    "kind": "french",
+    "title": "L'Agence d'Automatisation IA Qui Livre en Production, Pas Juste des Slides",
+    "description": "Vous cherchez une agence d'automatisation IA ? ManasFlow associe un ingénieur senior à une flotte d'agents IA pour chiffrer, construire et maintenir les workflows n8n et les agents qui retirent le travail manuel de vos opérations, pour des équipes aux États-Unis et dans le monde. Une seule équipe pour la stratégie, la construction et le support après lancement, pas trois prestataires séparés.",
+    "sections": [
+      {
+        "title": "Quatre Façons d'Automatiser Vos Opérations",
+        "body": [
+          "Nos services d'agence d'automatisation IA se déclinent en quatre engagements principaux. Chaque engagement démarre comme l'un d'eux, puis s'étend une fois que le premier workflow a fait ses preuves.",
+          "Besoin d'un ingénieur intégré à votre équipe plutôt qu'un projet livré à celle-ci ? Voir Ingénieurs Déployés en Avant et Placement d'Ingénieur."
+        ],
+        "cards": [
+          {
+            "title": "Automatisation Sur Mesure",
+            "body": [
+              "Des workflows n8n et des agents autonomes qui gèrent votre logique métier 24/7, connectés aux outils que vous utilisez déjà."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Automatisation de Workflow Sur Mesure",
+            "body": [
+              "Une ingénierie d'intégration API et de workflow qui remplace les passations manuelles entre vos systèmes."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Développement d'Agents IA",
+            "body": [
+              "Des agents sur mesure et des bases de connaissances internes qui exécutent un travail multi-étapes, pas juste répondre aux questions."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Architecture de Pipeline RAG",
+            "body": [
+              "Des pipelines de récupération privés qui ancrent les réponses de l'IA dans vos propres données plutôt que dans les suppositions d'un modèle public."
+            ],
+            "items": [],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [
+          {
+            "label": "Automatisation Sur Mesure Des workflows n8n et des agents autonomes qui gèrent votre logique métier 24/7, connectés aux outils que vous utilisez déjà.",
+            "href": "/services/custom-automation"
+          },
+          {
+            "label": "Automatisation de Workflow Sur Mesure Une ingénierie d'intégration API et de workflow qui remplace les passations manuelles entre vos systèmes.",
+            "href": "/services/custom-workflow-automation"
+          },
+          {
+            "label": "Développement d'Agents IA Des agents sur mesure et des bases de connaissances internes qui exécutent un travail multi-étapes, pas juste répondre aux questions.",
+            "href": "/services/ai-agent-development"
+          },
+          {
+            "label": "Architecture de Pipeline RAG Des pipelines de récupération privés qui ancrent les réponses de l'IA dans vos propres données plutôt que dans les suppositions d'un modèle public.",
+            "href": "/services/rag-pipeline-architecture-development"
+          },
+          {
+            "label": "Ingénieurs Déployés en Avant",
+            "href": "/services/forward-deployed-engineers"
+          },
+          {
+            "label": "Placement d'Ingénieur",
+            "href": "/services/engineer-placement"
+          }
+        ],
+        "numbered": false
+      },
+      {
+        "title": "Audit, Construction, Maintenance. Dans Cet Ordre.",
+        "body": [
+          "On ne vend pas de forfait fixe avant d'avoir vu vos systèmes. Chaque engagement démarre par un audit de ce qui se passe réellement aujourd'hui.",
+          "La boucle se répète. La maintenance fait remonter la prochaine chose qui vaut la peine d'être automatisée, au lieu de clore l'engagement.",
+          "Workflow unique",
+          "Système d'automatisation complet",
+          "Les deux fourchettes sont chiffrées lors de l'appel d'audit, pas un devis fixe donné à l'aveugle.",
+          "Les automatisations cassent quand les API changent. Voir Maintenance et Support d'Automatisation pour ce que couvre l'étape de maintenance."
+        ],
+        "cards": [
+          {
+            "title": "Audit",
+            "body": [
+              "On cartographie votre workflow actuel : les étapes manuelles, les outils impliqués, et où un agent ou une automatisation se rentabilise vraiment. Résultat : un plan chiffré, pas un argumentaire de vente."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Construction",
+            "body": [
+              "On construit l'automatisation ou l'agent sur n8n, Claude Code, et votre stack existante, d'abord en bac à sable, avec un usage réel testé avant de toucher la production."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Déploiement",
+            "body": [
+              "On livre dans vos systèmes, pas dans un environnement de démo. Vous le voyez tourner sur des données réelles avant qu'on l'appelle terminé."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Maintenance",
+            "body": [
+              "Les automatisations cassent quand les API changent et que des cas limites apparaissent. On continue à surveiller après le lancement plutôt que de vous remettre un workflow et de disparaître."
+            ],
+            "items": [],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [
+          {
+            "label": "Maintenance et Support d'Automatisation",
+            "href": "/services/automation-maintenance-support"
+          }
+        ],
+        "numbered": true
+      },
+      {
+        "title": "Ce Que Coûte Vraiment l'Automatisation, Selon le Chemin",
+        "body": [
+          "Les trois vrais chiffres déjà présents sur cette page, côte à côte.",
+          "Les chiffres pour l'embauche interne et le placement intégré sont des coûts annuels (issus du texte de tarification de cette page : 150 000 $+ de salaire plus environ 30 000 $ d'avantages pour une embauche interne aux États-Unis, et un placement à partir de 60 000 $/an). Le chiffre du workflow unique est un coût de construction ponctuel pour une automatisation ciblée, pas un montant annuel, montré ici pour l'échelle seulement, pas une comparaison directe."
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Agence d'Automatisation IA vs Interne vs Freelance vs DIY",
+        "body": [
+          "La plupart des agences d'automatisation IA vendent un forfait avant d'avoir vu vos systèmes. Un regard honnête sur les quatre façons de faire construire une automatisation, pour que vous puissiez choisir celle qui correspond à votre étape.",
+          "Les outils no-code DIY sont un point de départ légitime pour un seul déclencheur simple. Ils tendent à s'effondrer dès qu'un workflow a besoin d'une logique conditionnelle sur plus de deux systèmes, ce qui est le point où la plupart de nos clients viennent vers nous."
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [
+          {
+            "headers": [
+              "",
+              "Embauche Interne",
+              "Freelance",
+              "DIY No-Code",
+              "ManasFlow"
+            ],
+            "rows": [
+              [
+                "Coût initial",
+                "150 000 $+ de salaire plus environ 30 000 $ d'avantages",
+                "Taux horaire plus bas, mais le scope creep est fréquent",
+                "Coût cash le plus bas, coût en temps le plus élevé",
+                "Sur mesure, chiffré après un audit, pas de forfait fixe"
+              ],
+              [
+                "Délai avant le premier workflow",
+                "Des semaines pour recruter, puis une montée en compétence",
+                "Quelques jours pour démarrer, la qualité varie selon la personne",
+                "Quelques jours, si vous connaissez déjà l'outil no-code",
+                "Audit en quelques jours, premier workflow chiffré dès le même appel"
+              ],
+              [
+                "Maintenance continue",
+                "Dépend si la personne reste",
+                "Généralement non incluse, on réembauche à chaque correctif",
+                "Vous la maintenez vous-même",
+                "Incluse comme une ligne explicite"
+              ],
+              [
+                "Logique complexe, multi-systèmes",
+                "Dépend entièrement du niveau de la personne recrutée",
+                "Dépend entièrement du niveau du freelance",
+                "S'effondre au-delà de déclencheurs simples",
+                "Conçu par nature pour des workflows multi-étapes et multi-systèmes"
+              ],
+              [
+                "Responsabilité",
+                "Vous gérez le résultat",
+                "Vous gérez le résultat",
+                "Vous portez chaque échec",
+                "On reste responsable pendant la construction et après le lancement"
+              ]
+            ]
+          }
+        ],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Comment Sont Chiffrés les Engagements d'Agence d'Automatisation IA",
+        "body": [
+          "On ne vend pas de forfaits fixes à l'aveugle. Le prix est chiffré selon ce dont vous avez vraiment besoin, sur la base de nos types d'engagement actuels.",
+          "Workflow unique",
+          "Bas quatre chiffres",
+          "Un workflow ciblé, en production en une à deux semaines, avec gestion des erreurs, retries et monitoring intégrés dès le premier jour.",
+          "Système d'automatisation complet",
+          "Chiffré après l'audit",
+          "Étapes IA, monitoring et intégrations sur plusieurs systèmes, typiquement quatre à huit semaines. Il n'y a pas de forfait fixe car le périmètre dépend du nombre de systèmes et de logique impliqués.",
+          "Placement d'ingénierie intégrée",
+          "À partir de 60 000 $/an",
+          "Si vous avez besoin d'un ingénieur dédié qui construit et maintient l'automatisation à temps plein dans votre équipe, c'est le tarif de placement, à partir de 60 000 $/an contre un salaire américain de 150 000 $+ plus environ 30 000 $ d'avantages.",
+          "Quel que soit le modèle qui vous convient, le premier appel est gratuit et l'audit vous donne le vrai chiffre avant tout engagement.",
+          "Équipes qui ont choisi l'audit plutôt que le pitch",
+          "+45 founders and operators",
+          "COO, Adstronaut.io"
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Prêt à Automatiser le Travail Qui Vous Ralentit ?",
+        "body": [
+          "Réservez un appel d'audit gratuit. On cartographiera ce qui vaut la peine d'être automatisé en premier et on vous donnera un chiffre précis, pas un argumentaire de vente."
+        ],
+        "cards": [
+          {
+            "title": "Réservez votre appel stratégique gratuit de 30min",
+            "body": [
+              "Pendant cet appel, on passe en revue le périmètre de votre projet, le calendrier, et vos objectifs, pour vérifier ensemble que le fit est bon. Aucun engagement, pas de diaporama, juste une vraie session de travail.",
+              "Vous préférez ne pas appeler ? Écrivez à info@manasflow.com",
+              "Elie Salame",
+              "COO, Adstronaut.io",
+              "We've created products featured in",
+              "the ManasFlow team",
+              "Partagez votre cas d'usage, puis planifiez l'appel directement sur cette page.",
+              "Gratuit · Vous gardez le plan chiffré dans tous les cas"
+            ],
+            "items": [],
+            "links": [
+              {
+                "label": "info@manasflow.com",
+                "href": "mailto:info@manasflow.com"
+              },
+              {
+                "label": "Voir le profil LinkedIn",
+                "href": "/contact"
+              }
+            ]
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Comment engager une agence d'automatisation IA ?",
+        "answer": "Commencez par l'appel d'audit : une vraie agence chiffre vos systèmes réels avant de donner un prix, plutôt que de vendre un forfait fixe à l'aveugle. Vérifiez qu'elle peut montrer des builds fonctionnels, pas juste des slides, et qu'elle reste responsable après le lancement via un contrat de maintenance ou une documentation de passation."
+      },
+      {
+        "question": "Que fait une agence d'automatisation IA ?",
+        "answer": "Une agence d'automatisation IA, parfois appelée société d'automatisation IA, remplace le travail manuel répétitif par des systèmes qui tournent seuls : routage de leads, reporting, traitement de documents, triage du support, synchronisations de données entre les outils que vous utilisez déjà. L'IA compte là où le jugement entre en jeu, comme classer un message ou extraire des données d'un document mal structuré. On est honnêtes sur les outils : n8n quand c'est le chemin fiable le plus rapide, du code sur mesure quand le workflow a besoin de plus de contrôle, et pas d'IA du tout quand un simple flux à règles fait le travail moins cher."
+      },
+      {
+        "question": "Une agence d'automatisation IA, est-ce la même chose qu'une agence d'automatisation de workflow ?",
+        "answer": "Oui, même service, vocabulaire différent. Les deux décrivent une agence qui conçoit et construit des systèmes pour retirer le travail manuel de vos opérations. On utilise n8n pour la logique du workflow et on ajoute un agent IA seulement là où le jugement est vraiment nécessaire, comme classer un message ou rédiger une réponse pour relecture, pas partout par défaut."
+      },
+      {
+        "question": "Combien coûte une agence d'automatisation IA ?",
+        "answer": "Les builds ciblés sur un seul workflow démarrent dans les bas quatre chiffres et sont livrés en une à deux semaines. Les systèmes d'automatisation complets avec étapes IA, monitoring et intégrations durent généralement quatre à huit semaines et sont chiffrés après l'appel d'audit, parce que la réponse honnête dépend du nombre de systèmes que touche le workflow. Si vous avez besoin d'un ingénieur dédié intégré à temps plein plutôt qu'un projet chiffré, le placement démarre à partir de 60 000 $/an, bien en dessous des 150 000 $+ de salaire plus environ 30 000 $ d'avantages que coûte typiquement une embauche interne aux États-Unis."
+      },
+      {
+        "question": "En quoi une agence d'automatisation IA diffère-t-elle d'une embauche interne ?",
+        "answer": "Une embauche interne coûte 150 000 $+ de salaire plus avantages et prend des semaines à recruter avant de commencer à produire. Un engagement en agence démarre par un audit chiffré, se construit sur votre stack existante, et vous ne portez pas un salaire à temps plein, des charges patronales, ou un pipeline de recrutement pour un rôle dont vous n'avez peut-être besoin qu'à temps partiel."
+      },
+      {
+        "question": "En quoi est-ce différent d'engager un freelance ?",
+        "answer": "Un freelance construit le chemin nominal. On construit le chemin nominal plus la gestion des erreurs, les retries, le monitoring et la documentation, et on reste responsable du système après le lancement. Cette différence est invisible dans la démo et décisive au troisième mois."
+      },
+      {
+        "question": "Utilisez-vous l'IA dans chaque automatisation ?",
+        "answer": "Non. L'IA ajoute du coût et de la variance, donc elle n'intervient que là où le jugement compte : classification, extraction depuis une entrée mal structurée, ou rédaction pour relecture humaine. Les étapes déterministes restent déterministes."
+      },
+      {
+        "question": "Puis-je simplement utiliser un outil no-code moi-même plutôt qu'engager une agence ?",
+        "answer": "Pour un seul déclencheur simple, oui, un outil no-code seul peut suffire. La plupart des équipes viennent vers une agence une fois que le workflow a besoin d'une logique conditionnelle sur plus de deux systèmes, d'une gestion d'erreur, ou d'un agent IA qui prend des décisions, ce qui est le point où les configurations no-code faites soi-même tendent à s'effondrer."
+      },
+      {
+        "question": "Combien de temps dure un engagement avec une agence d'automatisation IA ?",
+        "answer": "Un workflow unique et ciblé est typiquement en production en une à deux semaines. Un système d'automatisation complet, avec une couche IA, du monitoring et des intégrations sur plusieurs outils, prend typiquement quatre à huit semaines et est chiffré pendant l'appel d'audit."
+      },
+      {
+        "question": "Pouvez-vous travailler avec notre stack technique existante ?",
+        "answer": "Oui. On connecte le CRM, la base de données, les tableurs, l'email, Slack et les API privées que vous utilisez déjà plutôt que d'imposer une nouvelle stack. La plupart des builds sont, par conception, riches en intégrations."
+      },
+      {
+        "question": "Que se passe-t-il une fois l'automatisation livrée ? Vous en assurez la maintenance ?",
+        "answer": "Soit une passation propre avec documentation et une session de travail pour votre équipe, soit un contrat de maintenance où on surveille les moniteurs, on gère les changements d'API, et on fait évoluer le système avec votre processus."
+      },
+      {
+        "question": "Une agence d'automatisation IA, est-ce la même chose qu'une société de développement d'agents IA ?",
+        "answer": "Elles se recoupent. Le développement d'agents est l'un des services qu'une agence d'automatisation livre, en construisant des agents autonomes pour de la logique complexe, aux côtés de l'automatisation de workflow, de l'intégration API et des pipelines RAG. Si vous savez déjà que vous avez besoin d'un agent spécifiquement, notre page de développement d'agents IA couvre ce périmètre en détail."
+      },
+      {
+        "question": "Quelle est la différence entre une agence d'automatisation IA et un consultant en automatisation ?",
+        "answer": "Un consultant conseille généralement et vous remet une recommandation. Une agence chiffre l'audit, puis construit et livre le système elle-même. On fait les deux avec une seule équipe : l'appel d'audit est l'étape de conseil, et la construction plus la maintenance sont le travail d'agence, au lieu d'une passation entre deux prestataires séparés."
+      },
+      {
+        "question": "Travaillez-vous avec des entreprises aux États-Unis, ou seulement à l'international ?",
+        "answer": "Les deux. Chaque engagement est remote-first : l'appel d'audit, la construction et la maintenance continue se font par visio et vos outils existants. On travaille avec des équipes à travers les États-Unis sur les horaires de bureau américains et avec des équipes internationales de la même façon, donc la localisation ne change pas l'engagement."
+      },
+      {
+        "question": "Êtes-vous une agence d'automatisation IA B2B, ou construisez-vous aussi des applications grand public ?",
+        "answer": "B2B. Nos engagements automatisent les opérations internes et les workflows orientés clients pour des entreprises, pas des applications sociales grand public. La plupart de nos clients sont des plateformes SaaS, des opérateurs e-commerce, des agences et des équipes d'opérations internes qui retirent le travail manuel des processus que leur propre personnel ou leurs clients rencontrent au quotidien."
+      },
+      {
+        "question": "Construisez-vous des automatisations spécifiquement pour les entreprises SaaS et e-commerce ?",
+        "answer": "Oui, aux côtés d'autres équipes B2B. Les entreprises SaaS automatisent généralement l'onboarding, les vérifications d'usage et le triage du support. Les opérateurs e-commerce automatisent le traitement des commandes, les synchronisations d'inventaire entre canaux, et le service client. Les deux passent par le même modèle audit, construction, maintenance que chaque autre engagement."
+      },
+      {
+        "question": "Est-ce différent de l'automatisation IT ou de l'automatisation CRM spécifiquement ?",
+        "answer": "Non, c'est le même travail sous-jacent décrit avec un vocabulaire différent. Les systèmes IT et l'automatisation CRM sont deux des systèmes qu'on connecte dans un workflow, aux côtés de votre base de données, vos tableurs, votre email et vos API internes, chiffré selon votre engagement."
+      }
+    ],
+    "heroCards": [],
+    "examples": [],
+    "language": "fr"
+  },
+  {
+    "route": "/fr/services/marketing-automation-agency",
+    "kind": "french",
+    "title": "L'agence de marketing automation qui traite ça comme un problème d'ingénierie",
+    "description": "ManasFlow est l'agence de marketing automation qui ne se contente pas de vendre un outil d'emailing : on construit la plomberie derrière. Des leads routés en quelques minutes, des données de campagne synchronisées sans export manuel, des pipelines de contenu qui se publient tout seuls, et de l'IA qui rédige dans des files de relecture humaine. On construit cette plomberie sur n8n et on la garde en marche.",
+    "sections": [
+      {
+        "title": "Ce que fait vraiment une agence de marketing automation",
+        "body": [
+          "De quoi il s'agit",
+          "Une agence de marketing automation supprime le travail manuel entre l'intention marketing et son exécution : des leads enrichis et routés dès leur arrivée, des emails lifecycle déclenchés par de vrais événements produit, des résultats de campagne synchronisés dans un seul rapport sans export CSV, et du contenu qui passe du brouillon à la publication sans relais humain. Ce sont des gains peu spectaculaires qui s'accumulent semaine après semaine.",
+          "Le réflexe du secteur, c'est de vous vendre une plateforme et d'appeler ça de l'automatisation. On fait l'inverse : votre CRM, votre outil d'emailing, vos plateformes publicitaires et vos analytics restent en place, et on construit le tissu conjonctif entre eux sur n8n, avec les retries, la déduplication et le monitoring que les flux de données marketing n'ont presque jamais. Une mauvaise plomberie, c'est pour ça que vos chiffres d'attribution ne correspondent jamais entre eux ; c'est réparable.",
+          "L'IA mérite sa place là où le jugement fait la différence : scorer et classer les leads, personnaliser à une profondeur que les templates n'atteignent pas, et rédiger des variantes de contenu pour relecture humaine. Elle ne mérite pas sa place comme éditeur autonome sans supervision. Tout ce que l'IA écrit dans nos systèmes passe par une file de relecture, parce que votre marque n'est pas l'endroit où découvrir les erreurs d'un modèle."
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Est-ce le bon choix pour vous ?",
+        "body": [],
+        "cards": [
+          {
+            "title": "Là où c'est le plus efficace",
+            "body": [
+              "Équipes B2B qui perdent des leads à cause d'un suivi trop lent",
+              "Un lead entrant qui attend plusieurs jours dans une file se refroidit. L'enrichissement, le scoring et le routage en quelques minutes, c'est souvent le build au meilleur ROI en marketing.",
+              "Équipes SaaS qui gèrent le lifecycle marketing à la main",
+              "Onboarding, relances d'activation et campagnes de renouvellement déclenchées par de vrais événements produit, plutôt que par quelqu'un qui se souvient de les envoyer.",
+              "Équipes contenu noyées dans les opérations",
+              "Le relais publier-redimensionner-planifier-republier est automatisé, pour que les heures de l'équipe aillent dans le contenu, pas dans la logistique."
+            ],
+            "items": [
+              "Équipes B2B qui perdent des leads à cause d'un suivi trop lent Un lead entrant qui attend plusieurs jours dans une file se refroidit. L'enrichissement, le scoring et le routage en quelques minutes, c'est souvent le build au meilleur ROI en marketing.",
+              "Équipes SaaS qui gèrent le lifecycle marketing à la main Onboarding, relances d'activation et campagnes de renouvellement déclenchées par de vrais événements produit, plutôt que par quelqu'un qui se souvient de les envoyer.",
+              "Équipes contenu noyées dans les opérations Le relais publier-redimensionner-planifier-republier est automatisé, pour que les heures de l'équipe aillent dans le contenu, pas dans la logistique."
+            ],
+            "links": []
+          },
+          {
+            "title": "Quand NE PAS utiliser ceci",
+            "body": [],
+            "items": [
+              "Vous n'avez pas encore de flux de leads régulier. Automatiser un tunnel vide multiplie zéro par zéro ; mieux vaut d'abord investir le budget pour générer de la demande.",
+              "Vous voulez que l'IA rédige et publie sans relecture humaine. On ne construira pas de publication non supervisée ; le risque pour la marque ne vaut pas les heures économisées.",
+              "Votre stack est sur le point de changer. Migrez d'abord le CRM ou la plateforme d'emailing, puis automatisez, sinon vous paierez la même plomberie deux fois."
+            ],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Comment on construit un marketing automation qui s'accumule",
+        "body": [
+          "La même discipline que pour chaque automatisation qu'on livre : cartographier le flux réel, corriger d'abord l'étape la plus fuyante, l'entourer de monitoring, puis étendre. Le martech que vous payez déjà reste en place ; on le fait vraiment fonctionner ensemble.",
+          "Délai habituel",
+          "Première automatisation en production en 1 à 2 semaines ; systèmes marketing ops complets généralement 4 à 8 semaines",
+          "La stack qu'on utilise",
+          "n8n · Claude (API) · Votre CRM et plateforme d'emailing existants · PostHog · Supabase"
+        ],
+        "cards": [
+          {
+            "title": "Audit du funnel et des opérations",
+            "body": [
+              "On trace un lead et une campagne de bout en bout dans votre stack et on trouve où le temps, les données et l'attribution fuient. Chaque étape manuelle est notée selon sa fréquence et son coût.",
+              "LivrableCarte d'automatisation priorisée de vos opérations marketing"
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Le flux de leads d'abord",
+            "body": [
+              "Enrichissement, scoring et routage sont généralement livrés en premier, car la vitesse de réponse au lead est le gain le plus mesurable. Construit avec déduplication et hygiène du CRM dès le départ.",
+              "LivrablePipeline de leads en production avec monitoring"
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Déclencheurs lifecycle",
+            "body": [
+              "Les campagnes passent d'un calendrier fixe à des événements réels : de vrais événements produit et de facturation déclenchent le bon message au bon moment.",
+              "LivrableFlux lifecycle pilotés par événements"
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Content ops et reporting",
+            "body": [
+              "Pipelines de publication, étapes de recyclage de contenu avec des drafts IA en file de relecture, et un reporting qui s'assemble tout seul depuis les plateformes publicitaires et analytics.",
+              "LivrableContent ops automatisées et synchronisation de reporting en direct"
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Passation ou contrat de maintenance",
+            "body": [
+              "Documentation et session de travail pour votre équipe, ou un contrat de maintenance où on surveille les moniteurs et on suit le rythme de vos campagnes.",
+              "LivrableRunbook, alertes et plan de maintenance"
+            ],
+            "items": [],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Le travail marketing qu'on automatise le plus souvent",
+        "body": [
+          "Réalisations clients associées",
+          "Automatisation des Opérations Marketing",
+          "95% des Tâches Automatisées",
+          "Automatisation du Support Client",
+          "Résolution 24/7"
+        ],
+        "cards": [
+          {
+            "title": "Enrichissement et routage des leads",
+            "body": [
+              "Chaque lead entrant enrichi, scoré et assigné en quelques minutes, avec l'historique complet consigné dans votre CRM."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Campagnes lifecycle et onboarding",
+            "body": [
+              "Des messages déclenchés par ce que les utilisateurs font réellement dans le produit, pas par leur place dans un calendrier."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Pipelines de publication de contenu",
+            "body": [
+              "Du brouillon au CMS puis aux réseaux sociaux, avec le formatage, le redimensionnement et la planification gérés par le système, et des humains qui valident les mots."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Personnalisation assistée par IA",
+            "body": [
+              "Des messages d'outreach et de campagne personnalisés à partir de signaux réels, rédigés par l'IA, relus par un humain avant tout envoi."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Synchronisations d'attribution et de reporting",
+            "body": [
+              "Plateformes publicitaires, analytics et CRM réconciliés automatiquement, pour que les chiffres du lundi soient un seul rapport plutôt que quatre exports."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Opérations de webinaires et d'événements",
+            "body": [
+              "Inscriptions, rappels, séquences de suivi et mises à jour CRM qui tournent comme un seul flux plutôt que cinq check-lists."
+            ],
+            "items": [],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [
+          {
+            "label": "Automatisation des Opérations Marketing 95% des Tâches Automatisées",
+            "href": "/case-studies/omnichannel-marketing-automation"
+          },
+          {
+            "label": "Automatisation du Support Client Résolution 24/7",
+            "href": "/case-studies/customer-support-automation"
+          }
+        ],
+        "numbered": false
+      },
+      {
+        "title": "Trouvez la fuite dans vos opérations marketing",
+        "body": [
+          "Un appel de 30 minutes : on trace un lead à travers votre stack actuel, on trouve où les heures et les données fuient, et on vous dit honnêtement quels correctifs valent la peine d'être automatisés et lesquels non."
+        ],
+        "cards": [
+          {
+            "title": "Réservez votre appel stratégique gratuit de 30min",
+            "body": [
+              "Pendant cet appel, on passe en revue le périmètre de votre projet, le calendrier, et vos objectifs, pour vérifier ensemble que le fit est bon. Aucun engagement, pas de diaporama, juste une vraie session de travail.",
+              "Vous préférez ne pas appeler ? Écrivez à info@manasflow.com",
+              "Elie Salame",
+              "COO, Adstronaut.io",
+              "We've created products featured in",
+              "the ManasFlow team",
+              "Cet appel s'adresse aux équipes prêtes à avancer. Si c'est vous, choisissez un créneau."
+            ],
+            "items": [],
+            "links": [
+              {
+                "label": "info@manasflow.com",
+                "href": "mailto:info@manasflow.com"
+              },
+              {
+                "label": "Voir le profil LinkedIn",
+                "href": "/contact"
+              }
+            ]
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Combien coûte le marketing automation avec une agence ?",
+        "answer": "Un build ciblé comme le routage de leads démarre dans les bas quatre chiffres et est livré en une à deux semaines. Les systèmes marketing ops complets couvrant le flux de leads, le lifecycle et le reporting durent généralement quatre à huit semaines et sont chiffrés après l'audit, parce que le vrai facteur, c'est le nombre d'outils que couvre votre stack et la propreté actuelle de vos données CRM."
+      },
+      {
+        "question": "Pourquoi ne pas simplement utiliser les workflows HubSpot ou l'automatisation de notre outil d'emailing ?",
+        "answer": "Utilisez-les ; ils sont bons dans ce qu'ils couvrent, et on construit avec eux plutôt que contre eux. Ils s'arrêtent à leurs propres limites : ils ne peuvent pas orchestrer sur l'ensemble de votre stack, dédupliquer entre systèmes, ou faire tourner des étapes IA avec des files de relecture. Si vos besoins tiennent réellement dans un seul outil, on vous le dira dès l'appel et on vous fera économiser l'engagement."
+      },
+      {
+        "question": "Est-ce que l'IA va rédiger notre contenu marketing ?",
+        "answer": "Rédiger, oui, là où ça aide : variantes, personnalisation et recyclage de contenu. Publier, non. Tout ce que l'IA écrit passe par une file de relecture humaine avant d'atteindre votre audience. On intègre cette file directement dans le workflow, pour que la relecture soit un clic, pas une corvée."
+      },
+      {
+        "question": "Faut-il changer notre stack martech ?",
+        "answer": "Presque jamais. Toute l'approche consiste à construire le tissu conjonctif entre le CRM, la plateforme d'emailing, les comptes publicitaires et les analytics que vous payez déjà. Si un outil de la stack est vraiment le problème, on vous le dira, mais remplacer des outils est le dernier recours, pas l'argument de vente."
+      },
+      {
+        "question": "Comment mesurez-vous si l'automatisation a fonctionné ?",
+        "answer": "Chaque build est livré avec sa propre métrique câblée avant le lancement : vitesse de réponse au lead, précision d'envoi des campagnes, heures retirées des content ops. On instrumente avec PostHog et vos analytics existants, et vous voyez les chiffres qu'on voit."
+      },
+      {
+        "question": "Comment choisir une agence de marketing automation ?",
+        "answer": "Demandez ce qu'ils construisent par rapport à ce qu'ils revendent. Une agence de marketing automation devrait montrer de vraies intégrations API, de la déduplication et du monitoring sur le flux de leads, une étape de relecture humaine sur tout ce que l'IA rédige, et des études de cas avec des chiffres vérifiables, pas un diaporama des fonctionnalités d'une plateforme. S'ils ne peuvent pas expliquer ce qui se passe quand une API en amont change, c'est la faille qui cassera votre pipeline plus tard."
+      },
+      {
+        "question": "Faut-il recruter en interne plutôt que passer par une agence ?",
+        "answer": "L'interne a du sens une fois que votre backlog d'opérations marketing est assez large pour occuper quelqu'un à temps plein sur les intégrations et le monitoring. La plupart des équipes B2B et SaaS n'en sont pas encore là, donc un build en agence pour les systèmes initiaux de routage de leads et de lifecycle, suivi d'un contrat de maintenance ou d'un recrutement interne une fois la charge justifiée, est en général le chemin le moins risqué."
+      },
+      {
+        "question": "Qu'est-ce qui fait de vous une agence de marketing automation IA et pas juste une agence de marketing automation ?",
+        "answer": "L'IA fait des tâches précises dans le système, pas tout le travail : scorer et classer les leads selon de vrais signaux plutôt qu'un barème statique, personnaliser l'outreach à une profondeur que les templates n'atteignent pas, et rédiger des variantes de contenu et de campagne. Chacune de ces sorties passe par une file de relecture humaine avant d'atteindre un client. C'est différent d'une plateforme vendue comme « IA-powered » qui envoie automatiquement sans humain dans la boucle."
+      },
+      {
+        "question": "Êtes-vous un cabinet de conseil HubSpot ou Marketo ?",
+        "answer": "Non. Les agences partenaires HubSpot ou Marketo sont douées pour configurer ces plateformes spécifiques, et si c'est vraiment tout ce dont vous avez besoin, engagez-en une. Nous sommes des ingénieurs qui construisent la plomberie entre les plateformes que vous utilisez déjà, HubSpot ou Marketo inclus, pour que l'automatisation ne soit pas plafonnée par ce que le workflow builder d'un seul éditeur permet."
+      }
+    ],
+    "heroCards": [],
+    "examples": [],
+    "language": "fr"
+  },
+  {
+    "route": "/golden-offer",
+    "kind": "offer",
+    "title": "Looking to Hire AI Developers?",
+    "description": "Work with a dedicated AI engineer and a coordinated set of agents in your own repository. Discuss the skills, scope, and delivery plan that fit your team.",
+    "sections": [
+      {
+        "title": "Why hiring AI developers the traditional way is broken.",
+        "body": [
+          "The hiring grind · By the numbers"
+        ],
+        "cards": [
+          {
+            "title": "Finding talent is slow & competitive",
+            "body": [
+              "The average time to fill a senior tech role is now 3-6 months. By the time you find a candidate, your roadmap is already delayed."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Managing a bench of freelancers eats your time",
+            "body": [
+              "Founders waste hours coordinating contractors and chasing status updates. One senior AI engineer running a fleet of agents removes that overhead, so you get a dedicated AI development team without becoming the project manager."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Consistency is rare & risky",
+            "body": [
+              "Freelancers ghost. Skills vary. You need proven AI Development Company standards, not guesses."
+            ],
+            "items": [],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [
+          {
+            "label": "omnichannel marketing automation case study",
+            "href": "/case-studies/omnichannel-marketing-automation"
+          }
+        ],
+        "numbered": true
+      },
+      {
+        "title": "What if you could skip the hiring grind?",
+        "body": [
+          "Stop searching for unicorns or building an AI dev team from scratch. Hire AI developers who run a fleet of AI agents instead of a bench of freelancers.",
+          "How a team lands · 4 steps · ~5 days end to end"
+        ],
+        "cards": [
+          {
+            "title": "Immediate Access",
+            "body": [],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Plug-and-Play Excellence",
+            "body": [],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Zero Overhead Scaling",
+            "body": [],
+            "items": [],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "They don't arrive alone. They arrive with their agents.",
+        "body": [
+          "How our engineers actually work",
+          "25 AI-native engineers, trained in-house by the ManasFlow team. Every one of them ships with the same agent stack we use ourselves - that's why one of our engineers ships like three normal hires.",
+          "The spine · 5 tools, zero glue code",
+          "Claude Code is the brain. Everything else plugs in through MCP. The same opinionated stack across every engagement - from bootstrapped founders to publicly listed enterprise.",
+          "25 engineers on the bench. 1 dedicated per client. Same stack, same standard, every engagement."
+        ],
+        "cards": [
+          {
+            "title": "Architecture before code.",
+            "body": [
+              "01 · Design",
+              "We audit your stack, decide what runs as an agent, what runs as n8n, what stays manual. Roadmap locked in week one."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Live in 10 days, not 10 weeks.",
+            "body": [
+              "02 · Build",
+              "Engineer embeds in your Slack, gets repo access, ships the first working automation in week two. No decks, real output."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "We run it with you, not at you.",
+            "body": [
+              "03 · Operate",
+              "Weekly tuning, new automations, performance dashboards. The wedge. We don't hand over and walk away."
+            ],
+            "items": [],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "We're not a staffing agency. We're Automation Architects.",
+        "body": [
+          "We are a specialized AI Development Company led by engineers, for engineers.",
+          "Powering automation for industry leaders"
+        ],
+        "cards": [
+          {
+            "title": "the ManasFlow team",
+            "body": [
+              "The Architect: An n8n automation expert with deep expertise in product engineering."
+            ],
+            "items": [
+              "Architect of 500+ scalable workflows",
+              "Expert in Workflow Automation Services",
+              "Relentless execution speed"
+            ],
+            "links": []
+          },
+          {
+            "title": "the ManasFlow team",
+            "body": [
+              "The Strategist: A former AI Engineer at IBM with specialized expertise in GenAI and MLOps."
+            ],
+            "items": [
+              "Leader in Generative AI Integration",
+              "Modular AI Agent design specialist",
+              "Ensures systems scale from Day 1"
+            ],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Coding changed. Engineers stopped being the bottleneck.",
+        "body": [
+          "The new AI software engineering",
+          "The bottleneck moved to orchestration - who can wire agents, subagents, MCP connectors, and sandboxed compute into a system that ships. Our engineers were trained for exactly that."
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "We raise your Engineering Bar.",
+        "body": [
+          "We provide \"Multiplier Workshops\" to ensure your internal culture evolves alongside our code."
+        ],
+        "cards": [
+          {
+            "title": "Full-Stack Best Practices",
+            "body": [
+              "Structuring projects for speed and maintainability. Clean architecture is the standard."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Generative AI Integration",
+            "body": [
+              "Embed Generative AI deeply into everyday workflows to automate the \"boring stuff.\""
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Scaling Agile Processes",
+            "body": [
+              "Instilling the discipline of a Managed AI Development Team into your company DNA."
+            ],
+            "items": [],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "The ManasFlow Advantage.",
+        "body": [
+          "Why leading tech firms switch from freelancers to our Dedicated Development Team model."
+        ],
+        "cards": [
+          {
+            "title": "Zero Onboarding Waste",
+            "body": [
+              "Our engineers are ready to deliver from Day One."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Engineers Who Stay",
+            "body": [
+              "Mentored directly by our founders, ensuring long-term stability."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Senior Engineers Only",
+            "body": [
+              "No junior bench learning on your project. Every engineer is vetted for production-grade delivery before they touch your roadmap."
+            ],
+            "items": [],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between hiring AI developers here and a marketplace like Upwork?",
+        "answer": "Marketplaces connect you to individual freelancers you still have to vet, manage, and coordinate. We assign one senior AI engineer who orchestrates a fleet of AI agents, so you get the output of a dedicated AI development team without the sourcing, interviewing, or day-to-day management."
+      },
+      {
+        "question": "Do I get a dedicated AI development team?",
+        "answer": "Yes. Your engineer works exclusively on your roadmap, backed by a fleet of agents handling scaffolding, testing, and deployment in parallel. It functions as a dedicated AI development team, run by one accountable engineer instead of a rotating bench."
+      },
+      {
+        "question": "Can one engineer really replace a 5-person team?",
+        "answer": "One engineer plus a coordinated fleet of AI agents can cover the ground a 5-person team used to: feature work, QA, deployment, and monitoring running in parallel instead of in sequence. The engineer directs the fleet and owns the output."
+      },
+      {
+        "question": "What can your AI agents build?",
+        "answer": "Product features end to end, internal tools, workflow automations, GTM pipelines, and agentic systems wired into your existing stack through MCP connectors. See the roles above for the exact skill sets we deploy."
+      },
+      {
+        "question": "Do I need to manage the AI agents myself?",
+        "answer": "No. Your senior AI engineer directs the fleet. You get status updates and shipped work, not a queue of agents to configure."
+      },
+      {
+        "question": "What does hiring a dedicated AI development team cost?",
+        "answer": "Pricing depends on scope and the number of engineers you need. Book a kickoff call and we will scope your roadmap and quote a plan before any work starts."
+      },
+      {
+        "question": "How is this different from Engineer Placement or Forward Deployed Engineers?",
+        "answer": "This is the flagship offer: choose 1 to 5 engineers across three role types (Forward Deployed Engineer, GTM Engineer, AI Automation Architect) and we assemble the team. Engineer Placement is the deep dive on the staffing process itself, timeline, and the 90-day replacement guarantee. Forward Deployed Engineers is the deep dive on that specific embedded-engineer role. If you already know you want one embedded engineer, start on whichever of those two matches your need; if you want a multi-role team or are not sure which role fits, start here."
+      },
+      {
+        "question": "Where can I find AI developers for hire?",
+        "answer": "Most \"AI developers for hire\" searches lead to a marketplace of individual freelancers you still have to vet, interview, and manage yourself. We're the alternative: one senior AI engineer, backed by a fleet of AI agents, hired the same way you'd hire a dedicated team member, not sourced from a freelancer pool."
+      },
+      {
+        "question": "Can I hire your team for AI automation specifically?",
+        "answer": "Yes, if automation is the whole need rather than a broader embedded engineer, see our AI Automation Agency and Custom Automation pages, which cover n8n workflows and agent-driven automation directly. This flagship offer is the right starting point when you want an AI developer covering automation plus everything else on your roadmap, not automation alone."
+      }
+    ],
+    "heroCards": [],
+    "examples": [],
+    "language": "en"
+  },
+  {
+    "route": "/grok-bot-examples",
+    "kind": "examples",
+    "title": "Grok Bot examples: what people actually use it for",
+    "description": "Grok Bot is xAI's agent product, in beta since August 11, 2026. Each bot gets a role, its own logins and a cloud computer, and keeps working after you close your laptop.",
+    "sections": [
+      {
+        "title": "Before you build with Grok Bot",
+        "body": [
+          "What it is, what it costs, where it breaks, and how far to trust the examples on this page."
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [
+          {
+            "label": "Book a free strategy call",
+            "href": "/consultation"
+          },
+          {
+            "label": "Submit an example",
+            "href": "/contact"
+          }
+        ],
+        "numbered": false
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Grok Bot?",
+        "answer": "Grok Bot is xAI's agent product, released in beta on August 11, 2026. Each bot has a role you give it, its own logins to your tools and a cloud computer, so it keeps working after you close your laptop. Our launch breakdown covers how it works in detail."
+      },
+      {
+        "question": "What can you do with Grok Bot?",
+        "answer": "The public examples on this page cover inbox triage and drafted replies, prospect research and follow-ups, scheduled research briefs, calendars and errands, repo work through Cursor cloud agents, and content posting. We list 293 posts, videos and repos, grouped into nine use cases, and 30 prompts you can copy."
+      },
+      {
+        "question": "How much does Grok Bot cost?",
+        "answer": "At launch, access came with SuperGrok Heavy at scope-based pricing a month, Cursor Ultra at scope-based pricing a month and Cursor Teams Premium at scope-based pricing per seat a month, according to our launch breakdown. On August 21, 2026 the official @bot account on X announced access for SuperGrok Plus, Cursor Pro+ and Cursor Teams subscribers, plus a free trial with limited usage. Plans change often, so check xAI and Cursor before you buy."
+      },
+      {
+        "question": "Why do people hit Grok Bot usage limits?",
+        "answer": "Several posters, citing xAI's docs, say usage is metered by agent steps and tokens, not by messages, so a vague task that wanders costs more than a scoped one. Others report burning a large share of a weekly allowance on day one by running many bots in parallel. The Limits and counterpoints filter collects these reports, and one prompt in the Prompts section scopes a task so it stops after three items."
+      },
+      {
+        "question": "Is it safe to give a Grok Bot my logins?",
+        "answer": "Treat every bot as having your full access. xAI's launch material describes a computer for each bot, but posters quoting xAI's security docs say all bots on one account share one computer, one set of browser sessions and one set of files, and that separate bots are not a security boundary. We have not verified either reading against the current docs. Sign in only to services the whole roster may touch, keep sends behind your approval, and hand back passwords and one-time codes yourself."
+      },
+      {
+        "question": "Can Grok Bot handle my email?",
+        "answer": "Posters use it to clean out large inboxes, summarize school and vendor mail, and draft replies in their own voice. The prompts on this page are draft-only: they tell the bot never to send, archive or label anything. One LinkedIn poster reported a bulk send that put customer addresses in the To field, so review before any message leaves your account."
+      },
+      {
+        "question": "How does Grok Bot compare with OpenClaw and Hermes?",
+        "answer": "Posters describe Grok Bot as the easiest to set up because xAI hosts the computer, and OpenClaw and Hermes as the ones that give you control over the model, memory files and per-agent isolation. Our launch breakdown notes that Grok Bot picks the underlying model itself and has no model selector. Which tradeoff wins depends on how much control your workflow needs."
+      },
+      {
+        "question": "Do the prompts on this page work?",
+        "answer": "They are copied word for word from public posts, with the author and a link to each, and ManasFlow has not tested them. Results depend on your plugins, your account and how much context the bot has. Start with a read-only or draft-only job, check the output, then widen what the bot may do."
+      },
+      {
+        "question": "Has ManasFlow used Grok Bot on client work?",
+        "answer": "No. We track what people are building with it and test where agent workflows fit real business processes. If you have a routine, inbox or research process you want to pilot with agents, book a call and we will tell you what is worth automating first."
+      },
+      {
+        "question": "Are the results and money claims on this page real?",
+        "answer": "We have not verified them. Every number is the poster's own claim. We left out posts that only showed a profit screenshot or a claim of turning a small sum into a large one, and we kept builds, prompts, tests and critical reviews. Treat trading and income posts, including any in the finance category, as unverified."
+      }
+    ],
+    "heroCards": [],
+    "examples": [
+      {
+        "title": "Work-inbox reply assistant (start of a longer instruction)",
+        "category": "email",
+        "description": "A public prompt attributed to mr fundman. Review it for your context before use.",
+        "code": "You are my work-inbox reply assistant running as a Grok Bot / Automation.\n\nPrimary goal: Scan my work inbox for messages received since the last successful run of this job that plausibly need a human reply from me. Produce short digests + proposed replies in my voice. Never send anything. If nothing qualifies, produce zero output.",
+        "source": "https://x.com/mrfundman/status/2089133178636177886",
+        "author": "mr fundman",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Scan the inbox and draft replies",
+        "category": "email",
+        "description": "A public prompt attributed to Kirill. Review it for your context before use.",
+        "code": "Scan my work inbox for messages since the last run that plausibly need a reply: customer and prospect threads, renewal or pricing questions, intros, direct questions to me. Skip newsletters, automated notifications, receipts, calendar RSVPs, and internal noise. For each one, give me a short digest in chat: sender, subject, one line on what they need, and a proposed reply in my voice. Do not auto-send. If nothing needs a reply, send no message at all.",
+        "source": "https://x.com/kirillk_web3/status/2095447962080158191",
+        "author": "Kirill",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Follow-up drafts from call notes",
+        "category": "outreach",
+        "description": "A public prompt attributed to Kirill. Review it for your context before use.",
+        "code": "Find external calls that ended since the last run, meaning any meeting with an attendee outside my company's domains. Meeting notes are the source of truth. Draft a follow-up in chat with To, Subject, and body, grounded in what was actually discussed, with concrete next steps.",
+        "source": "https://x.com/kirillk_web3/status/2095447962080158191",
+        "author": "Kirill",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "A watcher bot that reviews the rest of the team (start of a longer instruction)",
+        "category": "ops",
+        "description": "A public prompt attributed to Kintsugijin. Review it for your context before use.",
+        "code": "You are the Refiner and independent observer for the bot team.\nYour role:\n\nQuietly observe the activity and outputs of the other bots and the overall system.\nLook for gaps, redundancies, inconsistencies, inefficiencies, missed opportunities, or areas where the team’s performance or structure could be improved.\nIdentify things I may not be noticing — whether related to process, coverage, quality, or strategy.\nThink independently and outside existing assumptions.\nReport your observations and suggestions only to me.",
+        "source": "https://x.com/Kintsugijin/status/2091010246583996479",
+        "author": "Kintsugijin",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Audit every subscription and service you pay for",
+        "category": "finance",
+        "description": "A public prompt attributed to klöss. Review it for your context before use.",
+        "code": "these are my accounts […] and the Chrome profiles […]. go through every service I’m logged into and audit our current plans, usage, configuration and spend.\n\nfind anything I’m overspending on, duplicates, things left idle, and/or misconfigurations costing me\n\ndo not change anything yet.\n\npresent me with every opportunity to reduce cost, ranked by monthly savings, risk and effort.",
+        "source": "https://x.com/kloss_xyz/status/2100817479522234503",
+        "author": "klöss",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Scope a task so it uses fewer agent steps",
+        "category": "limits",
+        "description": "A public prompt attributed to unicode. Review it for your context before use.",
+        "code": "Task: [what]. Work in: [tools]. Context: [files/links]. Done means: [exact result]. Do the first 3 items, then stop and show me",
+        "source": "https://x.com/unicodef1wn/status/2098087818564182038",
+        "author": "unicode",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Turn a task that worked into a reusable skill",
+        "category": "ops",
+        "description": "A public prompt attributed to unicode. Review it for your context before use.",
+        "code": "Save the process we just used as a skill called [name]. Include inputs, steps, output format, and what needs my approval",
+        "source": "https://x.com/unicodef1wn/status/2098087818564182038",
+        "author": "unicode",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Point a bot at a plugin directory and approve what it picks",
+        "category": "research",
+        "description": "A public prompt attributed to Miles Deutscher. Review it for your context before use.",
+        "code": "I need you to scan this entire website [URL below]. Scan for useful plugins, skills, and agents that you think I should install. Return a list of the top 10-15. Then, I'll manually approve for you to install them.",
+        "source": "https://x.com/milesdeutscher/status/2098233567449071825",
+        "author": "Miles Deutscher",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Cross-post new X posts as drafts (prompt from Nevo David, as posted by Ziwen)",
+        "category": "content",
+        "description": "A public prompt attributed to Ziwen. Review it for your context before use.",
+        "code": "Create a routine that runs every 20 minutes. Check if I have new posts on X, not replies. If so, schedule them to Bluesky and LinkedIn via Postiz as draft.",
+        "source": "https://x.com/ziwenxu_/status/2092664193099149417",
+        "author": "Ziwen",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Find an invite across Slack and Gmail",
+        "category": "research",
+        "description": "A public prompt attributed to matt palmer. Review it for your context before use.",
+        "code": "I think I saw an invite for an event on Friday, but I can't remember if it was in Slack or Gmail - can you find it for me?",
+        "source": "https://x.com/mattyp/status/2091918457742954910",
+        "author": "matt palmer",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Two-way calendar sync as a routine",
+        "category": "scheduling",
+        "description": "A public prompt attributed to matt palmer. Review it for your context before use.",
+        "code": "Make sure events on my personal calendar are always blocked on my work calendar",
+        "source": "https://x.com/mattyp/status/2091918457742954910",
+        "author": "matt palmer",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Morning briefing by voice",
+        "category": "ops",
+        "description": "A public prompt attributed to klöss. Review it for your context before use.",
+        "code": "tell me what finished overnight, what failed, what changed, and what actually needs my attention",
+        "source": "https://x.com/kloss_xyz/status/2100675549614244225",
+        "author": "klöss",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "End-of-day status question",
+        "category": "ops",
+        "description": "A public prompt attributed to klöss. Review it for your context before use.",
+        "code": "what did our team accomplish today, what's still running, what's blocked, and what should happen while I sleep?",
+        "source": "https://x.com/kloss_xyz/status/2100675549614244225",
+        "author": "klöss",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Profile description for a reminder bot",
+        "category": "scheduling",
+        "description": "A public prompt attributed to Teslaconomics. Review it for your context before use.",
+        "code": "Reminder specialist. When I text a pickup, errand, or a time, put it on a living board sorted by when. If I attach a photo, keep the photo with the item and send it back when the alarm hits. Alarm me at the time I gave. Stay quiet at night unless I said urgent. Never invent items. Confirm in 2 lines. Ask only if you truly cannot tell what I meant.",
+        "source": "https://x.com/Teslaconomics/status/2090134414609232158",
+        "author": "Teslaconomics",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Migrate a Claude Code or Codex setup into Grok Bot (start of a longer prompt)",
+        "category": "coding",
+        "description": "A public prompt attributed to Axel Bitblaze 🪓. Review it for your context before use.",
+        "code": "Prepare my current setup for Grok Bot.\nInspect this project and my existing agent configuration files, including skills, memory files, CLAUDE.md, AGENTS.md, saved commands and workflow docs.\n\nDo not read or include .env files, API keys, passwords, cookies, wallet data, private keys, seed phrases or session files.",
+        "source": "https://x.com/Axel_bitblaze69/status/2089763733035950155",
+        "author": "Axel Bitblaze 🪓",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Ask what bots to create first",
+        "category": "ops",
+        "description": "A public prompt attributed to klöss. Review it for your context before use.",
+        "code": "Based on everything you know about me, what are the 5 most valuable Grok bots I should create first, and why?",
+        "source": "https://x.com/kloss_xyz/status/2092327347525689415",
+        "author": "klöss",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Meeting notes into action items",
+        "category": "ops",
+        "description": "A public prompt attributed to fleyta. Review it for your context before use.",
+        "code": "every 30 minutes, the bot checks Fathom, ingests the transcript, writes the meeting summary + action items, then adds the next steps to a to-do list",
+        "source": "https://x.com/fleyta88/status/2092356977049600236",
+        "author": "fleyta",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Find workflows worth automating",
+        "category": "ops",
+        "description": "A public prompt attributed to ericosiu. Review it for your context before use.",
+        "code": "Based on how I work, what are the highest leverage workflows I repeat often enough to turn into autonomous agents?",
+        "source": "https://x.com/ericosiu/status/2091231428184822258",
+        "author": "ericosiu",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Content topic scoring routine",
+        "category": "content",
+        "description": "A public prompt attributed to ericosiu. Review it for your context before use.",
+        "code": "Monitor Gong, X, YouTube, and our existing content, Find topics we have authority on, Score them by TOFU / MOFU / BOFU potential, Return the highest priority SEO + AEO briefs",
+        "source": "https://x.com/ericosiu/status/2091231428184822258",
+        "author": "ericosiu",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Meal planning and grocery ordering team (start of a longer prompt)",
+        "category": "scheduling",
+        "description": "A public prompt attributed to Michael | AI + Agents. Review it for your context before use.",
+        "code": "You are a systems architect specializing in multi-agent AI workflows, tasked with designing a team of three specialized agents that together eliminate the time I spend planning, ordering, and cooking food.\n\nMy situation: I'm [YOUR CONTEXT / TIME CONSTRAINT]. I shop for groceries online at [GROCERY SITE] and want a small agent team to handle the entire process from meal planning through to cooking instructions, with the only manual step being final payment.",
+        "source": "https://x.com/Michael_Fenech_/status/2091452896738935246",
+        "author": "Michael | AI + Agents",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Weekly company brief",
+        "category": "research",
+        "description": "A public prompt attributed to Swadesh Kumar. Review it for your context before use.",
+        "code": "Every Friday, research the five companies I track, identify the three developments that could affect my business, and send me a one-page brief with sources.",
+        "source": "https://www.linkedin.com/posts/swadesh-kumar_grok-bot-makes-it-dangerously-easy-to-build-share-7506331422115205120-yzyo",
+        "author": "Swadesh Kumar",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Weekly competitor scan",
+        "category": "research",
+        "description": "A public prompt attributed to Samarasimha Reddy Peyala. Review it for your context before use.",
+        "code": "Every Monday, research my competitors across Reddit, X, YouTube, and the web. Send me only the three developments that could affect our strategy.",
+        "source": "https://www.linkedin.com/posts/samarasimhapeyala_learn-grok-bot-before-everyone-starts-charging-share-7506332745409777664-xUXI",
+        "author": "Samarasimha Reddy Peyala",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Meeting prep brief",
+        "category": "scheduling",
+        "description": "A public prompt attributed to Samarasimha Reddy Peyala. Review it for your context before use.",
+        "code": "Before every meeting, read my calendar, search my previous conversations with that person, and prepare a one-page briefing.",
+        "source": "https://www.linkedin.com/posts/samarasimhapeyala_learn-grok-bot-before-everyone-starts-charging-share-7506332745409777664-xUXI",
+        "author": "Samarasimha Reddy Peyala",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Overdue invoice follow-up",
+        "category": "email",
+        "description": "A public prompt attributed to Samarasimha Reddy Peyala. Review it for your context before use.",
+        "code": "Monitor my inbox for invoices, refunds, and unresolved payments. Follow up when something is overdue.",
+        "source": "https://www.linkedin.com/posts/samarasimhapeyala_learn-grok-bot-before-everyone-starts-charging-share-7506332745409777664-xUXI",
+        "author": "Samarasimha Reddy Peyala",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Document a bot team so it can be rebuilt",
+        "category": "ops",
+        "description": "A public prompt attributed to Lior Pozin. Review it for your context before use.",
+        "code": "Write a guide for Grok Bot to recreate every agent in this system. Instructions, skills, plugins, memory, routines.",
+        "source": "https://www.linkedin.com/posts/liorpozin_grok-bot-broke-my-sleep-if-your-day-ends-share-7505256214914732032-NnZd",
+        "author": "Lior Pozin",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Single-task operator",
+        "category": "ops",
+        "description": "A public prompt attributed to Matthew Sutherland. Review it for your context before use.",
+        "code": "You are my operator for this one task. Outcome I need: [one sentence]. Current state: [three bullets]. Do not redesign the work. Find the constraint, propose the smallest next step, then wait for my go.",
+        "source": "https://www.linkedin.com/posts/matthewsutherland_short-version-i-recommend-it-highly-but-share-7505288373780082688-Lx2C",
+        "author": "Matthew Sutherland",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Repository bug review",
+        "category": "coding",
+        "description": "A public prompt attributed to Phillip V.. Review it for your context before use.",
+        "code": "Review this repository for bugs and identify the highest priority fixes.",
+        "source": "https://www.linkedin.com/posts/phillip-v-4aaa07108_ai-grok-aiagents-ugcPost-7507459585310539776-3H0n",
+        "author": "Phillip V.",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Rule-based ETH trade (poster's example)",
+        "category": "finance",
+        "description": "A public prompt attributed to Seshadri Pillailokam. Review it for your context before use.",
+        "code": "Check every 10 minutes and if the ETH RSI is below 40 buy $100 worth of it; sell existing ones if the RSI is above 60.",
+        "source": "https://www.linkedin.com/posts/seshadri-pillailokam-2a3713a_algorithmictrading-generativeai-agenticai-share-7507179465941311489-zKch",
+        "author": "Seshadri Pillailokam",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Support email to codebase investigation",
+        "category": "coding",
+        "description": "A public prompt attributed to MICHAEL FENECH. Review it for your context before use.",
+        "code": "Read the email, investigate the issue in the codebase, and draft a response to the customer.",
+        "source": "https://www.linkedin.com/posts/aioperator_want-to-save-time-handling-customer-support-share-7497831298573574145-nOOm",
+        "author": "MICHAEL FENECH",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "Ad account audit and retargeting draft",
+        "category": "content",
+        "description": "A public prompt attributed to Joel H.. Review it for your context before use.",
+        "code": "Grok, audit our X Ads campaign performance over the last 7 days, identify our highest converting audience signals, and stage a $50/day retargeting campaign with 3 fresh copy variants.",
+        "source": "https://www.linkedin.com/posts/joelshorwitz_for-20-you-can-now-hire-a-grok-bot-to-share-7497342081900654592-8ze7",
+        "author": "Joel H.",
+        "language": "",
+        "license": "Public post",
+        "fileType": "Prompt"
+      },
+      {
+        "title": "If you're building a Grok Bot team, I'd start with these six roles.",
+        "category": "ops",
+        "description": "If you're building a Grok Bot team, I'd start with these six roles. I moved some work from other agent tools into Grok Bot and reassigned ownership. A Bot needs recurring work, its own memory and task list, and regular handoffs. One-off capabilities stay as Skills or routines. 1. Nexus (Coordination) This is the Bot I use most. It reads today's tasks and each Bot's checkpoint, sets priorities, then hands the work to the right role. It also runs the nightly review, but only updates one TEAM_ALIGNMENT.md file. Conflicts, external messages, spending, and changes to important files come back to me. 2. Scout (Research and Leads) Scout reads X, GitHub, documentation, papers, and videos, and runs the daily content radar. Every result needs a source, a reason it is worth following, and a clear next owner. Content signals go to Quill, customer leads go to Guide, and technical issues go to Forge. 3. Quill (Content) Quill reads my writing rules, previous work, and approved phrasing, then turns research into posts, articles, and replies. When facts are missing, it asks Scout. For code or product details, it asks Forge. It prepares drafts but never publishes on its own. 4. Forge (Engineering and Automation) Forge writes code, builds automations and MCPs, deploys, and verifies the result. Guide can call it when a customer asks a technical question. Nexus can hand it repetitive work to turn into a tool. Every delivery needs test results, screenshots, or files I can inspect. A delivery does not count as complete without that evidence. 5. Guide (Customers and Delivery) Guide manages customers, prospects, briefs, feedback, delivery, and follow-up. Each important customer gets a separate context packet containing recent conversations, current goals, promises made, and open problems. Guide asks Scout to research a company or contact, and asks Forge for technical answers. Customer emails and messages remain drafts. 6. Ledger (Finance and Reconciliation) Ledger reads Wise, PayPal, invoices, and subscription data through my self-hosted MCP, then handles reconciliation, revenue records, and anomaly alerts. The real API keys stay on my own server. Ledger can prepare payment or refund recommendations, but every financial write still needs my approval. Once the roles are set, give each Bot the Plugins it needs. For example, Nexus can use Gmail, Calendar, Slack, and Granola. Quill can read Drive and Notion. Guide can use Gmail, Slack, and meeting notes. Forge can connect to code repositories and cloud services. Ledger continues to use my self-hosted MCP. Repeated methods become Skills. Work that needs to run on a schedule becomes a routine. That creates a basic loop: Plugins provide data and tools → a Skill defines the method → a routine triggers on schedule → the Bot completes the task or hands it to another Bot → I approve external messages, publishing, and financial actions For example, Guide's heartbeat checks the customer inbox on a schedule. When a new email arrives, the Gmail Plugin reads the full thread. Guide then opens that customer's context packet to see what was discussed before and what is currently blocked. If the email contains a technical question, Guide asks Forge to verify the answer. Once Forge replies, Guide writes the email draft and labels it: BOT DRAFT · NOT SENT · HUMAN REVIEW REQUIRED Nexus adds the email to my pending report and reminds me that a customer reply needs review. The email is sent only after I approve it. I wouldn't create separate Bots for meeting prep, 1:1 reviews, data analysis, revenue forecasting, slides, or call reviews. Meeting prep and 1:1 reviews are Nexus routines. Ledger or Guide can run forecasting and data analysis when needed. Slides are a Skill called by Quill or Forge. Scout finds prospects, and Guide handles the follow-up. Bot = owns an ongoing work queue and needs its own memory Skill = a reusable method Routine = a task triggered on a schedule Packet = context for one customer or project Connector / MCP = access to external data and tools I start new capabilities as Skills. Once something has recurring work, its own state, and frequent handoffs with other Bots, then I create a Bot for it. This takes me back to the OpenClaw setup I built six months ago. I used almost the same roles then, but had to wire the whole thing together myself across a VPS, Vercel, and Supabase. The part I wanted most was smooth coordination: Bots messaging each other in the background, handing off tasks, and talking in a group. I spent way too many hours trying to make that work and probably lost some hair over it lol. The UX was still clunky. Six months later, bigger companies are moving into this space. They’re treating coordination as part of the product, which is a very different route from the DIY agent stacks I was building. Grok Bot’s group chats still aren’t perfect, but the handoffs and background messaging already feel much more natural.",
+        "code": "",
+        "source": "https://x.com/Voxyz_ai/status/2089355252306767990",
+        "author": "Vox",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "I launched Grok Bot for 24 hours, gave it 3 jobs, and stopped treating AI like a chatbot.",
+        "category": "research",
+        "description": "I launched Grok Bot for 24 hours, gave it 3 jobs, and stopped treating AI like a chatbot. I had it scan live X + web data for emerging AI products, research what people were actually saying about them, filter the obvious engagement bait, compare sources and turn the strongest signals into a structured brief. At the same time, I could have separate research paths looking at competitors, code or market opportunities instead of forcing everything through one conversation. That’s the difference I underestimated. I don’t want to sit inside a chat writing another prompt every 5 minutes. I want to define the objective, give the agent access to the right tools and data, let it execute, then step back in when judgment or approval is actually needed. The old workflow was prompt → answer → copy → repeat. The workflow I’m moving toward is assign → execute → verify. Once AI stops waiting for your next message, it stops feeling like software you use and starts feeling like work you delegated.",
+        "code": "",
+        "source": "https://x.com/Lummox_eth/status/2090790015513051289",
+        "author": "Lummox",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "My Grok Bots manage my inbox, and they all have their own.",
+        "category": "email",
+        "description": "My Grok Bots manage my inbox, and they all have their own. The setup is pretty straightforward: 1. Create an AgentMail inbox for the bot. 2. Connect AgentMail in the Grok Bot marketplace, then create a routine that runs when a webhook fires. 3. Copy the Grok Bot webhook URL and authorization key into an AgentMail webhook. 4. Filter that webhook to a specific inbox ID, otherwise multiple bots can react to the same incoming emails. One important caveat: treat the webhook URL and key like any other credential. If someone has both, they can trigger your bot. Once it is connected, an email can wake the right bot, it can do the work, and it can reply in the same thread. Link to the full video is in the comments 👇",
+        "code": "",
+        "source": "https://www.linkedin.com/posts/nateherkelman_my-grok-bots-manage-my-inbox-and-they-all-ugcPost-7505781783054065665-4I_Z",
+        "author": "Nate Herk",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "linkedin"
+      },
+      {
+        "title": "Phone calls with Grok Bot",
+        "category": "ops",
+        "description": "Phone calls with Grok Bot. Give your Grok Bot a phone number Dial Bot: 00:00 What we're building 00:19 Installing the Dialbot template 00:54 Bland API key and voice setup 02:39 Why use a calling agent 03:20 Live demo call 04:50 Reviewing the transcript and cost 05:38 Chaining bots Walkthrough of a Grok Bot template that uses the Bland API to place real phone calls from an agent. Setup covers generating a Bland API key, cloning a voice, and wir",
+        "code": "",
+        "source": "",
+        "author": "",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "youtube"
+      },
+      {
+        "title": "Getting Started with Grok Bot",
+        "category": "ops",
+        "description": "Getting Started with Grok Bot 01:00 What is @Bot? 05:26 Anatomy of a bot 08:49 3 ways to run 12:04 Multi-bot chains 16:06 Workflow 1: X followers to @Notion 20:29 Workflow 2: Personal software 23:08 Workflow 3: Coding with @cursor_ai 26:44 Workflow 4: Search 28:27 Recap",
+        "code": "",
+        "source": "https://x.com/mattyp/status/2092286281266962681",
+        "author": "matt palmer",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "kydlikebtc/awesome-grokbot",
+        "category": "ops",
+        "description": "730 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual EN/中文 catalog with a JSON schema, CI, and a searchable site.",
+        "code": "",
+        "source": "https://github.com/kydlikebtc/awesome-grokbot",
+        "author": "kydlikebtc/awesome-grokbot",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "github"
+      },
+      {
+        "title": "Each day, Grok Bot looks at my X Bookmarks for things I find interesting, then it spins up a Cursor Agent to build a dem",
+        "category": "coding",
+        "description": "Each day, Grok Bot looks at my X Bookmarks for things I find interesting, then it spins up a Cursor Agent to build a demo It validates work with screenshots / video, then cuts a branch on a repo configured with @Cloudflare preview deploys @Bot sends me a link each morning and I get to see the tech for myself Today, it picked cobe from @shuding If you can do it, it can be automated",
+        "code": "",
+        "source": "https://x.com/mattyp/status/2099482348010328185",
+        "author": "matt palmer",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "i love @grok @bot",
+        "category": "ops",
+        "description": "i love @grok @bot i do not love my sidebar with 28 random agents here is a simple way to organize your grok bot team: don't grab a template and a cute icon use an org system one chief of staff as the main interface. pin it to the top then project leads, not task bots. they share specialist bots across projects pin the active leaders. hide the specialists use the default colors, don't make your own. it kills the animation and is less functional chief is the only purple bot, and the only cloud shape leads are triangles, each a unique color specialists are all green squares two channels: All Hands every weekday before i'm awake. chief runs this with active project leads. it coordinates projects, resources, and my calendar. then one channel per active project, let your lead bot invite the specialists it needs that's it link to my bot templates below, including one to help you organize your Grok Bots into this exact system and one to clean and back up your workspace",
+        "code": "",
+        "source": "https://x.com/theaaron/status/2094547433447669786",
+        "author": "Aaron Makelky",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "I gave my @bot his own email and credit card...",
+        "category": "ops",
+        "description": "I gave my @bot his own email and credit card... (you can to, it takes 5 minutes) The most underappreciated feature of grokbot imo is the \"webhook trigger\" for routines. When my bot receives an email, it automatically runs. I can forward emails to him. I can put him on email chains. as soon as he gets an email, he runs a routine. Oh and he also has a credit card and can buy things, using @link ... 00:00 Intro 01:20 Part 1: Giving the Agent an Email @agentmail 02:55 Creating the GrokBot (Meet Jimmy) 04:18 AgentMail Plugin Setup 07:05 Setting Up Email Webhooks 12:15 Part 2: Giving the Agent a Credit Card (Stripe Link) 14:42 Testing: Buying from Amazon via Email 17:27 Recap: How It All Works",
+        "code": "",
+        "source": "https://x.com/rileybrown/status/2095173903991640106",
+        "author": "Riley Brown",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "Giving Grok Bot a Phone",
+        "category": "ops",
+        "description": "Giving Grok Bot a Phone 00:19 Installing Dialbot 00:54 Bland voice setup 02:39 Why use a calling agent? 03:20 Live demo call 04:50 Reviewing the transcript and cost 05:38 Chaining bots @Bot can do anything you can - this is one way to make calls",
+        "code": "",
+        "source": "https://x.com/mattyp/status/2098155792327381294",
+        "author": "matt palmer",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "7 Grok Bot agents I use every day",
+        "category": "ops",
+        "description": "7 Grok Bot agents I use every day. I’m running about 30 active agents at any given moment, and in this episode I break down my full Grok Bot setup: what it is, how it compares to OpenClaw, and the nine bots I’ve built for work and my personal life. We go deep on Chief (my chief-of-staff bot sweeping six inboxes and multiple Slack workspaces), TradBot (the family agent that prints a kitchen-table newspaper for my kids), two engineering bots handling my",
+        "code": "",
+        "source": "",
+        "author": "",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "youtube"
+      },
+      {
+        "title": "unicodef1wn/grokbot-field-notes",
+        "category": "ops",
+        "description": "Rules, playbooks, bot roles and a failure log from the xAI Grok Bot team's 72-hour live build. Drop AGENTS.md into your repo and go.",
+        "code": "",
+        "source": "https://github.com/unicodef1wn/grokbot-field-notes",
+        "author": "unicodef1wn/grokbot-field-notes",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "github"
+      },
+      {
+        "title": "I Gave GrokBot Its Own Email and Credit Card (It Actually Worked)",
+        "category": "ops",
+        "description": "I Gave GrokBot Its Own Email and Credit Card (It Actually Worked). Give Your GrokBot an Email and a Credit Card (Full Setup)... GrokBot is the Cursor/SpaceX AI agent platform, and in this video I show you how to give your agent its own email address (with webhook triggers) and its own virtual credit card using the new Stripe Link integration so it can receive emails, take action, and autonomously buy things. Setup takes about 5-10 minutes. Chapters 00:00 Intro 01:20 Part 1: Giving t",
+        "code": "",
+        "source": "",
+        "author": "",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "youtube"
+      },
+      {
+        "title": "Been quiet on LinkedIn for a bit due to unforeseen circumstances (iykyk).",
+        "category": "ops",
+        "description": "Been quiet on LinkedIn for a bit due to unforeseen circumstances (iykyk). Biggest shift while I was away: time I used to spend wrestling tools now goes into Grok Bot. Roughly 34 days. About 31 specialist agents. ~1.3 GB transcripts / ~208k lines. ~8.3k messages that are basically me talking to the system. Mail digests and retros on rails. ~20 connectors into tools I already live in. Why it stuck: Remote computer: work doesn’t die when I close a tab. It solves problems, not just chats about them. Feels like a personal Slack with specialists who hand work to each other. And when something has to ship, it can ship. If you’ve tried standing up your own agent desk: what actually made it stick for you: the model, the tools, or the workflow?",
+        "code": "",
+        "source": "https://www.linkedin.com/posts/hhq_been-quiet-on-linkedin-for-a-bit-due-to-unforeseen-share-7505848623260192768-7SNt",
+        "author": "Heqing Huang",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "linkedin"
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "route": "/jev-builds",
+    "kind": "examples",
+    "title": "Jev use cases and examples: what people are building",
+    "description": "Public builds, tests, repositories, and guides from X, LinkedIn and GitHub in the first days after TypeSafe launched Jev on September 15, 2026, sorted by use case. Numbers are each poster's own claims. We include the tests where Jev fell short.",
+    "sections": [
+      {
+        "title": "Before you build with Jev",
+        "body": [
+          "What it is, what people have really shipped, and how far to trust the numbers on this page."
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [
+          {
+            "label": "Save $$$ by switching to Jev",
+            "href": "/consultation"
+          },
+          {
+            "label": "Submit a build",
+            "href": "/contact"
+          }
+        ],
+        "numbered": false
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Jev?",
+        "answer": "Jev is TypeSafe's System One model. It does not write text. You send it a state and typed questions, and it returns a choice, a yes/no probability or a score, each with a probability and a confidence value."
+      },
+      {
+        "question": "What have people built with Jev?",
+        "answer": "Since the September 15, 2026 launch, public posts show browser agents, email and ticket triage, real-time game and drone control, trading loops with confidence gates, evaluation scorers and research labeling. This page lists them by category."
+      },
+      {
+        "question": "Are the numbers on this page verified?",
+        "answer": "No. Every figure is the poster's own claim, marked as such. ManasFlow has not rerun these projects. For our own test, see the independent Jev benchmark on our blog."
+      },
+      {
+        "question": "Has ManasFlow used Jev for client work?",
+        "answer": "Not yet. We index what the community is building and test where Jev fits. If you have a routing, triage or scoring workflow you want to pilot, book a call."
+      },
+      {
+        "question": "How do I get my build listed?",
+        "answer": "Post it publicly on X or LinkedIn, then send us the link through the contact page. We list builds that show what was built and how it performed, including the ones where it did not work."
+      },
+      {
+        "question": "Are there Jev case studies?",
+        "answer": "There are community builds, tests and write-ups, and this page indexes more than 1,300 of them. They are not formal client case studies, and each number is the builder's own claim. ManasFlow has not used Jev on client work yet, so we do not publish one of our own."
+      },
+      {
+        "question": "What are the best Jev use cases?",
+        "answer": "Fast, bounded decisions: routing and triage, guardrails and verification, reranking, scoring, real-time control in games and simulations, and confidence-gated cascades where Jev answers when sure and a larger model handles the rest. The use-case filters on this page show each group with real examples."
+      },
+      {
+        "question": "How much does Jev cost?",
+        "answer": "TypeSafe lists scope-based pricing.042 per million input tokens with free output. Vercel Developers announced free access to Jev on its AI Gateway until September 25, 2026 (see their post on X). Prices and free windows change, so check the model page before you build on it."
+      },
+      {
+        "question": "How do I start with Jev?",
+        "answer": "Get a key from TypeSafe or use it through Vercel AI Gateway, send one state and a few typed questions to the decisions endpoint, and read the probabilities and confidence back. Start by replacing one small decision in your code, keep your old call as a fallback, and compare the two for a week."
+      },
+      {
+        "question": "Can Jev run locally?",
+        "answer": "Not the official model. TypeSafe serves Jev through its API and through providers such as Vercel AI Gateway. Several community projects imitate the same interface with open models on a local machine, and the GitHub filter on this page lists them. They are not Jev, and their accuracy is their own."
+      },
+      {
+        "question": "Is Jev open source?",
+        "answer": "We found no released model weights in launch week, so plan on using it through an API. Check TypeSafe's documentation for the current position before you design around either answer."
+      },
+      {
+        "question": "What are the three Jev question types?",
+        "answer": "Choice picks one option from a set you define and returns a probability for every option. Score rates the state on an ordered scale and can land between two levels. Noul answers a yes or no question as a probability. Many questions of any type can go in one request."
+      },
+      {
+        "question": "How is each build scored?",
+        "answer": "Every entry was sent to Jev with five questions: how specific it is, whether the author really built or tested it, whether the claim can be checked, whether it is mostly hype, and whether the claim sounds exaggerated. The score combines those answers. It reads the text only, so a short post with an impressive video can score low. It is a signal about the post, not a verdict on the project."
+      }
+    ],
+    "heroCards": [],
+    "examples": [
+      {
+        "title": "Local Jev stand in benchmarked across several models",
+        "category": "evals",
+        "description": "Not everyone on the team has access to Jev yet. Spent a morning cobbling together a poor man's Jev on top of omlx for local use. Benchmarked and eval'ed a variety of models including diffusiongemma and a variety of autoregressive models (Qwen MoE, Gemma 4 MoE, and Gemma 4 e4b/e2b.) Benchmark report is in the repo. This is 100% promptcoding but hey the evals look okay, speeds are pretty good on local machine (m5 max 64gb), and the LocalJev server exposes an API that can be used with the normal Jev API wrapper libraries.",
+        "code": "",
+        "source": "https://x.com/GitHubNext/status/2101193436816920798",
+        "author": "GitHub Next",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "JevRerank plugin for LlamaIndex",
+        "category": "evals",
+        "description": "Wiktor Byrka built a reranker on Jev and tested it on BEIR nfcorpus with MiniLM retrieving the top 10 and Jev reranking to the top 5. He cautions the first stage retriever is weak.",
+        "code": "",
+        "source": "https://www.linkedin.com/posts/wiktor-byrka-b30576204_llamaindex-rag-typesafe-share-7506718367681028096-8LXp",
+        "author": "Wiktor Byrka",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "linkedin"
+      },
+      {
+        "title": "Kev 0.5B open Jev-like model on Qwen",
+        "category": "tools",
+        "description": "Kev-0.5B: A tiny open source Jev-like decision model with a TypeSafe-compatible API based on Qwen2.5-0.5B that you can train and run on a MacBook Pro. Model card and weights are available on GitHub",
+        "code": "",
+        "source": "https://x.com/jaredpalmer/status/2101028325472841920",
+        "author": "Jared Palmer",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "Rubik's cube solved with Jev using beginner method",
+        "category": "games",
+        "description": "I got a rubik's cube to solve itself with @typesafeai 's Jev and it solves it like a person does, 94 moves, not the 22 move optimal solution. Jev isn't an LLM, it just answers one question in ~250ms with a probability. so I put the beginner method in code (the one you'd learn on youtube: white cross, corners, middle layer, yellow layer) and at every step Jev just looks at the cube and picks which case it's in. code checks every pick. ~4 seconds of model time total. video is slowed down so you can read it!",
+        "code": "",
+        "source": "https://x.com/redp314/status/2100489858951073858",
+        "author": "Paolo Rosson",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "TheoLeeCJ/SemIf",
+        "category": "tools",
+        "description": "Semantic if-statements from open models on a home 3090 GPU, with a browser demo. Independent, not affiliated with TypeSafe.",
+        "code": "",
+        "source": "https://github.com/TheoLeeCJ/SemIf",
+        "author": "TheoLeeCJ/SemIf",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "github"
+      },
+      {
+        "title": "Memory relevance check: faster but 27% costlier",
+        "category": "counterpoints",
+        "description": "Benchmarked Jev with a fallback model against GPT-5.6 Luna on deciding which passages support a question. Same accuracy and faster, but the fallback route cost more.",
+        "code": "",
+        "source": "https://www.linkedin.com/posts/hugo-sequier_we-benchmarked-typesafe-ais-jev-against-share-7506569072633905152-WIK5",
+        "author": "Hugo SEQUIER",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "linkedin"
+      },
+      {
+        "title": "Full Jev tutorial with three demos",
+        "category": "guides",
+        "description": "Full Jev Tutorial What it is, how you can build with it and what new applications it can unlock → 0:00 Intro → 0:34 Jev explained → 4:06 API setup → 5:59 Demo 1: Voice-controlled browser → 11:33 Demo 2: AI memory → 17:27 Demo 3: YouTube predictor",
+        "code": "",
+        "source": "https://x.com/moritzkremb/status/2100715237267660873",
+        "author": "Moritz Kremb",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "Classifying 1,018 research papers for eight cents",
+        "category": "research",
+        "description": "I used Jev to classify 1,018 AI research papers. The result: $0.08 total cost and 256ms median end-to-end latency per paper. The pipeline was: 1. Summarize each paper with DeepSeek V4 Flash 2. Send the title + summary + 24 possible topics to Jev 3. Use Jev to classify each paper 4. Visualize everything on The summaries cost $3.99 on @togethercompute. The classifications cost $0.08 on @typesafeai. So for just over $4 of inference, I ended up with a pretty useful way to explore the top AI research papers from the past year. I think this is where things are heading: different models for different parts of the workflow, instead of using one model for everything. I’m running evals on the",
+        "code": "",
+        "source": "https://x.com/nutlope/status/2100426999546184123",
+        "author": "Hassan",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "Research feed that scores sources with Jev",
+        "category": "research",
+        "description": "An optional step scores source summaries against a task, reordering a reading list and exporting a Markdown brief. The author says it has not made the vault faster or proven better research.",
+        "code": "",
+        "source": "https://www.linkedin.com/posts/patrickhughes013_i-gave-my-research-feed-a-task-with-jev-from-ugcPost-7506546106235785217-tJSH",
+        "author": "Patrick Hughes",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "linkedin"
+      },
+      {
+        "title": "Scoring 384 news stories for brands in 25 seconds",
+        "category": "triage",
+        "description": "Jev is INSANE. 🤯 in 24.9 seconds it read 384 news from this morning and told 15 brands which stories to hop onto today, for $0.19. Claude Opus 5, running on the same feed at the same time, got through 4/384 and cost $0.77. per headline that is ~390x cheaper, and the answer comes back before you finish reading the headline yourself. there's going to be so many ways for JEV to help you find trending stories, find journalists covering it, and get press coverage. everything in the video open-sourced here: (in the demo/ folder, together with 30+ skills to turn your agent into a PR team)",
+        "code": "",
+        "source": "https://x.com/elvissun/status/2100951347080421409",
+        "author": "Elvis",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "Trading bot placing on-chain orders every 300ms",
+        "category": "trading",
+        "description": "I built a trading bot with Jev! Jev decides if it should \"buy\" or \"sell\", given the price feed of an asset pair, and executes real trades. It uses Monad to place the orders on Kuru's on-chain order book in every 300ms block. Demo link →",
+        "code": "",
+        "source": "https://x.com/jarrodwatts/status/2100356151468585346",
+        "author": "Jarrod Watts",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "Ad-tech predictions against GPT-5.6 Sol",
+        "category": "evals",
+        "description": "Benchmarked Jev on four synthetic ad outcomes. Few-shot quality was similar, zero-shot quality was mixed, and the poster says the results are synthetic.",
+        "code": "",
+        "source": "https://www.linkedin.com/posts/amod-agashe-69070713_yesterday-i-shared-an-experiment-comparing-share-7506409788537417728-M2d8",
+        "author": "Amod Agashe",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "linkedin"
+      },
+      {
+        "title": "Fraud email triage routing uncertain cases to Kimi",
+        "category": "triage",
+        "description": "Jev + Kimi K3 for fraud detection! TLDR: Jev classified 100 emails in 1.42 seconds, then I routed the uncertain cases to Kimi K3. The full pipeline got 96/100 correct for only ~$0.07. Video is not sped up, check out the live run! Here was my process: I gave Jev 100 emails to classify (a mix of 50 legit & 50 fraudelent emails). It classified all of them in 1.42 seconds. An underrated feature about Jev is it will give you the confidence score for a classification, so I routed any prediction under 95% confidence to Kimi K3 to be fully sure. 31 emails fell below that threshold. After routing those to Kimi K3, the combined pipeline reached 96% accuracy. The full run took 16 seconds & ~$0.0",
+        "code": "",
+        "source": "https://x.com/nutlope/status/2100614659690713543",
+        "author": "Hassan",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "jarrodwatts/jev-trader",
+        "category": "games",
+        "description": "Trading bot that asks Jev for a buy or sell decision each Monad block on the Kuru MON-USDC order book and posts a post-only limit order.",
+        "code": "",
+        "source": "https://github.com/jarrodwatts/jev-trader",
+        "author": "jarrodwatts/jev-trader",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "github"
+      },
+      {
+        "title": "Jev reviews pull requests with 14 typed checks",
+        "category": "tools",
+        "description": "got Jev to review my PRs. ~200x cheaper than Claude and it answers in half a second 6 real PRs in the video. $0.00007 each. 1,000 PRs = 7 cents vs ~$14.50 on Opus 5 paste a diff → ONE call to @typesafeai → 14 typed checks come back as probabilities: hardcoded secret, sql injection, touches auth, deletes tests, breaks api, migration, debug leftovers, does the description actually match the diff, blast radius, reviewer effort… code turns that into a verdict: BLOCK / security review / nits / merge. anything a critical check isn't sure about (0.35–0.65) gets escalated to a human or a big model instead of guessed",
+        "code": "",
+        "source": "https://x.com/redp314/status/2100585126652481915",
+        "author": "Paolo Rosson",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "Jev directing cars at city junctions",
+        "category": "games",
+        "description": "In a browser city scene, Jev decides which waiting car goes next at each junction from JSON state. Collision avoidance still uses plain rules and behavior is chaotic.",
+        "code": "",
+        "source": "https://www.linkedin.com/posts/markus-hjort-3b333_there-is-a-new-ai-model-called-jev-available-ugcPost-7507030956797505536-MfxI",
+        "author": "Markus Hjort",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "linkedin"
+      },
+      {
+        "title": "Browser agent finds flights in 7 seconds",
+        "category": "agents",
+        "description": "Breaking: Browser Use + Jev = Ultrafast ⚡ Findings flights took 7s and cost only $0.0039 🤯 > new action space every step > DOM state space > small LLM fallback to type (this video is at 1x speed btw) Built a tiny open source browser agent. try it below ↓",
+        "code": "",
+        "source": "https://x.com/gregpr07/status/2100411066966749359",
+        "author": "Gregor Zunic",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "Open source Mac pointer companion driven by Jev",
+        "category": "tools",
+        "description": "Aaaaaand this is now open-source here: A tiny AI pointer companion for your Mac driven by JEV or Gemini Live - Bring your own keys - Local OmniParser running on CoreML - Jev drives the pointer - Ctrl + K to type a task Voice mode next if people want it!",
+        "code": "",
+        "source": "https://x.com/milindlabs/status/2101260711645372886",
+        "author": "Milind S",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "Dubium returns true or false percentages",
+        "category": "tools",
+        "description": "A small app answers typed or spoken questions with a probability using Jev, aimed at showing the model's uncertainty rather than replacing search.",
+        "code": "",
+        "source": "https://www.linkedin.com/posts/dott-fabrizio-casula-07527270_ai-jev-rlcd-share-7506648193460383744-Qlp4",
+        "author": "Dott. Fabrizio Casula",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "linkedin"
+      },
+      {
+        "title": "PostgreSQL extension for natural language row search",
+        "category": "tools",
+        "description": "I think I just cooked something 🔥 jev(): a PostgreSQL extension that searches your whole database in natural language. No index, no embeddings, just one function. WHERE jev(people, 'could work from home') or WHERE jev(people, 'name sounds european') 129 rows judged in ~1s for $0.0009. Second run: 6ms from cache.",
+        "code": "",
+        "source": "https://x.com/iam_zachi/status/2100679300756435135",
+        "author": "Zachi",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      },
+      {
+        "title": "Live BS meter for a political debate",
+        "category": "research",
+        "description": "🚨 I gave the Trump vs Kamala debate a live BS meter using Jev every sentence, both candidates, 5 yes/no questions each 1,191 Jev calls / 1.18M tokens / 415 ms median total cost : $0.0497 same questions for both, clips picked by one fixed rule, not a fact-check",
+        "code": "",
+        "source": "https://x.com/chetaslua/status/2100473581251748216",
+        "author": "Chetaslua",
+        "language": "",
+        "license": "Public reference",
+        "fileType": "x"
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "route": "/philosophy",
+    "kind": "philosophy",
+    "title": "How We Actually Build",
+    "description": "This is not a values slide written by someone in marketing after the fact. These are the five rules we run every engagement against, including the one that produced this page. If we ever ship something that violates one of them, that is a bug in how we work, not a rounding error.",
+    "sections": [
+      {
+        "title": "Systems that learn, not one-off hacks",
+        "body": [
+          "A workflow is a snapshot of your best day. It goes stale the moment your product, your customers, or your edge cases shift. We do not hand off a static n8n flow and disappear. We run what we call the FIRE loop on everything we build: find where the process actually breaks, instrument it so failure is visible instead of silent, roll it out gradually with a fallback path, then evolve it as the world around it changes.",
+          "In practice: Every automation we ship has monitoring wired in before it touches a real customer, plus a scheduled check-in to see what changed. If nobody is watching the thing after week one, it was not really shipped, it was just deployed."
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [
+          {
+            "label": "Read the FIRE framework",
+            "href": "/resources/fire-framework"
+          }
+        ],
+        "numbered": false
+      },
+      {
+        "title": "Humans own the outer loop, agents run the inner loop",
+        "body": [
+          "Claude Code, or whatever model is doing the work that day, writes the code, runs the tests, and does the repetitive labor. That is the inner loop. The outer loop, does this actually work, should we ship it, what did the agent miss, stays human. We call this a lit software factory, not a dark one. No output reaches a client without someone or something adversarially trying to break it first: a second reviewer, or a second agent whose entire job is to find what the first one got wrong.",
+          "In practice: This exact page went through a build pass, a self-review pass, and a human review gate before it shipped. That is not a slogan on a slide, it is the loop that produced the words you are reading."
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [
+          {
+            "label": "See how the software factory works",
+            "href": "/resources/software-factory"
+          }
+        ],
+        "numbered": false
+      },
+      {
+        "title": "Write for humans, not algorithms",
+        "body": [
+          "Google and every LLM that quotes web content reward one thing long-term: content a real human finds useful. So we do not publish invented statistics, fake ratings, testimonials nobody said, or made-up percentages to make a page sound authoritative. If we do not have a verified number, we say so, or we cite exactly where the number came from.",
+          "In practice: This is not a compliance checkbox. It is how we keep our own name worth something after the tenth client checks our claims against reality."
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Graph engineering and loops, not vibes",
+        "body": [
+          "Most \"AI agents\" on the market are a single prompt wearing a trench coat. We think in graphs: explicit nodes for each step, explicit edges for what happens on success and on failure, and loops that repeat until a goal condition is actually met, not until the token budget runs out. That structure is the difference between \"the demo worked once\" and \"this ran correctly ten thousand times last month.\"",
+          "In practice: When we scope an agent build, we draw the graph before we write a line of code. If a step cannot be drawn as a node with a clear exit condition, it is not ready to build yet."
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [
+          {
+            "label": "Read how we build with graphs",
+            "href": "/resources/graph-engineering"
+          }
+        ],
+        "numbered": false
+      },
+      {
+        "title": "No snake oil. We tell you when not to hire us",
+        "body": [
+          "We turn down work more often than most agencies expect. If your problem is a scope-based pricing fix and we would need to quote a multi-week build to solve it honestly, that is a business relationship we do not want. We say this plainly on our own service pages, including a section that lists who should not hire us for a given engagement.",
+          "In practice: The AI automation space has a real trust problem: oversold pilots, fabricated logos, benchmark theater. We would rather lose a deal today than earn one on a claim we cannot back up tomorrow."
+        ],
+        "cards": [],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [
+          {
+            "label": "See who should not hire an FDE",
+            "href": "/services/forward-deployed-engineers"
+          }
+        ],
+        "numbered": false
+      },
+      {
+        "title": "What We Are, and What We Are Not",
+        "body": [
+          "Same honesty rule applied to ourselves that we apply to every claim we publish."
+        ],
+        "cards": [
+          {
+            "title": "What we are",
+            "body": [],
+            "items": [
+              "An engineering team that ships production code, not a slide deck.",
+              "People who tell you the honest cost and timeline before you commit.",
+              "A shop that instruments and monitors what it builds after launch.",
+              "Willing to say no when the fit is wrong, in writing, before the contract."
+            ],
+            "links": []
+          },
+          {
+            "title": "What we are not",
+            "body": [],
+            "items": [
+              "Not a set-it-and-forget-it automation vendor.",
+              "Not going to invent a case study, rating, or client logo to look bigger.",
+              "Not the right fit for a rescue job with no access to the real systems.",
+              "Not interested in billing hours on a scope neither of us understands yet."
+            ],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is ManasFlow's engineering philosophy?",
+        "answer": "We build automation and AI systems that learn over time instead of static workflows that go stale, verify every output with a human in the loop before it ships, and never market our work with invented numbers. Those three rules, plus graph-based orchestration and a willingness to say no, are the five principles on this page."
+      },
+      {
+        "question": "What is the FIRE loop?",
+        "answer": "FIRE stands for find, instrument, rollout, evolve. It is the four-stage loop we run on every automation we build: find where a process actually breaks, instrument it so failure is visible, roll it out gradually with a fallback, then evolve it as conditions change. The full breakdown is on our FIRE framework page."
+      },
+      {
+        "question": "Does ManasFlow tell clients when not to hire them?",
+        "answer": "Yes. Several of our service pages, including forward deployed engineering, list explicit reasons a prospect should not hire us for a given engagement. If a smaller or cheaper option genuinely fits better, we say so before signing anything."
+      },
+      {
+        "question": "How does ManasFlow avoid AI-generated slop in its own work?",
+        "answer": "Every piece of client-facing output, code or copy, goes through adversarial verification before it ships: a second reviewer or a second agent whose specific job is to find what the first pass missed. We also do not publish fabricated statistics or invented testimonials, on our own site or a client's."
+      },
+      {
+        "question": "What is the difference between a workflow and a system that learns?",
+        "answer": "A workflow is a fixed sequence built for the process as it existed on the day it was written. A system that learns has monitoring built in from day one and a scheduled loop to revisit and adjust it as the underlying process, data, or product changes, which is what our FIRE framework describes in detail."
+      }
+    ],
+    "heroCards": [],
+    "examples": [],
+    "language": "en"
+  },
+  {
+    "route": "/workshops/ai-for-teams",
+    "kind": "workshop",
+    "title": "AI for Teams Workshop: Marketing & Creative",
+    "description": "Content is the bottleneck of modern marketing. Learn to generate consistent character images, high-retention video hooks, and endless ad variations without a production studio.",
+    "sections": [
+      {
+        "title": "Master These Capabilities",
+        "body": [],
+        "cards": [],
+        "items": [
+          "Consistent Brand Assets",
+          "AI Video Production",
+          "Content Factory Workflow"
+        ],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Designed For",
+        "body": [],
+        "cards": [],
+        "items": [
+          "Marketing Teams",
+          "Creative Directors",
+          "Social Managers"
+        ],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Curriculum Breakdown",
+        "body": [],
+        "cards": [
+          {
+            "title": "The Creative AI Stack",
+            "body": [
+              "Weavy and Midjourney."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Video Synthesis",
+            "body": [
+              "Voice-synced avatars."
+            ],
+            "items": [],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": true
+      },
+      {
+        "title": "Investment Options",
+        "body": [
+          "Flat rate for up to 6 people"
+        ],
+        "cards": [
+          {
+            "title": "Individual Seat",
+            "body": [
+              "Discuss current availability and pricing with ManasFlow."
+            ],
+            "items": [
+              "Asset Library",
+              "Consultation",
+              "Cheat Sheets"
+            ],
+            "links": [
+              {
+                "label": "Ask about this format",
+                "href": "/consultation"
+              }
+            ]
+          },
+          {
+            "title": "Team Bundle",
+            "body": [
+              "Discuss current availability and pricing with ManasFlow."
+            ],
+            "items": [
+              "Everything in Individual +",
+              "Private Q&A Session",
+              "Customized Curriculum Focus"
+            ],
+            "links": [
+              {
+                "label": "Ask about this format",
+                "href": "/consultation"
+              }
+            ]
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Weavy included?",
+        "answer": "We show you how to use it!"
+      }
+    ],
+    "heroCards": [],
+    "examples": [],
+    "language": "en"
+  },
+  {
+    "route": "/workshops/cursor-ide",
+    "kind": "workshop",
+    "title": "Cursor IDE Workshop: 10X Engineering",
+    "description": "Cursor is not just a text editor; it's an AI partner. This workshop teaches you the 'Context-First' approach: creating comprehensive design.md files and using Cursor Composer to ship features in minutes.",
+    "sections": [
+      {
+        "title": "Master These Capabilities",
+        "body": [],
+        "cards": [],
+        "items": [
+          "Master Composer Mode",
+          "AI-Driven Refactoring",
+          "PRD-to-Code Workflows"
+        ],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Designed For",
+        "body": [],
+        "cards": [],
+        "items": [
+          "Software Developers",
+          "CTOs",
+          "Product Managers"
+        ],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Curriculum Breakdown",
+        "body": [],
+        "cards": [
+          {
+            "title": "Context Engineering",
+            "body": [
+              "Writing for AI understanding."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "Live Feature Build",
+            "body": [
+              "Shipping a React app."
+            ],
+            "items": [],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": true
+      },
+      {
+        "title": "Investment Options",
+        "body": [
+          "Flat rate for up to 6 people"
+        ],
+        "cards": [
+          {
+            "title": "Individual Seat",
+            "body": [
+              "Discuss current availability and pricing with ManasFlow."
+            ],
+            "items": [
+              "Prompt Library",
+              "Sample Repo",
+              "Support Access"
+            ],
+            "links": [
+              {
+                "label": "Ask about this format",
+                "href": "/consultation"
+              }
+            ]
+          },
+          {
+            "title": "Team Bundle",
+            "body": [
+              "Discuss current availability and pricing with ManasFlow."
+            ],
+            "items": [
+              "Everything in Individual +",
+              "Private Q&A Session",
+              "Customized Curriculum Focus"
+            ],
+            "links": [
+              {
+                "label": "Ask about this format",
+                "href": "/consultation"
+              }
+            ]
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need VS Code?",
+        "answer": "Cursor is built on VS Code!"
+      }
+    ],
+    "heroCards": [],
+    "examples": [],
+    "language": "en"
+  },
+  {
+    "route": "/workshops/n8n-automation",
+    "kind": "workshop",
+    "title": "N8n Automation Workshop: Build AI Agents",
+    "description": "Stop relying on disjointed tools. In this intensive workshop, we dive deep into n8n to build production-grade AI Agents. You will learn how to integrate LLMs, utilize MCPs, and orchestrate complex business logic.",
+    "sections": [
+      {
+        "title": "Master These Capabilities",
+        "body": [],
+        "cards": [],
+        "items": [
+          "Deploy self-hosted n8n",
+          "Build Autonomous AI Agents",
+          "Master Webhooks & APIs"
+        ],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Designed For",
+        "body": [],
+        "cards": [],
+        "items": [
+          "Operations Managers",
+          "Technical Founders",
+          "Automation Engineers"
+        ],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      },
+      {
+        "title": "Curriculum Breakdown",
+        "body": [],
+        "cards": [
+          {
+            "title": "n8n Foundations",
+            "body": [
+              "Setup and linear workflows."
+            ],
+            "items": [],
+            "links": []
+          },
+          {
+            "title": "AI Agent Logic",
+            "body": [
+              "Tool calling and memory."
+            ],
+            "items": [],
+            "links": []
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": true
+      },
+      {
+        "title": "Investment Options",
+        "body": [
+          "Flat rate for up to 6 people"
+        ],
+        "cards": [
+          {
+            "title": "Individual Seat",
+            "body": [
+              "Discuss current availability and pricing with ManasFlow."
+            ],
+            "items": [
+              "Full Day Training",
+              "Access to Templates",
+              "Session Recording"
+            ],
+            "links": [
+              {
+                "label": "Ask about this format",
+                "href": "/consultation"
+              }
+            ]
+          },
+          {
+            "title": "Team Bundle",
+            "body": [
+              "Discuss current availability and pricing with ManasFlow."
+            ],
+            "items": [
+              "Everything in Individual +",
+              "Private Q&A Session",
+              "Customized Curriculum Focus"
+            ],
+            "links": [
+              {
+                "label": "Ask about this format",
+                "href": "/consultation"
+              }
+            ]
+          }
+        ],
+        "items": [],
+        "tables": [],
+        "code": [],
+        "links": [],
+        "numbered": false
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is it for beginners?",
+        "answer": "Yes, we start from the basics."
+      }
+    ],
+    "heroCards": [],
+    "examples": [],
+    "language": "en"
+  }
+]

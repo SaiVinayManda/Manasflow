@@ -1,0 +1,359 @@
+[
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/10/1.gif",
+    "local": "/sites/9hdigital/1.gif",
+    "type": "image/gif",
+    "bytes": 59480,
+    "signature": "474946383961fa00fa00f709"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/12/100x100-79.jpg",
+    "local": "/sites/9hdigital/100x100-79.jpg",
+    "type": "image/jpeg",
+    "bytes": 5381,
+    "signature": "ffd8ffe000104a4649460001"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/12/100x100-80.jpg",
+    "local": "/sites/9hdigital/100x100-80.jpg",
+    "type": "image/jpeg",
+    "bytes": 5224,
+    "signature": "ffd8ffe000104a4649460001"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/12/100x100.jpg",
+    "local": "/sites/9hdigital/100x100.jpg",
+    "type": "image/jpeg",
+    "bytes": 4707,
+    "signature": "ffd8ffe000104a4649460001"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2026/08/12-1024x576.png",
+    "local": "/sites/9hdigital/12-1024x576.png",
+    "type": "image/png",
+    "bytes": 586105,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2026/08/15-1024x576.png",
+    "local": "/sites/9hdigital/15-1024x576.png",
+    "type": "image/png",
+    "bytes": 586918,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/10/1516507715381-2.jpeg",
+    "local": "/sites/9hdigital/1516507715381-2.jpeg",
+    "type": "image/jpeg",
+    "bytes": 4209,
+    "signature": "ffd8ffe000104a4649460001"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2026/08/17-1024x576.png",
+    "local": "/sites/9hdigital/17-1024x576.png",
+    "type": "image/png",
+    "bytes": 531725,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2026/08/18-1024x576.png",
+    "local": "/sites/9hdigital/18-1024x576.png",
+    "type": "image/png",
+    "bytes": 676288,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/10/2.gif",
+    "local": "/sites/9hdigital/2.gif",
+    "type": "image/gif",
+    "bytes": 40080,
+    "signature": "474946383961fa00fa00f60a"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2026/08/21-1024x576.png",
+    "local": "/sites/9hdigital/21-1024x576.png",
+    "type": "image/png",
+    "bytes": 655645,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2026/08/28-1024x576.png",
+    "local": "/sites/9hdigital/28-1024x576.png",
+    "type": "image/png",
+    "bytes": 592702,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/10/3.gif",
+    "local": "/sites/9hdigital/3.gif",
+    "type": "image/gif",
+    "bytes": 41639,
+    "signature": "474946383961fa00fa00f606"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/10/9H-logo.svg",
+    "local": "/sites/9hdigital/9H-logo.svg",
+    "type": "image/svg+xml",
+    "bytes": 1947,
+    "signature": "3c7376672077696474683d22"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/11/ai-automations.svg",
+    "local": "/sites/9hdigital/ai-automations.svg",
+    "type": "image/svg+xml",
+    "bytes": 956,
+    "signature": "3c3f786d6c2076657273696f"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/11/Al-Balad-main-2.jpg",
+    "local": "/sites/9hdigital/Al-Balad-main-2.jpg",
+    "type": "image/jpeg",
+    "bytes": 209288,
+    "signature": "ffd8ffe000104a4649460001"
+  },
+  {
+    "source": "https://9hdigital.com/app/themes/niu-theme/public/build/assets/blue-fw-gradient-Ce1kZF6R.png",
+    "local": "/sites/9hdigital/blue-fw-gradient-Ce1kZF6R.png",
+    "type": "image/png",
+    "bytes": 779656,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/11/brand-building.svg",
+    "local": "/sites/9hdigital/brand-building.svg",
+    "type": "image/svg+xml",
+    "bytes": 824,
+    "signature": "3c3f786d6c2076657273696f"
+  },
+  {
+    "source": "https://9hdigital.com/app/themes/niu-theme/public/build/assets/Cairo-Regular-CvRCENXA.ttf",
+    "local": "/sites/9hdigital/Cairo-Regular-CvRCENXA.ttf",
+    "type": "application/x-font-ttf",
+    "bytes": 94480,
+    "signature": "000100000010010000040000"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/12/cropped-Favicon-1-180x180.png",
+    "local": "/sites/9hdigital/cropped-Favicon-1-180x180.png",
+    "type": "image/png",
+    "bytes": 7429,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/12/cropped-Favicon-1-192x192.png",
+    "local": "/sites/9hdigital/cropped-Favicon-1-192x192.png",
+    "type": "image/png",
+    "bytes": 7773,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/12/cropped-Favicon-1-270x270.png",
+    "local": "/sites/9hdigital/cropped-Favicon-1-270x270.png",
+    "type": "image/png",
+    "bytes": 14106,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/12/cropped-Favicon-1-32x32.png",
+    "local": "/sites/9hdigital/cropped-Favicon-1-32x32.png",
+    "type": "image/png",
+    "bytes": 1120,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/11/Crosscraft-Main-Banner-1.png",
+    "local": "/sites/9hdigital/Crosscraft-Main-Banner-1.png",
+    "type": "image/png",
+    "bytes": 92701,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/11/custom-web-apps.svg",
+    "local": "/sites/9hdigital/custom-web-apps.svg",
+    "type": "image/svg+xml",
+    "bytes": 956,
+    "signature": "3c3f786d6c2076657273696f"
+  },
+  {
+    "source": "https://9hdigital.com/app/themes/niu-theme/public/build/assets/footer-bg-XyJ6H1x5.png",
+    "local": "/sites/9hdigital/footer-bg-XyJ6H1x5.png",
+    "type": "image/png",
+    "bytes": 435269,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/themes/niu-theme/public/build/assets/gradient-blue-auyAehDj.png",
+    "local": "/sites/9hdigital/gradient-blue-auyAehDj.png",
+    "type": "image/png",
+    "bytes": 421833,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/themes/niu-theme/public/build/assets/gradient-green-DLQWrdj_.png",
+    "local": "/sites/9hdigital/gradient-green-DLQWrdj_.png",
+    "type": "image/png",
+    "bytes": 100477,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/themes/niu-theme/public/build/assets/gradient-purple-eY59ryug.png",
+    "local": "/sites/9hdigital/gradient-purple-eY59ryug.png",
+    "type": "image/png",
+    "bytes": 434694,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/themes/niu-theme/public/build/assets/gradient-red-CLvd3sr4.png",
+    "local": "/sites/9hdigital/gradient-red-CLvd3sr4.png",
+    "type": "image/png",
+    "bytes": 116123,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/themes/niu-theme/public/build/assets/gradient-yellow-B5TN-y7N.png",
+    "local": "/sites/9hdigital/gradient-yellow-B5TN-y7N.png",
+    "type": "image/png",
+    "bytes": 648202,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/themes/niu-theme/public/build/assets/green-fw-gradient-DwXSrXRQ.png",
+    "local": "/sites/9hdigital/green-fw-gradient-DwXSrXRQ.png",
+    "type": "image/png",
+    "bytes": 782668,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/themes/niu-theme/public/build/assets/hero-placeholder-DOL305-B.png",
+    "local": "/sites/9hdigital/hero-placeholder-DOL305-B.png",
+    "type": "image/png",
+    "bytes": 59995,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/themes/niu-theme/public/build/assets/HubotSans-DVOGjEo-.ttf",
+    "local": "/sites/9hdigital/HubotSans-DVOGjEo-.ttf",
+    "type": "application/x-font-ttf",
+    "bytes": 369104,
+    "signature": "000100000015010000040050"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/11/Insinet-main.jpg",
+    "local": "/sites/9hdigital/Insinet-main.jpg",
+    "type": "image/jpeg",
+    "bytes": 78786,
+    "signature": "ffd8ffe000104a4649460001"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/11/integrations.svg",
+    "local": "/sites/9hdigital/integrations.svg",
+    "type": "image/svg+xml",
+    "bytes": 994,
+    "signature": "3c3f786d6c2076657273696f"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2026/03/James.jpg",
+    "local": "/sites/9hdigital/James.jpg",
+    "type": "image/jpeg",
+    "bytes": 8550,
+    "signature": "ffd8ffe000104a4649460001"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/11/Kindred-Main.jpg",
+    "local": "/sites/9hdigital/Kindred-Main.jpg",
+    "type": "image/jpeg",
+    "bytes": 90385,
+    "signature": "ffd8ffe000104a4649460001"
+  },
+  {
+    "source": "https://9hdigital.com/app/themes/niu-theme/public/build/assets/looping-mobile-BtnwhDf1.gif",
+    "local": "/sites/9hdigital/looping-mobile-BtnwhDf1.gif",
+    "type": "image/gif",
+    "bytes": 2680654,
+    "signature": "4749463839613d016301f700"
+  },
+  {
+    "source": "https://9hdigital.com/app/themes/niu-theme/public/build/assets/looping-video-e-PUQuDR.mp4",
+    "local": "/sites/9hdigital/looping-video-e-PUQuDR.mp4",
+    "type": "video/mp4",
+    "bytes": 1249677,
+    "signature": "000000206674797069736f6d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/11/MFSA-main.jpg",
+    "local": "/sites/9hdigital/MFSA-main.jpg",
+    "type": "image/jpeg",
+    "bytes": 260002,
+    "signature": "ffd8ffe000104a4649460001"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/11/MGA-main.jpg",
+    "local": "/sites/9hdigital/MGA-main.jpg",
+    "type": "image/jpeg",
+    "bytes": 80295,
+    "signature": "ffd8ffe000104a4649460001"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/10/misk.png",
+    "local": "/sites/9hdigital/misk.png",
+    "type": "image/png",
+    "bytes": 97730,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/12/Og.png",
+    "local": "/sites/9hdigital/Og.png",
+    "type": "image/png",
+    "bytes": 3615,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/themes/niu-theme/public/build/assets/red-fw-gradient-CzjXW7fQ.png",
+    "local": "/sites/9hdigital/red-fw-gradient-CzjXW7fQ.png",
+    "type": "image/png",
+    "bytes": 795403,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/10/Screenshot-2025-03-24-at-13.50.54.png",
+    "local": "/sites/9hdigital/Screenshot-2025-03-24-at-13.50.54.png",
+    "type": "image/png",
+    "bytes": 191699,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/11/Screenshot-2025-11-27-at-12.34.17.png",
+    "local": "/sites/9hdigital/Screenshot-2025-11-27-at-12.34.17.png",
+    "type": "image/png",
+    "bytes": 58802,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2026/03/Tim-Landscape-1.jpg",
+    "local": "/sites/9hdigital/Tim-Landscape-1.jpg",
+    "type": "image/jpeg",
+    "bytes": 112226,
+    "signature": "ffd8ffe000104a4649460001"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2026/03/Tim.jpg",
+    "local": "/sites/9hdigital/Tim.jpg",
+    "type": "image/jpeg",
+    "bytes": 10592,
+    "signature": "ffd8ffe000104a4649460001"
+  },
+  {
+    "source": "https://9hdigital.com/app/uploads/2025/10/vitel.png",
+    "local": "/sites/9hdigital/vitel.png",
+    "type": "image/png",
+    "bytes": 199834,
+    "signature": "89504e470d0a1a0a0000000d"
+  },
+  {
+    "source": "https://9hdigital.com/app/themes/niu-theme/public/build/assets/yellow-fw-gradient-OeBIeiso.png",
+    "local": "/sites/9hdigital/yellow-fw-gradient-OeBIeiso.png",
+    "type": "image/png",
+    "bytes": 768332,
+    "signature": "89504e470d0a1a0a0000000d"
+  }
+]

@@ -1,0 +1,2792 @@
+{
+  "n8n-vs-zapier-vs-make-cost-calculator": {
+    "questions": [],
+    "faqs": [
+      {
+        "question": "Why do Zapier and Make cost more for long workflows?",
+        "answer": "Zapier counts each successful action as a task and Make counts each module action as a credit, so a 10-step workflow uses about 10 units per run. n8n counts one execution per run whatever the step count."
+      },
+      {
+        "question": "How current are the prices?",
+        "answer": "Each vendor block on the page shows the source URL and the date we last read it. Vendors change pricing, so check the linked page before you commit."
+      },
+      {
+        "question": "Why is a platform shown as above modeled tiers?",
+        "answer": "We only model tiers we read from the pricing pages. When your volume exceeds them we say so instead of guessing a price."
+      }
+    ]
+  },
+  "build-vs-buy-ai-calculator": {
+    "questions": [],
+    "faqs": [
+      {
+        "question": "How do you estimate build hours?",
+        "answer": "Ask an engineer who has shipped a similar system, and include integration, evaluation and deployment. The default of 320 hours is a placeholder, not a benchmark."
+      },
+      {
+        "question": "Is a 20 percent yearly maintenance figure right?",
+        "answer": "It is a planning assumption. Track your own maintenance on similar systems and replace it."
+      },
+      {
+        "question": "Should cost decide build or buy?",
+        "answer": "Not alone. Speed to launch, fit, lock-in and who owns the system afterwards often matter more."
+      }
+    ]
+  },
+  "automation-payback-calculator": {
+    "questions": [],
+    "faqs": [
+      {
+        "question": "What counts as the share of tasks fully handled?",
+        "answer": "Only tasks the automation completes without a person. Tasks it drafts for a human to fix belong in a lower percentage."
+      },
+      {
+        "question": "Are saved hours the same as saved money?",
+        "answer": "Only if the time is redeployed or the work stops being paid for. Otherwise it is capacity."
+      },
+      {
+        "question": "What if payback shows never?",
+        "answer": "Running cost exceeds the value of the time saved. Raise volume, cut running cost, or pick a different workflow."
+      }
+    ]
+  },
+  "ai-agent-cost-calculator": {
+    "questions": [],
+    "faqs": [
+      {
+        "question": "Where do the token prices come from?",
+        "answer": "They are placeholders you edit. Copy current prices from your model provider's pricing page, since they change."
+      },
+      {
+        "question": "Why do agents cost more than a single prompt?",
+        "answer": "An agent makes several model calls per run, and each call resends context. Multiply calls per run by tokens per call."
+      },
+      {
+        "question": "How do I get token counts?",
+        "answer": "Log a real run in your provider dashboard or tracing tool and use the averages."
+      }
+    ]
+  },
+  "roi-calculator": {
+    "questions": [],
+    "faqs": [
+      {
+        "question": "What's included in \"implementation cost\"?",
+        "answer": "Implementation cost typically covers: vendor setup/licensing, integration with existing systems, process mapping and redesign, initial user training, and testing. For no-code tools, this is usually $2-10K. For custom AI solutions, $20-100K+."
+      },
+      {
+        "question": "How accurate is the break-even calculation?",
+        "answer": "Our calculator uses conservative estimates. Actual break-even often occurs 1-2 months earlier due to cumulative learning efficiencies, team velocity improvements, and additional error reduction as the system learns. We recommend adding a 10-20% buffer to the timeline."
+      },
+      {
+        "question": "What if the process is only partially automatable?",
+        "answer": "The \"automation coverage\" slider lets you model partial automation. For example, a 60% automation scenario means 40% of the work remains manual. This is common in customer service (AI handles 60% of tickets, humans handle complex ones)."
+      },
+      {
+        "question": "Does this account for employee reskilling costs?",
+        "answer": "Our calculator includes basic training costs in the implementation budget. However, significant team transitions should budget additional change management and reskilling costs (10-15% of annual salary for affected employees)."
+      },
+      {
+        "question": "What if automation doesn't save as much time as projected?",
+        "answer": "All automation projects experience a ramp-up period (typically 3-6 months) before achieving full ROI. Our model assumes linear improvement during setup. Factors that affect this: data quality, process discipline, team adoption, and tool configuration."
+      },
+      {
+        "question": "Can I use this for multiple processes?",
+        "answer": "Yes! Run the calculator for each process separately, then sum the results. This lets you compare automation priorities and identify which processes deliver the highest ROI first."
+      },
+      {
+        "question": "What happens after break-even - where does the savings go?",
+        "answer": "After break-even, 100% of the monthly savings flows to the bottom line. You can reinvest in additional automation, team expansion, tool upgrades, or pure profit. Most customers see a 200-400% cumulative ROI over 3 years."
+      }
+    ]
+  },
+  "ai-team-cost-calculator": {
+    "questions": [],
+    "faqs": [
+      {
+        "question": "Why is staff augmentation more expensive per month than hiring?",
+        "answer": "Staff augmentation vendors add 40-60% markup to cover recruiting, benefits, management overhead, their profit margin, and the ability to scale or replace people quickly. For short projects under 12 months, this markup is worth it because you avoid recruiting waste. For ongoing teams, full-time hiring breaks even and becomes cheaper after 12-18 months."
+      },
+      {
+        "question": "What's included in \"benefits overhead\" for full-time hiring?",
+        "answer": "The 30% covers payroll taxes (7.65% FICA), health insurance (~10% of salary), 401k/retirement (~5%), workers comp insurance, unemployment insurance, and other admin costs. This varies by country - EU can be higher at 40-50% due to higher payroll taxes."
+      },
+      {
+        "question": "Can I switch models mid-project (e.g., start with staff aug, then hire)?",
+        "answer": "Yes, and many companies do this wisely. Start with staff augmentation to validate the need and build momentum (3-6 months), then transition core team members to full-time hires once the work is proven. This reduces hiring risk and recruiter burden."
+      },
+      {
+        "question": "What's the turnover cost and why does it vary?",
+        "answer": "Turnover cost is the expense of recruiting and training a replacement when someone leaves. At 10% annual turnover with $20K recruiting cost, that's 1-2 replacements per year for a 10-20 person team. High-retention-importance settings increase this because you're paying for signing bonuses, benefits programs, and ramp-up inefficiency."
+      },
+      {
+        "question": "Why is the outsourced model fastest to ramp up?",
+        "answer": "Outsourced teams are pre-vetted, pre-trained, and ready to go in 1-2 weeks vs. 4-8 weeks for hiring and ramp-up. This speed is valuable for urgent projects but comes with trade-offs: less integration with your org, less long-term commitment, and less IP ownership."
+      },
+      {
+        "question": "How do I factor in the value of keeping institutional knowledge in-house?",
+        "answer": "Full-time team members build deep knowledge of your systems, business logic, and strategy over time. This is worth 15-30% of their salary in saved ramp-up costs for new projects. Outsourced teams are transient - when they leave, knowledge leaves too. For strategic AI programs, factor this into your full-time hiring ROI."
+      },
+      {
+        "question": "What if salaries in my region differ significantly from these benchmarks?",
+        "answer": "Use the Location dropdown to adjust. Our benchmarks are based on 2024-2025 market data. For US roles, we use national midpoints. For EU and APAC, we apply standard geographic adjustments (75% and 55% respectively). You can adjust by choosing the location closest to your actual market."
+      }
+    ]
+  },
+  "meeting-automation-calculator": {
+    "questions": [],
+    "faqs": [
+      {
+        "question": "Are these savings realistic?",
+        "answer": "The tool uses conservative estimates (70% automatable for status updates, 75% implementation success). Real savings depend on culture adoption. Organizations that commit to an async-first approach often achieve 80%+ of projected savings within 6 months."
+      },
+      {
+        "question": "How do we transition to async or automated meetings?",
+        "answer": "Start small - automate status updates first. Set norms: async default, sync only when required. Train the team on tools. Measure adoption. Celebrate wins. The full transition typically takes 3-6 months."
+      },
+      {
+        "question": "Doesn't brainstorming need to be synchronous?",
+        "answer": "Partly. Synchronous brainstorming is valuable, but about 10% can be async (pre-brainstorm research, follow-up ideas via Slack). Most savings come from automating status updates and reducing meeting frequency, not eliminating all sync time."
+      },
+      {
+        "question": "What if my team loves meetings?",
+        "answer": "Some meeting time is valuable for culture and connection. The goal isn't zero meetings - it's eliminating unproductive meetings. Focus on quality over quantity. Even teams that enjoy meetings typically find 30-40% of their time can be redirected to deeper work."
+      },
+      {
+        "question": "How do I handle client calls (only 5% automatable)?",
+        "answer": "Client calls are hard to automate due to relationship and legal considerations. Instead, reduce frequency (quarterly planning vs. monthly catch-ups), combine multiple issues into one call, and use recorded decision documentation for 5-10% time savings."
+      },
+      {
+        "question": "What tools should we start with?",
+        "answer": "For most teams: Loom for async video, Slack for threaded discussion, and Geekbot or Range for automated standups. Start there before buying specialized tools. Total cost: ~$100-200/month. ROI should pay for itself in 1-2 weeks."
+      },
+      {
+        "question": "How do we measure success?",
+        "answer": "Track meeting count and hours, tool adoption rates, employee feedback on productivity, and actual cost savings. Re-run this calculator after 3-6 months to measure real impact against your baseline."
+      }
+    ]
+  },
+  "staffing-model-calculator": {
+    "questions": [],
+    "faqs": [
+      {
+        "question": "Why does in-house hiring seem so expensive upfront?",
+        "answer": "Recruiting, onboarding, ramp-up, and management overhead add 40-50% to salary cost in year 1. Over time (2-3 years), this amortizes and hiring becomes cheapest. Staff augmentation has higher monthly cost but spreads recruiting cost across many clients. Think of it as: recruiting cost ($25K) divided by months worked (12) = $2K/month tax on hiring."
+      },
+      {
+        "question": "When does hiring break even vs. staff augmentation?",
+        "answer": "Typically 16-20 months for senior engineers. Before that, staff augmentation is cheaper monthly. After that, hiring's fixed salary cost beats the augmentation's 40-50% markup. Use this calculator to find your specific break-even point based on your team composition."
+      },
+      {
+        "question": "Is outsourcing always the cheapest option?",
+        "answer": "Cheapest per hour, yes. But total cost is often higher due to communication overhead (10-20%), rework cycles, management overhead, and hidden inefficiency. Outsourcing works best for commodity work or overflow capacity. For core strategic work, quality matters more than cost, making hiring or augmentation better choices."
+      },
+      {
+        "question": "What if we hire but the employee leaves in year 2?",
+        "answer": "Turnover cost is real: recruiting ($25K) + onboarding ($4K) + ramp-up ($12K) + lost productivity ≈ $41K. Our calculator models 10% annual turnover into calculations. To reduce turnover: offer competitive salary (top 50th percentile), career growth, good management, and strong culture fit."
+      },
+      {
+        "question": "How do we handle ramp-up inefficiency in practice?",
+        "answer": "Expect: first 4 weeks at 30-40% productivity (learning systems), weeks 5-8 at 60-70%, weeks 9-12 at 85-90%, week 13+ at 100%. Don't plan on full productivity for the first quarter. Good onboarding and mentorship reduce ramp-up time by 20-30%."
+      },
+      {
+        "question": "What's the difference between \"staff augmentation\" and \"outsourcing\" in this calculator?",
+        "answer": "Staff augmentation means the person works on your team and you manage them directly. Outsourcing means the vendor manages the team and you manage the vendor relationship. Augmentation offers better integration but higher cost. Outsourcing is cheaper but has lower control and higher communication burden."
+      },
+      {
+        "question": "Can we switch models mid-project (e.g., hire after 6 months of augmentation)?",
+        "answer": "Yes, many companies do this successfully. Hire contractors for 6 months to validate the work, then convert top performers to full-time. This reduces hiring risk. Cost is similar to hiring directly but with augmentation overhead for 6 months. The benefit is reduced recruitment risk since you can skill-test before commitment."
+      }
+    ]
+  },
+  "ai-vs-human-employee-cost": {
+    "questions": [],
+    "faqs": [
+      {
+        "question": "How much does an AI employee cost compared to a human?",
+        "answer": "It depends entirely on scope. A single well-scoped automation typically runs $500-$1,500/month (light complexity), a multi-step workflow with custom integration runs $1,500-$4,000/month (moderate), and a multi-agent system with ongoing tuning runs $4,000-$10,000/month (complex) - typical ranges based on our engagements, not a fixed quote. Compare that against the proportional slice of a fully loaded human salary (salary plus roughly 30% benefits overhead) for the hours that specific task actually takes, not the whole role's salary."
+      },
+      {
+        "question": "Is this calculator saying AI replaces the job?",
+        "answer": "No. This calculator prices only the hours you mark as automatable, out of a 40-hour week. Most roles keep meaningful human-only work: judgment calls, ambiguous specs, stakeholder negotiation, and accountability for what ships. AI augments a role's routine, well-specified tasks; it rarely replaces the role outright. The results include an honest note on what AI genuinely handles well versus what still needs a human for the specific role you selected."
+      },
+      {
+        "question": "Where do the salary numbers come from?",
+        "answer": "The base salary benchmark reuses the same US-market data as our Staffing Model Calculator, which is directionally consistent with the ranges published in our AI Engineer Salary Guide (synthesized from Levels.fyi, Glassdoor, payscale, and the 2025 Stack Overflow Developer Survey). Regional multipliers (UK, EU, India, APAC) are directional cost-of-labor adjustments, not precise per-country figures - edit the region to see how the comparison shifts."
+      },
+      {
+        "question": "What is the AI setup cost for?",
+        "answer": "It is the one-time integration cost: connecting the agent to your systems, prompt/context engineering, and initial monitoring setup, before the ongoing monthly cost kicks in. It is the AI-side equivalent of a human's recruiting and onboarding cost. Light automation typically runs about $1,500 to set up, moderate about $4,000, complex multi-agent work about $12,000 - again, typical based on our engagements, not a fixed quote."
+      },
+      {
+        "question": "What does the break-even month actually mean here?",
+        "answer": "It is the month the one-time AI setup cost is paid back by the monthly savings versus the proportional human cost for that task. If the AI's monthly cost is not actually lower than the human-proportional cost (which happens at low automatable-hours or high complexity), there is no break-even month, since the ongoing cost never nets out ahead."
+      },
+      {
+        "question": "Why does the human cost only count part of a salary?",
+        "answer": "Because the comparison is task-for-task, not role-for-role. If an engineer spends 15 of 40 hours a week on work an agent could do, the fair comparison is the AI's cost against 15/40 of that engineer's fully loaded monthly salary, not their entire paycheck. The other 25 hours are unaffected by this decision either way."
+      }
+    ]
+  },
+  "fde-salary-explorer": {
+    "questions": [],
+    "faqs": [
+      {
+        "question": "What is the real salary for a forward deployed engineer?",
+        "answer": "There is no single verified, audited number. Public sources put reported ranges for Palantir, the role's originator, from $135,000 to $250,000 in H1B/LCA disclosure filings (base salary, 2024) and $171,000 to $295,000 in self-reported total compensation on Levels.fyi. Both are cited above with their source and sample size. Treat any site that states one precise figure with no source as unreliable."
+      },
+      {
+        "question": "Why does FDE compensation vary so much?",
+        "answer": "Three real factors: seniority (the role spans a first embedded deployment to running a seven-figure account), which company you are at (Palantir originated the role; other companies do not appear to have separately aggregated FDE-specific public data yet), and what we call the two-judgments premium: being genuinely strong at both technical judgment and commercial judgment is rarer than being strong at either alone."
+      },
+      {
+        "question": "Is Levels.fyi or Glassdoor data reliable for FDE compensation?",
+        "answer": "It is directionally useful, not authoritative. Both are self-reported and unverified, and tend to skew toward people motivated enough to submit a number. The London figure on this page is a visible example: a small sample (59 entries) that reads low for the role, shown exactly as reported rather than smoothed out."
+      },
+      {
+        "question": "Why is India or Singapore missing from the table?",
+        "answer": "We could not verify a clean figure for either. India's Glassdoor sample was small and the currency formatting was unclear enough that we did not want to guess at a conversion, and Singapore returned no usable sample size for this exact job title. See \"Where the public data runs out\" on this page for the full list."
+      },
+      {
+        "question": "How is the estimator different from a normal salary calculator?",
+        "answer": "It never returns a single number. It positions a range inside the real, cited data above (H1B disclosure data, Levels.fyi, or Glassdoor) based on your experience band, and names the exact source and method behind every result. Where there is no real public data for a combination, it says so instead of guessing."
+      },
+      {
+        "question": "How can I verify a specific FDE salary claim myself?",
+        "answer": "Check whether the site names its source. Look for a live, currently-open job posting with a published salary band (increasingly required by US law), cross-reference aggregator data as a range rather than a single figure, and be skeptical of any number presented with high confidence and no citation."
+      }
+    ]
+  },
+  "ai-budget-planner": {
+    "questions": [],
+    "faqs": [
+      {
+        "question": "Why are ML models so expensive compared to traditional software?",
+        "answer": "ML projects have higher costs due to: (1) Data preparation and labeling (often 40-60% of time), (2) Model experimentation and tuning (many failed attempts), (3) Ongoing training and monitoring (models degrade over time), (4) GPU/infrastructure costs (training large models is compute-intensive). Typical software is more linear; ML is more exploratory and iterative."
+      },
+      {
+        "question": "What's included in \"team hours\" and how accurate are the estimates?",
+        "answer": "Team hours include data exploration and preparation, feature engineering, model development, testing, deployment, and documentation. Estimates vary by 20-30% based on data quality and scope clarity. Our estimates assume \"typical\" conditions - if your data is messy or requirements unclear, add 20-40% buffer."
+      },
+      {
+        "question": "Can we start with a small pilot and expand later to save costs?",
+        "answer": "Absolutely recommended. A 3-month pilot ($20-50K) validates the approach, builds team skills, and often reveals hidden costs before major investment. Success rate is 30-40% higher with a pilot-first approach. Budget for pilot and full project separately, and use pilot learnings to refine the full budget."
+      },
+      {
+        "question": "What are \"hidden costs\" and how do we plan for them?",
+        "answer": "Common hidden costs include data labeling/annotation, model validation with domain experts, knowledge transfer to the ops team, ongoing monitoring/retraining, compute spikes, and staff ramp-up inefficiency. We show these in the breakdown. Budget them explicitly - they're not \"hidden\" if you plan for them."
+      },
+      {
+        "question": "What if we use open-source tools instead of enterprise platforms?",
+        "answer": "Open-source (TensorFlow, PyTorch, n8n, etc.) reduces licensing costs $500-2,000/month but requires skilled engineers to implement and maintain, more internal ops work, and potentially a longer development timeline. Good for growth-stage companies with engineering talent; less suitable for teams wanting vendor support."
+      },
+      {
+        "question": "Should we hire full-time staff or use contractors/consultants?",
+        "answer": "Hire full-time for ongoing programs (2+ year commitment), core team ownership, and stability. Use contractors for specialized expertise you don't need long-term, workload peaks, and pilot projects. Most successful: hybrid approach (2-3 full-time core plus 1-2 contract specialists). This calculator shows both options."
+      },
+      {
+        "question": "How much should we budget for post-launch support?",
+        "answer": "Year 2 budget is typically 20-30% of Year 1 project cost for ongoing model monitoring/retraining, performance optimization, feature enhancements, and infrastructure scaling. Some AI projects require 50% of original cost annually for continuous improvement. Budget this explicitly - many companies get surprised."
+      }
+    ]
+  },
+  "ai-readiness-assessment": {
+    "questions": [
+      {
+        "id": "d1",
+        "pillar": "data",
+        "text": "How would you rate the overall quality of your organization's data?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Poor - inconsistent, lots of errors, rarely trusted",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Fair - usable but requires frequent cleanup",
+            "description": "",
+            "value": "1",
+            "points": 35
+          },
+          {
+            "label": "Good - mostly clean and reliable across systems",
+            "description": "",
+            "value": "2",
+            "points": 70
+          },
+          {
+            "label": "Excellent - well-curated, validated, trusted org-wide",
+            "description": "",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "d2",
+        "pillar": "data",
+        "text": "How accessible is your data across different systems and teams?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Siloed - data is trapped in individual departments or tools",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Partially integrated - some data flows between systems",
+            "description": "",
+            "value": "1",
+            "points": 35
+          },
+          {
+            "label": "Well-integrated - most data is accessible via shared platforms",
+            "description": "",
+            "value": "2",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "d3",
+        "pillar": "data",
+        "text": "Do you have data governance policies in place?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "None - no formal policies exist",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Basic - some informal guidelines",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Documented - formal policies but inconsistent enforcement",
+            "description": "",
+            "value": "2",
+            "points": 65
+          },
+          {
+            "label": "Enforced - robust policies with regular audits",
+            "description": "",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "t1",
+        "pillar": "technology",
+        "text": "What is your current cloud infrastructure maturity?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "On-premise only - no cloud adoption",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Hybrid - mix of on-premise and cloud workloads",
+            "description": "",
+            "value": "1",
+            "points": 50
+          },
+          {
+            "label": "Cloud-native - fully cloud-based infrastructure",
+            "description": "",
+            "value": "2",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "pillar": "technology",
+        "text": "Do you have APIs connecting your core systems?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No APIs - systems are mostly disconnected",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Limited - a few point-to-point integrations",
+            "description": "",
+            "value": "1",
+            "points": 35
+          },
+          {
+            "label": "Comprehensive - well-documented APIs across major systems",
+            "description": "",
+            "value": "2",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "t3",
+        "pillar": "technology",
+        "text": "How easily can your infrastructure scale for new workloads?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Difficult - adding capacity is slow and expensive",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Moderate - scaling is possible but takes planning",
+            "description": "",
+            "value": "1",
+            "points": 50
+          },
+          {
+            "label": "Easy - elastic scaling is built into our infrastructure",
+            "description": "",
+            "value": "2",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "p1",
+        "pillar": "people",
+        "text": "Does your team have AI or machine learning skills?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "None - no AI expertise on staff",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Few specialists - 1-2 people with some experience",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Some expertise - a small data/ML team exists",
+            "description": "",
+            "value": "2",
+            "points": 65
+          },
+          {
+            "label": "Strong expertise - dedicated AI team with production experience",
+            "description": "",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "p2",
+        "pillar": "people",
+        "text": "What level of executive sponsorship exists for AI initiatives?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No support - leadership isn't interested",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Interested - leadership is curious but uncommitted",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Committed - active executive sponsor championing AI",
+            "description": "",
+            "value": "2",
+            "points": 75
+          },
+          {
+            "label": "Driving force - C-suite is leading the AI strategy",
+            "description": "",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "p3",
+        "pillar": "people",
+        "text": "How open is your team to AI-driven changes in their work?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Resistant - significant pushback expected",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Cautious - willing to try but skeptical",
+            "description": "",
+            "value": "1",
+            "points": 35
+          },
+          {
+            "label": "Receptive - generally positive about AI adoption",
+            "description": "",
+            "value": "2",
+            "points": 70
+          },
+          {
+            "label": "Enthusiastic - team actively wants AI tools",
+            "description": "",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "pr1",
+        "pillar": "process",
+        "text": "How well documented are your key business processes?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Poorly - most processes exist only in people's heads",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Partially - some processes are documented informally",
+            "description": "",
+            "value": "1",
+            "points": 35
+          },
+          {
+            "label": "Well-documented - formal SOPs for all critical processes",
+            "description": "",
+            "value": "2",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "pr2",
+        "pillar": "process",
+        "text": "How standardized are processes across teams?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "High variation - every team does things differently",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Inconsistent - some standardization but many exceptions",
+            "description": "",
+            "value": "1",
+            "points": 35
+          },
+          {
+            "label": "Standardized - consistent processes across the organization",
+            "description": "",
+            "value": "2",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "pr3",
+        "pillar": "process",
+        "text": "Do you measure KPIs for key processes?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Ad-hoc - metrics are tracked sporadically, if at all",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Informal metrics - some tracking but no dashboards",
+            "description": "",
+            "value": "1",
+            "points": 35
+          },
+          {
+            "label": "Formal dashboard - real-time KPI tracking and reporting",
+            "description": "",
+            "value": "2",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "s1",
+        "pillar": "strategy",
+        "text": "Do you have an AI strategy or vision?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No plan - AI isn't on the radar yet",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Exploring - researching possibilities but no formal plan",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Documented - written AI strategy with goals and timelines",
+            "description": "",
+            "value": "2",
+            "points": 75
+          },
+          {
+            "label": "Actively executing - AI strategy is being implemented",
+            "description": "",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "pillar": "strategy",
+        "text": "What budget has been allocated for AI initiatives?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No budget - no funds set aside",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Exploratory - small budget for research and pilot projects",
+            "description": "",
+            "value": "1",
+            "points": 35
+          },
+          {
+            "label": "Committed - dedicated budget for AI implementation",
+            "description": "",
+            "value": "2",
+            "points": 70
+          },
+          {
+            "label": "Significant - substantial investment in AI transformation",
+            "description": "",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "pillar": "strategy",
+        "text": "Do you have a multi-year roadmap for AI adoption?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No roadmap - haven't planned beyond the immediate term",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "1-year plan - short-term goals only",
+            "description": "",
+            "value": "1",
+            "points": 35
+          },
+          {
+            "label": "2-3 year plan - medium-term roadmap with milestones",
+            "description": "",
+            "value": "2",
+            "points": 70
+          },
+          {
+            "label": "5+ year vision - long-term strategic AI roadmap",
+            "description": "",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between \"Advanced\" and \"Leader\" maturity?",
+        "answer": "\"Advanced\" means you have solid AI foundations and can execute production projects. \"Leader\" means AI is strategic - embedded in culture, processes, and strategy. Most companies should target \"Advanced\" as their initial goal (takes 8-12 months), then progress to \"Leader\" over 2-3 years."
+      },
+      {
+        "question": "How long will it take to improve our AI readiness?",
+        "answer": "Time depends on your starting point and resource investment. From \"Beginner\" to \"Advanced\" typically takes 6-12 months. The most critical path: establish data governance (8-12 weeks) + hire/train data talent (4-8 weeks) + build a pilot AI project (8-12 weeks). Your 90-day action plan shows what's achievable in the first quarter."
+      },
+      {
+        "question": "What if we score low on \"People\" - should we hire new staff?",
+        "answer": "Not necessarily. Many companies improve their People score through: hiring 1-2 specialized roles, training existing team members, partnering with vendors/consultants, and hiring a fractional Chief AI Officer (CAO). The recommendation section suggests which approach fits your situation best."
+      },
+      {
+        "question": "Does this assessment guarantee AI implementation success?",
+        "answer": "This assessment measures readiness, not a guarantee of success. High readiness (75+) correlates with 85% project success. But success also depends on: executive commitment, clear use case selection, quality of talent, and project execution. We recommend using this as the first step in a larger AI strategy engagement."
+      },
+      {
+        "question": "How often should we retake this assessment?",
+        "answer": "We recommend retaking it every 6 months to track progress. After implementing recommendations from this assessment, retake it in 90 days to validate improvements and adjust your roadmap. Most customers see 10-15 point increases per quarter in early stages."
+      },
+      {
+        "question": "What if our scores are uneven (strong Technology, weak People)?",
+        "answer": "This is actually common. Uneven scores reveal where to prioritize resources. In your example, you'd focus on talent/team building while leveraging strong infrastructure. Our recommendation engine prioritizes \"quick wins\" in weak areas that have high impact."
+      },
+      {
+        "question": "Can we use this for a specific AI project, not company-wide readiness?",
+        "answer": "Absolutely. You can interpret this assessment as \"readiness to implement [specific project]\" rather than company-wide AI. For example, a chatbot project needs strong data quality (pillar 1) and reasonable technology infrastructure (pillar 2), but less strategic maturity."
+      }
+    ]
+  },
+  "workflow-audit": {
+    "questions": [],
+    "faqs": [
+      {
+        "question": "What if we don't know the exact error rate for a workflow?",
+        "answer": "Our calculator allows rough estimates (None, Low 15%). If you're unsure, start with your best guess - most customers refine this after implementation. The error rate is less critical to prioritization than hours spent, so don't let uncertainty block automation decisions."
+      },
+      {
+        "question": "How do I choose between No-Code, Low-Code, and Custom AI?",
+        "answer": "Start with No-Code (Zapier/Make) for simple, rule-based workflows with strong integrations. Use Low-Code when your workflow needs custom logic or complex conditions. Choose Custom AI when: no existing tool handles your workflow, you need machine learning, or you have unique business logic. Most companies start with No-Code to build momentum."
+      },
+      {
+        "question": "What's the difference between estimated and actual savings?",
+        "answer": "Our estimates are conservative (70-90% of potential). Actual results vary based on: data quality, process discipline, tool configuration, team training, and change management. We recommend measuring actual savings monthly. Most customers see 85-110% of estimated savings."
+      },
+      {
+        "question": "Can we automate workflows involving human judgment?",
+        "answer": "Yes, but partially. Workflows with judgment typically achieve 50-70% automation (AI handles clear-cut cases, humans handle exceptions). Examples: credit approval (AI approves good/bad cases, humans review borderline), customer support (AI handles common issues, humans handle complex ones)."
+      },
+      {
+        "question": "How do we prioritize when we have limited budget?",
+        "answer": "Follow the Priority Matrix: focus on \"Quick Wins\" first (low effort, high savings). These typically have 3-6 month payback. Allocate 60% of budget to quick wins, 30% to strategic investments, 10% to exploratory projects. Most customers can fund 4-6 quick wins in year one."
+      },
+      {
+        "question": "What if automation breaks our process due to exceptions?",
+        "answer": "This is where the \"Residual Manual Effort\" comes in. We estimate 20-30% of work remains manual for No-Code tools. Design your automation to handle the 70-80% of common cases cleanly, with manual exception handling. As the system matures, you'll automate those exceptions too."
+      },
+      {
+        "question": "How long does the entire automation program take?",
+        "answer": "A typical company with 5-8 workflows: Phase 1 (quick wins, 8 weeks) + Phase 2 (medium workflows, 8 weeks) + Phase 3 (strategic, 8 weeks) = 6 months for portfolio completion. However, you'll see ROI after Phase 1 (8 weeks). Most companies compress the timeline to 4-5 months by running phases in parallel."
+      }
+    ]
+  },
+  "digital-transformation-scorecard": {
+    "questions": [
+      {
+        "id": "s1",
+        "pillar": "Strategy & Leadership",
+        "text": "Does your organization have a documented digital strategy?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No formal strategy",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Informal or ad-hoc approach",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Documented digital strategy",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "Strategic roadmap with measurable KPIs",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "pillar": "Strategy & Leadership",
+        "text": "How committed is executive leadership to digital initiatives?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Low - digital is not a priority",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Moderate - supports some initiatives",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Strong - actively sponsors digital projects",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "Driving - champions transformation at every level",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "pillar": "Strategy & Leadership",
+        "text": "What is your digital investment budget as a percentage of IT spend?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Less than 5%",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "5-10%",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "10-20%",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "More than 20%",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "pillar": "Strategy & Leadership",
+        "text": "How fast can your organization make digital decisions?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Slow - takes months",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Moderate - takes weeks",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Fast - decisions in days",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "Real-time - decisions in hours",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "c1",
+        "pillar": "Customer Experience",
+        "text": "How many channels do you use for customer engagement (web, mobile, social, in-person)?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Single channel only",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "2 channels",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "3 or more channels",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "Omnichannel - fully integrated experience",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "pillar": "Customer Experience",
+        "text": "What level of personalization do you offer in customer interactions?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "One-size-fits-all",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Basic segmentation",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Advanced personalization",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "AI-driven real-time personalization",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "pillar": "Customer Experience",
+        "text": "How mature is your customer data platform?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No centralized customer data",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Basic CRM system",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Integrated customer data platform",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "360-degree view with AI-powered insights",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "pillar": "Customer Experience",
+        "text": "What digital self-service capabilities do you offer customers?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Limited or no self-service",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Basic self-service portal",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Comprehensive self-service options",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "AI chatbot plus full self-service",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "o1",
+        "pillar": "Operations & Processes",
+        "text": "What percentage of your processes are automated?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Less than 20%",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "20-40%",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "40-70%",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "More than 70%",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "o2",
+        "pillar": "Operations & Processes",
+        "text": "How do you access data and analytics?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Batch or overnight reports only",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Daily dashboards",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Near real-time dashboards",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "Real-time streaming analytics",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "o3",
+        "pillar": "Operations & Processes",
+        "text": "What is your cloud infrastructure adoption level?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Fully on-premise",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Hybrid (some cloud)",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Cloud-first strategy",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "Cloud-native microservices",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "o4",
+        "pillar": "Operations & Processes",
+        "text": "How would you describe your API architecture approach?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Legacy point-to-point integration",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Some APIs available",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "API-first design philosophy",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "Full API economy model",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "t1",
+        "pillar": "Technology & Data",
+        "text": "How mature is your data governance and quality framework?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Ad-hoc - no formal governance",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Basic policies in place",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Documented framework and processes",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "Automated governance with continuous monitoring",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "pillar": "Technology & Data",
+        "text": "What is your AI/ML capability maturity?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No AI initiatives",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Experimentation and POCs",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Production-deployed models",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "Strategic AI program across the organization",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "t3",
+        "pillar": "Technology & Data",
+        "text": "How would you describe your cybersecurity posture?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Basic security measures",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Compliant with regulations",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Proactive threat detection",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "Zero-trust architecture",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "t4",
+        "pillar": "Technology & Data",
+        "text": "What is your technology modernization status?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Mostly legacy systems",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Mixed legacy and modern",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Mostly modern stack",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "Fully modernized",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "p1",
+        "pillar": "Culture & People",
+        "text": "What digital skills training and development do you offer?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No formal training",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Ad-hoc or occasional training",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Structured training programs",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "Continuous learning with certifications",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "p2",
+        "pillar": "Culture & People",
+        "text": "How does your organization encourage innovation?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Risk-averse - avoids experimentation",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Tolerant - allows some experiments",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Encouraged - rewards innovation",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "Embedded - experimentation is part of culture",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "p3",
+        "pillar": "Culture & People",
+        "text": "How widely have collaboration tools been adopted across the organization?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Limited adoption",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Some teams use them",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Strong adoption across most teams",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "Seamless integration into all workflows",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "p4",
+        "pillar": "Culture & People",
+        "text": "How mature is your change management approach?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Reactive - no formal process",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Planned - basic change management",
+            "value": "1",
+            "points": 33
+          },
+          {
+            "label": "Structured program in place",
+            "value": "2",
+            "points": 67
+          },
+          {
+            "label": "Continuous transformation culture",
+            "value": "3",
+            "points": 100
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between \"Maturing\" and \"Digital-First\"?",
+        "answer": "\"Maturing\" means you've successfully implemented digital practices and see business results. \"Digital-First\" means digital thinking is embedded in strategy, culture, and operations - you innovate digitally first, not as an afterthought. Most large companies are \"Maturing\" (60-80). Very few are full \"Digital-First\" (81-100)."
+      },
+      {
+        "question": "How long does digital transformation typically take?",
+        "answer": "Based on this assessment: \"Traditional\" to \"Developing\" takes 6-12 months. \"Developing\" to \"Maturing\" takes 12-24 months. \"Maturing\" to \"Digital-First\" takes 24+ months. The timeline depends on investment, team capability, and organizational appetite for change. Full transformation usually requires 2-3 years."
+      },
+      {
+        "question": "If we only improve one pillar, which should we choose?",
+        "answer": "Our recommendation engine prioritizes based on your specific gaps. Typically: Strategy & Leadership should come first (it enables everything else), followed by Technology infrastructure (it's a prerequisite for operations). But this depends on your situation - review the detailed recommendations section."
+      },
+      {
+        "question": "Do we need to improve all pillars equally?",
+        "answer": "No. Different industries have different priorities. Customer-facing businesses prioritize Customer Experience + Technology. B2B operations focus on Operations + Technology. The key is identifying your \"critical path\" - the sequence of improvements that unlock the most value."
+      },
+      {
+        "question": "What if our executive team isn't aligned on digital transformation?",
+        "answer": "This is the #1 blocker we see. If Strategy & Leadership score is below 40, we recommend: (a) Executive workshop on digital imperatives, (b) Competitive benchmarking to show how peers are transforming, (c) Customer feedback showing digital expectations, (d) Hiring an external advisor to make the case. Strategy alignment comes before execution."
+      },
+      {
+        "question": "How do we measure success - what KPIs matter most?",
+        "answer": "The assessment generates personalized KPIs based on your profile. Common ones: customer NPS (experience), automation rate (operations), cloud adoption percentage (technology), training completion (culture). Set 3-5 KPIs per pillar, measure monthly, report quarterly. Visible progress builds momentum."
+      },
+      {
+        "question": "Should we hire a transformation leader?",
+        "answer": "Many companies bring in a Chief Digital Officer or Chief Transformation Officer, especially if the current score is below 60. This role accelerates transformation by 30-40% and helps maintain focus. But you also need grassroots adoption - top-down mandate isn't enough. Ideal: external advisor + internal champion + team engagement."
+      }
+    ]
+  },
+  "ai-maturity-quiz": {
+    "questions": [
+      {
+        "id": "strategy",
+        "pillar": "Strategy",
+        "text": "Which best describes your AI strategy?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "We haven't formally defined an AI strategy",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "We've identified some AI opportunities but no formal roadmap",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "We have a documented AI strategy with clear priorities",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Our AI strategy is integrated into business planning and regularly reviewed",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "AI strategy drives organizational transformation and competitive differentiation",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "pillar": "Infrastructure",
+        "text": "How mature is your data infrastructure?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Data is fragmented across systems; limited centralization",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "We have some data warehousing; improving data accessibility",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Centralized data warehouse/lake with documented data governance",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Cloud-native, automated pipelines, real-time data capabilities",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "Enterprise data platform with AI-optimized architecture, self-service analytics",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "talent",
+        "pillar": "Talent",
+        "text": "How would you characterize your AI talent?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No dedicated AI/ML staff",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "1-2 AI resources (contract, junior, or hybrid roles)",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Dedicated AI team (3-5 people) with data science and engineering skills",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Established AI center of excellence with diverse expertise",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "Distributed AI expertise across organization; strong leadership; continuous learning culture",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "governance",
+        "pillar": "Governance",
+        "text": "How do you manage AI governance and risk?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No formal AI governance",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Ad-hoc governance; some compliance awareness",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Documented AI governance framework; bias testing; compliance processes",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Comprehensive governance with model monitoring, regulatory compliance tracking",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "Integrated governance across enterprise; proactive risk management; industry leadership in responsible AI",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "deployments",
+        "pillar": "Operations",
+        "text": "How many AI models do you have in production?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "None",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "1-2 pilot projects",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "3-10 models in production (some running 6+ months)",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "10+ models with managed lifecycle and performance monitoring",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "50+ models; automated retraining; integrated MLOps platform",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "budget",
+        "pillar": "Operations",
+        "text": "What percentage of your IT budget goes to AI/ML initiatives?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "<1% (experimentation only)",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "1-3% (exploratory projects)",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "3-7% (dedicated team and projects)",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "7-12% (strategic investments)",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "12%+ (AI as core competitive advantage)",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "sponsorship",
+        "pillar": "Culture",
+        "text": "How much executive support does AI have?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Limited awareness; no dedicated budget approval",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Some interest; inconsistent funding",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Clear executive sponsor; stable funding; quarterly reviews",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Board-level visibility; AI metrics tracked in executive dashboards",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "CEO/Board prioritizes AI; embedded in strategy; allocated as enterprise capability",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "experimentation",
+        "pillar": "Culture",
+        "text": "How prevalent is AI experimentation in your organization?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Rare; high barriers to trying AI solutions",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Pockets of experimentation; mostly in IT department",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Structured experimentation process; multiple departments have run pilots",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Built-in experimentation framework; rapid prototyping standard",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "Continuous innovation culture; fail-fast mentality; employee-driven AI ideas",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "measurement",
+        "pillar": "Measurement",
+        "text": "How do you measure AI project impact?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No formal metrics; ad-hoc measurement",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Basic KPIs tracked; inconsistent measurement methodology",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Documented ROI framework; project-level impact metrics",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Comprehensive AI metrics dashboard; business outcome tracking",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "Integrated measurement across enterprise; AI impact tied to business strategy",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "partners",
+        "pillar": "Partnerships",
+        "text": "How do you approach AI vendors and partners?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Ad-hoc purchases when needed; little vendor management",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Multiple vendors; some evaluation process",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Curated partner ecosystem; established vendor relationships",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Strategic partnerships; technology integration; knowledge transfer",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "Industry-leading partnerships; joint innovation; ecosystem builder",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How is this assessment different from other AI maturity models?",
+        "answer": "Our assessment is specifically calibrated for mid-market and enterprise organizations implementing AI. We focus on the factors that matter most for business impact: strategy, governance, operations, and cultural readiness."
+      },
+      {
+        "question": "Is the \"Industry Average\" specific to my industry?",
+        "answer": "Our current benchmark reflects organizations across all industries. For industry-specific benchmarking, contact our team to access industry-specific data for Financial Services, Healthcare, Manufacturing, Retail, and more."
+      },
+      {
+        "question": "What if I scored differently in different dimensions?",
+        "answer": "It's normal to be at different levels across dimensions. Most organizations excel in one area (e.g., infrastructure) while trailing in another (e.g., culture). Our detailed roadmap prioritizes which dimension to improve first."
+      },
+      {
+        "question": "Is this assessment confidential?",
+        "answer": "Yes. Your assessment results are not shared publicly. We use aggregated, anonymized data to improve our benchmarks. Your results are securely stored."
+      },
+      {
+        "question": "How often should we reassess our maturity?",
+        "answer": "We recommend reassessing every 12-18 months or after major initiatives (e.g., new AI platform deployment, team expansion). This helps track progress and adjust your roadmap."
+      },
+      {
+        "question": "Can I share this with my leadership team?",
+        "answer": "Absolutely. Once you complete the assessment, you can download a PDF report to share with stakeholders. The report includes your results, benchmarking data, and recommended actions."
+      },
+      {
+        "question": "What comes after Transforming (Level 5)?",
+        "answer": "Level 5 represents the current frontier of AI maturity. Organizations at this level focus on continuous innovation, responsible AI leadership, and maintaining competitive advantage through peer networks and advanced consulting."
+      }
+    ]
+  },
+  "ai-governance-maturity-assessment": {
+    "questions": [
+      {
+        "id": "acc1",
+        "pillar": "accountability",
+        "text": "When an AI agent or model produces a bad outcome, who is accountable for fixing it?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No one in particular. It is not clear whose job that is.",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Someone unofficially handles it, but it is not written down anywhere.",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Each AI system has a named owner on paper, though they were not chosen deliberately.",
+            "description": "",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Every model or agent in production has a named owner expected to answer for it.",
+            "description": "",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "Owners are accountable, and incidents change how future ownership gets assigned.",
+            "description": "",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "acc2",
+        "pillar": "accountability",
+        "text": "Do you have a complete inventory of every AI model, agent, and AI-powered tool running in your company?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No. Teams adopt new tools without anyone tracking them.",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "A partial list exists, built from memory, not from an audit.",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "A real inventory covers systems built in-house, but not third-party AI tools.",
+            "description": "",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "A single inventory covers in-house models, agents, and third-party AI tools.",
+            "description": "",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "The inventory updates automatically and is reviewed on a set schedule.",
+            "description": "",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "tra1",
+        "pillar": "transparency",
+        "text": "Can someone affected by an AI-driven decision find out AI was involved and get a plain explanation?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No. We do not disclose when AI is involved.",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "We would explain it if someone asked directly, but nothing is proactive.",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Some products disclose AI involvement, others do not.",
+            "description": "",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "AI involvement is disclosed by default with a plain-language explanation available.",
+            "description": "",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "Disclosure and explanation are built into the product and tested with real users.",
+            "description": "",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "tra2",
+        "pillar": "transparency",
+        "text": "Do legal, compliance, and leadership know which AI systems exist and what they actually do?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No. They typically find out after a system has already shipped.",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "They know about the high-profile projects, not the rest.",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "They receive periodic updates, but the picture is incomplete.",
+            "description": "",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "They have visibility into every system through the inventory and can ask questions any time.",
+            "description": "",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "They are looped in before launch as a standard step, not an exception.",
+            "description": "",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "risk1",
+        "pillar": "risk",
+        "text": "Do you tier AI use cases by potential harm before they ship? (a support macro is not a hiring or credit decision)",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No. Every use case gets treated the same, or not reviewed at all.",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "We informally think about risk but do not document a tier.",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "A tiering method exists, but it is not consistently applied.",
+            "description": "",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Every use case gets tiered, and review scales with the tier.",
+            "description": "",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "Tiering is enforced automatically before anything reaches production.",
+            "description": "",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "risk2",
+        "pillar": "risk",
+        "text": "When something goes wrong with an AI system, is there a process to catch it and respond?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No. We find out from a customer complaint or a headline.",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "We would notice eventually through normal support channels.",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Some systems have monitoring, others do not.",
+            "description": "",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Monitoring and an incident process cover every production system.",
+            "description": "",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "Incidents feed back into risk tiering and controls automatically.",
+            "description": "",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "data1",
+        "pillar": "data",
+        "text": "Do you know what data trains or feeds each model, where it came from, and whether you had consent to use it?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No. Data sourcing for AI is not tracked.",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "We know for the newest projects, not the older ones.",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Documentation exists but is not kept current.",
+            "description": "",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Every model has documented data lineage that is reviewed periodically.",
+            "description": "",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "Data lineage is tracked automatically and audited on a schedule.",
+            "description": "",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "data2",
+        "pillar": "data",
+        "text": "Is access to the data feeding your AI systems controlled the same way you control access to any other regulated system?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No. Broad access is normal.",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "Some access controls exist, informally.",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "Access controls exist for some systems but not others.",
+            "description": "",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Access is controlled and logged consistently across AI systems.",
+            "description": "",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "Access controls are audited and access is reviewed regularly.",
+            "description": "",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "life1",
+        "pillar": "lifecycle",
+        "text": "Are models and agents reviewed before they ship and monitored once they are in production?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No. Once something works in testing, it ships.",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "A review sometimes happens, informally, if someone remembers.",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "A review step exists for major launches, but monitoring after launch is thin.",
+            "description": "",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Every model is reviewed before launch and monitored in production.",
+            "description": "",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "Review and monitoring are standard steps with clear owners and thresholds.",
+            "description": "",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "life2",
+        "pillar": "lifecycle",
+        "text": "Do you have a schedule for retraining, revalidating, or retiring models, or do they run until something breaks?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "They run until something breaks.",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "We retrain reactively, after we notice a problem.",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "A retraining cadence exists for a few key systems.",
+            "description": "",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Every production model has a retrain or retire schedule.",
+            "description": "",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "Schedules are enforced and drift triggers an automatic review.",
+            "description": "",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "over1",
+        "pillar": "oversight",
+        "text": "Can a person actually review, override, or stop an AI system in production?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Not really. There is no accessible override.",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "An override exists technically, but almost no one knows how to use it.",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "An override exists and is documented for some systems.",
+            "description": "",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "Every production system has a tested override path a person can use.",
+            "description": "",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "Override paths are tested regularly, not just documented.",
+            "description": "",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "over2",
+        "pillar": "oversight",
+        "text": "Has that override or stop path actually been used or tested, not just written down?",
+        "subtitle": "",
+        "multiple": false,
+        "options": [
+          {
+            "label": "No, it has never been tested.",
+            "description": "",
+            "value": "0",
+            "points": 0
+          },
+          {
+            "label": "It has been tested once, a while ago.",
+            "description": "",
+            "value": "1",
+            "points": 25
+          },
+          {
+            "label": "It gets tested occasionally, without a fixed schedule.",
+            "description": "",
+            "value": "2",
+            "points": 50
+          },
+          {
+            "label": "It is tested on a regular schedule.",
+            "description": "",
+            "value": "3",
+            "points": 75
+          },
+          {
+            "label": "It is tested regularly and the results are used to improve the system.",
+            "description": "",
+            "value": "4",
+            "points": 100
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How is my AI governance maturity level calculated?",
+        "answer": "Each of the 12 questions scores 0 to 4, matching the same 5-level model used across our governance content: Ad Hoc, Aware, Defined, Managed, Optimizing. Your answers are averaged per pillar, then averaged again across all 6 pillars for your overall level. Nothing is sent anywhere, the scoring runs in your browser."
+      },
+      {
+        "question": "What are the six pillars this assessment covers?",
+        "answer": "Accountability, transparency, risk management, data governance, model lifecycle, and human oversight. These are the same six pillars covered in our AI governance framework guide, so your score maps directly onto that model."
+      },
+      {
+        "question": "Is this assessment specific to a regulation like the EU AI Act or NIST?",
+        "answer": "No. It measures operational maturity, whether governance is actually practiced, not compliance with a specific law or framework. A company can score well here and still have specific regulatory gaps, and vice versa. Treat this as a starting point, not a compliance audit."
+      },
+      {
+        "question": "Do I need to give my email to see my results?",
+        "answer": "No. Results appear immediately after the last question. There is no gate, no download form, and nothing is stored beyond your current browser session."
+      },
+      {
+        "question": "What should I do if I score Level 0 or 1?",
+        "answer": "Start with an inventory before writing any policy. Most organizations at this stage cannot see every model, agent, and third-party AI tool already running, and you cannot govern what you cannot see. The recommendations on your results page prioritize this first."
+      },
+      {
+        "question": "Can different teams in the same company score differently?",
+        "answer": "Yes, and that is common. A platform team with strict model review can sit at Level 3 while a business unit adopting AI tools ad hoc sits at Level 0. Consider running this per business unit if your organization is large or decentralized."
+      }
+    ]
+  },
+  "process-automation-finder": {
+    "questions": [],
+    "faqs": [
+      {
+        "question": "What if a process scores high on automation but has very low volume?",
+        "answer": "Even if volume is low, high automation scores (>70) can be worth automating if: (1) error impact is high, (2) implementation is simple/cheap, or (3) the process will likely grow. Our calculator weights volume at 20%, not 100%, so one strong factor (like \"error-critical\") can still justify automation. If volume is genuinely low and error impact is zero, deprioritize."
+      },
+      {
+        "question": "How do we know if a process is truly rule-based or has hidden exceptions?",
+        "answer": "This is why we recommend a pre-automation checklist - document all decision rules and edge cases before automating. Many processes seem rule-based (80% rules, 20% exceptions), but those exceptions can derail automation. Start with a 2-week process mapping exercise to identify all exceptions. This improves automation score accuracy."
+      },
+      {
+        "question": "What if we automate a process but it needs to change frequently?",
+        "answer": "Frequently changing processes are poor automation candidates. Rule of thumb: if a process changes more than 25% per year, delay automation until it stabilizes. Use this audit to identify which processes need standardization BEFORE automation."
+      },
+      {
+        "question": "How accurate are the hours/savings estimates?",
+        "answer": "Our estimates assume successful implementation, team adoption, and no major rework. Actual results vary by ±20%. Many projects deliver more savings because: the team becomes more efficient, additional processes are added, and error reduction is higher than predicted. Review actual vs. projected monthly."
+      },
+      {
+        "question": "Should we automate low-score processes if they're quick and cheap?",
+        "answer": "Depends on opportunity cost. If a process scores 35 (low) but costs only $500 and 2 weeks to automate, and you have excess capacity, it's fine. But if you have limited bandwidth, focus on high-score processes first. The priority matrix helps balance: Quick Wins (high score, low effort) are the best use of time."
+      },
+      {
+        "question": "What if our data isn't digital or accessible?",
+        "answer": "A data availability score below 5 suggests the process isn't automation-ready yet. First digitize and integrate your systems, clean and validate data, then set up API access. Revisit automation after. This is a prerequisite, not a permanent blocker - many companies must do this anyway for other reasons."
+      },
+      {
+        "question": "How do we handle processes with subjective or judgment elements?",
+        "answer": "Processes requiring judgment (rule-based score below 6) can be partially automated: automate the clear-cut 70% of cases and route exceptions to humans. This still reduces workload significantly. Some AI approaches (machine learning, NLP) can handle some judgment, but they're more complex and expensive to implement."
+      }
+    ]
+  },
+  "ai-tool-selector": {
+    "questions": [
+      {
+        "id": "budget",
+        "pillar": "budget",
+        "text": "What's your monthly automation budget?",
+        "subtitle": "This helps us filter tools within your price range",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Under $100/month",
+            "description": "Bootstrap or startup budget",
+            "value": "under-100",
+            "points": 0
+          },
+          {
+            "label": "$100-$500/month",
+            "description": "Growing business",
+            "value": "100-500",
+            "points": 33
+          },
+          {
+            "label": "$500-$2,000/month",
+            "description": "Established business",
+            "value": "500-2000",
+            "points": 67
+          },
+          {
+            "label": "$2,000+/month",
+            "description": "Enterprise, budget flexible",
+            "value": "2000-plus",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "technical",
+        "pillar": "technical",
+        "text": "What's your team's technical skill level?",
+        "subtitle": "We'll match tools to your comfort with technology",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Non-technical",
+            "description": "No coding, zero API experience",
+            "value": "non-technical",
+            "points": 0
+          },
+          {
+            "label": "Light technical",
+            "description": "Can follow docs, no coding",
+            "value": "light-technical",
+            "points": 33
+          },
+          {
+            "label": "Technical",
+            "description": "Can write basic code/scripts",
+            "value": "technical",
+            "points": 67
+          },
+          {
+            "label": "Developer",
+            "description": "Full coding skills, manages APIs",
+            "value": "developer",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "volume",
+        "pillar": "volume",
+        "text": "How many automated tasks do you need per month?",
+        "subtitle": "This affects pricing and platform choice",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Low",
+            "description": "Under 10 tasks/month",
+            "value": "low",
+            "points": 0
+          },
+          {
+            "label": "Medium",
+            "description": "10-100 tasks/month",
+            "value": "medium",
+            "points": 33
+          },
+          {
+            "label": "High",
+            "description": "100-1,000 tasks/month",
+            "value": "high",
+            "points": 67
+          },
+          {
+            "label": "Very high",
+            "description": "1,000+ tasks/month",
+            "value": "very-high",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "integrations",
+        "pillar": "integrations",
+        "text": "Which systems do you need to connect?",
+        "subtitle": "Select all that apply - this filters by native integrations",
+        "multiple": true,
+        "options": [
+          {
+            "label": "CRM (Salesforce, HubSpot)",
+            "description": "",
+            "value": "crm",
+            "points": 0
+          },
+          {
+            "label": "Email (Gmail, Outlook)",
+            "description": "",
+            "value": "email",
+            "points": 13
+          },
+          {
+            "label": "Accounting (QuickBooks, Xero)",
+            "description": "",
+            "value": "accounting",
+            "points": 25
+          },
+          {
+            "label": "Payments (Stripe, PayPal)",
+            "description": "",
+            "value": "payments",
+            "points": 38
+          },
+          {
+            "label": "Cloud storage (Drive, Dropbox)",
+            "description": "",
+            "value": "storage",
+            "points": 50
+          },
+          {
+            "label": "Databases (SQL, Airtable)",
+            "description": "",
+            "value": "databases",
+            "points": 63
+          },
+          {
+            "label": "Chat tools (Slack, Teams)",
+            "description": "",
+            "value": "communication",
+            "points": 75
+          },
+          {
+            "label": "Custom / internal APIs",
+            "description": "",
+            "value": "custom-apis",
+            "points": 88
+          },
+          {
+            "label": "No integrations needed",
+            "description": "",
+            "value": "none",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "complexity",
+        "pillar": "complexity",
+        "text": "How complex are your automation workflows?",
+        "subtitle": "This determines which platforms can handle your logic",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Simple",
+            "description": "If-then logic, sequential steps",
+            "value": "simple",
+            "points": 0
+          },
+          {
+            "label": "Moderate",
+            "description": "Loops, conditions, data transforms",
+            "value": "moderate",
+            "points": 33
+          },
+          {
+            "label": "Complex",
+            "description": "Branching, error handling, multi-condition",
+            "value": "complex",
+            "points": 67
+          },
+          {
+            "label": "Very complex",
+            "description": "State management, webhooks, custom logic",
+            "value": "very-complex",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "team",
+        "pillar": "team",
+        "text": "How many people will use the automation platform?",
+        "subtitle": "Team size affects collaboration and admin features needed",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Solo / 1 person",
+            "description": "",
+            "value": "solo",
+            "points": 0
+          },
+          {
+            "label": "Small team (2-5)",
+            "description": "",
+            "value": "small",
+            "points": 33
+          },
+          {
+            "label": "Growing team (6-20)",
+            "description": "",
+            "value": "growing",
+            "points": 67
+          },
+          {
+            "label": "Enterprise (20+)",
+            "description": "",
+            "value": "enterprise",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "support",
+        "pillar": "support",
+        "text": "How important is vendor support to you?",
+        "subtitle": "This weighs documentation, community, and paid support",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Community support is fine",
+            "description": "Forums, docs, YouTube",
+            "value": "community",
+            "points": 0
+          },
+          {
+            "label": "Some vendor support",
+            "description": "Email, chat, knowledge base",
+            "value": "some",
+            "points": 33
+          },
+          {
+            "label": "Need responsive support",
+            "description": "Fast replies, priority queue",
+            "value": "responsive",
+            "points": 67
+          },
+          {
+            "label": "Need enterprise support",
+            "description": "SLA, dedicated account manager",
+            "value": "enterprise-sla",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "scalability",
+        "pillar": "scalability",
+        "text": "What are your growth expectations?",
+        "subtitle": "Helps us recommend platforms that scale with you",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Just exploring / pilot",
+            "description": "Might not grow",
+            "value": "pilot",
+            "points": 0
+          },
+          {
+            "label": "Moderate growth",
+            "description": "2-3x within 2 years",
+            "value": "moderate",
+            "points": 33
+          },
+          {
+            "label": "Significant growth",
+            "description": "10x+ within 2 years",
+            "value": "significant",
+            "points": 67
+          },
+          {
+            "label": "Enterprise-grade reliability",
+            "description": "Redundancy, uptime SLA",
+            "value": "enterprise-grade",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "custom-dev",
+        "pillar": "custom-dev",
+        "text": "How comfortable are you with custom development?",
+        "subtitle": "Determines if open-source or custom-built tools suit you",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Pure no-code only",
+            "description": "No custom code at all",
+            "value": "no-code",
+            "points": 0
+          },
+          {
+            "label": "Some custom logic is OK",
+            "description": "Comfortable with minor tweaks",
+            "value": "some-custom",
+            "points": 33
+          },
+          {
+            "label": "Can hire developers",
+            "description": "Extend with custom code as needed",
+            "value": "hire-devs",
+            "points": 67
+          },
+          {
+            "label": "Build custom solution",
+            "description": "Full internal development",
+            "value": "build-custom",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "pillar": "timeline",
+        "text": "How quickly do you need a working automation?",
+        "subtitle": "Prioritizes platforms with faster deployment",
+        "multiple": false,
+        "options": [
+          {
+            "label": "Speed critical",
+            "description": "Need it working in days",
+            "value": "days",
+            "points": 0
+          },
+          {
+            "label": "Moderate timeline",
+            "description": "A few weeks is fine",
+            "value": "weeks",
+            "points": 33
+          },
+          {
+            "label": "Flexible timeline",
+            "description": "No rush",
+            "value": "flexible",
+            "points": 67
+          },
+          {
+            "label": "Willing to invest setup time",
+            "description": "Prioritize perfect fit over speed",
+            "value": "invest",
+            "points": 100
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Why is Make recommended over Zapier when Zapier is more popular?",
+        "answer": "While Zapier is more popular overall, Make is often better if you need: more complex workflows, better pricing at high volumes, or more custom flexibility. Zapier is easier for pure no-code, but Make balances simplicity with power. The recommendation is personalized to your situation."
+      },
+      {
+        "question": "What if I need a tool that's not on this list (e.g., Pipedream, IFTTT)?",
+        "answer": "This tool compares the \"Big 4\" automation platforms. Other tools like Pipedream, IFTTT, or Bubble exist but focus on specific niches. If you need specialized tools, we recommend: pick one from this list for core workflows, then add specialized tools as needed."
+      },
+      {
+        "question": "Can I use multiple tools together (e.g., Zapier + n8n)?",
+        "answer": "Absolutely. Many teams use a \"best of breed\" approach: Zapier for simple integrations, n8n for complex workflows, custom code for unique needs. This calculator recommends ONE as your \"primary,\" but in reality, you'll probably use 2-3 complementary tools."
+      },
+      {
+        "question": "What if my needs change after picking a tool?",
+        "answer": "Retake this assessment every 6-12 months. If your needs shift significantly (e.g., workflow volume grows 10x), the recommendation might change. Switching between tools is possible: workflows can be exported (time investment: 10-40 hours per workflow), but easier with similar tools."
+      },
+      {
+        "question": "How do I know if custom development is worth the cost?",
+        "answer": "Custom makes sense if: your workflows are truly unique (not standard business processes), you have complex logic that generic tools can't handle, or you'll be using this for 3+ years (ROI on $10-30K investment spreads over time). For one-off projects or startups, stick with no-code/low-code tools."
+      },
+      {
+        "question": "What does \"confidence score\" mean, and what's a good score?",
+        "answer": "Confidence score (65-95%) indicates how well the recommendation fits your answers. 85%+ means strong fit. If score is <75%, your answers may be contradictory or you might benefit from a hybrid approach (multiple tools). If you disagree with the recommendation, explore the alternatives presented."
+      },
+      {
+        "question": "Are there hidden costs I should know about?",
+        "answer": "Common hidden costs: onboarding/training (10-40 hours), setup/configuration (5-100 hours), team management overhead, and infrastructure (especially for self-hosted n8n). The comparison charts show task-based pricing, but factor in these human costs. Many companies budget 50-100 hours for launch."
+      }
+    ]
+  },
+  "ai-job-description-generator": {
+    "questions": [],
+    "faqs": [
+      {
+        "question": "Can I customize the job description for my company?",
+        "answer": "Absolutely. The generated description is a great starting point - personalize it with your company details, specific projects, unique benefits, and culture. We recommend having your hiring manager or recruiter review it before posting."
+      },
+      {
+        "question": "Should I post the same JD on all platforms?",
+        "answer": "The JD works for most platforms, but customize for each. LinkedIn allows longer descriptions, while job boards may truncate. Emphasize different benefits: remote flexibility on Indeed, equity on AngelList, mission on your careers page."
+      },
+      {
+        "question": "What salary range should I use?",
+        "answer": "Our estimates are based on 2025-2026 market data, adjusted for seniority and role type. Adjust based on: local market rates, company stage (startup vs. Fortune 500), and total comp package. Use Levels.fyi and Blind for real-world benchmarks."
+      },
+      {
+        "question": "How do I evaluate candidates who don't fit these exact criteria?",
+        "answer": "These criteria are guidelines, not absolutes. Someone with strong fundamentals and growth potential may succeed. Use the evaluation rubric to identify gaps, then assess their ability to learn - track record, side projects, and curiosity matter."
+      },
+      {
+        "question": "Are the interview questions too tough?",
+        "answer": "They're designed to be thoughtful, not gotcha questions. A strong candidate should be able to reason through them, even without the exact answer. Look for problem-solving approach, communication clarity, and willingness to learn."
+      },
+      {
+        "question": "Should I adjust seniority level for a startup vs. FAANG?",
+        "answer": "Yes. Startups often hire mid-level people to do senior-level work (with growth potential). FAANG has more defined levels. Adjust expectations and mentorship support accordingly."
+      },
+      {
+        "question": "What comes after I post this JD?",
+        "answer": "Good next steps: (1) Share on LinkedIn, Indeed, AngelList, (2) Reach out to your network directly, (3) Consider a recruiting partner if hiring is urgent. We offer AI recruitment and staffing services - book a free consultation to discuss your needs."
+      }
+    ]
+  },
+  "ai-use-case-generator": {
+    "questions": [],
+    "faqs": [
+      {
+        "question": "How many AI use cases should we prioritize?",
+        "answer": "Start with 1-2 high-feasibility, high-impact use cases (quick wins). A typical company can successfully execute 3-4 use cases over 18 months. Don't try to do everything at once - momentum and organizational learning matter more. After quick wins, you'll be better positioned to tackle more complex initiatives."
+      },
+      {
+        "question": "If a use case has low feasibility, should we skip it?",
+        "answer": "Not necessarily. \"Low feasibility\" (1-2 stars) often means you need foundational work first (better data, team growth, infrastructure). If the impact is very high, it might still be worth pursuing as a strategic bet for years 2-3. Consider: quick wins first, build foundations, then pursue strategic bets."
+      },
+      {
+        "question": "How accurate are the ROI estimates?",
+        "answer": "Our estimates are based on industry benchmarks and anonymized peer data. Actual results typically vary ±30%. Many companies beat estimates because they discover additional benefits, implementation goes faster, and teams become more efficient. Measure actual results monthly and adjust."
+      },
+      {
+        "question": "We're in an industry not in your database. How do we interpret the use cases?",
+        "answer": "The use cases are broadly applicable across industries. Feasibility and impact will vary by your specific situation. Use them as inspiration and starting points. Customize by talking to peers, consulting AI vendors who specialize in your industry, and running small pilots to validate impact."
+      },
+      {
+        "question": "What if we don't have a data scientist or ML engineer on staff?",
+        "answer": "This lowers feasibility for complex use cases but doesn't eliminate them. Options include hiring or outsourcing, using no-code/low-code AI platforms (DataRobot, Alteryx), partnering with vendors, or starting with simpler use cases. Budget $100-200K for external help if hiring isn't feasible."
+      },
+      {
+        "question": "How do we choose between similar use cases (e.g., two revenue opportunities)?",
+        "answer": "Use these tiebreakers: (1) Feasibility - which is easiest to execute well? (2) Timeline - which delivers value faster? (3) Organizational priority - what does leadership care most about? (4) Foundation building - which enables other use cases? Usually pick the fastest, easiest win first to build momentum."
+      },
+      {
+        "question": "Can we do multiple use cases in parallel?",
+        "answer": "For startups and small companies, focus on 1-2 sequentially. For mid-market and enterprise, you can run 2-3 in parallel with separate teams. Parallel execution compresses timeline but requires more budget, more people, and strong project management. Our roadmap shows sequential approach by default."
+      }
+    ]
+  }
+}

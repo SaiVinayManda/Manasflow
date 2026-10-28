@@ -1,0 +1,569 @@
+{
+  "industries": [
+    {
+      "slug": "ai-for-consulting-firms",
+      "href": "/industries/ai-for-consulting-firms",
+      "label": "Consulting Firms",
+      "headline": "Run a leaner consulting firm without dropping quality.",
+      "summary": "Automate research, proposal creation, and client reporting so partners focus on high-impact conversations - not data gathering.",
+      "pains": [
+        "Billable hours wasted on data gathering and decks",
+        "Client status updates spread across multiple channels",
+        "Inconsistent onboarding and discovery documentation"
+      ],
+      "solutions": [
+        "AI copilots that assemble research packets from your knowledge base",
+        "Self-updating client workspaces with milestones and ROI dashboards",
+        "Templated onboarding flows that capture every requirement automatically"
+      ],
+      "metrics": [
+        {
+          "label": "Proposal Turnaround",
+          "value": "-70%"
+        },
+        {
+          "label": "Billable Utilization",
+          "value": "+18 pts"
+        },
+        {
+          "label": "Client Retention",
+          "value": "94%"
+        }
+      ],
+      "playbooks": [
+        {
+          "title": "Discovery-to-Proposal Studio",
+          "description": "Capture notes, analyze requirements, and draft proposals in one automated workspace.",
+          "deliverables": [
+            "Structured intake",
+            "Opportunity scoring",
+            "Proposal generator"
+          ]
+        },
+        {
+          "title": "Executive ROI Hub",
+          "description": "Live dashboards that translate automation wins into C-level scorecards every week.",
+          "deliverables": [
+            "Client portal",
+            "Data connectors",
+            "Narrative summary bot"
+          ]
+        }
+      ],
+      "techStack": [
+        "HubSpot",
+        "Notion",
+        "Airtable",
+        "Zapier",
+        "Looker",
+        "Google Workspace"
+      ]
+    },
+    {
+      "slug": "ai-for-law-firms",
+      "href": "/industries/ai-for-law-firms",
+      "label": "Law Firms",
+      "headline": "Modernize legal practice management with AI-powered workflows.",
+      "summary": "Automate contract review, client intake, billing, and CRM so your legal team focuses on winning cases and serving clients.",
+      "pains": [
+        "Hours lost on manual contract review and redlining",
+        "Client intake and onboarding is slow and inconsistent",
+        "Billing errors and time-tracking gaps reduce revenue"
+      ],
+      "solutions": [
+        "AI contract analysis that flags risks and suggests clauses in seconds",
+        "Automated client intake with conflict checks and document requests",
+        "Smart billing automation that captures every billable minute"
+      ],
+      "metrics": [
+        {
+          "label": "Contract Review Speed",
+          "value": "10x"
+        },
+        {
+          "label": "Billing Accuracy",
+          "value": "99%"
+        },
+        {
+          "label": "Client Intake Time",
+          "value": "-60%"
+        }
+      ],
+      "playbooks": [
+        {
+          "title": "AI Contract Review",
+          "description": "Automatically analyze contracts for risk clauses, missing terms, and compliance issues.",
+          "deliverables": [
+            "Risk scoring",
+            "Clause library",
+            "Redline generator"
+          ]
+        },
+        {
+          "title": "Client Intake Automation",
+          "description": "Streamline client onboarding with automated intake forms, conflict checks, and document requests.",
+          "deliverables": [
+            "Smart intake forms",
+            "Conflict check",
+            "Document request flows"
+          ]
+        }
+      ],
+      "techStack": [
+        "Clio",
+        "NetDocuments",
+        "HubSpot",
+        "Zapier",
+        "DocuSign",
+        "Notion"
+      ]
+    },
+    {
+      "slug": "ai-for-marketing-agencies",
+      "href": "/industries/ai-for-marketing-agencies",
+      "label": "Marketing Agencies",
+      "headline": "Ship client-ready campaigns in days instead of weeks.",
+      "summary": "Automate briefing, approvals, and asset delivery so your creative directors spend more time crafting standout work and less time chasing status updates.",
+      "pains": [
+        "Manual creative briefs slow down production cycles",
+        "Feedback scattered across email, chat, and shared docs",
+        "Missed handoffs between design, copy, and media teams"
+      ],
+      "solutions": [
+        "AI-powered brief intake that routes tasks to the right pod instantly",
+        "Automated proofing workflows with deadline-aware reminders",
+        "Single-source command center syncing ClickUp, Airtable, and Slack"
+      ],
+      "metrics": [
+        {
+          "label": "Hours Saved Weekly",
+          "value": "40+"
+        },
+        {
+          "label": "Faster Approvals",
+          "value": "3x"
+        },
+        {
+          "label": "Client Satisfaction",
+          "value": "98%"
+        }
+      ],
+      "playbooks": [
+        {
+          "title": "Brief-to-Delivery Automation",
+          "description": "Trigger tasks, assign resources, and generate timelines the moment a client submits a brief.",
+          "deliverables": [
+            "Smart brief form",
+            "Automated resourcing",
+            "Auto-generated timeline"
+          ]
+        },
+        {
+          "title": "Creative QA & Approvals",
+          "description": "Route proofs to stakeholders, capture annotated feedback, and auto-notify production teams.",
+          "deliverables": [
+            "Proof routing logic",
+            "Slack + email nudges",
+            "Version-controlled handoffs"
+          ]
+        }
+      ],
+      "techStack": [
+        "ClickUp",
+        "Airtable",
+        "Notion",
+        "Figma",
+        "Slack",
+        "Frame.io"
+      ]
+    },
+    {
+      "slug": "ai-for-saas-startups",
+      "href": "/industries/ai-for-saas-startups",
+      "label": "SaaS & AI Startups",
+      "headline": "Scale product-led growth with AI-powered retention engines.",
+      "summary": "Automate onboarding, churn detection, and expansion plays so your growth team focuses on strategy instead of manual data wrangling.",
+      "pains": [
+        "Churn signals buried in product usage data go undetected",
+        "Manual onboarding flows fail to convert trial users",
+        "Support tickets pile up during growth phases"
+      ],
+      "solutions": [
+        "AI health scoring that triggers automated retention plays",
+        "Personalized onboarding sequences driven by in-app behavior",
+        "Proactive support flows that resolve issues before tickets are raised"
+      ],
+      "metrics": [
+        {
+          "label": "Churn Reduction",
+          "value": "-35%"
+        },
+        {
+          "label": "Trial Conversion",
+          "value": "+28%"
+        },
+        {
+          "label": "Support Deflection",
+          "value": "65%"
+        }
+      ],
+      "playbooks": [
+        {
+          "title": "Churn Prevention Engine",
+          "description": "Detect at-risk accounts early and trigger automated interventions.",
+          "deliverables": [
+            "Health score model",
+            "Intervention playbook",
+            "CS alert routing"
+          ]
+        },
+        {
+          "title": "Product-Led Onboarding",
+          "description": "Personalize onboarding flows based on user role, plan, and in-app activity.",
+          "deliverables": [
+            "Behavioral triggers",
+            "Milestone emails",
+            "In-app guidance"
+          ]
+        }
+      ],
+      "techStack": [
+        "Segment",
+        "Mixpanel",
+        "Intercom",
+        "HubSpot",
+        "Zapier",
+        "Notion"
+      ]
+    },
+    {
+      "slug": "ai-in-finance-automation",
+      "href": "/industries/ai-in-finance-automation",
+      "label": "Financial Services",
+      "headline": "Automate lending, risk analysis, and compliance workflows.",
+      "summary": "Use AI to accelerate loan origination, detect fraud in real-time, and maintain audit-ready compliance documentation automatically.",
+      "pains": [
+        "Manual loan processing creates weeks-long backlogs",
+        "Fraud detection relies on outdated rule-based systems",
+        "Compliance documentation is error-prone and time-consuming"
+      ],
+      "solutions": [
+        "AI-driven loan origination that processes applications in hours not weeks",
+        "Real-time fraud detection with ML pattern recognition",
+        "Automated compliance documentation with audit-ready logs"
+      ],
+      "metrics": [
+        {
+          "label": "Loan Processing Time",
+          "value": "-80%"
+        },
+        {
+          "label": "Fraud Detection Rate",
+          "value": "99.2%"
+        },
+        {
+          "label": "Compliance Cost",
+          "value": "-45%"
+        }
+      ],
+      "playbooks": [
+        {
+          "title": "Smart Loan Origination",
+          "description": "Automate application intake, credit scoring, and approval workflows end-to-end.",
+          "deliverables": [
+            "Application intake",
+            "Credit scoring engine",
+            "Approval workflow"
+          ]
+        },
+        {
+          "title": "Compliance Automation Hub",
+          "description": "Maintain continuous compliance with automated documentation and audit trails.",
+          "deliverables": [
+            "Audit logs",
+            "Regulatory reporting",
+            "Document automation"
+          ]
+        }
+      ],
+      "techStack": [
+        "Salesforce",
+        "Plaid",
+        "Stripe",
+        "DocuSign",
+        "Looker",
+        "Slack"
+      ]
+    },
+    {
+      "slug": "ai-in-logistics",
+      "href": "/industries/ai-in-logistics",
+      "label": "Logistics",
+      "headline": "Optimize supply chain, routing, and warehouse operations with AI.",
+      "summary": "Reduce manual dispatch, automate inventory management, and predict delays before they impact your SLAs.",
+      "pains": [
+        "Manual dispatch and routing leads to inefficient delivery networks",
+        "Inventory forecasting relies on spreadsheets and gut feeling",
+        "Carrier delays are reactive rather than proactively managed"
+      ],
+      "solutions": [
+        "AI route optimization that reduces fuel costs and delivery times",
+        "Predictive inventory management synced with demand signals",
+        "Automated carrier monitoring with proactive delay alerts"
+      ],
+      "metrics": [
+        {
+          "label": "Delivery Cost Reduction",
+          "value": "-22%"
+        },
+        {
+          "label": "On-Time Delivery",
+          "value": "97%"
+        },
+        {
+          "label": "Inventory Accuracy",
+          "value": "99.5%"
+        }
+      ],
+      "playbooks": [
+        {
+          "title": "Smart Route Optimization",
+          "description": "AI-driven dispatch that minimizes fuel, time, and driver hours across your network.",
+          "deliverables": [
+            "Route planning engine",
+            "Driver app integration",
+            "Real-time rerouting"
+          ]
+        },
+        {
+          "title": "Predictive Inventory System",
+          "description": "Sync demand signals, supplier lead times, and warehouse data for automatic reorder triggers.",
+          "deliverables": [
+            "Demand forecasting",
+            "Reorder automation",
+            "Supplier alerts"
+          ]
+        }
+      ],
+      "techStack": [
+        "SAP",
+        "Oracle WMS",
+        "Samsara",
+        "Zapier",
+        "Google Maps API",
+        "Slack"
+      ]
+    },
+    {
+      "slug": "ecommerce-marketing-automation",
+      "href": "/industries/ecommerce-marketing-automation",
+      "label": "E-commerce & DTC",
+      "headline": "Turn every customer interaction into an automated revenue loop.",
+      "summary": "Identify high-value triggers - abandoned carts, VIP drops, inventory alerts - and automate the workflows that move shoppers from discovery to retention.",
+      "pains": [
+        "Disjointed data between storefront, CRM, and fulfillment partners",
+        "Slow campaign launches because of manual segmentation",
+        "Support requests piling up during product drops"
+      ],
+      "solutions": [
+        "Unified customer profiles with automated segmentation",
+        "AI agents that generate personalized campaigns on demand",
+        "Proactive support flows that notify CX teams before SLAs slip"
+      ],
+      "metrics": [
+        {
+          "label": "Launch Speed",
+          "value": "2x faster"
+        },
+        {
+          "label": "CX Tickets Automated",
+          "value": "65%"
+        },
+        {
+          "label": "Repeat Purchase Lift",
+          "value": "+32%"
+        }
+      ],
+      "playbooks": [
+        {
+          "title": "Lifecycle Launch Engine",
+          "description": "Sync Klaviyo, Shopify, and Meta audiences for fully automated launch orchestration.",
+          "deliverables": [
+            "Smart segment builder",
+            "Offer & asset generator",
+            "Auto QA & send scheduler"
+          ]
+        },
+        {
+          "title": "Proactive CX Desk",
+          "description": "Detect VIP tickets, route to senior agents, and trigger AI-generated responses with context.",
+          "deliverables": [
+            "Priority routing",
+            "AI reply templates",
+            "Escalation matrix"
+          ]
+        }
+      ],
+      "techStack": [
+        "Shopify",
+        "Klaviyo",
+        "Gorgias",
+        "Notion",
+        "Meta Ads",
+        "Google Sheets"
+      ]
+    },
+    {
+      "slug": "professional-services-automation",
+      "href": "/industries/professional-services-automation",
+      "label": "Professional Services",
+      "headline": "Optimize billable hours and client delivery with intelligent automation.",
+      "summary": "Automate timesheets, resource allocation, project tracking, and billing so your team delivers more value and spends less time on administration.",
+      "pains": [
+        "Timesheet submissions are late, inaccurate, and hard to reconcile",
+        "Talent allocation is manual and relies on tribal knowledge",
+        "Project billing cycles take days due to manual approvals"
+      ],
+      "solutions": [
+        "Automated timesheet capture with approval workflows",
+        "AI-powered resource allocation matching skills to project needs",
+        "Automated billing triggers tied to project milestones"
+      ],
+      "metrics": [
+        {
+          "label": "Utilization Rate",
+          "value": "+18 pts"
+        },
+        {
+          "label": "Billing Cycle Time",
+          "value": "-70%"
+        },
+        {
+          "label": "Resource Match Accuracy",
+          "value": "94%"
+        }
+      ],
+      "playbooks": [
+        {
+          "title": "Smart Resource Allocation",
+          "description": "Match the right talent to every project using skill tags, availability, and AI scoring.",
+          "deliverables": [
+            "Skill taxonomy",
+            "Availability engine",
+            "Project match scoring"
+          ]
+        },
+        {
+          "title": "Automated Billing Pipeline",
+          "description": "Trigger invoice generation automatically when project milestones are completed.",
+          "deliverables": [
+            "Milestone tracking",
+            "Invoice automation",
+            "Approval workflow"
+          ]
+        }
+      ],
+      "techStack": [
+        "Salesforce PSA",
+        "Harvest",
+        "Notion",
+        "Zapier",
+        "HubSpot",
+        "Google Workspace"
+      ]
+    },
+    {
+      "slug": "revenue-operations-automation",
+      "href": "/industries/revenue-operations-automation",
+      "label": "Revenue Operations",
+      "headline": "Build a real-time command center for every GTM team.",
+      "summary": "Instrument rev-ops, CS, and finance processes with intelligent routing, health scoring, and automated escalations.",
+      "pains": [
+        "Revenue teams lack visibility into pipeline health",
+        "Manual data hygiene creates reporting delays",
+        "Renewal and expansion plays launch too late"
+      ],
+      "solutions": [
+        "RevOps automations that reconcile CRM, billing, and product usage",
+        "Automated playbooks triggered by health-score changes",
+        "Executive-ready dashboards updated every hour"
+      ],
+      "metrics": [
+        {
+          "label": "Forecast Accuracy",
+          "value": "95%"
+        },
+        {
+          "label": "Manual Reports Cut",
+          "value": "-80%"
+        },
+        {
+          "label": "Expansion Pipeline",
+          "value": "+27%"
+        }
+      ],
+      "playbooks": [
+        {
+          "title": "Revenue Nerve Center",
+          "description": "Sync CRM, billing, and product usage to surface risk and opportunity alerts automatically.",
+          "deliverables": [
+            "Health scoring engine",
+            "Alert routing rules",
+            "Executive dashboard"
+          ]
+        },
+        {
+          "title": "Finance & Compliance Automations",
+          "description": "Close the books faster with reconciliation bots and automated compliance documentation.",
+          "deliverables": [
+            "Invoice reconciliation",
+            "Approval workflows",
+            "Audit-ready logs"
+          ]
+        }
+      ],
+      "techStack": [
+        "Salesforce",
+        "HubSpot",
+        "Chargebee",
+        "Looker",
+        "Mode",
+        "Slack"
+      ]
+    }
+  ],
+  "logos": [
+    {
+      "alt": "Sage",
+      "local": "pages/sage.png"
+    },
+    {
+      "alt": "Wonderbox",
+      "local": "pages/wonderbox.png"
+    },
+    {
+      "alt": "Neoday",
+      "local": "pages/neoday.png"
+    },
+    {
+      "alt": "XGrowth",
+      "local": "pages/xgrowth.png"
+    },
+    {
+      "alt": "Arcads",
+      "local": "pages/arcads.png"
+    },
+    {
+      "alt": "Argil",
+      "local": "pages/argil.svg"
+    },
+    {
+      "alt": "Earleads",
+      "local": "pages/earleads.png"
+    },
+    {
+      "alt": "Just Russel",
+      "local": "pages/justrussel.svg"
+    }
+  ]
+}

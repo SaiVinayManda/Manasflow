@@ -1,0 +1,1059 @@
+[
+  {
+    "url": "/sites/manasflow/689246be4a5f38523c0c038a_chat-gpt-summary.svg",
+    "local": "public/sites/manasflow/689246be4a5f38523c0c038a_chat-gpt-summary.svg",
+    "alt": "",
+    "bytes": 2682,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 320,
+    "height": 320
+  },
+  {
+    "url": "/sites/manasflow/ship-product.webp",
+    "local": "public/sites/manasflow/ship-product.webp",
+    "alt": "Ship a whole product",
+    "bytes": 183258,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "url": "/sites/manasflow/many-agents-v2.webp",
+    "local": "public/sites/manasflow/many-agents-v2.webp",
+    "alt": "One human, many agents",
+    "bytes": 143884,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "/sites/manasflow/tool-openai-com.png",
+    "local": "public/sites/manasflow/tool-openai-com.png",
+    "alt": "OpenAI logo",
+    "bytes": 10385,
+    "type": "image/png",
+    "format": "png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "url": "/sites/manasflow/tool-cursor-com.png",
+    "local": "public/sites/manasflow/tool-cursor-com.png",
+    "alt": "Cursor logo",
+    "bytes": 16609,
+    "type": "image/png",
+    "format": "png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "url": "/sites/manasflow/tool-claude-ai.png",
+    "local": "public/sites/manasflow/tool-claude-ai.png",
+    "alt": "Claude logo",
+    "bytes": 16006,
+    "type": "image/png",
+    "format": "png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "url": "/sites/manasflow/tool-n8n-io.png",
+    "local": "public/sites/manasflow/tool-n8n-io.png",
+    "alt": "n8n logo",
+    "bytes": 11022,
+    "type": "image/png",
+    "format": "png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "url": "/sites/manasflow/tool-make-com.png",
+    "local": "public/sites/manasflow/tool-make-com.png",
+    "alt": "Make logo",
+    "bytes": 20763,
+    "type": "image/png",
+    "format": "png",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "url": "/sites/manasflow/689246be2ac20799fd1b6571_claude-summary.svg",
+    "local": "public/sites/manasflow/689246be2ac20799fd1b6571_claude-summary.svg",
+    "alt": "",
+    "bytes": 2639,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "url": "/sites/manasflow/tool-ayrank-com.png",
+    "local": "public/sites/manasflow/tool-ayrank-com.png",
+    "alt": "",
+    "bytes": 14425,
+    "type": "image/png",
+    "format": "png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "url": "/sites/manasflow/looot.png",
+    "local": "public/sites/manasflow/looot.png",
+    "alt": "",
+    "bytes": 7798,
+    "type": "image/png",
+    "format": "png",
+    "width": 192,
+    "height": 192
+  },
+  {
+    "url": "/sites/manasflow/tool-ayn8n-com.png",
+    "local": "public/sites/manasflow/tool-ayn8n-com.png",
+    "alt": "",
+    "bytes": 19933,
+    "type": "image/png",
+    "format": "png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "url": "/sites/manasflow/copilot.ico",
+    "local": "public/sites/manasflow/copilot.ico",
+    "alt": "",
+    "bytes": 15406,
+    "type": "image/vnd.microsoft.icon"
+  },
+  {
+    "url": "/sites/manasflow/tool-ayclaude-com.png",
+    "local": "public/sites/manasflow/tool-ayclaude-com.png",
+    "alt": "",
+    "bytes": 9890,
+    "type": "image/png",
+    "format": "png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "url": "/sites/manasflow/689246bee65f98c2f8bbfb17_perplexity-summary.svg",
+    "local": "public/sites/manasflow/689246bee65f98c2f8bbfb17_perplexity-summary.svg",
+    "alt": "",
+    "bytes": 695,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "url": "/sites/manasflow/tool-anthropic-com.png",
+    "local": "public/sites/manasflow/tool-anthropic-com.png",
+    "alt": "Claude",
+    "bytes": 5088,
+    "type": "image/png",
+    "format": "png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "url": "/sites/manasflow/689246bec89d73201bb5b515_google-ai-summary.svg",
+    "local": "public/sites/manasflow/689246bec89d73201bb5b515_google-ai-summary.svg",
+    "alt": "",
+    "bytes": 1505,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "url": "/sites/manasflow/tool-n8n-io.png",
+    "local": "public/sites/manasflow/tool-n8n-io.png",
+    "alt": "n8n",
+    "bytes": 4837,
+    "type": "image/png",
+    "format": "png",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "url": "/sites/manasflow/689246befbb3221c2188951e_grok-summary.svg",
+    "local": "public/sites/manasflow/689246befbb3221c2188951e_grok-summary.svg",
+    "alt": "",
+    "bytes": 999,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "url": "/sites/manasflow/ronin-global.webp",
+    "local": "public/sites/manasflow/ronin-global.webp",
+    "alt": "Ronin Global logo",
+    "bytes": 1220,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 200,
+    "height": 200
+  },
+  {
+    "url": "/sites/manasflow/aydesign.png",
+    "local": "public/sites/manasflow/aydesign.png",
+    "alt": "",
+    "bytes": 41051,
+    "type": "image/png",
+    "format": "png",
+    "width": 360,
+    "height": 360
+  },
+  {
+    "url": "/sites/manasflow/addictest.svg",
+    "local": "public/sites/manasflow/addictest.svg",
+    "alt": "addictest logo",
+    "bytes": 40280,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 681,
+    "height": 232
+  },
+  {
+    "url": "/sites/manasflow/untaylored.webp",
+    "local": "public/sites/manasflow/untaylored.webp",
+    "alt": "Untaylored logo",
+    "bytes": 1512,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 150,
+    "height": 37
+  },
+  {
+    "url": "/sites/manasflow/shems-pub.webp",
+    "local": "public/sites/manasflow/shems-pub.webp",
+    "alt": "Shem&#x27;s Pub logo",
+    "bytes": 2254,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 200,
+    "height": 200
+  },
+  {
+    "url": "/sites/manasflow/neoday.webp",
+    "local": "public/sites/manasflow/neoday.webp",
+    "alt": "neoday logo",
+    "bytes": 2826,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 174,
+    "height": 36
+  },
+  {
+    "url": "/sites/manasflow/hello-customer.webp",
+    "local": "public/sites/manasflow/hello-customer.webp",
+    "alt": "HelloCustomer logo",
+    "bytes": 826,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 210,
+    "height": 44
+  },
+  {
+    "url": "/sites/manasflow/wearview.webp",
+    "local": "public/sites/manasflow/wearview.webp",
+    "alt": "Wearview logo",
+    "bytes": 1888,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 128,
+    "height": 33
+  },
+  {
+    "url": "/sites/manasflow/thinkone.webp",
+    "local": "public/sites/manasflow/thinkone.webp",
+    "alt": "ThinkOne logo",
+    "bytes": 10126,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 500,
+    "height": 143
+  },
+  {
+    "url": "/sites/manasflow/fleetforward-logo.webp",
+    "local": "public/sites/manasflow/fleetforward-logo.webp",
+    "alt": "FleetForward logo",
+    "bytes": 8296,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 250,
+    "height": 93
+  },
+  {
+    "url": "/sites/manasflow/ambry-hill.svg",
+    "local": "public/sites/manasflow/ambry-hill.svg",
+    "alt": "AmbryHill logo",
+    "bytes": 66821,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 15235,
+    "height": 5794
+  },
+  {
+    "url": "/sites/manasflow/emprende-logo.webp",
+    "local": "public/sites/manasflow/emprende-logo.webp",
+    "alt": "Emprende.cl logo",
+    "bytes": 11464,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 400,
+    "height": 214
+  },
+  {
+    "url": "/sites/manasflow/kateb.webp",
+    "local": "public/sites/manasflow/kateb.webp",
+    "alt": "Kateb logo",
+    "bytes": 3836,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 128,
+    "height": 39
+  },
+  {
+    "url": "/sites/manasflow/humanoidz.webp",
+    "local": "public/sites/manasflow/humanoidz.webp",
+    "alt": "Humanoidz logo",
+    "bytes": 12622,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 671,
+    "height": 232
+  },
+  {
+    "url": "/sites/manasflow/earl-logo.avif",
+    "local": "public/sites/manasflow/earl-logo.avif",
+    "alt": "earleads.com logo",
+    "bytes": 8594,
+    "type": "image/avif",
+    "format": "heif",
+    "width": 512,
+    "height": 131
+  },
+  {
+    "url": "/sites/manasflow/easyclickweb.svg",
+    "local": "public/sites/manasflow/easyclickweb.svg",
+    "alt": "EasyClic logo",
+    "bytes": 3815,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 906,
+    "height": 517
+  },
+  {
+    "url": "/sites/manasflow/dentakay-logo.svg",
+    "local": "public/sites/manasflow/dentakay-logo.svg",
+    "alt": "Dentakay logo",
+    "bytes": 42739,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 144,
+    "height": 32
+  },
+  {
+    "url": "/sites/manasflow/DGA-Logo.svg",
+    "local": "public/sites/manasflow/DGA-Logo.svg",
+    "alt": "Saudi DGA",
+    "bytes": 37409,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 132,
+    "height": 42
+  },
+  {
+    "url": "/sites/manasflow/maroc-gov.svg",
+    "local": "public/sites/manasflow/maroc-gov.svg",
+    "alt": "Maroc Government",
+    "bytes": 313692,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 303,
+    "height": 95
+  },
+  {
+    "url": "/sites/manasflow/anthropic.png",
+    "local": "public/sites/manasflow/anthropic.png",
+    "alt": "Anthropic",
+    "bytes": 70597,
+    "type": "image/png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "/sites/manasflow/mcp.svg",
+    "local": "public/sites/manasflow/mcp.svg",
+    "alt": "MCP",
+    "bytes": 16810,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 1338,
+    "height": 195
+  },
+  {
+    "url": "/sites/manasflow/supabase.png",
+    "local": "public/sites/manasflow/supabase.png",
+    "alt": "Supabase",
+    "bytes": 52332,
+    "type": "image/png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "url": "/sites/manasflow/cursor.png",
+    "local": "public/sites/manasflow/cursor.png",
+    "alt": "Cursor",
+    "bytes": 85507,
+    "type": "image/png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "/sites/manasflow/zapier.png",
+    "local": "public/sites/manasflow/zapier.png",
+    "alt": "Zapier",
+    "bytes": 43063,
+    "type": "image/png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "url": "/sites/manasflow/claude.png",
+    "local": "public/sites/manasflow/claude.png",
+    "alt": "Claude Code",
+    "bytes": 123962,
+    "type": "image/png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "/sites/manasflow/e2b.png",
+    "local": "public/sites/manasflow/e2b.png",
+    "alt": "E2B",
+    "bytes": 96642,
+    "type": "image/png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "/sites/manasflow/n8n.png",
+    "local": "public/sites/manasflow/n8n.png",
+    "alt": "n8n",
+    "bytes": 122839,
+    "type": "image/png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "/sites/manasflow/clay.png",
+    "local": "public/sites/manasflow/clay.png",
+    "alt": "Clay",
+    "bytes": 24962,
+    "type": "image/png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "url": "/sites/manasflow/vercel.png",
+    "local": "public/sites/manasflow/vercel.png",
+    "alt": "Vercel",
+    "bytes": 7809,
+    "type": "image/png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "url": "/sites/manasflow/slack.png",
+    "local": "public/sites/manasflow/slack.png",
+    "alt": "Slack",
+    "bytes": 10238,
+    "type": "image/png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "url": "/sites/manasflow/linear.png",
+    "local": "public/sites/manasflow/linear.png",
+    "alt": "Linear",
+    "bytes": 68450,
+    "type": "image/png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "url": "/sites/manasflow/github.png",
+    "local": "public/sites/manasflow/github.png",
+    "alt": "GitHub",
+    "bytes": 19938,
+    "type": "image/png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "url": "/sites/manasflow/hubspot.png",
+    "local": "public/sites/manasflow/hubspot.png",
+    "alt": "HubSpot",
+    "bytes": 62682,
+    "type": "image/png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "url": "/sites/manasflow/apollo.png",
+    "local": "public/sites/manasflow/apollo.png",
+    "alt": "Apollo",
+    "bytes": 44242,
+    "type": "image/png",
+    "format": "png",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "url": "/sites/manasflow/money-refund.webp",
+    "local": "public/sites/manasflow/money-refund.webp",
+    "alt": "Month one fully refundable",
+    "bytes": 185626,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 1000,
+    "height": 667
+  },
+  {
+    "url": "/sites/manasflow/service-slack.webp",
+    "local": "public/sites/manasflow/service-slack.webp",
+    "alt": "Slack",
+    "bytes": 7726,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 400,
+    "height": 400
+  },
+  {
+    "url": "/sites/manasflow/service-google.webp",
+    "local": "public/sites/manasflow/service-google.webp",
+    "alt": "Google",
+    "bytes": 5260,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 272,
+    "height": 92
+  },
+  {
+    "url": "/sites/manasflow/service-microsoft.webp",
+    "local": "public/sites/manasflow/service-microsoft.webp",
+    "alt": "Microsoft",
+    "bytes": 550,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 96,
+    "height": 96
+  },
+  {
+    "url": "/sites/manasflow/service-salesforce.svg",
+    "local": "public/sites/manasflow/service-salesforce.svg",
+    "alt": "Salesforce",
+    "bytes": 6881,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 92,
+    "height": 64
+  },
+  {
+    "url": "/sites/manasflow/service-notion.webp",
+    "local": "public/sites/manasflow/service-notion.webp",
+    "alt": "Notion",
+    "bytes": 4958,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "url": "/sites/manasflow/service-hubspot.svg",
+    "local": "public/sites/manasflow/service-hubspot.svg",
+    "alt": "HubSpot",
+    "bytes": 3298,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 106,
+    "height": 30
+  },
+  {
+    "url": "/sites/manasflow/workflowmobile.webp",
+    "local": "public/sites/manasflow/workflowmobile.webp",
+    "alt": "Automated Workflows Mobile Preview",
+    "bytes": 14860,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 434,
+    "height": 246
+  },
+  {
+    "url": "/sites/manasflow/service-trello.svg",
+    "local": "public/sites/manasflow/service-trello.svg",
+    "alt": "Trello",
+    "bytes": 469,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/service-jira.svg",
+    "local": "public/sites/manasflow/service-jira.svg",
+    "alt": "Jira",
+    "bytes": 478,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/service-zapier.svg",
+    "local": "public/sites/manasflow/service-zapier.svg",
+    "alt": "Zapier",
+    "bytes": 1160,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 2500,
+    "height": 2500
+  },
+  {
+    "url": "/sites/manasflow/integration-09-airtable.svg",
+    "local": "public/sites/manasflow/integration-09-airtable.svg",
+    "alt": "Airtable",
+    "bytes": 1641,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 44,
+    "height": 38
+  },
+  {
+    "url": "/sites/manasflow/integration-14-asana.svg",
+    "local": "public/sites/manasflow/integration-14-asana.svg",
+    "alt": "Asana",
+    "bytes": 1378,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 44,
+    "height": 44
+  },
+  {
+    "url": "/sites/manasflow/service-monday.svg",
+    "local": "public/sites/manasflow/service-monday.svg",
+    "alt": "Monday",
+    "bytes": 812,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 2500,
+    "height": 1549
+  },
+  {
+    "url": "/sites/manasflow/integration-05-mailchimp.svg",
+    "local": "public/sites/manasflow/integration-05-mailchimp.svg",
+    "alt": "Mailchimp",
+    "bytes": 8938,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 44,
+    "height": 44
+  },
+  {
+    "url": "/sites/manasflow/service-discord.svg",
+    "local": "public/sites/manasflow/service-discord.svg",
+    "alt": "Discord",
+    "bytes": 1374,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/service-stripe.svg",
+    "local": "public/sites/manasflow/service-stripe.svg",
+    "alt": "Stripe",
+    "bytes": 588,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/service-github.svg",
+    "local": "public/sites/manasflow/service-github.svg",
+    "alt": "GitHub",
+    "bytes": 822,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/service-figma.svg",
+    "local": "public/sites/manasflow/service-figma.svg",
+    "alt": "Figma",
+    "bytes": 1093,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/service-webflow.svg",
+    "local": "public/sites/manasflow/service-webflow.svg",
+    "alt": "Webflow",
+    "bytes": 482,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/service-shopify.svg",
+    "local": "public/sites/manasflow/service-shopify.svg",
+    "alt": "Shopify",
+    "bytes": 1234,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/service-intercom.svg",
+    "local": "public/sites/manasflow/service-intercom.svg",
+    "alt": "Intercom",
+    "bytes": 983,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/service-zendesk.svg",
+    "local": "public/sites/manasflow/service-zendesk.svg",
+    "alt": "Zendesk",
+    "bytes": 324,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/service-atlassian.svg",
+    "local": "public/sites/manasflow/service-atlassian.svg",
+    "alt": "Atlassian",
+    "bytes": 378,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/service-canva.svg",
+    "local": "public/sites/manasflow/service-canva.svg",
+    "alt": "Canva",
+    "bytes": 2756,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/service-spotify.svg",
+    "local": "public/sites/manasflow/service-spotify.svg",
+    "alt": "Spotify",
+    "bytes": 697,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/service-zoom.svg",
+    "local": "public/sites/manasflow/service-zoom.svg",
+    "alt": "Zoom",
+    "bytes": 837,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/service-adobe.svg",
+    "local": "public/sites/manasflow/service-adobe.svg",
+    "alt": "Adobe",
+    "bytes": 216,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/service-netflix.svg",
+    "local": "public/sites/manasflow/service-netflix.svg",
+    "alt": "Netflix",
+    "bytes": 335,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/ai-strategy-5-ways-we-automate.webp",
+    "local": "public/sites/manasflow/ai-strategy-5-ways-we-automate.webp",
+    "alt": "AI Strategy Consulting",
+    "bytes": 8958,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 364,
+    "height": 230
+  },
+  {
+    "url": "/sites/manasflow/tool-n8n.webp",
+    "local": "public/sites/manasflow/tool-n8n.webp",
+    "alt": "N8n Automation screenshot",
+    "bytes": 16184,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 1200,
+    "height": 630
+  },
+  {
+    "url": "/sites/manasflow/n8n-color.webp",
+    "local": "public/sites/manasflow/n8n-color.webp",
+    "alt": "N8n Automation",
+    "bytes": 19270,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "/sites/manasflow/service-make.webp",
+    "local": "public/sites/manasflow/service-make.webp",
+    "alt": "Make Integration",
+    "bytes": 19146,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "url": "/sites/manasflow/tool-make.webp",
+    "local": "public/sites/manasflow/tool-make.webp",
+    "alt": "Make Integration screenshot",
+    "bytes": 23610,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 1200,
+    "height": 630
+  },
+  {
+    "url": "/sites/manasflow/tool-cursor.webp",
+    "local": "public/sites/manasflow/tool-cursor.webp",
+    "alt": "Cursor IDE screenshot",
+    "bytes": 12782,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 2401,
+    "height": 1260
+  },
+  {
+    "url": "/sites/manasflow/cursor-logo.webp",
+    "local": "public/sites/manasflow/cursor-logo.webp",
+    "alt": "Cursor IDE",
+    "bytes": 386,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "url": "/sites/manasflow/fbm.svg",
+    "local": "public/sites/manasflow/fbm.svg",
+    "alt": "",
+    "bytes": 241,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 200,
+    "height": 56
+  },
+  {
+    "url": "/sites/manasflow/tool-claude-code.webp",
+    "local": "public/sites/manasflow/tool-claude-code.webp",
+    "alt": "Claude Code",
+    "bytes": 15108,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 1200,
+    "height": 630
+  },
+  {
+    "url": "/sites/manasflow/hackerone.svg",
+    "local": "public/sites/manasflow/hackerone.svg",
+    "alt": "",
+    "bytes": 798,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "url": "/sites/manasflow/a16z.png",
+    "local": "public/sites/manasflow/a16z.png",
+    "alt": "",
+    "bytes": 149005,
+    "type": "image/png",
+    "format": "png",
+    "width": 900,
+    "height": 900
+  },
+  {
+    "url": "/sites/manasflow/france-tv.png",
+    "local": "public/sites/manasflow/france-tv.png",
+    "alt": "",
+    "bytes": 7397,
+    "type": "image/png",
+    "format": "png",
+    "width": 344,
+    "height": 146
+  },
+  {
+    "url": "/sites/manasflow/ycombinator.png",
+    "local": "public/sites/manasflow/ycombinator.png",
+    "alt": "",
+    "bytes": 190536,
+    "type": "image/png",
+    "format": "png",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "url": "/sites/manasflow/leparisien.svg",
+    "local": "public/sites/manasflow/leparisien.svg",
+    "alt": "",
+    "bytes": 5258,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 2500,
+    "height": 2500
+  },
+  {
+    "url": "/sites/manasflow/bbc.svg",
+    "local": "public/sites/manasflow/bbc.svg",
+    "alt": "",
+    "bytes": 17849,
+    "type": "image/svg+xml",
+    "format": "svg",
+    "width": 2500,
+    "height": 2500
+  },
+  {
+    "url": "/sites/manasflow/fonts/793968fa3513f5d6-s.p.woff2",
+    "local": "public/sites/manasflow/fonts/793968fa3513f5d6-s.p.woff2",
+    "bytes": 39692,
+    "type": "font/woff2",
+    "format": "wOF2"
+  },
+  {
+    "url": "/sites/manasflow/fonts/e4af272ccee01ff0-s.p.woff2",
+    "local": "public/sites/manasflow/fonts/e4af272ccee01ff0-s.p.woff2",
+    "bytes": 48432,
+    "type": "font/woff2",
+    "format": "wOF2"
+  },
+  {
+    "url": "/sites/manasflow/fonts/b5e4da809b890947-s.p.woff2",
+    "local": "public/sites/manasflow/fonts/b5e4da809b890947-s.p.woff2",
+    "bytes": 26996,
+    "type": "font/woff2",
+    "format": "wOF2"
+  },
+  {
+    "url": "/sites/manasflow/n8n-hero.webm",
+    "local": "public/sites/manasflow/n8n-hero.webm",
+    "bytes": 767205,
+    "type": "video/webm",
+    "format": "webm",
+    "signature": "1a45dfa3"
+  },
+  {
+    "url": "/sites/manasflow/make-hero.webm",
+    "local": "public/sites/manasflow/make-hero.webm",
+    "bytes": 628979,
+    "type": "video/webm",
+    "format": "webm",
+    "signature": "1a45dfa3"
+  },
+  {
+    "url": "/sites/manasflow/cursor-agent.webm",
+    "local": "public/sites/manasflow/cursor-agent.webm",
+    "bytes": 852196,
+    "type": "video/webm",
+    "format": "webm",
+    "signature": "1a45dfa3"
+  },
+  {
+    "url": "/sites/manasflow/hero-pixel-mountains.webp",
+    "local": "public/sites/manasflow/hero-pixel-mountains.webp",
+    "bytes": 169770,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 900,
+    "height": 507
+  },
+  {
+    "url": "/sites/manasflow/browserbase-consulting.webp",
+    "local": "public/sites/manasflow/browserbase-consulting.webp",
+    "bytes": 168184,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 1000,
+    "height": 750
+  },
+  {
+    "url": "/sites/manasflow/ai-implementation-browserbase.webp",
+    "local": "public/sites/manasflow/ai-implementation-browserbase.webp",
+    "bytes": 183070,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 1000,
+    "height": 750
+  },
+  {
+    "url": "/sites/manasflow/ai-training-placement-browserbase.webp",
+    "local": "public/sites/manasflow/ai-training-placement-browserbase.webp",
+    "bytes": 184466,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 1000,
+    "height": 750
+  },
+  {
+    "url": "/sites/manasflow/bg-mountain-pixel.webp",
+    "local": "public/sites/manasflow/bg-mountain-pixel.webp",
+    "bytes": 198416,
+    "type": "image/webp",
+    "format": "webp",
+    "width": 850,
+    "height": 1205
+  }
+]

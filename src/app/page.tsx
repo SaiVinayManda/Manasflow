@@ -1,9 +1,9 @@
+import { pageMetadata } from "@/lib/metadata";
+import { ManasFlowHome } from "@/components/sites/manasflow/home";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = { ...{ alternates: { canonical: "/" } }, ...pageMetadata("AI Transformation & Automation", "Explore ai transformation & automation with ManasFlow. Practical AI automation, engineering, and resources for your business.", "/") };
+
 export default function Home() {
-  return (
-    <main className="flex min-h-screen items-center justify-center">
-      <p className="text-muted-foreground">
-        Clone target not yet built. Run <code className="font-mono text-foreground">/clone-website</code> to start.
-      </p>
-    </main>
-  );
+  return <ManasFlowHome />;
 }

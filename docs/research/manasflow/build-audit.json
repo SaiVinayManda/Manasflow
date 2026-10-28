@@ -1,0 +1,635 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-17T00:21:58.991Z",
+  "productionFilesScanned": 266,
+  "identityLeaks": [],
+  "archiveInStandalone": [],
+  "preservedFiles": 125,
+  "archiveHashes": [
+    {
+      "original": "src/app/favicon.ico",
+      "preserved": "quarantine/9hdigital/template-favicon.ico",
+      "sha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932"
+    },
+    {
+      "original": "src/app/globals.css",
+      "preserved": "quarantine/9hdigital/app-before/globals.css",
+      "sha256": "892e89dc10652d77a3340ba1d66301225482e82bf7d1ada3a1aed3c7d98fc1e4"
+    },
+    {
+      "original": "src/app/layout.tsx",
+      "preserved": "quarantine/9hdigital/app-before/layout.tsx",
+      "sha256": "4d5b1ece33a4e791ac79150f84292635a4e63a8e4bac8ed66c6e8c110e8353d2"
+    },
+    {
+      "original": "src/app/page.tsx",
+      "preserved": "quarantine/9hdigital/app-before/page.tsx",
+      "sha256": "4ae6a8bf075f5337e87f486be08b8bd3eed2f6085d7faebf23bb50289b6dee28"
+    },
+    {
+      "original": "src/components/sites/9hdigital/content.json",
+      "preserved": "quarantine/9hdigital/components/content.json",
+      "sha256": "572b38f96fae5b750258bc594d062d0b0e2c93f7ccc9ea985046091716883945"
+    },
+    {
+      "original": "src/components/sites/9hdigital/experience.tsx",
+      "preserved": "quarantine/9hdigital/components/experience.tsx",
+      "sha256": "01cf760b98e2f0ae9a269ddb54c4fb55e9f6d98e77f636ea0a41a74bfdea19de"
+    },
+    {
+      "original": "src/components/sites/9hdigital/header.tsx",
+      "preserved": "quarantine/9hdigital/components/header.tsx",
+      "sha256": "c232b08791ae27921c771366298dc430bcfda47165a0a491b279d70dcb9ec5bd"
+    },
+    {
+      "original": "src/components/sites/9hdigital/home.tsx",
+      "preserved": "quarantine/9hdigital/components/home.tsx",
+      "sha256": "3126b464bab9f16f4c9dbf649aaf97a772e6e59d310609d6a76c23c8bcbac9e0"
+    },
+    {
+      "original": "src/components/sites/9hdigital/markets-data.ts",
+      "preserved": "quarantine/9hdigital/components/markets-data.ts",
+      "sha256": "fce8b55cfaa952ecef1ee71a52c6f97602633107dcbe53af138cb882701e0b70"
+    },
+    {
+      "original": "src/components/sites/9hdigital/markets.tsx",
+      "preserved": "quarantine/9hdigital/components/markets.tsx",
+      "sha256": "7c377bc0ef4057ef5051bbe39e093f24d69fa03a1f18427ee20f5771169f8469"
+    },
+    {
+      "original": "src/components/sites/9hdigital/nine-h.css",
+      "preserved": "quarantine/9hdigital/components/nine-h.css",
+      "sha256": "a9f5a93a487a5ca617fa89ab3fd33b5f9d4e1d27ba1308e3d352c47e7ca05b1d"
+    },
+    {
+      "original": "src/components/sites/9hdigital/shared.tsx",
+      "preserved": "quarantine/9hdigital/components/shared.tsx",
+      "sha256": "a71dac97e90c8a9cb25e0949bd86debb66e6236175d2ed783907302f1286689b"
+    },
+    {
+      "original": "src/components/ui/button.tsx",
+      "preserved": "src/components/ui/button.tsx",
+      "sha256": "d8af2a7cdec17d67f740d367af0804d54802de5cea6471f1ab11259a1442c7fa"
+    },
+    {
+      "original": "src/hooks/.gitkeep",
+      "preserved": "src/hooks/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original": "src/lib/utils.ts",
+      "preserved": "src/lib/utils.ts",
+      "sha256": "74a147991a119f1c4cdc25a4d9b22713632fa32eb136e55ab6939b006d71b9d6"
+    },
+    {
+      "original": "src/types/.gitkeep",
+      "preserved": "src/types/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original": "public/sites/9hdigital/1.gif",
+      "preserved": "quarantine/9hdigital/assets/1.gif",
+      "sha256": "9705f9b458e23858feee9668b5a0c92d49392e45e200bbfadf4bd6c7a8860a7f"
+    },
+    {
+      "original": "public/sites/9hdigital/100x100-79.jpg",
+      "preserved": "quarantine/9hdigital/assets/100x100-79.jpg",
+      "sha256": "6c4ac4e1dcfc7a155ecd4dcc73a2a310be8e8099cdeaa7efdd3d2e15f573f49a"
+    },
+    {
+      "original": "public/sites/9hdigital/100x100-80.jpg",
+      "preserved": "quarantine/9hdigital/assets/100x100-80.jpg",
+      "sha256": "f8c2a5cfcee23995b89e5464a3f0b9f7195a8847e14ea2ac8ac3427016b45662"
+    },
+    {
+      "original": "public/sites/9hdigital/100x100.jpg",
+      "preserved": "quarantine/9hdigital/assets/100x100.jpg",
+      "sha256": "e49cd86a1102c2fa7ebfe91d3b7f2e9abab0caf6b99a268e382b21c20e74aec2"
+    },
+    {
+      "original": "public/sites/9hdigital/12-1024x576.png",
+      "preserved": "quarantine/9hdigital/assets/12-1024x576.png",
+      "sha256": "048ff195702c1b9b9de956ae8cab78693c67cc56bfbf427ddee01b41ff9ac2e7"
+    },
+    {
+      "original": "public/sites/9hdigital/15-1024x576.png",
+      "preserved": "quarantine/9hdigital/assets/15-1024x576.png",
+      "sha256": "5743e8658fc81407a0771d8b43f99b58cf88b77e92c066b2789bf9adcd6e8df1"
+    },
+    {
+      "original": "public/sites/9hdigital/1516507715381-2.jpeg",
+      "preserved": "quarantine/9hdigital/assets/1516507715381-2.jpeg",
+      "sha256": "e6edd64065d9418fb07ae1956b4b2a2e079cd31ed8be57c13e848919a8a13630"
+    },
+    {
+      "original": "public/sites/9hdigital/17-1024x576.png",
+      "preserved": "quarantine/9hdigital/assets/17-1024x576.png",
+      "sha256": "e32860ee518c953e1236550317758cb4b84aab96945a83b99249c08cf1b77aaa"
+    },
+    {
+      "original": "public/sites/9hdigital/18-1024x576.png",
+      "preserved": "quarantine/9hdigital/assets/18-1024x576.png",
+      "sha256": "846bb9820962b16d18f6b85ac33205e36349966d4d1a165dadd65b921ae8b642"
+    },
+    {
+      "original": "public/sites/9hdigital/2.gif",
+      "preserved": "quarantine/9hdigital/assets/2.gif",
+      "sha256": "0456a76d24b38a8740ac19d5f03357e1537faa214267e866adabb2beaf84f724"
+    },
+    {
+      "original": "public/sites/9hdigital/21-1024x576.png",
+      "preserved": "quarantine/9hdigital/assets/21-1024x576.png",
+      "sha256": "11f85e1aa1d57bcb16815ead0173cabd26988f3ed0e3ab71807d2f994e16910f"
+    },
+    {
+      "original": "public/sites/9hdigital/28-1024x576.png",
+      "preserved": "quarantine/9hdigital/assets/28-1024x576.png",
+      "sha256": "26527d8999587d0e7dc593084e4d21d7722505a774a75f7d26cf3d44e8bb0258"
+    },
+    {
+      "original": "public/sites/9hdigital/3.gif",
+      "preserved": "quarantine/9hdigital/assets/3.gif",
+      "sha256": "766a750ff93d1eaafa457bde3897000fec1bf3074bfd936a9ffa36ee65ef68ea"
+    },
+    {
+      "original": "public/sites/9hdigital/9H-logo.svg",
+      "preserved": "quarantine/9hdigital/assets/9H-logo.svg",
+      "sha256": "ed758911de8299dbc66879c7ca6c637134f58291409691d5d1191099c32b6a41"
+    },
+    {
+      "original": "public/sites/9hdigital/ai-automations.svg",
+      "preserved": "quarantine/9hdigital/assets/ai-automations.svg",
+      "sha256": "247937e6fa323c259cd74d50aa56c0aa139d35c6b9f22098f6e1caee236147df"
+    },
+    {
+      "original": "public/sites/9hdigital/Al-Balad-main-2.jpg",
+      "preserved": "quarantine/9hdigital/assets/Al-Balad-main-2.jpg",
+      "sha256": "00b458e76d78a2344bfd39e4b001ed01084db7bab7966eac4af1dabe6fbfde2c"
+    },
+    {
+      "original": "public/sites/9hdigital/blue-fw-gradient-Ce1kZF6R.png",
+      "preserved": "quarantine/9hdigital/assets/blue-fw-gradient-Ce1kZF6R.png",
+      "sha256": "a6cd3e2646bcbce484f30b91303b7b2f41bd156ac79e0d8f62891c80a00fdb47"
+    },
+    {
+      "original": "public/sites/9hdigital/brand-building.svg",
+      "preserved": "quarantine/9hdigital/assets/brand-building.svg",
+      "sha256": "72d69869072e1c387efdf1462cf3a3a097e8bdd6a408541610818f8b4a3824f7"
+    },
+    {
+      "original": "public/sites/9hdigital/Cairo-Regular-CvRCENXA.ttf",
+      "preserved": "quarantine/9hdigital/assets/Cairo-Regular-CvRCENXA.ttf",
+      "sha256": "44786a38e27c58262cbd65341beda4fa4f6c7085ec42e830b35ba1ae37807030"
+    },
+    {
+      "original": "public/sites/9hdigital/cropped-Favicon-1-180x180.png",
+      "preserved": "quarantine/9hdigital/assets/cropped-Favicon-1-180x180.png",
+      "sha256": "939dd552ab7842b24b17a772306f9fd27f9c1898fdc603d0dbe2dc5fc69b7cf9"
+    },
+    {
+      "original": "public/sites/9hdigital/cropped-Favicon-1-192x192.png",
+      "preserved": "quarantine/9hdigital/assets/cropped-Favicon-1-192x192.png",
+      "sha256": "42db6f4e3f1b806a717399618f93aeeaaf26005205077507e7b5b9453ea0e080"
+    },
+    {
+      "original": "public/sites/9hdigital/cropped-Favicon-1-270x270.png",
+      "preserved": "quarantine/9hdigital/assets/cropped-Favicon-1-270x270.png",
+      "sha256": "987204fa65e7f1a5f16c70dcb902951736bbdefbf548b9f442953d2dbf949eb2"
+    },
+    {
+      "original": "public/sites/9hdigital/cropped-Favicon-1-32x32.png",
+      "preserved": "quarantine/9hdigital/assets/cropped-Favicon-1-32x32.png",
+      "sha256": "e769401b98b65c6f8062c6751d8279d7e41a5c6a65287e3fb28705810a58cb58"
+    },
+    {
+      "original": "public/sites/9hdigital/Crosscraft-Main-Banner-1.png",
+      "preserved": "quarantine/9hdigital/assets/Crosscraft-Main-Banner-1.png",
+      "sha256": "074a3fa1e0cdf6e9f1720ec04e581a25067c8cefab5d45a88c9318805365f7f6"
+    },
+    {
+      "original": "public/sites/9hdigital/custom-web-apps.svg",
+      "preserved": "quarantine/9hdigital/assets/custom-web-apps.svg",
+      "sha256": "1c05c30dca53980870e16f47d18d4c8ba5962f286a5d70ba7072ce0c67e58191"
+    },
+    {
+      "original": "public/sites/9hdigital/facebook.svg",
+      "preserved": "quarantine/9hdigital/assets/facebook.svg",
+      "sha256": "8ac0592b7a37ab2644f72925b9e3923e6ca7d0ee30421c6f61d1c4180c507715"
+    },
+    {
+      "original": "public/sites/9hdigital/footer-bg-XyJ6H1x5.png",
+      "preserved": "quarantine/9hdigital/assets/footer-bg-XyJ6H1x5.png",
+      "sha256": "8bd29deb81ccd4da4cac1a6e5132877822b9ef0d6562f51c1a334597d6e7926b"
+    },
+    {
+      "original": "public/sites/9hdigital/gradient-blue-auyAehDj.png",
+      "preserved": "quarantine/9hdigital/assets/gradient-blue-auyAehDj.png",
+      "sha256": "4f55f2182c1417a1656871ba0fe9668967c59609e357dba6c777df98eddfcb97"
+    },
+    {
+      "original": "public/sites/9hdigital/gradient-green-DLQWrdj_.png",
+      "preserved": "quarantine/9hdigital/assets/gradient-green-DLQWrdj_.png",
+      "sha256": "ad8fc0c2cc2028d2550d9069db385cfa1cf37c02583c5a214abe76ddf9d98703"
+    },
+    {
+      "original": "public/sites/9hdigital/gradient-purple-eY59ryug.png",
+      "preserved": "quarantine/9hdigital/assets/gradient-purple-eY59ryug.png",
+      "sha256": "22fe235b4959a0d4e6a99ce4d1f77351800693671c32c6398f35b6ee3e1fe5c4"
+    },
+    {
+      "original": "public/sites/9hdigital/gradient-red-CLvd3sr4.png",
+      "preserved": "quarantine/9hdigital/assets/gradient-red-CLvd3sr4.png",
+      "sha256": "2606bc3e7c1f00469d415e9575bc75076cbf83531f64e559acee79df3a48b0f4"
+    },
+    {
+      "original": "public/sites/9hdigital/gradient-yellow-B5TN-y7N.png",
+      "preserved": "quarantine/9hdigital/assets/gradient-yellow-B5TN-y7N.png",
+      "sha256": "6be6c6816562f936dea145707b838d664ef8fe7109bade26a15fc2bd314a213e"
+    },
+    {
+      "original": "public/sites/9hdigital/green-fw-gradient-DwXSrXRQ.png",
+      "preserved": "quarantine/9hdigital/assets/green-fw-gradient-DwXSrXRQ.png",
+      "sha256": "1770e0817ac399c622d7c9d8f00eee1fae5156d8da55e09b20895214c817d952"
+    },
+    {
+      "original": "public/sites/9hdigital/hero-placeholder-DOL305-B.png",
+      "preserved": "quarantine/9hdigital/assets/hero-placeholder-DOL305-B.png",
+      "sha256": "edfcc9a211fda0e04a54352113c1fd2d998941c355c1a4158f0e50eb716960e2"
+    },
+    {
+      "original": "public/sites/9hdigital/HubotSans-DVOGjEo-.ttf",
+      "preserved": "quarantine/9hdigital/assets/HubotSans-DVOGjEo-.ttf",
+      "sha256": "405b13a0edfab1feceaaefc9c2641dcdad979f0aeed063e10a121518c899d713"
+    },
+    {
+      "original": "public/sites/9hdigital/Insinet-main.jpg",
+      "preserved": "quarantine/9hdigital/assets/Insinet-main.jpg",
+      "sha256": "4027d85a5250de44d19efa70e2c0f9b3a996060cd61110c07acd0bf657ea1699"
+    },
+    {
+      "original": "public/sites/9hdigital/instagram.svg",
+      "preserved": "quarantine/9hdigital/assets/instagram.svg",
+      "sha256": "1403d80e625c305b18ca10af7d93baf9dd54daeb276a1712c747d83733b35c68"
+    },
+    {
+      "original": "public/sites/9hdigital/integrations.svg",
+      "preserved": "quarantine/9hdigital/assets/integrations.svg",
+      "sha256": "6c8a3ed598c3181abc5d14f3d2d34b206c0b3ef43a010d2ed9239ea341717aa6"
+    },
+    {
+      "original": "public/sites/9hdigital/James.jpg",
+      "preserved": "quarantine/9hdigital/assets/James.jpg",
+      "sha256": "fc77912495d3955c34638e31c354f7e1e277d0e20483c93b935454226c535c1b"
+    },
+    {
+      "original": "public/sites/9hdigital/Kindred-Main.jpg",
+      "preserved": "quarantine/9hdigital/assets/Kindred-Main.jpg",
+      "sha256": "a8051c254253b8832e47710b6418aa9b387e1bc08f53e791f2706cb39915129d"
+    },
+    {
+      "original": "public/sites/9hdigital/linkedin.svg",
+      "preserved": "quarantine/9hdigital/assets/linkedin.svg",
+      "sha256": "a6365a2435caa50fa2f9d79ab670e15052d5c3c921a13ac6da14f1cbfa950dd7"
+    },
+    {
+      "original": "public/sites/9hdigital/looping-mobile-BtnwhDf1.gif",
+      "preserved": "quarantine/9hdigital/assets/looping-mobile-BtnwhDf1.gif",
+      "sha256": "535f1dabdf4cc33715aafccb69cc4acea47e32269ad27cb0ea82a0209a223509"
+    },
+    {
+      "original": "public/sites/9hdigital/looping-video-e-PUQuDR.mp4",
+      "preserved": "quarantine/9hdigital/assets/looping-video-e-PUQuDR.mp4",
+      "sha256": "149d7d35f4eb96f94ef7ac4f77b9fbbe6cea0db8dc6c47938484302582f50f10"
+    },
+    {
+      "original": "public/sites/9hdigital/MFSA-main.jpg",
+      "preserved": "quarantine/9hdigital/assets/MFSA-main.jpg",
+      "sha256": "c3865ba4f9ceb50b5258e690c7569b852d1651f14343cc152237833fa070c4d5"
+    },
+    {
+      "original": "public/sites/9hdigital/MGA-main.jpg",
+      "preserved": "quarantine/9hdigital/assets/MGA-main.jpg",
+      "sha256": "a4a3cebbebdb4eeef3ca56096fc205e247993265313fa79b08641bf78a71eb76"
+    },
+    {
+      "original": "public/sites/9hdigital/misk.png",
+      "preserved": "quarantine/9hdigital/assets/misk.png",
+      "sha256": "fb253959a0692c02aa9ea8db30232b160edef77de934fb76a5a8c5bd0aad9b9a"
+    },
+    {
+      "original": "public/sites/9hdigital/Og.png",
+      "preserved": "quarantine/9hdigital/assets/Og.png",
+      "sha256": "e0b5bcc8bfa7795581a987d9ad3a2e219666cae11975d89b6e47d7946d65e052"
+    },
+    {
+      "original": "public/sites/9hdigital/play.svg",
+      "preserved": "quarantine/9hdigital/assets/play.svg",
+      "sha256": "7ced35c3a6418cdd64bf563b88777a9b934cb7fa7ae615d96f95b248b35bb992"
+    },
+    {
+      "original": "public/sites/9hdigital/quote.svg",
+      "preserved": "quarantine/9hdigital/assets/quote.svg",
+      "sha256": "5335a4f19143a9d2c047e0e43688e2f53a34e57a1b45dc604e9b092b24d0c225"
+    },
+    {
+      "original": "public/sites/9hdigital/red-fw-gradient-CzjXW7fQ.png",
+      "preserved": "quarantine/9hdigital/assets/red-fw-gradient-CzjXW7fQ.png",
+      "sha256": "0942e7cde5439ba6cc0992f99e7dd6a21fa121319480ecd561a2843dc939f847"
+    },
+    {
+      "original": "public/sites/9hdigital/Screenshot-2025-03-24-at-13.50.54.png",
+      "preserved": "quarantine/9hdigital/assets/Screenshot-2025-03-24-at-13.50.54.png",
+      "sha256": "d82cea69e157e1ac95dc84817fc8c4f11bf5dd7273c56ca84e784595d0bd8689"
+    },
+    {
+      "original": "public/sites/9hdigital/Screenshot-2025-11-27-at-12.34.17.png",
+      "preserved": "quarantine/9hdigital/assets/Screenshot-2025-11-27-at-12.34.17.png",
+      "sha256": "eb26fe387b845babb5ab0ab433e8992188974403d993b5b7d9a36355ae8c24bc"
+    },
+    {
+      "original": "public/sites/9hdigital/Tim-Landscape-1.jpg",
+      "preserved": "quarantine/9hdigital/assets/Tim-Landscape-1.jpg",
+      "sha256": "98342a30c3504400b87e300d25544c6eb25b956c1218699cc4b826c1266fe20e"
+    },
+    {
+      "original": "public/sites/9hdigital/Tim.jpg",
+      "preserved": "quarantine/9hdigital/assets/Tim.jpg",
+      "sha256": "7d254c7a7ce8bd262db0eb8a24533b9f52882c4a00b9c6250c472e9c69a433b4"
+    },
+    {
+      "original": "public/sites/9hdigital/vitel.png",
+      "preserved": "quarantine/9hdigital/assets/vitel.png",
+      "sha256": "89b53ef88e85d46feee28823669da577b321b34b07073c9cefaf51df7dd719dc"
+    },
+    {
+      "original": "public/sites/9hdigital/yellow-fw-gradient-OeBIeiso.png",
+      "preserved": "quarantine/9hdigital/assets/yellow-fw-gradient-OeBIeiso.png",
+      "sha256": "fc05f0c2ef278fe791afc0f4a8b240b5188d9c7c25d7549fd2dd03b043b21efc"
+    },
+    {
+      "original": "docs/research/9hdigital/asset-map.json",
+      "preserved": "quarantine/9hdigital/research/asset-map.json",
+      "sha256": "595d16b285755cc8ccb75d74dcef4140dfc2a420686e4d40113f71c79399b052"
+    },
+    {
+      "original": "docs/research/9hdigital/body-reference.html",
+      "preserved": "quarantine/9hdigital/research/body-reference.html",
+      "sha256": "877c3d11cadef9e4ceaf844145cdda39b40b59b099f41a963906ffc0427d0801"
+    },
+    {
+      "original": "docs/research/9hdigital/comparison-desktop.png",
+      "preserved": "quarantine/9hdigital/research/comparison-desktop.png",
+      "sha256": "8b43fda5c90b50769ed8e77dbbf7073967d106f46d6896db4d39512ba77efaed"
+    },
+    {
+      "original": "docs/research/9hdigital/comparison-mobile.png",
+      "preserved": "quarantine/9hdigital/research/comparison-mobile.png",
+      "sha256": "dfd3a45e3b528d37b4a9a7bd2543bdf8c5f01cb59fbdea9ba88cc39049bb4692"
+    },
+    {
+      "original": "docs/research/9hdigital/content.json",
+      "preserved": "quarantine/9hdigital/research/content.json",
+      "sha256": "d8c82cb9117cebfe7d07a0ac6f8062b6666045333a023f942a982fe5116a246d"
+    },
+    {
+      "original": "docs/research/9hdigital/desktop-inspection.json",
+      "preserved": "quarantine/9hdigital/research/desktop-inspection.json",
+      "sha256": "ff7d1661d5468e3a1cfadf79183c8ff9205bf2d16a7ff32a008f6a6f3e6c98c1"
+    },
+    {
+      "original": "docs/research/9hdigital/final-qa.json",
+      "preserved": "quarantine/9hdigital/research/final-qa.json",
+      "sha256": "a4a48c9ca56a1ff958dd30486f866f6ad6734cc1855d6ede7f02c49a0519fea9"
+    },
+    {
+      "original": "docs/research/9hdigital/local-desktop-clean.png",
+      "preserved": "quarantine/9hdigital/research/local-desktop-clean.png",
+      "sha256": "55b7fa16b2599de1b2bef0407c2f6e661e89f6693d39d196ec1cfb2ac0b6be69"
+    },
+    {
+      "original": "docs/research/9hdigital/local-desktop-top.png",
+      "preserved": "quarantine/9hdigital/research/local-desktop-top.png",
+      "sha256": "9fb17fb35b01a2a5ba8668bc438075f7554ed3203334511e5b7a7eda6a89e81c"
+    },
+    {
+      "original": "docs/research/9hdigital/local-mobile-clean.png",
+      "preserved": "quarantine/9hdigital/research/local-mobile-clean.png",
+      "sha256": "b1980142314dc7513be444ed659260d465137ce6f0e9c0ca5adfe66ebc05d273"
+    },
+    {
+      "original": "docs/research/9hdigital/local-mobile-cookie.png",
+      "preserved": "quarantine/9hdigital/research/local-mobile-cookie.png",
+      "sha256": "b2e3e619be3f97305bd257e602bfdb9fcba5c0b64bb7ba4f4a139568e5139c4e"
+    },
+    {
+      "original": "docs/research/9hdigital/local-mobile-full.png",
+      "preserved": "quarantine/9hdigital/research/local-mobile-full.png",
+      "sha256": "ef00386f28248f40002831c32efe9711612b33f92ae2def242c476239f7aada4"
+    },
+    {
+      "original": "docs/research/9hdigital/local-mobile-menu.png",
+      "preserved": "quarantine/9hdigital/research/local-mobile-menu.png",
+      "sha256": "72b419a77f46e0882131101f64a8bcae720509dfa4e93ad3a1f8051e3900f324"
+    },
+    {
+      "original": "docs/research/9hdigital/local-scrolled-header.png",
+      "preserved": "quarantine/9hdigital/research/local-scrolled-header.png",
+      "sha256": "0d5a239e418dd267a1bdde27525f9374bed2dcee1372d222906cdc296dfa50a4"
+    },
+    {
+      "original": "docs/research/9hdigital/local-section-0.png",
+      "preserved": "quarantine/9hdigital/research/local-section-0.png",
+      "sha256": "5374a427d3b1d0ebcb62d078dddd2b5ded1c8f07b3501769b6c724ec4774bda0"
+    },
+    {
+      "original": "docs/research/9hdigital/local-section-1.png",
+      "preserved": "quarantine/9hdigital/research/local-section-1.png",
+      "sha256": "25670dbd15ebfb551e6724d84ca177a8b0dd2200e23abe12c056b7fca60d0721"
+    },
+    {
+      "original": "docs/research/9hdigital/local-section-2.png",
+      "preserved": "quarantine/9hdigital/research/local-section-2.png",
+      "sha256": "7a7d12613e2c6657dfd0d0a268b3b452c502d822d45b57942ea4982372ce5d74"
+    },
+    {
+      "original": "docs/research/9hdigital/local-section-3.png",
+      "preserved": "quarantine/9hdigital/research/local-section-3.png",
+      "sha256": "3c593c80016d0dc60319697bc6829bba16893938938ccd3e04a8dc6d2e0cdbc0"
+    },
+    {
+      "original": "docs/research/9hdigital/local-section-4.png",
+      "preserved": "quarantine/9hdigital/research/local-section-4.png",
+      "sha256": "d6d3cb849ea95877b6cbcff14e2d05535d8c588dd46a2e90c65da434f2bb15b2"
+    },
+    {
+      "original": "docs/research/9hdigital/local-service-hover.png",
+      "preserved": "quarantine/9hdigital/research/local-service-hover.png",
+      "sha256": "9b6b0fdd104b6e29d34910eae334efa67c3da3a3b0aa427a5a235e2b9daea8aa"
+    },
+    {
+      "original": "docs/research/9hdigital/local-team-finance.png",
+      "preserved": "quarantine/9hdigital/research/local-team-finance.png",
+      "sha256": "87d6b26915a16817ff1fa470c5797fad7a6e31eee64b2bdccdc95f07db3d86c1"
+    },
+    {
+      "original": "docs/research/9hdigital/local-wide-1920.png",
+      "preserved": "quarantine/9hdigital/research/local-wide-1920.png",
+      "sha256": "db737709d85c1c7ba69794d6b6f8adcf8244a4e285950dd8dc6a52050a3ad2c7"
+    },
+    {
+      "original": "docs/research/9hdigital/mobile.html",
+      "preserved": "quarantine/9hdigital/research/mobile.html",
+      "sha256": "2adb8af1787b9a3549fb082fab9b2372a52dda93ec6187d90be2e068ad61e487"
+    },
+    {
+      "original": "docs/research/9hdigital/README.md",
+      "preserved": "quarantine/9hdigital/research/README.md",
+      "sha256": "0c4060b7c71da3875d59368bdd603333e23645b3360d453a93f6bcfefb6724f3"
+    },
+    {
+      "original": "docs/research/9hdigital/source-desktop-1440-full.png",
+      "preserved": "quarantine/9hdigital/research/source-desktop-1440-full.png",
+      "sha256": "6d442393e101facf6b44055958922a15d1b6c6f6825856bdc40ab7cfa37b81e0"
+    },
+    {
+      "original": "docs/research/9hdigital/source-desktop-1440-top.png",
+      "preserved": "quarantine/9hdigital/research/source-desktop-1440-top.png",
+      "sha256": "f02e7c6fc4061d821c3a77aeec492b6db98624ad82e5cb8f32b73b2afb56bd3e"
+    },
+    {
+      "original": "docs/research/9hdigital/source-desktop-clean.png",
+      "preserved": "quarantine/9hdigital/research/source-desktop-clean.png",
+      "sha256": "1c38311894228190a673e1a99c82bf930d9f43a68d386635354f40a241c06ba4"
+    },
+    {
+      "original": "docs/research/9hdigital/source-desktop-top.png",
+      "preserved": "quarantine/9hdigital/research/source-desktop-top.png",
+      "sha256": "05cea913bbf13957524401932b4120df16c65c5a777991b4e9c66920e8570d36"
+    },
+    {
+      "original": "docs/research/9hdigital/source-extra.css",
+      "preserved": "quarantine/9hdigital/research/source-extra.css",
+      "sha256": "e795d7f603db506f53a879bad2b2298bb77317d25717901ed84704f3b6d21528"
+    },
+    {
+      "original": "docs/research/9hdigital/source-main.css",
+      "preserved": "quarantine/9hdigital/research/source-main.css",
+      "sha256": "52f43af47e9812d4b957ac6eac97f0e6c958f7b2f9acf15cd17722b91928e385"
+    },
+    {
+      "original": "docs/research/9hdigital/source-market.png",
+      "preserved": "quarantine/9hdigital/research/source-market.png",
+      "sha256": "6ab99d792555caf180265f2525f99f4197c567a9a3280da9fce4927a8b809aa5"
+    },
+    {
+      "original": "docs/research/9hdigital/source-mobile-390-full.png",
+      "preserved": "quarantine/9hdigital/research/source-mobile-390-full.png",
+      "sha256": "8d79282dbe73b02436d880b1faae08a8558e475ff74553f112a2d141f7b69b46"
+    },
+    {
+      "original": "docs/research/9hdigital/source-mobile-390-top.png",
+      "preserved": "quarantine/9hdigital/research/source-mobile-390-top.png",
+      "sha256": "5fcd2b57dc6af0c5621c443046c1eda932440eb47ec0a604c042edf4e863d116"
+    },
+    {
+      "original": "docs/research/9hdigital/source-mobile-clean.png",
+      "preserved": "quarantine/9hdigital/research/source-mobile-clean.png",
+      "sha256": "bcbb992335b5ba1fd841b43c77eebb4ec6e7b31d783ba32490f6180b41cab397"
+    },
+    {
+      "original": "docs/research/9hdigital/source-mobile-menu.png",
+      "preserved": "quarantine/9hdigital/research/source-mobile-menu.png",
+      "sha256": "09c16f2a7384888418fe7ab71d9fbce6cfb284c91e04ccba51b4fd7d09d51952"
+    },
+    {
+      "original": "docs/research/9hdigital/source-section-0.png",
+      "preserved": "quarantine/9hdigital/research/source-section-0.png",
+      "sha256": "25ca37bfbc00000efa5b28a20614657aab542c15e3eb54edac058ca7e7a33382"
+    },
+    {
+      "original": "docs/research/9hdigital/source-section-1.png",
+      "preserved": "quarantine/9hdigital/research/source-section-1.png",
+      "sha256": "c906aedd724564e1b315ab7dd37914463c53a7c1e6c722bb3813890751d3b318"
+    },
+    {
+      "original": "docs/research/9hdigital/source-section-2.png",
+      "preserved": "quarantine/9hdigital/research/source-section-2.png",
+      "sha256": "ac63b96179424dec7fe0085e2a25c1012e1689df2e3328da49c7855ba1ef2778"
+    },
+    {
+      "original": "docs/research/9hdigital/source-section-3.png",
+      "preserved": "quarantine/9hdigital/research/source-section-3.png",
+      "sha256": "aadb9746bec6904096c283b8f13a29411f71f1445b03f1261e2d0c88ded9c1a1"
+    },
+    {
+      "original": "docs/research/9hdigital/source-section-4.png",
+      "preserved": "quarantine/9hdigital/research/source-section-4.png",
+      "sha256": "c70a4542d406de85f274233f9636de32ecf138e3fc704a1deb8ba3619c2926e0"
+    },
+    {
+      "original": "docs/research/9hdigital/source-services-menu.png",
+      "preserved": "quarantine/9hdigital/research/source-services-menu.png",
+      "sha256": "d4122b683dc42c5a170bb7fa568e154122cfc15fef04cc843efb476a5694d2ab"
+    },
+    {
+      "original": "docs/research/9hdigital/source-services.png",
+      "preserved": "quarantine/9hdigital/research/source-services.png",
+      "sha256": "497744bfb7ed2082f5143ace09401df212062b22b27fe7ea525057f6476eee5b"
+    },
+    {
+      "original": "docs/research/9hdigital/source-wide-1920.png",
+      "preserved": "quarantine/9hdigital/research/source-wide-1920.png",
+      "sha256": "de7da0f8a0767773046f6ec819993ee742a0c6fca48451b3fd732d9d5dccf29c"
+    },
+    {
+      "original": "docs/research/9hdigital/source.html",
+      "preserved": "quarantine/9hdigital/research/source.html",
+      "sha256": "5bb309e1cb027280c6df3abdcb47bd95d9d6906207ce3b34422214204337072a"
+    },
+    {
+      "original": "docs/research/9hdigital/verification.json",
+      "preserved": "quarantine/9hdigital/research/verification.json",
+      "sha256": "377f6960cad2209073ee9c6f78b70ea094803d441043f0b6f3b91d6267b7965e"
+    },
+    {
+      "original": "scripts/.gitkeep",
+      "preserved": "scripts/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original": "scripts/download-9h.cjs",
+      "preserved": "quarantine/9hdigital/tooling/download-9h.cjs",
+      "sha256": "8b2128f163ee07d4640f294fefee26a4ffa38ddf7132aeae461b040fe9764e85"
+    },
+    {
+      "original": "scripts/final-9h-qa.cjs",
+      "preserved": "quarantine/9hdigital/tooling/final-9h-qa.cjs",
+      "sha256": "4bbca9e37c6f187b4b7abb33245bc4ad43ae1f4705b1d928e17a609a189e6cd8"
+    },
+    {
+      "original": "scripts/inspect-9h-states.cjs",
+      "preserved": "quarantine/9hdigital/tooling/inspect-9h-states.cjs",
+      "sha256": "59b3251d80b5d8bdac651a03aabd9c1caabe26eef6d299b941c6f3a9bea51597"
+    },
+    {
+      "original": "scripts/inspect-9h.cjs",
+      "preserved": "quarantine/9hdigital/tooling/inspect-9h.cjs",
+      "sha256": "224d53f833d99a642de37c20648fba9b62406381b6bd2ae5416195492c17ac76"
+    },
+    {
+      "original": "scripts/prepare-9h-data.cjs",
+      "preserved": "quarantine/9hdigital/tooling/prepare-9h-data.cjs",
+      "sha256": "275a2e0b834607f2136335263a56435b34918c9a47ea01a66e8197a281b101c8"
+    },
+    {
+      "original": "scripts/quarantine-original.ps1",
+      "preserved": "quarantine/9hdigital/tooling/quarantine-original.ps1",
+      "sha256": "9479f16144aab631b2cb9029ed41c80a9a979794b466b004950839f3c0afb1c4"
+    },
+    {
+      "original": "scripts/verify-9h.cjs",
+      "preserved": "quarantine/9hdigital/tooling/verify-9h.cjs",
+      "sha256": "80fb4dc2df07208232d64a3102e9c808b6b6621c5d3076662e120b279f3502ff"
+    }
+  ]
+}
