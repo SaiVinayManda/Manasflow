@@ -198,6 +198,6 @@ export function Footer() {
     </nav>
     <nav className="seo-site-sections mf-container" aria-label="Site sections">{PRIMARY_NAVIGATION.map(link => <NextLink href={link.href} key={link.href}>{link.label}</NextLink>)}</nav>
     <div className="mf-footer-global"><p>Operating Globally</p><span><strong>Serving clients worldwide</strong> - across North America, Europe, MENA, Asia &amp; beyond.</span></div>
-    <div className="mf-footer-bottom mf-container"><p>© 2026 ManasFlow. All rights reserved.</p><div><Link href="/terms">Terms of Use</Link><Link href="/privacy">Privacy Policy</Link></div></div>
+    <div className="mf-footer-bottom mf-container"><p>© 2026 ManasFlow. All rights reserved.</p><p>Milan, Italy</p><div><Link href="/terms">Terms of Use</Link><Link href="/privacy">Privacy Policy</Link></div></div>
   </footer>;
 }
