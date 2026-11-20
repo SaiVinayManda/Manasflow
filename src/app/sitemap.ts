@@ -1,9 +1,12 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
-import { SITE_ROUTES } from "@/lib/routes";
-import services from "@/data/manasflow/service-pages.json";
+import { indexableRoutes, seoContent } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const aliases = new Set(["/privacy-policy", "/cookie-policy", "/models/pricing", "/models/compare", ...services.flatMap(page => [page.sourceRoute, `/services/${page.slug}`])]);
-  return SITE_ROUTES.filter(route => !aliases.has(route) && !route.startsWith("/tools/")).map(route => ({ url: new URL(route, site.url).href }));
+  return indexableRoutes().map(route => ({
+    url: new URL(route, site.url).href,
+    ...(seoContent[route].modified ? { lastModified: seoContent[route].modified } : {}),
+    changeFrequency: route === "/" || ["/blog", "/ai-tools", "/tools", "/directory"].includes(route) ? "weekly" : "monthly",
+    priority: route === "/" ? 1 : route.split("/").length === 2 && !route.includes("?") ? 0.8 : 0.6,
+  }));
 }

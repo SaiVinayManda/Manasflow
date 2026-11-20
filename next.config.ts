@@ -1,9 +1,14 @@
 import type { NextConfig } from "next";
+import { ROUTE_ALIASES } from "./src/lib/seo-routes";
 
 const nextConfig: NextConfig = {
   devIndicators: false,
+  htmlLimitedBots: /.*/,
   output: "standalone",
   outputFileTracingExcludes: { "/*": ["./quarantine/**/*", "./temp/**/*"] },
+  async redirects() {
+    return Object.entries(ROUTE_ALIASES).map(([source, destination]) => ({ source, destination, permanent: true }));
+  },
   async headers() {
     const scriptPolicy =
       process.env.NODE_ENV === "production"
@@ -19,6 +24,7 @@ const nextConfig: NextConfig = {
           },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
           { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "Link", value: '<https://manasflow.com/llms.txt>; rel="describedby"' },
         ],
       },
     ];

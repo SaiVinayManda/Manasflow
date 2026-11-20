@@ -1,7 +1,8 @@
+import { PageSeo } from "@/components/seo/page-seo";
 import { ServiceLandingPage, servicePageMetadata } from "@/components/sites/manasflow/service-landing";
 
 export const metadata = servicePageMetadata("clay-agency");
 
 export default function Page() {
-  return <ServiceLandingPage slug="clay-agency" />;
+  return <PageSeo route="/clay-agency">{<ServiceLandingPage slug="clay-agency" />}</PageSeo>;
 }

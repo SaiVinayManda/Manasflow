@@ -1,0 +1,18 @@
+[
+  {
+    "question": "What does this capability catalog describe?",
+    "answer": "The catalog groups implementation patterns across engineering, agent orchestration, automation, content, and business operations. Use it to identify the building blocks relevant to a project and discuss the implementation requirements with ManasFlow."
+  },
+  {
+    "question": "Can these capabilities be adapted to our tools?",
+    "answer": "A scoped engagement starts with your systems, data, access requirements, and intended outcome. Capabilities can then be combined and adapted around that context."
+  },
+  {
+    "question": "Can I get one running in my business?",
+    "answer": "Contact ManasFlow with the capability, the task it should support, and your current tools. We can discuss the build, validation, and operating requirements."
+  },
+  {
+    "question": "How is a capability different from a workflow?",
+    "answer": "A workflow describes one process from trigger to outcome. A capability is a reusable building block that may support several workflows, such as routing a request, reviewing a change, or preparing a report."
+  }
+]

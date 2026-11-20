@@ -355,7 +355,7 @@ export function PlaybooksCatalog({
                     <BookOpen size={48} aria-hidden="true" />
                   </div>
                   <div className="mf-playbook-copy">
-                    <h3>{card.title}</h3>
+                    <h2>{card.title}</h2>
                     <p>{card.description}</p>
                     <div className="mf-playbook-card-footer">
                       <span
@@ -473,7 +473,7 @@ export function CoursesCatalog({ cards }: { cards: CourseCard[] }) {
                     </div>
                   )}
                   <div className="mf-course-copy">
-                    <h3>{card.title}</h3>
+                    <h2>{card.title}</h2>
                     <p>{card.description}</p>
                     <div>
                       <span>Beginner - Intermediate</span>

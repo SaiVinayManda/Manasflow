@@ -82,7 +82,7 @@
 .company-career-values article{padding:24px;background:#1d1d294d}
 .company-career-values article+article{border-top:1px solid var(--border)}
 .company-career-values svg{color:var(--primary-purple);margin-bottom:16px}
-.company-career-values h3{font-size:15px;font-weight:700;margin-bottom:6px}
+.company-career-values h2{font-size:15px;font-weight:700;margin-bottom:6px}
 .company-career-values p{font-size:14px;line-height:1.625;color:var(--muted-foreground)}
 .company-career-builds{border:1px solid var(--border);background:#1d1d294d;padding:24px;margin-bottom:64px}
 .company-line-eyebrow{display:flex;align-items:center;gap:12px;font-size:11px;text-transform:uppercase;letter-spacing:.2em;color:var(--muted-foreground);font-weight:700;line-height:1.5}

@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+.seo-breadcrumbs { padding-block: 20px; font-size: 13px; color: var(--muted-foreground); }
+.seo-breadcrumbs ol { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; }
+.seo-breadcrumbs li { display: flex; gap: 8px; align-items: baseline; }
+.seo-breadcrumbs a:hover, .seo-hub-links a:hover { color: var(--foreground); }
+.seo-hub-links { padding-block: 24px; }
+.seo-hub-links ul { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); list-style: none; }
+.seo-hub-links h2 { font-size: 18px; }
+.seo-hub-links p { color: var(--muted-foreground); }
+.seo-hub-links details > ul { margin-block: 20px; }
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

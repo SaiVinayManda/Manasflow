@@ -1,4 +1,7 @@
 import Link from "next/link";
+import { pageMetadata } from "@/lib/metadata";
+
+export const metadata = { ...pageMetadata("Page not found", "We couldn’t find that page. Let’s take you back.", "/404"), robots: { index: false, follow: true } };
 
 export default function NotFound() {
   return (

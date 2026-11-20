@@ -46,12 +46,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <Header />
       <main id="main">{children}</main>
       <Footer />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org", "@type": "Organization", name: site.name,
-        url: site.url, email: site.email, logo: `${site.url}/sites/manasflow/logo_no_nodes.svg`,
-        description: site.description,
-        contactPoint: { "@type": "ContactPoint", contactType: "Customer Service", email: site.email },
-      }).replace(/</g, "\\u003c") }} />
     </body>
   </html>;
 }

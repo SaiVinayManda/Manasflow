@@ -1,8 +1,13 @@
+import { PageSeo } from "@/components/seo/page-seo";
 import { ModelDirectory } from "@/components/sites/manasflow/model-directory";
-import { pageMetadata } from "@/lib/metadata";
+import { modelPageMetadata, modelPageNumber, modelPageRoute, type ModelSearchParams } from "@/lib/model-page";
 
-export const metadata = pageMetadata("AI Model Comparison", "Compare AI models side by side with ManasFlow: providers, context windows, published API prices, and a working monthly cost estimator.", "/ai-model-comparison");
+type Props = { searchParams: ModelSearchParams };
+export async function generateMetadata({ searchParams }: Props) {
+  return modelPageMetadata("/ai-model-comparison", searchParams);
+}
 
-export default function ModelComparisonPage() {
-  return <ModelDirectory />;
+export default async function ModelPage({ searchParams }: Props) {
+  const page = modelPageNumber("/ai-model-comparison", (await searchParams).page);
+  return <PageSeo route={modelPageRoute("/ai-model-comparison", page)}><ModelDirectory  initialPage={page} basePath="/ai-model-comparison" /></PageSeo>;
 }

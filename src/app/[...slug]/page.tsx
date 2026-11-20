@@ -3,6 +3,10 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { permanentRedirect } from "next/navigation";
+import { PageSeo } from "@/components/seo/page-seo";
+import { canonicalRoute } from "@/lib/seo-routes";
+import { seoContent } from "@/lib/seo";
 import { readdirSync } from "node:fs";
 import { PageCallout, SubpageHero } from "@/components/sites/manasflow/subpage-shared";
 import { DetailContent } from "@/components/sites/manasflow/detail-content";
@@ -22,7 +26,7 @@ const routes = new Map(detailIndex.map(page => [page.route.replace(/\/$/, ""), p
 
 export function generateStaticParams() {
   const explicit = new Set(readdirSync(path.join(process.cwd(), "src/app"), { withFileTypes: true }).filter(entry => entry.isDirectory() && !entry.name.startsWith("[")).map(entry => `/${entry.name}`));
-  return SITE_ROUTES.filter(route => route !== "/" && !explicit.has(route) && !route.startsWith("/agency/")).map(route => ({ slug: route.slice(1).split("/") }));
+  return SITE_ROUTES.filter(route => canonicalRoute(route) === route && route !== "/" && !explicit.has(route) && !route.startsWith("/agency/")).map(route => ({ slug: route.slice(1).split("/") }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -39,10 +43,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (route === "/models/compare") return pageMetadata("AI Model Comparison", "Compare model capabilities, providers, context, and costs with ManasFlow.", "/ai-model-comparison");
   const page = routes.get(route);
   if (!page) return {};
-  return pageMetadata(page.title, page.description, page.route);
+  return pageMetadata(page.title, seoContent[route]?.description || page.description, page.route);
 }
 
-export default async function DetailPage({ params }: Props) {
+async function DetailPage({ params }: Props) {
   const { slug } = await params;
   const route = `/${slug.join("/")}`;
   const service = servicePageByRoute(route);
@@ -66,4 +70,11 @@ export default async function DetailPage({ params }: Props) {
     <nav className="mf-detail-related" aria-label="Related pages"><Link href="/blog">Blog</Link><Link href="/playbooks">Playbooks</Link><Link href="/industries">Industries</Link><Link href="/case-studies">Case studies</Link></nav>
     <PageCallout />
   </article>;
+}
+
+export default async function SeoDetailPage({ params }: Props) {
+  const route = `/${(await params).slug.join("/")}`;
+  const canonical = canonicalRoute(route);
+  if (canonical !== route) permanentRedirect(canonical);
+  return <PageSeo route={route}><DetailPage params={params} /></PageSeo>;
 }

@@ -1,3 +1,4 @@
+import { PageSeo } from "@/components/seo/page-seo";
 import { pageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -52,11 +53,11 @@ const sections: LegalSection[] = [
   },
 ];
 export default function CookiesPage() {
-  return (
+  return <PageSeo route="/cookies">{(
     <LegalPage
       title="Cookies & storage"
       intro="This notice describes local website storage and the Cal.com scheduling integration."
       sections={sections}
     />
-  );
+  )}</PageSeo>;
 }

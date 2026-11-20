@@ -1,3 +1,4 @@
+import { PageSeo } from "@/components/seo/page-seo";
 import type { Metadata } from "next";
 import { BlogCatalog } from "@/components/sites/manasflow/catalogs";
 import catalogData from "@/data/manasflow/catalogs.json";
@@ -30,12 +31,12 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
   const page = pageNumber((await searchParams).page);
   const pages: Record<string, (typeof catalogData.blog.pages)["1"]> =
     catalogData.blog.pages;
-  return (
+  return <PageSeo route={page > 1 ? `/blog?page=${page}` : "/blog"}>{(
     <BlogCatalog
       featured={catalogData.blog.featured}
       cards={pages[String(page)] || []}
       page={page}
       totalPages={catalogData.blog.totalPages}
     />
-  );
+  )}</PageSeo>;
 }

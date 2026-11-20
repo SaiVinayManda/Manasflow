@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ArrowLeft, ArrowRight, ArrowUpRight, Check, ChevronDown, Copy, Search, SlidersHorizontal, X } from "lucide-react";
 import modelsData from "@/data/manasflow/models.json";
 import { SubpageHero } from "./subpage-shared";
@@ -61,13 +61,18 @@ function ModelCard({ model, free, selected, limitReached, toggle }: { model: Cat
   </article>;
 }
 
-export function ModelDirectory({ free = false, pricing = false }: { free?: boolean; pricing?: boolean }) {
+export function ModelDirectory({ free = false, pricing = false, initialPage = 1, basePath = free ? "/directory" : pricing ? "/ai-model-pricing-index" : "/ai-model-comparison" }: { free?: boolean; pricing?: boolean; initialPage?: number; basePath?: string }) {
   const [search, setSearch] = useState("");
   const [provider, setProvider] = useState("All providers");
   const [task, setTask] = useState("All workloads");
   const [access, setAccess] = useState("All access");
   const [sort, setSort] = useState(free ? "popular" : pricing ? "cost" : "newest");
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(initialPage);
+  useEffect(() => {
+    const restorePage = () => setPage(Math.max(1, Number.parseInt(new URLSearchParams(window.location.search).get("page") || "1", 10) || 1));
+    window.addEventListener("popstate", restorePage);
+    return () => window.removeEventListener("popstate", restorePage);
+  }, []);
   const [selectedSlugs, setSelectedSlugs] = useState<string[]>([]);
   const [inputM, setInputM] = useState(10);
   const [outputM, setOutputM] = useState(2);
@@ -99,7 +104,7 @@ export function ModelDirectory({ free = false, pricing = false }: { free?: boole
       <div className="mf-model-filter-panel"><div className="mf-model-search"><Search size={18} aria-hidden="true" /><label htmlFor="model-search" className="sr-only">Search models or providers</label><input id="model-search" type="search" value={search} onChange={event => { setSearch(event.target.value); setPage(1); }} placeholder="Search models or providers..." /></div><div className="mf-model-selects"><label><span>Provider</span><select value={provider} onChange={event => { setProvider(event.target.value); setPage(1); }}><option>All providers</option>{providers.map(item => <option key={item}>{item}</option>)}</select></label><label><span>{free ? "Modality" : "Workload"}</span><select value={task} onChange={event => { setTask(event.target.value); setPage(1); }}><option>All workloads</option>{tasks.map(item => <option key={item}>{item}</option>)}</select></label><label><span>Access</span><select value={access} onChange={event => { setAccess(event.target.value); setPage(1); }}><option>All access</option>{accessTypes.map(item => <option key={item}>{item}</option>)}</select></label><label><span>Sort by</span><select value={sort} onChange={event => { setSort(event.target.value); setPage(1); }}><option value="name">Name A–Z</option><option value="provider">Provider</option>{free ? <option value="popular">Catalog votes</option> : <><option value="newest">Newest release</option><option value="context">Largest context</option><option value="input">Lowest input price</option><option value="output">Lowest output price</option><option value="cost">Lowest monthly estimate</option></>}</select></label></div></div>
       <div className="mf-model-results-bar"><p role="status" aria-live="polite"><strong>{filtered.length}</strong> of {models.length} {free ? "free models" : "models"}{search && <> matching “{search}”</>}</p><button type="button" onClick={resetFilters}>Clear filters<X size={13} /></button></div>
       {!visible.length ? <div className="mf-model-no-results"><Search size={30} /><h2>No matching models</h2><p>Try another name, provider, or workload.</p><button type="button" onClick={resetFilters}>Reset filters</button></div> : pricing ? <div className="mf-model-table-scroll"><table className="mf-model-pricing-table"><thead><tr><th scope="col">Model / provider</th><th scope="col">Context</th><th scope="col">Input / 1M</th><th scope="col">Output / 1M</th><th scope="col">Monthly estimate</th><th scope="col">Compare</th></tr></thead><tbody>{visible.map(model => <tr key={model.slug}><th scope="row"><Link href={`/models/${model.slug}`}>{model.name}<ArrowUpRight size={13} /></Link><span>{model.provider}</span></th><td>{contextLabel(model.context)}</td><td>{currency(model.input)}</td><td>{currency(model.output)}</td><td className="mf-model-cost">{currency(monthlyCost(model, inputM, outputM))}</td><td><input type="checkbox" checked={selectedSlugs.includes(model.slug)} disabled={!selectedSlugs.includes(model.slug) && selectedSlugs.length >= 3} onChange={() => toggle(model.slug)} aria-label={`Compare ${model.name}`} /></td></tr>)}</tbody></table></div> : <div className="mf-model-grid">{visible.map(model => <ModelCard key={model.slug} model={model} free={free} selected={selectedSlugs.includes(model.slug)} limitReached={selectedSlugs.length >= 3} toggle={() => toggle(model.slug)} />)}</div>}
-      {pages > 1 && <nav className="mf-model-pagination" aria-label="Model pages"><button type="button" disabled={currentPage === 1} onClick={() => setPage(currentPage - 1)}><ArrowLeft size={16} />Previous</button><span>Page {currentPage} of {pages}</span><button type="button" disabled={currentPage === pages} onClick={() => setPage(currentPage + 1)}>Next<ArrowRight size={16} /></button></nav>}
+      {pages > 1 && <nav className="mf-model-pagination" aria-label="Model pages">{currentPage > 1 ? <Link href={currentPage === 2 ? basePath : `${basePath}?page=${currentPage - 1}`} onClick={() => setPage(currentPage - 1)}><ArrowLeft size={16} />Previous</Link> : <button type="button" disabled><ArrowLeft size={16} />Previous</button>}<span>Page {currentPage} of {pages}</span>{currentPage < pages ? <Link href={`${basePath}?page=${currentPage + 1}`} onClick={() => setPage(currentPage + 1)}>Next<ArrowRight size={16} /></Link> : <button type="button" disabled>Next<ArrowRight size={16} /></button>}</nav>}
       {!free && <><div className="mf-model-shortlist" role="status" aria-live="polite"><span>{selected.length}/3 selected{selected.length === 3 && " · Comparison limit reached"}</span><a href="#model-comparison">Compare selected<ArrowRight size={15} /></a>{selected.length > 0 && <button type="button" onClick={() => setSelectedSlugs([])}>Clear</button>}</div><ModelComparison selected={selected} inputM={inputM} outputM={outputM} remove={toggle} /></>}
       <section className="mf-model-faq"><span className="mf-model-eyebrow">How to read the directory</span><h2>{free ? "Free model questions" : pricing ? "Understanding API pricing" : "Model comparison questions"}</h2>{faq.map((item, index) => <details key={item.question} name="model-faq"><summary>{item.question}<ChevronDown size={16} /></summary><p>{index === 2 && !free && !pricing ? "Select up to three models with the Compare checkboxes, then open the shortlist table. Adjust monthly input and output volumes to calculate the cost of the same workload across all selected models." : item.answer}</p></details>)}</section>
     </section>

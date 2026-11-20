@@ -1,3 +1,4 @@
+import { PageSeo } from "@/components/seo/page-seo";
 import { pageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import { CoursesCatalog } from "@/components/sites/manasflow/catalogs";
@@ -11,5 +12,5 @@ export const metadata: Metadata = { ...{
 }, ...pageMetadata("Courses", "Learn new skills and advance your work with ManasFlow’s AI and automation course collection.", "/courses") };
 
 export default function CoursesPage() {
-  return <CoursesCatalog cards={catalogData.courses.cards} />;
+  return <PageSeo route="/courses">{<CoursesCatalog cards={catalogData.courses.cards} />}</PageSeo>;
 }

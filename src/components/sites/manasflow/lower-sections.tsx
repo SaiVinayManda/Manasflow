@@ -1,5 +1,7 @@
 "use client";
 
+import homeFaqs from "@/data/manasflow/home-faqs.json";
+
 import { useState } from "react";
 import { ActionLink as Link } from "./booking-link";
 import {
@@ -49,7 +51,7 @@ function StepDetails({ index, mobile = false }: { index: number; mobile?: boolea
       <div><span><FileText size={16} />Deliverable</span><p>{step.deliverable}</p></div>
       {!mobile && <div><span><Users size={16} />Your Involvement</span><p>{step.involvement}</p></div>}
     </div>
-    <div><h4>What We Do</h4><CheckList points={step.details} /></div>
+    <div><h3>What We Do</h3><CheckList points={step.details} /></div>
     {!mobile && <div className="lower-next-step"><span><ArrowRight size={16} />Next Step</span><p>{step.next}</p></div>}
   </div>;
 }
@@ -118,15 +120,7 @@ export function Consultation() {
   </section>;
 }
 
-const faqs = [
-  { question: "What types of processes can you automate?", answer: "We specialize in automating repetitive workflows across operations, marketing, sales, and customer support using AI and custom logic. Examples include lead qualification, invoice processing, customer onboarding, and data synchronization between systems. We design solutions for complex processes with enterprise-grade security." },
-  { question: "Do I need technical knowledge to use your service?", answer: "No technical knowledge required! Our platform is designed with a user-friendly interface that allows anyone to set up and manage automated workflows with ease. We provide comprehensive training and ongoing support to ensure your team can manage automations independently. We handle all the technical complexity behind the scenes." },
-  { question: "Can you integrate with our existing tools?", answer: "Yes, we offer seamless integrations with over 100+ popular tools including CRM systems (Salesforce, HubSpot), email platforms (Mailchimp, SendGrid), project management tools (Asana, Trello), and more. Most integrations can be set up within 24–48 hours. If we don’t support a tool yet, we can build a custom integration." },
-  { question: "How long does implementation take?", answer: "Most implementations can be completed within 1–2 weeks, depending on the complexity of your workflows and the number of integrations required. Simple automations can be deployed in 3–5 days, while complex enterprise solutions typically take 2–4 weeks. Government and enterprise projects typically require 4–8 weeks due to security compliance and approval processes." },
-  { question: "Can you self-host n8n or other automation platforms for us?", answer: "Yes! We offer self-hosted solutions for complete data control and security. We can deploy n8n, custom automation platforms, and AI agents entirely on your infrastructure (on-premises or your cloud). This is ideal for government clients, enterprises with strict compliance requirements, or businesses wanting complete data sovereignty. We handle all setup, maintenance, and monitoring." },
-  { question: "How do you build AI agents without using external ML models?", answer: "We can build intelligent AI agents using self-hosted, open-source models that run entirely on your infrastructure. This means no data leaves your network, ensuring maximum security and compliance—critical for government and enterprise clients. We deploy models like Llama, Mistral, or custom fine-tuned models on your servers, giving you full control over your AI capabilities without relying on external APIs." },
-  { question: "Is your AI secure and compliant?", answer: "We design systems around your security and compliance requirements, with encryption in transit and at rest, access controls, and audit logs. Security reviews and deployment requirements are defined with your team before implementation. Self-hosting options are available for maximum data control." },
-];
+const faqs = homeFaqs;
 
 export function FAQ() {
   const [active, setActive] = useState<number | null>(0);

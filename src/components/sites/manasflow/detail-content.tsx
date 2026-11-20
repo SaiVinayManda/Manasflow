@@ -15,7 +15,20 @@ function BlockElement({ block }: { block: Block }) {
   return <p>{children}</p>;
 }
 
+function normalizeHeadings(blocks: Block[]) {
+  let headingLevel = 1;
+  const normalized: Block[] = [];
+  for (const block of blocks) {
+    if (block.kind === "heading") {
+      headingLevel = Math.min(Math.max(2, block.level || 2), headingLevel + 1);
+      normalized.push({ ...block, level: headingLevel });
+    } else normalized.push(block);
+  }
+  return normalized;
+}
+
 export function DetailContent({ blocks }: { blocks: Block[] }) {
+  blocks = normalizeHeadings(blocks);
   let lists: Block[] = [];
   const output: ReactNode[] = [];
   const flush = () => { if (lists.length) { output.push(<ul key={`list-${output.length}`}>{lists.map((block, index) => <BlockElement key={index} block={block} />)}</ul>); lists = []; } };

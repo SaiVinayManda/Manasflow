@@ -41,7 +41,7 @@
 .lower-step-facts>div>span,.lower-next-step>span{display:flex;align-items:center;gap:8px;color:var(--primary-purple);font-size:12px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:12px}
 .lower-step-facts p{font-weight:500;font-size:16px;color:var(--muted-foreground);line-height:1.5;margin:0}
 .lower-step-facts>div:first-child p{font-weight:600;font-size:18px;color:var(--foreground)}
-.lower-step-details h4{color:var(--primary-purple);font-size:14px;text-transform:uppercase;letter-spacing:.1em;font-weight:400;margin:0 0 16px}
+.lower-step-details h3{color:var(--primary-purple);font-size:14px;text-transform:uppercase;letter-spacing:.1em;font-weight:400;margin:0 0 16px}
 .lower-next-step{padding:24px;background:var(--muted);border:1px solid var(--border);align-self:start}
 .lower-next-step>span{color:#fbbf24}
 .lower-next-step p{font-size:16px;font-weight:600;line-height:1.5;margin:0}

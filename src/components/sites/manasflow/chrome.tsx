@@ -2,6 +2,8 @@
 
 import { useEffect, useId, useRef, useState } from "react";
 import { ActionLink as Link } from "./booking-link";
+import NextLink from "next/link";
+import { PRIMARY_NAVIGATION } from "@/lib/site-navigation";
 import type { FormEvent, ReactNode } from "react";
 import {
   ArrowRight, ArrowUpRight, BookOpen, Bot, Boxes,
@@ -28,12 +30,13 @@ export function Logo({ footer = false }: { footer?: boolean }) {
   </Link>;
 }
 
-function MegaMenu({ type, close }: { type: "services" | "resources"; close: () => void }) {
+function MegaMenu({ type, close, mobile = false }: { type: "services" | "resources"; close: () => void; mobile?: boolean }) {
   const services = type === "services";
   const groups = services ? serviceGroups : resourceGroups;
-  return <div id={`mf-menu-${type}`} className="mf-mega-menu">
+  return <div id={`mf-${mobile ? "mobile-" : ""}menu-${type}`} className="mf-mega-menu">
     <div className="mf-mega-inner">
       <div className="mf-mega-groups">
+        {!services && <nav aria-label="Site sections"><p className="mf-menu-label">ManasFlow</p><div className="mf-menu-links">{PRIMARY_NAVIGATION.map(link => <NextLink key={link.href} href={link.href} onClick={close}><span><strong>{link.label}</strong></span></NextLink>)}</div></nav>}
         {groups.map((group) => <div key={group.title}>
           <p className="mf-menu-label">{group.title}</p>
           <div className="mf-menu-links">
@@ -86,18 +89,20 @@ export function Header() {
         </div>
       </div>
     </nav>
-    {open && !mobileOpen && <div className="mf-desktop-mega"><MegaMenu type={open} close={close} /></div>}
-    {mobileOpen && <nav id="mf-mobile-menu" className="mf-mobile-menu" aria-label="Mobile navigation">
+    {(["services", "resources"] as const).map(type => <nav key={type} hidden={open !== type || mobileOpen} className="mf-desktop-mega" aria-label={`${type === "services" ? "Services" : "Resources"} navigation`}><MegaMenu type={type} close={close} /></nav>)}
+    <nav id="mf-mobile-menu" hidden={!mobileOpen} className="mf-mobile-menu" aria-label="Mobile navigation">
       {(["services", "resources"] as const).map((type) => <div key={type}>
         <button type="button" className="mf-mobile-category" aria-expanded={open === type} onClick={() => setOpen(open === type ? null : type)}>{type === "services" ? "Services" : "Resources"}<ChevronDown size={18} className={open === type ? "mf-chevron-open" : ""} /></button>
-        {open === type && <MegaMenu type={type} close={close} />}
+        <div hidden={open !== type}><MegaMenu type={type} close={close} mobile /></div>
       </div>)}
       <Link className="mf-nav-offer" href="/golden-offer" onClick={close}>Skip the Hiring Grind<ArrowUpRight size={16} /></Link>
-    </nav>}
+    </nav>
+    <noscript><nav className="seo-nojs-navigation" aria-label="Site sections">{PRIMARY_NAVIGATION.map(link => <a key={link.href} href={link.href}>{link.label}</a>)}</nav></noscript>
   </header>;
 }
 
-export function Newsletter({ compact = false, formOnly = false }: { compact?: boolean; formOnly?: boolean }) {
+export function Newsletter({ compact = false, formOnly = false, headingLevel = 3 }: { compact?: boolean; formOnly?: boolean; headingLevel?: 2 | 3 }) {
+  const Heading = headingLevel === 2 ? "h2" : "h3";
   const [email, setEmail] = useState("");
   const [prepared, setPrepared] = useState(false);
   const emailId = useId();
@@ -110,7 +115,7 @@ export function Newsletter({ compact = false, formOnly = false }: { compact?: bo
   }
   return <div className={`mf-newsletter ${compact ? "mf-newsletter-compact" : ""}`}>
     {!compact && !formOnly && <p className="mf-news-kicker">Free weekly brief</p>}
-    {!formOnly && <><h3>{compact ? "Stay tuned" : "Steal our production automations"}</h3>
+    {!formOnly && <><Heading className="mf-newsletter-title">{compact ? "Stay tuned" : "Steal our production automations"}</Heading>
     <p>{compact ? "Get the latest automation insights, playbooks, and case studies delivered to your inbox. No spam, ever." : "The exact n8n flows, Claude Code setups, and prompts we ship for clients, broken down step by step. No spam, unsubscribe anytime."}</p></>}
     <form onSubmit={submit}>
       <div className="mf-news-input">
@@ -152,7 +157,7 @@ export function Footer() {
         <div className="mf-deploy-actions"><Link href="/consultation" className="mf-initialize"><Zap size={22} />Initialize Automation<ArrowUpRight size={22} /></Link><Link href="/consultation" className="mf-deploy-call"><Calendar size={16} />Book Free Call<ArrowRight size={16} /></Link></div>
       </Reveal>
     </div>
-    <div className="mf-footer-directory">
+    <nav className="mf-footer-directory" aria-label="Footer navigation">
       <div className="mf-footer-grid">
         <FooterColumn title="Company" className="mf-company-cell">
           <Logo footer />
@@ -190,7 +195,8 @@ export function Footer() {
           <Link className="mf-footer-email" href="mailto:info@manasflow.com"><Mail size={17} />info@manasflow.com</Link>
         </FooterColumn>
       </div>
-    </div>
+    </nav>
+    <nav className="seo-site-sections mf-container" aria-label="Site sections">{PRIMARY_NAVIGATION.map(link => <NextLink href={link.href} key={link.href}>{link.label}</NextLink>)}</nav>
     <div className="mf-footer-global"><p>Operating Globally</p><span><strong>Serving clients worldwide</strong> - across North America, Europe, MENA, Asia &amp; beyond.</span></div>
     <div className="mf-footer-bottom mf-container"><p>© 2026 ManasFlow. All rights reserved.</p><div><Link href="/terms">Terms of Use</Link><Link href="/privacy">Privacy Policy</Link></div></div>
   </footer>;

@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
-import { SERVICE_SOURCE_ROUTES, ServiceLandingPage, servicePageByRoute, servicePageMetadata } from "@/components/sites/manasflow/service-landing";
+import { permanentRedirect } from "next/navigation";
+import { SERVICE_SOURCE_ROUTES, servicePageByRoute, servicePageMetadata } from "@/components/sites/manasflow/service-landing";
 type Props = { params: Promise<{ slug: string[] }> };
 
 export function generateStaticParams() {
@@ -14,5 +15,5 @@ export async function generateMetadata({ params }: Props) {
 export default async function AgencyPage({ params }: Props) {
   const page = servicePageByRoute(`/agency/${(await params).slug.join("/")}`);
   if (!page) notFound();
-  return <ServiceLandingPage slug={page.slug} />;
+  permanentRedirect(`/${page.slug}`);
 }

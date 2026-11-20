@@ -521,7 +521,7 @@
   min-width: 0;
   position: relative;
 }
-.mf-playbook-copy > h3 {
+.mf-playbook-copy > h2 {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.555;
@@ -532,7 +532,7 @@
   overflow: hidden;
   transition: color 0.2s;
 }
-.mf-playbook-card:hover h3 {
+.mf-playbook-card:hover h2 {
   color: var(--primary-purple);
 }
 .mf-playbook-copy > p {

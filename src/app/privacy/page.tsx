@@ -1,3 +1,4 @@
+import { PageSeo } from "@/components/seo/page-seo";
 import { pageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -153,12 +154,12 @@ const sections: LegalSection[] = [
 ];
 
 export default function PrivacyPage() {
-  return (
+  return <PageSeo route="/privacy">{(
     <LegalPage
       title="Privacy notice"
       intro="A clear account of the current website setup, how enquiries are handled, and the details still being confirmed."
       sections={sections}
       draft
     />
-  );
+  )}</PageSeo>;
 }

@@ -1,3 +1,4 @@
+import { PageSeo } from "@/components/seo/page-seo";
 import { pageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -116,12 +117,12 @@ const sections: LegalSection[] = [
 ];
 
 export default function TermsPage() {
-  return (
+  return <PageSeo route="/terms">{(
     <LegalPage
       title="Website terms"
       intro="The basis for using this website. Any project begins with its own conversation and written agreement."
       sections={sections}
       draft
     />
-  );
+  )}</PageSeo>;
 }

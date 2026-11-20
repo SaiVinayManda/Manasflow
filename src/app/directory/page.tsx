@@ -1,8 +1,13 @@
+import { PageSeo } from "@/components/seo/page-seo";
 import { ModelDirectory } from "@/components/sites/manasflow/model-directory";
-import { pageMetadata } from "@/lib/metadata";
+import { modelPageMetadata, modelPageNumber, modelPageRoute, type ModelSearchParams } from "@/lib/model-page";
 
-export const metadata = pageMetadata("Free AI Model Directory", "Explore free AI APIs, open-weight models, access requirements, and setup instructions in the ManasFlow model directory.", "/directory");
+type Props = { searchParams: ModelSearchParams };
+export async function generateMetadata({ searchParams }: Props) {
+  return modelPageMetadata("/directory", searchParams);
+}
 
-export default function DirectoryPage() {
-  return <ModelDirectory free />;
+export default async function ModelPage({ searchParams }: Props) {
+  const page = modelPageNumber("/directory", (await searchParams).page);
+  return <PageSeo route={modelPageRoute("/directory", page)}><ModelDirectory free initialPage={page} basePath="/directory" /></PageSeo>;
 }

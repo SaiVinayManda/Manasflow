@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+.mf-header [hidden] { display: none !important; }
+.seo-nojs-navigation, .seo-site-sections { display: flex; flex-wrap: wrap; gap: 12px 24px; padding-block: 20px; font-size: 14px; }
+.seo-nojs-navigation { background: var(--background); padding-inline: 16px; }
+
 .mf-nav-bar {
   padding: 16px;
   background: color-mix(in srgb,var(--background) 80%,transparent);
@@ -337,7 +341,7 @@
   margin-bottom: 8px;
 }
 
-.mf-newsletter h3 {
+.mf-newsletter .mf-newsletter-title {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 8px;
@@ -1108,7 +1112,7 @@
   .mf-deploy-content>p {
     font-size: 20px;
   }
-  .mf-newsletter h3 {
+  .mf-newsletter .mf-newsletter-title {
     font-size: 24px;
   }
   .mf-newsletter-compact h3 {

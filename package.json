@@ -18,6 +18,11 @@
     "node": ">=24"
   },
   "scripts": {
+    "seo:generate": "node scripts/generate-seo-content.mjs",
+    "seo:validate": "node scripts/validate-seo.mjs",
+    "seo:validate-rendered": "node scripts/validate-rendered-seo.mjs",
+    "predev": "npm run seo:generate",
+    "prebuild": "npm run seo:generate",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

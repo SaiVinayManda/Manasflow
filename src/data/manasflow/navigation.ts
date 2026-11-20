@@ -108,6 +108,7 @@ export const resourceGroups: NavigationGroup[] = [
   ] },
   { title: "Free Tools", links: linksWithDetail(freeToolLinks, "Explore this free ManasFlow resource") },
   { title: "Our Builds", links: productLinks },
+  { title: "Our Platform", links: [{ label: "Our Platform", href: "/platform", detail: "ManasFlow products and frameworks" }] },
 ];
 
 export const NAVIGATION_ROUTES = [...new Set([

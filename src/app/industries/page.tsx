@@ -1,3 +1,4 @@
+import { PageSeo } from "@/components/seo/page-seo";
 import { pageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import { IndustriesPage } from "@/components/sites/manasflow/industries";
@@ -9,5 +10,5 @@ export const metadata: Metadata = { ...{
 }, ...pageMetadata("AI Automation by Industry", "Explore ManasFlow automation workflows, industry playbooks, and outcomes for consulting, legal, marketing, finance, logistics, ecommerce, and more.", "/industries") };
 
 export default function Page() {
-  return <IndustriesPage />;
+  return <PageSeo route="/industries">{<IndustriesPage />}</PageSeo>;
 }

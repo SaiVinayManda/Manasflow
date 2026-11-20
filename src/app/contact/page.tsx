@@ -1,3 +1,4 @@
+import { PageSeo } from "@/components/seo/page-seo";
 import { pageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import { CompanyContactPage } from "@/components/sites/manasflow/company-pages";
@@ -10,5 +11,5 @@ export const metadata: Metadata = { ...{
 }, ...pageMetadata("Contact Us – Get in Touch", "Contact ManasFlow to discuss AI automation, intelligent agents, and your next project. Email info@manasflow.com or request a free strategy call.", "/contact") };
 
 export default function ContactPage() {
-  return <CompanyContactPage />;
+  return <PageSeo route="/contact">{<CompanyContactPage />}</PageSeo>;
 }

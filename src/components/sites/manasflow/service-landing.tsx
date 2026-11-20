@@ -137,6 +137,5 @@ export function ServiceLandingPage({ slug }: { slug: string }) {
     <ContactBooking />
     <RelatedServices page={page} />
     {page.faqs.length > 0 && <section className="service-faq"><div className="mf-container"><div className="service-faq-heading"><p className="service-overline">Before we build</p><h2>{page.badge} questions</h2><p>Practical answers about scope, delivery, ownership, and working with ManasFlow.</p></div><div className="service-faq-list">{page.faqs.map((faq, index) => <details key={`${faq.question}-${index}`} name={`faq-${page.slug}`} open={index === 0}><summary>{faq.question}<span aria-hidden="true">+</span></summary><p>{faq.answer}</p></details>)}</div></div></section>}
-    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Service", name: page.badge, description: page.description, provider: { "@type": "Organization", name: "ManasFlow", url: "https://manasflow.com" }, url: `https://manasflow.com/${page.slug}` }).replace(/</g, "\\u003c") }} />
   </div>;
 }
