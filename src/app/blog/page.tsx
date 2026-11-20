@@ -2,7 +2,7 @@ import { PageSeo } from "@/components/seo/page-seo";
 import type { Metadata } from "next";
 import { BlogCatalog } from "@/components/sites/manasflow/catalogs";
 import catalogData from "@/data/manasflow/catalogs.json";
-import { pageMetadata } from "@/lib/metadata";
+import { hubMetadata, pageMetadata } from "@/lib/metadata";
 
 type BlogPageProps = { searchParams: Promise<{ page?: string | string[] }> };
 const pageNumber = (input?: string | string[]) =>
@@ -18,6 +18,7 @@ export async function generateMetadata({
   searchParams,
 }: BlogPageProps): Promise<Metadata> {
   const page = pageNumber((await searchParams).page);
+  if (page === 1) return hubMetadata("/blog");
   return pageMetadata(
       page > 1
         ? `AI Automation Blog — Page ${page}`

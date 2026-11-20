@@ -2,13 +2,15 @@ import type { Metadata } from "next";
 import { site } from "./site";
 import { canonicalRoute, NOINDEX_ROUTES } from "./seo-routes";
 import content from "@/data/manasflow/seo-content.json";
+import hubMetadataData from "@/data/manasflow/hub-metadata.json";
 
 export function pageMetadata(title: string, description: string, route: string): Metadata {
   route = canonicalRoute(route);
   const url = new URL(route, site.url).href;
   const record = (content as Record<string, { description: string; seoTitle?: string; seoDescription?: string }>)[route];
-  const pageTitle = `${(record?.seoTitle || title).replace(/\s*\|\s*ManasFlow$/i, "")} | ${site.name}`;
-  const summary = record?.seoDescription || description || record?.description || `${title}. Explore practical AI automation resources, implementation guidance, and engineering with ${site.name}.`;
+  const hub = (hubMetadataData as Record<string, { title: string; description: string }>)[route];
+  const pageTitle = `${(hub?.title || record?.seoTitle || title).replace(/\s*\|\s*ManasFlow$/i, "")} | ${site.name}`;
+  const summary = hub?.description || record?.seoDescription || description || record?.description || `${title}. Explore practical AI automation resources, implementation guidance, and engineering with ${site.name}.`;
   return {
     title: { absolute: pageTitle },
     description: summary,
@@ -24,4 +26,9 @@ export function pageMetadata(title: string, description: string, route: string):
     },
     twitter: { card: "summary_large_image", title: pageTitle, description: summary, images: ["/sites/manasflow/social-card.png"] },
   };
+}
+
+export function hubMetadata(route: keyof typeof hubMetadataData): Metadata {
+  const hub = hubMetadataData[route];
+  return pageMetadata(hub.title, hub.description, route);
 }

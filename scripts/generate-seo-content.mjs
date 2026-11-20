@@ -91,6 +91,18 @@ for (const [route, [title, description]] of Object.entries(hubs)) sourceRecord(r
 for (const route of ["/directory", "/ai-model-comparison", "/ai-model-pricing-index"]) {
   records[route] = { ...records[route], source: "src/data/manasflow/models.json", ...history.get("src/data/manasflow/models.json") };
 }
+const hubSources = {
+  "/": "src/app/page.tsx",
+  "/services": "src/data/manasflow/company-pages.json",
+  "/platform": "src/data/manasflow/products.ts",
+  "/tools": "src/data/manasflow/tools.json",
+  "/ai-tools": "src/data/manasflow/ecosystem-catalogs.json",
+  "/blog": "src/data/manasflow/catalogs.json",
+  "/contact": "src/data/manasflow/company-pages.json",
+};
+for (const [route, hub] of Object.entries(read("hub-metadata"))) {
+  sourceRecord(route, hub.title, hub.description, hubSources[route]);
+}
 for (let page = 2; page <= catalogs.blog.totalPages; page++) {
   records[`/blog?page=${page}`] = { ...records["/blog"], title: `AI Automation Blog — Page ${page}` };
 }

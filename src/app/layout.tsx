@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import { Header, Footer } from "@/components/sites/manasflow/chrome";
 import { site } from "@/lib/site";
 import { CalProvider } from "@/components/sites/manasflow/cal-provider";
+import { HubNavigation } from "@/components/seo/hub-navigation";
 import "./globals.css";
 
 const lexend = localFont({
@@ -23,7 +24,18 @@ export const metadata: Metadata = {
   authors: [{ name: site.name }],
   creator: site.name,
   publisher: site.name,
-  icons: { icon: "/sites/manasflow/favicon.svg", apple: "/sites/manasflow/apple-touch-icon.png" },
+  // Next's Metadata API emits these explicit links into the server-rendered head.
+  icons: {
+    icon: [
+      { url: "/favicon.ico", type: "image/x-icon", sizes: "16x16 32x32 48x48" },
+      { url: "/favicon-48x48.png", type: "image/png", sizes: "48x48" },
+      { url: "/favicon-96x96.png", type: "image/png", sizes: "96x96" },
+      { url: "/logo.svg", type: "image/svg+xml", sizes: "any", media: "(prefers-color-scheme: light)" },
+      { url: "/sites/manasflow/favicon.svg", type: "image/svg+xml", sizes: "any", media: "(prefers-color-scheme: dark)" },
+    ],
+    shortcut: { url: "/favicon.ico", type: "image/x-icon" },
+    apple: { url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" },
+  },
   openGraph: {
     type: "website", siteName: site.name, locale: "en_US", url: site.url,
     title: "ManasFlow | AI Transformation & Automation", description: site.description,
@@ -43,9 +55,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <body>
       <CalProvider />
       <a href="#main" className="skip-link">Skip to content</a>
-      <Header />
+      <Header navigation={<HubNavigation placement="header" />} />
       <main id="main">{children}</main>
-      <Footer />
+      <div data-nosnippet=""><Footer navigation={<HubNavigation placement="footer" />} /></div>
     </body>
   </html>;
 }

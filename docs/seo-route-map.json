@@ -4,10 +4,10 @@
     "canonical": "/",
     "indexable": true,
     "title": "AI Transformation & Automation",
-    "description": "Explore ai transformation & automation with ManasFlow. Practical AI automation, engineering, and resources for your business.",
+    "description": "ManasFlow builds AI automations, agents, and SaaS. Explore our platform, frameworks, and free AI tools to streamline workflows and grow your business.",
     "breadcrumbs": [],
     "source": "src/app/page.tsx",
-    "lastModified": "2026-10-28T22:40:55+01:00",
+    "lastModified": "2026-11-20T01:35:28+01:00",
     "dateProvenance": "Git content-source history"
   },
   {
@@ -1119,7 +1119,7 @@
     "canonical": "/ai-tools",
     "indexable": true,
     "title": "AI Tools Directory",
-    "description": "Explore 346 AI tools across 75 categories, with searchable listings and practical implementation guidance from ManasFlow.",
+    "description": "Explore ManasFlow's AI tools directory by business function. Compare tools for coding, marketing, sales, support, design, data, and automation.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -11386,15 +11386,15 @@
     "route": "/blog",
     "canonical": "/blog",
     "indexable": true,
-    "title": "AI Automation & n8n Workflow Blog",
-    "description": "AI Automation & n8n Workflow Blog. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "title": "AI Insights & Research",
+    "description": "AI Insights & Research. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
         "route": "/"
       },
       {
-        "name": "AI Automation & n8n Workflow Blog",
+        "name": "AI Insights & Research",
         "route": "/blog"
       }
     ],
@@ -23575,7 +23575,7 @@
     "canonical": "/blog?page=10",
     "indexable": true,
     "title": "AI Automation Blog — Page 10",
-    "description": "AI Automation Blog — Page 10. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 10. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23599,7 +23599,7 @@
     "canonical": "/blog?page=11",
     "indexable": true,
     "title": "AI Automation Blog — Page 11",
-    "description": "AI Automation Blog — Page 11. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 11. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23623,7 +23623,7 @@
     "canonical": "/blog?page=12",
     "indexable": true,
     "title": "AI Automation Blog — Page 12",
-    "description": "AI Automation Blog — Page 12. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 12. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23647,7 +23647,7 @@
     "canonical": "/blog?page=13",
     "indexable": true,
     "title": "AI Automation Blog — Page 13",
-    "description": "AI Automation Blog — Page 13. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 13. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23671,7 +23671,7 @@
     "canonical": "/blog?page=14",
     "indexable": true,
     "title": "AI Automation Blog — Page 14",
-    "description": "AI Automation Blog — Page 14. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 14. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23695,7 +23695,7 @@
     "canonical": "/blog?page=15",
     "indexable": true,
     "title": "AI Automation Blog — Page 15",
-    "description": "AI Automation Blog — Page 15. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 15. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23719,7 +23719,7 @@
     "canonical": "/blog?page=16",
     "indexable": true,
     "title": "AI Automation Blog — Page 16",
-    "description": "AI Automation Blog — Page 16. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 16. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23743,7 +23743,7 @@
     "canonical": "/blog?page=17",
     "indexable": true,
     "title": "AI Automation Blog — Page 17",
-    "description": "AI Automation Blog — Page 17. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 17. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23767,7 +23767,7 @@
     "canonical": "/blog?page=18",
     "indexable": true,
     "title": "AI Automation Blog — Page 18",
-    "description": "AI Automation Blog — Page 18. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 18. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23791,7 +23791,7 @@
     "canonical": "/blog?page=19",
     "indexable": true,
     "title": "AI Automation Blog — Page 19",
-    "description": "AI Automation Blog — Page 19. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 19. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23815,7 +23815,7 @@
     "canonical": "/blog?page=2",
     "indexable": true,
     "title": "AI Automation Blog — Page 2",
-    "description": "AI Automation Blog — Page 2. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 2. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23839,7 +23839,7 @@
     "canonical": "/blog?page=20",
     "indexable": true,
     "title": "AI Automation Blog — Page 20",
-    "description": "AI Automation Blog — Page 20. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 20. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23863,7 +23863,7 @@
     "canonical": "/blog?page=21",
     "indexable": true,
     "title": "AI Automation Blog — Page 21",
-    "description": "AI Automation Blog — Page 21. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 21. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23887,7 +23887,7 @@
     "canonical": "/blog?page=22",
     "indexable": true,
     "title": "AI Automation Blog — Page 22",
-    "description": "AI Automation Blog — Page 22. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 22. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23911,7 +23911,7 @@
     "canonical": "/blog?page=23",
     "indexable": true,
     "title": "AI Automation Blog — Page 23",
-    "description": "AI Automation Blog — Page 23. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 23. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23935,7 +23935,7 @@
     "canonical": "/blog?page=24",
     "indexable": true,
     "title": "AI Automation Blog — Page 24",
-    "description": "AI Automation Blog — Page 24. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 24. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23959,7 +23959,7 @@
     "canonical": "/blog?page=25",
     "indexable": true,
     "title": "AI Automation Blog — Page 25",
-    "description": "AI Automation Blog — Page 25. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 25. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -23983,7 +23983,7 @@
     "canonical": "/blog?page=26",
     "indexable": true,
     "title": "AI Automation Blog — Page 26",
-    "description": "AI Automation Blog — Page 26. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 26. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24007,7 +24007,7 @@
     "canonical": "/blog?page=27",
     "indexable": true,
     "title": "AI Automation Blog — Page 27",
-    "description": "AI Automation Blog — Page 27. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 27. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24031,7 +24031,7 @@
     "canonical": "/blog?page=28",
     "indexable": true,
     "title": "AI Automation Blog — Page 28",
-    "description": "AI Automation Blog — Page 28. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 28. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24055,7 +24055,7 @@
     "canonical": "/blog?page=29",
     "indexable": true,
     "title": "AI Automation Blog — Page 29",
-    "description": "AI Automation Blog — Page 29. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 29. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24079,7 +24079,7 @@
     "canonical": "/blog?page=3",
     "indexable": true,
     "title": "AI Automation Blog — Page 3",
-    "description": "AI Automation Blog — Page 3. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 3. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24103,7 +24103,7 @@
     "canonical": "/blog?page=30",
     "indexable": true,
     "title": "AI Automation Blog — Page 30",
-    "description": "AI Automation Blog — Page 30. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 30. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24127,7 +24127,7 @@
     "canonical": "/blog?page=31",
     "indexable": true,
     "title": "AI Automation Blog — Page 31",
-    "description": "AI Automation Blog — Page 31. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 31. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24151,7 +24151,7 @@
     "canonical": "/blog?page=32",
     "indexable": true,
     "title": "AI Automation Blog — Page 32",
-    "description": "AI Automation Blog — Page 32. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 32. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24175,7 +24175,7 @@
     "canonical": "/blog?page=33",
     "indexable": true,
     "title": "AI Automation Blog — Page 33",
-    "description": "AI Automation Blog — Page 33. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 33. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24199,7 +24199,7 @@
     "canonical": "/blog?page=34",
     "indexable": true,
     "title": "AI Automation Blog — Page 34",
-    "description": "AI Automation Blog — Page 34. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 34. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24223,7 +24223,7 @@
     "canonical": "/blog?page=35",
     "indexable": true,
     "title": "AI Automation Blog — Page 35",
-    "description": "AI Automation Blog — Page 35. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 35. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24247,7 +24247,7 @@
     "canonical": "/blog?page=36",
     "indexable": true,
     "title": "AI Automation Blog — Page 36",
-    "description": "AI Automation Blog — Page 36. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 36. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24271,7 +24271,7 @@
     "canonical": "/blog?page=37",
     "indexable": true,
     "title": "AI Automation Blog — Page 37",
-    "description": "AI Automation Blog — Page 37. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 37. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24295,7 +24295,7 @@
     "canonical": "/blog?page=38",
     "indexable": true,
     "title": "AI Automation Blog — Page 38",
-    "description": "AI Automation Blog — Page 38. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 38. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24319,7 +24319,7 @@
     "canonical": "/blog?page=39",
     "indexable": true,
     "title": "AI Automation Blog — Page 39",
-    "description": "AI Automation Blog — Page 39. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 39. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24343,7 +24343,7 @@
     "canonical": "/blog?page=4",
     "indexable": true,
     "title": "AI Automation Blog — Page 4",
-    "description": "AI Automation Blog — Page 4. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 4. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24367,7 +24367,7 @@
     "canonical": "/blog?page=40",
     "indexable": true,
     "title": "AI Automation Blog — Page 40",
-    "description": "AI Automation Blog — Page 40. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 40. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24391,7 +24391,7 @@
     "canonical": "/blog?page=41",
     "indexable": true,
     "title": "AI Automation Blog — Page 41",
-    "description": "AI Automation Blog — Page 41. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 41. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24415,7 +24415,7 @@
     "canonical": "/blog?page=42",
     "indexable": true,
     "title": "AI Automation Blog — Page 42",
-    "description": "AI Automation Blog — Page 42. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 42. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24439,7 +24439,7 @@
     "canonical": "/blog?page=43",
     "indexable": true,
     "title": "AI Automation Blog — Page 43",
-    "description": "AI Automation Blog — Page 43. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 43. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24463,7 +24463,7 @@
     "canonical": "/blog?page=44",
     "indexable": true,
     "title": "AI Automation Blog — Page 44",
-    "description": "AI Automation Blog — Page 44. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 44. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24487,7 +24487,7 @@
     "canonical": "/blog?page=45",
     "indexable": true,
     "title": "AI Automation Blog — Page 45",
-    "description": "AI Automation Blog — Page 45. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 45. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24511,7 +24511,7 @@
     "canonical": "/blog?page=46",
     "indexable": true,
     "title": "AI Automation Blog — Page 46",
-    "description": "AI Automation Blog — Page 46. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 46. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24535,7 +24535,7 @@
     "canonical": "/blog?page=47",
     "indexable": true,
     "title": "AI Automation Blog — Page 47",
-    "description": "AI Automation Blog — Page 47. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 47. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24559,7 +24559,7 @@
     "canonical": "/blog?page=48",
     "indexable": true,
     "title": "AI Automation Blog — Page 48",
-    "description": "AI Automation Blog — Page 48. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 48. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24583,7 +24583,7 @@
     "canonical": "/blog?page=49",
     "indexable": true,
     "title": "AI Automation Blog — Page 49",
-    "description": "AI Automation Blog — Page 49. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 49. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24607,7 +24607,7 @@
     "canonical": "/blog?page=5",
     "indexable": true,
     "title": "AI Automation Blog — Page 5",
-    "description": "AI Automation Blog — Page 5. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 5. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24631,7 +24631,7 @@
     "canonical": "/blog?page=50",
     "indexable": true,
     "title": "AI Automation Blog — Page 50",
-    "description": "AI Automation Blog — Page 50. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 50. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24655,7 +24655,7 @@
     "canonical": "/blog?page=51",
     "indexable": true,
     "title": "AI Automation Blog — Page 51",
-    "description": "AI Automation Blog — Page 51. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 51. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24679,7 +24679,7 @@
     "canonical": "/blog?page=52",
     "indexable": true,
     "title": "AI Automation Blog — Page 52",
-    "description": "AI Automation Blog — Page 52. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 52. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24703,7 +24703,7 @@
     "canonical": "/blog?page=6",
     "indexable": true,
     "title": "AI Automation Blog — Page 6",
-    "description": "AI Automation Blog — Page 6. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 6. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24727,7 +24727,7 @@
     "canonical": "/blog?page=7",
     "indexable": true,
     "title": "AI Automation Blog — Page 7",
-    "description": "AI Automation Blog — Page 7. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 7. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24751,7 +24751,7 @@
     "canonical": "/blog?page=8",
     "indexable": true,
     "title": "AI Automation Blog — Page 8",
-    "description": "AI Automation Blog — Page 8. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 8. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -24775,7 +24775,7 @@
     "canonical": "/blog?page=9",
     "indexable": true,
     "title": "AI Automation Blog — Page 9",
-    "description": "AI Automation Blog — Page 9. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "AI Automation Blog — Page 9. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "breadcrumbs": [
       {
         "name": "Home",
@@ -26391,7 +26391,7 @@
       }
     ],
     "source": "src/app/careers/page.tsx",
-    "lastModified": "2026-10-28T22:40:55+01:00",
+    "lastModified": "2026-11-20T01:35:28+01:00",
     "dateProvenance": "Git content-source history"
   },
   {
@@ -26411,7 +26411,7 @@
       }
     ],
     "source": "src/app/case-studies/page.tsx",
-    "lastModified": "2026-10-28T22:40:55+01:00",
+    "lastModified": "2026-11-20T01:35:28+01:00",
     "dateProvenance": "Git content-source history"
   },
   {
@@ -26722,19 +26722,19 @@
     "route": "/contact",
     "canonical": "/contact",
     "indexable": true,
-    "title": "Contact Us – Get in Touch",
-    "description": "Contact ManasFlow to discuss AI automation, intelligent agents, and your next project. Email info@manasflow.com or request a free strategy call.",
+    "title": "Book a Discovery Call",
+    "description": "Book a discovery call with ManasFlow to discuss AI automation, custom SaaS, and engineering. Share your goals and explore practical next steps.",
     "breadcrumbs": [
       {
         "name": "Home",
         "route": "/"
       },
       {
-        "name": "Contact Us – Get in Touch",
+        "name": "Book a Discovery Call",
         "route": "/contact"
       }
     ],
-    "source": "src/app/contact/page.tsx",
+    "source": "src/data/manasflow/company-pages.json",
     "lastModified": "2026-10-28T22:40:55+01:00",
     "dateProvenance": "Git content-source history"
   },
@@ -26755,7 +26755,7 @@
       }
     ],
     "source": "src/app/cookies/page.tsx",
-    "lastModified": "2026-10-28T22:40:55+01:00",
+    "lastModified": "2026-11-20T01:35:28+01:00",
     "dateProvenance": "Git content-source history"
   },
   {
@@ -26775,7 +26775,7 @@
       }
     ],
     "source": "src/app/cookies/page.tsx",
-    "lastModified": "2026-10-28T22:40:55+01:00",
+    "lastModified": "2026-11-20T01:35:28+01:00",
     "dateProvenance": "Git content-source history"
   },
   {
@@ -26795,7 +26795,7 @@
       }
     ],
     "source": "src/app/courses/page.tsx",
-    "lastModified": "2026-10-28T22:40:55+01:00",
+    "lastModified": "2026-11-20T01:35:28+01:00",
     "dateProvenance": "Git content-source history"
   },
   {
@@ -27655,7 +27655,7 @@
       }
     ],
     "source": "src/app/faq/page.tsx",
-    "lastModified": "2026-10-28T22:40:55+01:00",
+    "lastModified": "2026-11-20T01:35:28+01:00",
     "dateProvenance": "Git content-source history"
   },
   {
@@ -35107,7 +35107,7 @@
       }
     ],
     "source": "src/app/industries/page.tsx",
-    "lastModified": "2026-10-28T22:40:55+01:00",
+    "lastModified": "2026-11-20T01:35:28+01:00",
     "dateProvenance": "Git content-source history"
   },
   {
@@ -37026,19 +37026,19 @@
     "route": "/platform",
     "canonical": "/platform",
     "indexable": true,
-    "title": "Our Platform",
-    "description": "ManasRank, ManasDesign, ManasN8N, ManasClaude, Manas Skills, and Manas Framework.",
+    "title": "Platform & Frameworks",
+    "description": "Explore ManasRank, ManasDesign, ManasN8N, ManasClaude, Manas Skills, and Manas Framework for AI search, design, automation, and software delivery.",
     "breadcrumbs": [
       {
         "name": "Home",
         "route": "/"
       },
       {
-        "name": "Our Platform",
+        "name": "Platform & Frameworks",
         "route": "/platform"
       }
     ],
-    "source": "src/data/manasflow/ecosystem-catalogs.json",
+    "source": "src/data/manasflow/products.ts",
     "lastModified": "2026-10-28T22:40:55+01:00",
     "dateProvenance": "Git content-source history"
   },
@@ -37059,7 +37059,7 @@
       }
     ],
     "source": "src/app/playbooks/page.tsx",
-    "lastModified": "2026-10-28T22:40:55+01:00",
+    "lastModified": "2026-11-20T01:35:28+01:00",
     "dateProvenance": "Git content-source history"
   },
   {
@@ -37223,7 +37223,7 @@
       }
     ],
     "source": "src/app/privacy/page.tsx",
-    "lastModified": "2026-10-28T22:40:55+01:00",
+    "lastModified": "2026-11-20T01:35:28+01:00",
     "dateProvenance": "Git content-source history"
   },
   {
@@ -37243,7 +37243,7 @@
       }
     ],
     "source": "src/app/privacy/page.tsx",
-    "lastModified": "2026-10-28T22:40:55+01:00",
+    "lastModified": "2026-11-20T01:35:28+01:00",
     "dateProvenance": "Git content-source history"
   },
   {
@@ -43294,19 +43294,19 @@
     "route": "/services",
     "canonical": "/services",
     "indexable": true,
-    "title": "AI Services & Training",
-    "description": "Explore ManasFlow’s AI services: agent development, workflow automation, staff augmentation, AI strategy, training, and ongoing support.",
+    "title": "AI Automation & SaaS Services",
+    "description": "Build AI agents, automate workflows, and launch custom SaaS with ManasFlow. Explore engineering, CRM integrations, AI consulting, and ongoing support.",
     "breadcrumbs": [
       {
         "name": "Home",
         "route": "/"
       },
       {
-        "name": "AI Services & Training",
+        "name": "AI Automation & SaaS Services",
         "route": "/services"
       }
     ],
-    "source": "src/app/services/page.tsx",
+    "source": "src/data/manasflow/company-pages.json",
     "lastModified": "2026-10-28T22:40:55+01:00",
     "dateProvenance": "Git content-source history"
   },
@@ -45075,26 +45075,26 @@
       }
     ],
     "source": "src/app/terms/page.tsx",
-    "lastModified": "2026-10-28T22:40:55+01:00",
+    "lastModified": "2026-11-20T01:35:28+01:00",
     "dateProvenance": "Git content-source history"
   },
   {
     "route": "/tools",
     "canonical": "/tools",
     "indexable": true,
-    "title": "20 Free AI Automation Tools",
-    "description": "Free calculators, assessments, and generators from ManasFlow to help you make smarter AI decisions. No credit card required.",
+    "title": "Free AI Tools & Calculators",
+    "description": "Use ManasFlow's free AI tools, ROI calculators, readiness assessments, model comparisons, and pricing indexes to plan your next automation project.",
     "breadcrumbs": [
       {
         "name": "Home",
         "route": "/"
       },
       {
-        "name": "20 Free AI Automation Tools",
+        "name": "Free AI Tools & Calculators",
         "route": "/tools"
       }
     ],
-    "source": "src/app/tools/page.tsx",
+    "source": "src/data/manasflow/tools.json",
     "lastModified": "2026-10-28T22:40:55+01:00",
     "dateProvenance": "Git content-source history"
   },

@@ -63,7 +63,7 @@ function MegaMenu({ type, close, mobile = false }: { type: "services" | "resourc
   </div>;
 }
 
-export function Header() {
+export function Header({ navigation }: { navigation?: ReactNode }) {
   const [open, setOpen] = useState<"services" | "resources" | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
   const header = useRef<HTMLElement>(null);
@@ -89,6 +89,7 @@ export function Header() {
         </div>
       </div>
     </nav>
+    {navigation}
     {(["services", "resources"] as const).map(type => <nav key={type} hidden={open !== type || mobileOpen} className="mf-desktop-mega" aria-label={`${type === "services" ? "Services" : "Resources"} navigation`}><MegaMenu type={type} close={close} /></nav>)}
     <nav id="mf-mobile-menu" hidden={!mobileOpen} className="mf-mobile-menu" aria-label="Mobile navigation">
       {(["services", "resources"] as const).map((type) => <div key={type}>
@@ -143,7 +144,7 @@ const summaries = [
   ["Contact", "copilot.ico", "/contact"],
 ];
 
-export function Footer() {
+export function Footer({ navigation }: { navigation?: ReactNode }) {
   const [showSolutions, setShowSolutions] = useState(true);
   const [showPlatforms, setShowPlatforms] = useState(true);
   return <footer id="contact" className="mf-footer">
@@ -196,7 +197,7 @@ export function Footer() {
         </FooterColumn>
       </div>
     </nav>
-    <nav className="seo-site-sections mf-container" aria-label="Site sections">{PRIMARY_NAVIGATION.map(link => <NextLink href={link.href} key={link.href}>{link.label}</NextLink>)}</nav>
+    {navigation || <nav className="seo-site-sections mf-container" aria-label="Site sections">{PRIMARY_NAVIGATION.map(link => <NextLink href={link.href} key={link.href}>{link.label}</NextLink>)}</nav>}
     <div className="mf-footer-global"><p>Operating Globally</p><span><strong>Serving clients worldwide</strong> - across North America, Europe, MENA, Asia &amp; beyond.</span></div>
     <div className="mf-footer-bottom mf-container"><p>© 2026 ManasFlow. All rights reserved.</p><p>Milan, Italy</p><div><Link href="/terms">Terms of Use</Link><Link href="/privacy">Privacy Policy</Link></div></div>
   </footer>;

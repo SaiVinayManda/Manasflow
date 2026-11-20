@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import catalogs from "@/data/manasflow/ecosystem-catalogs.json";
-import { pageMetadata } from "./metadata";
+import { hubMetadata, pageMetadata } from "./metadata";
 
 export const ECOSYSTEM_ROUTES = [
   "/ai-tools", "/bot-directory", "/skills", "/workflows",
@@ -11,7 +11,7 @@ export const ECOSYSTEM_ROUTES = [
 ];
 
 export function ecosystemMetadata(route: string): Metadata | undefined {
-  if (route === "/ai-tools") return pageMetadata("AI Tools Directory", "Explore 346 AI tools across 75 categories, with searchable listings and practical implementation guidance from ManasFlow.", route);
+  if (route === "/ai-tools") return hubMetadata("/ai-tools");
   if (route === "/bot-directory") return pageMetadata("Bot Directory & Automation Templates", "Explore 61 automation templates by category and integration, with clear setup steps and implementation guidance from ManasFlow.", route);
   if (route === "/skills") return pageMetadata("Skills & Agents — AI Capability Stack", "Browse 144 AI capabilities across agent orchestration, engineering, workflow automation, content, sales, and delivery with ManasFlow.", route);
   if (route === "/workflows") return pageMetadata("Automation Workflows", "Find practical automation patterns for sales, support, operations, and developer workflows. Explore setup guides and implementation options with ManasFlow.", route);

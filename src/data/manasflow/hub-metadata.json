@@ -1,0 +1,36 @@
+{
+  "/": {
+    "title": "AI Transformation & Automation",
+    "description": "ManasFlow builds AI automations, agents, and SaaS. Explore our platform, frameworks, and free AI tools to streamline workflows and grow your business."
+  },
+  "/services": {
+    "label": "AI Automation & SaaS Services",
+    "title": "AI Automation & SaaS Services",
+    "description": "Build AI agents, automate workflows, and launch custom SaaS with ManasFlow. Explore engineering, CRM integrations, AI consulting, and ongoing support."
+  },
+  "/platform": {
+    "label": "ManasFlow Platform & Frameworks",
+    "title": "Platform & Frameworks",
+    "description": "Explore ManasRank, ManasDesign, ManasN8N, ManasClaude, Manas Skills, and Manas Framework for AI search, design, automation, and software delivery."
+  },
+  "/tools": {
+    "label": "Free AI Tools & Calculators",
+    "title": "Free AI Tools & Calculators",
+    "description": "Use ManasFlow's free AI tools, ROI calculators, readiness assessments, model comparisons, and pricing indexes to plan your next automation project."
+  },
+  "/ai-tools": {
+    "label": "AI Tools Directory",
+    "title": "AI Tools Directory",
+    "description": "Explore ManasFlow's AI tools directory by business function. Compare tools for coding, marketing, sales, support, design, data, and automation."
+  },
+  "/blog": {
+    "label": "Insights & Research",
+    "title": "AI Insights & Research",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
+  },
+  "/contact": {
+    "label": "Book a Discovery Call",
+    "title": "Book a Discovery Call",
+    "description": "Book a discovery call with ManasFlow to discuss AI automation, custom SaaS, and engineering. Share your goals and explore practical next steps."
+  }
+}

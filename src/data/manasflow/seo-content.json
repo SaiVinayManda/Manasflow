@@ -16648,121 +16648,86 @@
     "title": "Careers – AI Engineer & Automation Jobs",
     "description": "Build AI that actually runs. Join ManasFlow as an AI engineer, n8n developer, or automation specialist. Show us what you’ve built.",
     "source": "src/app/careers/page.tsx",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-20T01:35:28+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00"
   },
   "/case-studies": {
     "title": "Case Studies — AI Automation Success Stories",
     "description": "Explore ManasFlow AI automation projects, client use cases, and detailed stories across operations, growth, product engineering, and customer support.",
     "source": "src/app/case-studies/page.tsx",
-    "modified": "2026-10-28T22:40:55+01:00",
-    "firstRecorded": "2026-10-28T22:40:55+01:00"
-  },
-  "/contact": {
-    "title": "Contact Us – Get in Touch",
-    "description": "Contact ManasFlow to discuss AI automation, intelligent agents, and your next project. Email info@manasflow.com or request a free strategy call.",
-    "source": "src/app/contact/page.tsx",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-20T01:35:28+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00"
   },
   "/cookies": {
     "title": "Cookies and website storage",
     "description": "Explore cookies and website storage with ManasFlow. Practical AI automation, engineering, and resources for your business.",
     "source": "src/app/cookies/page.tsx",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-20T01:35:28+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00"
   },
   "/courses": {
     "title": "Courses",
     "description": "Learn new skills and advance your work with ManasFlow’s AI and automation course collection.",
     "source": "src/app/courses/page.tsx",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-20T01:35:28+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00"
   },
   "/faq": {
     "title": "FAQ – AI Automation & Staff Augmentation",
     "description": "Answers to your questions about ManasFlow’s AI workflow automation, staff augmentation, services, and pricing.",
     "source": "src/app/faq/page.tsx",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-20T01:35:28+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00"
   },
   "/free-models": {
     "title": "Free AI Models Directory",
     "description": "Browse free and open AI models by provider and family.",
     "source": "src/app/free-models/page.tsx",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-20T01:35:28+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00"
   },
   "/industries": {
     "title": "AI Automation by Industry",
     "description": "Explore ManasFlow automation workflows, industry playbooks, and outcomes for consulting, legal, marketing, finance, logistics, ecommerce, and more.",
     "source": "src/app/industries/page.tsx",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-20T01:35:28+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00"
   },
   "/models": {
     "title": "AI Model Directory",
     "description": "Compare model context windows, providers, and published pricing with ManasFlow.",
     "source": "src/app/models/page.tsx",
-    "modified": "2026-10-28T22:40:55+01:00",
-    "firstRecorded": "2026-10-28T22:40:55+01:00"
-  },
-  "/": {
-    "title": "AI Transformation & Automation",
-    "description": "Explore ai transformation & automation with ManasFlow. Practical AI automation, engineering, and resources for your business.",
-    "source": "src/app/page.tsx",
-    "modified": "2026-10-28T22:40:55+01:00",
-    "firstRecorded": "2026-03-24T15:26:49-05:00"
-  },
-  "/platform": {
-    "title": "Our Platform",
-    "description": "ManasRank, ManasDesign, ManasN8N, ManasClaude, Manas Skills, and Manas Framework.",
-    "source": "src/data/manasflow/ecosystem-catalogs.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-20T01:35:28+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00"
   },
   "/playbooks": {
     "title": "Playbooks — AI & Automation Guides",
     "description": "Step-by-step guides, frameworks and practical resources for AI engineering, coding, marketing and workflow automation with ManasFlow.",
     "source": "src/app/playbooks/page.tsx",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-20T01:35:28+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00"
   },
   "/privacy": {
     "title": "Privacy notice — draft",
     "description": "Explore privacy notice — draft with ManasFlow. Practical AI automation, engineering, and resources for your business.",
     "source": "src/app/privacy/page.tsx",
-    "modified": "2026-10-28T22:40:55+01:00",
-    "firstRecorded": "2026-10-28T22:40:55+01:00"
-  },
-  "/services": {
-    "title": "AI Services & Training",
-    "description": "Explore ManasFlow’s AI services: agent development, workflow automation, staff augmentation, AI strategy, training, and ongoing support.",
-    "source": "src/app/services/page.tsx",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-20T01:35:28+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00"
   },
   "/terms": {
     "title": "Website terms — draft",
     "description": "Explore website terms — draft with ManasFlow. Practical AI automation, engineering, and resources for your business.",
     "source": "src/app/terms/page.tsx",
-    "modified": "2026-10-28T22:40:55+01:00",
-    "firstRecorded": "2026-10-28T22:40:55+01:00"
-  },
-  "/tools": {
-    "title": "20 Free AI Automation Tools",
-    "description": "Free calculators, assessments, and generators from ManasFlow to help you make smarter AI decisions. No credit card required.",
-    "source": "src/app/tools/page.tsx",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-20T01:35:28+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00"
   },
   "/blog": {
-    "title": "AI Automation & n8n Workflow Blog",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "title": "AI Insights & Research",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation & n8n Workflow Blog. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Insights & Research. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/n8n-agency": {
     "title": "n8n automation agency: hire n8n developers who build and run your workflows",
@@ -21000,9 +20965,16 @@
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoDescription": "AI Model Pricing Index. Compare published AI model API pricing and estimate monthly token costs with ManasFlow."
   },
+  "/platform": {
+    "title": "Platform & Frameworks",
+    "description": "Explore ManasRank, ManasDesign, ManasN8N, ManasClaude, Manas Skills, and Manas Framework for AI search, design, automation, and software delivery.",
+    "source": "src/data/manasflow/products.ts",
+    "modified": "2026-10-28T22:40:55+01:00",
+    "firstRecorded": "2026-10-28T22:40:55+01:00"
+  },
   "/ai-tools": {
     "title": "AI Tools Directory",
-    "description": "Explore 346 AI tools across 75 categories, with searchable listings and practical implementation guidance from ManasFlow.",
+    "description": "Explore ManasFlow's AI tools directory by business function. Compare tools for coding, marketing, sales, support, design, data, and automation.",
     "source": "src/data/manasflow/ecosystem-catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00"
@@ -21028,413 +21000,441 @@
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00"
   },
+  "/": {
+    "title": "AI Transformation & Automation",
+    "description": "ManasFlow builds AI automations, agents, and SaaS. Explore our platform, frameworks, and free AI tools to streamline workflows and grow your business.",
+    "source": "src/app/page.tsx",
+    "modified": "2026-11-20T01:35:28+01:00",
+    "firstRecorded": "2026-03-24T15:26:49-05:00"
+  },
+  "/services": {
+    "title": "AI Automation & SaaS Services",
+    "description": "Build AI agents, automate workflows, and launch custom SaaS with ManasFlow. Explore engineering, CRM integrations, AI consulting, and ongoing support.",
+    "source": "src/data/manasflow/company-pages.json",
+    "modified": "2026-10-28T22:40:55+01:00",
+    "firstRecorded": "2026-10-28T22:40:55+01:00"
+  },
+  "/tools": {
+    "title": "Free AI Tools & Calculators",
+    "description": "Use ManasFlow's free AI tools, ROI calculators, readiness assessments, model comparisons, and pricing indexes to plan your next automation project.",
+    "source": "src/data/manasflow/tools.json",
+    "modified": "2026-10-28T22:40:55+01:00",
+    "firstRecorded": "2026-10-28T22:40:55+01:00"
+  },
+  "/contact": {
+    "title": "Book a Discovery Call",
+    "description": "Book a discovery call with ManasFlow to discuss AI automation, custom SaaS, and engineering. Share your goals and explore practical next steps.",
+    "source": "src/data/manasflow/company-pages.json",
+    "modified": "2026-10-28T22:40:55+01:00",
+    "firstRecorded": "2026-10-28T22:40:55+01:00"
+  },
   "/blog?page=2": {
     "title": "AI Automation Blog — Page 2",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 2. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 2. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=3": {
     "title": "AI Automation Blog — Page 3",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 3. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 3. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=4": {
     "title": "AI Automation Blog — Page 4",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 4. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 4. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=5": {
     "title": "AI Automation Blog — Page 5",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 5. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 5. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=6": {
     "title": "AI Automation Blog — Page 6",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 6. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 6. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=7": {
     "title": "AI Automation Blog — Page 7",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 7. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 7. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=8": {
     "title": "AI Automation Blog — Page 8",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 8. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 8. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=9": {
     "title": "AI Automation Blog — Page 9",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 9. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 9. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=10": {
     "title": "AI Automation Blog — Page 10",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 10. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 10. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=11": {
     "title": "AI Automation Blog — Page 11",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 11. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 11. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=12": {
     "title": "AI Automation Blog — Page 12",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 12. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 12. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=13": {
     "title": "AI Automation Blog — Page 13",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 13. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 13. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=14": {
     "title": "AI Automation Blog — Page 14",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 14. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 14. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=15": {
     "title": "AI Automation Blog — Page 15",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 15. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 15. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=16": {
     "title": "AI Automation Blog — Page 16",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 16. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 16. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=17": {
     "title": "AI Automation Blog — Page 17",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 17. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 17. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=18": {
     "title": "AI Automation Blog — Page 18",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 18. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 18. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=19": {
     "title": "AI Automation Blog — Page 19",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 19. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 19. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=20": {
     "title": "AI Automation Blog — Page 20",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 20. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 20. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=21": {
     "title": "AI Automation Blog — Page 21",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 21. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 21. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=22": {
     "title": "AI Automation Blog — Page 22",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 22. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 22. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=23": {
     "title": "AI Automation Blog — Page 23",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 23. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 23. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=24": {
     "title": "AI Automation Blog — Page 24",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 24. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 24. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=25": {
     "title": "AI Automation Blog — Page 25",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 25. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 25. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=26": {
     "title": "AI Automation Blog — Page 26",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 26. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 26. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=27": {
     "title": "AI Automation Blog — Page 27",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 27. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 27. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=28": {
     "title": "AI Automation Blog — Page 28",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 28. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 28. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=29": {
     "title": "AI Automation Blog — Page 29",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 29. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 29. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=30": {
     "title": "AI Automation Blog — Page 30",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 30. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 30. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=31": {
     "title": "AI Automation Blog — Page 31",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 31. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 31. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=32": {
     "title": "AI Automation Blog — Page 32",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 32. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 32. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=33": {
     "title": "AI Automation Blog — Page 33",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 33. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 33. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=34": {
     "title": "AI Automation Blog — Page 34",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 34. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 34. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=35": {
     "title": "AI Automation Blog — Page 35",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 35. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 35. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=36": {
     "title": "AI Automation Blog — Page 36",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 36. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 36. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=37": {
     "title": "AI Automation Blog — Page 37",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 37. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 37. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=38": {
     "title": "AI Automation Blog — Page 38",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 38. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 38. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=39": {
     "title": "AI Automation Blog — Page 39",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 39. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 39. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=40": {
     "title": "AI Automation Blog — Page 40",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 40. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 40. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=41": {
     "title": "AI Automation Blog — Page 41",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 41. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 41. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=42": {
     "title": "AI Automation Blog — Page 42",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 42. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 42. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=43": {
     "title": "AI Automation Blog — Page 43",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 43. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 43. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=44": {
     "title": "AI Automation Blog — Page 44",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 44. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 44. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=45": {
     "title": "AI Automation Blog — Page 45",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 45. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 45. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=46": {
     "title": "AI Automation Blog — Page 46",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 46. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 46. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=47": {
     "title": "AI Automation Blog — Page 47",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 47. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 47. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=48": {
     "title": "AI Automation Blog — Page 48",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 48. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 48. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=49": {
     "title": "AI Automation Blog — Page 49",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 49. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 49. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=50": {
     "title": "AI Automation Blog — Page 50",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 50. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 50. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=51": {
     "title": "AI Automation Blog — Page 51",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 51. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 51. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/blog?page=52": {
     "title": "AI Automation Blog — Page 52",
-    "description": "Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team.",
+    "description": "Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems.",
     "source": "src/data/manasflow/catalogs.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoDescription": "AI Automation Blog — Page 52. Insights, tutorials and practical guides on AI automation, n8n workflows and intelligent agents from the ManasFlow team."
+    "seoDescription": "AI Automation Blog — Page 52. Read ManasFlow's research, practical guides, and insights on AI agents, workflow automation, SaaS development, model comparisons, and production systems."
   },
   "/directory?page=2": {
     "title": "Free AI Model Directory — Page 2",

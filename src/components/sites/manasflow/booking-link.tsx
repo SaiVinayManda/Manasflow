@@ -65,7 +65,7 @@ export function ActionLink({ href, children, ...props }: AnchorProps & { href: s
 
 export function BookingCard({ id }: { id: string }) {
   return <div className="lower-strategy-card" id={id}>
-    <div className="lower-strategy-owner"><span className="lower-owner-icon"><Workflow size={25} aria-hidden="true" /></span><div><strong>ManasFlow Automation Team</strong><a href="mailto:info@manasflow.com">info@manasflow.com</a></div></div>
+    <div className="lower-strategy-owner" data-nosnippet=""><span className="lower-owner-icon"><Workflow size={25} aria-hidden="true" /></span><div><strong>ManasFlow Automation Team</strong><a href="mailto:info@manasflow.com">info@manasflow.com</a></div></div>
     <h3>Choose your time</h3>
     <p className="lower-call-intro">Book your free 30-minute strategy call. Choose an available date and time in your timezone.</p>
     <div className="lower-strategy-form"><BookingLink className="mf-button"><Calendar size={18} aria-hidden="true" />Book a Free Strategy Call<ArrowRight size={16} aria-hidden="true" /></BookingLink><p className="lower-email-handoff">Your calendar opens here. You can also <a href={CAL_BOOKING_URL}>open the booking page</a> or <a href="mailto:info@manasflow.com">email us</a>.</p></div>

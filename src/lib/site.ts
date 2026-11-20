@@ -1,11 +1,12 @@
+import hubs from "@/data/manasflow/hub-metadata.json";
+
 export const site = {
   name: "ManasFlow",
   url: "https://manasflow.com",
   email: "info@manasflow.com",
   registeredLocation: "Milan, Italy",
   workingLocation: "Remote-first across Europe",
-  description:
-    "Scale your business with ManasFlow. AI agents, custom workflow automation, and forward-deployed engineering that take repetitive work off your team's plate. Book a free strategy call.",
+  description: hubs["/"].description,
   legalUpdated: "17 October 2026",
 } as const;
 

@@ -83,7 +83,7 @@ export function pageGraph(route: string) {
   const graph: SchemaNode[] = [
     { "@type": "Organization", "@id": organizationId, name: site.name, url: site.url, logo: `${site.url}/logo.svg`, email: site.email,
       description: site.description, knowsAbout: ["AI Automation", "n8n", "Claude Code", "LLM Agents", "SaaS Engineering"] },
-    { "@type": "WebSite", "@id": `${site.url}/#website`, url: site.url, name: site.name, publisher: { "@id": organizationId } },
+    { "@type": "WebSite", "@id": `${site.url}/#website`, url: site.url, name: site.name, alternateName: "manasflow.com", publisher: { "@id": organizationId } },
     ...PRIMARY_NAVIGATION.map(link => ({ "@type": "SiteNavigationElement", "@id": `${site.url}/#nav-${link.href.slice(1)}`, name: link.label, url: absoluteUrl(link.href), isPartOf: { "@id": `${site.url}/#website` } })),
     { "@type": "WebPage", "@id": pageId, url, name: page.title, description: page.description, isPartOf: { "@id": `${site.url}/#website` }, publisher: { "@id": organizationId },
       ...(crumbs.length ? { breadcrumb: { "@id": `${url}#breadcrumb` } } : {}),

@@ -8,6 +8,13 @@
 .mf-header [hidden] { display: none !important; }
 .seo-nojs-navigation, .seo-site-sections { display: flex; flex-wrap: wrap; gap: 12px 24px; padding-block: 20px; font-size: 14px; }
 .seo-nojs-navigation { background: var(--background); padding-inline: 16px; }
+.seo-hub-navigation ul { display: flex; align-items: center; gap: 12px 24px; list-style: none; font-size: 12px; }
+.seo-hub-navigation a { display: block; white-space: nowrap; padding-block: 10px; }
+.seo-hub-navigation a:hover { color: var(--primary-purple); }
+.seo-hub-navigation a:focus-visible { outline: 2px solid var(--primary-purple); outline-offset: 2px; }
+.seo-hub-navigation-header { background: var(--background); border-bottom: 1px solid var(--border); overflow-x: auto; }
+.seo-hub-navigation-header ul { min-height: 44px; width: max-content; min-width: min(100%, 1280px); }
+.seo-hub-navigation-footer ul { flex-wrap: wrap; padding-block: 20px; font-size: 14px; }
 
 .mf-nav-bar {
   padding: 16px;

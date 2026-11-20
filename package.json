@@ -18,6 +18,7 @@
     "node": ">=24"
   },
   "scripts": {
+    "icons:generate": "node scripts/generate-favicons.mjs",
     "seo:generate": "node scripts/generate-seo-content.mjs",
     "seo:validate": "node scripts/validate-seo.mjs",
     "seo:validate-rendered": "node scripts/validate-rendered-seo.mjs",
