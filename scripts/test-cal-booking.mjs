@@ -56,6 +56,8 @@ async function harness({ deferred = false, rejected = false } = {}) {
   mocks["@/lib/booking"] = booking;
   const provider = await load("src/components/sites/manasflow/cal-provider.tsx");
   mocks["./cal-provider"] = provider;
+  mocks["@/lib/contact"] = await load("src/lib/contact.ts");
+  mocks["./whatsapp-contact"] = await load("src/components/sites/manasflow/whatsapp-contact.tsx");
   const links = await load("src/components/sites/manasflow/booking-link.tsx");
   return {
     booking, provider, links, sdkCalls, timers, navigations,

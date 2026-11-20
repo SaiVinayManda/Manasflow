@@ -13,6 +13,8 @@ import {
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Badge, Reveal, SiteImage } from "./shared";
+import { WhatsAppLink } from "./whatsapp-contact";
+import { WHATSAPP_DISPLAY_PHONE } from "@/lib/contact";
 import { agencyLinks, crmLinks, freeToolLinks as freeTools, productLinks, resourceGroups, serviceGroups, serviceLinks, solutionLinks as solutions } from "@/data/manasflow/navigation";
 import "./chrome.css";
 
@@ -164,6 +166,7 @@ export function Footer({ navigation }: { navigation?: ReactNode }) {
           <Logo footer />
           <p className="mf-footer-minilabel">Connect with us</p>
           <Link className="mf-connect-email" href="mailto:info@manasflow.com"><Mail size={22} /><span>Email ManasFlow</span></Link>
+          <WhatsAppLink className="mf-footer-whatsapp">WhatsApp Us</WhatsAppLink>
           <p className="mf-footer-minilabel">Explore AI Resources</p>
           <div className="mf-ai-summaries">{summaries.map(([label, name, href]) => <Link key={label} href={href}><SiteImage name={name} /><span>{label}</span></Link>)}</div>
         </FooterColumn>
@@ -194,6 +197,7 @@ export function Footer({ navigation }: { navigation?: ReactNode }) {
           <Link className="mf-company-contact" href="/consultation"><span><Workflow size={25} /></span><div><strong>ManasFlow</strong><small>AI &amp; Automation</small></div><ArrowUpRight size={16} /></Link>
           <Link className="mf-company-contact" href="/contact"><span><Network size={25} /></span><div><strong>Let’s build together</strong><small>One connected platform</small></div></Link>
           <Link className="mf-footer-email" href="mailto:info@manasflow.com"><Mail size={17} />info@manasflow.com</Link>
+          <WhatsAppLink className="mf-footer-whatsapp">{WHATSAPP_DISPLAY_PHONE}</WhatsAppLink>
         </FooterColumn>
       </div>
     </nav>

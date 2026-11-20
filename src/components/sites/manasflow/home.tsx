@@ -157,7 +157,7 @@ function BuiltToShip() {
       ["Month one fully refundable", "If month one does not land, you get it back. No conversation needed.", "money-refund.webp"],
       ["One human, many agents", "Co-engineer with a bench of subagents. The multiplier is the stack, not the seniority.", "many-agents.svg"],
     ].map(([title,description,image],index) => <Reveal className="model-row" key={title}><span>0{index + 1}</span><div><h4>{title}</h4><p>{description}</p></div><SiteImage name={image} alt={title} /></Reveal>)}</div>
-    <Reveal className="fix-callout"><div><h3>Fix what’s slowing you down.</h3><p>Tell us the workflow that hurts. We embed an engineer, ship a whole product, refund the first month if it does not land.</p></div><Link href="/contact">Book a 15-min call <ArrowUpRight size={20} /></Link></Reveal>
+    <Reveal className="fix-callout"><div><h3>Fix what’s slowing you down.</h3><p>Tell us the workflow that hurts. We embed an engineer, ship a whole product, refund the first month if it does not land.</p></div><Link href="/contact" withWhatsApp>Book a 15-min call <ArrowUpRight size={20} /></Link></Reveal>
   </div></section>;
 }
 

@@ -1,0 +1,7 @@
+.mf-tool-funnel{border:1px solid #8082c14d;background:#8082c10d;padding:24px;margin-block:24px;display:grid;gap:12px}
+.mf-tool-funnel>span{font-size:14px;color:var(--primary-purple)}
+.mf-tool-funnel>strong{font-size:20px;line-height:1.4;font-weight:500;color:var(--foreground)}
+.mf-tool-funnel>p{font-size:16px;line-height:1.7;color:var(--muted-foreground);margin:0}
+.mf-tool-funnel>a{font-size:16px;line-height:1.6;color:var(--primary-purple);text-decoration:underline;text-underline-offset:4px;padding-block:6px;min-height:44px}
+.mf-tool-funnel>a:hover{color:var(--foreground)}
+.mf-tool-funnel>a:focus-visible{outline:2px solid var(--primary-purple);outline-offset:4px}

@@ -10,6 +10,7 @@ import { PRODUCT_PAGES } from "@/data/manasflow/products";
 import { getInteractiveTool } from "./interactive-tool-data";
 import { canonicalRoute, NOINDEX_ROUTES, PRIMARY_NAVIGATION } from "./seo-routes";
 import { site } from "./site";
+import { WHATSAPP_PHONE, WHATSAPP_PROFILE_URL } from "./contact";
 
 export type SeoContent = {
   title: string; description: string; source: string; seoTitle?: string; seoDescription?: string;
@@ -82,6 +83,8 @@ export function pageGraph(route: string) {
   const pageId = `${url}#webpage`;
   const graph: SchemaNode[] = [
     { "@type": "Organization", "@id": organizationId, name: site.name, url: site.url, logo: `${site.url}/logo.svg`, email: site.email,
+      telephone: WHATSAPP_PHONE, sameAs: [WHATSAPP_PROFILE_URL],
+      contactPoint: [{ "@type": "ContactPoint", contactType: "project enquiries", telephone: WHATSAPP_PHONE, url: WHATSAPP_PROFILE_URL }],
       description: site.description, knowsAbout: ["AI Automation", "n8n", "Claude Code", "LLM Agents", "SaaS Engineering"] },
     { "@type": "WebSite", "@id": `${site.url}/#website`, url: site.url, name: site.name, alternateName: "manasflow.com", publisher: { "@id": organizationId } },
     ...PRIMARY_NAVIGATION.map(link => ({ "@type": "SiteNavigationElement", "@id": `${site.url}/#nav-${link.href.slice(1)}`, name: link.label, url: absoluteUrl(link.href), isPartOf: { "@id": `${site.url}/#website` } })),

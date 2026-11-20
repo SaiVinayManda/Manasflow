@@ -43,7 +43,7 @@ export function SectionHeading({ badge, title, description, centered = true }: {
 
 export function CallButton({ children = "Book a Call", secondary = false, href, className = "" }: { children?: ReactNode; secondary?: boolean; href?: string; className?: string }) {
   const classes = `mf-button ${secondary ? "mf-button-secondary" : ""} ${className}`;
-  if (isBookingDestination(href, true)) return <BookingLink className={classes}>{children}<ArrowDownRight size={20} /></BookingLink>;
+  if (isBookingDestination(href, true)) return <BookingLink className={classes} withWhatsApp>{children}<ArrowDownRight size={20} /></BookingLink>;
   return <a href={href} className={classes}>{children}<ArrowDownRight size={20} /></a>;
 }
 

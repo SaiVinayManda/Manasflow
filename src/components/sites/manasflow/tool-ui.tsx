@@ -5,6 +5,7 @@ import type { ReactNode } from "react";
 import { ArrowRight, Check, Copy, Download, RotateCcw } from "lucide-react";
 import type { Metric } from "@/lib/tool-calculations";
 import type { NumberField } from "@/lib/calculator-config";
+import { ToolImplementationCta } from "./tool-product-actions";
 
 export function money(value: number, decimals = 0) {
   return new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: decimals }).format(value);
@@ -55,5 +56,5 @@ export function ResultActions({ text, filename = "manasflow-results" }: { text: 
     link.href = url; link.download = `${filename}.txt`; link.click();
     URL.revokeObjectURL(url);
   };
-  return <div className="it-result-actions"><button type="button" className="it-secondary" onClick={copy}>{message === "Copied" ? <Check size={15} /> : <Copy size={15} />}Copy results</button><button type="button" className="it-secondary" onClick={download}><Download size={15} />Download results</button><span role="status">{message}</span></div>;
+  return <><div className="it-result-actions"><button type="button" className="it-secondary" onClick={copy}>{message === "Copied" ? <Check size={15} /> : <Copy size={15} />}Copy results</button><button type="button" className="it-secondary" onClick={download}><Download size={15} />Download results</button><span role="status">{message}</span></div><ToolImplementationCta /></>;
 }

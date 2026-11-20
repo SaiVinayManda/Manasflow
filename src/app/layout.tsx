@@ -4,7 +4,9 @@ import { Header, Footer } from "@/components/sites/manasflow/chrome";
 import { site } from "@/lib/site";
 import { CalProvider } from "@/components/sites/manasflow/cal-provider";
 import { HubNavigation } from "@/components/seo/hub-navigation";
+import { FloatingWhatsApp } from "@/components/sites/manasflow/whatsapp-contact";
 import "./globals.css";
+import "@/components/sites/manasflow/whatsapp-contact.css";
 
 const lexend = localFont({
   src: "../../public/sites/manasflow/fonts/793968fa3513f5d6-s.p.woff2",
@@ -58,6 +60,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <Header navigation={<HubNavigation placement="header" />} />
       <main id="main">{children}</main>
       <div data-nosnippet=""><Footer navigation={<HubNavigation placement="footer" />} /></div>
+      <FloatingWhatsApp />
     </body>
   </html>;
 }

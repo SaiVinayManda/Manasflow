@@ -1,0 +1,12 @@
+.mf-tool-share { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-block: 20px; min-width: 0; }
+.mf-tool-share button,.mf-tool-booking { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 44px; padding: 11px 16px; font-size: 14px; font-weight: 500; line-height: 1.5; border: 1px solid var(--border-strong,#ffffff30); background: var(--card); color: var(--foreground); }
+.mf-tool-share button:hover,.mf-tool-booking:hover { border-color: var(--primary-purple); background: #8082c11a; }
+.mf-tool-share button:focus-visible,.mf-tool-booking:focus-visible { outline: 2px solid var(--primary-purple); outline-offset: 4px; }
+.mf-tool-share>span { font-size: 14px; color: var(--muted-foreground); }
+.mf-tool-share>input { flex-basis: 100%; min-width: 0; padding: 12px; background: var(--background); color: var(--foreground); border: 1px solid var(--border); font-size: 14px; }
+.mf-tool-implementation { display: flex; flex-direction: column; align-items: flex-start; gap: 20px; border: 1px solid #8082c140; background: #8082c10a; padding: 24px; margin-block: 24px; }
+.mf-tool-implementation>div>span { font-size: 14px; color: var(--primary-purple); }
+.mf-tool-implementation>div>h3 { font-size: 20px; line-height: 1.4; font-weight: 500; margin: 8px 0; }
+.mf-tool-implementation>div>p { max-width: 680px; font-size: 16px; line-height: 1.7; color: var(--muted-foreground); }
+.mf-tool-booking { flex-shrink: 0; border-color: #8082c170; background: #8082c118; }
+@media(max-width:480px) { .mf-tool-booking { width: 100%; } }

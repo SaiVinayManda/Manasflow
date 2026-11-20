@@ -11,5 +11,5 @@ export function SubpageHero({ badge, title, description, children }: { badge: st
 }
 
 export function PageCallout({ title = "Ready to transform your business?", description = "Let’s turn your next automation opportunity into a system that works.", label = "Book a Free Strategy Call", href = "/contact" }: { title?: string; description?: string; label?: string; href?: string }) {
-  return <section className="mf-subpage-callout"><div className="mf-container"><Reveal><h2>{title}</h2><p>{description}</p><Link href={href}>{label}<ArrowUpRight size={20} /></Link></Reveal></div></section>;
+  return <section className="mf-subpage-callout"><div className="mf-container"><Reveal><h2>{title}</h2><p>{description}</p><Link href={href} withWhatsApp>{label}<ArrowUpRight size={20} /></Link></Reveal></div></section>;
 }
