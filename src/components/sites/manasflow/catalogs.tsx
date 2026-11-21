@@ -263,7 +263,7 @@ function CatalogEmpty({
   query: string;
 }) {
   return (
-    <div className="mf-catalog-empty" role="status">
+    <div className="mf-catalog-empty" role="status" data-nosnippet="">
       {type === "Playbooks" && (
         <span>
           <BookOpen size={32} />

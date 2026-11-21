@@ -26,7 +26,7 @@ export function Newsletter({ compact = false, formOnly = false, headingLevel = 3
         <input id={emailId} type="email" autoComplete="email" value={email} onChange={(event) => { setEmail(event.target.value); setPrepared(false); }} placeholder={compact ? "Enter your email" : "you@company.com"} required />
         <button type="submit" aria-label="Prepare newsletter request">{compact ? <ArrowRight size={16} /> : <>Get the teardowns<ArrowUpRight size={16} /></>}</button>
       </div>
-      <small role="status">{prepared ? "Your email app has been opened with your request. Send it to join the brief." : "Prepare a subscription request in your email app."}</small>
+      <small role="status" data-nosnippet="">{prepared ? "Your email app has been opened with your request. Send it to join the brief." : "Prepare a subscription request in your email app."}</small>
     </form>
   </div>;
 }

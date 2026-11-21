@@ -7,8 +7,10 @@ import models from "@/data/manasflow/models.json";
 import homeFaqs from "@/data/manasflow/home-faqs.json";
 import skillsFaqs from "@/data/manasflow/skills-faqs.json";
 import { PRODUCT_PAGES } from "@/data/manasflow/products";
+import { productLinks } from "@/data/manasflow/navigation";
+import hubs from "@/data/manasflow/hub-metadata.json";
 import { getInteractiveTool } from "./interactive-tool-data";
-import { canonicalRoute, NOINDEX_ROUTES, PRIMARY_NAVIGATION } from "./seo-routes";
+import { canonicalRoute, NOINDEX_ROUTES } from "./seo-routes";
 import { site } from "./site";
 import { WHATSAPP_PHONE, WHATSAPP_PROFILE_URL } from "./contact";
 
@@ -52,8 +54,6 @@ export function pageFaqs(route: string): { question: string; answer: string }[] 
   route = route.split("?")[0];
   if (route === "/") return homeFaqs;
   if (route === "/skills") return skillsFaqs;
-  if (route === "/") return homeFaqs;
-  if (route === "/skills") return skillsFaqs;
   const service = services.find(page => `/${page.slug}` === route);
   if (service) return service.faqs;
   const product = PRODUCT_PAGES.find(page => `/${page.slug}` === route);
@@ -74,6 +74,13 @@ export function pageFaqs(route: string): { question: string; answer: string }[] 
 }
 
 const organizationId = `${site.url}/#organization`;
+// These are the existing hero strings. Rendered validation guards against drift
+// without changing the model directory's header or visible content.
+const modelApplications: Record<string, { name: string; description: string }> = {
+  "/directory": { name: "Free AI Models", description: "Explore free API tiers, open-weight models, and no-signup tools. Filter by provider, modality, and access to find the right starting point." },
+  "/ai-model-comparison": { name: "AI Model Comparison", description: "Compare model context windows, published API prices, and workloads. Shortlist up to three models and review them side by side." },
+  "/ai-model-pricing-index": { name: "AI Model Pricing Index", description: "Published input and output pricing in one place. Estimate your monthly token costs and compare providers for your actual workload." },
+};
 export function pageGraph(route: string) {
   route = canonicalRoute(route);
   const page = seoContent[route];
@@ -87,7 +94,7 @@ export function pageGraph(route: string) {
       contactPoint: [{ "@type": "ContactPoint", contactType: "project enquiries", telephone: WHATSAPP_PHONE, url: WHATSAPP_PROFILE_URL }],
       description: site.description, knowsAbout: ["AI Automation", "n8n", "Claude Code", "LLM Agents", "SaaS Engineering"] },
     { "@type": "WebSite", "@id": `${site.url}/#website`, url: site.url, name: site.name, alternateName: "manasflow.com", publisher: { "@id": organizationId } },
-    ...PRIMARY_NAVIGATION.map(link => ({ "@type": "SiteNavigationElement", "@id": `${site.url}/#nav-${link.href.slice(1)}`, name: link.label, url: absoluteUrl(link.href), isPartOf: { "@id": `${site.url}/#website` } })),
+    ...Object.entries(hubs).flatMap(([href, hub]) => "label" in hub ? [{ "@type": "SiteNavigationElement", "@id": `${site.url}/#nav-${href.slice(1)}`, name: hub.label, url: absoluteUrl(href), isPartOf: { "@id": `${site.url}/#website` } }] : []),
     { "@type": "WebPage", "@id": pageId, url, name: page.title, description: page.description, isPartOf: { "@id": `${site.url}/#website` }, publisher: { "@id": organizationId },
       ...(crumbs.length ? { breadcrumb: { "@id": `${url}#breadcrumb` } } : {}),
       ...(page.modified ? { dateModified: page.modified } : {}) },
@@ -95,8 +102,29 @@ export function pageGraph(route: string) {
   if (crumbs.length) graph.push({ "@type": "BreadcrumbList", "@id": `${url}#breadcrumb`, itemListElement: crumbs.map((crumb, i) => ({ "@type": "ListItem", position: i + 1, name: crumb.name, item: absoluteUrl(crumb.route) })) });
   const service = services.find(page => `/${page.slug}` === route);
   if (service) graph.push({ "@type": "Service", "@id": `${url}#service`, url, name: service.badge, description: service.intro, serviceType: service.badge, areaServed: "Worldwide", provider: { "@id": organizationId }, mainEntityOfPage: { "@id": pageId } });
-  if (PRODUCT_PAGES.some(page => `/${page.slug}` === route) || getInteractiveTool(route.slice(1)) || ["/directory", "/ai-model-comparison", "/ai-model-pricing-index"].includes(route.split("?")[0])) {
-    graph.push({ "@type": "WebApplication", "@id": `${url}#application`, name: page.title, url, description: page.description, applicationCategory: "BusinessApplication", operatingSystem: "Web", publisher: { "@id": organizationId }, offers: { "@type": "Offer", price: "0", priceCurrency: "USD" }, mainEntityOfPage: { "@id": pageId } });
+  const product = PRODUCT_PAGES.find(page => `/${page.slug}` === route);
+  const interactiveTool = getInteractiveTool(route.slice(1));
+  const modelApplication = modelApplications[route.split("?")[0]];
+  if (product || interactiveTool || modelApplication) {
+    const applicationUrl = modelApplication ? absoluteUrl(route.split("?")[0]) : url;
+    graph.push({ "@type": "WebApplication", "@id": `${applicationUrl}#application`, name: product?.name || interactiveTool?.title || modelApplication.name, url: applicationUrl, description: product?.description || interactiveTool?.description || modelApplication.description, applicationCategory: "BusinessApplication", operatingSystem: "Web", publisher: { "@id": organizationId }, offers: { "@type": "Offer", price: "0", priceCurrency: "USD" }, mainEntityOfPage: { "@id": pageId } });
+  }
+  if (modelApplication) {
+    const free = route.startsWith("/directory");
+    const pricing = route.startsWith("/ai-model-pricing-index");
+    const pageNumber = Number(new URL(url).searchParams.get("page") || 1);
+    const entries = free
+      ? [...models.freeModels].sort((a, b) => b.votes - a.votes).map(model => ({ name: model.name, route: `/free-models/${model.slug}` }))
+      : [...models.models].sort((a, b) => pricing ? (a.inputPricePerMTok ?? Infinity) * 10 + (a.outputPricePerMTok ?? Infinity) * 2 - ((b.inputPricePerMTok ?? Infinity) * 10 + (b.outputPricePerMTok ?? Infinity) * 2) : b.releaseDate.localeCompare(a.releaseDate)).map(model => ({ name: model.name, route: `/models/${model.slug}` }));
+    const visible = entries.slice((pageNumber - 1) * 12, pageNumber * 12);
+    graph.push({ "@type": "ItemList", "@id": `${url}#models`, numberOfItems: visible.length, itemListElement: visible.map((model, index) => ({ "@type": "ListItem", position: index + 1, name: model.name, url: absoluteUrl(model.route) })) });
+    const webpage = graph.find(node => node["@id"] === pageId);
+    if (webpage) { webpage["@type"] = "CollectionPage"; webpage.mainEntity = { "@id": `${url}#models` }; webpage.hasPart = { "@id": `${absoluteUrl(route.split("?")[0])}#application` }; }
+  }
+  if (route === "/platform") {
+    graph.push({ "@type": "ItemList", "@id": `${url}#products`, numberOfItems: productLinks.length, itemListElement: productLinks.map((link, index) => ({ "@type": "ListItem", position: index + 1, name: link.label, url: absoluteUrl(link.href) })) });
+    const webpage = graph.find(node => node["@id"] === pageId);
+    if (webpage) { webpage["@type"] = "CollectionPage"; webpage.name = "Our Platform"; webpage.mainEntity = { "@id": `${url}#products` }; }
   }
   const category = ecosystem.categories.find(item => `/ai-tools/category/${item.slug}` === route);
   if (route === "/ai-tools" || category) {
@@ -104,6 +132,14 @@ export function pageGraph(route: string) {
     graph.push({ "@type": "ItemList", "@id": `${url}#tools`, numberOfItems: tools.length, itemListElement: tools.map((tool, i) => ({ "@type": "ListItem", position: i + 1, name: tool.name, url: absoluteUrl(tool.route) })) });
     const webpage = graph.find(node => node["@id"] === pageId);
     if (webpage) { webpage["@type"] = "CollectionPage"; webpage.mainEntity = { "@id": `${url}#tools` }; }
+  }
+  const directoryTool = ecosystem.tools.find(tool => tool.route === route);
+  if (directoryTool) {
+    const related = ecosystem.tools.filter(tool => tool.route !== route && tool.categories.some(value => directoryTool.categories.includes(value))).slice(0, 6);
+    graph.push({ "@type": "SoftwareApplication", "@id": `${url}#tool`, name: directoryTool.name, description: directoryTool.description, ...(directoryTool.website ? { url: directoryTool.website } : {}), mainEntityOfPage: { "@id": pageId } });
+    graph.push({ "@type": "ItemList", "@id": `${url}#related-tools`, numberOfItems: related.length, itemListElement: related.map((tool, index) => ({ "@type": "ListItem", position: index + 1, name: tool.name, url: absoluteUrl(tool.route) })) });
+    const webpage = graph.find(node => node["@id"] === pageId);
+    if (webpage) { webpage["@type"] = "CollectionPage"; webpage.mainEntity = { "@id": `${url}#tool` }; webpage.hasPart = { "@id": `${url}#related-tools` }; }
   }
   if (/^\/(blog|playbooks|resources)\//.test(route) && page.source.includes("/details/")) {
     graph.push({ "@type": route.startsWith("/blog/") ? "Article" : "TechArticle", "@id": `${url}#article`, headline: page.title, description: page.description, url,

@@ -34,7 +34,7 @@ function ResourceCard({ resource, productName }: { resource: ProductResource; pr
       <button type="button" onClick={() => downloadBrief(`${productName}-${resource.title}`, brief)}><Download size={15} />Download</button>
       <Link href={resource.href} aria-label={`Explore ${resource.title}`}><ArrowUpRight size={17} /></Link>
     </div>
-    {copyFailed && <small role="status">Copy is unavailable in this browser. Use Download to save the brief.</small>}
+    {copyFailed && <small role="status" data-nosnippet="">Copy is unavailable in this browser. Use Download to save the brief.</small>}
   </article>;
 }
 
@@ -48,7 +48,7 @@ function ResourceLibrary({ product }: { product: ProductPageData }) {
     <div className="mf-product-search"><Search size={19} /><label className="mf-sr-only" htmlFor={searchId}>Search {product.name} resources</label><input id={searchId} type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder="Search by task, tool, or topic..." /><span aria-live="polite">{filtered.length} resources</span></div>
     <div className="mf-product-filters" aria-label="Resource categories">{categories.map(label => <button key={label} type="button" aria-pressed={category === label} onClick={() => setCategory(label)}>{label}</button>)}</div>
     <div className="mf-product-resources">{filtered.map(resource => <ResourceCard key={resource.title} resource={resource} productName={product.name} />)}</div>
-    {filtered.length === 0 && <p className="mf-product-empty" role="status">No resources match that search. Try a broader term or choose another category.</p>}
+    {filtered.length === 0 && <p className="mf-product-empty" role="status" data-nosnippet="">No resources match that search. Try a broader term or choose another category.</p>}
   </div>;
 }
 

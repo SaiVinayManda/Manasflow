@@ -46,11 +46,13 @@ function check(route, html) {
   titles.set(title, route);
   assert.ok(/<meta name="description" content="[^"]+"/.test(head), "Missing description");
   const description = decode(head.match(/<meta name="description" content="([^"]+)"/)?.[1] || "");
+  assert.ok(title.length < 60, `Title exceeds requested limit: ${title.length}`);
+  assert.ok(description.length >= (route === "/" ? 145 : 125) && description.length <= 155, `Description outside requested length: ${description.length}`);
   assert.ok(!descriptions.has(description), `Duplicate rendered description also on ${descriptions.get(description)}`);
   descriptions.set(description, route);
   if (hubMetadata[route]) {
     assert.ok(title.length < 60, `Hub title exceeds limit: ${title.length}`);
-    assert.ok(description.length >= (route === "/" ? 145 : 120) && description.length <= 155, `Hub description outside requested length: ${description.length}`);
+    assert.ok(description.length >= (route === "/" ? 145 : 125) && description.length <= 155, `Hub description outside requested length: ${description.length}`);
     assert.equal(description, hubMetadata[route].description);
   }
   for (const href of ["/favicon.ico", "/favicon-48x48.png", "/favicon-96x96.png", "/apple-touch-icon.png", "/logo.svg"]) {
@@ -72,8 +74,30 @@ function check(route, html) {
   const website = graph["@graph"].find(node => node["@type"] === "WebSite");
   assert.equal(website.name, "ManasFlow");
   assert.equal(website.alternateName, "manasflow.com");
+  const organization = graph["@graph"].find(node => node["@type"] === "Organization");
+  assert.equal(organization["@id"], "https://manasflow.com/#organization");
+  assert.equal(organization.name, "ManasFlow");
+  assert.equal(organization.logo, "https://manasflow.com/logo.svg");
+  assert.equal(organization.email, "info@manasflow.com");
+  assert.equal(website.publisher["@id"], organization["@id"]);
   schemaCount += graph["@graph"].length;
   const text = plain(main.replace(/<script\b[\s\S]*?<\/script>/g, "").replace(/<svg\b[\s\S]*?<\/svg>/g, ""));
+  for (const node of graph["@graph"]) {
+    if (["Article", "TechArticle"].includes(node["@type"])) assert.ok(text.includes(node.headline), `Article headline differs from visible copy: ${node.headline}`);
+    if (node["@type"] === "Service" || node["@type"] === "WebApplication" || node["@type"] === "SoftwareApplication") {
+      assert.ok(text.includes(node.name), `Schema name absent from SSR: ${node.name}`);
+      assert.ok(text.includes(node.description), `Schema description differs from SSR: ${node.name}`);
+    }
+    if (node["@type"] === "ItemList") for (const item of node.itemListElement) {
+      assert.ok(text.includes(item.name), `Listed item absent from SSR: ${item.name}`);
+      assert.ok(main.includes(`href="${new URL(item.url).pathname}"`), `Listed item URL absent from SSR: ${item.url}`);
+    }
+  }
+  if (route === "/") {
+    for (const href of ["/services", "/platform", "/tools", "/ai-tools", "/blog"]) assert.ok(main.includes(`href="${href}"`), `Missing homepage hub link: ${href}`);
+    assert.ok(/<a[^>]*class="skip-link"[^>]*data-nosnippet/.test(html), "Skip link must exclude snippets");
+    for (const clone of main.matchAll(/<div\b[^>]*class="mf-tools-group"[^>]*aria-hidden="true"[^>]*>/g)) assert.ok(clone[0].includes("data-nosnippet"), "Marquee clone must exclude snippets");
+  }
   const crumbs = pageBreadcrumbs(route);
   if (crumbs.length) {
     assert.ok(/aria-label="Breadcrumb"/.test(main), "Missing visible breadcrumb navigation");
@@ -140,7 +164,18 @@ for (const route of ["/llms.txt", "/llms-full.txt"]) {
   assert.equal(response.status, 200);
   assert.ok(response.headers.get("content-type").includes("text/plain"));
   assert.ok(text.startsWith("# ManasFlow\n"));
-  for (const section of ["Core Services", "Platform & Frameworks", "Free AI Tools", "AI Tools Directory", "Playbooks & Research"]) assert.ok(text.includes(`## ${section}`));
+  assert.ok(/^> .+/m.test(text), "Missing llms blockquote summary");
+  for (const section of ["Core Services", "Platform & Frameworks", "Free AI Tools", "AI Tools Directory", "Playbooks & Insights"]) assert.ok(text.includes(`## ${section}`));
+  assert.ok(text.includes("https://manasflow.com/platform"));
+  assert.ok(text.includes("https://manasflow.com/roi-calculator"));
+  for (const page of indexableRoutes().filter(page => !page.includes("?"))) {
+    const canonical = new URL(page, "https://manasflow.com").href;
+    assert.ok(text.includes(route === "/llms.txt" ? `](${canonical}):` : `URL: ${canonical}\n`), `Missing LLM canonical URL: ${page}`);
+  }
+  if (route === "/llms-full.txt") {
+    assert.ok(text.includes("Agent runs per month"), "Missing calculator inputs in full context");
+    assert.ok(text.includes("#### Outputs"), "Missing calculator outputs in full context");
+  }
 }
 const report = { checkedPages: checked, schemaEntities: schemaCount, matchedVisibleFaqs: faqCount, internalLinkTargets: links.size, checkedRedirects: Object.keys(ROUTE_ALIASES).length, errors, warnings };
 fs.writeFileSync("docs/seo-validation.json", `${JSON.stringify(report, null, 2)}\n`);

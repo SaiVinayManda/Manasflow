@@ -1,0 +1,1496 @@
+[
+  {
+    "route": "/playbooks/breaking-down-context-engineering",
+    "source": "src/data/manasflow/details/L3BsYXlib29rcy9icmVha2luZy1kb3duLWNvbnRleHQtZW5naW5lZXJpbmc.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/playbooks/how-to-make-your-app-suggested-by-chatgpt",
+    "source": "src/data/manasflow/details/L3BsYXlib29rcy9ob3ctdG8tbWFrZS15b3VyLWFwcC1zdWdnZXN0ZWQtYnktY2hhdGdwdA.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/playbooks/outbound-agent-for-your-company",
+    "source": "src/data/manasflow/details/L3BsYXlib29rcy9vdXRib3VuZC1hZ2VudC1mb3IteW91ci1jb21wYW55.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/playbooks/steps-to-create-your-gpt-that-stop-you-from-overthinking",
+    "source": "src/data/manasflow/details/L3BsYXlib29rcy9zdGVwcy10by1jcmVhdGUteW91ci1ncHQtdGhhdC1zdG9wLXlvdS1mcm9tLW92ZXJ0aGlua2luZw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/playbooks/tips-for-ai-coding-part-1",
+    "source": "src/data/manasflow/details/L3BsYXlib29rcy90aXBzLWZvci1haS1jb2RpbmctcGFydC0x.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/playbooks/vibe-coding-saas-mvps-ultimate-guide",
+    "source": "src/data/manasflow/details/L3BsYXlib29rcy92aWJlLWNvZGluZy1zYWFzLW12cHMtdWx0aW1hdGUtZ3VpZGU.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/agentic-architecture-atlas",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9hZ2VudGljLWFyY2hpdGVjdHVyZS1hdGxhcw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/ai-automation-demand-index",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9haS1hdXRvbWF0aW9uLWRlbWFuZC1pbmRleA.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/ai-automation-playbook",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9haS1hdXRvbWF0aW9uLXBsYXlib29r.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/ai-governance-framework",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9haS1nb3Zlcm5hbmNlLWZyYW1ld29yaw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/ai-model-price-index",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9haS1tb2RlbC1wcmljZS1pbmRleA.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/best-workflow-automations",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9iZXN0LXdvcmtmbG93LWF1dG9tYXRpb25z.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/advanced-hooks",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2FkdmFuY2VkLWhvb2tz.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/agent-swarms",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2FnZW50LXN3YXJtcw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/agent-teams",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2FnZW50LXRlYW1z.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/best-prompts-directory",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2Jlc3QtcHJvbXB0cy1kaXJlY3Rvcnk.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/cc-carousel-fundamentals",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2NjLWNhcm91c2VsLWZ1bmRhbWVudGFscw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/cc-carousel-skills",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2NjLWNhcm91c2VsLXNraWxscw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/claude-channels",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2NsYXVkZS1jaGFubmVscw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/claude-code-playbook",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2NsYXVkZS1jb2RlLXBsYXlib29r.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/clean-build-run",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2NsZWFuLWJ1aWxkLXJ1bg.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/context-engineering",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2NvbnRleHQtZW5naW5lZXJpbmc.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/custom-subagents",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2N1c3RvbS1zdWJhZ2VudHM.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/fact-vs-rag",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2ZhY3QtdnMtcmFn.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/fire-bridge",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2ZpcmUtYnJpZGdl.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/fire-ceo-playbook",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2ZpcmUtY2VvLXBsYXlib29r.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/founder-os-overview",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2ZvdW5kZXItb3Mtb3ZlcnZpZXc.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/github-actions-claude",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2dpdGh1Yi1hY3Rpb25zLWNsYXVkZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/headless-mode",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2hlYWRsZXNzLW1vZGU.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/hooks-setup",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL2hvb2tzLXNldHVw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/persistent-memory",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL3BlcnNpc3RlbnQtbWVtb3J5.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/playbooks-index",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL3BsYXlib29rcy1pbmRleA.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/production-claude-code",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL3Byb2R1Y3Rpb24tY2xhdWRlLWNvZGU.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/remote-control",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL3JlbW90ZS1jb250cm9s.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/resources-hub",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL3Jlc291cmNlcy1odWI.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/ruvnet-ecosystem",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL3J1dm5ldC1lY29zeXN0ZW0.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/second-brain-integration",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL3NlY29uZC1icmFpbi1pbnRlZ3JhdGlvbg.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/second-brain-structure",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL3NlY29uZC1icmFpbi1zdHJ1Y3R1cmU.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/skills-overview",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL3NraWxscy1vdmVydmlldw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns/use-cases-gallery",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25zL3VzZS1jYXNlcy1nYWxsZXJ5.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/breakdowns",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9icmVha2Rvd25z.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-10",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTEw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-11",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTEx.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-12",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTEy.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-13",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTEz.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-14",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTE0.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-15",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTE1.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-16",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTE2.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-17",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTE3.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-18",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTE4.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-19",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTE5.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-2",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTI.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-20",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTIw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-21",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTIx.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-22",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTIy.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-23",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTIz.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-24",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTI0.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-25",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTI1.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-26",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTI2.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-27",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTI3.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-28",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTI4.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-29",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTI5.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-3",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTM.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-30",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTMw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-31",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTMx.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-32",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTMy.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-33",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTMz.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-34",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTM0.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-35",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTM1.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-36",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTM2.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-37",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTM3.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-38",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTM4.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-39",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTM5.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-4",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-40",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTQw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-41",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTQx.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-42",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTQy.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-43",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTQz.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-44",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTQ0.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-45",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTQ1.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-46",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTQ2.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-47",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTQ3.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-48",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTQ4.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-49",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTQ5.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-5",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTU.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-50",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTUw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-51",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTUx.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-52",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTUy.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-6",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTY.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-7",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTc.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-8",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTg.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge/day-9",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2UvZGF5LTk.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/claude-code-challenge",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2U.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/customer-support-workflow",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jdXN0b21lci1zdXBwb3J0LXdvcmtmbG93.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/fde-in-30-days-roadmap",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9mZGUtaW4tMzAtZGF5cy1yb2FkbWFw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/fde-salary-report-2026",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9mZGUtc2FsYXJ5LXJlcG9ydC0yMDI2.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/fire-framework",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9maXJlLWZyYW1ld29yaw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/graph-engineering",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9ncmFwaC1lbmdpbmVlcmluZw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/gtm-engineer",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9ndG0tZW5naW5lZXI.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/lead-qualification-playbook",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9sZWFkLXF1YWxpZmljYXRpb24tcGxheWJvb2s.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/ahrefs",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2FocmVmcw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/airtable",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2FpcnRhYmxl.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/amplitude",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2FtcGxpdHVkZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/apollo",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2Fwb2xsbw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/appsmith",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2FwcHNtaXRo.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/attio",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2F0dGlv.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/beehiiv",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2JlZWhpaXY.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/bubble",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2J1YmJsZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/buffer",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2J1ZmZlcg.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/cal-com",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2NhbC1jb20.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/calendly",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2NhbGVuZGx5.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/canva",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2NhbnZh.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/capcut",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2NhcGN1dA.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/carrd",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2NhcnJk.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/chargebee",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2NoYXJnZWJlZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/chatgpt",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2NoYXRncHQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/circle",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2NpcmNsZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/claude",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2NsYXVkZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/clay",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2NsYXk.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/clickup",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2NsaWNrdXA.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/crisp",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2NyaXNw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/descript",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2Rlc2NyaXB0.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/discord",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2Rpc2NvcmQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/featurebase",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2ZlYXR1cmViYXNl.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/figma",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2ZpZ21h.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/flutterflow",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2ZsdXR0ZXJmbG93.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/fonzy",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2Zvbnp5.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/framer",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2ZyYW1lcg.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/ghost",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2dob3N0.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/google-ai-studio",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2dvb2dsZS1haS1zdHVkaW8.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/google-gemini",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2dvb2dsZS1nZW1pbmk.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/gumroad",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2d1bXJvYWQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/hubspot",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2h1YnNwb3Q.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/hunter",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2h1bnRlcg.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/instantly",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2luc3RhbnRseQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/intercom",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2ludGVyY29t.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/jotform",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2pvdGZvcm0.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/kit",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2tpdA.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/lemlist",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2xlbWxpc3Q.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/linear",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2xpbmVhcg.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/lovable",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2xvdmFibGU.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/lowfruits",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL2xvd2ZydWl0cw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/mailerlite",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL21haWxlcmxpdGU.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/make",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL21ha2U.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/mighty-networks",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL21pZ2h0eS1uZXR3b3Jrcw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/miro",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL21pcm8.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/mixpanel",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL21peHBhbmVs.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/n8n",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL244bg.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/notion",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL25vdGlvbg.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/paddle",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3BhZGRsZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/pebblely",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3BlYmJsZWx5.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/perplexity",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3BlcnBsZXhpdHk.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/pipedrive",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3BpcGVkcml2ZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/pixelcut",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3BpeGVsY3V0.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/plausible",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3BsYXVzaWJsZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/posthog",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3Bvc3Rob2c.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/relume",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3JlbHVtZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/remove-bg",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3JlbW92ZS1iZw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/replit",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3JlcGxpdA.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/retool",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3JldG9vbA.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/rewardful",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3Jld2FyZGZ1bA.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/rows",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3Jvd3M.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/sanity",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3Nhbml0eQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/screen-studio",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3NjcmVlbi1zdHVkaW8.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/senja",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3Nlbmph.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/skool",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3Nrb29s.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/slack",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3NsYWNr.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/spline",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3NwbGluZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/storylane",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3N0b3J5bGFuZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/strapi",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3N0cmFwaQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/stripe",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3N0cmlwZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/supademo",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3N1cGFkZW1v.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/tally",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3RhbGx5.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/taplio",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3RhcGxpbw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/tawk",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3Rhd2s.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/tilda",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3RpbGRh.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/trello",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3RyZWxsbw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/typedream",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3R5cGVkcmVhbQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/typeform",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3R5cGVmb3Jt.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/typefully",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3R5cGVmdWxseQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/ubersuggest",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3ViZXJzdWdnZXN0.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/unicorn-platform",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3VuaWNvcm4tcGxhdGZvcm0.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/v0",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3Yw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/wearview",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3dlYXJ2aWV3.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/webflow",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3dlYmZsb3c.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/zapier",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3phcGllcg.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack/zendesk",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNrL3plbmRlc2s.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/no-code-stack",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9uby1jb2RlLXN0YWNr.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/software-factory",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy9zb2Z0d2FyZS1mYWN0b3J5.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/algolia",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2FsZ29saWE.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/appwrite",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2FwcHdyaXRl.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/astro",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2FzdHJv.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/autogen",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2F1dG9nZW4.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/axiom",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2F4aW9t.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/betterstack",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2JldHRlcnN0YWNr.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/bullmq",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2J1bGxtcQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/claude-agent-sdk",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2NsYXVkZS1hZ2VudC1zZGs.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/claude-code",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2NsYXVkZS1jb2Rl.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/clickhouse",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2NsaWNraG91c2U.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/cloudflare",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2Nsb3VkZmxhcmU.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/codex",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2NvZGV4.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/composio",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2NvbXBvc2lv.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/convex",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2NvbnZleA.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/coolify",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2Nvb2xpZnk.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/crewai",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2NyZXdhaQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/cursor",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2N1cnNvcg.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/digitalocean",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2RpZ2l0YWxvY2Vhbg.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/drizzle",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2RyaXp6bGU.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/dspy",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2RzcHk.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/elysia",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2VseXNpYQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/fastify",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2Zhc3RpZnk.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/gemini-cli",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2dlbWluaS1jbGk.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/github-copilot",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2dpdGh1Yi1jb3BpbG90.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/hono",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2hvbm8.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/inngest",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2lubmdlc3Q.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/langgraph",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2xhbmdncmFwaA.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/letta",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL2xldHRh.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/mongodb-atlas",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL21vbmdvZGItYXRsYXM.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/mongodb",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL21vbmdvZGI.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/motion",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL21vdGlvbg.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/neon",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL25lb24.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/nextjs",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL25leHRqcw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/openai-agents-sdk",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL29wZW5haS1hZ2VudHMtc2Rr.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/orpc",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL29ycGM.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/planetscale",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3BsYW5ldHNjYWxl.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/postgresql",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3Bvc3RncmVzcWw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/posthog",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3Bvc3Rob2c.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/prisma",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3ByaXNtYQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/pydantic-ai",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3B5ZGFudGljLWFp.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/railway",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3JhaWx3YXk.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/react",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3JlYWN0.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/redis",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3JlZGlz.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/render",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3JlbmRlcg.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/sentry",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3NlbnRyeQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/shadcn",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3NoYWRjbg.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/sqlite",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3NxbGl0ZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/supabase-db",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3N1cGFiYXNlLWRi.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/svelte",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3N2ZWx0ZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/sveltekit",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3N2ZWx0ZWtpdA.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/tailwindcss",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3RhaWx3aW5kY3Nz.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/tanstack-start",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3RhbnN0YWNrLXN0YXJ0.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/threejs",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3RocmVlanM.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/tinybird",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3RpbnliaXJk.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/trigger-dev",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3RyaWdnZXItZGV2.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/upstash",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3Vwc3Rhc2g.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/vercel",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3ZlcmNlbA.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack/vue",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNrL3Z1ZQ.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/tech-stack",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy90ZWNoLXN0YWNr.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  },
+  {
+    "route": "/resources/wearview",
+    "source": "src/data/manasflow/details/L3Jlc291cmNlcy93ZWFydmlldw.json",
+    "lastModified": "2026-10-28T22:40:55+01:00",
+    "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
+  }
+]

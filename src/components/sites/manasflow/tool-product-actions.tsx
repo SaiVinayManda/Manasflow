@@ -17,7 +17,7 @@ export function CopyShareLink() {
   };
   const copied = copiedUrl && new URL(copiedUrl).search === search;
   const failed = failedUrl && new URL(failedUrl).search === search;
-  return <div className="mf-tool-share"><button type="button" onClick={copy}>{copied ? <Check size={16} aria-hidden="true" /> : <LinkIcon size={16} aria-hidden="true" />}Copy Share Link</button><span role="status">{copied ? "Share link copied" : failed ? "Copy the link below to share these results." : ""}</span>{failed && <input aria-label="Share link" readOnly value={failedUrl} onFocus={event => event.currentTarget.select()} />}</div>;
+  return <div className="mf-tool-share"><button type="button" onClick={copy}>{copied ? <Check size={16} aria-hidden="true" /> : <LinkIcon size={16} aria-hidden="true" />}Copy Share Link</button><span role="status" data-nosnippet="">{copied ? "Share link copied" : failed ? "Copy the link below to share these results." : ""}</span>{failed && <input aria-label="Share link" readOnly value={failedUrl} onFocus={event => event.currentTarget.select()} />}</div>;
 }
 
 export function ToolImplementationCta({ context = "your results" }: { context?: string }) {

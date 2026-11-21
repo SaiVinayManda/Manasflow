@@ -69,7 +69,7 @@ function ToolDetail({ tool }: { tool: Tool }) {
 }
 
 function EmptyResults({ reset }: { reset: () => void }) {
-  return <div className="mf-ecosystem-empty" role="status"><Search size={25} /><h3>No matching results</h3><p>Try a broader term or clear the selected filters.</p><button type="button" onClick={reset}>Clear filters<ArrowRight size={14} /></button></div>;
+  return <div className="mf-ecosystem-empty" role="status" data-nosnippet=""><Search size={25} /><h3>No matching results</h3><p>Try a broader term or clear the selected filters.</p><button type="button" onClick={reset}>Clear filters<ArrowRight size={14} /></button></div>;
 }
 
 function BotCard({ bot }: { bot: BotTemplate }) {

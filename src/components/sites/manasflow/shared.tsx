@@ -30,7 +30,7 @@ export function Reveal({ children, className = "" }: { children: ReactNode; clas
 }
 
 export function Badge({ children }: { children: ReactNode }) {
-  return <span className="section-badge"><span className="signal-dot" />{children}</span>;
+  return <span className="section-badge" data-nosnippet=""><span className="signal-dot" />{children}</span>;
 }
 
 export function SectionHeading({ badge, title, description, centered = true }: { badge: string; title: ReactNode; description?: ReactNode; centered?: boolean }) {

@@ -133,7 +133,7 @@ export function Tools() {
       <Reveal>
         <div className="mf-tools-viewport" tabIndex={0} role="region" aria-label="Automation platforms; hover or focus to pause">
           <div className="mf-tools-track">
-            {[0, 1, 2, 3].map((copy) => <div className="mf-tools-group" key={copy} aria-hidden={copy > 0 ? true : undefined}>
+            {[0, 1, 2, 3].map((copy) => <div className="mf-tools-group" key={copy} aria-hidden={copy > 0 ? true : undefined} data-nosnippet={copy > 0 ? "" : undefined}>
               {tools.map((tool) => <article className="mf-tool-card" key={tool.name}>
                 <SiteImage name={tool.image} alt={`${tool.name} screenshot`} className="mf-tool-screenshot" />
                 <div className="mf-tool-copy"><span className="mf-tool-logo"><SiteImage name={tool.logo} /></span><div><h3>{tool.name}</h3><p>{tool.description}</p></div></div>

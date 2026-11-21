@@ -147,9 +147,9 @@ function BuiltToShip() {
       ["agents", "cursor-agent.webm", "Claude Code agents shipping product features"],
       ["n8n", "n8n-hero.webm", "n8n revenue automation running 24/7"],
       ["make", "make-hero.webm", "Make orchestrations across your stack"],
-    ].map(([label, video, title]) => <Reveal key={label}><article className="demo-window"><div className="window-toolbar"><i /><i /><i /><span>manasflow.dev/{label}</span><small><b />Live</small></div><video src={asset(video)} autoPlay muted loop playsInline preload="none" aria-label={title} /><p>{title}</p></article></Reveal>)}</div>
+    ].map(([label, video, title]) => <Reveal key={label}><article className="demo-window"><div className="window-toolbar" data-nosnippet=""><i /><i /><i /><span>manasflow.dev/{label}</span><small data-nosnippet=""><b />Live</small></div><video src={asset(video)} autoPlay muted loop playsInline preload="none" aria-label={title} /><p>{title}</p></article></Reveal>)}</div>
     <ScrollStory />
-    <div className="stack-section" id="tech-stack"><Reveal><p className="micro-label">Inside the stack · 15 tools, zero glue code</p><h3>Every tool your engineer arrives with, and <span className="accent">who pays for what</span>.</h3><p className="stack-description">No surprise SaaS bills. Half the stack is open source, the other half plugs into accounts you already have. The agent runtime is on us.</p></Reveal>
+    <div className="stack-section" id="tech-stack"><Reveal><p className="micro-label">Inside the stack · 15 tools, zero glue code</p><h3>Every tool your engineer arrives with, and <span className="accent">who pays for what</span>.</h3><p className="stack-description">No surprise SaaS bills. Half the <Link href="/ai-tools">stack</Link> is open source, the other half plugs into accounts you already have. The agent runtime is on us.</p></Reveal>
       <div className="stack-rows">{stack.map((group) => <Reveal className="stack-row" key={group.title}><div><p className="micro-label">Category</p><h4>{group.title}</h4><span className="stack-tag">{group.tag}</span></div><div className="stack-cards">{group.tools.map(([title,image,description]) => <div className="stack-card" key={title}><div><SiteImage name={image} alt="" /><h5>{title}</h5></div><p>{description}</p></div>)}</div></Reveal>)}</div>
     </div>
     <div className="model-section"><p className="micro-label">The model · No exceptions</p>{[
@@ -174,6 +174,6 @@ export function ManasFlowHome() {
     <Tools />
     <CallStrip />
     <LowerSections />
-    <section className="brief-section" id="newsletter"><div className="mf-container"><Reveal className="brief-card"><div><Badge>Free weekly brief</Badge><h2>Steal our production automations</h2><p>The exact n8n flows, Claude Code setups, and prompts we ship for clients, broken down step by step. No spam, unsubscribe anytime.</p></div><div><Newsletter formOnly /><p className="brief-footnote"><Check size={14} /> Practical workflows. Straight to your inbox.</p></div></Reveal></div></section>
+    <section className="brief-section" id="newsletter"><div className="mf-container"><Reveal className="brief-card"><div><Badge>Free weekly brief</Badge><h2>Steal our production automations</h2><p>The exact n8n flows, Claude Code setups, and <Link href="/tools">prompts</Link> we ship for clients, broken down step by step. No spam, unsubscribe anytime.</p></div><div data-nosnippet=""><Newsletter formOnly /><p className="brief-footnote"><Check size={14} /> Practical workflows. Straight to your inbox.</p></div></Reveal></div></section>
   </div>;
 }

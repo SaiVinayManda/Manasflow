@@ -56,7 +56,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     </head>
     <body>
       <CalProvider />
-      <a href="#main" className="skip-link">Skip to content</a>
+      <a href="#main" className="skip-link" data-nosnippet=""><span data-nosnippet="">Skip to content</span></a>
       <Header navigation={<HubNavigation placement="header" />} />
       <main id="main">{children}</main>
       <div data-nosnippet=""><Footer navigation={<HubNavigation placement="footer" />} /></div>

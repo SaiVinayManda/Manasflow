@@ -57,7 +57,7 @@ function openEmail(subject: string, body: string) {
 }
 
 function EmailDraftNotice({ ready }: { ready: boolean }) {
-  return <p className="company-email-notice" role="status">{ready ? "Your email draft is ready. Review it and send it from your email app to info@manasflow.com." : "This prepares an email draft to info@manasflow.com. You review and send it from your email app."}</p>;
+  return <p className="company-email-notice" role="status" data-nosnippet="">{ready ? "Your email draft is ready. Review it and send it from your email app to info@manasflow.com." : "This prepares an email draft to info@manasflow.com. You review and send it from your email app."}</p>;
 }
 
 export function ContactBooking() {

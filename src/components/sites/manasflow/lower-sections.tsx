@@ -91,7 +91,7 @@ const platformValues = [
 export function PlatformValues() {
   return <section id="team" className="mf-section lower-platform">
     <div className="mf-container">
-      <SectionHeading centered={false} badge="The ManasFlow Approach" title={<>The Systems Behind the Possibilities<br /><strong>Powering <span className="accent">Your Automation</span></strong></>} description={<>A connected platform of strategy, engineering, and intelligent automation.<br />Making AI work for your business, every step of the way.</>} />
+      <SectionHeading centered={false} badge="The ManasFlow Approach" title={<>The Systems Behind the Possibilities<br /><strong>Powering <span className="accent">Your Automation</span></strong></>} description={<>A connected <Link href="/platform">platform</Link> of strategy, engineering, and intelligent automation.<br />Making AI work for your business, every step of the way.</>} />
       <div className="lower-values-grid">{platformValues.map(({ title, label, Icon, description }, index) => <Reveal key={title} className="lower-value-card">
         <div className={`lower-value-art lower-value-art-${index}`} aria-hidden="true"><span className="lower-value-ring" /><span className="lower-value-orbit" /><Icon size={60} strokeWidth={1.25} /><i /><i /><i /></div>
         <div className="lower-value-copy"><h3>{title}</h3><span>{label}</span><p>{description}</p></div>
@@ -107,7 +107,7 @@ export function Consultation() {
       <Reveal className="lower-consultation-panel">
         <div className="lower-consultation-copy">
           <h3>Book a Free 30-Minute Call</h3><p className="lower-consultation-lead">We’ll map your workflows and show you exactly what a fleet of AI agents, run by one senior engineer, could take off your team’s plate. No slide deck, no sales pitch. Just a working session, and a plan you can use whether we work together or not.</p>
-          <p className="lower-direct-email">Don’t want a call? Email <a href="mailto:info@manasflow.com">info@manasflow.com</a></p>
+          <p className="lower-direct-email" data-nosnippet="">Don’t want a call? Email <a href="mailto:info@manasflow.com">info@manasflow.com</a></p>
           <Link href="/contact" className="lower-outline-button">Book a Free Call <ArrowUpRight size={20} /></Link>
           <ul className="lower-consultation-benefits"><li><Users size={17} />Free 30-Minute Strategy Call</li><li><CircleCheckBig size={17} />Scoped Automation Roadmap</li><li><Clock size={17} />Same-Day Response</li></ul>
           <div className="lower-company-promise"><Sparkles size={27} aria-hidden="true" /><p>One connected approach. From the first workflow to a company that runs smarter.</p><span>Built around your business. Powered by ManasFlow.</span></div>

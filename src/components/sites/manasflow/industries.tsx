@@ -43,7 +43,7 @@ function BlueprintForm({ industry }: { industry: Industry }) {
     </div>
     <label>Project Details<textarea name="details" placeholder="Tell us about your bottlenecks..." /></label>
     <button type="submit">Get My Blueprint<ArrowRight size={16} /></button>
-    <p className="mf-industry-form-note" role="status">{draft ? <>Your email request is ready. <a href={draft}>Open it in your email app</a>.</> : "Opens an email request to info@manasflow.com."}</p>
+    <p className="mf-industry-form-note" role="status" data-nosnippet="">{draft ? <>Your email request is ready. <a href={draft}>Open it in your email app</a>.</> : "Opens an email request to info@manasflow.com."}</p>
   </form>;
 }
 

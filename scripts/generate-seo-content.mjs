@@ -1,5 +1,8 @@
 import fs from "node:fs";
 import { execFileSync } from "node:child_process";
+import { loadTypescript } from "./lib/load-typescript.mjs";
+
+const { canonicalRoute } = loadTypescript("src/lib/seo-routes.ts");
 
 const read = name => JSON.parse(fs.readFileSync(`src/data/manasflow/${name}.json`, "utf8"));
 const details = read("details-index");
@@ -109,15 +112,58 @@ for (let page = 2; page <= catalogs.blog.totalPages; page++) {
 for (const [route, count] of [["/directory", read("models").freeModels.length], ["/ai-model-comparison", read("models").models.length], ["/ai-model-pricing-index", read("models").models.length]]) {
   for (let page = 2; page <= Math.ceil(count / 12); page++) records[`${route}?page=${page}`] = { ...records[route], title: `${records[route].title} — Page ${page}` };
 }
-const titles = new Map();
-for (const [route, page] of Object.entries(records)) titles.set(page.title, [...(titles.get(page.title) || []), route]);
-for (const routes of titles.values()) if (routes.length > 1) {
-  for (const route of routes) records[route].seoTitle = `${records[route].title} — ${route.split("/").filter(Boolean).join(" / ").replaceAll("-", " ")}`;
+// Shorten search metadata only; keep visible copy and schema headlines verbatim.
+const compact = (text, limit) => {
+  text = text.replace(/\s+/g, " ").trim();
+  if (text.length <= limit) return text;
+  const fragment = text.slice(0, limit + 1);
+  return fragment.slice(0, fragment.lastIndexOf(" ")).replace(/[\s,:;|—–-]+$/, "");
+};
+const searchSummary = text => {
+  text = text.replace(/\s+/g, " ").trim();
+  if (text.length > 155) {
+    const sentences = text.match(/.*?[.!?](?=\s|$)|.+$/g) || [];
+    const complete = sentences.map((_, index) => sentences.slice(0, index + 1).join("").trim()).filter(sentence => sentence.length >= 65 && sentence.length <= 155).at(-1);
+    text = complete || `${compact(text, 154).replace(/(?:\s+(?:a|an|and|as|at|by|for|from|in|into|of|on|or|the|to|with))+[.,;:]?$/i, "").replace(/[.,;:]+$/, "")}…`;
+  }
+  if (text.length < 125) {
+    const additions = [
+      " Explore this resource and related guidance on ManasFlow.",
+      " Find related resources on ManasFlow.",
+      " Explore more on ManasFlow.",
+    ];
+    text = additions.map(addition => `${text}${addition}`).find(summary => summary.length >= 125 && summary.length <= 155)
+      || searchSummary(`${text} Find practical guidance, implementation context, and related resources from ManasFlow.`);
+  }
+  return text;
+};
+const titles = new Set();
+const descriptions = new Set();
+const hubMetadata = read("hub-metadata");
+for (const [route, page] of Object.entries(records).filter(([route]) => canonicalRoute(route) === route)) {
+  const section = route.split("/")[1]?.split("?")[0].replaceAll("-", " ") || "Home";
+  const topic = route.split("?")[0].split("/").at(-1).replaceAll("-", " ");
+  const original = page.title.replace(/\s*\|\s*ManasFlow$/i, "");
+  const clause = original.split(/: | — | – /)[0];
+  const routeTitle = topic.replace(/\b\w/g, letter => letter.toUpperCase()).replace(/\b(ai|api|crm|llm|mcp|roi|saas|seo|n8n)\b/gi, word => ({ ai: "AI", api: "API", crm: "CRM", llm: "LLM", mcp: "MCP", roi: "ROI", saas: "SaaS", seo: "SEO", n8n: "n8n" })[word.toLowerCase()]);
+  let title = original.length <= 47 ? original : clause.length <= 47 ? clause : routeTitle.length <= 47 && !route.includes("?") ? routeTitle : compact(original, 47).replace(/(?:\s+(?:a|an|and|as|at|by|for|from|in|into|of|on|or|the|to|with))+$/i, "");
+  if (titles.has(title)) title = `${compact(original, 45 - section.length)}: ${section}`;
+  if (titles.has(title)) title = compact(topic.replace(/\b\w/g, letter => letter.toUpperCase()), 47);
+  if (titles.has(title)) throw new Error(`Duplicate search title: ${route}`);
+  page.seoTitle = title;
+  titles.add(title);
+  let summary = searchSummary(page.description);
+  if (descriptions.has(summary)) summary = searchSummary(`${title}. ${page.description}`);
+  if (descriptions.has(summary)) throw new Error(`Duplicate search description: ${route}`);
+  page.seoDescription = hubMetadata[route]?.description || summary;
+  descriptions.add(page.seoDescription);
 }
-const descriptions = new Map();
-for (const [route, page] of Object.entries(records)) descriptions.set(page.description, [...(descriptions.get(page.description) || []), route]);
-for (const routes of descriptions.values()) if (routes.length > 1) {
-  for (const route of routes) records[route].seoDescription = `${records[route].seoTitle || records[route].title}. ${records[route].description}`;
+for (const [route, page] of Object.entries(records)) {
+  const target = records[canonicalRoute(route)];
+  if (target && target !== page) {
+    page.seoTitle = target.seoTitle;
+    page.seoDescription = target.seoDescription;
+  }
 }
 fs.writeFileSync("src/data/manasflow/seo-content.json", `${JSON.stringify(records, null, 2)}\n`);
 console.log(`Prepared SEO source metadata for ${Object.keys(records).length} pages.`);

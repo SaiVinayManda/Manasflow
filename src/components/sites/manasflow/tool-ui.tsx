@@ -56,5 +56,5 @@ export function ResultActions({ text, filename = "manasflow-results" }: { text: 
     link.href = url; link.download = `${filename}.txt`; link.click();
     URL.revokeObjectURL(url);
   };
-  return <><div className="it-result-actions"><button type="button" className="it-secondary" onClick={copy}>{message === "Copied" ? <Check size={15} /> : <Copy size={15} />}Copy results</button><button type="button" className="it-secondary" onClick={download}><Download size={15} />Download results</button><span role="status">{message}</span></div><ToolImplementationCta /></>;
+  return <><div className="it-result-actions"><button type="button" className="it-secondary" onClick={copy}>{message === "Copied" ? <Check size={15} /> : <Copy size={15} />}Copy results</button><button type="button" className="it-secondary" onClick={download}><Download size={15} />Download results</button><span role="status" data-nosnippet="">{message}</span></div><ToolImplementationCta /></>;
 }

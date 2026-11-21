@@ -4,6 +4,7 @@ import { indexableRoutes, seoContent } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return indexableRoutes().map(route => ({
+    // Use recorded content history, never the request/build time as lastmod.
     url: new URL(route, site.url).href,
     ...(seoContent[route].modified ? { lastModified: seoContent[route].modified } : {}),
     changeFrequency: route === "/" || ["/blog", "/ai-tools", "/tools", "/directory"].includes(route) ? "weekly" : "monthly",
