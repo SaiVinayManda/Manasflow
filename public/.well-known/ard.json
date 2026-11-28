@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "identifier": "urn:air:manasflow.com:site:llms-overview",
+      "displayName": "ManasFlow LLMs Directory & Service Context",
+      "type": "application/agent-skills+md",
+      "url": "https://manasflow.com/llms.txt",
+      "representativeQueries": [
+        "AI automation agency and embedded AI engineering services",
+        "ManasFlow workflow automation, n8n, and custom AI agents",
+        "Free AI ROI calculator, workflow audit, and model comparison tools"
+      ]
+    },
+    {
+      "identifier": "urn:air:manasflow.com:site:full-documentation",
+      "displayName": "ManasFlow Complete Specification & Tool Reference",
+      "type": "application/agent-skills+md",
+      "url": "https://manasflow.com/llms-full.txt",
+      "representativeQueries": [
+        "Detailed ManasFlow case studies and AI engineering architecture",
+        "AI tool directory, interactive calculators, and security documentation"
+      ]
+    }
+  ]
+}

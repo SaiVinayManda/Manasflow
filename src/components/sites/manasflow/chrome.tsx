@@ -117,10 +117,10 @@ export function Newsletter({ compact = false, formOnly = false, headingLevel = 3
   const emailId = useId();
   const loadedAtRef = useRef<number>(0);
   const keyRef = useRef<string>("");
-  useEffect(() => {
-    loadedAtRef.current = Date.now();
-    keyRef.current = createSubmissionKey("news");
-  }, []);
+  function markStart() {
+    if (!loadedAtRef.current) loadedAtRef.current = Date.now();
+    if (!keyRef.current) keyRef.current = createSubmissionKey("news");
+  }
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const cleaned = email.trim();
@@ -178,7 +178,7 @@ export function Newsletter({ compact = false, formOnly = false, headingLevel = 3
     {!compact && !formOnly && <p className="mf-news-kicker">Free weekly brief</p>}
     {!formOnly && <><Heading className="mf-newsletter-title">{compact ? "Stay tuned" : "Steal our production automations"}</Heading>
       <p>{compact ? "Get the latest automation insights, playbooks, and case studies delivered to your inbox. No spam, ever." : "The exact n8n flows, Claude Code setups, and prompts we ship for clients, broken down step by step. No spam, unsubscribe anytime."}</p></>}
-    <form onSubmit={submit}>
+    <form onSubmit={submit} onFocusCapture={markStart}>
       <input name="contact_trap" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: "absolute", left: "-9999px", width: 1, height: 1 }} />
       <div className="mf-news-input">
         <label className="mf-sr-only" htmlFor={emailId}>Email address</label>

@@ -27,7 +27,7 @@ const nextConfig: NextConfig = {
           },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
           { key: "X-Content-Type-Options", value: "nosniff" },
-          { key: "Link", value: '<https://manasflow.com/llms.txt>; rel="describedby"' },
+          { key: "Link", value: '<https://manasflow.com/llms.txt>; rel="describedby", </.well-known/ard.json>; rel="ard"' },
         ],
       },
     ];

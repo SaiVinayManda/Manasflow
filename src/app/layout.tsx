@@ -1,12 +1,16 @@
 import type { Metadata, Viewport } from "next";
+import dynamic from "next/dynamic";
 import localFont from "next/font/local";
 import Script from "next/script";
 import { Header, Footer } from "@/components/sites/manasflow/chrome";
 import { site } from "@/lib/site";
 import { HubNavigation } from "@/components/seo/hub-navigation";
 import { AttributionTracker } from "@/components/sites/manasflow/attribution-tracker";
-import { ConsentBanner } from "@/components/sites/manasflow/consent-banner";
 import { FloatingWhatsApp } from "@/components/sites/manasflow/whatsapp-contact";
+
+const ConsentBanner = dynamic(() =>
+  import("@/components/sites/manasflow/consent-banner").then(mod => mod.ConsentBanner),
+);
 import "./globals.css";
 import "@/components/sites/manasflow/whatsapp-contact.css";
 
