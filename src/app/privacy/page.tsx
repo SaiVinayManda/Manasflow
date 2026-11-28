@@ -31,19 +31,22 @@ const sections: LegalSection[] = [
     content: (
       <>
         <p>
-          If you email us, your message can include your name, email address,
-          organisation and any details you choose to share. Enquiry forms prepare
-          a draft in your own email application. Booking buttons open a Cal.com
+          If you email us or submit the contact, ROI roadmap, or newsletter
+          forms, your submission can include your name, email address,
+          organisation, service interest, and any details you choose to share.
+          Submissions are sent to our enquiry intake handler (or, when no direct
+          delivery webhook/provider is configured in an environment, prepared as
+          a draft in your own email application). Booking buttons open a Cal.com
           calendar for the ManasFlow 30-minute event; information you enter into
           that calendar is submitted through Cal.com to arrange the appointment.
         </p>
         <p>
           Delivering a web page involves connection data such as an IP address,
           requested address, time and browser headers. The hosting provider’s
-          actual logging settings and retention need confirmation. This website
-          does not implement visitor analytics, advertising pixels, session
-          replay or chat widgets. The Cal.com embed script loads on the site,
-          and its scheduling frame opens when you choose to book a call.
+          actual logging settings and retention need confirmation. Optional
+          first-party Google Analytics measurement loads only when explicitly
+          configured for a deployment. The Cal.com embed script loads on the
+          site, and its scheduling frame opens when you choose to book a call.
         </p>
       </>
     ),

@@ -129,7 +129,7 @@ const tools = [
 export function Tools() {
   return <section id="our-services" className="mf-section mf-tools">
     <div className="mf-container">
-      <SectionHeading badge="Certified Experts" title={<>Powerful Tools, <span className="accent">Expert Implementation</span></>} description={<>We&apos;re certified experts in the world&apos;s most powerful automation platforms, delivering custom solutions that integrate seamlessly with your existing tech stack. See our <Link href="/services">AI automation services</Link> in action.</>} />
+      <SectionHeading badge="Production Stack" title={<>Powerful Tools, <span className="accent">Proven Architecture</span></>} description={<>We build production systems across the world&apos;s leading automation and AI coding platforms, integrating cleanly with your existing stack. See our <Link href="/services">AI automation services</Link> in action.</>} />
       <Reveal>
         <div className="mf-tools-viewport" tabIndex={0} role="region" aria-label="Automation platforms; hover or focus to pause">
           <div className="mf-tools-track">

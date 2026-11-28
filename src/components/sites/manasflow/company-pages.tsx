@@ -7,6 +7,8 @@ import { ArrowRight, ArrowUpRight, Bot, Building2, Check, ChevronDown, CircleChe
 import data from "@/data/manasflow/company-pages.json";
 import { Badge, CallButton, Reveal, SectionHeading, SiteImage, asset } from "./shared";
 import { BookingCard } from "./booking-link";
+import { trackEvent } from "@/lib/analytics";
+import { site } from "@/lib/site";
 import "./company-pages.css";
 import "./lower-sections.css";
 
@@ -56,18 +58,24 @@ function openEmail(subject: string, body: string) {
   window.location.href = `mailto:info@manasflow.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
-function EmailDraftNotice({ ready }: { ready: boolean }) {
-  return <p className="company-email-notice" role="status" data-nosnippet="">{ready ? "Your email draft is ready. Review it and send it from your email app to info@manasflow.com." : "This prepares an email draft to info@manasflow.com. You review and send it from your email app."}</p>;
+function EmailDraftNotice({ status, error }: { status: "idle" | "submitting" | "sent" | "draft" | "error"; error?: string }) {
+  if (status === "error" && error) return <p className="company-form-error" role="alert" data-nosnippet="">{error}</p>;
+  const message = status === "sent"
+    ? "Thank you — your enquiry has been submitted to our team. Expect a response within one business day."
+    : status === "draft"
+      ? "Direct delivery is offline in this environment, so your email app opened with a draft to info@manasflow.com."
+      : "Submitting sends your enquiry directly to our engineering team — we reply within one business day.";
+  return <p className="company-email-notice" role="status" data-nosnippet="">{message}</p>;
 }
 
 export function ContactBooking() {
   return <section id="consultation" className="company-booking-section">
-    <SectionHeading badge="Book a Call" title={<>Talk to <span className="accent">an AI engineer</span></>} description="Choose a time for your free 30-minute strategy call. Live availability is shown in your timezone." />
+    <SectionHeading badge="Book a Call" title={<>Talk to <span className="accent">an AI engineer</span></>} description={`Choose a time for your free ${site.stats.consultationMinutes}-minute strategy call. Live availability is shown in your timezone.`} />
     <Reveal className="lower-consultation-panel">
       <div className="lower-consultation-copy">
-        <h3>Book a 30min Free Strategy Call</h3><p className="lower-consultation-lead">In this call, we?ll walk through your project scope, timeline, and goals?so we can both check if we?re a fit. No obligation, no slide deck, just a working session.</p>
-        <p className="lower-direct-email">Don?t want a call? Email <a href="mailto:info@manasflow.com">info@manasflow.com</a></p><Link href="/consultation" className="lower-outline-button">Book Now <ArrowUpRight size={20} /></Link>
-        <ul className="lower-consultation-benefits"><li><Users size={17} />Free 30-min Strategy Call</li><li><CircleCheckBig size={17} />Custom Solution Design</li><li><Clock size={17} />Choose a time that suits you</li></ul>
+        <h3>{`Book a ${site.stats.consultationMinutes}min Free Strategy Call`}</h3><p className="lower-consultation-lead">In this call, we’ll walk through your project scope, timeline, and goals — so we can both check if we’re a fit. No obligation, no slide deck, just a working session.</p>
+        <p className="lower-direct-email">Don’t want a call? Email <a href="mailto:info@manasflow.com">info@manasflow.com</a></p><Link href="/consultation" className="lower-outline-button">Book Now <ArrowUpRight size={20} /></Link>
+        <ul className="lower-consultation-benefits"><li><Users size={17} />{`Free ${site.stats.consultationMinutes}-min Strategy Call`}</li><li><CircleCheckBig size={17} />Custom Solution Design</li><li><Clock size={17} />Choose a time that suits you</li></ul>
         <div className="lower-company-promise"><Workflow size={27} /><p>One connected approach, from the first workflow to a company that runs smarter.</p><span>Built around your business. Powered by ManasFlow.</span></div>
         <div className="lower-featured"><p>Built with the tools your team already knows</p><div><SiteImage name="claude.png" alt="Claude" /><SiteImage name="n8n.png" alt="n8n" /><SiteImage name="supabase.png" alt="Supabase" /><SiteImage name="github.png" alt="GitHub" /></div></div>
       </div>
@@ -78,19 +86,56 @@ export function ContactBooking() {
 }
 
 function ContactForm() {
-  const [ready, setReady] = useState(false);
-  function submit(event: FormEvent<HTMLFormElement>) {
+  const [status, setStatus] = useState<"idle" | "submitting" | "sent" | "draft" | "error">("idle");
+  const [error, setError] = useState("");
+
+  async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const form = new FormData(event.currentTarget);
-    openEmail(`Project enquiry: ${form.get("company")}`, `Hello ManasFlow,\n\nName: ${form.get("name")}\nEmail: ${form.get("email")}\nCompany: ${form.get("company")}\nService: ${form.get("service")}\nProject budget: ${form.get("budget")}\n\nProject details:\n${form.get("details") || ""}`);
-    setReady(true);
+    const formElement = event.currentTarget;
+    const form = new FormData(formElement);
+    const name = String(form.get("name") || "").trim();
+    const email = String(form.get("email") || "").trim();
+    const company = String(form.get("company") || "").trim();
+    const service = String(form.get("service") || "").trim();
+    const budget = String(form.get("budget") || "").trim();
+    const details = String(form.get("details") || "").trim();
+
+    setStatus("submitting");
+    setError("");
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ kind: "contact", name, email, company, service, budget, details }),
+      });
+      const result = (await response.json().catch(() => ({}))) as { ok?: boolean; fallback?: string; error?: string };
+      if (response.ok && result.ok) {
+        trackEvent("generate_lead", { source: "contact_form", service });
+        setStatus("sent");
+        formElement.reset();
+        return;
+      }
+      if (result.fallback === "mailto") {
+        openEmail(`Project enquiry: ${company}`, `Hello ManasFlow,\n\nName: ${name}\nEmail: ${email}\nCompany: ${company}\nService: ${service}\nProject budget: ${budget || "Not specified"}\n\nProject details:\n${details}`);
+        trackEvent("generate_lead", { source: "contact_form_mailto", service });
+        setStatus("draft");
+        return;
+      }
+      setStatus("error");
+      setError(result.error || "Unable to send your enquiry right now. Please email info@manasflow.com.");
+    } catch {
+      openEmail(`Project enquiry: ${company}`, `Hello ManasFlow,\n\nName: ${name}\nEmail: ${email}\nCompany: ${company}\nService: ${service}\nProject budget: ${budget || "Not specified"}\n\nProject details:\n${details}`);
+      setStatus("draft");
+    }
   }
+
   return <form className="company-contact-form company-form" onSubmit={submit}>
     <div className="company-field-row"><label>Name *<input name="name" autoComplete="name" placeholder="Your name" required maxLength={100} /></label><label>Email *<input name="email" type="email" autoComplete="email" placeholder="example@mail.com" required /></label></div>
     <label>Company Name *<input name="company" autoComplete="organization" placeholder="Your company" required /></label>
-    <div className="company-field-row"><label>Select Service *<select name="service" defaultValue="" required><option value="" disabled>Select Your Service</option>{["AI Voice Agents", "Business Automation", "Lead Qualification", "Call Management", "Custom AI Solutions"].map(item => <option key={item}>{item}</option>)}</select></label><label>Project Budget *<select name="budget" defaultValue="" required><option value="" disabled>Select Your Range</option>{["Under $5,000", "$5,000 - $15,000", "$15,000 - $30,000", "$30,000 - $50,000", "$50,000+"].map(item => <option key={item}>{item}</option>)}</select></label></div>
+    <div className="company-field-row"><label>Select Service *<select name="service" defaultValue="" required><option value="" disabled>Select Your Service</option>{["AI Voice Agents", "Business Automation", "Lead Qualification", "Call Management", "Custom AI Solutions"].map(item => <option key={item}>{item}</option>)}</select></label><label>Project Budget (Optional)<select name="budget" defaultValue=""><option value="">Prefer not to share / TBD</option>{["Under $5,000", "$5,000 - $15,000", "$15,000 - $30,000", "$30,000 - $50,000", "$50,000+"].map(item => <option key={item}>{item}</option>)}</select></label></div>
     <label>Project Details<textarea name="details" placeholder="Tell us more about your project" rows={5} /></label>
-    <button className="company-submit" type="submit">Prepare enquiry email <ArrowRight size={17} /></button><EmailDraftNotice ready={ready} /><div className="company-form-trust"><span><Lock size={14} />Your email app</span><span><ShieldCheck size={14} />Your choice to send</span><span><Mail size={14} />No spam, ever</span></div>
+    <button className="company-submit" type="submit" disabled={status === "submitting"}>{status === "submitting" ? "Sending enquiry..." : <>Send enquiry <ArrowRight size={17} /></>}</button><EmailDraftNotice status={status} error={error} /><div className="company-form-trust"><span><Lock size={14} />Direct submission</span><span><ShieldCheck size={14} />1-day response</span><span><Mail size={14} />No spam, ever</span></div>
   </form>;
 }
 
@@ -123,7 +168,7 @@ function CareerApplication() {
     <label>Demo video *<input name="video" type="url" placeholder="https://loom.com/share/..." required /><span className="company-field-help">Loom, YouTube, any public link. An AI agent running in a real app wins.</span></label><p className="company-voice-note"><Mic size={17} />Voice narration required. Walk us through what you built and why. Silent recordings are skipped.</p>
     <fieldset className="company-chip-field"><legend>Languages *</legend><div>{["EN", "FR"].map(language => <button type="button" key={language} aria-pressed={languages.includes(language)} onClick={() => toggle(language, languages, setLanguages)} className={languages.includes(language) ? "selected" : ""}>{language}</button>)}</div></fieldset>
     <fieldset className="company-chip-field"><legend>Skills *</legend><p>Pick everything that applies.</p><div>{data.skills.map(skill => <button type="button" key={skill} aria-pressed={skills.includes(skill)} onClick={() => toggle(skill, skills, setSkills)} className={skills.includes(skill) ? "selected" : ""}>{skill}</button>)}</div>{skills.includes("Other") && <label className="company-other-skills"><span className="sr-only">Other skills</span><input name="otherSkills" placeholder="Tell us your other skills" required /></label>}</fieldset>
-    {error && <p className="company-form-error" role="alert">{error}</p>}<button className="company-submit" type="submit">Prepare application email <ArrowUpRight size={17} /></button><EmailDraftNotice ready={ready} />
+    {error && <p className="company-form-error" role="alert">{error}</p>}<button className="company-submit" type="submit">Prepare application email <ArrowUpRight size={17} /></button><p className="company-email-notice" role="status" data-nosnippet="">{ready ? "Your email draft is ready. Review it and send it from your email app to info@manasflow.com." : "This prepares an email draft to info@manasflow.com. You review and send it from your email app."}</p>
   </form></section>;
 }
 

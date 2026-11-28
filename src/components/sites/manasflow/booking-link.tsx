@@ -18,6 +18,7 @@ export function BookingLink({ children, onClick, onMouseEnter, withWhatsApp = fa
     void initializeCal().catch(() => undefined);
   }} onClick={event => {
     onClick?.(event);
+    (window as Window & { gtag?: (...args: unknown[]) => void }).gtag?.("event", "booking_started");
     if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || (props.target && props.target !== "_self")) return;
     event.preventDefault();
     cancelPendingBooking?.();

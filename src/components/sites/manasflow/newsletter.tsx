@@ -3,19 +3,57 @@
 import { useId, useState } from "react";
 import type { FormEvent } from "react";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { trackEvent } from "@/lib/analytics";
 
 export function Newsletter({ compact = false, formOnly = false, headingLevel = 3 }: { compact?: boolean; formOnly?: boolean; headingLevel?: 2 | 3 }) {
   const Heading = headingLevel === 2 ? "h2" : "h3";
   const [email, setEmail] = useState("");
-  const [prepared, setPrepared] = useState(false);
+  const [status, setStatus] = useState<"idle" | "submitting" | "subscribed" | "draft" | "error">("idle");
+  const [error, setError] = useState("");
   const emailId = useId();
-  function submit(event: FormEvent<HTMLFormElement>) {
+  async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const subject = encodeURIComponent("ManasFlow automation brief — subscription request");
-    const body = encodeURIComponent(`Please send the weekly ManasFlow automation brief to ${email}.`);
-    window.location.href = `mailto:info@manasflow.com?subject=${subject}&body=${body}`;
-    setPrepared(true);
+    const cleaned = email.trim();
+    if (!cleaned) return;
+    setStatus("submitting");
+    setError("");
+    const openFallback = () => {
+      const subject = encodeURIComponent("ManasFlow automation brief — subscription request");
+      const body = encodeURIComponent(`Please send the weekly ManasFlow automation brief to ${cleaned}.`);
+      window.location.href = `mailto:info@manasflow.com?subject=${subject}&body=${body}`;
+      setStatus("draft");
+    };
+    try {
+      const response = await fetch("/api/newsletter", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: cleaned }),
+      });
+      const result = (await response.json().catch(() => ({}))) as { ok?: boolean; fallback?: string; error?: string };
+      if (response.ok && result.ok) {
+        trackEvent("newsletter_signup", { source: compact ? "footer" : "inline" });
+        setStatus("subscribed");
+        setEmail("");
+        return;
+      }
+      if (result.fallback === "mailto") {
+        trackEvent("newsletter_signup", { source: compact ? "footer_mailto" : "inline_mailto" });
+        openFallback();
+        return;
+      }
+      setStatus("error");
+      setError(result.error || "Unable to subscribe right now. Please email info@manasflow.com.");
+    } catch {
+      openFallback();
+    }
   }
+  const helperText = status === "error"
+    ? error
+    : status === "subscribed"
+      ? "You’re subscribed to the weekly ManasFlow automation brief."
+      : status === "draft"
+        ? "Direct signup is offline here, so your email app opened with your request."
+        : "Weekly teardowns and playbooks. No spam, unsubscribe anytime.";
   return <div className={`mf-newsletter ${compact ? "mf-newsletter-compact" : ""}`}>
     {!compact && !formOnly && <p className="mf-news-kicker">Free weekly brief</p>}
     {!formOnly && <><Heading className="mf-newsletter-title">{compact ? "Stay tuned" : "Steal our production automations"}</Heading>
@@ -23,10 +61,10 @@ export function Newsletter({ compact = false, formOnly = false, headingLevel = 3
     <form onSubmit={submit}>
       <div className="mf-news-input">
         <label className="mf-sr-only" htmlFor={emailId}>Email address</label>
-        <input id={emailId} type="email" autoComplete="email" value={email} onChange={(event) => { setEmail(event.target.value); setPrepared(false); }} placeholder={compact ? "Enter your email" : "you@company.com"} required />
-        <button type="submit" aria-label="Prepare newsletter request">{compact ? <ArrowRight size={16} /> : <>Get the teardowns<ArrowUpRight size={16} /></>}</button>
+        <input id={emailId} type="email" autoComplete="email" value={email} onChange={(event) => { setEmail(event.target.value); setStatus("idle"); setError(""); }} placeholder={compact ? "Enter your email" : "you@company.com"} required />
+        <button type="submit" disabled={status === "submitting"} aria-label={status === "submitting" ? "Submitting newsletter subscription" : "Subscribe to newsletter"}>{compact ? <ArrowRight size={16} /> : <>{status === "submitting" ? "Joining..." : "Get the teardowns"}<ArrowUpRight size={16} /></>}</button>
       </div>
-      <small role="status" data-nosnippet="">{prepared ? "Your email app has been opened with your request. Send it to join the brief." : "Prepare a subscription request in your email app."}</small>
+      <small role="status" data-nosnippet="">{helperText}</small>
     </form>
   </div>;
 }

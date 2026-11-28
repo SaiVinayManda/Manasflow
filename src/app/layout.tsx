@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
+import Script from "next/script";
 import { Header, Footer } from "@/components/sites/manasflow/chrome";
 import { site } from "@/lib/site";
 import { HubNavigation } from "@/components/seo/hub-navigation";
@@ -46,8 +47,13 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
   return <html lang="en" className={`dark ${lexend.variable}`}>
     <body>
+      {gaId && <>
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} strategy="afterInteractive" />
+        <Script id="ga4-init" strategy="afterInteractive">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${gaId}');`}</Script>
+      </>}
       <a href="#main" className="skip-link" data-nosnippet=""><span data-nosnippet="">Skip to content</span></a>
       <Header navigation={<HubNavigation placement="header" />} />
       <main id="main">{children}</main>

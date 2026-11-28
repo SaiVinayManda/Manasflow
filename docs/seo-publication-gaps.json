@@ -554,7 +554,7 @@
   {
     "route": "/resources/claude-code-challenge",
     "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2U.json",
-    "lastModified": "2026-10-28T22:40:55+01:00",
+    "lastModified": "2026-11-28T09:29:29+01:00",
     "reason": "No publication date recorded in the editorial source. Git introduction dates are not treated as publication dates."
   },
   {

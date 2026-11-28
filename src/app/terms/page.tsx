@@ -114,6 +114,23 @@ const sections: LegalSection[] = [
       </p>
     ),
   },
+  {
+    id: "refund-policy",
+    title: "9. First-month refund policy",
+    content: (
+      <p>
+        Where ManasFlow offers a 30-day first-month refund guarantee on a
+        monthly embedded-engineer retainer, eligibility applies if agreed
+        month-one deliverables and acceptance criteria documented in the project
+        kickoff scope are not met. Clients may request a first-month retainer
+        refund in writing via{" "}
+        <a href="mailto:info@manasflow.com">info@manasflow.com</a> within 30
+        calendar days of the engagement start date. Refunds apply to ManasFlow
+        retainer fees and exclude third-party software, cloud compute, or API
+        usage billed directly by external vendors.
+      </p>
+    ),
+  },
 ];
 
 export default function TermsPage() {

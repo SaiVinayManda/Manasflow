@@ -1,3 +1,5 @@
+"use client";
+
 import type { ReactNode } from "react";
 import { WHATSAPP_CHAT_URL, WHATSAPP_LABEL } from "@/lib/contact";
 
@@ -8,7 +10,9 @@ export function WhatsAppIcon() {
 }
 
 export function WhatsAppLink({ children = "Chat on WhatsApp", className = "", iconOnly = false }: { children?: ReactNode; className?: string; iconOnly?: boolean }) {
-  return <a className={`mf-whatsapp-link ${className}`} href={WHATSAPP_CHAT_URL} target="_blank" rel="noopener noreferrer" {...(iconOnly ? { "aria-label": WHATSAPP_LABEL } : {})}>
+  return <a className={`mf-whatsapp-link ${className}`} href={WHATSAPP_CHAT_URL} target="_blank" rel="noopener noreferrer" onClick={() => {
+    (window as Window & { gtag?: (...args: unknown[]) => void }).gtag?.("event", "whatsapp_click");
+  }} {...(iconOnly ? { "aria-label": WHATSAPP_LABEL } : {})}>
     <WhatsAppIcon />{!iconOnly && <span>{children}</span>}
   </a>;
 }

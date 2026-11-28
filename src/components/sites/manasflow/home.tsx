@@ -9,6 +9,7 @@ import { Capabilities, Tools } from "./capabilities";
 import { LowerSections } from "./lower-sections";
 import { Newsletter } from "./chrome";
 import { ViewportVideo } from "./viewport-video";
+import { site } from "@/lib/site";
 import "./home.css";
 
 function Hero() {
@@ -25,8 +26,8 @@ function Hero() {
             <svg viewBox="0 0 300 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2,7 Q50,3 75,6 T150,7 Q200,10 250,5 T298,7" /></svg>
           </small></h1>
           <p className="hero-description">We embed a forward deployed engineer inside your team who learns how the work actually happens, then builds custom AI agents and workflow automations that take repetitive tasks off your plate.</p>
-          <div className="hero-actions"><CallButton>Book a Free Strategy Call</CallButton><CallButton href="/services" secondary>Explore Solutions</CallButton></div>
-          <p className="hero-commitment">Free · 30 minutes · No commitment</p>
+          <div className="hero-actions"><CallButton href="/consultation">Get Your Free Automation Roadmap</CallButton><CallButton href="/case-studies" secondary>Explore Client Results</CallButton></div>
+          <p className="hero-commitment">Free · {site.stats.consultationMinutes} minutes · {site.stats.companiesShipped} companies shipped</p>
           <div className="hero-secondary-links">
             <Link href="/roi-calculator" className="hero-newsletter">Estimate your automation ROI →</Link>
             <span aria-hidden="true">·</span>
@@ -50,7 +51,7 @@ function Hero() {
     <div className="mf-container start-here">
       <p className="micro-label">Start here</p>
       <div className="start-grid">
-        <Link href="/resources/claude-code-challenge"><strong>52-Day Claude Code Challenge</strong><p>Free: setup, hooks, MCPs, agent swarms. 52 days of real builds.</p><ArrowUpRight size={16} /></Link>
+        <Link href="/resources/claude-code-challenge"><strong>{site.stats.challengeName}</strong><p>Free: setup, hooks, MCPs, agent swarms. {site.stats.challengeDays} days of real builds.</p><ArrowUpRight size={16} /></Link>
         <Link href="/case-studies"><strong>Client Case Studies</strong><p>45+ production systems shipped across operations, support, and SaaS.</p><ArrowUpRight size={16} /></Link>
         <Link href="/blog"><strong>Blog and Guides</strong><p>AI agents, models, tools, and automation tactics.</p><ArrowUpRight size={16} /></Link>
       </div>
@@ -62,7 +63,7 @@ function Partners() {
   return <section className="mf-section partners-section">
     <div className="mf-container">
       <SectionHeading badge="Trusted Partners" title={<>You’re in <span className="accent">Good Company</span></>} description="Powering AI automation for fast-growing US and European enterprises." />
-      <Reveal className="partner-stats"><div><strong>45+</strong><span>Companies Shipped</span></div><i /><div><strong>200+</strong><span>Integrations Deployed</span></div></Reveal>
+      <Reveal className="partner-stats"><div><strong>{site.stats.companiesShipped}</strong><span>Companies Shipped</span></div><i /><div><strong>{site.stats.integrationsDeployed}</strong><span>Production Integrations Deployed</span></div></Reveal>
       <div className="partner-proof"><Link href="/case-studies">Explore client case studies and shipped workflows <ArrowUpRight size={16} /></Link></div>
     </div>
   </section>;
@@ -135,7 +136,7 @@ function ScrollStory() {
   const wordProgress = Math.min(1, (progress * 5 - active) / .8);
   const words = stories[active][1].split(" ");
   return <div className="scroll-story" ref={ref}><div className="story-sticky">
-    <p className="micro-label">Across 45+ companies shipped · Enterprise to solo operators</p>
+    <p className="micro-label">Across {site.stats.companiesShipped} companies shipped · Enterprise to solo operators</p>
     <h3>The new moat is <span className="accent">speed of execution</span>.</h3>
     <div className="story-label"><span>{stories[active][0]}</span><span>· 0{active + 1} / 05</span></div>
     <p className="story-sentence"><span className="mf-sr-only">{stories[active][1]}</span>{words.map((word, index) => <span key={`${active}-${index}`} aria-hidden="true" style={{ opacity: index / words.length <= wordProgress ? 1 : .45 }}>{word} </span>)}</p>
@@ -145,7 +146,7 @@ function ScrollStory() {
 
 const stack = [
   { title: "Agent runtime", tag: "🎁 Included with every retainer", tools: [["Claude Code", "claude.png", "The brain. Subagents, hooks, MCP."], ["Anthropic", "anthropic.png", "Managed agents in production."], ["Cursor", "cursor.png", "IDE pair-programming with agents."]] },
-  { title: "Orchestration", tag: "🔓 Open source · free forever", tools: [["n8n", "n8n.png", "Cron, webhooks, integration glue."], ["MCP", "mcp.svg", "One protocol, every tool you own."], ["Zapier", "zapier.png", "Quick triggers when n8n is overkill."]] },
+  { title: "Orchestration", tag: "🔓 Self-hostable · open-source core", tools: [["n8n", "n8n.png", "Cron, webhooks, integration glue."], ["MCP", "mcp.svg", "One protocol, every tool you own."], ["Zapier", "zapier.png", "Optional commercial SaaS triggers when needed."]] },
   { title: "Compute & infra", tag: "💰 Pay per use · your account", tools: [["E2B", "e2b.png", "Sandboxed micro-VMs per agent call."], ["Supabase", "supabase.png", "Postgres + auth in one."], ["Vercel", "vercel.png", "Edge deploys in seconds."]] },
   { title: "Outbound & CRM", tag: "🔌 Plug into your accounts", tools: [["HubSpot", "hubspot.png", "CRM hygiene, deal pipelines."], ["Clay", "clay.png", "Lead enrichment at scale."], ["Apollo", "apollo.png", "Outbound contact discovery."]] },
   { title: "Where work happens", tag: "🤝 Your team’s already there", tools: [["Slack", "slack.png", "Alerts, approvals, daily standups."], ["Linear", "linear.png", "Tickets, sprints, roadmap."], ["GitHub", "github.png", "Every PR shipped is yours."]] },
@@ -160,15 +161,15 @@ function BuiltToShip() {
       ["make", "make-hero.webm", "Make orchestrations across your stack"],
     ].map(([label, video, title]) => <Reveal key={label}><article className="demo-window"><div className="window-toolbar" data-nosnippet=""><i /><i /><i /><span>manasflow.dev/{label}</span><small data-nosnippet=""><b />Live</small></div><ViewportVideo src={asset(video)} label={title} /><p>{title}</p></article></Reveal>)}</div>
     <ScrollStory />
-    <div className="stack-section" id="tech-stack"><Reveal><p className="micro-label">Inside the stack · 15 tools, zero glue code</p><h3>Every tool your engineer arrives with, and <span className="accent">who pays for what</span>.</h3><p className="stack-description">No surprise SaaS bills. Half the <Link href="/ai-tools">stack</Link> is open source, the other half plugs into accounts you already have. The agent runtime is on us.</p></Reveal>
+    <div className="stack-section" id="tech-stack"><Reveal><p className="micro-label">{`Inside the stack · ${site.stats.connectedTools} supported tools`}</p><h3>Every tool your engineer arrives with, and <span className="accent">who pays for what</span>.</h3><p className="stack-description">Clear licensing up front: we connect {site.stats.connectedTools} <Link href="/ai-tools">supported platforms</Link> (and have deployed {site.stats.integrationsDeployed} production integrations). Self-hostable open-source tools run in your infrastructure, commercial SaaS tools use your existing accounts, and the embedded agent runtime is included.</p></Reveal>
       <div className="stack-rows">{stack.map((group) => <Reveal className="stack-row" key={group.title}><div><p className="micro-label">Category</p><h4>{group.title}</h4><span className="stack-tag">{group.tag}</span></div><div className="stack-cards">{group.tools.map(([title,image,description]) => <div className="stack-card" key={title}><div><SiteImage name={image} alt="" /><h5>{title}</h5></div><p>{description}</p></div>)}</div></Reveal>)}</div>
     </div>
-    <div className="model-section"><p className="micro-label">The model · No exceptions</p>{[
-      ["Ship a whole product", "Not a feature. Not a demo. A working system in your repo by month-end.", "ship-product.webp"],
-      ["Month one fully refundable", "If month one does not land, you get it back. No conversation needed.", "money-refund.webp"],
-      ["One human, many agents", "Co-engineer with a bench of subagents. The multiplier is the stack, not the seniority.", "many-agents.svg"],
-    ].map(([title,description,image],index) => <Reveal className="model-row" key={title}><span>0{index + 1}</span><div><h4>{title}</h4><p>{description}</p></div><SiteImage name={image} alt={title} /></Reveal>)}</div>
-    <Reveal className="fix-callout"><div><h3>Fix what’s slowing you down.</h3><p>Tell us the workflow that hurts. We embed an engineer, ship a whole product, refund the first month if it does not land.</p></div><Link href="/contact" withWhatsApp>Book a 15-min call <ArrowUpRight size={20} /></Link></Reveal>
+    <div className="model-section"><p className="micro-label">The model · Clear terms</p>{([
+      ["Production code by week four", <>You own the repository, workflows, and runbooks from day one — zero lock-in.</>, "ship-product.webp"],
+      ["Month-one guarantee", <>Retainers include a 30-day milestone refund option if agreed deliverables are missed. <Link href="/terms#refund-policy">See eligibility terms</Link>.</>, "money-refund.webp"],
+      ["Senior engineer + agent swarm", <>Every engagement pairs an embedded human lead with specialized coding and QA agents.</>, "many-agents.svg"],
+    ] as const).map(([title,description,image],index) => <Reveal className="model-row" key={title}><span>0{index + 1}</span><div><h4>{title}</h4><p>{description}</p></div><SiteImage name={image} alt={title} /></Reveal>)}</div>
+    <Reveal className="fix-callout"><div><h3>Ready to scope your first automation?</h3><p>Bring your highest-friction workflow to a {site.stats.consultationMinutes}-minute working session. You leave with an architecture recommendation and milestone plan — and our <Link href="/terms#refund-policy">30-day guarantee</Link> protects month one.</p></div><Link href="/consultation" withWhatsApp>{`Book a ${site.stats.consultationMinutes}-min call `}<ArrowUpRight size={20} /></Link></Reveal>
   </div></section>;
 }
 
