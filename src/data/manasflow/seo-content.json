@@ -18594,6 +18594,24 @@
     "seoTitle": "Workflow Automation Audit",
     "seoDescription": "Map your business processes and identify which workflows are automatable. Get savings estimates and a prioritized roadmap. Explore more on ManasFlow."
   },
+  "/advisor": {
+    "title": "AI Solutions Advisor",
+    "description": "Match your workflow bottlenecks and stack constraints against ManasFlow services, verified case studies, and implementation models in minutes.",
+    "source": "src/app/advisor/page.tsx",
+    "modified": "2026-11-28T10:26:01+01:00",
+    "firstRecorded": "2026-11-28T10:26:01+01:00",
+    "seoTitle": "AI Solutions Advisor",
+    "seoDescription": "Match your workflow bottlenecks and stack constraints against ManasFlow services, verified case studies, and implementation models in minutes."
+  },
+  "/automation-demo": {
+    "title": "Interactive Automation Demo Sandbox",
+    "description": "Test simulated AI lead qualification, invoice extraction with approval queues, and support triage workflows before booking a roadmap call.",
+    "source": "src/app/automation-demo/page.tsx",
+    "modified": "2026-11-28T10:26:01+01:00",
+    "firstRecorded": "2026-11-28T10:26:01+01:00",
+    "seoTitle": "Interactive Automation Demo Sandbox",
+    "seoDescription": "Test simulated AI lead qualification, invoice extraction with approval queues, and support triage workflows before booking a roadmap call."
+  },
   "/careers": {
     "title": "Careers – AI Engineer & Automation Jobs",
     "description": "Build AI that actually runs. Join ManasFlow as an AI engineer, n8n developer, or automation specialist. Show us what you’ve built.",
@@ -18679,16 +18697,25 @@
     "title": "Privacy notice — draft",
     "description": "Explore privacy notice — draft with ManasFlow. Practical AI automation, engineering, and resources for your business.",
     "source": "src/app/privacy/page.tsx",
-    "modified": "2026-11-20T01:35:28+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Privacy notice — draft",
     "seoDescription": "Explore privacy notice — draft with ManasFlow. Practical AI automation, engineering, and resources for your business. Find related resources on ManasFlow."
+  },
+  "/security": {
+    "title": "Security & Delivery Architecture",
+    "description": "Review ManasFlow deployment architecture, credential isolation, human-in-the-loop safeguards, audit logs, and US/EU timezone overlap.",
+    "source": "src/app/security/page.tsx",
+    "modified": "2026-11-28T10:26:01+01:00",
+    "firstRecorded": "2026-11-28T10:26:01+01:00",
+    "seoTitle": "Security & Delivery Architecture",
+    "seoDescription": "Review ManasFlow deployment architecture, credential isolation, human-in-the-loop safeguards, audit logs, and US/EU timezone overlap."
   },
   "/terms": {
     "title": "Website terms — draft",
     "description": "Explore website terms — draft with ManasFlow. Practical AI automation, engineering, and resources for your business.",
     "source": "src/app/terms/page.tsx",
-    "modified": "2026-11-20T01:35:28+01:00",
+    "modified": "2026-11-28T09:51:46+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Website terms — draft",
     "seoDescription": "Explore website terms — draft with ManasFlow. Practical AI automation, engineering, and resources for your business. Find related resources on ManasFlow."
@@ -18706,7 +18733,7 @@
     "title": "n8n automation agency: hire n8n developers who build and run your workflows",
     "description": "n8n automation agency: hire n8n developers who build, self-host, patch and maintain your workflows. Simple builds live in 1 to 2 weeks. You own every flow.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "n8n automation agency",
     "seoDescription": "n8n automation agency: hire n8n developers who build, self-host, patch and maintain your workflows. Simple builds live in 1 to 2 weeks. You own every flow."
@@ -18715,7 +18742,7 @@
     "title": "Claude Code development agency: production AI agents or a Claude Code developer on your team",
     "description": "Claude Code agency: production agents, hooks, skills and MCP servers, hardened before they touch your systems. Or place a Claude Code engineer in 2 to 4 weeks.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Claude Code development agency",
     "seoDescription": "Claude Code agency: production agents, hooks, skills and MCP servers, hardened before they touch your systems. Find related resources on ManasFlow."
@@ -18724,7 +18751,7 @@
     "title": "Cursor development agency: hire a Cursor developer or roll Cursor out across your team",
     "description": "Cursor development services: a team rollout with project rules, MCP servers and Agent guardrails, or a Cursor engineer placed in 2 to 4 weeks.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Cursor development agency",
     "seoDescription": "Cursor development services: a team rollout with project rules, MCP servers and Agent guardrails, or a Cursor engineer placed in 2 to 4 weeks."
@@ -18733,7 +18760,7 @@
     "title": "Codex agency: hire an engineer who runs Codex agents inside your repo",
     "description": "Codex agency for governed coding agents: sandboxed, wired into CI/CD, every PR reviewed. Or place a Codex engineer in 2 to 4 weeks, from $60,000 a year.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Codex agency",
     "seoDescription": "Codex agency for governed coding agents: sandboxed, wired into CI/CD, every PR reviewed. Or place a Codex engineer in 2 to 4 weeks, from $60,000 a year."
@@ -18742,7 +18769,7 @@
     "title": "Lovable development agency: your Lovable app, ready for paying customers",
     "description": "Lovable development agency for apps that stalled: real auth, database, row-level security, Stripe and integrations. We build on your Lovable code. Free audit.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Lovable development agency",
     "seoDescription": "Lovable development agency for apps that stalled: real auth, database, row-level security, Stripe and integrations. We build on your Lovable code."
@@ -18751,7 +18778,7 @@
     "title": "Bubble Development Agency: One Engineer, a Fleet of Agents Built to Scale",
     "description": "A senior Bubble developer plus a fleet of agents building production Bubble apps, custom plugins, API workflows and clean migrations off Bubble. Book an audit.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Bubble Development Agency",
     "seoDescription": "A senior Bubble developer plus a fleet of agents building production Bubble apps, custom plugins, API workflows and clean migrations off Bubble."
@@ -18760,7 +18787,7 @@
     "title": "Framer Development Agency: One Engineer, a Fleet of Agents Built to Convert",
     "description": "One engineer and a fleet of agents building high-conversion Framer sites: code components, CMS, SEO, localization, fast Core Web Vitals. Book an audit.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Framer Development Agency",
     "seoDescription": "One engineer and a fleet of agents building high-conversion Framer sites: code components, CMS, SEO, localization, fast Core Web Vitals. Book an audit."
@@ -18769,7 +18796,7 @@
     "title": "Supabase development agency: secure Postgres backends, RLS on every table",
     "description": "Supabase development agency: Postgres schema, Row Level Security policies written and tested, auth, edge functions and pgvector RAG. Fix a leaky backend. Free audit.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Supabase development agency",
     "seoDescription": "Supabase development agency: Postgres schema, Row Level Security policies written and tested, auth, edge functions and pgvector RAG. Fix a leaky backend."
@@ -18778,7 +18805,7 @@
     "title": "FlutterFlow Development Agency: One Engineer, a Fleet of Agents Built to Ship",
     "description": "FlutterFlow development agency: cross-platform apps, custom Dart code, Firebase or Supabase backends and App Store publishing. Book a free audit.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "FlutterFlow Development Agency",
     "seoDescription": "FlutterFlow development agency: cross-platform apps, custom Dart code, Firebase or Supabase backends and App Store publishing. Book a free audit."
@@ -18787,7 +18814,7 @@
     "title": "Replit development agency: your Replit Agent app, ready for real users",
     "description": "Replit development agency that hardens Replit Agent apps for real users: auth, database, secrets and hosting. We keep your code, and you keep Replit if it fits.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Replit development agency",
     "seoDescription": "Replit development agency that hardens Replit Agent apps for real users: auth, database, secrets and hosting. Find related resources on ManasFlow."
@@ -18796,7 +18823,7 @@
     "title": "v0 development agency: from v0 prototype to a live Next.js app",
     "description": "v0 development agency: we turn v0 screens into a Next.js app with real data, auth and a design system, on your own Vercel account. We keep your UI. Free audit.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "v0 development agency",
     "seoDescription": "v0 development agency: we turn v0 screens into a Next.js app with real data, auth and a design system, on your own Vercel account. We keep your UI."
@@ -18805,7 +18832,7 @@
     "title": "Salesforce implementation consultants: an org your reps actually use, with the busywork automated",
     "description": "Salesforce implementation consultants who set up your org, migrate your data and build the Flow automation reps use. Independent, scoped on a free call.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Salesforce implementation consultants",
     "seoDescription": "Salesforce implementation consultants who set up your org, migrate your data and build the Flow automation reps use. Independent, scoped on a free call."
@@ -18814,7 +18841,7 @@
     "title": "HubSpot consultant: implementation and onboarding that leaves your CRM cleaner than it found it",
     "description": "HubSpot implementation consultants for onboarding, data migration and workflow automation, with enrichment and AI wired in. Independent team, free audit call.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "HubSpot consultant",
     "seoDescription": "HubSpot implementation consultants for onboarding, data migration and workflow automation, with enrichment and AI wired in. Explore more on ManasFlow."
@@ -18823,7 +18850,7 @@
     "title": "Zoho consultant: Zoho CRM implementation with the automation finished",
     "description": "Zoho consultants for Zoho CRM implementation, data migration, Deluge automation and integrations across Zoho One and your other tools. Scoped on a free call.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Zoho consultant",
     "seoDescription": "Zoho consultants for Zoho CRM implementation, data migration, Deluge automation and integrations across Zoho One and your other tools."
@@ -18832,7 +18859,7 @@
     "title": "Pipedrive consultant: a pipeline that updates itself, so your reps can sell",
     "description": "Pipedrive consulting for teams that want to sell, not do admin: pipeline setup, data migration, automated follow-ups, outreach and AI integrations. Free audit.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Pipedrive consultant",
     "seoDescription": "Pipedrive consulting for teams that want to sell, not do admin: pipeline setup, data migration, automated follow-ups, outreach and AI integrations."
@@ -18841,7 +18868,7 @@
     "title": "Attio CRM agency: set up by a team that runs its own pipeline on Attio",
     "description": "Attio CRM experts who set up your workspace, migrate your data and automate workflows, from a team that runs its own pipeline on Attio. Scoped on a free call.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Attio CRM agency",
     "seoDescription": "Attio CRM experts who set up your workspace, migrate your data and automate workflows, from a team that runs its own pipeline on Attio."
@@ -18850,7 +18877,7 @@
     "title": "Clay GTM agency: enrichment and signals that land in your CRM and outreach",
     "description": "Clay GTM experts who build enrichment waterfalls, signal tables and Claygent research that push clean data into your CRM and outreach. Scoped on a free call.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Clay GTM agency",
     "seoDescription": "Clay GTM experts who build enrichment waterfalls, signal tables and Claygent research that push clean data into your CRM and outreach."
@@ -18859,7 +18886,7 @@
     "title": "Cold email agency: we build and run your Instantly outbound system",
     "description": "Cold email agency that builds and runs your Instantly system: domains, warmup and deliverability, Clay lists, sequences, and replies synced to your CRM.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Cold email agency",
     "seoDescription": "Cold email agency that builds and runs your Instantly system: domains, warmup and deliverability, Clay lists, sequences, and replies synced to your CRM."
@@ -18868,7 +18895,7 @@
     "title": "LinkedIn outreach agency: HeyReach campaigns built and run on real signals",
     "description": "LinkedIn outreach agency running HeyReach campaigns across several sender accounts, with signal-based lists, safe limits and replies synced to your CRM.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "LinkedIn outreach agency",
     "seoDescription": "LinkedIn outreach agency running HeyReach campaigns across several sender accounts, with signal-based lists, safe limits and replies synced to your CRM."
@@ -18877,7 +18904,7 @@
     "title": "A ranked AI roadmap, run by a fractional CAIO who ships it",
     "description": "AI strategy consulting that ends in a ranked, scoped roadmap, not a slide deck of trends. Add fractional CAIO oversight for execution and governance.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "AI Strategy Consulting",
     "seoDescription": "AI strategy consulting that ends in a ranked, scoped roadmap, not a slide deck of trends. Add fractional CAIO oversight for execution and governance."
@@ -18886,7 +18913,7 @@
     "title": "AI agent development services, built to survive production",
     "description": "About 88% of enterprise AI proofs of concept never reach production (IDC via bex.co). We build agents with evals, sandboxing and approval gates. Free audit.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "AI Agent Development",
     "seoDescription": "About 88% of enterprise AI proofs of concept never reach production (IDC via bex.co). We build agents with evals, sandboxing and approval gates."
@@ -18895,7 +18922,7 @@
     "title": "Custom workflow automation that connects the tools you already run",
     "description": "Custom workflow automation that connects the tools you already run by API, with retries and failure alerts. A single workflow runs low four figures. Free audit.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Workflow Automation",
     "seoDescription": "Custom workflow automation that connects the tools you already run by API, with retries and failure alerts. A single workflow runs low four figures."
@@ -18904,7 +18931,7 @@
     "title": "Custom AI automation built for one process, not a template",
     "description": "Custom AI automation built around one process your team still runs by hand. AI agents and n8n logic, tested on real cases. Free 30-min roadmap call.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Custom Automation",
     "seoDescription": "Custom AI automation built around one process your team still runs by hand. AI agents and n8n logic, tested on real cases. Free 30-min roadmap call."
@@ -18913,7 +18940,7 @@
     "title": "RAG pipeline architecture: one engineer, a fleet of agents , zero-guess AI",
     "description": "RAG pipeline architecture built by one senior engineer + a fleet of agents. Private retrieval, real citations, zero-guess AI. Book a free call.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "RAG pipeline architecture",
     "seoDescription": "RAG pipeline architecture built by one senior engineer + a fleet of agents. Private retrieval, real citations, zero-guess AI. Book a free call."
@@ -18922,7 +18949,7 @@
     "title": "A working SaaS MVP your first users can log into, in 30 days, at a fixed price",
     "description": "SaaS MVP development agency: one senior engineer and a fleet of AI agents ship your MVP in a fixed-price 30-day sprint, from scoping to QA. Book a free call.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "SaaS Mvp Development",
     "seoDescription": "SaaS MVP development agency: one senior engineer and a fleet of AI agents ship your MVP in a fixed-price 30-day sprint, from scoping to QA."
@@ -18931,7 +18958,7 @@
     "title": "AI automation workshops that teach the fleet-of-agents workflow",
     "description": "Hands-on AI automation workshops where your team builds working AI agents in n8n and Cursor. Tracks for engineers and non-technical staff, remote or on-site.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "AI Workshops",
     "seoDescription": "Hands-on AI automation workshops where your team builds working AI agents in n8n and Cursor. Explore this resource and related guidance on ManasFlow."
@@ -18940,7 +18967,7 @@
     "title": "AI engineer placement inside your team. One engineer, a fleet of agents, placed in 2 to 4 weeks.",
     "description": "Embed an AI-native engineer in your team from $60,000 a year. Placed in 2 to 4 weeks, 90-day replacement guarantee, no recruitment fee. See how it works.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Engineer Placement",
     "seoDescription": "Embed an AI-native engineer in your team from $60,000 a year. Placed in 2 to 4 weeks, 90-day replacement guarantee, no recruitment fee. See how it works."
@@ -18949,7 +18976,7 @@
     "title": "AI developers for hire: hire AI engineers in 2-4 weeks, from $60,000 a year",
     "description": "AI engineers for hire, placed in 2-4 weeks from $60K/year with a 90-day replacement guarantee. Or hire a small AI team. Book a free call.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "AI developers for hire",
     "seoDescription": "AI engineers for hire, placed in 2-4 weeks from $60K/year with a 90-day replacement guarantee. Or hire a small AI team. Book a free call."
@@ -18958,7 +18985,7 @@
     "title": "Corporate AI training built around the fleet-of-agents workflow",
     "description": "Custom AI training built on your own tech stack, n8n, Claude Code, and Cursor, not generic slides. Curriculum for executives, ops, and engineers.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Custom Training",
     "seoDescription": "Custom AI training built on your own tech stack, n8n, Claude Code, and Cursor, not generic slides. Curriculum for executives, ops, and engineers."
@@ -18967,7 +18994,7 @@
     "title": "Automation maintenance: one engineer, a fleet of agents, watching every workflow",
     "description": "Automation maintenance and support so a broken API or silent failure never stalls your business. Monitoring, debugging, and fast fixes. Book a free call.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Automation maintenance",
     "seoDescription": "Automation maintenance and support so a broken API or silent failure never stalls your business. Monitoring, debugging, and fast fixes. Book a free call."
@@ -18976,7 +19003,7 @@
     "title": "OpenClaw & NemoClaw: one engineer, a fleet of agents, locked down",
     "description": "OpenClaw agents secured with our NemoClaw layer: sandboxed execution, policy-as-code, private inference. One engineer, a fleet of agents. Book a free call.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "OpenClaw & NemoClaw",
     "seoDescription": "OpenClaw agents secured with our NemoClaw layer: sandboxed execution, policy-as-code, private inference. One engineer, a fleet of agents. Book a free call."
@@ -18985,7 +19012,7 @@
     "title": "AI automation agency services that ship workflows and agents to production",
     "description": "AI automation agency services: n8n workflows and AI agents built on your stack. Single workflows start in the low four figures and go live in 1 to 2 weeks.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "AI Automation Agency",
     "seoDescription": "AI automation agency services: n8n workflows and AI agents built on your stack. Single workflows start in the low four figures and go live in 1 to 2 weeks."
@@ -18994,7 +19021,7 @@
     "title": "The AI Chatbot Development Agency That Builds LLM Chatbots, Not Chat Widgets",
     "description": "AI chatbot development agency. LLM chatbots wired into your CRM, helpdesk and knowledge base, in English, French and Arabic. Book a free scoping call.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "AI Chatbot Development Agency",
     "seoDescription": "AI chatbot development agency. LLM chatbots wired into your CRM, helpdesk and knowledge base, in English, French and Arabic. Book a free scoping call."
@@ -19003,7 +19030,7 @@
     "title": "The workflow automation agency that builds for month three, not the demo",
     "description": "Workflow automation agency building n8n and custom-code workflows with retries, alerts and monitoring. First workflow live in 1 to 2 weeks. Book a free audit.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Workflow Automation Agency",
     "seoDescription": "Workflow automation agency building n8n and custom-code workflows with retries, alerts and monitoring. First workflow live in 1 to 2 weeks."
@@ -19012,7 +19039,7 @@
     "title": "The AI SaaS development agency that tests your riskiest assumption first",
     "description": "AI SaaS development agency for AI-native products on Next.js, Supabase and Claude. We test your riskiest assumption first, and the code lives in your accounts.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "SaaS Development Agency",
     "seoDescription": "AI SaaS development agency for AI-native products on Next.js, Supabase and Claude. Explore this resource and related guidance on ManasFlow."
@@ -19021,7 +19048,7 @@
     "title": "The no-code agency that tells you when no-code is the wrong answer",
     "description": "No-code development agency honest about limits: Bubble, Lovable, v0, and n8n where they fit, real code where they do not. Production builds, not demos.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "No Code Development Agency",
     "seoDescription": "No-code development agency honest about limits: Bubble, Lovable, v0, and n8n where they fit, real code where they do not. Production builds, not demos."
@@ -19030,7 +19057,7 @@
     "title": "The B2B marketing automation agency that routes every lead in minutes, not days",
     "description": "AI marketing automation agency for B2B and SaaS. Lead routing, CRM sync and lifecycle flows on your current stack. First flow live in 1 to 2 weeks. Free audit.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Marketing Automation Agency",
     "seoDescription": "AI marketing automation agency for B2B and SaaS. Lead routing, CRM sync and lifecycle flows on your current stack. First flow live in 1 to 2 weeks."
@@ -19039,7 +19066,7 @@
     "title": "Next.js AI app development built for production, not the demo reel",
     "description": "Next.js AI app development on Vercel, Supabase and Claude. RAG, agents and AI features with evals, fallbacks and cost controls. Feasibility tested in week one.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Nextjs AI App Development",
     "seoDescription": "Next.js AI app development on Vercel, Supabase and Claude. RAG, agents and AI features with evals, fallbacks and cost controls."
@@ -19048,7 +19075,7 @@
     "title": "AI automation consulting from the people who also build it and keep it running",
     "description": "AI automation consulting from engineers who also build and run it. We rank your workflows by payback, ship the first one, then monitor and maintain it.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "AI Automation Consulting",
     "seoDescription": "AI automation consulting from engineers who also build and run it. We rank your workflows by payback, ship the first one, then monitor and maintain it."
@@ -19057,7 +19084,7 @@
     "title": "AI automation for operations that handles the routine and flags the rest",
     "description": "AI automation for operations teams: document reading, matching, approvals and reporting, with exceptions routed to a person and every step logged.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "AI Automation For Operations",
     "seoDescription": "AI automation for operations teams: document reading, matching, approvals and reporting, with exceptions routed to a person and every step logged."
@@ -19066,7 +19093,7 @@
     "title": "RevOps automation that keeps the CRM clean without a cleanup sprint",
     "description": "RevOps automation with AI: CRM data enrichment and dedupe, lead routing and scoring, pipeline hygiene alerts and clean reporting inputs, with every write logged.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "AI Automation For Revops",
     "seoDescription": "RevOps automation with AI: CRM data enrichment and dedupe, lead routing and scoring, pipeline hygiene alerts and clean reporting inputs, with every write…"
@@ -19075,7 +19102,7 @@
     "title": "AI automation for SaaS teams that keeps the small team small",
     "description": "AI automation for SaaS companies: support triage, onboarding, churn signals, CRM enrichment and sales research, built to write to your systems safely.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "AI Automation For SaaS",
     "seoDescription": "AI automation for SaaS companies: support triage, onboarding, churn signals, CRM enrichment and sales research, built to write to your systems safely."
@@ -19084,7 +19111,7 @@
     "title": "AI Customer Support Agents That Resolve Tickets, Not Just Chat",
     "description": "AI customer support agents that resolve tickets, not just chat: RAG-grounded answers, order/refund actions, and human escalation. Book a free scoping call.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "AI: ai customer support agent development",
     "seoDescription": "AI customer support agents that resolve tickets, not just chat: RAG-grounded answers, order/refund actions, and human escalation. Book a free scoping call."
@@ -19093,7 +19120,7 @@
     "title": "AI implementation that gets past the pilot and into daily use",
     "description": "AI implementation services that take a chosen use case into production: integration, evaluation, monitoring and maintenance by senior engineers.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "AI Implementation Services",
     "seoDescription": "AI implementation services that take a chosen use case into production: integration, evaluation, monitoring and maintenance by senior engineers."
@@ -19102,7 +19129,7 @@
     "title": "AI integration that writes to your systems of record without breaking them",
     "description": "AI integration services that connect models and agents to your CRM, ERP, support desk and databases with scoped access, retries, logging and monitoring.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "AI Integration Services",
     "seoDescription": "AI integration services that connect models and agents to your CRM, ERP, support desk and databases with scoped access, retries, logging and monitoring."
@@ -19111,7 +19138,7 @@
     "title": "AI transformation, one proven workflow at a time, not a big-bang programme",
     "description": "AI transformation consulting that ships: consultants map AI opportunities by role in two weeks, then roll out tools and training one function at a time.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "AI Transformation Consulting",
     "seoDescription": "AI transformation consulting that ships: consultants map AI opportunities by role in two weeks, then roll out tools and training one function at a time."
@@ -19120,7 +19147,7 @@
     "title": "Build or buy your AI agent? Decide on these five questions",
     "description": "Build vs buy AI agents: buy when a tool does 80% of the job and reaches your data. Five questions on fit, cost, control and upkeep, plus two calculators.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Build Vs Buy AI Agents",
     "seoDescription": "Build vs buy AI agents: buy when a tool does 80% of the job and reaches your data. Five questions on fit, cost, control and upkeep, plus two calculators."
@@ -19129,7 +19156,7 @@
     "title": "AI and business process automation that handles the exceptions, not just the happy path",
     "description": "AI automation consulting for business processes: we map the process, fix it, then automate it end to end in 4-8 weeks, with an exception queue and an owner.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Business Process Automation Consulting",
     "seoDescription": "AI automation consulting for business processes: we map the process, fix it, then automate it end to end in 4-8 weeks, with an exception queue…"
@@ -19138,7 +19165,7 @@
     "title": "AI code security audit for Claude Code, Copilot and Cursor",
     "description": "AI code security audit for Claude Code, Copilot and Cursor: secrets, shell commands, MCP servers, prompt injection. Top risks named on a free 30-min call.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "AI code security: claude code security audit",
     "seoDescription": "AI code security audit for Claude Code, Copilot and Cursor: secrets, shell commands, MCP servers, prompt injection. Top risks named on a free 30-min call."
@@ -19147,7 +19174,7 @@
     "title": "Get your whole team productive with Claude Code, not just the one developer who figured it out",
     "description": "Claude Code training for engineering teams: setup workshops, shared CLAUDE.md conventions, non-developer onboarding, and enterprise rollout support.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Claude Code Training",
     "seoDescription": "Claude Code training for engineering teams: setup workshops, shared CLAUDE.md conventions, non-developer onboarding, and enterprise rollout support."
@@ -19156,7 +19183,7 @@
     "title": "CRM implementation services that end with a CRM your reps trust",
     "description": "CRM implementation services for HubSpot, Salesforce, Zoho, Pipedrive and Attio. Setup, data migration, lead routing and automation from one team. Free audit.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "CRM Implementation",
     "seoDescription": "CRM implementation services for HubSpot, Salesforce, Zoho, Pipedrive and Attio. Setup, data migration, lead routing and automation from one team."
@@ -19165,7 +19192,7 @@
     "title": "Custom AI development, built for production from day one",
     "description": "Custom AI development company building agents, AI features and internal tools on your data and systems, with evals, logging and monitoring in production.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Custom AI Development Company",
     "seoDescription": "Custom AI development company building agents, AI features and internal tools on your data and systems, with evals, logging and monitoring in production."
@@ -19174,7 +19201,7 @@
     "title": "Enterprise AI agents that your security team can actually sign off on",
     "description": "Enterprise AI agents built for production: role-based access, audit trails, human approval, monitoring and maintenance. Senior engineers, not a demo.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Enterprise AI Agents",
     "seoDescription": "Enterprise AI agents built for production: role-based access, audit trails, human approval, monitoring and maintenance. Senior engineers, not a demo."
@@ -19183,7 +19210,7 @@
     "title": "Enterprise AI consulting that ends in a system in production",
     "description": "Enterprise AI consulting that ends in production: use case selection, governance, security review and one embedded team shipping the first system.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Enterprise AI Consulting",
     "seoDescription": "Enterprise AI consulting that ends in production: use case selection, governance, security review and one embedded team shipping the first system."
@@ -19192,7 +19219,7 @@
     "title": "Roll MCP out across teams with a policy, not a hundred personal configs",
     "description": "Enterprise MCP implementation: an approved server catalog, identity-based access, audit logging, secrets handling and a phased rollout across teams.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Enterprise MCP Implementation",
     "seoDescription": "Enterprise MCP implementation: an approved server catalog, identity-based access, audit logging, secrets handling and a phased rollout across teams."
@@ -19201,7 +19228,7 @@
     "title": "A forward deployed engineer, embedded in your team with a fleet of AI agents. Not a consultant. Not a deck.",
     "description": "Hire a forward deployed engineer who embeds in your team, directs a fleet of AI agents, and ships production AI. Not a consultant. 2-4 week placement.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Forward Deployed Engineers",
     "seoDescription": "Hire a forward deployed engineer who embeds in your team, directs a fleet of AI agents, and ships production AI. Not a consultant. 2-4 week placement."
@@ -19210,7 +19237,7 @@
     "title": "The GTM agency that builds your outbound system and keeps it running",
     "description": "GTM engineering agency for B2B teams. We build and run signal-based outbound: Clay enrichment, Instantly and HeyReach sequences, replies logged in your CRM.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Gtm Engineering Agency",
     "seoDescription": "GTM engineering agency for B2B teams. We build and run signal-based outbound: Clay enrichment, Instantly and HeyReach sequences, replies logged in your…"
@@ -19219,7 +19246,7 @@
     "title": "Hire a forward deployed engineer without a six month search",
     "description": "How to hire a forward deployed engineer: what to look for, how placement works, the cost from $60,000/year and what the first 30 days look like.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Hire Forward Deployed Engineer",
     "seoDescription": "How to hire a forward deployed engineer: what to look for, how placement works, the cost from $60,000/year and what the first 30 days look like."
@@ -19228,7 +19255,7 @@
     "title": "Hire a GTM engineer who builds the system, not another list",
     "description": "Hire a GTM engineer to build signals, enrichment, CRM hygiene and outbound systems in your team. From $60,000/year, 90-day replacement guarantee.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Hire Gtm Engineer",
     "seoDescription": "Hire a GTM engineer to build signals, enrichment, CRM hygiene and outbound systems in your team. From $60,000/year, 90-day replacement guarantee."
@@ -19237,7 +19264,7 @@
     "title": "MCP servers built for production, not for a demo repo",
     "description": "MCP development company building production Model Context Protocol servers: scoped tools, authentication, logging, tests and maintenance for your systems.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "MCP Development Company",
     "seoDescription": "MCP development company building production Model Context Protocol servers: scoped tools, authentication, logging, tests and maintenance for your systems."
@@ -19246,7 +19273,7 @@
     "title": "n8n consulting for workflows that already exist and keep breaking",
     "description": "n8n consulting for teams with live workflows: architecture review, error handling, credential hygiene, performance tuning and rescue of broken automations.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "n8n Consulting",
     "seoDescription": "n8n consulting for teams with live workflows: architecture review, error handling, credential hygiene, performance tuning and rescue of broken automations."
@@ -19255,7 +19282,7 @@
     "title": "Enterprise automation on n8n, with the operations work that makes it dependable",
     "description": "Enterprise automation runs workflows across teams at volume, under access roles and change control. We set it up on n8n with queue mode and high availability.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "n8n Enterprise Automation",
     "seoDescription": "Enterprise automation runs workflows across teams at volume, under access roles and change control. Find related resources on ManasFlow."
@@ -19264,7 +19291,7 @@
     "title": "Know if your AI product works before you pay to build it",
     "description": "A short product scoping engagement for AI products: we test the riskiest assumption, size the build honestly, and hand you a plan any team could execute.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Product Scoping",
     "seoDescription": "A short product scoping engagement for AI products: we test the riskiest assumption, size the build honestly, and hand you a plan any team could execute."
@@ -19273,7 +19300,7 @@
     "title": "Find where your product loses users",
     "description": "A fixed-scope SaaS UX audit backed by product analytics: where users drop, why, and a prioritized fix list your team can ship. No redesign upsell.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Find where your product loses users",
     "seoDescription": "A fixed-scope SaaS UX audit backed by product analytics: where users drop, why, and a prioritized fix list your team can ship. No redesign upsell."
@@ -19282,7 +19309,7 @@
     "title": "A generative AI development company that tests on your data before launch",
     "description": "We build LLM products that run in production: answers grounded in your documents, agents that work inside your tools, and generative features in a product you already run. Each build starts with a test set of your real examples, so you see how it performs before anyone relies on it.",
     "source": "src/data/manasflow/service-pages.json",
-    "modified": "2026-10-28T22:40:55+01:00",
+    "modified": "2026-11-28T10:26:01+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
     "seoTitle": "Generative AI Development Company",
     "seoDescription": "We build LLM products that run in production: answers grounded in your documents, agents that work inside your tools, and generative features in a product…"
