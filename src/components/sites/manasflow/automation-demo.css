@@ -1,0 +1,223 @@
+.mf-demo-page {
+  color: var(--foreground);
+}
+
+.demo-hero {
+  padding: 128px 0 48px;
+  border-bottom: 1px solid var(--border);
+  background: radial-gradient(ellipse at top, rgba(128, 130, 193, 0.14), transparent 65%);
+}
+
+.demo-hero h1 {
+  margin: 18px 0 14px;
+  font-size: clamp(30px, 4.5vw, 50px);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.demo-lead {
+  max-width: 720px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--muted-foreground);
+  margin-bottom: 18px;
+}
+
+.demo-disclaimer {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 16px;
+  border: 1px solid rgba(128, 130, 193, 0.35);
+  background: rgba(29, 29, 41, 0.7);
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted-foreground);
+}
+
+.demo-disclaimer svg {
+  color: var(--primary-purple);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.demo-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.demo-tabs button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--muted-foreground);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.demo-tabs button.active {
+  border-color: var(--primary-purple);
+  color: #ffffff;
+  background: rgba(128, 130, 193, 0.16);
+}
+
+.demo-grid-panel {
+  display: grid;
+  gap: 24px;
+}
+
+.demo-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.demo-overline {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  color: var(--primary-purple);
+}
+
+.demo-card h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.demo-sample-picks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.demo-sample-picks button {
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted-foreground);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.demo-sample-picks button.selected {
+  border-color: var(--primary-purple);
+  color: #ffffff;
+  background: rgba(128, 130, 193, 0.15);
+}
+
+.demo-input-preview {
+  margin: 0;
+  padding: 14px;
+  border: 1px solid var(--border);
+  background: #0f0f15;
+  color: #e2e8f0;
+  font-family: ui-monospace, monospace;
+  font-size: 13px;
+  line-height: 1.55;
+  white-space: pre-wrap;
+}
+
+.demo-run-btn {
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.demo-kv {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 0;
+}
+
+.demo-kv > div {
+  padding: 12px;
+  border: 1px solid var(--border);
+  background: #14111d;
+}
+
+.demo-kv dt {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted-foreground);
+}
+
+.demo-kv dd {
+  margin: 4px 0 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.demo-decision {
+  display: grid;
+  gap: 6px;
+  padding: 14px;
+  border-left: 2px solid var(--primary-purple);
+  background: rgba(128, 130, 193, 0.08);
+}
+
+.demo-decision strong {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.demo-decision p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted-foreground);
+  margin-bottom: 6px;
+}
+
+.demo-guardrail,
+.demo-placeholder {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--muted-foreground);
+}
+
+.demo-cta-strip {
+  margin-top: 28px;
+  padding: 26px;
+  border: 1px solid var(--border);
+  background: #14111d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+}
+
+.demo-cta-strip h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.demo-cta-strip p {
+  color: var(--muted-foreground);
+  font-size: 14px;
+}
+
+.demo-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+@media (min-width: 900px) {
+  .demo-grid-panel {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

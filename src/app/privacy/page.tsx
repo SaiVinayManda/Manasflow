@@ -44,9 +44,13 @@ const sections: LegalSection[] = [
           Delivering a web page involves connection data such as an IP address,
           requested address, time and browser headers. The hosting provider’s
           actual logging settings and retention need confirmation. Optional
-          first-party Google Analytics measurement loads only when explicitly
-          configured for a deployment. The Cal.com embed script loads on the
-          site, and its scheduling frame opens when you choose to book a call.
+          first-party Google Analytics measurement loads with Google Consent
+          Mode v2 defaults only when explicitly configured, alongside session
+          landing/UTM attribution attached only upon form submission (never PII
+          in analytics). Newsletter recipients may unsubscribe at any time via{" "}
+          <code>/api/newsletter/unsubscribe</code>. The Cal.com embed script
+          loads on the site, and its scheduling frame opens when you choose to
+          book a call.
         </p>
       </>
     ),

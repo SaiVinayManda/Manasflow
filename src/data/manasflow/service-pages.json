@@ -8655,7 +8655,7 @@
     "description": "Embed an AI-native engineer in your team from $60,000 a year. Placed in 2 to 4 weeks, 90-day replacement guarantee, no recruitment fee. See how it works.",
     "badge": "AI engineer placement, from $60K a year",
     "intro": "We embed one AI-native engineer from our own bench in your team. They join your sprint, work in your repo and run a fleet of coding agents to cover a whole team's output. From $60,000 a year, no recruitment fee. Built for teams that want an engineer inside the team, not a project handed off.",
-    "note": "Wrong fit? Within 90 days we replace the engineer at no extra cost. Free 15-min call, no commitment.",
+    "note": "Wrong fit? Within 90 days we replace the engineer at no extra cost. Free 30-min call, no commitment.",
     "centered": false,
     "visualTitle": "What we build",
     "visualItems": [
@@ -8935,7 +8935,7 @@
       },
       {
         "question": "How do we start an AI engineer placement?",
-        "answer": "Book the free 15-minute call on this page. We ask what you are building, your stack and the gap the engineer fills. Within 1 to 2 days we match an engineer from our bench, then agree terms. Most engineers start in your sprint 2 to 4 weeks after that first call, with the 90-day guarantee running from day one."
+        "answer": "Book the free 30-minute call on this page. We ask what you are building, your stack and the gap the engineer fills. Within 1 to 2 days we match an engineer from our bench, then agree terms. Most engineers start in your sprint 2 to 4 weeks after that first call, with the 90-day guarantee running from day one."
       }
     ]
   },
@@ -8945,7 +8945,7 @@
     "title": "AI developers for hire: hire AI engineers in 2-4 weeks, from $60,000 a year",
     "accent": "hire AI engineers in 2-4 weeks, from $60,000 a year",
     "description": "AI engineers for hire, placed in 2-4 weeks from $60K/year with a 90-day replacement guarantee. Or hire a small AI team. Book a free call.",
-    "badge": "Trusted by 30+ companies",
+    "badge": "Trusted by 45+ companies",
     "intro": "Hire AI engineers from our own bench, placed in 2-4 weeks, from $60,000/year. If the fit is wrong, we replace them at no extra cost within 90 days. A comparable US hire takes 3-6 months to start. Need 1 to 5 AI developers? See the Golden Offer.",
     "note": "Free call, no commitment. Wrong fit? Replaced free within 90 days.",
     "centered": false,
@@ -9935,7 +9935,7 @@
     "title": "AI automation agency services that ship workflows and agents to production",
     "accent": "to production",
     "description": "AI automation agency services: n8n workflows and AI agents built on your stack. Single workflows start in the low four figures and go live in 1 to 2 weeks.",
-    "badge": "Trusted by 30+ companies",
+    "badge": "Trusted by 45+ companies",
     "intro": "Our AI automation services build the n8n workflows and AI agents that take manual work off your team, inside the tools you already run. A single workflow starts in the low four figures and goes live in one to two weeks. We do not call it done until it runs on your real data, and we maintain it after launch. For B2B, SaaS and ecommerce teams in the USA and worldwide.",
     "note": "Free audit call. You keep the scoped plan even if you do not hire us.",
     "centered": false,
@@ -10363,7 +10363,7 @@
     "title": "The AI Chatbot Development Agency That Builds LLM Chatbots, Not Chat Widgets",
     "accent": "LLM Chatbots, Not Chat Widgets",
     "description": "AI chatbot development agency. LLM chatbots wired into your CRM, helpdesk and knowledge base, in English, French and Arabic. Book a free scoping call.",
-    "badge": "Trusted by 30+ companies",
+    "badge": "Trusted by 45+ companies",
     "intro": "ManasFlow is an AI chatbot development agency. We design, build, and maintain LLM chatbots wired into your CRM, helpdesk, and internal knowledge, with retrieval that grounds every answer and escalation logic for when the bot hits its limit. Multilingual delivery in English, French, and Arabic.",
     "note": "Free · You keep the scoped plan either way",
     "centered": false,
@@ -13785,7 +13785,7 @@
     "title": "AI Customer Support Agents That Resolve Tickets, Not Just Chat",
     "accent": "Resolve Tickets, Not Just Chat",
     "description": "AI customer support agents that resolve tickets, not just chat: RAG-grounded answers, order/refund actions, and human escalation. Book a free scoping call.",
-    "badge": "Trusted by 30+ companies",
+    "badge": "Trusted by 45+ companies",
     "intro": "ManasFlow builds AI customer support agents grounded in your knowledge base, wired into your helpdesk. The agent answers from your verified docs, takes real actions like order lookups and refunds, and hands off to a human with full context when it should not decide alone.",
     "note": "Free · You keep the scoped plan either way",
     "centered": false,
@@ -18735,9 +18735,9 @@
     "title": "A forward deployed engineer, embedded in your team with a fleet of AI agents. Not a consultant. Not a deck.",
     "accent": "Not a consultant. Not a deck.",
     "description": "Hire a forward deployed engineer who embeds in your team, directs a fleet of AI agents, and ships production AI. Not a consultant. 2-4 week placement.",
-    "badge": "Trusted by 30+ companies",
+    "badge": "Trusted by 45+ companies",
     "intro": "A forward deployed engineer sits inside your team and ships production code instead of a recommendation, directing a fleet of AI agents to cover a team's worth of ground. We place ours in 2-4 weeks, backed by a 90-day guarantee, to build and run the AI agents and automation your business actually needs.",
-    "note": "Free 15-min call · Backed by a 90-day replacement guarantee",
+    "note": "Free 30-min call · Backed by a 90-day replacement guarantee",
     "centered": false,
     "visualTitle": "What we build",
     "visualItems": [

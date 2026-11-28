@@ -107,7 +107,7 @@ export function pageGraph(route: string) {
   const modelApplication = modelApplications[route.split("?")[0]];
   if (product || interactiveTool || modelApplication) {
     const applicationUrl = modelApplication ? absoluteUrl(route.split("?")[0]) : url;
-    graph.push({ "@type": "WebApplication", "@id": `${applicationUrl}#application`, name: product?.name || interactiveTool?.title || modelApplication.name, url: applicationUrl, description: product?.description || interactiveTool?.description || modelApplication.description, applicationCategory: "BusinessApplication", operatingSystem: "Web", publisher: { "@id": organizationId }, offers: { "@type": "Offer", price: "0", priceCurrency: "USD" }, mainEntityOfPage: { "@id": pageId } });
+    graph.push({ "@type": "SoftwareApplication", "@id": `${applicationUrl}#application`, name: product?.name || interactiveTool?.title || modelApplication.name, url: applicationUrl, description: product?.description || interactiveTool?.description || modelApplication.description, applicationCategory: "BusinessApplication", operatingSystem: "Web", provider: { "@id": organizationId }, offers: { "@type": "Offer", price: "0", priceCurrency: "USD" }, mainEntityOfPage: { "@id": pageId } });
   }
   if (modelApplication) {
     const free = route.startsWith("/directory");

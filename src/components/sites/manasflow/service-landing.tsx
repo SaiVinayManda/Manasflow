@@ -3,6 +3,7 @@ import { ActionLink as Link } from "./booking-link";
 import { notFound } from "next/navigation";
 import { ArrowRight, ArrowUpRight, Bot, Check, Code2, GitBranch, Layers3, ShieldCheck, Workflow, X, Zap } from "lucide-react";
 import pageData from "@/data/manasflow/service-pages.json";
+import caseStudiesData from "@/data/manasflow/case-studies.json";
 import { pageMetadata } from "@/lib/metadata";
 import { Badge, CallButton, Reveal } from "./shared";
 import { ContactBooking } from "./company-pages";
@@ -115,6 +116,54 @@ function SourceSection({ section, index, page }: { section: ServiceSection; inde
   </section>;
 }
 
+function RelevantOutcomes({ slug }: { slug: string }) {
+  const lower = slug.toLowerCase();
+  const targetPattern = /engineer|developer|placement/.test(lower)
+    ? "Execution capacity"
+    : /chatbot|support|voice/.test(lower)
+      ? "Growth workflow"
+      : /saas|mvp|nextjs|lovable|bubble|framer|flutterflow|replit|v0|cursor/.test(lower)
+        ? "AI features in product"
+        : /marketing|cold-email|linkedin|clay|hubspot|salesforce|pipedrive|zoho|attio/.test(lower)
+          ? "Growth workflow"
+          : "Documents to Decisions";
+  const matched = caseStudiesData.clients.filter(client => client.pattern === targetPattern).slice(0, 2);
+  if (!matched.length) return null;
+  return (
+    <section className="service-outcomes">
+      <div className="mf-container">
+        <div className="service-section-heading">
+          <p className="service-overline">Verified client work</p>
+          <h2>Related shipped systems</h2>
+          <p>Examples of verified client engagements delivered under the {targetPattern.toLowerCase()} pattern.</p>
+        </div>
+        <div className="service-outcomes-grid">
+          {matched.map(client => (
+            <article key={client.name} className="service-outcome-card">
+              <div className="service-outcome-head">
+                <strong>{client.name}</strong>
+                <span>{client.descriptor}</span>
+              </div>
+              <p>{client.need}</p>
+              <ul>
+                {client.results.slice(0, 3).map(item => (
+                  <li key={item}>
+                    <Check size={15} aria-hidden="true" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <Link href="/case-studies">
+                Explore full case studies <ArrowUpRight size={15} aria-hidden="true" />
+              </Link>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function RelatedServices({ page }: { page: ServicePage }) {
   const agency = page.sourceRoute.startsWith("/agency/");
   const related = pages.filter(candidate => candidate.slug !== page.slug && candidate.sourceRoute.startsWith(agency ? "/agency/" : "/services/")).slice(0, 6);
@@ -134,6 +183,7 @@ export function ServiceLandingPage({ slug }: { slug: string }) {
     </section>
     <div className="service-principles" id="service-details"><div className="mf-container"><span><Code2 size={18} /> Your code. Your infrastructure.</span><span><ShieldCheck size={18} /> Production guardrails.</span><span><Workflow size={18} /> Built around your workflow.</span><span><Zap size={18} /> One accountable engineering team.</span></div></div>
     {page.sections.map((section, index) => <SourceSection key={`${section.title}-${index}`} section={section} index={index} page={page} />)}
+    <RelevantOutcomes slug={page.slug} />
     <ContactBooking />
     <RelatedServices page={page} />
     {page.faqs.length > 0 && <section className="service-faq"><div className="mf-container"><div className="service-faq-heading"><p className="service-overline">Before we build</p><h2>{page.badge} questions</h2><p>Practical answers about scope, delivery, ownership, and working with ManasFlow.</p></div><div className="service-faq-list">{page.faqs.map((faq, index) => <details key={`${faq.question}-${index}`} name={`faq-${page.slug}`} open={index === 0}><summary>{faq.question}<span aria-hidden="true">+</span></summary><p>{faq.answer}</p></details>)}</div></div></section>}

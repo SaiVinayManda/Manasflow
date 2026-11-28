@@ -94,6 +94,9 @@ export const resourceGroups: NavigationGroup[] = [
   ] },
   { title: "Explore", links: [
     { label: "Industries", detail: "Automation for your business sector", href: "/industries" },
+    { label: "Interactive Demo", detail: "Simulated lead, invoice & support triage workflows", href: "/automation-demo" },
+    { label: "Solutions Advisor", detail: "Match bottlenecks to services & case studies", href: "/advisor" },
+    { label: "Security & Delivery", detail: "Infrastructure, credentials & human-in-loop gates", href: "/security" },
     { label: "Case Studies", detail: "Implementation patterns and examples", href: "/case-studies" },
     { label: "Courses", detail: "Practical AI learning paths", href: "/courses" },
     { label: "No-Code Stack", detail: "Tools for building connected products", href: "/resources/no-code-stack" },

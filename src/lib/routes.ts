@@ -7,7 +7,7 @@ import supplementalPages from "@/data/manasflow/supplemental-pages.json";
 
 export const FIXED_ROUTES = [
   "/", "/industries", "/blog", "/case-studies", "/playbooks", "/courses", "/faq", "/contact", "/careers", "/services",
-  "/tools", "/platform", "/models", "/free-models", "/directory", "/ai-model-comparison", "/ai-model-pricing-index", "/models/pricing", "/models/compare",
+  "/tools", "/platform", "/security", "/automation-demo", "/advisor", "/models", "/free-models", "/directory", "/ai-model-comparison", "/ai-model-pricing-index", "/models/pricing", "/models/compare",
   "/consultation", "/golden-offer", "/privacy", "/terms", "/cookies", "/privacy-policy", "/cookie-policy",
 ];
 

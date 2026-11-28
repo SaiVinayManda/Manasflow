@@ -195,7 +195,7 @@ function FooterColumn({ title, links, children, className = "" }: { title: strin
   return <div className={`mf-footer-cell ${className}`}><p className="mf-menu-label">{title}</p><div className="mf-footer-cell-content">{links && <ul>{links.map(([label, href]) => <li key={label}><Link href={href}>{label}</Link></li>)}</ul>}{children}</div></div>;
 }
 
-const resourceLinks: FooterLink[] = [["Workflows", "/workflows"], ["AI Tools Directory", "/ai-tools"], ["Bot Directory", "/bot-directory"], ["Skills & Agents", "/skills"], ["Industries", `/industries`], ["Blog", `/blog`], ["Case Studies", `/case-studies`], ["Playbooks", `/playbooks`], ["Courses", `/courses`], ["FAQ", "/faq"], ["Contact Us", "/contact"], ["Careers", "/careers"]];
+const resourceLinks: FooterLink[] = [["Workflows", "/workflows"], ["Automation Demo", "/automation-demo"], ["Solutions Advisor", "/advisor"], ["AI Tools Directory", "/ai-tools"], ["Bot Directory", "/bot-directory"], ["Skills & Agents", "/skills"], ["Security & Delivery", "/security"], ["Industries", `/industries`], ["Blog", `/blog`], ["Case Studies", `/case-studies`], ["Playbooks", `/playbooks`], ["Courses", `/courses`], ["FAQ", "/faq"], ["Contact Us", "/contact"], ["Careers", "/careers"]];
 const summaries = [
   ["Directory", "689246be4a5f38523c0c038a_chat-gpt-summary.svg", "/directory"],
   ["Compare", "689246be2ac20799fd1b6571_claude-summary.svg", "/ai-model-comparison"],

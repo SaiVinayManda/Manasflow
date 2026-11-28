@@ -3,12 +3,15 @@ import { site } from "./site";
 import { canonicalRoute, NOINDEX_ROUTES } from "./seo-routes";
 import content from "@/data/manasflow/seo-content.json";
 import hubMetadataData from "@/data/manasflow/hub-metadata.json";
+import { getToolProduct, toolCardUrl } from "./tool-products";
 
 export function pageMetadata(title: string, description: string, route: string): Metadata {
   route = canonicalRoute(route);
   const url = new URL(route, site.url).href;
   const record = (content as Record<string, { description: string; seoTitle?: string; seoDescription?: string }>)[route];
   const hub = (hubMetadataData as Record<string, { title: string; description: string }>)[route];
+  const tool = getToolProduct(route);
+  const socialImage = tool ? toolCardUrl(tool.slug) : "/sites/manasflow/social-card.png";
   const pageTitle = `${(hub?.title || record?.seoTitle || title).replace(/\s*\|\s*ManasFlow$/i, "")} | ${site.name}`;
   const summary = hub?.description || record?.seoDescription || description || record?.description || `${title}. Explore practical AI automation resources, implementation guidance, and engineering with ${site.name}.`;
   return {
@@ -22,9 +25,9 @@ export function pageMetadata(title: string, description: string, route: string):
       title: pageTitle,
       description: summary,
       url,
-      images: [{ url: "/sites/manasflow/social-card.png", width: 1200, height: 630, alt: `${site.name} — AI automation and engineering` }],
+      images: [{ url: socialImage, width: 1200, height: 630, alt: `${site.name} — ${tool ? tool.title : "AI automation and engineering"}` }],
     },
-    twitter: { card: "summary_large_image", title: pageTitle, description: summary, images: ["/sites/manasflow/social-card.png"] },
+    twitter: { card: "summary_large_image", title: pageTitle, description: summary, images: [socialImage] },
   };
 }
 

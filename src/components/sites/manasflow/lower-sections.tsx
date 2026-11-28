@@ -115,7 +115,7 @@ export function Consultation() {
         </div>
         <div className="lower-consultation-form"><BookingCard id="strategy-request" /></div>
       </Reveal>
-      <Reveal className="lower-consultation-notes"><span><Clock size={16} />A practical working session</span><span><Zap size={16} />No commitment required</span><span><CircleCheckBig size={16} />A roadmap you can keep</span></Reveal>
+      <Reveal className="lower-consultation-notes"><span><Clock size={16} />US morning (ET/CT/PT) &amp; EU overlap</span><span><Zap size={16} />No commitment required</span><span><CircleCheckBig size={16} />A roadmap you can keep</span><span><ShieldCheck size={16} />Senior engineer led</span></Reveal>
     </div>
   </section>;
 }
