@@ -96,17 +96,24 @@ function ScrollStory() {
   const ref = useRef<HTMLDivElement>(null);
   const [progress, setProgress] = useState(0);
   useEffect(() => {
+    const node = ref.current;
+    if (!node || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     let frame = 0;
+    let nearViewport = false;
+    let previous = -1;
     const update = () => {
-      cancelAnimationFrame(frame);
+      if (!nearViewport || frame || document.visibilityState === "hidden") return;
       frame = requestAnimationFrame(() => {
-        if (!ref.current) return;
-        const bounds = ref.current.getBoundingClientRect();
-        setProgress(Math.min(1, Math.max(0, -bounds.top / Math.max(1, bounds.height - window.innerHeight))));
+        frame = 0;
+        const bounds = node.getBoundingClientRect();
+        const next = Math.round(Math.min(1, Math.max(0, -bounds.top / Math.max(1, bounds.height - window.innerHeight))) * 200) / 200;
+        if (next !== previous) { previous = next; setProgress(next); }
       });
     };
-    update(); window.addEventListener("scroll", update, { passive: true }); window.addEventListener("resize", update);
-    return () => { cancelAnimationFrame(frame); window.removeEventListener("scroll", update); window.removeEventListener("resize", update); };
+    const observer = new IntersectionObserver(([entry]) => { nearViewport = entry.isIntersecting; if (nearViewport) update(); }, { rootMargin: "100% 0px" });
+    observer.observe(node);
+    window.addEventListener("scroll", update, { passive: true }); window.addEventListener("resize", update);
+    return () => { observer.disconnect(); cancelAnimationFrame(frame); window.removeEventListener("scroll", update); window.removeEventListener("resize", update); };
   }, []);
   const active = Math.min(4, Math.floor(progress * 5));
   const wordProgress = Math.min(1, (progress * 5 - active) / .8);

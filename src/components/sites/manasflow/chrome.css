@@ -568,9 +568,17 @@
   right: -50%;
   height: 50%;
   opacity: .1;
-  background: linear-gradient(to right, #9fa3f31a 1px, transparent 1px), linear-gradient(to bottom, #9fa3f31a 1px, transparent 1px), linear-gradient(to bottom, transparent 50%, #8082c140);
-  background-size: 40px 40px, 40px 40px, 100% 100%;
+  overflow: hidden;
+  background: linear-gradient(to bottom, transparent 50%, #8082c140);
   z-index: -1;
+}
+
+.mf-deploy-grid::before {
+  content: "";
+  position: absolute;
+  inset: -40px 0 0;
+  background: linear-gradient(to right, #9fa3f31a 1px, transparent 1px), linear-gradient(to bottom, #9fa3f31a 1px, transparent 1px);
+  background-size: 40px 40px;
   animation: mf-grid-scroll 4s linear infinite;
 }
 
@@ -586,6 +594,9 @@
   transform: rotateX(-20deg) scale(2) translateZ(-200px);
   transform-origin: top;
   mask-image: linear-gradient(to bottom, black, transparent);
+}
+
+.mf-deploy-grid-bottom::before {
   animation-direction: reverse;
 }
 
@@ -1101,7 +1112,7 @@
 
 @keyframes mf-grid-scroll {
   to {
-    background-position: 0 40px, 0 40px, 0 0;
+    transform: translateY(40px);
   }
 }
 
@@ -1313,7 +1324,7 @@
 @media (prefers-reduced-motion:reduce) {
 
   .mf-floating-tools>a,
-  .mf-deploy-grid {
+  .mf-deploy-grid::before {
     animation: none;
   }
 
