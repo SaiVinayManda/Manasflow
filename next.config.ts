@@ -15,7 +15,7 @@ const nextConfig: NextConfig = {
     const gaConnect = hasGa ? " https://www.google-analytics.com https://region1.google-analytics.com" : "";
     const scriptPolicy =
       process.env.NODE_ENV === "production"
-        ? `'self' 'unsafe-inline' https://app.cal.com https://cal.com${gaScript}`
+        ? `'self' 'unsafe-inline' https://app.cal.com https://cal.com https://va.vercel-scripts.com${gaScript}`
         : `'self' 'unsafe-inline' 'unsafe-eval' https://app.cal.com https://cal.com https://va.vercel-scripts.com${gaScript}`;
     return [
       {
@@ -23,7 +23,7 @@ const nextConfig: NextConfig = {
         headers: [
           {
             key: "Content-Security-Policy",
-            value: `default-src 'self'; script-src ${scriptPolicy}; style-src 'self' 'unsafe-inline'; img-src 'self' data:${gaConnect}; font-src 'self' https://cal.com https://app.cal.com; connect-src 'self' https://app.cal.com https://cal.com${gaConnect}; media-src 'self'; frame-src https://app.cal.com https://cal.com; object-src 'none'; base-uri 'self'; form-action 'self' mailto: https://cal.com https://app.cal.com; frame-ancestors 'none'`,
+            value: `default-src 'self'; script-src ${scriptPolicy}; style-src 'self' 'unsafe-inline'; img-src 'self' data:${gaConnect}; font-src 'self' https://cal.com https://app.cal.com; connect-src 'self' https://app.cal.com https://cal.com https://vitals.vercel-insights.com${gaConnect}; media-src 'self'; frame-src https://app.cal.com https://cal.com; object-src 'none'; base-uri 'self'; form-action 'self' mailto: https://cal.com https://app.cal.com; frame-ancestors 'none'`,
           },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
           { key: "X-Content-Type-Options", value: "nosniff" },

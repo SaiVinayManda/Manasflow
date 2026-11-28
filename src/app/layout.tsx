@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import localFont from "next/font/local";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Header, Footer } from "@/components/sites/manasflow/chrome";
 import { site } from "@/lib/site";
 import { HubNavigation } from "@/components/seo/hub-navigation";
@@ -70,6 +71,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <FloatingWhatsApp />
       {gaId && <ConsentBanner />}
       <Analytics />
+      <SpeedInsights />
     </body>
   </html>;
 }
