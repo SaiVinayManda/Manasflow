@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
     const scriptPolicy =
       process.env.NODE_ENV === "production"
         ? `'self' 'unsafe-inline' https://app.cal.com https://cal.com${gaScript}`
-        : `'self' 'unsafe-inline' 'unsafe-eval' https://app.cal.com https://cal.com${gaScript}`;
+        : `'self' 'unsafe-inline' 'unsafe-eval' https://app.cal.com https://cal.com https://va.vercel-scripts.com${gaScript}`;
     return [
       {
         source: "/:path*",

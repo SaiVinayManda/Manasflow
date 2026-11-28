@@ -96,11 +96,14 @@ export function trackEvent(
     sentEventIds.add(options.eventId);
     if (sentEventIds.size > 500) sentEventIds.clear();
   }
-  const gtag = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
-  if (typeof gtag !== "function") return;
   const sanitized = sanitizeAnalyticsParams({
     ...params,
     ...(options?.eventId ? { event_id: options.eventId } : {}),
   });
-  gtag("event", event, sanitized);
+  const win = window as Window & {
+    gtag?: (...args: unknown[]) => void;
+    va?: (command: "event" | "beforeSend" | "pageview", options?: Record<string, unknown>) => void;
+  };
+  if (typeof win.gtag === "function") win.gtag("event", event, sanitized);
+  if (typeof win.va === "function") win.va("event", { name: event, ...(sanitized && Object.keys(sanitized).length ? { data: sanitized } : {}) });
 }

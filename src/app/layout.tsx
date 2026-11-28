@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import dynamic from "next/dynamic";
 import localFont from "next/font/local";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import { Header, Footer } from "@/components/sites/manasflow/chrome";
 import { site } from "@/lib/site";
 import { HubNavigation } from "@/components/seo/hub-navigation";
@@ -68,6 +69,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <div data-nosnippet=""><Footer navigation={<HubNavigation placement="footer" />} /></div>
       <FloatingWhatsApp />
       {gaId && <ConsentBanner />}
+      <Analytics />
     </body>
   </html>;
 }
