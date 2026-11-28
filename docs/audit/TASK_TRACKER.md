@@ -12,11 +12,11 @@
 | --- | --- | --- | --- | --- | --- |
 | T1.1 | Phase 1 | P0 | Inspect repo, live production site, layout across 7 viewports, tests & Lighthouse | Completed | Baseline verified against `012ed1a` & `https://manasflow.com` |
 | T1.2 | Phase 1 | P0 | Create `BASELINE_AUDIT.md`, `IMPLEMENTATION_PLAN.md`, `TASK_TRACKER.md` & feature branch | Completed | Feature branch `feat/master-improvement-plan` |
-| T2.1 | Phase 2 | P0 | Persist-first lead store, attribution helper, scoring, rate limiting, spam protection & retry | Pending | Needs live `SUPABASE_*` / `RESEND_API_KEY` / `CONTACT_WEBHOOK_URL` in prod |
-| T2.2 | Phase 2 | P0 | Upgrade `/api/contact`, `ContactForm` (`?service=`, optional fields, confirmation), `BlueprintForm`, `CareerApplication` | Pending | |
-| T2.3 | Phase 2 | P0 | Upgrade `/api/newsletter` (consent, duplicate guard, rate limit) & `/api/newsletter/unsubscribe` | Pending | Live ESP credentials needed in prod |
-| T2.4 | Phase 2 | P0 | Typed analytics (`analytics.ts`), Consent Mode v2 banner, Cal SDK `booking_completed` & `/api/webhooks/cal` | Pending | `NEXT_PUBLIC_GA_MEASUREMENT_ID` & `CAL_WEBHOOK_SECRET` needed in prod |
-| T2.5 | Phase 2 | P0 | Automated tests for lead capture, newsletter, webhook signature, attribution & analytics (`test-lead-capture.mjs`) | Pending | |
+| T2.1 | Phase 2 | P0 | Persist-first lead store, attribution helper, scoring, rate limiting, spam protection & retry | Completed | Added Supabase/webhook/dev JSONL persistence, HMAC headers, retries, rate limits & spam guard |
+| T2.2 | Phase 2 | P0 | Upgrade `/api/contact`, `ContactForm` (`?service=`, optional fields, confirmation), `BlueprintForm`, `CareerApplication` | Completed | All `mailto:`-only forms converted to API-first with honest `mailto:` fallback |
+| T2.3 | Phase 2 | P0 | Upgrade `/api/newsletter` (consent, duplicate guard, rate limit) & `/api/newsletter/unsubscribe` | Completed | Added consent timestamp, duplicate window, honeypot & unsubscribe endpoint |
+| T2.4 | Phase 2 | P0 | Typed analytics (`analytics.ts`), Consent Mode v2 banner, Cal SDK `booking_completed` & `/api/webhooks/cal` | Completed | 21 typed events, PII scrubber, eventId dedup, Consent Mode v2, HMAC Cal webhook |
+| T2.5 | Phase 2 | P0 | Automated tests for lead capture, newsletter, webhook signature, attribution & analytics (`test-lead-capture.mjs`) | Completed | Passed all 10 unit/integration assertions |
 | T3.1 | Phase 3 | P1 | Clean remaining `30+` & `15-min` inconsistencies in `service-pages.json` + regenerate SEO data | Pending | |
 | T3.2 | Phase 3 | P1 | Preserve `?service=` context on CTA links to `/contact` & standardize CTA tracking | Pending | |
 | T3.3 | Phase 3 | P1 | Surface matched verified case studies across commercial service landing pages | Pending | |

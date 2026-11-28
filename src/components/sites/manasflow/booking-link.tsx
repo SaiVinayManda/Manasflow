@@ -40,7 +40,10 @@ export function BookingLink({ children, onClick, onMouseEnter, withWhatsApp = fa
     const onKeyDown = (keyEvent: KeyboardEvent) => { if (keyEvent.key === "Escape") finish(); };
     const onCalEvent = (calEvent: EmbedEvent<"*">) => {
       const action = calEvent.detail.type;
-      if (["linkReady", "bookerReady", "bookerReopened", "__closeIframe"].includes(action)) finish();
+      if (["bookingSuccessful", "bookingSuccessfulV2"].includes(action)) {
+        (window as Window & { gtag?: (...args: unknown[]) => void }).gtag?.("event", "booking_completed", { source: "cal_embed" });
+        finish();
+      } else if (["linkReady", "bookerReady", "bookerReopened", "__closeIframe"].includes(action)) finish();
       else if (action === "linkFailed") fallback();
     };
     const timeout = window.setTimeout(fallback, CAL_LOAD_TIMEOUT_MS);

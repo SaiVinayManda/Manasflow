@@ -1,0 +1,58 @@
+.mf-consent-banner {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  z-index: 45;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(173, 148, 255, 0.28);
+  background: rgba(15, 15, 22, 0.96);
+  color: #e2e8f0;
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.45);
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+
+.mf-consent-banner a {
+  color: #c4b5fd;
+  text-decoration: underline;
+}
+
+.mf-consent-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.mf-consent-actions button {
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.mf-consent-decline {
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  background: transparent;
+  color: #e2e8f0;
+}
+
+.mf-consent-accept {
+  border: 1px solid #9673f8;
+  background: #7c3aed;
+  color: #ffffff;
+}
+
+@media (max-width: 640px) {
+  .mf-consent-banner {
+    right: 16px;
+    left: 16px;
+    bottom: 76px;
+    max-width: none;
+  }
+}

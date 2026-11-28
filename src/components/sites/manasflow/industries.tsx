@@ -1,49 +1,111 @@
 "use client";
 
 import { ActionLink as Link } from "./booking-link";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { FormEvent, KeyboardEvent } from "react";
 import { ArrowRight, ArrowUpRight, Bot, CheckCircle2, Database, GitBranch, Layers3, Network, ShieldCheck, Sparkles, Workflow } from "lucide-react";
 import data from "@/data/manasflow/industries.json";
 import { Badge, Reveal, SiteImage } from "./shared";
 import { SubpageHero } from "./subpage-shared";
+import { trackEvent } from "@/lib/analytics";
+import { createSubmissionKey, getAttribution } from "@/lib/attribution";
 import "./industries.css";
 
 type Industry = typeof data.industries[number];
 
 function BlueprintForm({ industry }: { industry: Industry }) {
+  const [status, setStatus] = useState<"idle" | "submitting" | "sent" | "draft" | "error">("idle");
+  const [error, setError] = useState("");
   const [draft, setDraft] = useState("");
-  function submit(event: FormEvent<HTMLFormElement>) {
+  const loadedAtRef = useRef<number>(0);
+  const keyRef = useRef<string>("");
+  useEffect(() => {
+    loadedAtRef.current = Date.now();
+    keyRef.current = createSubmissionKey("blueprint");
+  }, []);
+
+  async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const fields = new FormData(event.currentTarget);
+    const formEl = event.currentTarget;
+    const fields = new FormData(formEl);
+    const name = String(fields.get("name") || "").trim();
+    const email = String(fields.get("email") || "").trim();
+    const company = String(fields.get("company") || "").trim();
+    const service = String(fields.get("service") || "").trim();
+    const budget = String(fields.get("budget") || "").trim();
+    const details = String(fields.get("details") || "").trim();
+    const trap = String(fields.get("contact_trap") || "");
     const body = [
       `Industry: ${industry.label}`,
-      `Name: ${String(fields.get("name") || "")}`,
-      `Email: ${String(fields.get("email") || "")}`,
-      `Company: ${String(fields.get("company") || "")}`,
-      `Service: ${String(fields.get("service") || "")}`,
-      `Budget: ${String(fields.get("budget") || "")}`,
+      `Name: ${name}`,
+      `Email: ${email}`,
+      `Company: ${company || "Not specified"}`,
+      `Service: ${service || "Not specified"}`,
+      `Budget: ${budget || "Not specified"}`,
       "",
-      String(fields.get("details") || ""),
+      details,
     ].join("\n");
-    const href = `mailto:info@manasflow.com?subject=${encodeURIComponent(`${industry.label} automation blueprint`)}&body=${encodeURIComponent(body)}`;
-    setDraft(href);
-    window.location.href = href;
+    const mailtoHref = `mailto:info@manasflow.com?subject=${encodeURIComponent(`${industry.label} automation blueprint`)}&body=${encodeURIComponent(body)}`;
+
+    setStatus("submitting");
+    setError("");
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          kind: "industry-blueprint",
+          industry: industry.label,
+          name,
+          email,
+          company,
+          service: service || `${industry.label} Blueprint`,
+          budget,
+          details: details || `${industry.label} automation blueprint request`,
+          contact_trap: trap,
+          formLoadedAt: loadedAtRef.current,
+          idempotencyKey: keyRef.current,
+          attribution: getAttribution(),
+        }),
+      });
+      const resData = (await response.json().catch(() => ({}))) as { ok?: boolean; fallback?: string; error?: string };
+      if (response.ok && resData.ok) {
+        trackEvent("generate_lead", { source: "industry_blueprint", industry: industry.label }, { eventId: keyRef.current });
+        keyRef.current = createSubmissionKey("blueprint");
+        setStatus("sent");
+        formEl.reset();
+        return;
+      }
+      if (resData.fallback === "mailto") {
+        setDraft(mailtoHref);
+        setStatus("draft");
+        window.location.href = mailtoHref;
+        return;
+      }
+      trackEvent("form_error", { form_name: "industry_blueprint", status: response.status });
+      setStatus("error");
+      setError(resData.error || "Unable to submit right now. Please email info@manasflow.com.");
+    } catch {
+      setDraft(mailtoHref);
+      setStatus("draft");
+      window.location.href = mailtoHref;
+    }
   }
   return <form className="mf-industry-form" onSubmit={submit}>
     <h3><Sparkles size={20} />Request Your {industry.label} Blueprint</h3>
+    <input name="contact_trap" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: "absolute", left: "-9999px", width: 1, height: 1 }} />
     <div className="mf-industry-form-pair">
-      <label>Name<input required name="name" autoComplete="name" placeholder="Your Name" /></label>
-      <label>Email<input required type="email" name="email" autoComplete="email" placeholder="work@company.com" /></label>
+      <label>Name *<input required name="name" autoComplete="name" placeholder="Your Name" /></label>
+      <label>Work Email *<input required type="email" name="email" autoComplete="email" placeholder="work@company.com" /></label>
     </div>
-    <label>Company<input name="company" autoComplete="organization" placeholder="Company Name" /></label>
+    <label>Company (Optional)<input name="company" autoComplete="organization" placeholder="Company Name" /></label>
     <div className="mf-industry-form-pair">
-      <label>Service<select name="service" defaultValue=""><option value="" disabled>Select Service</option><option>Workflow Automation</option><option>Custom AI Agents</option><option>AI Strategy</option></select></label>
-      <label>Budget<select name="budget" defaultValue=""><option value="" disabled>Budget Range</option><option>$5k - $15k</option><option>$15k - $50k</option><option>$50k+</option></select></label>
+      <label>Service<select name="service" defaultValue=""><option value="">Select Service</option><option>Workflow Automation</option><option>Custom AI Agents</option><option>AI Strategy</option></select></label>
+      <label>Budget (Optional)<select name="budget" defaultValue=""><option value="">Prefer not to share / TBD</option><option>$5k - $15k</option><option>$15k - $50k</option><option>$50k+</option></select></label>
     </div>
     <label>Project Details<textarea name="details" placeholder="Tell us about your bottlenecks..." /></label>
-    <button type="submit">Get My Blueprint<ArrowRight size={16} /></button>
-    <p className="mf-industry-form-note" role="status" data-nosnippet="">{draft ? <>Your email request is ready. <a href={draft}>Open it in your email app</a>.</> : "Opens an email request to info@manasflow.com."}</p>
+    <button type="submit" disabled={status === "submitting"}>{status === "submitting" ? "Sending request..." : <>Get My Blueprint<ArrowRight size={16} /></>}</button>
+    <p className="mf-industry-form-note" role="status" data-nosnippet="">{status === "error" ? error : status === "sent" ? "Request submitted! Our engineering team will reply within one business day." : status === "draft" && draft ? <>Direct delivery is offline here. <a href={draft}>Open the draft in your email app</a>.</> : "Submits directly to our engineering team for a tailored roadmap."}</p>
   </form>;
 }
 

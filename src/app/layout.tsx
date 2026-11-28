@@ -4,6 +4,7 @@ import Script from "next/script";
 import { Header, Footer } from "@/components/sites/manasflow/chrome";
 import { site } from "@/lib/site";
 import { HubNavigation } from "@/components/seo/hub-navigation";
+import { AttributionTracker, ConsentBanner } from "@/components/sites/manasflow/consent-banner";
 import { FloatingWhatsApp } from "@/components/sites/manasflow/whatsapp-contact";
 import "./globals.css";
 import "@/components/sites/manasflow/whatsapp-contact.css";
@@ -51,14 +52,17 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return <html lang="en" className={`dark ${lexend.variable}`}>
     <body>
       {gaId && <>
+        <Script id="ga4-consent-default" strategy="beforeInteractive">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});`}</Script>
         <Script src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} strategy="afterInteractive" />
-        <Script id="ga4-init" strategy="afterInteractive">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${gaId}');`}</Script>
+        <Script id="ga4-init" strategy="afterInteractive">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}try{var c=localStorage.getItem('mf_analytics_consent_v1');if(c==='granted')gtag('consent','update',{analytics_storage:'granted'});}catch(e){}gtag('js',new Date());gtag('config','${gaId}',{anonymize_ip:true});`}</Script>
       </>}
+      <AttributionTracker />
       <a href="#main" className="skip-link" data-nosnippet=""><span data-nosnippet="">Skip to content</span></a>
       <Header navigation={<HubNavigation placement="header" />} />
       <main id="main">{children}</main>
       <div data-nosnippet=""><Footer navigation={<HubNavigation placement="footer" />} /></div>
       <FloatingWhatsApp />
+      {gaId && <ConsentBanner />}
     </body>
   </html>;
 }

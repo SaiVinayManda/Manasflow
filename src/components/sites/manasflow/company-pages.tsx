@@ -1,13 +1,14 @@
 "use client";
 
 import { ActionLink as Link } from "./booking-link";
-import { useId, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import type { FormEvent, ReactNode } from "react";
 import { ArrowRight, ArrowUpRight, Bot, Building2, Check, ChevronDown, CircleCheckBig, Clock, Code2, Cpu, Earth, FileText, GraduationCap, Layers3, Lock, Mail, Mic, ShieldCheck, Truck, Users, Video, Workflow, Zap } from "lucide-react";
 import data from "@/data/manasflow/company-pages.json";
 import { Badge, CallButton, Reveal, SectionHeading, SiteImage, asset } from "./shared";
 import { BookingCard } from "./booking-link";
 import { trackEvent } from "@/lib/analytics";
+import { createSubmissionKey, getAttribution } from "@/lib/attribution";
 import { site } from "@/lib/site";
 import "./company-pages.css";
 import "./lower-sections.css";
@@ -85,9 +86,47 @@ export function ContactBooking() {
   </section>;
 }
 
+const BASE_SERVICES = [
+  "AI Agent Development",
+  "Business Automation",
+  "Workflow Automation",
+  "Engineer Placement",
+  "Custom AI Solutions",
+  "AI Voice Agents",
+  "Lead Qualification",
+  "SaaS MVP Development",
+];
+
 function ContactForm() {
   const [status, setStatus] = useState<"idle" | "submitting" | "sent" | "draft" | "error">("idle");
   const [error, setError] = useState("");
+  const [selectedService, setSelectedService] = useState("");
+  const [submittedService, setSubmittedService] = useState("");
+  const [showOptional, setShowOptional] = useState(false);
+  const startedRef = useRef(false);
+  const loadedAtRef = useRef<number>(0);
+  const submissionKeyRef = useRef<string>("");
+
+  useEffect(() => {
+    loadedAtRef.current = Date.now();
+    submissionKeyRef.current = createSubmissionKey("contact");
+    const params = new URLSearchParams(window.location.search);
+    const paramService = (params.get("service") || params.get("topic") || "").trim();
+    if (!paramService) return;
+    const match = BASE_SERVICES.find(item => item.toLowerCase() === paramService.toLowerCase());
+    const frame = requestAnimationFrame(() => setSelectedService(match || paramService));
+    return () => cancelAnimationFrame(frame);
+  }, []);
+
+  const serviceOptions = selectedService && !BASE_SERVICES.includes(selectedService)
+    ? [selectedService, ...BASE_SERVICES]
+    : BASE_SERVICES;
+
+  function markStarted() {
+    if (startedRef.current) return;
+    startedRef.current = true;
+    trackEvent("form_start", { form_name: "contact" });
+  }
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -96,46 +135,112 @@ function ContactForm() {
     const name = String(form.get("name") || "").trim();
     const email = String(form.get("email") || "").trim();
     const company = String(form.get("company") || "").trim();
-    const service = String(form.get("service") || "").trim();
+    const website = String(form.get("website") || "").trim();
+    const phone = String(form.get("phone") || "").trim();
+    const service = String(form.get("service") || selectedService || "").trim();
     const budget = String(form.get("budget") || "").trim();
+    const timeline = String(form.get("timeline") || "").trim();
     const details = String(form.get("details") || "").trim();
+    const honeypot = String(form.get("contact_trap") || "");
 
     setStatus("submitting");
     setError("");
+
+    const payload = {
+      kind: "contact",
+      name,
+      email,
+      company,
+      website,
+      phone,
+      service,
+      budget,
+      timeline,
+      details,
+      contact_trap: honeypot,
+      formLoadedAt: loadedAtRef.current,
+      idempotencyKey: submissionKeyRef.current,
+      attribution: getAttribution(),
+    };
 
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ kind: "contact", name, email, company, service, budget, details }),
+        body: JSON.stringify(payload),
       });
       const result = (await response.json().catch(() => ({}))) as { ok?: boolean; fallback?: string; error?: string };
       if (response.ok && result.ok) {
-        trackEvent("generate_lead", { source: "contact_form", service });
+        trackEvent("generate_lead", { source: "contact_form", service }, { eventId: submissionKeyRef.current });
+        setSubmittedService(service);
         setStatus("sent");
+        submissionKeyRef.current = createSubmissionKey("contact");
         formElement.reset();
         return;
       }
       if (result.fallback === "mailto") {
-        openEmail(`Project enquiry: ${company}`, `Hello ManasFlow,\n\nName: ${name}\nEmail: ${email}\nCompany: ${company}\nService: ${service}\nProject budget: ${budget || "Not specified"}\n\nProject details:\n${details}`);
-        trackEvent("generate_lead", { source: "contact_form_mailto", service });
+        openEmail(`Project enquiry: ${company || name}`, `Hello ManasFlow,\n\nName: ${name}\nEmail: ${email}\nCompany: ${company || "Not specified"}\nWebsite: ${website || "Not specified"}\nPhone: ${phone || "Not specified"}\nService: ${service}\nTimeline: ${timeline || "Not specified"}\nProject budget: ${budget || "Not specified"}\n\nProject details:\n${details}`);
+        setSubmittedService(service);
         setStatus("draft");
         return;
       }
+      trackEvent("form_error", { form_name: "contact", status: response.status });
       setStatus("error");
       setError(result.error || "Unable to send your enquiry right now. Please email info@manasflow.com.");
     } catch {
-      openEmail(`Project enquiry: ${company}`, `Hello ManasFlow,\n\nName: ${name}\nEmail: ${email}\nCompany: ${company}\nService: ${service}\nProject budget: ${budget || "Not specified"}\n\nProject details:\n${details}`);
+      openEmail(`Project enquiry: ${company || name}`, `Hello ManasFlow,\n\nName: ${name}\nEmail: ${email}\nCompany: ${company || "Not specified"}\nService: ${service}\nProject budget: ${budget || "Not specified"}\n\nProject details:\n${details}`);
       setStatus("draft");
     }
   }
 
-  return <form className="company-contact-form company-form" onSubmit={submit}>
-    <div className="company-field-row"><label>Name *<input name="name" autoComplete="name" placeholder="Your name" required maxLength={100} /></label><label>Email *<input name="email" type="email" autoComplete="email" placeholder="example@mail.com" required /></label></div>
-    <label>Company Name *<input name="company" autoComplete="organization" placeholder="Your company" required /></label>
-    <div className="company-field-row"><label>Select Service *<select name="service" defaultValue="" required><option value="" disabled>Select Your Service</option>{["AI Voice Agents", "Business Automation", "Lead Qualification", "Call Management", "Custom AI Solutions"].map(item => <option key={item}>{item}</option>)}</select></label><label>Project Budget (Optional)<select name="budget" defaultValue=""><option value="">Prefer not to share / TBD</option>{["Under $5,000", "$5,000 - $15,000", "$15,000 - $30,000", "$30,000 - $50,000", "$50,000+"].map(item => <option key={item}>{item}</option>)}</select></label></div>
-    <label>Project Details<textarea name="details" placeholder="Tell us more about your project" rows={5} /></label>
-    <button className="company-submit" type="submit" disabled={status === "submitting"}>{status === "submitting" ? "Sending enquiry..." : <>Send enquiry <ArrowRight size={17} /></>}</button><EmailDraftNotice status={status} error={error} /><div className="company-form-trust"><span><Lock size={14} />Direct submission</span><span><ShieldCheck size={14} />1-day response</span><span><Mail size={14} />No spam, ever</span></div>
+  if (status === "sent") {
+    return (
+      <div className="company-form-confirmation" role="status">
+        <CircleCheckBig size={28} aria-hidden="true" />
+        <h3>Enquiry received</h3>
+        <p>
+          Thank you — our engineering team has logged your {submittedService || "automation"} request and will respond within one business day.
+        </p>
+        <div className="company-confirmation-actions">
+          <Link href="/consultation" className="mf-button">
+            Book a {site.stats.consultationMinutes}-min strategy call <ArrowUpRight size={17} />
+          </Link>
+          <button type="button" className="company-secondary-btn" onClick={() => setStatus("idle")}>
+            Send another enquiry
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  return <form className="company-contact-form company-form" onSubmit={submit} onFocusCapture={markStarted}>
+    <div className="company-honeypot" aria-hidden="true">
+      <label htmlFor="contact_trap">Leave this blank<input id="contact_trap" name="contact_trap" tabIndex={-1} autoComplete="off" /></label>
+    </div>
+    <div className="company-field-row"><label>Full Name *<input name="name" autoComplete="name" placeholder="Your name" required maxLength={100} /></label><label>Work Email *<input name="email" type="email" autoComplete="email" placeholder="you@company.com" required /></label></div>
+    <div className="company-field-row">
+      <label>Select Service *<select name="service" value={selectedService} onChange={event => { setSelectedService(event.target.value); trackEvent("service_selected", { service: event.target.value, form_name: "contact" }); }} required><option value="" disabled>Select Your Service</option>{serviceOptions.map(item => <option key={item} value={item}>{item}</option>)}</select></label>
+      <label>Company Name (Optional)<input name="company" autoComplete="organization" placeholder="Your company" /></label>
+    </div>
+    <label>Project Details *<textarea name="details" placeholder="Tell us about the workflow, goal, or bottleneck you want automated" rows={5} required minLength={10} /></label>
+    <div className="company-optional-toggle">
+      <button type="button" aria-expanded={showOptional} onClick={() => setShowOptional(prev => !prev)}>
+        {showOptional ? "Hide optional scope details" : "Add optional company website, budget, or timeline"}
+      </button>
+    </div>
+    {showOptional && (
+      <>
+        <div className="company-field-row">
+          <label>Company Website (Optional)<input name="website" type="url" placeholder="https://company.com" /></label>
+          <label>Phone (Optional)<input name="phone" type="tel" autoComplete="tel" placeholder="+1 555 234 5678" /></label>
+        </div>
+        <div className="company-field-row">
+          <label>Project Budget (Optional)<select name="budget" defaultValue=""><option value="">Prefer not to share / TBD</option>{["Under $5,000", "$5,000 - $15,000", "$15,000 - $30,000", "$30,000 - $50,000", "$50,000+"].map(item => <option key={item}>{item}</option>)}</select></label>
+          <label>Target Timeline (Optional)<select name="timeline" defaultValue=""><option value="">Flexible / Exploring</option>{["Immediately (within 2 weeks)", "This month", "This quarter", "Future planning"].map(item => <option key={item}>{item}</option>)}</select></label>
+        </div>
+      </>
+    )}
+    <button className="company-submit" type="submit" disabled={status === "submitting"}>{status === "submitting" ? "Sending enquiry..." : <>Get Your Free Automation Roadmap <ArrowRight size={17} /></>}</button><EmailDraftNotice status={status} error={error} /><div className="company-form-trust"><span><Lock size={14} />Direct submission</span><span><ShieldCheck size={14} />1-day response</span><span><Mail size={14} />Separate from marketing lists</span></div>
   </form>;
 }
 
@@ -151,24 +256,77 @@ function CareerApplication() {
   const [languages, setLanguages] = useState(["EN"]);
   const [skills, setSkills] = useState<string[]>([]);
   const [error, setError] = useState("");
-  const [ready, setReady] = useState(false);
+  const [status, setStatus] = useState<"idle" | "submitting" | "sent" | "draft">("idle");
+  const loadedAtRef = useRef<number>(0);
+  useEffect(() => { loadedAtRef.current = Date.now(); }, []);
   function toggle(value: string, values: string[], update: (next: string[]) => void) { update(values.includes(value) ? values.filter(item => item !== value) : [...values, value]); setError(""); }
-  function submit(event: FormEvent<HTMLFormElement>) {
+  async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!languages.length || !skills.length) { setError("Please select at least one language and one skill."); return; }
-    const form = new FormData(event.currentTarget);
-    const body = `Hello ManasFlow,\n\nI'd like to join your team.\n\nFull name: ${form.get("fullName")}\nEmail: ${form.get("email")}\nPhone: ${form.get("phone") || "Not provided"}\nLinkedIn: ${form.get("linkedin")}\nGitHub: ${form.get("github")}\nDemo video: ${form.get("video")}\nLanguages: ${languages.join(", ")}\nSkills: ${skills.map(skill => skill === "Other" ? `Other: ${form.get("otherSkills")}` : skill).join(", ")}\n`;
-    openEmail(`ManasFlow application: ${form.get("fullName")}`, body);
-    setReady(true);
+    const formEl = event.currentTarget;
+    const form = new FormData(formEl);
+    const fullName = String(form.get("fullName") || "").trim();
+    const email = String(form.get("email") || "").trim();
+    const phone = String(form.get("phone") || "").trim();
+    const linkedin = String(form.get("linkedin") || "").trim();
+    const github = String(form.get("github") || "").trim();
+    const video = String(form.get("video") || "").trim();
+    const resolvedSkills = skills.map(skill => skill === "Other" ? `Other: ${form.get("otherSkills")}` : skill).join(", ");
+    const body = `Hello ManasFlow,\n\nI'd like to join your team.\n\nFull name: ${fullName}\nEmail: ${email}\nPhone: ${phone || "Not provided"}\nLinkedIn: ${linkedin}\nGitHub: ${github}\nDemo video: ${video}\nLanguages: ${languages.join(", ")}\nSkills: ${resolvedSkills}\n`;
+
+    setStatus("submitting");
+    setError("");
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          kind: "career",
+          name: fullName,
+          email,
+          phone,
+          linkedin,
+          github,
+          video,
+          languages: languages.join(", "),
+          skills: resolvedSkills,
+          contact_trap: String(form.get("contact_trap") || ""),
+          formLoadedAt: loadedAtRef.current,
+          attribution: getAttribution(),
+        }),
+      });
+      const resData = (await response.json().catch(() => ({}))) as { ok?: boolean; fallback?: string; error?: string };
+      if (response.ok && resData.ok) {
+        setStatus("sent");
+        formEl.reset();
+        return;
+      }
+      if (resData.fallback === "mailto") {
+        openEmail(`ManasFlow application: ${fullName}`, body);
+        setStatus("draft");
+        return;
+      }
+      setStatus("idle");
+      setError(resData.error || "Unable to submit right now. Please email info@manasflow.com.");
+    } catch {
+      openEmail(`ManasFlow application: ${fullName}`, body);
+      setStatus("draft");
+    }
   }
+  const notice = status === "sent"
+    ? "Application submitted directly to our hiring team. Thank you!"
+    : status === "draft"
+      ? "Direct submission is offline here, so your email app opened with a draft to info@manasflow.com."
+      : "Submitting sends your application directly to our engineering hiring team.";
   return <section id="apply" className="company-apply-section"><header><p className="company-eyebrow">Apply</p><h2>No CV. Show us what you’ve built.</h2><p>A short voice-narrated walkthrough of a real project gets you to the top of the pile.</p></header><form className="company-form company-careers-form" onSubmit={submit}>
+    <div className="company-honeypot" aria-hidden="true"><label htmlFor="career_trap">Leave blank<input id="career_trap" name="contact_trap" tabIndex={-1} autoComplete="off" /></label></div>
     <div className="company-field-row"><label>Full name *<input name="fullName" placeholder="Your full name" autoComplete="name" required maxLength={100} /></label><label>Email *<input name="email" type="email" placeholder="you@example.com" autoComplete="email" required /></label></div>
     <label>Phone<input name="phone" type="tel" placeholder="+1 234 567 8900" autoComplete="tel" /></label>
     <div className="company-field-row"><label>LinkedIn *<input name="linkedin" type="url" placeholder="https://linkedin.com/in/..." required /></label><label>GitHub *<input name="github" type="url" placeholder="https://github.com/..." required /></label></div>
     <label>Demo video *<input name="video" type="url" placeholder="https://loom.com/share/..." required /><span className="company-field-help">Loom, YouTube, any public link. An AI agent running in a real app wins.</span></label><p className="company-voice-note"><Mic size={17} />Voice narration required. Walk us through what you built and why. Silent recordings are skipped.</p>
     <fieldset className="company-chip-field"><legend>Languages *</legend><div>{["EN", "FR"].map(language => <button type="button" key={language} aria-pressed={languages.includes(language)} onClick={() => toggle(language, languages, setLanguages)} className={languages.includes(language) ? "selected" : ""}>{language}</button>)}</div></fieldset>
     <fieldset className="company-chip-field"><legend>Skills *</legend><p>Pick everything that applies.</p><div>{data.skills.map(skill => <button type="button" key={skill} aria-pressed={skills.includes(skill)} onClick={() => toggle(skill, skills, setSkills)} className={skills.includes(skill) ? "selected" : ""}>{skill}</button>)}</div>{skills.includes("Other") && <label className="company-other-skills"><span className="sr-only">Other skills</span><input name="otherSkills" placeholder="Tell us your other skills" required /></label>}</fieldset>
-    {error && <p className="company-form-error" role="alert">{error}</p>}<button className="company-submit" type="submit">Prepare application email <ArrowUpRight size={17} /></button><p className="company-email-notice" role="status" data-nosnippet="">{ready ? "Your email draft is ready. Review it and send it from your email app to info@manasflow.com." : "This prepares an email draft to info@manasflow.com. You review and send it from your email app."}</p>
+    {error && <p className="company-form-error" role="alert">{error}</p>}<button className="company-submit" type="submit" disabled={status === "submitting"}>{status === "submitting" ? "Submitting application..." : <>Submit application <ArrowUpRight size={17} /></>}</button><p className="company-email-notice" role="status" data-nosnippet="">{notice}</p>
   </form></section>;
 }
 

@@ -21,6 +21,7 @@ export const CAL_TRIGGER_ATTRIBUTES = {
 export function isBookingDestination(href: string | undefined, includeContact = false) {
   if (!href) return true;
   if (href === CAL_BOOKING_URL || ["#consultation", "#supp-booking"].includes(href)) return true;
+  if (/[?&](?:service|topic)=/i.test(href)) return false;
   const pathname = href.split(/[?#]/)[0].replace(/\/$/, "");
   return ["/consultation", "/book-a-call", ...(includeContact ? ["/contact"] : [])].includes(pathname);
 }

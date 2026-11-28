@@ -1,7 +1,7 @@
 "use client";
 
 import { ActionLink as Link } from "./booking-link";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ArrowLeft, ArrowRight, Calculator, CheckCircle2, ChevronDown, CircleHelp, Clock, LockKeyhole, Sparkles } from "lucide-react";
 import { getInteractiveTool } from "@/lib/interactive-tool-data";
 import { CALCULATOR_CONFIG } from "@/lib/calculator-config";
@@ -9,6 +9,7 @@ import { calculateROI, calculateTool } from "@/lib/tool-calculations";
 import type { CalculatorResult } from "@/lib/tool-calculations";
 import { ToolAssessment } from "./tool-assessments";
 import { trackEvent } from "@/lib/analytics";
+import { createSubmissionKey, getAttribution } from "@/lib/attribution";
 import { BudgetPlanner, JobDescriptionGenerator, UseCaseGenerator, WorkflowAudit } from "./tool-planning";
 import { BarRows, Metrics, money, NumberControl, ResetButton, ResultActions, SelectControl, TextControl, ToolCard, ToolSubmit } from "./tool-ui";
 import "./interactive-tools.css";
@@ -37,7 +38,20 @@ function ROICalculator() {
   const [leadEmail, setLeadEmail] = useState("");
   const [roadmapStatus, setRoadmapStatus] = useState<"idle" | "submitting" | "sent" | "draft" | "error">("idle");
   const [roadmapError, setRoadmapError] = useState("");
-  const change = (key: string, value: number) => setValues(previous => ({ ...previous, [key]: value }));
+  const startedRef = useRef(false);
+  const loadedAtRef = useRef<number>(0);
+  const keyRef = useRef<string>("");
+  useEffect(() => {
+    loadedAtRef.current = Date.now();
+    keyRef.current = createSubmissionKey("roi");
+  }, []);
+  const change = (key: string, value: number) => {
+    if (!startedRef.current) {
+      startedRef.current = true;
+      trackEvent("roi_calculator_started", { tool: "roi-calculator" });
+    }
+    setValues(previous => ({ ...previous, [key]: value }));
+  };
   const range = (key: "errorRate" | "automationCoverage" | "timeSavings" | "errorReduction", label: string) => <label className="it-field it-range" htmlFor={`roi-${key}`}><span>{label}<strong>{values[key]}%</strong></span><input id={`roi-${key}`} type="range" min="0" max="100" step="1" value={values[key]} onChange={event => change(key, Number(event.target.value))} /><div><small>0%</small><small>100%</small></div></label>;
   if (result) {
     const summaryText = `ManasFlow Automation ROI — ${name}\nAnnual gross savings: ${money(result.annualSavings)}\nMonthly net savings: ${money(result.monthlyNetSavings)}\nYear 1 ROI: ${Math.round(result.yearOneROI)}%\nBreak-even: ${result.breakEvenMonth === null ? "None at these inputs" : `${result.breakEvenMonth} months after savings start`}\nInitial investment: ${money(result.investment)}\n${result.projections.map(year => `Year ${year.year}: ${money(year.net)} net benefit`).join("\n")}`;
@@ -57,20 +71,29 @@ function ROICalculator() {
         const response = await fetch("/api/contact", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ kind: "roi-roadmap", email: cleanedEmail, processName: name || "Workflow ROI", summary: summaryText }),
+          body: JSON.stringify({
+            kind: "roi-roadmap",
+            email: cleanedEmail,
+            processName: name || "Workflow ROI",
+            summary: summaryText,
+            formLoadedAt: loadedAtRef.current,
+            idempotencyKey: keyRef.current,
+            attribution: getAttribution(),
+          }),
         });
         const data = (await response.json().catch(() => ({}))) as { ok?: boolean; fallback?: string; error?: string };
         if (response.ok && data.ok) {
-          trackEvent("roi_roadmap_request", { process: name || "Workflow ROI" });
+          trackEvent("generate_lead", { source: "roi_roadmap", process: name || "Workflow ROI" }, { eventId: keyRef.current });
+          keyRef.current = createSubmissionKey("roi");
           setRoadmapStatus("sent");
           setLeadEmail("");
           return;
         }
         if (data.fallback === "mailto") {
-          trackEvent("roi_roadmap_request", { process: name || "Workflow ROI", mode: "mailto" });
           openFallback();
           return;
         }
+        trackEvent("form_error", { form_name: "roi_roadmap", status: response.status });
         setRoadmapStatus("error");
         setRoadmapError(data.error || "Unable to submit your roadmap request. Please email info@manasflow.com.");
       } catch {
@@ -86,7 +109,7 @@ function ROICalculator() {
           : "";
     return <ToolCard title={`${name} — your automation ROI`}><Metrics metrics={[{ label: "Annual gross savings", value: result.annualSavings, format: "currency" }, { label: "Year 1 ROI", value: result.yearOneROI, format: "percent" }, { label: "Break-even", value: result.breakEvenMonth === null ? "No payback at these inputs" : `Month ${result.breakEvenMonth}` }, { label: "5-year net savings", value: result.fiveYearSavings, format: "currency" }, { label: "Efficiency gain", value: result.efficiencyGain, format: "percent" }, { label: "Monthly net savings", value: result.monthlyNetSavings, format: "currency" }]} /><h3>Five-year savings projection</h3><BarRows rows={result.projections.map(year => ({ label: `Year ${year.year} net benefit`, value: year.net }))} /><div className="it-recommendations"><div><span>Recommended next step</span><h3>{result.yearOneROI > 0 ? "Request your personalized automation roadmap" : "Review your assumptions with an engineer"}</h3><p>{result.yearOneROI > 0 ? "Turn these estimates into a scoped pilot plan. Enter your work email to send your workflow figures to our engineering team, or book a 30-minute audit call directly." : "Your first-year costs exceed projected savings. Compare a narrower pilot scope, lower operating costs, or a process with a higher time burden."}</p><form className="it-lead-form" onSubmit={submitRoadmap}><label className="sr-only" htmlFor="roi-lead-email">Work email address</label><input id="roi-lead-email" type="email" required value={leadEmail} onChange={event => { setLeadEmail(event.target.value); setRoadmapStatus("idle"); setRoadmapError(""); }} placeholder="you@company.com" /><button type="submit" className="it-primary" disabled={roadmapStatus === "submitting"}>{roadmapStatus === "submitting" ? "Sending..." : "Send roadmap request"}<ArrowRight size={15} /></button></form>{roadmapNote && <p className="it-note" role="status">{roadmapNote}</p>}<Link href="/consultation">Book a free 30-minute automation audit <ArrowRight size={14} /></Link></div></div><p className="it-note">Hours are the total across everyone involved, so people are not multiplied again. Recovered labor capacity is not necessarily realized cash savings; actual value depends on adoption and how recovered time is used. Break-even uses steady-state net savings and excludes setup delay. Five-year projections assume 3% annual savings growth and 10% annual tool-cost growth. These are planning assumptions, not promised results.</p><ResultActions text={summaryText} /><ResetButton onClick={() => { setResult(null); setStep(0); setRoadmapStatus("idle"); setRoadmapError(""); }} label="Recalculate" /></ToolCard>;
   }
-  return <ToolCard><ol className="it-stepper">{["Process Info", "Investment", "Impact"].map((label, index) => <li key={label} className={step === index ? "active" : step > index ? "completed" : ""}><span>{index + 1}</span><small>{label}</small></li>)}</ol><form onSubmit={event => { event.preventDefault(); if (step < 2) setStep(previous => previous + 1); else { const computed = calculateROI(values); trackEvent("roi_calculator_complete", { year_one_roi: Math.round(computed.yearOneROI) }); setResult(computed); } }}><h2>{["Process Information", "Automation Investment", "Expected Impact"][step]}</h2>{step === 0 && <><TextControl id="roi-process-name" label="Process name" value={name} onChange={setName} placeholder="e.g., Invoice processing, customer onboarding" required /><div className="it-fields">{roiFields[0].map(field => <NumberControl key={field.id} field={field} value={values[field.id as keyof typeof values]} onChange={value => change(field.id, value)} />)}</div><p className="it-inline-summary">Estimated monthly labor cost: <strong>{money(values.hoursPerWeek * values.hourlyRate * 4.33)}</strong></p>{range("errorRate", "Current error rate")}</>}{step === 1 && <><div className="it-fields">{roiFields[1].map(field => <NumberControl key={field.id} field={field} value={values[field.id as keyof typeof values]} onChange={value => change(field.id, value)} />)}</div>{range("automationCoverage", "Automation coverage")}</>}{step === 2 && <>{range("timeSavings", "Time saved within automated work")}{range("errorReduction", "Reduction in error costs")}<p className="it-note">Use conservative estimates. A pilot is the best way to measure what can be automated while preserving quality and human oversight.</p></>}<div className="it-step-actions"><button type="button" className="it-secondary" disabled={step === 0} onClick={() => setStep(previous => previous - 1)}><ArrowLeft size={15} />Back</button><ToolSubmit>{step < 2 ? "Next" : "Calculate ROI"}</ToolSubmit></div></form></ToolCard>;
+  return <ToolCard><ol className="it-stepper">{["Process Info", "Investment", "Impact"].map((label, index) => <li key={label} className={step === index ? "active" : step > index ? "completed" : ""}><span>{index + 1}</span><small>{label}</small></li>)}</ol><form onSubmit={event => { event.preventDefault(); if (step < 2) setStep(previous => previous + 1); else { const computed = calculateROI(values); trackEvent("roi_calculator_completed", { year_one_roi: Math.round(computed.yearOneROI) }); setResult(computed); } }}><h2>{["Process Information", "Automation Investment", "Expected Impact"][step]}</h2>{step === 0 && <><TextControl id="roi-process-name" label="Process name" value={name} onChange={setName} placeholder="e.g., Invoice processing, customer onboarding" required /><div className="it-fields">{roiFields[0].map(field => <NumberControl key={field.id} field={field} value={values[field.id as keyof typeof values]} onChange={value => change(field.id, value)} />)}</div><p className="it-inline-summary">Estimated monthly labor cost: <strong>{money(values.hoursPerWeek * values.hourlyRate * 4.33)}</strong></p>{range("errorRate", "Current error rate")}</>}{step === 1 && <><div className="it-fields">{roiFields[1].map(field => <NumberControl key={field.id} field={field} value={values[field.id as keyof typeof values]} onChange={value => change(field.id, value)} />)}</div>{range("automationCoverage", "Automation coverage")}</>}{step === 2 && <>{range("timeSavings", "Time saved within automated work")}{range("errorReduction", "Reduction in error costs")}<p className="it-note">Use conservative estimates. A pilot is the best way to measure what can be automated while preserving quality and human oversight.</p></>}<div className="it-step-actions"><button type="button" className="it-secondary" disabled={step === 0} onClick={() => setStep(previous => previous - 1)}><ArrowLeft size={15} />Back</button><ToolSubmit>{step < 2 ? "Next" : "Calculate ROI"}</ToolSubmit></div></form></ToolCard>;
 }
 
 const salaryRows = [
