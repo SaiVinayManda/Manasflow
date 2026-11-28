@@ -103,21 +103,21 @@
   line-height: 20px;
 }
 
-.mf-task-row > span:nth-child(2),
-.mf-research-category > span,
-.mf-research-input > span:nth-child(2) {
+.mf-task-row>span:nth-child(2),
+.mf-research-category>span,
+.mf-research-input>span:nth-child(2) {
   flex: 1;
 }
 
-.mf-task-row > svg:first-child,
-.mf-research-category > svg:first-child,
-.mf-research-input > svg {
+.mf-task-row>svg:first-child,
+.mf-research-category>svg:first-child,
+.mf-research-input>svg {
   color: var(--muted-foreground);
   flex-shrink: 0;
 }
 
-.mf-task-row > svg:last-child,
-.mf-research-category > svg:last-child {
+.mf-task-row>svg:last-child,
+.mf-research-category>svg:last-child {
   color: var(--primary-purple);
   flex-shrink: 0;
 }
@@ -187,10 +187,15 @@
   background: #ef4444cc;
 }
 
-.mf-editor-lights i:nth-child(2) { background: #eab308cc; }
-.mf-editor-lights i:nth-child(3) { background: #8082c1cc; }
+.mf-editor-lights i:nth-child(2) {
+  background: #eab308cc;
+}
 
-.mf-agent-toolbar > span:last-child {
+.mf-editor-lights i:nth-child(3) {
+  background: #8082c1cc;
+}
+
+.mf-agent-toolbar>span:last-child {
   display: flex;
   gap: 8px;
   align-items: center;
@@ -199,7 +204,9 @@
   color: var(--muted-foreground);
 }
 
-.mf-agent-toolbar svg { color: var(--primary-purple); }
+.mf-agent-toolbar svg {
+  color: var(--primary-purple);
+}
 
 .mf-agent-code {
   padding: 16px;
@@ -214,10 +221,10 @@
   margin-bottom: 2px;
 }
 
-.mf-code-line > span {
+.mf-code-line>span {
   flex-shrink: 0;
   width: 16px;
-  color: #a89db066;
+  color: var(--text-soft);
   text-align: right;
   font: 12px/20px monospace;
 }
@@ -256,7 +263,9 @@
   transition: background .3s;
 }
 
-.mf-research-category:hover { background: color-mix(in srgb, var(--muted, #1a1525) 60%, transparent); }
+.mf-research-category:hover {
+  background: color-mix(in srgb, var(--muted, #1a1525) 60%, transparent);
+}
 
 .mf-strategy-graphic {
   width: 100%;
@@ -280,13 +289,15 @@
   mask-image: linear-gradient(to right, transparent, #000 32px, #000 calc(100% - 32px), transparent);
 }
 
-.mf-tools-viewport::-webkit-scrollbar { display: none; }
+.mf-tools-viewport::-webkit-scrollbar {
+  display: none;
+}
 
 .mf-tools-track {
   display: flex;
   width: max-content;
   padding: 16px 0;
-  animation: mf-tool-scroll 40s linear infinite;
+  animation: mf-tool-scroll 20s linear infinite;
 }
 
 .mf-tools-viewport:hover .mf-tools-track,
@@ -343,38 +354,118 @@
   background: var(--muted, #1a1525);
 }
 
-.mf-tool-logo img { width: 16px; height: 16px; object-fit: contain; }
-.mf-tool-copy h3 { font-size: 18px; font-weight: 600; line-height: 28px; }
-.mf-tool-copy p { font-size: 14px; line-height: 20px; color: var(--muted-foreground); }
+.mf-tool-logo img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
 
-@keyframes mf-tool-scroll { to { transform: translateX(-50%); } }
+.mf-tool-copy h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.mf-tool-copy p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--muted-foreground);
+}
+
+@keyframes mf-tool-scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
 
 @media (min-width: 640px) {
-  .mf-capability-card { padding: 24px; }
-  .mf-tool-card { width: 384px; }
-  .mf-tools-viewport { mask-image: linear-gradient(to right, transparent, #000 80px, #000 calc(100% - 80px), transparent); }
+  .mf-capability-card {
+    padding: 24px;
+  }
+
+  .mf-tool-card {
+    width: 384px;
+  }
+
+  .mf-tools-viewport {
+    mask-image: linear-gradient(to right, transparent, #000 80px, #000 calc(100% - 80px), transparent);
+  }
 }
 
 @media (min-width: 768px) {
-  .mf-capability-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .mf-capability-strategy { grid-column: span 2; }
+  .mf-capability-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .mf-capability-strategy {
+    grid-column: span 2;
+  }
 }
 
 @media (min-width: 1024px) {
-  .mf-capability-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(2, minmax(400px, auto)); }
-  .mf-capability-workflows { grid-column: span 2; }
-  .mf-capability-strategy { grid-column: auto; }
-  .mf-workflow-mobile { display: none; }
-  .mf-workflow-desktop { display: block; position: relative; flex: 1; min-height: 280px; }
-  .mf-workflow-icon { position: absolute; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; transform: translate(-50%, -50%); border: 1px solid var(--border); background: #fffffff2; box-shadow: 0 10px 15px -3px #0003; transition: scale .3s, background .3s; }
-  .mf-workflow-icon:hover { scale: 1.1; background: #fff; }
-  .mf-workflow-icon img { width: 32px; height: 32px; object-fit: contain; filter: contrast(1.1) saturate(1.1); }
+  .mf-capability-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(400px, auto));
+  }
+
+  .mf-capability-workflows {
+    grid-column: span 2;
+  }
+
+  .mf-capability-strategy {
+    grid-column: auto;
+  }
+
+  .mf-workflow-mobile {
+    display: none;
+  }
+
+  .mf-workflow-desktop {
+    display: block;
+    position: relative;
+    flex: 1;
+    min-height: 280px;
+  }
+
+  .mf-workflow-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--border);
+    background: #fffffff2;
+    box-shadow: 0 10px 15px -3px #0003;
+    transition: scale .3s, background .3s;
+  }
+
+  .mf-workflow-icon:hover {
+    scale: 1.1;
+    background: #fff;
+  }
+
+  .mf-workflow-icon img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    filter: contrast(1.1) saturate(1.1);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .mf-tools-track { animation: none; }
-  .mf-tools-group[aria-hidden="true"] { display: none; }
+  .mf-tools-track {
+    animation: none;
+  }
+
+  .mf-tools-group[aria-hidden="true"] {
+    display: none;
+  }
+
   .mf-capability-card,
   .mf-tool-card,
-  .mf-workflow-icon { transition: none; }
+  .mf-workflow-icon {
+    transition: none;
+  }
 }

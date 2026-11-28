@@ -5,13 +5,16 @@ import type { ReactNode } from "react";
 import { ArrowDownRight } from "lucide-react";
 import { BookingLink } from "./booking-link";
 import { isBookingDestination } from "@/lib/booking";
+import imageDimensions from "@/data/manasflow/image-dimensions.json";
 
 export const asset = (name: string) => `/sites/manasflow/${name}`;
+const dimensions: Record<string, readonly number[]> = imageDimensions;
 
 export function SiteImage({ name, alt = "", className = "" }: { name: string; alt?: string; className?: string }) {
+  const size = dimensions[name];
   // Source diagrams retain their native dimensions and crops.
   // eslint-disable-next-line @next/next/no-img-element
-  return <img src={asset(name)} alt={alt} className={className} loading="lazy" />;
+  return <img src={asset(name)} alt={alt} className={className} width={size?.[0]} height={size?.[1]} loading="lazy" />;
 }
 
 export function Reveal({ children, className = "" }: { children: ReactNode; className?: string }) {

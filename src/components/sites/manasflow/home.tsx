@@ -8,18 +8,8 @@ import { asset, Badge, CallButton, CallStrip, Reveal, SectionHeading, SiteImage 
 import { Capabilities, Tools } from "./capabilities";
 import { LowerSections } from "./lower-sections";
 import { Newsletter } from "./chrome";
+import { ViewportVideo } from "./viewport-video";
 import "./home.css";
-
-const partners = [
-  ["ronin-global.webp", "Ronin Global", false], ["fleetforward-logo.webp", "FleetForward", false],
-  ["untaylored.webp", "Untaylored", false], ["neoday.webp", "neoday", true],
-  ["hello-customer.webp", "HelloCustomer", true], ["ambry-hill.svg", "AmbryHill", true],
-  ["thinkone.webp", "ThinkOne", false], ["addictest.svg", "addictest", true],
-  ["shems-pub.webp", "Shem’s Pub", false], ["wearview.webp", "Wearview", true],
-  ["emprende-logo.webp", "Emprende.cl", false], ["kateb.webp", "Kateb", false],
-  ["easyclickweb.svg", "EasyClic", false], ["dentakay-logo.svg", "Dentakay", true],
-  ["humanoidz.webp", "Humanoidz", true], ["earl-logo.avif", "earleads.com", true],
-] as const;
 
 function Hero() {
   return <>
@@ -57,8 +47,6 @@ function Partners() {
   return <section className="mf-section partners-section">
     <div className="mf-container">
       <SectionHeading badge="Trusted Partners" title={<>You’re in <span className="accent">Good Company</span></>} description="Powering AI automation for fast-growing US and European enterprises." />
-      <div className="partner-grid">{partners.map(([name, label, invert]) => <Reveal key={name}><div className="partner-card"><SiteImage name={name} alt={`${label} logo`} className={invert ? "invert-logo" : ""} /></div></Reveal>)}</div>
-      <Reveal className="government-partners"><h3>Trusted by Governments Worldwide</h3><div><SiteImage name="DGA-Logo.svg" alt="Saudi DGA" /><SiteImage name="maroc-gov.svg" alt="Maroc Government" /></div></Reveal>
       <Reveal className="partner-stats"><div><strong>+30</strong><span>Companies Served</span></div><i /><div><strong>200+</strong><span>Integrations Deployed</span></div></Reveal>
     </div>
   </section>;
@@ -83,9 +71,9 @@ function AutomationSpotlight() {
         let offset = (index - active + spotlights.length) % spotlights.length;
         if (offset > 2) offset -= spotlights.length;
         const Icon = item.icon;
-        return <button key={item.title} className={`spotlight-card ${offset === 0 ? "active" : ""}`} style={{ "--offset": offset, "--distance": Math.abs(offset), zIndex: 10 - Math.abs(offset) } as CSSProperties} onClick={() => select(index)} aria-label={`Explore ${item.title}`} aria-pressed={active === index}>
+        return <button key={item.title} className={`spotlight-card ${offset === 0 ? "active" : ""}`} style={{ "--offset": offset, "--distance": Math.abs(offset), zIndex: 10 - Math.abs(offset) } as CSSProperties} onClick={() => select(index)} aria-pressed={active === index}>
           <span className="spotlight-index">MANASFLOW / 0{index + 1}</span>
-          <span className="spotlight-visual"><SiteImage name={item.image} alt={item.title} /></span>
+          <span className="spotlight-visual"><SiteImage name={item.image} alt="" /></span>
           <span className="spotlight-icon"><Icon size={24} /></span>
           <span className="spotlight-title">{item.title}</span><span className="spotlight-subtitle">{item.subtitle}</span>
         </button>;
@@ -127,7 +115,7 @@ function ScrollStory() {
     <p className="micro-label">Across 45+ companies shipped · Enterprise to solo operators</p>
     <h3>The new moat is <span className="accent">speed of execution</span>.</h3>
     <div className="story-label"><span>{stories[active][0]}</span><span>· 0{active + 1} / 05</span></div>
-    <p className="story-sentence" aria-label={stories[active][1]}>{words.map((word, index) => <span key={`${active}-${index}`} aria-hidden="true" style={{ opacity: index / words.length <= wordProgress ? 1 : .18 }}>{word} </span>)}</p>
+    <p className="story-sentence"><span className="mf-sr-only">{stories[active][1]}</span>{words.map((word, index) => <span key={`${active}-${index}`} aria-hidden="true" style={{ opacity: index / words.length <= wordProgress ? 1 : .45 }}>{word} </span>)}</p>
     <div className="story-progress" aria-hidden="true">{stories.map((_,index) => <span key={index}><i style={{ width: `${Math.max(0, Math.min(1, progress * 5 - index)) * 100}%` }} /></span>)}</div>
   </div></div>;
 }
@@ -147,7 +135,7 @@ function BuiltToShip() {
       ["agents", "cursor-agent.webm", "Claude Code agents shipping product features"],
       ["n8n", "n8n-hero.webm", "n8n revenue automation running 24/7"],
       ["make", "make-hero.webm", "Make orchestrations across your stack"],
-    ].map(([label, video, title]) => <Reveal key={label}><article className="demo-window"><div className="window-toolbar" data-nosnippet=""><i /><i /><i /><span>manasflow.dev/{label}</span><small data-nosnippet=""><b />Live</small></div><video src={asset(video)} autoPlay muted loop playsInline preload="none" aria-label={title} /><p>{title}</p></article></Reveal>)}</div>
+    ].map(([label, video, title]) => <Reveal key={label}><article className="demo-window"><div className="window-toolbar" data-nosnippet=""><i /><i /><i /><span>manasflow.dev/{label}</span><small data-nosnippet=""><b />Live</small></div><ViewportVideo src={asset(video)} label={title} /><p>{title}</p></article></Reveal>)}</div>
     <ScrollStory />
     <div className="stack-section" id="tech-stack"><Reveal><p className="micro-label">Inside the stack · 15 tools, zero glue code</p><h3>Every tool your engineer arrives with, and <span className="accent">who pays for what</span>.</h3><p className="stack-description">No surprise SaaS bills. Half the <Link href="/ai-tools">stack</Link> is open source, the other half plugs into accounts you already have. The agent runtime is on us.</p></Reveal>
       <div className="stack-rows">{stack.map((group) => <Reveal className="stack-row" key={group.title}><div><p className="micro-label">Category</p><h4>{group.title}</h4><span className="stack-tag">{group.tag}</span></div><div className="stack-cards">{group.tools.map(([title,image,description]) => <div className="stack-card" key={title}><div><SiteImage name={image} alt="" /><h5>{title}</h5></div><p>{description}</p></div>)}</div></Reveal>)}</div>

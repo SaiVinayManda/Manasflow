@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import { Header, Footer } from "@/components/sites/manasflow/chrome";
 import { site } from "@/lib/site";
-import { CalProvider } from "@/components/sites/manasflow/cal-provider";
 import { HubNavigation } from "@/components/seo/hub-navigation";
 import { FloatingWhatsApp } from "@/components/sites/manasflow/whatsapp-contact";
 import "./globals.css";
@@ -48,14 +47,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="en" className={`dark ${lexend.variable}`}>
-    <head>
-      <link rel="preconnect" href="https://cal.com" crossOrigin="anonymous" />
-      <link rel="dns-prefetch" href="https://cal.com" />
-      <link rel="preconnect" href="https://app.cal.com" crossOrigin="anonymous" />
-      <link rel="dns-prefetch" href="https://app.cal.com" />
-    </head>
     <body>
-      <CalProvider />
       <a href="#main" className="skip-link" data-nosnippet=""><span data-nosnippet="">Skip to content</span></a>
       <Header navigation={<HubNavigation placement="header" />} />
       <main id="main">{children}</main>

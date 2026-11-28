@@ -8,7 +8,7 @@ export function WhatsAppIcon() {
 }
 
 export function WhatsAppLink({ children = "Chat on WhatsApp", className = "", iconOnly = false }: { children?: ReactNode; className?: string; iconOnly?: boolean }) {
-  return <a className={`mf-whatsapp-link ${className}`} href={WHATSAPP_CHAT_URL} target="_blank" rel="noopener noreferrer" aria-label={WHATSAPP_LABEL}>
+  return <a className={`mf-whatsapp-link ${className}`} href={WHATSAPP_CHAT_URL} target="_blank" rel="noopener noreferrer" {...(iconOnly ? { "aria-label": WHATSAPP_LABEL } : {})}>
     <WhatsAppIcon />{!iconOnly && <span>{children}</span>}
   </a>;
 }

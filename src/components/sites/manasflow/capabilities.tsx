@@ -129,11 +129,11 @@ const tools = [
 export function Tools() {
   return <section id="our-services" className="mf-section mf-tools">
     <div className="mf-container">
-      <SectionHeading badge="Certified Experts" title={<>Powerful Tools, <span className="accent">Expert Implementation</span></>} description={<>We&apos;re certified experts in the world&apos;s most powerful automation platforms, delivering custom solutions that integrate seamlessly with your existing tech stack. See how we work as an <Link href="/services">AI automation agency</Link>.</>} />
+      <SectionHeading badge="Certified Experts" title={<>Powerful Tools, <span className="accent">Expert Implementation</span></>} description={<>We&apos;re certified experts in the world&apos;s most powerful automation platforms, delivering custom solutions that integrate seamlessly with your existing tech stack. See our <Link href="/services">AI automation services</Link> in action.</>} />
       <Reveal>
         <div className="mf-tools-viewport" tabIndex={0} role="region" aria-label="Automation platforms; hover or focus to pause">
           <div className="mf-tools-track">
-            {[0, 1, 2, 3].map((copy) => <div className="mf-tools-group" key={copy} aria-hidden={copy > 0 ? true : undefined} data-nosnippet={copy > 0 ? "" : undefined}>
+            {[0, 1].map((copy) => <div className="mf-tools-group" key={copy} aria-hidden={copy > 0 ? true : undefined} data-nosnippet={copy > 0 ? "" : undefined} inert={copy > 0 ? true : undefined}>
               {tools.map((tool) => <article className="mf-tool-card" key={tool.name}>
                 <SiteImage name={tool.image} alt={`${tool.name} screenshot`} className="mf-tool-screenshot" />
                 <div className="mf-tool-copy"><span className="mf-tool-logo"><SiteImage name={tool.logo} /></span><div><h3>{tool.name}</h3><p>{tool.description}</p></div></div>

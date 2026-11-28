@@ -12,8 +12,11 @@ import { ContactActions } from "./whatsapp-contact";
 type AnchorProps = ComponentPropsWithoutRef<"a">;
 let cancelPendingBooking: (() => void) | undefined;
 
-export function BookingLink({ children, onClick, withWhatsApp = false, ...props }: Omit<AnchorProps, "href"> & { withWhatsApp?: boolean }) {
-  const link = <a {...props} {...CAL_TRIGGER_ATTRIBUTES} href={CAL_BOOKING_URL} onClick={event => {
+export function BookingLink({ children, onClick, onMouseEnter, withWhatsApp = false, ...props }: Omit<AnchorProps, "href"> & { withWhatsApp?: boolean }) {
+  const link = <a {...props} {...CAL_TRIGGER_ATTRIBUTES} href={CAL_BOOKING_URL} onMouseEnter={event => {
+    onMouseEnter?.(event);
+    void initializeCal().catch(() => undefined);
+  }} onClick={event => {
     onClick?.(event);
     if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || (props.target && props.target !== "_self")) return;
     event.preventDefault();

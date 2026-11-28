@@ -42,10 +42,12 @@ function MegaMenu({ type, close, mobile = false }: { type: "services" | "resourc
         {groups.map((group) => <div key={group.title}>
           <p className="mf-menu-label">{group.title}</p>
           <div className="mf-menu-links">
-            {group.links.map((link) => { const Icon = menuIcons[group.title] || Sparkles; return <Link key={link.label} href={link.href} onClick={close}>
-              <span className="mf-menu-icon"><Icon size={16} /></span>
-              <span><strong>{link.label}</strong><small>{link.detail}</small></span>
-            </Link>; })}
+            {group.links.map((link) => {
+              const Icon = menuIcons[group.title] || Sparkles; return <Link key={link.label} href={link.href} onClick={close}>
+                <span className="mf-menu-icon"><Icon size={16} /></span>
+                <span><strong>{link.label}</strong><small>{link.detail}</small></span>
+              </Link>;
+            })}
           </div>
         </div>)}
       </div>
@@ -58,7 +60,7 @@ function MegaMenu({ type, close, mobile = false }: { type: "services" | "resourc
           <p>Featured</p>
           <h3>{services ? "AI-Native Engineers" : "30 Days of Claude Code"}</h3>
           <span>{services ? "Embed senior AI-Native engineers directly into your team. Ship faster without the hiring overhead." : "A free daily challenge to level up your AI development skills, one project at a time."}</span>
-          <Link href={services ? "/engineer-placement" : `/resources/claude-code-challenge`} onClick={close}>{services ? "Learn more" : "Start the challenge"}<ArrowUpRight size={13} /></Link>
+          <Link href={services ? "/engineer-placement" : `/resources/claude-code-challenge`} onClick={close}>{services ? "Explore engineer placement" : "Start the challenge"}<ArrowUpRight size={13} /></Link>
         </div>
       </div>
     </div>
@@ -119,7 +121,7 @@ export function Newsletter({ compact = false, formOnly = false, headingLevel = 3
   return <div className={`mf-newsletter ${compact ? "mf-newsletter-compact" : ""}`}>
     {!compact && !formOnly && <p className="mf-news-kicker">Free weekly brief</p>}
     {!formOnly && <><Heading className="mf-newsletter-title">{compact ? "Stay tuned" : "Steal our production automations"}</Heading>
-    <p>{compact ? "Get the latest automation insights, playbooks, and case studies delivered to your inbox. No spam, ever." : "The exact n8n flows, Claude Code setups, and prompts we ship for clients, broken down step by step. No spam, unsubscribe anytime."}</p></>}
+      <p>{compact ? "Get the latest automation insights, playbooks, and case studies delivered to your inbox. No spam, ever." : "The exact n8n flows, Claude Code setups, and prompts we ship for clients, broken down step by step. No spam, unsubscribe anytime."}</p></>}
     <form onSubmit={submit}>
       <div className="mf-news-input">
         <label className="mf-sr-only" htmlFor={emailId}>Email address</label>
@@ -197,7 +199,7 @@ export function Footer({ navigation }: { navigation?: ReactNode }) {
           <Link className="mf-company-contact" href="/consultation"><span><Workflow size={25} /></span><div><strong>ManasFlow</strong><small>AI &amp; Automation</small></div><ArrowUpRight size={16} /></Link>
           <Link className="mf-company-contact" href="/contact"><span><Network size={25} /></span><div><strong>Let’s build together</strong><small>One connected platform</small></div></Link>
           <Link className="mf-footer-email" href="mailto:info@manasflow.com"><Mail size={17} />info@manasflow.com</Link>
-          <WhatsAppLink className="mf-footer-whatsapp">{WHATSAPP_DISPLAY_PHONE}</WhatsAppLink>
+          <WhatsAppLink className="mf-footer-whatsapp"><span className="mf-sr-only">WhatsApp </span>{WHATSAPP_DISPLAY_PHONE}</WhatsAppLink>
         </FooterColumn>
       </div>
     </nav>
