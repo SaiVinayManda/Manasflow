@@ -58,7 +58,7 @@ function MegaMenu({ type, close, mobile = false }: { type: "services" | "resourc
         </Link>
         <div className="mf-feature-copy">
           <p>Featured</p>
-          <h3>{services ? "AI-Native Engineers" : "30 Days of Claude Code"}</h3>
+          <h3>{services ? "AI-Native Engineers" : "52-Day Claude Code Challenge"}</h3>
           <span>{services ? "Embed senior AI-Native engineers directly into your team. Ship faster without the hiring overhead." : "A free daily challenge to level up your AI development skills, one project at a time."}</span>
           <Link href={services ? "/engineer-placement" : `/resources/claude-code-challenge`} onClick={close}>{services ? "Explore engineer placement" : "Start the challenge"}<ArrowUpRight size={13} /></Link>
         </div>
@@ -191,7 +191,7 @@ export function Footer({ navigation }: { navigation?: ReactNode }) {
         <FooterColumn title="Resources" links={resourceLinks} />
         <FooterColumn title="Stay Updated" className="mf-newsletter-cell"><div id="newsletter-footer"><Newsletter compact /></div></FooterColumn>
         <FooterColumn title="Featured" className="mf-featured-cell">
-          <Link href={`/resources/claude-code-challenge`}><SiteImage name="claude.png" /><span><strong>30 Days of Claude Code</strong><small>Daily challenges + agents</small></span></Link>
+          <Link href={`/resources/claude-code-challenge`}><SiteImage name="claude.png" /><span><strong>52-Day Claude Code Challenge</strong><small>Daily challenges + agents</small></span></Link>
           <Link href={`/resources/ai-automation-playbook`}><SiteImage name="n8n.png" /><span><strong>AI Automation Playbook</strong><small>Free guide · 1,000+ hours saved</small></span></Link>
           <Link href="/golden-offer"><Rocket size={32} /><span><strong>Build with ManasFlow</strong><small>Scale your company without hiring more staff</small></span></Link>
         </FooterColumn>

@@ -62,11 +62,11 @@ function linkText(children: ReactNode): string {
   return "";
 }
 
-export function ActionLink({ href, children, withWhatsApp, ...props }: AnchorProps & { href: string; withWhatsApp?: boolean }) {
+export function ActionLink({ href, children, withWhatsApp, prefetch = false, ...props }: AnchorProps & { href: string; withWhatsApp?: boolean; prefetch?: boolean }) {
   const bookingLabel = /\b(book|schedule|consultation|strategy (?:call|session)|free call|talk to (?:an?|our|the)|discuss|plan a workshop|consult our|get started|build with)\b/i.test(linkText(children));
   const primaryCta = /(?:^|\s)(?:mf-button|it-primary|lower-outline-button|mf-deploy-call|mf-industry-hero-link)(?:\s|$)/.test(props.className || "");
   if (isBookingDestination(href, bookingLabel)) return <BookingLink {...props} withWhatsApp={withWhatsApp ?? primaryCta}>{children}</BookingLink>;
-  return <NextLink {...props} href={href}>{children}</NextLink>;
+  return <NextLink prefetch={prefetch} {...props} href={href}>{children}</NextLink>;
 }
 
 export function BookingCard({ id }: { id: string }) {

@@ -243,7 +243,7 @@
     },
     {
       "title": "RAG Pipeline Architecture",
-      "description": "An AI is only as good as the data it can access. We engineer high-performance RAG pipelines that connect your LLMs to your private corporate knowledge with surgical precision and zero hallucinations.",
+      "description": "An AI is only as good as the data it can access. We engineer high-performance RAG pipelines that connect your LLMs to your private corporate knowledge with grounded citations and hallucination guardrails.",
       "features": [
         "Custom RAG Architecture",
         "Vector Search Development",
@@ -312,7 +312,7 @@
     {
       "metric": "Workflow Consistency",
       "manual": "Subject to Human Error",
-      "ai": "100% Logic-Driven Accuracy"
+      "ai": "Deterministic Validation & Audit Trails"
     },
     {
       "metric": "Operating Costs",
@@ -332,7 +332,7 @@
     },
     {
       "title": "Ethical AI & Bias Mitigation",
-      "description": "Strategic oversight ensuring outputs align with corporate values and are free from harmful hallucinations."
+      "description": "Strategic oversight ensuring outputs align with corporate values and are evaluated for accuracy, safety, and policy alignment."
     },
     {
       "title": "Multilingual Optimization",

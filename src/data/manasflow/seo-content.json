@@ -16582,12 +16582,12 @@
     "seoDescription": "5 steps. 10 minutes. No excuses. Lock down your Claude Code setup before shipping anything to production. Find related resources on ManasFlow."
   },
   "/resources/claude-code-challenge": {
-    "title": "30 Days of Claude Code",
+    "title": "52-Day Claude Code Challenge",
     "description": "One file. Every session starts knowing who you are, what you're building, and how you work.",
     "source": "src/data/manasflow/details/L3Jlc291cmNlcy9jbGF1ZGUtY29kZS1jaGFsbGVuZ2U.json",
     "modified": "2026-10-28T22:40:55+01:00",
     "firstRecorded": "2026-10-28T22:40:55+01:00",
-    "seoTitle": "30 Days of Claude Code",
+    "seoTitle": "52-Day Claude Code Challenge",
     "seoDescription": "One file. Every session starts knowing who you are, what you're building, and how you work. Explore this resource and related guidance on ManasFlow."
   },
   "/resources/customer-support-workflow": {
@@ -24130,13 +24130,13 @@
     "seoDescription": "Find practical automation patterns for sales, support, operations, and developer workflows. Explore setup guides and implementation options with ManasFlow."
   },
   "/": {
-    "title": "AI Transformation & Automation",
-    "description": "ManasFlow builds AI automations, agents, and SaaS. Explore our platform, frameworks, and free AI tools to streamline workflows and grow your business.",
+    "title": "AI Automation Agency & AI Agent Development",
+    "description": "Automate business workflows, reduce operational costs and scale with custom AI agents and dedicated AI engineers. Book a free automation strategy call.",
     "source": "src/app/page.tsx",
     "modified": "2026-11-20T02:01:55+01:00",
     "firstRecorded": "2026-03-24T15:26:49-05:00",
-    "seoTitle": "AI Transformation & Automation",
-    "seoDescription": "ManasFlow builds AI automations, agents, and SaaS. Explore our platform, frameworks, and free AI tools to streamline workflows and grow your business."
+    "seoTitle": "AI Automation Agency & AI Agent Development",
+    "seoDescription": "Automate business workflows, reduce operational costs and scale with custom AI agents and dedicated AI engineers. Book a free automation strategy call."
   },
   "/services": {
     "title": "AI Automation & SaaS Services",

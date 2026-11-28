@@ -122,7 +122,7 @@ export function Capabilities() {
 const tools = [
   { name: "N8n Automation", description: "No-code workflow builder that seamlessly connects 400+ apps, unlocking unlimited automation possibilities for your business", image: "tool-n8n.webp", logo: "n8n-color.webp" },
   { name: "Make Integration", description: "Enterprise-grade automation platform connecting 6,000+ apps with zero coding required, perfect for scaling operations", image: "tool-make.webp", logo: "service-make.webp" },
-  { name: "Cursor IDE", description: "AI-powered development platform that writes, debugs, and optimizes code up to 10x faster than traditional methods", image: "tool-cursor.webp", logo: "cursor-logo.webp" },
+  { name: "Cursor IDE", description: "AI-powered development platform that writes, debugs, and refactors code faster using full-repository context", image: "tool-cursor.webp", logo: "cursor-logo.webp" },
   { name: "Claude Code", description: "Anthropic's agentic coding tool that reads your codebase, edits files, runs commands, and ships features end-to-end", image: "tool-claude-code.webp", logo: "tool-claude-code.webp" },
 ];
 

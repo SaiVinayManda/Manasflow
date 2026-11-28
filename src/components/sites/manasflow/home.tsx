@@ -21,22 +21,37 @@ function Hero() {
       <div className="hero-focus" aria-hidden="true" />
       <div className="mf-container hero-center">
         <div className="hero-text">
-          <h1><span>Scale Your Business</span><strong>10X</strong><small>without hiring more staff
+          <h1><span>AI Automation That</span><strong>Scales Your Business</strong><small>without increasing headcount
             <svg viewBox="0 0 300 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2,7 Q50,3 75,6 T150,7 Q200,10 250,5 T298,7" /></svg>
           </small></h1>
-          <p className="hero-description">We embed a forward deployed engineer inside your team who learns how the work actually happens, then builds the AI systems that take the repetitive tasks off your plate. The leverage of a senior hire, without the headcount.</p>
+          <p className="hero-description">We embed a forward deployed engineer inside your team who learns how the work actually happens, then builds custom AI agents and workflow automations that take repetitive tasks off your plate.</p>
           <div className="hero-actions"><CallButton>Book a Free Strategy Call</CallButton><CallButton href="/services" secondary>Explore Solutions</CallButton></div>
           <p className="hero-commitment">Free · 30 minutes · No commitment</p>
-          <Link href="/blog" className="hero-newsletter">Not ready to talk? Read the weekly automation brief →</Link>
+          <div className="hero-secondary-links">
+            <Link href="/roi-calculator" className="hero-newsletter">Estimate your automation ROI →</Link>
+            <span aria-hidden="true">·</span>
+            <Link href="/blog" className="hero-newsletter">Read the weekly automation brief →</Link>
+          </div>
         </div>
       </div>
     </section>
     <CallStrip />
     <div className="mf-container start-here">
+      <p className="micro-label">What would you like to automate?</p>
+      <div className="automate-intent-grid">
+        <Link href="/workflows/signal-based-outbound"><strong>Sales &amp; Outbound</strong><p>Lead qualification, CRM enrichment, and signal-based outreach.</p><ArrowUpRight size={16} /></Link>
+        <Link href="/workflow-automation"><strong>Operations &amp; Workflows</strong><p>Connect CRM, Slack, billing, and internal ops 24/7.</p><ArrowUpRight size={16} /></Link>
+        <Link href="/ai-chatbot-development-agency"><strong>Customer Support</strong><p>Grounded support agents with ticket triage and human escalation.</p><ArrowUpRight size={16} /></Link>
+        <Link href="/blog/invoice-automation-ai"><strong>Finance &amp; Documents</strong><p>Invoice extraction, matching, and approval workflows.</p><ArrowUpRight size={16} /></Link>
+        <Link href="/saas-mvp-development"><strong>Engineering &amp; SaaS</strong><p>Production web apps, AI features, and embedded engineers.</p><ArrowUpRight size={16} /></Link>
+        <Link href="/roi-calculator"><strong>ROI &amp; Business Case</strong><p>Estimate hours recovered, payback period, and Year 1 ROI.</p><ArrowUpRight size={16} /></Link>
+      </div>
+    </div>
+    <div className="mf-container start-here">
       <p className="micro-label">Start here</p>
       <div className="start-grid">
         <Link href="/resources/claude-code-challenge"><strong>52-Day Claude Code Challenge</strong><p>Free: setup, hooks, MCPs, agent swarms. 52 days of real builds.</p><ArrowUpRight size={16} /></Link>
-        <Link href="/services"><strong>Automation in Action</strong><p>Connected workflows, intelligent agents, and the systems behind them.</p><ArrowUpRight size={16} /></Link>
+        <Link href="/case-studies"><strong>Client Case Studies</strong><p>45+ production systems shipped across operations, support, and SaaS.</p><ArrowUpRight size={16} /></Link>
         <Link href="/blog"><strong>Blog and Guides</strong><p>AI agents, models, tools, and automation tactics.</p><ArrowUpRight size={16} /></Link>
       </div>
     </div>
@@ -47,7 +62,8 @@ function Partners() {
   return <section className="mf-section partners-section">
     <div className="mf-container">
       <SectionHeading badge="Trusted Partners" title={<>You’re in <span className="accent">Good Company</span></>} description="Powering AI automation for fast-growing US and European enterprises." />
-      <Reveal className="partner-stats"><div><strong>+30</strong><span>Companies Served</span></div><i /><div><strong>200+</strong><span>Integrations Deployed</span></div></Reveal>
+      <Reveal className="partner-stats"><div><strong>45+</strong><span>Companies Shipped</span></div><i /><div><strong>200+</strong><span>Integrations Deployed</span></div></Reveal>
+      <div className="partner-proof"><Link href="/case-studies">Explore client case studies and shipped workflows <ArrowUpRight size={16} /></Link></div>
     </div>
   </section>;
 }

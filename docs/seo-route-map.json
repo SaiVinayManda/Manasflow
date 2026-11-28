@@ -3,8 +3,8 @@
     "route": "/",
     "canonical": "/",
     "indexable": true,
-    "title": "AI Transformation & Automation",
-    "description": "ManasFlow builds AI automations, agents, and SaaS. Explore our platform, frameworks, and free AI tools to streamline workflows and grow your business.",
+    "title": "AI Automation Agency & AI Agent Development",
+    "description": "Automate business workflows, reduce operational costs and scale with custom AI agents and dedicated AI engineers. Book a free automation strategy call.",
     "breadcrumbs": [],
     "source": "src/app/page.tsx",
     "lastModified": "2026-11-20T02:01:55+01:00",
@@ -38206,7 +38206,7 @@
     "route": "/resources/claude-code-challenge",
     "canonical": "/resources/claude-code-challenge",
     "indexable": true,
-    "title": "30 Days of Claude Code",
+    "title": "52-Day Claude Code Challenge",
     "description": "One file. Every session starts knowing who you are, what you're building, and how you work. Explore this resource and related guidance on ManasFlow.",
     "breadcrumbs": [
       {
@@ -38218,7 +38218,7 @@
         "route": "/playbooks"
       },
       {
-        "name": "30 Days of Claude Code",
+        "name": "52-Day Claude Code Challenge",
         "route": "/resources/claude-code-challenge"
       }
     ],
